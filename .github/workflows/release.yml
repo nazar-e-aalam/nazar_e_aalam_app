@@ -22,7 +22,6 @@ permissions:
 
 env:
   FLUTTER_VERSION: '3.50.0'
-  APP_DIR: 'application'
 
 jobs:
   bump-version:
@@ -46,13 +45,13 @@ jobs:
         id: bump
         run: bash .github/scripts/bump_version.sh
         env:
-          PUBSPEC_PATH: ${{ env.APP_DIR }}/pubspec.yaml
+          PUBSPEC_PATH: pubspec.yaml
 
       - name: Commit and push version bump
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "${{ env.APP_DIR }}/pubspec.yaml"
+          git add "pubspec.yaml"
           if git diff --cached --quiet; then
             echo "No version change to commit."
             exit 0
@@ -136,9 +135,6 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           ref: ${{ github.ref_name }}
-          sparse-checkout: |
-            ${{ env.APP_DIR }}
-          sparse-checkout-cone-mode: true
           lfs: false
           fetch-depth: 1
 
@@ -150,7 +146,7 @@ jobs:
           NEW_VERSION="${{ needs.bump-version.outputs.new_version }}"
 
           if [ -z "$VERSION_NAME" ] || [ -z "$BUILD_NUMBER" ]; then
-            PUBSPEC="${{ env.APP_DIR }}/pubspec.yaml"
+            PUBSPEC="pubspec.yaml"
             if [ ! -f "$PUBSPEC" ]; then
               echo "::error::pubspec.yaml not found at $PUBSPEC"
               exit 1

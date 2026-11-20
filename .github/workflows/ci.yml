@@ -8,14 +8,13 @@ on:
 
 env:
   FLUTTER_VERSION: '3.50.0'
-  APP_DIR: 'application'
 
 jobs:
   test:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ${{ env.APP_DIR }}
+    # defaults:
+    #   run:
+    #     working-directory: current
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:

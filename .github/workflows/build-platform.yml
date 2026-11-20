@@ -33,15 +33,15 @@ on:
 
 env:
   FLUTTER_VERSION: '3.50.0'
-  APP_DIR: 'application'
+  # APP_DIR: 'application'
   APP_NAME: 'nazar-e-aalam'
 
 jobs:
   build:
     runs-on: ${{ inputs.os }}
-    defaults:
-      run:
-        working-directory: ${{ env.APP_DIR }}
+    # defaults:
+    #   run:
+    #     working-directory: ${{ env.APP_DIR }}
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -131,7 +131,8 @@ jobs:
 
       - name: Install CocoaPods deps
         if: inputs.target == 'ios'
-        working-directory: ${{ env.APP_DIR }}/ios
+        working-directory: ios
+        # working-directory: ${{ env.APP_DIR }}/ios
         run: pod install
 
       - name: Install iOS signing
@@ -158,7 +159,8 @@ jobs:
 
       - name: Configure Android signing
         if: inputs.target == 'android'
-        working-directory: ${{ env.APP_DIR }}/android
+        working-directory: android
+        # working-directory: ${{ env.APP_DIR }}/android
         env:
           KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
           KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
