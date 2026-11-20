@@ -1,6 +1,5 @@
 version: 2
 updates:
-  # 1. Keep GitHub Actions SHAs + comments in sync
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -16,11 +15,11 @@ updates:
       - "github-actions"
     groups:
       actions:
-        patterns: ["*"]
+        patterns:
+          - "*"
 
-  # 2. Keep Flutter / Dart deps in application/ updated
   - package-ecosystem: "pub"
-    directory: "/application"
+    directory: "/"
     schedule:
       interval: "weekly"
       day: "monday"
@@ -32,3 +31,7 @@ updates:
     labels:
       - "dependencies"
       - "flutter"
+    groups:
+      flutter-dependencies:
+        patterns:
+          - "*"
