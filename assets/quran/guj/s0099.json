@@ -1,0 +1,91 @@
+[
+  {
+    "status": true,
+    "message": "Data fetched successfully",
+    "data": {
+      "chapter": {
+        "id": 99,
+        "serial_number": "99",
+        "arabic_name": "الزلزلة",
+        "translated_name": "Az-Zalzalah",
+        "verses_translate_name": "Verses",
+        "verses_count": "8"
+      },
+      "chapter_info": [
+        {
+          "eng_page_number": 599,
+          "page_number": "599",
+          "page_key": 0,
+          "page_verses": [
+            {
+              "id": 6139,
+              "chapter_id": 99,
+              "verses_translate_name": "Verses",
+              "verses_number": "1",
+              "arabic_name": "إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا",
+              "translated_name": "૧. જ્યારે જમીન પૂરેપૂરી હલાવી નાખવામાં આવશે."
+            },
+            {
+              "id": 6140,
+              "chapter_id": 99,
+              "verses_translate_name": "Verses",
+              "verses_number": "2",
+              "arabic_name": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
+              "translated_name": "૨. અને જમીન પોતાનો બોજ બહાર કાઢી ફેંકી દેશે."
+            },
+            {
+              "id": 6141,
+              "chapter_id": 99,
+              "verses_translate_name": "Verses",
+              "verses_number": "3",
+              "arabic_name": "وَقَالَ ٱلْإِنسَـٰنُ مَا لَهَا",
+              "translated_name": "૩. માનવી કહેવા લાગશે કે આને શું થઇ ગયુ છે?"
+            },
+            {
+              "id": 6142,
+              "chapter_id": 99,
+              "verses_translate_name": "Verses",
+              "verses_number": "4",
+              "arabic_name": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا",
+              "translated_name": "૪. તે દિવસે જમીન પોતાની દરેક વાતોનું વર્ણન કરી દેશે."
+            },
+            {
+              "id": 6143,
+              "chapter_id": 99,
+              "verses_translate_name": "Verses",
+              "verses_number": "5",
+              "arabic_name": "بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا",
+              "translated_name": "૫. એટલા માટે કે તમારા પાલનહારે તેને આ જ આદેશ આપ્યો હશે."
+            },
+            {
+              "id": 6144,
+              "chapter_id": 99,
+              "verses_translate_name": "Verses",
+              "verses_number": "6",
+              "arabic_name": "يَوْمَئِذٍ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًا لِّيُرَوْا۟ أَعْمَـٰلَهُمْ",
+              "translated_name": "૬. તે દિવસે લોકો અલગ-અલગ સમુહ બનીને (પાછા) ફરશે. જેથી તેમને તેમના કર્મ બતાવવામાં આવે."
+            },
+            {
+              "id": 6145,
+              "chapter_id": 99,
+              "verses_translate_name": "Verses",
+              "verses_number": "7",
+              "arabic_name": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُۥ",
+              "translated_name": "૭. બસ! જેણે રજ બરાબર ભલાઇ કરી હશે, તે તેને જોઇ લેશે."
+            },
+            {
+              "id": 6146,
+              "chapter_id": 99,
+              "verses_translate_name": "Verses",
+              "verses_number": "8",
+              "arabic_name": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُۥ",
+              "translated_name": "૮. અને જેણે રજ બરાબર બુરાઇ કરી હશે, તેપણ તેને જોઇ લેશે."
+            }
+          ],
+          "page_arabic_ayah": "إِذَا زُلْزِلَتِ ٱلْأَرْضُ زِلْزَالَهَا (١)  وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا (٢)  وَقَالَ ٱلْإِنسَـٰنُ مَا لَهَا (٣)  يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا (٤)  بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا (٥)  يَوْمَئِذٍ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًا لِّيُرَوْا۟ أَعْمَـٰلَهُمْ (٦)  فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُۥ (٧)  وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُۥ (٨)",
+          "is_read": false
+        }
+      ]
+    }
+  }
+]

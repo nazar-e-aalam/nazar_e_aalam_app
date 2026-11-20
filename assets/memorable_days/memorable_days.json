@@ -1,0 +1,3417 @@
+{
+  "version": "1.0.0",
+  "supported_languages": ["en", "gu", "hi", "sw", "ar", "ur"],
+  "default_language": "gu",
+  "months": [
+    {
+      "month": 1,
+      "id": "muharram",
+      "name": {
+        "en": "Muharram-ul-Haram",
+        "gu": "મુહર્રમ-ઉલ-હરામ",
+        "hi": "मुहर्रम-उल-हराम",
+        "sw": "Muharram-ul-Haram",
+        "ar": "محرم الحرام",
+        "ur": "محرم الحرام"
+      },
+      "heading": {
+        "en": "Events of the Month of Muharram-ul-Haram\nDates of Passing (Wisal) of Revered Mashayikh Elders",
+        "gu": "વાકીઆતે માંહે મુહર્રમ ઉલ હરામ\nમશાયખી બુઝુર્ગો કી વિસાલ કી તારીખ",
+        "hi": "वाक़िआते माहे मुहर्रम-उल-हराम\nमशायख़ी बुज़ुर्गों की विसाल की तारीख़",
+        "sw": "Matukio ya Mwezi wa Muharram-ul-Haram\nTarehe za Kufariki (Wisal) kwa Wazee Watukufu wa Mashayikh",
+        "ar": "وقائع شهر محرم الحرام\nتواريخ وصال المشايخ الكرام",
+        "ur": "واقعاتِ ماہِ محرم الحرام\nمشائخی بزرگوں کی وصال کی تاریخ"
+      },
+      "days": [
+        {
+          "day": 1,
+          "events": [
+            {
+              "id": "m01_d01_e01",
+              "description": {
+                "en": "Islamic New Year 1441 Hijri.",
+                "gu": "ઈસ્લામી નયા સાલ 1441 હિજરી",
+                "hi": "इस्लामी नया साल 1441 हिजरी",
+                "sw": "Mwaka Mpya wa Kiislamu 1441 Hijria.",
+                "ar": "رأس السنة الهجرية الجديدة ١٤٤١ هـ.",
+                "ur": "اسلامی نیا سال 1441 ہجری"
+              }
+            },
+            {
+              "id": "m01_d01_e02",
+              "description": {
+                "en": "Birth (Wiladat) of Hazrat Umar Farooq (Radiyallahu Anhu).",
+                "gu": "વિલાદતે હઝરત ઉમર ફારૂક રદિયલ્લાહો અન્હો",
+                "hi": "विलादते हज़रत उमर फ़ारूक़ रदियल्लाहु अन्हु",
+                "sw": "Kuzaliwa (Wiladat) kwa Hazrat Umar Farooq (Radiyallahu Anhu).",
+                "ar": "ولادة سيدنا عمر الفاروق رضي الله عنه.",
+                "ur": "ولادتِ حضرت عمر فاروق رضی اللہ عنہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "events": [
+            {
+              "id": "m01_d02_e01",
+              "description": {
+                "en": "Hazrat Imam Hussain arrived in Karbala.",
+                "gu": "હઝરત ઇમામ હુસૈન કરબલા મેં તશરીફ લાયે",
+                "hi": "हज़रत इमाम हुसैन कर्बला में तशरीफ़ लाए",
+                "sw": "Hazrat Imam Hussain aliwasili Karbala.",
+                "ar": "قدوم الإمام الحسين عليه السلام إلى كربلاء.",
+                "ur": "حضرت امام حسین کربلا میں تشریف لائے"
+              }
+            },
+            {
+              "id": "m01_d02_e02",
+              "description": {
+                "en": "Passing away (Wafat) of Masoom Syed Pyare Sahab Bawa, son of Syed Ghulam Ali Bawa, beside Hazrat Peer Sahab Bawa in Nawavas (Date of passing: 10-1-1900).",
+                "gu": "વફાત માસુમ સૈયદ પ્યારે સાહબ બાવા વલ્દ સૈયદ ગુલામ અલી બાવા\n નવાવાસ હઝરત પીર સાહબ બાવા કે બાજુ મેં\n(વફાત તારીખ 10-1-1900)",
+                "hi": "वफ़ात मासूम सैयद प्यारे साहब बावा वल्द सैयद ग़ुलाम अली बावा, नवावास हज़रत पीर साहब बावा के बाजू में (वफ़ात तारीख़ 10-1-1900)",
+                "sw": "Kufariki (Wafat) kwa Masoom Syed Pyare Sahab Bawa mwana wa Syed Ghulam Ali Bawa, kando ya Hazrat Peer Sahab Bawa huko Nawavas (Tarehe ya kufariki: 10-1-1900).",
+                "ar": "وفاة معصوم سيد بياري صاحب باوا بن سيد غلام علي باوا في نواواس بجانب حضرة بير صاحب باوا (تاريخ الوفاة: ١٠-١-١٩٠٠).",
+                "ur": "وفات معصوم سید پیارے صاحب باوا ولد سید غلام علی باوا، نواواس حضرت پیر صاحب باوا کے بازو میں (تاریخِ وفات 10-1-1900)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "events": [
+            {
+              "id": "m01_d04_e01",
+              "description": {
+                "en": "Caliph (Khalifa) of Maula Ali, Hazrat Khwaja Hasan Basri (Rahmatullahi Alaih) (Basra, Iraq).",
+                "gu": "ખલિફા એ મૌલા અલી હઝરત ખ્વાજા હસન બસરી રહમતુલ્લાહિ\n અલૈહ (બસરા ઇરાક)",
+                "hi": "ख़लीफ़ा-ए-मौला अली हज़रत ख़्वाजा हसन बसरी रहमतुल्लाहि अलैह (बसरा, इराक़)",
+                "sw": "Khalifa wa Maula Ali, Hazrat Khwaja Hasan Basri (Rahmatullahi Alaih) (Basra, Iraq).",
+                "ar": "خليفة مولى علي حضرة الخواجة الحسن البصري رحمه الله (البصرة، العراق).",
+                "ur": "خلیفۂ مولیٰ علی حضرت خواجہ حسن بصری رحمۃ اللہ علیہ (بصرہ، عراق)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "events": [
+            {
+              "id": "m01_d05_e01",
+              "description": {
+                "en": "Sacred Urs of Hazrat Sheikh Baba Farid Masood Ganjshakar Chishti (Rahmatullahi Alaih).",
+                "gu": "ઉર્ષ એ પાક હઝરત શૈખ બાબા ફરીદ મસઊદ ગંજેશકર ચિશ્તી રહમતુલ્લાહિ અલૈહ",
+                "hi": "उर्से पाक हज़रत शैख़ बाबा फ़रीद मसूद गंजशकर चिश्ती रहमतुल्लाहि अलैह",
+                "sw": "Urs tukufu ya Hazrat Sheikh Baba Farid Masood Ganjshakar Chishti (Rahmatullahi Alaih).",
+                "ar": "العرس المبارك لحضرة الشيخ بابا فريد مسعود كنج شكر الجشتي رحمه الله.",
+                "ur": "عرسِ پاک حضرت شیخ بابا فرید مسعود گنج شکر چشتی رحمۃ اللہ علیہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "events": [
+            {
+              "id": "m01_d06_e01",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Zakariya (Alayhis Salam).",
+                "gu": "વિસાલ હઝરત ઝકરિયા અલયહહિસ્સાલામ",
+                "hi": "विसाल हज़रत ज़करिया अलैहिस्सलाम",
+                "sw": "Kufariki (Wisal) kwa Hazrat Zakariya (Alayhis Salam).",
+                "ar": "وصال نبي الله زكريا عليه السلام.",
+                "ur": "وصال حضرت زکریا علیہ السلام"
+              }
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "events": [
+            {
+              "id": "m01_d07_e01",
+              "description": {
+                "en": "Hazrat Peer Syed Sadullah alias Mirbaba Chishti Mashayikhi (Rahmatullahi Alaih).",
+                "gu": "હઝરત પીર સૈયદ સાદુલ્લાહ ઉર્ફે મીરબાબા ચિશ્તી મશાયખી રહમતુલ્લાહિ અલૈહ",
+                "hi": "हज़रत पीर सैयद सादुल्लाह उर्फ़ मीरबाबा चिश्ती मशायख़ी रहमतुल्लाहि अलैह",
+                "sw": "Hazrat Peer Syed Sadullah maarufu kama Mirbaba Chishti Mashayikhi (Rahmatullahi Alaih).",
+                "ar": "حضرة بير سيد سعد الله الملقب بمير بابا الجشتي المشايخي رحمه الله.",
+                "ur": "حضرت پیر سید سعد اللہ عرف میر بابا چشتی مشائخی رحمۃ اللہ علیہ"
+              }
+            },
+            {
+              "id": "m01_d07_e02",
+              "description": {
+                "en": "Hazrat Ghulam Hussain, son of Peer Sadullah Chishti Mashayikhi (Rahmatullahi Alaih).",
+                "gu": "હઝરત ગુલામ હુસૈન વલ્દ પીર સાદુલ્લાહ ચિશ્તી મશાયખી રહમતુલ્લાહિ અલૈહ",
+                "hi": "हज़रत ग़ुलाम हुसैन वल्द पीर सादुल्लाह चिश्ती मशायख़ी रहमतुल्लाहि अलैह",
+                "sw": "Hazrat Ghulam Hussain mwana wa Peer Sadullah Chishti Mashayikhi (Rahmatullahi Alaih).",
+                "ar": "حضرة غلام حسين بن بير سعد الله الجشتي المشايخي رحمه الله.",
+                "ur": "حضرت غلام حسین ولد پیر سعد اللہ چشتی مشائخی رحمۃ اللہ علیہ"
+              }
+            },
+            {
+              "id": "m01_d07_e03",
+              "description": {
+                "en": "Passing away (Wafat) of Hazrat Sadiq Ali, son of Ghulam Hussain Chishti Mashayikhi (Rahmatullahi Alaih).",
+                "gu": "વફાત હઝરત સાદિક અલી વહ્દ ગુલામ હુસૈન ચિશ્તી મશાયખી રહમતુલ્લાહિ અલૈહ",
+                "hi": "वफ़ात हज़रत सादिक़ अली वल्द ग़ुलाम हुसैन चिश्ती मशायख़ी रहमतुल्लाहि अलैह",
+                "sw": "Kufariki (Wafat) kwa Hazrat Sadiq Ali mwana wa Ghulam Hussain Chishti Mashayikhi (Rahmatullahi Alaih).",
+                "ar": "وفاة حضرة صادق علي بن غلام حسين الجشتي المشايخي رحمه الله.",
+                "ur": "وفات حضرت صادق علی ولد غلام حسین چشتی مشائخی رحمۃ اللہ علیہ"
+              }
+            },
+            {
+              "id": "m01_d07_e04",
+              "description": {
+                "en": "The people of Kufa cut off water supply to the Ahl-e-Bayt.",
+                "gu": "કુફીયોને એહલે બૈયત પર પાની બંધ કિયા.",
+                "hi": "कूफ़ियों ने अहले बैत पर पानी बंद किया।",
+                "sw": "Watu wa Kufa waliwakatia maji Ahl-e-Bayt.",
+                "ar": "منع أهل الكوفة الماء عن أهل البيت عليهم السلام.",
+                "ur": "کوفیوں نے اہلِ بیت پر پانی بند کیا۔"
+              }
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "events": [
+            {
+              "id": "m01_d09_e01",
+              "description": {
+                "en": "Hazrat Syeda Zohra Bibi (Rahmatullahi Alaiha) (Wife of Hazrat Peer Syed Qasim Ali Bawa, Dholka).",
+                "gu": "હઝરત સૈયદા ઝોહરા બીબી રહમતુલ્લાહિ અલૈહ\n(હઝરત પીર સૈયદ કાસિમઅલી બાવા કે અહેલિયા ધોળકા)",
+                "hi": "हज़रत सैयदा ज़ोहरा बीबी रहमतुल्लाहि अलैहा (हज़रत पीर सैयद क़ासिम अली बावा की अहलिया, धोलका)",
+                "sw": "Hazrat Syeda Zohra Bibi (Rahmatullahi Alaiha) (Mke wa Hazrat Peer Syed Qasim Ali Bawa, Dholka).",
+                "ar": "حضرة السيدة زهرة بيبي رحمها الله (زوجة حضرة بير سيد قاسم علي باوا، دهولكا).",
+                "ur": "حضرت سیدہ زہرہ بی بی رحمۃ اللہ علیہا (حضرت پیر سید قاسم علی باوا کی اہلیہ، دھولکہ)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "events": [
+            {
+              "id": "m01_d10_e01",
+              "description": {
+                "en": "Day of Ashura and Martyrdom (Shahadat) of the exalted Imam, Imam Hussain (Alayhis Salam).",
+                "gu": "યૌમે આશુરા વ શહાદતે ઇમામ એ આલી મકામ ઇમામ હુસૈન અલયહહિસ્સાલામ ",
+                "hi": "यौमे आशूरा व शहादते इमामे आली मक़ाम इमाम हुसैन अलैहिस्सलाम",
+                "sw": "Siku ya Ashura na Kuuawa Shahidi (Shahadat) kwa Imam mtukufu, Imam Hussain (Alayhis Salam).",
+                "ar": "يوم عاشوراء واستشهاد الإمام عالي المقام الإمام الحسين عليه السلام.",
+                "ur": "یومِ عاشورہ و شہادتِ امامِ عالی مقام امام حسین علیہ السلام"
+              }
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "events": [
+            {
+              "id": "m01_d11_e01",
+              "description": {
+                "en": "Passing away (Wisal) of the Father of Humanity (Abul Bashar), Hazrat Adam (Alayhis Salam).",
+                "gu": "વિસાલ અબુલ બસર હઝરત આદમ અલયહહિસ્સાલામ",
+                "hi": "विसाल अबुल बशर हज़रत आदम अलैहिस्सलाम",
+                "sw": "Kufariki (Wisal) kwa Baba wa Wanadamu (Abul Bashar), Hazrat Adam (Alayhis Salam).",
+                "ar": "وصال أبي البشر نبي الله آدم عليه السلام.",
+                "ur": "وصال ابوالبشر حضرت آدم علیہ السلام"
+              }
+            },
+            {
+              "id": "m01_d11_e02",
+              "description": {
+                "en": "Hazrat Peer Syed Khaliduddin, son of Syed Hashim Shah (Rahmatullahi Alaih) (Sabzevar, Iran).",
+                "gu": "હઝરત પીર સૈયદ ખાલીદુદ્દીન વલ્દ સૈયદ હાશમ શાહ રહમતુલ્લાહિ અલૈહ (સબ્ઝવાર ઈરાન)",
+                "hi": "हज़रत पीर सैयद ख़ालिदुद्दीन वल्द सैयद हाशिम शाह रहमतुल्लाहि अलैह (सब्ज़वार, ईरान)",
+                "sw": "Hazrat Peer Syed Khaliduddin mwana wa Syed Hashim Shah (Rahmatullahi Alaih) (Sabzevar, Iran).",
+                "ar": "حضرة بير سيد خالد الدين بن سيد هاشم شاه رحمه الله (سبزوار، إيران).",
+                "ur": "حضرت پیر سید خالد الدین ولد سید ہاشم شاہ رحمۃ اللہ علیہ (سبزوار، ایران)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "events": [
+            {
+              "id": "m01_d14_e01",
+              "description": {
+                "en": "Hazrat Mumshad Dinawari Chishti (Rahmatullahi Alaih).",
+                "gu": "હઝરત મુમશાદ દિન-વરી ચિશ્તી રહમતુલ્લાહિ અલૈહ",
+                "hi": "हज़रत मुमशाद दीनवरी चिश्ती रहमतुल्लाहि अलैह",
+                "sw": "Hazrat Mumshad Dinawari Chishti (Rahmatullahi Alaih).",
+                "ar": "حضرة ممشاد الدينوري الجشتي رحمه الله.",
+                "ur": "حضرت ممشاد دینوری چشتی رحمۃ اللہ علیہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "events": [
+            {
+              "id": "m01_d15_e01",
+              "description": {
+                "en": "Hazrat Syed Shamsuddin Shams Sabzwari, son of Syed Salehuddin Iraqi (Multan).",
+                "gu": "હઝરત સૈયદ શમસુદ્દીન શમ્સ સબ્ઝવારી વલ્દ સૈયદ સાલેહુદ્દીન ઈરાકી (મુલતાન)",
+                "hi": "हज़रत सैयद शम्सुद्दीन शम्स सब्ज़वारी वल्द सैयद सालेहुद्दीन इराक़ी (मुल्तान)",
+                "sw": "Hazrat Syed Shamsuddin Shams Sabzwari mwana wa Syed Salehuddin Iraqi (Multan).",
+                "ar": "حضرة سيد شمس الدين شمس السبزواري بن سيد صالح الدين العراقي (ملتان).",
+                "ur": "حضرت سید شمس الدین شمس سبزواری ولد سید صالح الدین عراقی (ملتان)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "events": [
+            {
+              "id": "m01_d18_e01",
+              "description": {
+                "en": "Passing away (Wafat) of Hazrat Imam Zain-ul-Abidin, son of Imam Hussain (Alayhis Salam) (Madinah Sharif, 4th Imam).",
+                "gu": "વફાત હઝરત ઇમામ ઝૈનુલઆબેદીન બિન ઇમામ હુસૈન અલયહહિસ્સાલામ (મદીના શરીફ 4 ઇમામ)",
+                "hi": "वफ़ात हज़रत इमाम ज़ैनुल आबिदीन बिन इमाम हुसैन अलैहिस्सलाम (मदीना शरीफ़, चौथे इमाम)",
+                "sw": "Kufariki (Wafat) kwa Hazrat Imam Zain-ul-Abidin mwana wa Imam Hussain (Alayhis Salam) (Madinah Sharif, Imam wa 4).",
+                "ar": "وفاة الإمام زين العابدين بن الإمام الحسين عليهما السلام (المدينة المنورة، الإمام الرابع).",
+                "ur": "وفات حضرت امام زین العابدین بن امام حسین علیہ السلام (مدینہ شریف، چوتھے امام)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "events": [
+            {
+              "id": "m01_d20_e01",
+              "description": {
+                "en": "Hazrat Bilal Habashi (Damascus).",
+                "gu": "હઝરત બિલાલ હબસી (દમિશ્ક)",
+                "hi": "हज़रत बिलाल हबशी (दमिश्क)",
+                "sw": "Hazrat Bilal Habashi (Damascus).",
+                "ar": "سيدنا بلال الحبشي رضي الله عنه (دمشق).",
+                "ur": "حضرت بلال حبشی رضی اللہ عنہ (دمشق)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "events": [
+            {
+              "id": "m01_d21_e01",
+              "description": {
+                "en": "Blessed Urs of Sahib-e-Luab-e-Dahan, Mujaddid-e-Islam, Ghazali of the Era, Hazrat Peer Syed Mashayikh Sani Chishti Faridi Hussaini Kadiwal (Rahmatullahi Alaih) (Chartoda Kabrastan, Ahmedabad).",
+                "gu": "ઉર્ષ એ મુબારક સાહિબ એ લુઆબે દહન મુજદ્દીદે ઇસ્લામ ગિઝાલી એ વકત હઝરત પીર સૈયદ મશાયખ સાની ચિશ્તી ફરીદી હુસૈની કડીવાલ રહમતુલ્લાહિ અલૈહ\n(ચારતોડા કબ્રસ્તાન અહમદાબાદ)❖",
+                "hi": "उर्से मुबारक साहिबे लुआबे दहन मुजद्दिदे इस्लाम ग़िज़ाली-ए-वक़्त हज़रत पीर सैयद मशायख़ सानी चिश्ती फ़रीदी हुसैनी कड़ीवाल रहमतुल्लाहि अलैह (चारतोड़ा क़ब्रिस्तान, अहमदाबाद)",
+                "sw": "Urs tukufu ya Sahib-e-Luab-e-Dahan, Mujaddid-e-Islam, Ghazali wa Zama, Hazrat Peer Syed Mashayikh Sani Chishti Faridi Hussaini Kadiwal (Rahmatullahi Alaih) (Makaburi ya Chartoda, Ahmedabad).",
+                "ar": "العرس المبارك لصاحب لعاب الدهن مجدد الإسلام غزالي الوقت حضرة بير سيد مشايخ الثاني الجشتي الفريدي الحسيني الكاديوالي رحمه الله (مقبرة جارتودا، أحمد آباد).",
+                "ur": "عرسِ مبارک صاحبِ لعابِ دہن مجددِ اسلام غزالیِ وقت حضرت پیر سید مشائخ ثانی چشتی فریدی حسینی کڑیوال رحمۃ اللہ علیہ (چارتوڑہ قبرستان، احمد آباد)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "events": [
+            {
+              "id": "m01_d22_e01",
+              "description": {
+                "en": "Hazrat Peer Syed Abdullah, son of Peer Mashayikh Chishti (Rahmatullahi Alaih).",
+                "gu": "હઝરત પીર સૈયદ અબ્દુલ્લાહ બિન પીર મશાયખ ચિશ્તી રહમતુલ્લાહિ અલૈહ ❖",
+                "hi": "हज़रत पीर सैयद अब्दुल्लाह बिन पीर मशायख़ चिश्ती रहमतुल्लाहि अलैह",
+                "sw": "Hazrat Peer Syed Abdullah mwana wa Peer Mashayikh Chishti (Rahmatullahi Alaih).",
+                "ar": "حضرة بير سيد عبد الله بن بير مشايخ الجشتي رحمه الله.",
+                "ur": "حضرت پیر سید عبد اللہ بن پیر مشائخ چشتی رحمۃ اللہ علیہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "events": [
+            {
+              "id": "m01_d26_e01",
+              "description": {
+                "en": "Urs of Hazrat Peer Syed Ghaira Durvesh Ali Bawa, son of Syed Moinuddin Mir Alam Shah (Rahmatullahi Alaih) (Surat Badi Dargah Sharif).",
+                "gu": "ઉર્ષ હઝરત પીર સૈયદ ઘઇરા દુર્વેશઅલી બાવા વલ્દ સૈયદ મોઇનઉદ્દીન મીર આલમ શાહ રહમતુલ્લાહિ અલૈહ (સુરત બડી દરગાહ શરીફ)",
+                "hi": "उर्स हज़रत पीर सैयद घइरा दुर्वेश अली बावा वल्द सैयद मोइनुद्दीन मीर आलम शाह रहमतुल्लाहि अलैह (सूरत बड़ी दरगाह शरीफ़)",
+                "sw": "Urs ya Hazrat Peer Syed Ghaira Durvesh Ali Bawa mwana wa Syed Moinuddin Mir Alam Shah (Rahmatullahi Alaih) (Surat Badi Dargah Sharif).",
+                "ar": "عرس حضرة بير سيد غيرا درويش علي باوا بن سيد معين الدين مير عالم شاه رحمه الله (بادي دركاه شريف، سورت).",
+                "ur": "عرس حضرت پیر سید غیرا درویش علی باوا ولد سید معین الدین میر عالم شاہ رحمۃ اللہ علیہ (سورت بڑی درگاہ شریف)"
+              }
+            },
+            {
+              "id": "m01_d26_e02",
+              "description": {
+                "en": "And Hazrat Syed Najmuddin, son of Hazrat Shahjimiyan (Rahmatullahi Alaih) (Badi Dargah, Surat).",
+                "gu": "વ હઝરત સૈયદ નજમુદ્દીન વલ્દ હઝરત શાહજીમિયા રહમતુલ્લાહિ અલૈહ (બડી દરગાહ સુરત)",
+                "hi": "व हज़रत सैयद नजमुद्दीन वल्द हज़रत शाहजीमियाँ रहमतुल्लाहि अलैह (बड़ी दरगाह, सूरत)",
+                "sw": "Na Hazrat Syed Najmuddin mwana wa Hazrat Shahjimiyan (Rahmatullahi Alaih) (Badi Dargah, Surat).",
+                "ar": "وحضرة سيد نجم الدين بن حضرة شاه جي ميان رحمه الله (بادي دركاه، سورت).",
+                "ur": "و حضرت سید نجم الدین ولد حضرت شاہ جی میاں رحمۃ اللہ علیہ (بڑی درگاہ، سورت)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "events": [
+            {
+              "id": "m01_d27_e01",
+              "description": {
+                "en": "Passing away (Wafat) of Hazrat Syed Diwanji, son of Peer Abdullah Mashayikhi (Rahmatullahi Alaih).",
+                "gu": "વફાત હઝરત સૈયદ દીવાનજી વલ્થ પીર અબ્દુલ્લાહ મશાયખી રહમતુલ્લાહિ અલૈહ",
+                "hi": "वफ़ात हज़रत सैयद दीवानजी वल्द पीर अब्दुल्लाह मशायख़ी रहमतुल्लाहि अलैह",
+                "sw": "Kufariki (Wafat) kwa Hazrat Syed Diwanji mwana wa Peer Abdullah Mashayikhi (Rahmatullahi Alaih).",
+                "ar": "وفاة حضرة سيد ديوانجي بن بير عبد الله المشايخي رحمه الله.",
+                "ur": "وفات حضرت سید دیوانجی ولد پیر عبد اللہ مشائخی رحمۃ اللہ علیہ"
+              }
+            },
+            {
+              "id": "m01_d27_e02",
+              "description": {
+                "en": "Passing away (Wafat) of Hazrat Khurshid Haider, son of Syed Qasim Ali Bawa (Qasamshah Compound).",
+                "gu": "વફાત હઝરત ખુરશીદ હૈદર વલ્દ સૈયદ કાસિમ અલી બાવા (કાસમશાહ કમ્પાઉન્ડ)",
+                "hi": "वफ़ात हज़रत ख़ुर्शीद हैदर वल्द सैयद क़ासिम अली बावा (क़ासमशाह कंपाउंड)",
+                "sw": "Kufariki (Wafat) kwa Hazrat Khurshid Haider mwana wa Syed Qasim Ali Bawa (Qasamshah Compound).",
+                "ar": "وفاة حضرة خورشيد حيدر بن سيد قاسم علي باوا (مجمع قاسم شاه).",
+                "ur": "وفات حضرت خورشید حیدر ولد سید قاسم علی باوا (قاسم شاہ کمپاؤنڈ)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month": 2,
+      "id": "safar",
+      "name": {
+        "en": "Safar-ul-Muzaffar",
+        "gu": "સફ઼ર-ઉલ-મુજફ્ફર",
+        "hi": "सफ़र-उल-मुज़फ़्फ़र",
+        "sw": "Safar-ul-Muzaffar",
+        "ar": "صفر المظفر",
+        "ur": "صفر المظفر"
+      },
+      "heading": {
+        "en": "Events of the Month of Safar-ul-Muzaffar\nDates of Passing (Wisal) of Revered Mashayikh Elders",
+        "gu": "વાકીઆતે માંહે સફર ઉલ મુઝફ્ફર\n મશાયખી બુઝૂર્ગો કી વિસાલ કી તારીખ",
+        "hi": "वाक़िआते माहे सफ़र-उल-मुज़फ़्फ़र\nमशायख़ी बुज़ुर्गों की विसाल की तारीख़",
+        "sw": "Matukio ya Mwezi wa Safar-ul-Muzaffar\nTarehe za Kufariki (Wisal) kwa Wazee Watukufu wa Mashayikh",
+        "ar": "وقائع شهر صفر المظفر\nتواريخ وصال المشايخ الكرام",
+        "ur": "واقعاتِ ماہِ صفر المظفر\nمشائخی بزرگوں کی وصال کی تاریخ"
+      },
+      "days": [
+        {
+          "day": null,
+          "events": [
+            {
+              "id": "m02_du_e01",
+              "description": {
+                "en": "Hazrat Syed Ismail Sani, son of Hazrat Syed Noor Muhammad (Salamiyah, Sham / Syria) (His passing away [Wisal] took place in Safar; the exact lunar day [Chand] has not been found).",
+                "gu": "હઝરત સૈયદ ઈસ્માઈલ સાની બિન હઝરત સૈયદ નૂર મુહંમદ\n(સલમિયા સામ સિરિયા) (આપકા વિસાલ સફર મેં હુવા થા ચાંદ નહિ મિલા હૈ)",
+                "hi": "हज़रत सैयद इस्माईल सानी बिन हज़रत सैयद नूर मुहम्मद (सलमिया, शाम, सीरिया) (आपका विसाल सफ़र में हुआ था, चाँद नहीं मिला है)",
+                "sw": "Hazrat Syed Ismail Sani mwana wa Hazrat Syed Noor Muhammad (Salamiyah, Sham, Syria) (Kufariki [Wisal] kwake kulitokea katika mwezi wa Safar; siku kamili ya mwezi [Chand] haijapatikana).",
+                "ar": "حضرة سيد إسماعيل الثاني بن حضرة سيد نور محمد (سلمية، الشام، سوريا) (كان وصاله في شهر صفر ولم يُعرف يوم الشهر تحديداً).",
+                "ur": "حضرت سید اسماعیل ثانی بن حضرت سید نور محمد (سلمیہ، شام، سیریا) (آپ کا وصال صفر میں ہوا تھا، چاند نہیں ملا ہے)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "events": [
+            {
+              "id": "m02_d06_e01",
+              "description": {
+                "en": "Hazrat Syed Islamuddin, son of Hazrat Mominuddin Iraqi (Marrakesh / Morocco city, North African country).",
+                "gu": "હઝરત સૈયદ ઇસ્લામુદ્દીન વલ્ક હઝરત મોમીનુદ્દીન ઈરાકી\n(મોરોક્કો શહેર નોર્થ આફ્રિકન કન્ટ્રી)",
+                "hi": "हज़रत सैयद इस्लामुद्दीन वल्द हज़रत मोमिनुद्दीन इराक़ी (मोरक्को शहर, उत्तरी अफ़्रीक़ा)",
+                "sw": "Hazrat Syed Islamuddin mwana wa Hazrat Mominuddin Iraqi (Jiji la Morocco, nchi ya Afrika Kaskazini).",
+                "ar": "حضرة سيد إسلام الدين بن حضرة مؤمن الدين العراقي (مدينة مراكش، دولة في شمال أفريقيا).",
+                "ur": "حضرت سید اسلام الدین ولد حضرت مومن الدین عراقی (مراکش شہر، شمالی افریقی ملک)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "events": [
+            {
+              "id": "m02_d07_e01",
+              "description": {
+                "en": "Hazrat Bahauddin Zakariya Multani Suhrawardi (Multan, Pakistan; our Mashayikhi elders had a very deep spiritual bond with him, and some elders also became disciples [Murid] in his spiritual order [Silsila]).",
+                "gu": "હઝરત બહાઉદ્દીન ઝકરિયા મુલતાની સોહરવરદી (મુલતાન પાકિસ્તાન આપ સે હમારે મશાયખી બુઝુર્ગો કા બહુત હી ગેહરા તઆલ્લુક રહા હૈ ઔર કુછ બુઝુર્ગ આપ કે સિલસીલે મેં મુરીદ ભી હુવે હૈ)",
+                "hi": "हज़रत बहाउद्दीन ज़करिया मुल्तानी सुहरावर्दी (मुल्तान, पाकिस्तान; आपसे हमारे मशायख़ी बुज़ुर्गों का बहुत ही गहरा तअल्लुक़ रहा है और कुछ बुज़ुर्ग आपके सिलसिले में मुरीद भी हुए हैं)",
+                "sw": "Hazrat Bahauddin Zakariya Multani Suhrawardi (Multan, Pakistan; wazee wetu wa Mashayikhi walikuwa na uhusiano wa karibu sana naye, na baadhi ya wazee pia walikuwa wafuasi [Murid] katika silsila yake).",
+                "ar": "حضرة بهاء الدين زكريا الملتاني السهروردي (ملتان، باكستان؛ كانت لمشايخنا الكرام علاقة وطيدة جداً به، كما انتسب بعضهم مريدين في طريقته).",
+                "ur": "حضرت بہاؤالدین زکریا ملتانی سہروردی (ملتان، پاکستان؛ آپ سے ہمارے مشائخی بزرگوں کا بہت ہی گہرا تعلق رہا ہے اور کچھ بزرگ آپ کے سلسلے میں مرید بھی ہوئے ہیں)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "events": [
+            {
+              "id": "m02_d12_e01",
+              "description": {
+                "en": "Hazrat Peer Syed Bawa Miyan alias Masoom Bawa, son of Hazrat Fazle Ali Bawa (Badi Dargah Sharif, Surat).",
+                "gu": "હઝરત પીર સૈયદ બાવા મિયા ઉર્ફે માસુમ બાવા વલ્દે\nહઝરત ફઝલે અલી બાવા (બડી દરગાહ શરીફ સુરત)",
+                "hi": "हज़रत पीर सैयद बावा मियाँ उर्फ़ मासूम बावा वल्द हज़रत फ़ज़्ले अली बावा (बड़ी दरगाह शरीफ़, सूरत)",
+                "sw": "Hazrat Peer Syed Bawa Miyan maarufu kama Masoom Bawa mwana wa Hazrat Fazle Ali Bawa (Badi Dargah Sharif, Surat).",
+                "ar": "حضرة بير سيد باوا ميان الملقب بمعصوم باوا بن حضرة فضل علي باوا (بادي دركاه شريف، سورت).",
+                "ur": "حضرت پیر سید باوا میاں عرف معصوم باوا ولد حضرت فضلِ علی باوا (بڑی درگاہ شریف، سورت)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "events": [
+            {
+              "id": "m02_d13_e01",
+              "description": {
+                "en": "Hazrat Imam Nasa'i Abu Abdur Rahman bin Shu'ayb (Author of Sunan an-Nasa'i Sharif).",
+                "gu": "હઝરત ઇમામ નિશાઈ અબુ અબ્દુર્રેહમાન બિન શૌઐબ\n(નિશાઈ શરીફ કે મુસન્નીફ)",
+                "hi": "हज़रत इमाम नसाई अबू अब्दुर्रहमान बिन शुऐब (नसाई शरीफ़ के मुसन्निफ़)",
+                "sw": "Hazrat Imam Nasa'i Abu Abdur Rahman bin Shu'ayb (Mwandishi wa Sunan an-Nasa'i Sharif).",
+                "ar": "الإمام النسائي أبو عبد الرحمن أحمد بن شعيب (مصنف سنن النسائي الشريف).",
+                "ur": "حضرت امام نسائی ابو عبدالرحمٰن بن شعیب (نسائی شریف کے مصنف)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "events": [
+            {
+              "id": "m02_d19_e01",
+              "description": {
+                "en": "Hazrat Data Ganj Bakhsh Lahori Ali Hujwiri (Lahore, Pakistan).",
+                "gu": "હઝરત દાતા ગંજબક્ષ લાહોરી અલી હિઝવેરી\n(લાહોર પાકિસ્તાન)",
+                "hi": "हज़रत दाता गंज बख़्श लाहौरी अली हुज्वेरी (लाहौर, पाकिस्तान)",
+                "sw": "Hazrat Data Ganj Bakhsh Lahori Ali Hujwiri (Lahore, Pakistan).",
+                "ar": "حضرة داتا كنج بخش اللاهوري علي الهجويري رحمه الله (لاهور، باكستان).",
+                "ur": "حضرت داتا گنج بخش لاہوری علی ہجویری (لاہور، پاکستان)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "events": [
+            {
+              "id": "m02_d27_e01",
+              "description": {
+                "en": "Hazrat Khwaja Abdul Wahid bin Zaid Chishti (A great elder of the Chishtiyya spiritual order).",
+                "gu": "હઝરત ખ્વાજ અબ્દુલ વાહીદ બિન ઝૈદ ચિશ્તી\n(સિલસીલા એ ચિશ્તીયા કે અઝીમ બુઝુર્ગ)",
+                "hi": "हज़रत ख़्वाजा अब्दुल वाहिद बिन ज़ैद चिश्ती (सिलसिला-ए-चिश्तिया के अज़ीम बुज़ुर्ग)",
+                "sw": "Hazrat Khwaja Abdul Wahid bin Zaid Chishti (Mzee mtukufu wa silsila ya Chishtiyya).",
+                "ar": "حضرة الخواجة عبد الواحد بن زيد الجشتي رحمه الله (من أكابر مشايخ الطريقة الجشتية).",
+                "ur": "حضرت خواجہ عبدالواحد بن زید چشتی (سلسلۂ چشتیہ کے عظیم بزرگ)"
+              }
+            },
+            {
+              "id": "m02_d27_e02",
+              "description": {
+                "en": "Hazrat Peer Syed Hasan Kabiruddin Kufr-Shikan (Uch Sharif, Bahawalpur, Punjab, Pakistan; guide who showed the path of the true religion to the entire Momin community).",
+                "gu": "હઝરત પીર સૈયદ હસન કબીરુદ્દીન કુફ્રે શિકન\n(ઉચ્ચ શરીફ ભાવલપુર પંજાબ પાકિસ્તાન પુરી મોમીન કૌમ કો\nદિન એ હક કી રાહ દિખાને વાલે)",
+                "hi": "हज़रत पीर सैयद हसन कबीरुद्दीन कुफ़्रे शिकन (उच्च शरीफ़, बहावलपुर, पंजाब, पाकिस्तान; पूरी मोमिन क़ौम को दीने हक़ की राह दिखाने वाले)",
+                "sw": "Hazrat Peer Syed Hasan Kabiruddin Kufr-Shikan (Uch Sharif, Bahawalpur, Punjab, Pakistan; kiongozi aliyeiongoza jamii nzima ya Momin katika njia ya dini ya haki).",
+                "ar": "حضرة بير سيد حسن كبير الدين كفر شكن (أوتش شريف، بهاولبور، البنجاب، باكستان؛ الهادي لعموم جماعة المؤمنين إلى طريق دين الحق).",
+                "ur": "حضرت پیر سید حسن کبیرالدین کفر شکن (اوچ شریف، بہاولپور، پنجاب، پاکستان؛ پوری مومن قوم کو دینِ حق کی راہ دکھانے والے)"
+              }
+            },
+            {
+              "id": "m02_d27_e03",
+              "description": {
+                "en": "Hazrat Syed Alam Shah, son of Hazrat Hasan Kabiruddin Kufr-Shikan (Multan Sharif, beside Hazrat Shams Sabzwari).",
+                "gu": "હઝરત સૈયદ આલમ શાહ બિન હઝરત હસન કબીરુદ્દીન કુફ્રે શિકન\n(મૂલતાન શરીફ પહેલું એ હઝરત શમ્સ સબ્ઝવારી)",
+                "hi": "हज़रत सैयद आलम शाह बिन हज़रत हसन कबीरुद्दीन कुफ़्रे शिकन (मुल्तान शरीफ़, पहलू-ए-हज़रत शम्स सब्ज़वारी)",
+                "sw": "Hazrat Syed Alam Shah mwana wa Hazrat Hasan Kabiruddin Kufr-Shikan (Multan Sharif, kando ya Hazrat Shams Sabzwari).",
+                "ar": "حضرة سيد عالم شاه بن حضرة حسن كبير الدين كفر شكن (ملتان شريف، بجانب حضرة شمس السبزواري).",
+                "ur": "حضرت سید عالم شاہ بن حضرت حسن کبیرالدین کفر شکن (ملتان شریف، پہلوئے حضرت شمس سبزواری)"
+              }
+            },
+            {
+              "id": "m02_d27_e04",
+              "description": {
+                "en": "Hazrat Peer Syed Abdul Muttalib Bawa (Wankaner).",
+                "gu": "હઝરત પીર સૈયદ અબ્દુલ મુત્તલિબ બાવા (વાંકાનેર)",
+                "hi": "हज़रत पीर सैयद अब्दुल मुत्तलिब बावा (वांकानेर)",
+                "sw": "Hazrat Peer Syed Abdul Muttalib Bawa (Wankaner).",
+                "ar": "حضرة بير سيد عبد المطلب باوا (وانكانير).",
+                "ur": "حضرت پیر سید عبدالمطلب باوا (وانکانیر)"
+              }
+            },
+            {
+              "id": "m02_d27_e05",
+              "description": {
+                "en": "Huzoor Rahmat-e-Aalam ﷺ migrated (Hijrat) from Makkah to Madinah.",
+                "gu": "હુઝુર રેહમતે આલમ ﷺ ને મક્કા સે મદીના હિઝરત ફરમાઈ",
+                "hi": "हुज़ूर रहमते आलम ﷺ ने मक्का से मदीना हिजरत फ़रमाई",
+                "sw": "Huzoor Rahmat-e-Aalam ﷺ alihama (Hijrat) kutoka Makkah kwenda Madinah.",
+                "ar": "هاجر رسول الله رحمة للعالمين ﷺ من مكة المكرمة إلى المدينة المنورة.",
+                "ur": "حضور رحمتِ عالم ﷺ نے مکہ سے مدینہ ہجرت فرمائی"
+              }
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "events": [
+            {
+              "id": "m02_d28_e01",
+              "description": {
+                "en": "Hazrat Syed Kashiruddin, son of Hazrat Hasan Kabiruddin Kufr-Shikan (His Mazar is inside the Dargah of Hasan Kabiruddin Bawa, beside him).",
+                "gu": "હઝરત સૈયદ કશીરુદ્દીન બિન હઝરત હસન કબિરુદ્દીન કૂદ્દે શિકન (આપકા મઝાર હસન કબીરુદ્દીન બાવાકી દરગાહ કે અંદર પહેલું મેં હૈ)",
+                "hi": "हज़रत सैयद कशीरुद्दीन बिन हज़रत हसन कबीरुद्दीन कुफ़्रे शिकन (आपका मज़ार हसन कबीरुद्दीन बावा की दरगाह के अंदर पहलू में है)",
+                "sw": "Hazrat Syed Kashiruddin mwana wa Hazrat Hasan Kabiruddin Kufr-Shikan (Kaburi lake tukufu [Mazar] liko ndani ya Dargah ya Hasan Kabiruddin Bawa, kando yake).",
+                "ar": "حضرة سيد كثير الدين بن حضرة حسن كبير الدين كفر شكن (مزاره الشريف داخل دركاه حسن كبير الدين باوا بجانبه).",
+                "ur": "حضرت سید کثیرالدین بن حضرت حسن کبیرالدین کفر شکن (آپ کا مزار حسن کبیرالدین باوا کی درگاہ کے اندر پہلو میں ہے)"
+              }
+            },
+            {
+              "id": "m02_d28_e02",
+              "description": {
+                "en": "And Hazrat Shamsuddin alias Shams Sabzwari Iraqi (Rahmatullahi Alaih) (Multan, Pakistan).",
+                "gu": "વહઝરત શમસુદ્દીન ઉર્ફે શમ્સ સબ્ઝવારી ઇરાકી રહમતુલ્લાહિ અલૈહ (મુલતાન પાકિસ્તાન)",
+                "hi": "व हज़रत शम्सुद्दीन उर्फ़ शम्स सब्ज़वारी इराक़ी रहमतुल्लाहि अलैह (मुल्तान, पाकिस्तान)",
+                "sw": "Na Hazrat Shamsuddin maarufu kama Shams Sabzwari Iraqi (Rahmatullahi Alaih) (Multan, Pakistan).",
+                "ar": "وحضرة شمس الدين الملقب بشمس السبزواري العراقي رحمه الله (ملتان، باكستان).",
+                "ur": "و حضرت شمس الدین عرف شمس سبزواری عراقی رحمۃ اللہ علیہ (ملتان، پاکستان)"
+              }
+            },
+            {
+              "id": "m02_d28_e03",
+              "description": {
+                "en": "Hazrat Syeduna Imam Hasan-e-Mujtaba (Jannat-ul-Baqi, Madinah Sharif) (Ridwanullahi Ta'ala Alayhim Ajma'in).",
+                "gu": "હઝરત એ સૈયદુના ઇમામ હસને મુજતબા\n(જન્નતુલ બકી મદીના શરીફ) રિદનુલ્લાહી તઆલા અલયહીમ અઝ્માઇન",
+                "hi": "हज़रते सैयदुना इमाम हसने मुजतबा (जन्नतुल बक़ी, मदीना शरीफ़) रिद्वानुल्लाहि तआला अलैहिम अज्मईन",
+                "sw": "Hazrat Syeduna Imam Hasan-e-Mujtaba (Jannat-ul-Baqi, Madinah Sharif) (Ridwanullahi Ta'ala Alayhim Ajma'in).",
+                "ar": "سيدنا الإمام الحسن المجتبى عليه السلام (جنة البقيع، المدينة المنورة) رضوان الله تعالى عليهم أجمعين.",
+                "ur": "حضرت سیدنا امام حسنِ مجتبیٰ (جنت البقیع، مدینہ شریف) رضوان اللہ تعالیٰ علیہم اجمعین"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month": 3,
+      "id": "rabi_ul_awwal",
+      "name": {
+        "en": "Rabi-ul-Awwal",
+        "gu": "રબી-ઉલ-અવ્વલ",
+        "hi": "रबी-उल-अव्वल",
+        "sw": "Rabi-ul-Awwal",
+        "ar": "ربيع الأول",
+        "ur": "ربیع الاول"
+      },
+      "heading": {
+        "en": "Events of the Month of Rabi-ul-Awwal\nDates of Passing (Wisal) of Revered Mashayikh Elders",
+        "gu": "વકીઆતે માંહે રબીઉલ અવ્વલ\nમશાયખી બુઝુર્ગો કી વિસાલ કી તારીખ",
+        "hi": "वाक़िआते माहे रबी-उल-अव्वल\nमशायख़ी बुज़ुर्गों की विसाल की तारीख़",
+        "sw": "Matukio ya Mwezi wa Rabi-ul-Awwal\nTarehe za Kufariki (Wisal) kwa Wazee Watukufu wa Mashayikh",
+        "ar": "وقائع شهر ربيع الأول\nتواريخ وصال المشايخ الكرام",
+        "ur": "واقعاتِ ماہِ ربیع الاول\nمشائخی بزرگوں کی وصال کی تاریخ"
+      },
+      "days": [
+        {
+          "day": 1,
+          "events": [
+            {
+              "id": "m03_d01_e01",
+              "description": {
+                "en": "Huzoor ﷺ migrated (Hijrat) from the Cave of Thawr (Ghar-e-Thawr) to Madinah Sharif.",
+                "gu": "હુઝુર ﷺ ગારે શૌર સે મદીના શરીફ હિઝરત ફરમાઈ",
+                "hi": "हुज़ूर ﷺ ने ग़ारे सौर से मदीना शरीफ़ हिजरत फ़रमाई",
+                "sw": "Huzoor ﷺ alihama (Hijrat) kutoka Pango la Thawr (Ghar-e-Thawr) kwenda Madinah Sharif.",
+                "ar": "هاجر رسول الله ﷺ من غار ثور إلى المدينة المنورة.",
+                "ur": "حضور ﷺ نے غارِ ثور سے مدینہ شریف ہجرت فرمائی"
+              }
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "events": [
+            {
+              "id": "m03_d03_e01",
+              "description": {
+                "en": "Hazrat Khwaja Fuzail bin Iyaz, a great elder of the Chishti order; his Mazar is in Jannat-ul-Mu'alla near the Mazar of Hazrat Ma Khadijat-ul-Kubra.",
+                "gu": "હઝરત ખ્વાજા ફુઝૈલ બિન અયાઝ ચિશ્તી સિલસીકે બડે બુઝુર્ગ જન્નતુલ મુઅલ્લા હઝરતે માં ખદીજતુલ કુબ્રા કે મઝાર કે કરીબ મઝાર હૈ",
+                "hi": "हज़रत ख़्वाजा फ़ुज़ैल बिन अयाज़ चिश्ती सिलसिले के बड़े बुज़ुर्ग; जन्नतुल मुअल्ला में हज़रते माँ ख़दीजतुल कुबरा के मज़ार के क़रीब मज़ार है",
+                "sw": "Hazrat Khwaja Fuzail bin Iyaz, mzee mkubwa wa silsila ya Chishti; kaburi lake tukufu [Mazar] liko Jannat-ul-Mu'alla karibu na Mazar ya Hazrat Ma Khadijat-ul-Kubra.",
+                "ar": "حضرة الخواجة فضيل بن عياض من أكابر مشايخ الطريقة الجشتية؛ مزاره الشريف في جنة المعلى بالقرب من مزار أم المؤمنين السيدة خديجة الكبرى رضي الله عنها.",
+                "ur": "حضرت خواجہ فضیل بن عیاض چشتی سلسلے کے بڑے بزرگ؛ جنت المعلیٰ میں حضرت ماں خدیجۃ الکبریٰ کے مزار کے قریب مزار ہے"
+              }
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "events": [
+            {
+              "id": "m03_d05_e01",
+              "description": {
+                "en": "Syeda Sakina alias Ruqayyah, daughter of Hazrat Imam Hussain (Radiyallahu Anha) (Mazar Sharif in Syria).",
+                "gu": "સૈયદા એ શકિના ઉર્ફે રુકૈયા બિન્ને હઝરતે ઇમામ હુસૈન રદિયલ્લાહો અન્હો (મઝાર શરીફ સિરિયા)",
+                "hi": "सैयदा सकीना उर्फ़ रुक़ैया बिन्ते हज़रते इमाम हुसैन रदियल्लाहु अन्हा (मज़ार शरीफ़, सीरिया)",
+                "sw": "Syeda Sakina maarufu kama Ruqayyah binti Hazrat Imam Hussain (Radiyallahu Anha) (Mazar Sharif iko Syria).",
+                "ar": "السيدة سكينة الملقبة برقية بنت الإمام الحسين رضي الله عنها (مزارها الشريف في سوريا).",
+                "ur": "سیدہ سکینہ عرف رقیہ بنتِ حضرت امام حسین رضی اللہ عنہا (مزار شریف، سیریا)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "events": [
+            {
+              "id": "m03_d09_e01",
+              "description": {
+                "en": "Hazrat Peer Syed Fazil Shah Bawa (Rahmatullahi Alaih) (Younger son of Peer Mashayikh Bawa) (Mehrauli, Delhi).",
+                "gu": "હઝરત પીર સૈયદ ફાઝીલ શાહ બાવા રહમતુલ્લાહિ અલૈહ (પીર મશાયખ બાવા કે છોટે બેટે) (દિલ્હી મેહરોલી)",
+                "hi": "हज़रत पीर सैयद फ़ाज़िल शाह बावा रहमतुल्लाहि अलैह (पीर मशायख़ बावा के छोटे बेटे) (महरौली, दिल्ली)",
+                "sw": "Hazrat Peer Syed Fazil Shah Bawa (Rahmatullahi Alaih) (Mwana mdogo wa Peer Mashayikh Bawa) (Mehrauli, Delhi).",
+                "ar": "حضرة بير سيد فاضل شاه باوا رحمه الله (الابن الأصغر لبير مشايخ باوا) (مهرولي، دلهي).",
+                "ur": "حضرت پیر سید فاضل شاہ باوا رحمۃ اللہ علیہ (پیر مشائخ باوا کے چھوٹے بیٹے) (مہرولی، دہلی)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "events": [
+            {
+              "id": "m03_d12_e01",
+              "description": {
+                "en": "Birth (Wiladat) of Huzoor Rahmat-e-Aalam ﷺ, and the passing away (Wisal) of Sarkar ﷺ also occurred on this very day.",
+                "gu": "વિલાદત એ હુઝુર રેહમતે આલમﷺ ઔર વિસાલ ભી સરકાર ﷺ કા આજકે દિન હી હૈ",
+                "hi": "विलादते हुज़ूर रहमते आलम ﷺ और विसाल भी सरकार ﷺ का आज के दिन ही है",
+                "sw": "Kuzaliwa (Wiladat) kwa Huzoor Rahmat-e-Aalam ﷺ, na kufariki (Wisal) kwa Sarkar ﷺ pia kulitokea siku hii hii.",
+                "ar": "ولادة رسول الله رحمة للعالمين ﷺ، كما كان وصاله ﷺ في هذا اليوم نفسه.",
+                "ur": "ولادتِ حضور رحمتِ عالم ﷺ اور وصال بھی سرکار ﷺ کا آج کے دن ہی ہے"
+              }
+            },
+            {
+              "id": "m03_d12_e02",
+              "description": {
+                "en": "Hazrat Makhdoom Alauddin Ali Ahmad Sabir Pak (Rahmatullahi Alaih) (Kaliyar Sharif, Uttarakhand).",
+                "gu": "હઝરત એ મખઘૂમ અલાઉદ્દીન અલી અહમદ સાબીર પાક રહમતુલ્લાહિ અલૈહ (કલીયર શરીફ ઉત્તરાખંડ)",
+                "hi": "हज़रते मख़दूम अलाउद्दीन अली अहमद साबिर पाक रहमतुल्लाहि अलैह (कलियर शरीफ़, उत्तराखंड)",
+                "sw": "Hazrat Makhdoom Alauddin Ali Ahmad Sabir Pak (Rahmatullahi Alaih) (Kaliyar Sharif, Uttarakhand).",
+                "ar": "حضرة مخدوم علاء الدين علي أحمد صابر باك رحمه الله (كلير شريف، أوتاراخند).",
+                "ur": "حضرت مخدوم علاؤالدین علی احمد صابر پاک رحمۃ اللہ علیہ (کلیر شریف، اتراکھنڈ)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "events": [
+            {
+              "id": "m03_d13_e01",
+              "description": {
+                "en": "Hazrat Khwaja Abu Ishaq Shami Chishti (Rahmatullahi Alaih) (Herat, Afghanistan).",
+                "gu": "હઝરત ખ્વાજા અબુ ઈશહાક સામી ચિશ્તી રહમતુલ્લાહિ અલૈહ(હેરાત અફઘાનિસ્તાન)",
+                "hi": "हज़रत ख़्वाजा अबू इसहाक़ शामी चिश्ती रहमतुल्लाहि अलैह (हेरात, अफ़ग़ानिस्तान)",
+                "sw": "Hazrat Khwaja Abu Ishaq Shami Chishti (Rahmatullahi Alaih) (Herat, Afghanistan).",
+                "ar": "حضرة الخواجة أبو إسحاق الشامي الجشتي رحمه الله (هراة، أفغانستان).",
+                "ur": "حضرت خواجہ ابو اسحاق شامی چشتی رحمۃ اللہ علیہ (ہرات، افغانستان)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "events": [
+            {
+              "id": "m03_d14_e01",
+              "description": {
+                "en": "Hazrat Khwaja Qutbuddin Bakhtiyar Kaki (Rahmatullahi Alaih), Mehrauli, Delhi.",
+                "gu": "હઝરત ખ્વાજા કુતબુદ્દીન બખ્તીયાર કાકી રહમતુલ્લાહિ અલૈહ મેહરોલી દિલ્હી",
+                "hi": "हज़रत ख़्वाजा क़ुत्बुद्दीन बख़्तियार काकी रहमतुल्लाहि अलैह, महरौली, दिल्ली",
+                "sw": "Hazrat Khwaja Qutbuddin Bakhtiyar Kaki (Rahmatullahi Alaih), Mehrauli, Delhi.",
+                "ar": "حضرة الخواجة قطب الدين بختيار كاكي رحمه الله (مهرولي، دلهي).",
+                "ur": "حضرت خواجہ قطب الدین بختیار کاکی رحمۃ اللہ علیہ، مہرولی، دہلی"
+              }
+            },
+            {
+              "id": "m03_d14_e02",
+              "description": {
+                "en": "And Hazrat Peer Syed Bademiya Sarkar, son of Syed Mir Alam Shah (Rahmatullahi Alaih) (Relief Road, Patthar Kuva, residence of Mominshah Bawa).",
+                "gu": "વહઝરત પીર સૈયદ બડેમિયા સરકાર વલ્દ સૈયદ મીર આલમશાહ રહમતુલ્લાહિ અલૈહ (રિલીફ રોડ પથ્થર કુવા મોમીનશાહ બાવા કા ઘર",
+                "hi": "व हज़रत पीर सैयद बड़ेमियाँ सरकार वल्द सैयद मीर आलम शाह रहमतुल्लाहि अलैह (रिलीफ़ रोड, पत्थर कुआँ, मोमिनशाह बावा का घर)",
+                "sw": "Na Hazrat Peer Syed Bademiya Sarkar mwana wa Syed Mir Alam Shah (Rahmatullahi Alaih) (Relief Road, Patthar Kuva, makazi ya Mominshah Bawa).",
+                "ar": "وحضرة بير سيد بادي ميان سركار بن سيد مير عالم شاه رحمه الله (طريق ريليف، بتهر كوا، دار مؤمن شاه باوا).",
+                "ur": "و حضرت پیر سید بڑے میاں سرکار ولد سید میر عالم شاہ رحمۃ اللہ علیہ (ریلیف روڈ، پتھر کنواں، مومن شاہ باوا کا گھر)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "events": [
+            {
+              "id": "m03_d17_e01",
+              "description": {
+                "en": "Hazrat Noorshah Miyan, son of Hazrat Peer Sahab Bawa (Rahmatullahi Alaih) (Bhemal, Nawavas).",
+                "gu": "હઝરત નૂરશાહ મિયા વલ્થ હઝરત પીર સાહબ બાવા રહમતુલ્લાહિ અલૈહ (ભેમાલ નવાવાસ)",
+                "hi": "हज़रत नूरशाह मियाँ वल्द हज़रत पीर साहब बावा रहमतुल्लाहि अलैह (भेमाल, नवावास)",
+                "sw": "Hazrat Noorshah Miyan mwana wa Hazrat Peer Sahab Bawa (Rahmatullahi Alaih) (Bhemal, Nawavas).",
+                "ar": "حضرة نور شاه ميان بن حضرة بير صاحب باوا رحمه الله (بهيمال، نواواس).",
+                "ur": "حضرت نور شاہ میاں ولد حضرت پیر صاحب باوا رحمۃ اللہ علیہ (بھیمال، نواواس)"
+              }
+            },
+            {
+              "id": "m03_d17_e02",
+              "description": {
+                "en": "And Birth (Wiladat) of Hazrat Imam Ja'far al-Sadiq (Radiyallahu Anhu).",
+                "gu": "વવિલાદત હઝરત ઇમામ જાફર સાદિક રદિયલ્લાહો અન્હો",
+                "hi": "व विलादते हज़रत इमाम जाफ़र सादिक़ रदियल्लाहु अन्हु",
+                "sw": "Na Kuzaliwa (Wiladat) kwa Hazrat Imam Ja'far al-Sadiq (Radiyallahu Anhu).",
+                "ar": "وولادة الإمام جعفر الصادق رضي الله عنه.",
+                "ur": "و ولادتِ حضرت امام جعفر صادق رضی اللہ عنہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "events": [
+            {
+              "id": "m03_d19_e01",
+              "description": {
+                "en": "Birth (Wiladat) of Sabir Pak (Rahmatullahi Alaih).",
+                "gu": "વિલાદત એ સબીર પાક રહમતુલ્લાહિ અલૈહ",
+                "hi": "विलादते साबिर पाक रहमतुल्लाहि अलैह",
+                "sw": "Kuzaliwa (Wiladat) kwa Sabir Pak (Rahmatullahi Alaih).",
+                "ar": "ولادة حضرة صابر باك رحمه الله.",
+                "ur": "ولادتِ صابر پاک رحمۃ اللہ علیہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "events": [
+            {
+              "id": "m03_d22_e01",
+              "description": {
+                "en": "Hazrat Rabia Basri Qalandar (Rahmatullahi Alaiha).",
+                "gu": "હઝરત રાબીયા બસરી કલંદર રહમતુલ્લાહિ અલૈહ",
+                "hi": "हज़रत राबिया बसरी क़लंदर रहमतुल्लाहि अलैहा",
+                "sw": "Hazrat Rabia Basri Qalandar (Rahmatullahi Alaiha).",
+                "ar": "حضرة رابعة البصرية القلندرية رحمها الله.",
+                "ur": "حضرت رابعہ بصری قلندر رحمۃ اللہ علیہا"
+              }
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "events": [
+            {
+              "id": "m03_d25_e01",
+              "description": {
+                "en": "Hazrat Peer Syed Najmuddin, son of Hazrat Peer Sadullah (Rahmatullahi Alaih) (Peer Mashayikh Bawa Compound, near the city fort wall).",
+                "gu": "હઝરત પીર સૈયદ નજમુદ્દીન વલ્ક હઝરત પીર સદુલ્લાહ રહમતુલ્લાહિ અલૈહ (પીર મશાયખ બાવા કંપાઉન્ડ કોટ કી દિવાળ પાસ)",
+                "hi": "हज़रत पीर सैयद नजमुद्दीन वल्द हज़रत पीर सदुल्लाह रहमतुल्लाहि अलैह (पीर मशायख़ बावा कंपाउंड, कोट की दीवार के पास)",
+                "sw": "Hazrat Peer Syed Najmuddin mwana wa Hazrat Peer Sadullah (Rahmatullahi Alaih) (Eneo la Peer Mashayikh Bawa, karibu na ukuta wa ngome).",
+                "ar": "حضرة بير سيد نجم الدين بن حضرة بير سعد الله رحمه الله (مجمع بير مشايخ باوا، بالقرب من سور القلعة).",
+                "ur": "حضرت پیر سید نجم الدین ولد حضرت پیر سعد اللہ رحمۃ اللہ علیہ (پیر مشائخ باوا کمپاؤنڈ، کوٹ کی دیوار کے پاس)"
+              }
+            },
+            {
+              "id": "m03_d25_e02",
+              "description": {
+                "en": "Urs of Hazrat Lal Shahbaz Qalandar (Rahmatullahi Alaih) (Sehwan Sharif, Sindh).",
+                "gu": "ઉર્સ હઝરત લાલ શાહબાઝ કલંદર રહમતુલ્લાહિ અલૈહ (સેવણ શરીફ સિંધ)",
+                "hi": "उर्स हज़रत लाल शाहबाज़ क़लंदर रहमतुल्लाहि अलैह (सेहवन शरीफ़, सिंध)",
+                "sw": "Urs ya Hazrat Lal Shahbaz Qalandar (Rahmatullahi Alaih) (Sehwan Sharif, Sindh).",
+                "ar": "عرس حضرة لعل شهباز قلندر رحمه الله (سهوان شريف، السند).",
+                "ur": "عرس حضرت لعل شہباز قلندر رحمۃ اللہ علیہ (سیہون شریف، سندھ)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 28,
+          "events": [
+            {
+              "id": "m03_d28_e01",
+              "description": {
+                "en": "Hazrat Chhote Sahab, son of Peer Sahab Bawa (Rahmatullahi Alaih) (Qasamshah Compound, Ahmedabad).",
+                "gu": "હઝરત છોટે સાહબ વહ્દ પીર સાહબ બાવા રહમતુલ્લાહિ અલૈહ (કાસમશાહ કંપાઉન્ડ અહમદાબાદ)",
+                "hi": "हज़रत छोटे साहब वल्द पीर साहब बावा रहमतुल्लाहि अलैह (क़ासमशाह कंपाउंड, अहमदाबाद)",
+                "sw": "Hazrat Chhote Sahab mwana wa Peer Sahab Bawa (Rahmatullahi Alaih) (Qasamshah Compound, Ahmedabad).",
+                "ar": "حضرة جهوتي صاحب بن بير صاحب باوا رحمه الله (مجمع قاسم شاه، أحمد آباد).",
+                "ur": "حضرت چھوٹے صاحب ولد پیر صاحب باوا رحمۃ اللہ علیہ (قاسم شاہ کمپاؤنڈ، احمد آباد)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 29,
+          "events": [
+            {
+              "id": "m03_d29_e01",
+              "description": {
+                "en": "Hazrat Peer Syed Abutalib, son of Syed Diwanji Bawa (Rahmatullahi Alaih) (Peer Mashayikh Compound).",
+                "gu": "હઝરત પીર સૈયદ અબુતાલિબ વહ્દ સૈયદ દિવાનજી બાવા રહમતુલ્લાહિ અલૈહ(પીર મશાયખ કંપાઉન્ડ)",
+                "hi": "हज़रत पीर सैयद अबू तालिब वल्द सैयद दीवानजी बावा रहमतुल्लाहि अलैह (पीर मशायख़ कंपाउंड)",
+                "sw": "Hazrat Peer Syed Abutalib mwana wa Syed Diwanji Bawa (Rahmatullahi Alaih) (Eneo la Peer Mashayikh).",
+                "ar": "حضرة بير سيد أبو طالب بن سيد ديوانجي باوا رحمه الله (مجمع بير مشايخ).",
+                "ur": "حضرت پیر سید ابوطالب ولد سید دیوانجی باوا رحمۃ اللہ علیہ (پیر مشائخ کمپاؤنڈ)"
+              }
+            },
+            {
+              "id": "m03_d29_e02",
+              "description": {
+                "en": "Mother of the Believers (Umm-ul-Mu'minin) Ma Juwayriyah (Radiyallahu Anha) (Madinah Sharif).",
+                "gu": "ઉમ્મુલ મોઅમેનિન માં ઝુવૈરિયહ રદિયલ્લાહો અન્હા (મદીના શરીફ)",
+                "hi": "उम्मुल मोमिनीन माँ जुवैरिया रदियल्लाहु अन्हा (मदीना शरीफ़)",
+                "sw": "Mama wa Waumini (Umm-ul-Mu'minin) Ma Juwayriyah (Radiyallahu Anha) (Madinah Sharif).",
+                "ar": "أم المؤمنين السيدة جويرية بنت الحارث رضي الله عنها (المدينة المنورة).",
+                "ur": "ام المومنین ماں جویریہ رضی اللہ عنہا (مدینہ شریف)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "events": [
+            {
+              "id": "m03_d30_e01",
+              "description": {
+                "en": "Hazrat Syed Mirbaba, son of Syed Diwanji Bawa (Rahmatullahi Alaih) (Village Meta, Taluka Palanpur).",
+                "gu": "હઝરત સૈયદ મીરબાબા વર્લ્ડ સૈયદ દિવાનજી બાવા રહમતુલ્લાહિ અલૈહ (ગામ મેતા તાલુકા પાલનપુર)",
+                "hi": "हज़रत सैयद मीरबाबा वल्द सैयद दीवानजी बावा रहमतुल्लाहि अलैह (गाँव मेता, तालुका पालनपुर)",
+                "sw": "Hazrat Syed Mirbaba mwana wa Syed Diwanji Bawa (Rahmatullahi Alaih) (Kijiji cha Meta, Taluka Palanpur).",
+                "ar": "حضرة سيد مير بابا بن سيد ديوانجي باوا رحمه الله (قرية ميتا، تالوكا بالانبور).",
+                "ur": "حضرت سید میر بابا ولد سید دیوانجی باوا رحمۃ اللہ علیہ (گاؤں میتا، تعلقہ پالن پور)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month": 4,
+      "id": "rabi_ul_akhir",
+      "name": {
+        "en": "Rabi-ul-Akhir",
+        "gu": "રબી-ઉલ- આખ઼િર",
+        "hi": "रबी-उल-आख़िर",
+        "sw": "Rabi-ul-Akhir",
+        "ar": "ربيع الآخر",
+        "ur": "ربیع الآخر"
+      },
+      "heading": {
+        "en": "Events of the Month of Rabi-ul-Akhir\nDates of Passing (Wisal) of Revered Mashayikh Elders",
+        "gu": "વાંકીઆતે માંહે રબીઉલ આખિર\nમશાયખી બુઝુર્ગો કી વિસાલ કી તારીખ",
+        "hi": "वाक़िआते माहे रबी-उल-आख़िर\nमशायख़ी बुज़ुर्गों की विसाल की तारीख़",
+        "sw": "Matukio ya Mwezi wa Rabi-ul-Akhir\nTarehe za Kufariki (Wisal) kwa Wazee Watukufu wa Mashayikh",
+        "ar": "وقائع شهر ربيع الآخر\nتواريخ وصال المشايخ الكرام",
+        "ur": "واقعاتِ ماہِ ربیع الآخر\nمشائخی بزرگوں کی وصال کی تاریخ"
+      },
+      "days": [
+        {
+          "day": 2,
+          "events": [
+            {
+              "id": "m04_d02_e01",
+              "description": {
+                "en": "Hazrat Peer Syed Mominshah Bawa (Rahmatullahi Alaih).",
+                "gu": "હઝરત પીર સૈયદ મોમીનશાહ બાવા રહમતુલ્લાહિ અલયહ ",
+                "hi": "हज़रत पीर सैयद मोमिनशाह बावा रहमतुल्लाहि अलैह",
+                "sw": "Hazrat Peer Syed Mominshah Bawa (Rahmatullahi Alaih).",
+                "ar": "حضرة بير سيد مؤمن شاه باوا رحمه الله.",
+                "ur": "حضرت پیر سید مومن شاہ باوا رحمۃ اللہ علیہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "events": [
+            {
+              "id": "m04_d03_e01",
+              "description": {
+                "en": "Passing away (Wisal) of Mother of the Believers (Umm-ul-Mu'minin) Hazrat Umm Salama (Salamullah Alaiha).",
+                "gu": "વિસાલે ઉમ્મુલ મોઅમિનીન હઝરતે ઉમ્મે સલમા સલામુલ્લા",
+                "hi": "विसाले उम्मुल मोमिनीन हज़रते उम्मे सलमा सलामुल्लाहि अलैहा",
+                "sw": "Kufariki (Wisal) kwa Mama wa Waumini (Umm-ul-Mu'minin) Hazrat Umm Salama (Salamullah Alaiha).",
+                "ar": "وصال أم المؤمنين السيدة أم سلمة رضي الله عنها وسلام الله عليها.",
+                "ur": "وصالِ ام المومنین حضرت ام سلمہ سلام اللہ علیہا"
+              }
+            },
+            {
+              "id": "m04_d03_e02",
+              "description": {
+                "en": "Janab Syeda Miran Bibi (Rahmatullahi Alaiha) (Wife of Hazrat Peer Syed Mirumiya Bawa).",
+                "gu": "જનાબે સૈયદા મીરન બીબી રહમતુલ્લાહિ અલયહાં (હઝરત પીર સૈયદ મીરુમિયા બાવા કે અહેલિયા)",
+                "hi": "जनाबे सैयदा मीरन बीबी रहमतुल्लाहि अलैहा (हज़रत पीर सैयद मीरूमियाँ बावा की अहलिया)",
+                "sw": "Janab Syeda Miran Bibi (Rahmatullahi Alaiha) (Mke wa Hazrat Peer Syed Mirumiya Bawa).",
+                "ar": "جناب السيدة ميران بيبي رحمها الله (زوجة حضرة بير سيد ميروميان باوا).",
+                "ur": "جناب سیدہ میرن بی بی رحمۃ اللہ علیہا (حضرت پیر سید میرو میاں باوا کی اہلیہ)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "events": [
+            {
+              "id": "m04_d04_e01",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Abu Ishaq Shami Chishti (Rahmatullahi Alaih).",
+                "gu": "વિસાલે હઝરત અબુ ઇશ્તાક સામી ચિશ્તી રહમતુલ્લાહિ અલયહ",
+                "hi": "विसाले हज़रत अबू इसहाक़ शामी चिश्ती रहमतुल्लाहि अलैह",
+                "sw": "Kufariki (Wisal) kwa Hazrat Abu Ishaq Shami Chishti (Rahmatullahi Alaih).",
+                "ar": "وصال حضرة أبو إسحاق الشامي الجشتي رحمه الله.",
+                "ur": "وصالِ حضرت ابو اسحاق شامی چشتی رحمۃ اللہ علیہ"
+              }
+            },
+            {
+              "id": "m04_d04_e02",
+              "description": {
+                "en": "And Janab Syeda Bibima Saheba, Surat (Rahmatullahi Alaiha) (Wife of Hazrat Peer Syed Durvesh Ali, son of Najmuddin Bawa, Rahmatullahi Alaih).",
+                "gu": "વજનાબે સૈયદા બીબીમાં સાહેબા સુરત રહમતુલ્લાહિ અલયહા (હઝરત પીર સૈયદ દુરવેશ અલી વહ્દ નજમુદ્દીન બાવા રહમતુલ્લાહિ અલયહ કે અહેલિયા)",
+                "hi": "व जनाबे सैयदा बीबीमाँ साहेबा, सूरत रहमतुल्लाहि अलैहा (हज़रत पीर सैयद दुर्वेश अली वल्द नजमुद्दीन बावा रहमतुल्लाहि अलैह की अहलिया)",
+                "sw": "Na Janab Syeda Bibima Saheba, Surat (Rahmatullahi Alaiha) (Mke wa Hazrat Peer Syed Durvesh Ali mwana wa Najmuddin Bawa, Rahmatullahi Alaih).",
+                "ar": "وجناب السيدة بيبي مان صاحبة، سورت رحمها الله (زوجة حضرة بير سيد درويش علي بن نجم الدين باوا رحمه الله).",
+                "ur": "و جناب سیدہ بی بی ماں صاحبہ، سورت رحمۃ اللہ علیہا (حضرت پیر سید درویش علی ولد نجم الدین باوا رحمۃ اللہ علیہ کی اہلیہ)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "events": [
+            {
+              "id": "m04_d09_e01",
+              "description": {
+                "en": "Hazrat Imam Malik (Radiyallahu Ta'ala Anhu).",
+                "gu": "હઝરતે ઈમામ માલિક રદિયલ્લાહો તઆલા અન્હો ",
+                "hi": "हज़रते इमाम मालिक रदियल्लाहु तआला अन्हु",
+                "sw": "Hazrat Imam Malik (Radiyallahu Ta'ala Anhu).",
+                "ar": "الإمام مالك بن أنس رضي الله تعالى عنه.",
+                "ur": "حضرت امام مالک رضی اللہ تعالیٰ عنہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "events": [
+            {
+              "id": "m04_d10_e01",
+              "description": {
+                "en": "Birth (Wiladat) of Hazrat Syeduna Imam Hasan al-Askari (Radiyallahu Ta'ala Anhu) (11th Imam).",
+                "gu": "વિલાદતે હઝરતે સૈયદુના ઈમામ હસન અસ્કરી રદિયલ્લાહો તઆલા અન્હો (11 વે ઈમામ)",
+                "hi": "विलादते हज़रते सैयदुना इमाम हसन असकरी रदियल्लाहु तआला अन्हु (11वें इमाम)",
+                "sw": "Kuzaliwa (Wiladat) kwa Hazrat Syeduna Imam Hasan al-Askari (Radiyallahu Ta'ala Anhu) (Imam wa 11).",
+                "ar": "ولادة سيدنا الإمام الحسن العسكري رضي الله تعالى عنه (الإمام الحادي عشر).",
+                "ur": "ولادتِ حضرت سیدنا امام حسن عسکری رضی اللہ تعالیٰ عنہ (گیارہویں امام)"
+              }
+            },
+            {
+              "id": "m04_d10_e02",
+              "description": {
+                "en": "Hazrat Imam Ahmad bin Hanbal (Radiyallahu Ta'ala Anhu).",
+                "gu": "હઝરતે ઈમામ અહમદ બિન હમ્બલ રદિયલ્લાહો તઆલા અન્હો ",
+                "hi": "हज़रते इमाम अहमद बिन हम्बल रदियल्लाहु तआला अन्हु",
+                "sw": "Hazrat Imam Ahmad bin Hanbal (Radiyallahu Ta'ala Anhu).",
+                "ar": "الإمام أحمد بن حنبل رضي الله تعالى عنه.",
+                "ur": "حضرت امام احمد بن حنبل رضی اللہ تعالیٰ عنہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "events": [
+            {
+              "id": "m04_d11_e01",
+              "description": {
+                "en": "Gyarvi Sharif of Huzoor Ghaus-e-Azam Dastagir (Radiyallahu Anhu).",
+                "gu": "ગયારવી શરીફ હુઝુર ગૌષે આઝમ દસ્તગીર રદિયલ્લાહોઅન્હો",
+                "hi": "ग्यारहवीं शरीफ़ हुज़ूर ग़ौसे आज़म दस्तगीर रदियल्लाहु अन्हु",
+                "sw": "Gyarvi Sharif ya Huzoor Ghaus-e-Azam Dastagir (Radiyallahu Anhu).",
+                "ar": "الذكرى الحادية عشرة (كياروين شريف) لحضرة الغوث الأعظم دستكير رضي الله عنه.",
+                "ur": "گیارہویں شریف حضور غوثِ اعظم دستگیر رضی اللہ عنہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "events": [
+            {
+              "id": "m04_d17_e01",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Peeran-e-Peer Miran Muhyiddin Abdul Qadir Jilani Ghaus-e-Pak (Radiyallahu Ta'ala Anhu) (Baghdad Sharif).",
+                "gu": "વિસાલે હઝરતે પીરે પીરા મીરાં મોહયુદ્દીન અબ્દુલ કાદિર જીલાન ગૌષે પાક રદિયલ્લાહો તઆલા અન્હો (બગદાદ શરીફ)",
+                "hi": "विसाले हज़रते पीरे पीराँ मीराँ मुहियुद्दीन अब्दुल क़ादिर जीलानी ग़ौसे पाक रदियल्लाहु तआला अन्हु (बग़दाद शरीफ़)",
+                "sw": "Kufariki (Wisal) kwa Hazrat Peeran-e-Peer Miran Muhyiddin Abdul Qadir Jilani Ghaus-e-Pak (Radiyallahu Ta'ala Anhu) (Baghdad Sharif).",
+                "ar": "وصال حضرة سلطان الأولياء محيي الدين عبد القادر الجيلاني الغوث الأعظم رضي الله تعالى عنه (بغداد الشريف).",
+                "ur": "وصالِ حضرت پیرانِ پیر میراں محی الدین عبدالقادر جیلانی غوثِ پاک رضی اللہ تعالیٰ عنہ (بغداد شریف)"
+              }
+            },
+            {
+              "id": "m04_d17_e02",
+              "description": {
+                "en": "And Sacred Urs of Hazrat Khwaja Nizamuddin Auliya Mahboob-e-Ilahi (Rahmatullahi Alaih) (Delhi).",
+                "gu": "વઉર્સ એ પાક હઝરતે ખ્વાજા નિઝામુદ્દીન ઔલિયા મેહબુબે ઈલાહી રહમતુલ્લાહિ અલયહ (દિલ્હી)",
+                "hi": "व उर्से पाक हज़रते ख़्वाजा निज़ामुद्दीन औलिया महबूबे इलाही रहमतुल्लाहि अलैह (दिल्ली)",
+                "sw": "Na Urs tukufu ya Hazrat Khwaja Nizamuddin Auliya Mahboob-e-Ilahi (Rahmatullahi Alaih) (Delhi).",
+                "ar": "والعرس المبارك لحضرة الخواجة نظام الدين أولياء محبوب إلهي رحمه الله (دلهي).",
+                "ur": "و عرسِ پاک حضرت خواجہ نظام الدین اولیاء محبوبِ الٰہی رحمۃ اللہ علیہ (دہلی)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "events": [
+            {
+              "id": "m04_d22_e01",
+              "description": {
+                "en": "Birth (Wiladat) of the First Caliph, Hazrat Amir-ul-Mu'minin Syeduna Hazrat Abu Bakr Siddiq (Radiyallahu Ta'ala Anhu).",
+                "gu": "વિલાદતે ખલીફા એ અવ્વલ હઝરતે અમીરુલ મોઅમેનીન સૈયદુના હઝરત અબુબક્ર સિદ્દીક રદિયલ્લાહો તઆલા અન્હો",
+                "hi": "विलादते ख़लीफ़ा-ए-अव्वल हज़रते अमीरुल मोमिनीन सैयदुना हज़रत अबू बक्र सिद्दीक़ रदियल्लाहु तआला अन्हु",
+                "sw": "Kuzaliwa (Wiladat) kwa Khalifa wa Kwanza, Hazrat Amir-ul-Mu'minin Syeduna Hazrat Abu Bakr Siddiq (Radiyallahu Ta'ala Anhu).",
+                "ar": "ولادة الخليفة الأول أمير المؤمنين سيدنا أبي بكر الصديق رضي الله تعالى عنه.",
+                "ur": "ولادتِ خلیفۂ اول حضرت امیر المومنین سیدنا حضرت ابوبکر صدیق رضی اللہ تعالیٰ عنہ"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month": 5,
+      "id": "jumada_ul_ula",
+      "name": {
+        "en": "Jumada-ul-Ula",
+        "gu": "જુમાદલ ઉલા",
+        "hi": "जुमादल ऊला",
+        "sw": "Jumada-ul-Ula",
+        "ar": "جمادى الأولى",
+        "ur": "جمادی الاولیٰ"
+      },
+      "heading": {
+        "en": "Events of the Month of Jumada-ul-Ula\nDates of Passing (Wisal) of Revered Mashayikh Elders",
+        "gu": "વાકીઆતે માંહે જમાદી-ઉલ-અવ્વલ  \nમશાયખી બુઝુર્ગો કી વિસાલ કી તારીખ",
+        "hi": "वाक़िआते माहे जमादी-उल-अव्वल\nमशायख़ी बुज़ुर्गों की विसाल की तारीख़",
+        "sw": "Matukio ya Mwezi wa Jumada-ul-Ula\nTarehe za Kufariki (Wisal) kwa Wazee Watukufu wa Mashayikh",
+        "ar": "وقائع شهر جمادى الأولى\nتواريخ وصال المشايخ الكرام",
+        "ur": "واقعاتِ ماہِ جمادی الاولیٰ\nمشائخی بزرگوں کی وصال کی تاریخ"
+      },
+      "days": [
+        {
+          "day": 6,
+          "events": [
+            {
+              "id": "m05_d06_e01",
+              "description": {
+                "en": "Urs of Hazrat Peer Syed Qasim Ali Bawa (Rahmatullahi Alaih) (Dholka).",
+                "gu": "ઉર્સ હઝરત પીર સૈયદ કાસીમ અલી બાવા રહમતુલ્લાહિ અલૈહ (ધોળકા)",
+                "hi": "उर्स हज़रत पीर सैयद क़ासिम अली बावा रहमतुल्लाहि अलैह (धोलका)",
+                "sw": "Urs ya Hazrat Peer Syed Qasim Ali Bawa (Rahmatullahi Alaih) (Dholka).",
+                "ar": "عرس حضرة بير سيد قاسم علي باوا رحمه الله (دهولكا).",
+                "ur": "عرس حضرت پیر سید قاسم علی باوا رحمۃ اللہ علیہ (دھولکہ)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "events": [
+            {
+              "id": "m05_d15_e01",
+              "description": {
+                "en": "Janab Syeda Ma Khanam, daughter of Syed Najmuddin, son of Syed Sadullah alias Mirbaba (Rahmatullahi Alaiha) (Mazar Sharif at Ma Khanam Mohalla, behind Peer Muhammad Shah Rauza, Ahmedabad) (She was the wife [Ahl-e-Khana] of Hazrat Syed Bademiya Bawa [Rahmatullahi Alaih], whose Mazar Sharif is at Patthar Kuva, Ahmedabad).",
+                "gu": "જનાબે સૈયદા માં ખાનમ બિન્તે સૈયદ નજમુદ્દીન વલ્દે સૈયદ સાદુલ્લાહ ઉર્ફે મીરબાબા રહમતુલ્લાહિ અલૈહા (મઝાર શરીફ માં ખાનમ મોહલત પીર મુહંમદશાહ રોઝે કે પીછે અહમદાબાદ) (આપ હઝરત સૈયદ બડેમીયા બાવા રહમતુલ્લાહિ અલૈહ (મઝાર શરીફ પથ્થરકુવા અહમદાબાદ) કે અહેલિયા (બીબી) હો)",
+                "hi": "जनाबे सैयदा माँ ख़ानम बिन्ते सैयद नजमुद्दीन वल्द सैयद सादुल्लाह उर्फ़ मीरबाबा रहमतुल्लाहि अलैहा (मज़ार शरीफ़: माँ ख़ानम मोहल्ला, पीर मुहम्मद शाह रौज़े के पीछे, अहमदाबाद) (आप हज़रत सैयद बड़ेमियाँ बावा रहमतुल्लाहि अलैह [मज़ार शरीफ़: पत्थर कुआँ, अहमदाबाद] की अहलिया [बीबी] हैं)",
+                "sw": "Janab Syeda Ma Khanam binti Syed Najmuddin mwana wa Syed Sadullah maarufu kama Mirbaba (Rahmatullahi Alaiha) (Mazar Sharif iko Ma Khanam Mohalla, nyuma ya Rauza ya Peer Muhammad Shah, Ahmedabad) (Alikuwa mke wa Hazrat Syed Bademiya Bawa [Rahmatullahi Alaih], ambaye Mazar Sharif yake iko Patthar Kuva, Ahmedabad).",
+                "ar": "جناب السيدة مان خانم بنت سيد نجم الدين بن سيد سعد الله الملقب بمير بابا رحمها الله (مزارها الشريف في حي مان خانم خلف روضة بير محمد شاه، أحمد آباد) (وهي زوجة حضرة سيد بادي ميان باوا رحمه الله الذي يقع مزاره الشريف في بتهر كوا، أحمد آباد).",
+                "ur": "جناب سیدہ ماں خانم بنتِ سید نجم الدین ولد سید سعد اللہ عرف میر بابا رحمۃ اللہ علیہا (مزار شریف ماں خانم محلہ، پیر محمد شاہ روضے کے پیچھے، احمد آباد) (آپ حضرت سید بڑے میاں باوا رحمۃ اللہ علیہ [مزار شریف پتھر کنواں، احمد آباد] کی اہلیہ ہیں)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "events": [
+            {
+              "id": "m05_d16_e01",
+              "description": {
+                "en": "Janab Syeda Maji Amma Ladli Bibi (Rahmatullahi Alaiha) (Mazar at Badi Dargah Sharif, Surat) (She was the wife of Hazrat Peer Syed Najumiya Bawa, Dholka).",
+                "gu": "જનાબે સૈયદા માજી અમ્મા લાડલી બીબી રહમતુલ્લાહિ અલૈહા {મઝાર બડી દરગાહ શરીફ સુરત) (આપ હઝરત પીર સૈયદ નજુમિયા બાવા (ધોળકા) કે અહેલિયા (બીબી) હો)",
+                "hi": "जनाबे सैयदा माजी अम्मा लाडली बीबी रहमतुल्लाहि अलैहा (मज़ार: बड़ी दरगाह शरीफ़, सूरत) (आप हज़रत पीर सैयद नजुमियाँ बावा [धोलका] की अहलिया [बीबी] हैं)",
+                "sw": "Janab Syeda Maji Amma Ladli Bibi (Rahmatullahi Alaiha) (Mazar iko Badi Dargah Sharif, Surat) (Alikuwa mke wa Hazrat Peer Syed Najumiya Bawa, Dholka).",
+                "ar": "جناب السيدة ماجي أما لادلي بيبي رحمها الله (مزارها في بادي دركاه شريف، سورت) (وهي زوجة حضرة بير سيد نجميان باوا، دهولكا).",
+                "ur": "جناب سیدہ ماجی اماں لاڈلی بی بی رحمۃ اللہ علیہا (مزار بڑی درگاہ شریف، سورت) (آپ حضرت پیر سید نجمیاں باوا [دھولکہ] کی اہلیہ ہیں)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "events": [
+            {
+              "id": "m05_d18_e01",
+              "description": {
+                "en": "Hazrat Peer Syed Nizamuddin alias Jivamiyan, son of Hazrat Najmuddin Bawa (Rahmatullahi Alaih) (Passing away [Wisal] occurred on 17-2-1854, 1270 Hijri; Mazar Sharif is at Dargah-e-Peer Mashayikh Bawa towards the east side along the wall, beside his father) (He was the father of Hazrat Peer Sahab Bawa [Nawavas] and grandfather of Mirumiya Bawa [Wankaner]).",
+                "gu": "હઝરત પીર સૈયદ નિઝામુદ્દીન ઉર્ફે જીવામિયાં વર્લ્ડ હઝરત નજમુદ્દીન બાવા રહમતુલ્લાહિ અલૈહ (વિસાલ તારીખ 17-2-1854 હિજરી 1270 હુવા મઝાર શરીફ દરગાહે પીર મશાયખ બાવા પૂર્વ દિશા કી ઔર દીવાર સાથ અપને વાલીદ કે બાજુ મેં હૈ (આપ હઝરત પીર સાહબ બાવા (નવાવાસ) કે વાલીદ ઔર મીરુમિયા બાવા (વાંકાનેર) કે દાદા હો)",
+                "hi": "हज़रत पीर सैयद निज़ामुद्दीन उर्फ़ जीवामियाँ वल्द हज़रत नजमुद्दीन बावा रहमतुल्लाहि अलैह (विसाल तारीख़ 17-2-1854, हिजरी 1270 को हुआ; मज़ार शरीफ़: दरगाहे पीर मशायख़ बावा में पूर्व दिशा की ओर दीवार के साथ अपने वालिद के बाजू में है) (आप हज़रत पीर साहब बावा [नवावास] के वालिद और मीरूमियाँ बावा [वांकानेर] के दादा हैं)",
+                "sw": "Hazrat Peer Syed Nizamuddin maarufu kama Jivamiyan mwana wa Hazrat Najmuddin Bawa (Rahmatullahi Alaih) (Kufariki [Wisal] kulitokea 17-2-1854, 1270 Hijria; Mazar Sharif iko Dargah-e-Peer Mashayikh Bawa upande wa mashariki karibu na ukuta, kando ya baba yake) (Alikuwa baba wa Hazrat Peer Sahab Bawa [Nawavas] na babu wa Mirumiya Bawa [Wankaner]).",
+                "ar": "حضرة بير سيد نظام الدين الملقب بجيوا ميان بن حضرة نجم الدين باوا رحمه الله (توفي في ١٧-٢-١٨٥٤ الموافق ١٢٧٠ هـ؛ ومزاره الشريف في دركاه بير مشايخ باوا جهة الشرق بمحاذاة الجدار بجانب والده) (وهو والد حضرة بير صاحب باوا [نواواس] وجد ميروميان باوا [وانكانير]).",
+                "ur": "حضرت پیر سید نظام الدین عرف جیوا میاں ولد حضرت نجم الدین باوا رحمۃ اللہ علیہ (تاریخِ وصال 17-2-1854 مطابق 1270 ہجری؛ مزار شریف درگاہِ پیر مشائخ باوا میں مشرق کی جانب دیوار کے ساتھ اپنے والد کے بازو میں ہے) (آپ حضرت پیر صاحب باوا [نواواس] کے والد اور میرو میاں باوا [وانکانیر] کے دادا ہیں)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "events": [
+            {
+              "id": "m05_d19_e01",
+              "description": {
+                "en": "Hazrat Syed Badiuddin Qutb alias Zindashah Madar Naqshbandi (Rahmatullahi Alaih) (Makanpur, Kanpur).",
+                "gu": "હઝરત સૈયદ બદીઉદ્દીન કુતુબ ઉર્ફે ઝીંદાશાહ મદાર નકસબંદી રહમતુલ્લાહિ અલૈહ (મક્કન પુર કાનપુર)",
+                "hi": "हज़रत सैयद बदीउद्दीन क़ुत्ब उर्फ़ ज़िंदाशाह मदार नक़्शबंदी रहमतुल्लाहि अलैह (मकनपुर, कानपुर)",
+                "sw": "Hazrat Syed Badiuddin Qutb maarufu kama Zindashah Madar Naqshbandi (Rahmatullahi Alaih) (Makanpur, Kanpur).",
+                "ar": "حضرة سيد بديع الدين قطب الملقب بزندة شاه مدار النقشبندي رحمه الله (مكنبور، كانبور).",
+                "ur": "حضرت سید بدیع الدین قطب عرف زندہ شاہ مدار نقشبندی رحمۃ اللہ علیہ (مکن پور، کانپور)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "events": [
+            {
+              "id": "m05_d22_e01",
+              "description": {
+                "en": "Hazrat Peer Syed Durvesh Ali Bawa, son of Hazrat Syed Najumiya Bawa (Rahmatullahi Alaih) (Mazar Sharif at Badi Dargah Sharif, Surat).",
+                "gu": "હઝરત પીર સૈયદ દુર્વેશઅલી બાવા વલ્થ હઝરત સૈયદ નજુમિયા બાવા રહમતુલ્લાહિ અલૈહ (મઝાર શરીફ બડી દરગાહ શરીફ સુરત)",
+                "hi": "हज़रत पीर सैयद दुर्वेश अली बावा वल्द हज़रत सैयद नजुमियाँ बावा रहमतुल्लाहि अलैह (मज़ार शरीफ़: बड़ी दरगाह शरीफ़, सूरत)",
+                "sw": "Hazrat Peer Syed Durvesh Ali Bawa mwana wa Hazrat Syed Najumiya Bawa (Rahmatullahi Alaih) (Mazar Sharif iko Badi Dargah Sharif, Surat).",
+                "ar": "حضرة بير سيد درويش علي باوا بن حضرة سيد نجميان باوا رحمه الله (مزاره الشريف في بادي دركاه شريف، سورت).",
+                "ur": "حضرت پیر سید درویش علی باوا ولد حضرت سید نجمیاں باوا رحمۃ اللہ علیہ (مزار شریف بڑی درگاہ شریف، سورت)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "events": [
+            {
+              "id": "m05_d26_e01",
+              "description": {
+                "en": "Hazrat Peer Syed Moinuddin alias Mir Alam Shah (Rahmatullahi Alaih) (His passing date [Wisal] has also been recorded as the 21st and 27th lunar day) (Mazar Sharif is in the courtyard of Dargah-e-Peer Mashayikh Bawa Chishti).",
+                "gu": "હઝરત પીર સૈયદ મોઇનુદ્દીન ઉર્ફે મીરઆલમ શાહ રહમતુલ્લાહિ અલૈહ (આપકી વિસાલ કી તારીખ ચાંદ 21 ભી ઔર 27 ભી લિખી ગયી હૈ) મઝાર શરીફ દરગાહે પીર મશાયખ બાવા ચિશ્તી કે સહેન મેં",
+                "hi": "हज़रत पीर सैयद मोइनुद्दीन उर्फ़ मीर आलम शाह रहमतुल्लाहि अलैह (आपकी विसाल की तारीख़ चाँद 21 भी और 27 भी लिखी गई है) (मज़ार शरीफ़: दरगाहे पीर मशायख़ बावा चिश्ती के सहन में)",
+                "sw": "Hazrat Peer Syed Moinuddin maarufu kama Mir Alam Shah (Rahmatullahi Alaih) (Tarehe yake ya kufariki [Wisal] pia imeandikwa kuwa siku ya 21 na 27 ya mwezi) (Mazar Sharif iko katika ua wa Dargah-e-Peer Mashayikh Bawa Chishti).",
+                "ar": "حضرة بير سيد معين الدين الملقب بمير عالم شاه رحمه الله (وقد كُتب تاريخ وصاله في اليوم الحادي والعشرين والسابع والعشرين أيضاً) (مزاره الشريف في صحن دركاه بير مشايخ باوا الجشتي).",
+                "ur": "حضرت پیر سید معین الدین عرف میر عالم شاہ رحمۃ اللہ علیہ (آپ کی وصال کی تاریخ چاند 21 بھی اور 27 بھی لکھی گئی ہے) (مزار شریف درگاہِ پیر مشائخ باوا چشتی کے صحن میں)"
+              }
+            },
+            {
+              "id": "m05_d26_e02",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Ibrahim bin Adham Balkhi Chishti (Rahmatullahi Alaih) (Spiritual guide of Mashayikh Bawa) (Mazar in Sham near Lut).",
+                "gu": "વિસાલ હઝરત ઈબ્રાહીમ બિન અદહમ બલ્બી ચિશ્તી રહમતુલ્લાહિ અલૈહ (મશાયખ બાવા કે રુહાની પેશવા) મઝાર શામ લુત કે નઝદીક",
+                "hi": "विसाल हज़रत इब्राहीम बिन अदहम बल्ख़ी चिश्ती रहमतुल्लाहि अलैह (मशायख़ बावा के रूहानी पेशवा) (मज़ार: शाम, लूत के नज़दीक)",
+                "sw": "Kufariki (Wisal) kwa Hazrat Ibrahim bin Adham Balkhi Chishti (Rahmatullahi Alaih) (Kiongozi wa kiroho wa Mashayikh Bawa) (Mazar iko Sham karibu na Lut).",
+                "ar": "وصال حضرة إبراهيم بن أدهم البلخي الجشتي رحمه الله (المرشد الروحي لمشايخ باوا) (مزاره في الشام بالقرب من لوط).",
+                "ur": "وصال حضرت ابراہیم بن ادہم بلخی چشتی رحمۃ اللہ علیہ (مشائخ باوا کے روحانی پیشوا) (مزار شام، لوط کے نزدیک)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 29,
+          "events": [
+            {
+              "id": "m05_d29_e01",
+              "description": {
+                "en": "Companion of the Messenger ﷺ (Sahabi-e-Rasool ﷺ), Hazrat Syeduna Khalid bin Walid, renowned as Saifullah (Radiyallahu Anhu), Mazar Sharif in Syria.",
+                "gu": "સહાબી એ રસુલ ﷺ હઝરતે સૈયદુના ખાલિદ બિન વલીદ અલ-મારુફ સૈફઉલ્લા રદિયલ્લાહો અન્હો મઝાર શરીફ સિરીયા",
+                "hi": "सहाबी-ए-रसूल ﷺ हज़रते सैयदुना ख़ालिद बिन वलीद अल-मारूफ़ सैफ़ुल्लाह रदियल्लाहु अन्हु (मज़ार शरीफ़, सीरिया)",
+                "sw": "Sahaba wa Mtume ﷺ, Hazrat Syeduna Khalid bin Walid, maarufu kama Saifullah (Radiyallahu Anhu), Mazar Sharif iko Syria.",
+                "ar": "صحابي رسول الله ﷺ سيدنا خالد بن الوليد المعروف بسيف الله رضي الله عنه (مزاره الشريف في سوريا).",
+                "ur": "صحابیِ رسول ﷺ حضرت سیدنا خالد بن ولید المعروف سیف اللہ رضی اللہ عنہ (مزار شریف، سیریا)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month": 6,
+      "id": "jumada_ul_ukhra",
+      "name": {
+        "en": "Jumada-ul-Ukhra",
+        "gu": "જુમાદલ ઉખરા",
+        "hi": "जुमादल उख़रा",
+        "sw": "Jumada-ul-Ukhra",
+        "ar": "جمادى الآخرة",
+        "ur": "جمادی الاخریٰ"
+      },
+      "heading": {
+        "en": "Events of the Month of Jumada-ul-Ukhra\nDates of Passing (Wisal) of Revered Mashayikh Elders",
+        "gu": "વાંકેઆતે માંહે જમાદી-ઉલ-આખર\nમશાયખી બુઝુર્ગો કી વિસાલ કી તારીખ",
+        "hi": "वाक़िआते माहे जमादी-उल-आख़िर\nमशायख़ी बुज़ुर्गों की विसाल की तारीख़",
+        "sw": "Matukio ya Mwezi wa Jumada-ul-Ukhra\nTarehe za Kufariki (Wisal) kwa Wazee Watukufu wa Mashayikh",
+        "ar": "وقائع شهر جمادى الآخرة\nتواريخ وصال المشايخ الكرام",
+        "ur": "واقعاتِ ماہِ جمادی الآخر\nمشائخی بزرگوں کی وصال کی تاریخ"
+      },
+      "days": [
+        {
+          "day": 1,
+          "events": [
+            {
+              "id": "m06_d01_e01",
+              "description": {
+                "en": "Hazrat Qidwatuddin alias Abu Ahmad Abdal Chishti (Rahmatullahi Alaih) (Spiritual guide of Peer Mashayikh Bawa, Chisht city, Herat, Afghanistan).",
+                "gu": "હઝરત કિદવતુદ્દીન ઉર્ફે અબુ અહમદ અબ્દાલ ચિશ્તી રહમતુલ્લાહિ અલૈહ (પીર મશાયખ બાવા કે રુહાની પેશવા ચિશ્ત શહેર હૈરાત અફઘાનિસ્તાન)",
+                "hi": "हज़रत क़िदवतुद्दीन उर्फ़ अबू अहमद अब्दाल चिश्ती रहमतुल्लाहि अलैह (पीर मशायख़ बावा के रूहानी पेशवा, चिश्त शहर, हेरात, अफ़ग़ानिस्तान)",
+                "sw": "Hazrat Qidwatuddin maarufu kama Abu Ahmad Abdal Chishti (Rahmatullahi Alaih) (Kiongozi wa kiroho wa Peer Mashayikh Bawa, mji wa Chisht, Herat, Afghanistan).",
+                "ar": "حضرة قدوة الدين الملقب بأبي أحمد أبدال الجشتي رحمه الله (المرشد الروحي لبير مشايخ باوا، مدينة جشت، هراة، أفغانستان).",
+                "ur": "حضرت قدوۃ الدین عرف ابو احمد ابدال چشتی رحمۃ اللہ علیہ (پیر مشائخ باوا کے روحانی پیشوا، چشت شہر، ہرات، افغانستان)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "events": [
+            {
+              "id": "m06_d02_e01",
+              "description": {
+                "en": "Birth (Wiladat) of Hazrat Peer Syed Mirumiya Bawa; his birth took place in 1864 CE in Surat (Mazar Sharif at Khanqah-e-Hussaini, Wankaner).",
+                "gu": "વિલાદત એ હઝરત પીર સૈયદ મીરુમિયા બાવા આપકી વિલાદત ઇ.સ 1864 મેં સુરત મેં હુઈ (મઝાર શરીફ ખાનકાહે હુસૈની વાંકાનેર)",
+                "hi": "विलादते हज़रत पीर सैयद मीरूमियाँ बावा; आपकी विलादत ई.स. 1864 में सूरत में हुई (मज़ार शरीफ़: ख़ानक़ाहे हुसैनी, वांकानेर)",
+                "sw": "Kuzaliwa (Wiladat) kwa Hazrat Peer Syed Mirumiya Bawa; kuzaliwa kwake kulitokea mwaka 1864 BK huko Surat (Mazar Sharif iko Khanqah-e-Hussaini, Wankaner).",
+                "ar": "ولادة حضرة بير سيد ميروميان باوا؛ كانت ولادته عام ١٨٦٤ م في سورت (مزاره الشريف في خانقاه حسيني، وانكانير).",
+                "ur": "ولادتِ حضرت پیر سید میرو میاں باوا؛ آپ کی ولادت سنہ 1864ء میں سورت میں ہوئی (مزار شریف خانقاہِ حسینی، وانکانیر)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "events": [
+            {
+              "id": "m06_d05_e01",
+              "description": {
+                "en": "Hazrat Maulana Jalaluddin Rumi (Rahmatullahi Alaih) (Turkistan).",
+                "gu": "હઝરત મૌલાના જલાલુદ્દીન રૂમી રહમતુલ્લાહિ અલૈહ (તુર્કીસ્તાન)",
+                "hi": "हज़रत मौलाना जलालुद्दीन रूमी रहमतुल्लाहि अलैह (तुर्किस्तान)",
+                "sw": "Hazrat Maulana Jalaluddin Rumi (Rahmatullahi Alaih) (Turkistan).",
+                "ar": "حضرة مولانا جلال الدين الرومي رحمه الله (تركستان).",
+                "ur": "حضرت مولانا جلال الدین رومی رحمۃ اللہ علیہ (ترکستان)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "events": [
+            {
+              "id": "m06_d08_e01",
+              "description": {
+                "en": "Hazrat Peer Syed Najmuddin alias Najumiya Bawa (Rahmatullahi Alaih) (Dholka, Lilajpur).",
+                "gu": "હઝરત પીર સૈયદ નજમુદ્દીન ઉર્ફે નજુમિયા બાવા રહમતુલ્લાહિ અલૈહ * (ધોળકા લીલજપુર)",
+                "hi": "हज़रत पीर सैयद नजमुद्दीन उर्फ़ नजुमियाँ बावा रहमतुल्लाहि अलैह (धोलका, लीलजपुर)",
+                "sw": "Hazrat Peer Syed Najmuddin maarufu kama Najumiya Bawa (Rahmatullahi Alaih) (Dholka, Lilajpur).",
+                "ar": "حضرة بير سيد نجم الدين الملقب بنجميان باوا رحمه الله (دهولكا، ليلجبور).",
+                "ur": "حضرت پیر سید نجم الدین عرف نجمیاں باوا رحمۃ اللہ علیہ (دھولکہ، لیلج پور)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "events": [
+            {
+              "id": "m06_d09_e01",
+              "description": {
+                "en": "Birth (Wiladat) of Ata-e-Rasool Khwaja Moinuddin Chishti Huzoor Khwaja Gharib Nawaz (Rahmatullahi Alaih) (Ajmer Sharif, Rajasthan).",
+                "gu": "વિલાદતે અતા એ રસૂલ ખ્વાજા મોઇનુદ્દીન ચિશ્તી હુઝુર ખ્વાજા ગરીબ નવાઝ રહમતુલ્લાહિ અલૈહ (અજમેર શરીફ રાજસ્થાન)",
+                "hi": "विलादते अता-ए-रसूल ख़्वाजा मोइनुद्दीन चिश्ती हुज़ूर ख़्वाजा ग़रीब नवाज़ रहमतुल्लाहि अलैह (अजमेर शरीफ़, राजस्थान)",
+                "sw": "Kuzaliwa (Wiladat) kwa Ata-e-Rasool Khwaja Moinuddin Chishti Huzoor Khwaja Gharib Nawaz (Rahmatullahi Alaih) (Ajmer Sharif, Rajasthan).",
+                "ar": "ولادة عطاء الرسول الخواجة معين الدين الجشتي حضور خواجة غريب نواز رحمه الله (أجمير شريف، راجستان).",
+                "ur": "ولادتِ عطائے رسول خواجہ معین الدین چشتی حضور خواجہ غریب نواز رحمۃ اللہ علیہ (اجمیر شریف، راجستھان)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "events": [
+            {
+              "id": "m06_d10_e01",
+              "description": {
+                "en": "Hazrat Syed Shahjimiyan, son of Syed Mir Alam Shah Chishti (Rahmatullahi Alaih) (Qasamshah Compound, Sarangpur, Ahmedabad).",
+                "gu": "હઝરત સૈયદ શાહજીમિયા વલ્દ સૈયદ મીર આલમશાહ ચિશ્તી રહમતુલ્લાહિ અલૈહ * (કાસમશાહ કમ્પાઉન્ડ સારંગપુર અહમદાબાદ)",
+                "hi": "हज़रत सैयद शाहजीमियाँ वल्द सैयद मीर आलम शाह चिश्ती रहमतुल्लाहि अलैह (क़ासमशाह कंपाउंड, सारंगपुर, अहमदाबाद)",
+                "sw": "Hazrat Syed Shahjimiyan mwana wa Syed Mir Alam Shah Chishti (Rahmatullahi Alaih) (Qasamshah Compound, Sarangpur, Ahmedabad).",
+                "ar": "حضرة سيد شاه جي ميان بن سيد مير عالم شاه الجشتي رحمه الله (مجمع قاسم شاه، سارانجبور، أحمد آباد).",
+                "ur": "حضرت سید شاہ جی میاں ولد سید میر عالم شاہ چشتی رحمۃ اللہ علیہ (قاسم شاہ کمپاؤنڈ، سارنگ پور، احمد آباد)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "events": [
+            {
+              "id": "m06_d14_e01",
+              "description": {
+                "en": "Hujjat-ul-Islam Hazrat Imam Muhammad Ghazali (Rahmatullahi Alaih) (Peer Mashayikh Bawa's title is Ghazali-e-Waqt in connection with him).",
+                "gu": "હુજ્જતુલ ઇસ્લામ હઝરત ઇમામ મુહંમદ ગિઝાલી રહમતુલ્લાહિ અલૈહ (પીર મશાયખ બાવા કા લકબ ગિઝાલી એ વકત હૈ આપકી નિસ્બત સે)",
+                "hi": "हुज्जतुल इस्लाम हज़रत इमाम मुहम्मद ग़ज़ाली रहमतुल्लाहि अलैह (पीर मशायख़ बावा का लक़ब ग़िज़ाली-ए-वक़्त है आपकी निस्बत से)",
+                "sw": "Hujjat-ul-Islam Hazrat Imam Muhammad Ghazali (Rahmatullahi Alaih) (Cheo cha Peer Mashayikh Bawa ni Ghazali-e-Waqt kwa heshima yake).",
+                "ar": "حجة الإسلام الإمام محمد الغزالي رحمه الله (ولقب بير مشايخ باوا هو غزالي الوقت نسبةً إليه).",
+                "ur": "حجۃ الاسلام حضرت امام محمد غزالی رحمۃ اللہ علیہ (پیر مشائخ باوا کا لقب غزالیِ وقت ہے آپ کی نسبت سے)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "events": [
+            {
+              "id": "m06_d16_e01",
+              "description": {
+                "en": "Urs of Hazrat Peer Syed Abdullah alias Peer Sahab Bawa Chishti Hussaini Mashayikhi (Rahmatullahi Alaih) (Nawavas, Danta, Banaskantha).",
+                "gu": "ઉર્સ હઝરત પીર સૈયદ અબ્દુલ્લાહ ઉર્ફે પીર સાહબ બાવા ચિશ્તી હુસૈની મશાયખી રહમતુલ્લાહિ અલૈહ * (નવાવાસ દાતા બનાસકાંઠા)",
+                "hi": "उर्स हज़रत पीर सैयद अब्दुल्लाह उर्फ़ पीर साहब बावा चिश्ती हुसैनी मशायख़ी रहमतुल्लाहि अलैह (नवावास, दांता, बनासकांठा)",
+                "sw": "Urs ya Hazrat Peer Syed Abdullah maarufu kama Peer Sahab Bawa Chishti Hussaini Mashayikhi (Rahmatullahi Alaih) (Nawavas, Danta, Banaskantha).",
+                "ar": "عرس حضرة بير سيد عبد الله الملقب ببير صاحب باوا الجشتي الحسيني المشايخي رحمه الله (نواواس، دانتا، باناسكانتا).",
+                "ur": "عرس حضرت پیر سید عبد اللہ عرف پیر صاحب باوا چشتی حسینی مشائخی رحمۃ اللہ علیہ (نواواس، دانتا، بناس کانٹھا)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "events": [
+            {
+              "id": "m06_d17_e01",
+              "description": {
+                "en": "Qutb-e-Gujarat Hazrat Syed Sirajuddin alias Shah-e-Alam Bukhari Suhrawardi (Rahmatullahi Alaih) (Ahmedabad).",
+                "gu": "કુતબે ગુજરાત હઝરત સૈયદ સીરાજુદ્દીન ઉર્ફે શાહે આલમ બુખારી સોહરવરદી રહમતુલ્લાહિ અલૈહ (અહમદાબાદ)",
+                "hi": "क़ुत्बे गुजरात हज़रत सैयद सिराजुद्दीन उर्फ़ शाहे आलम बुख़ारी सुहरावर्दी रहमतुल्लाहि अलैह (अहमदाबाद)",
+                "sw": "Qutb-e-Gujarat Hazrat Syed Sirajuddin maarufu kama Shah-e-Alam Bukhari Suhrawardi (Rahmatullahi Alaih) (Ahmedabad).",
+                "ar": "قطب كجرات حضرة سيد سراج الدين الملقب بشاه عالم البخاري السهروردي رحمه الله (أحمد آباد).",
+                "ur": "قطبِ گجرات حضرت سید سراج الدین عرف شاہِ عالم بخاری سہروردی رحمۃ اللہ علیہ (احمد آباد)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "events": [
+            {
+              "id": "m06_d20_e01",
+              "description": {
+                "en": "Birth (Wiladat) of Syeda-e-Ka'inat Khatoon-e-Jannat Bibi Fatimat-uz-Zahra (Salamullah Alaiha), daughter of Huzoor Muhammad Mustafa ﷺ.",
+                "gu": "વિલાદતે સૈયદા એ કાએનાત ખાતુને જન્નત બીબી ફાતિમા તુઝહરા સલામુલ્લાહ અલૈહા ઈબ્ને હુઝુર મુહંમદ મુસ્તુફા ﷺ",
+                "hi": "विलादते सैयदा-ए-काइनात ख़ातूने जन्नत बीबी फ़ातिमातुज़-ज़हरा सलामुल्लाहि अलैहा बिन्ते हुज़ूर मुहम्मद मुस्तफ़ा ﷺ",
+                "sw": "Kuzaliwa (Wiladat) kwa Syeda-e-Ka'inat Khatoon-e-Jannat Bibi Fatimat-uz-Zahra (Salamullah Alaiha), binti ya Huzoor Muhammad Mustafa ﷺ.",
+                "ar": "ولادة سيدة نساء العالمين خاتون الجنة السيدة فاطمة الزهراء عليها السلام بنت رسول الله محمد المصطفى ﷺ.",
+                "ur": "ولادتِ سیدۂ کائنات خاتونِ جنت بی بی فاطمۃ الزہرا سلام اللہ علیہا بنتِ حضور محمد مصطفیٰ ﷺ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "events": [
+            {
+              "id": "m06_d22_e01",
+              "description": {
+                "en": "First Caliph and Companion of the Cave (Yar-e-Ghar), Hazrat Syeduna Abu Bakr Siddiq (Radiyallahu Anhu) (Gumbad-e-Khazra, beside Huzoor ﷺ, Madinah Sharif).",
+                "gu": "ખલીફા એ અવ્વલ યારેગાર હઝરતે સૈયદુના અબુબક્ર સિદ્દીક રદિયલ્લાહો અન્હો (ગુમ્બદ ખજરા પહેલું એ હુઝુર ﷺ મદીના શરીફ)",
+                "hi": "ख़लीफ़ा-ए-अव्वल यारे ग़ार हज़रते सैयदुना अबू बक्र सिद्दीक़ रदियल्लाहु अन्हु (गुंबदे ख़ज़रा, पहलू-ए-हुज़ूर ﷺ, मदीना शरीफ़)",
+                "sw": "Khalifa wa Kwanza na Rafiki wa Pangoni (Yar-e-Ghar), Hazrat Syeduna Abu Bakr Siddiq (Radiyallahu Anhu) (Gumbad-e-Khazra, kando ya Huzoor ﷺ, Madinah Sharif).",
+                "ar": "الخليفة الأول وصاحب الغار سيدنا أبو بكر الصديق رضي الله عنه (القبة الخضراء بجانب رسول الله ﷺ، المدينة المنورة).",
+                "ur": "خلیفۂ اول یارِ غار حضرت سیدنا ابوبکر صدیق رضی اللہ عنہ (گنبدِ خضرا، پہلوئے حضور ﷺ، مدینہ شریف)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 23,
+          "events": [
+            {
+              "id": "m06_d23_e01",
+              "description": {
+                "en": "Hazrat Syeduna Umar bin Khattab Farooq-e-Azam (Radiyallahu Anhu) became the Second Caliph.",
+                "gu": "હઝરત એ સૈયદુના ઉમર બિન ખત્તાબ ફારૂકે આઝમ રદિયલ્લાહો અન્હો દુસરે ખલીફા બને",
+                "hi": "हज़रते सैयदुना उमर बिन ख़त्ताब फ़ारूक़े आज़म रदियल्लाहु अन्हु दूसरे ख़लीफ़ा बने",
+                "sw": "Hazrat Syeduna Umar bin Khattab Farooq-e-Azam (Radiyallahu Anhu) alikuwa Khalifa wa Pili.",
+                "ar": "تولي سيدنا عمر بن الخطاب الفاروق الأعظم رضي الله عنه الخلافة الثانية.",
+                "ur": "حضرت سیدنا عمر بن خطاب فاروقِ اعظم رضی اللہ عنہ دوسرے خلیفہ بنے"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month": 7,
+      "id": "rajab",
+      "name": {
+        "en": "Rajab-ul-Murajjab",
+        "gu": "રજબ-ઉલ-મુરજ્જબ",
+        "hi": "रजब-उल-मुरज्जब",
+        "sw": "Rajab-ul-Murajjab",
+        "ar": "رجب المرجب",
+        "ur": "رجب المرجب"
+      },
+      "heading": {
+        "en": "Events of the Month of Rajab-ul-Murajjab\nDates of Passing (Wisal) of Revered Mashayikh Elders",
+        "gu": "વાકીઆતે માંહે રજબ ઉલ મુરજ્જબ\nમશાયખી બુઝુર્ગો કી વિસાલ કી તારીખ",
+        "hi": "वाक़िआते माहे रजब-उल-मुरज्जब\nमशायख़ी बुज़ुर्गों की विसाल की तारीख़",
+        "sw": "Matukio ya Mwezi wa Rajab-ul-Murajjab\nTarehe za Kufariki (Wisal) kwa Wazee Watukufu wa Mashayikh",
+        "ar": "وقائع شهر رجب المرجب\nتواريخ وصال المشايخ الكرام",
+        "ur": "واقعاتِ ماہِ رجب المرجب\nمشائخی بزرگوں کی وصال کی تاریخ"
+      },
+      "days": [
+        {
+          "day": 1,
+          "events": [
+            {
+              "id": "m07_d01_e01",
+              "description": {
+                "en": "Birth (Wiladat) of Hazrat Imam Muhammad Baqir (Alayhis Salam) (He is the 5th Imam).",
+                "gu": "વિલાદત એ હઝરત ઇમામ મુહંમદ બાકીર અલૈહિસ્સલામ (આપ 5 વે ઇમામ હો)",
+                "hi": "विलादते हज़रत इमाम मुहम्मद बाक़िर अलैहिस्सलाम (आप 5वें इमाम हैं)",
+                "sw": "Kuzaliwa (Wiladat) kwa Hazrat Imam Muhammad Baqir (Alayhis Salam) (Yeye ni Imam wa 5).",
+                "ar": "ولادة الإمام محمد الباقر عليه السلام (وهو الإمام الخامس).",
+                "ur": "ولادتِ حضرت امام محمد باقر علیہ السلام (آپ پانچویں امام ہیں)"
+              }
+            },
+            {
+              "id": "m07_d01_e02",
+              "description": {
+                "en": "And Passing away (Wisal) of Hazrat Nasir-ul-Haqq wad-Din Abu Muhammad Nasiruddin Chishti (Kashma, Chisht, Herat, Afghanistan).",
+                "gu": "વવિસાલે હઝરત નસીરુલ હક વ દિન અબુ મુહંમદ નસીરુદ્દીન ચિશ્તી (કશ્મા ચિશત હૈરાત અફઘાનિસ્તાન)",
+                "hi": "व विसाले हज़रत नसीरुल हक़ वद्दीन अबू मुहम्मद नसीरुद्दीन चिश्ती (कश्मा, चिश्त, हेरात, अफ़ग़ानिस्तान)",
+                "sw": "Na Kufariki (Wisal) kwa Hazrat Nasir-ul-Haqq wad-Din Abu Muhammad Nasiruddin Chishti (Kashma, Chisht, Herat, Afghanistan).",
+                "ar": "ووصال حضرة نصير الحق والدين أبو محمد نصير الدين الجشتي (كشما، جشت، هراة، أفغانستان).",
+                "ur": "و وصالِ حضرت نصیر الحق والدین ابو محمد نصیر الدین چشتی (کشما، چشت، ہرات، افغانستان)"
+              }
+            },
+            {
+              "id": "m07_d01_e03",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Qutbuddin Maudood Chishti (Kanba, Chisht, Herat, Afghanistan).",
+                "gu": "વિસાલે હઝરત કુતબુદ્દીન મૌદુદ ચિશ્તી (કન્બા ચિશત હૈરાત અફઘાનિસ્તાન)",
+                "hi": "विसाले हज़रत क़ुत्बुद्दीन मौदूद चिश्ती (कनबा, चिश्त, हेरात, अफ़ग़ानिस्तान)",
+                "sw": "Kufariki (Wisal) kwa Hazrat Qutbuddin Maudood Chishti (Kanba, Chisht, Herat, Afghanistan).",
+                "ar": "وصال حضرة قطب الدين مودود الجشتي (كنبا، جشت، هراة، أفغانستان).",
+                "ur": "وصالِ حضرت قطب الدین مودود چشتی (کنبا، چشت، ہرات، افغانستان)"
+              }
+            },
+            {
+              "id": "m07_d01_e04",
+              "description": {
+                "en": "Hazrat Mustafa Shah alias Muntazar Billah Sabzwari Hussaini (Rahmatullahi Alaih) (Grandfather/ancestor of the Mashayikhi family; Mazar Sharif in Tarim/Tin city, Yemen).",
+                "gu": "હઝરત મુસ્તફાશાહ ઉર્ફે મુન્તઝર બીલ્લાહ સબ્ઝવારી હુસૈની રહમતુલ્લાહિ અલૈહ (મશાયખી ખાનદાન કે દાદા મઝાર શરીફ તીન શહેર યમન)",
+                "hi": "हज़रत मुस्तफ़ा शाह उर्फ़ मुंतज़र बिल्लाह सब्ज़वारी हुसैनी रहमतुल्लाहि अलैह (मशायख़ी ख़ानदान के दादा; मज़ार शरीफ़: तीन शहर, यमन)",
+                "sw": "Hazrat Mustafa Shah maarufu kama Muntazar Billah Sabzwari Hussaini (Rahmatullahi Alaih) (Babu wa familia ya Mashayikhi; Mazar Sharif iko mji wa Tin, Yemen).",
+                "ar": "حضرة مصطفى شاه الملقب بمنتظر بالله السبزواري الحسيني رحمه الله (جد الأسرة المشايخية؛ مزاره الشريف في مدينة تين، اليمن).",
+                "ur": "حضرت مصطفیٰ شاہ عرف منتظر باللہ سبزواری حسینی رحمۃ اللہ علیہ (مشائخی خاندان کے دادا؛ مزار شریف تین شہر، یمن)"
+              }
+            },
+            {
+              "id": "m07_d01_e05",
+              "description": {
+                "en": "Hazrat Syed Hashim Shah Sabzwari Hussaini (Rahmatullahi Alaih) (Ancestor of the Mashayikhi family; Mazar Sharif in Cairo, Egypt).",
+                "gu": "હઝરત સૈયદ હાશમ શાહ સબ્ઝવારી હુસૈની રહમતુલ્લાહિ અલૈહ (મશાયખી ખાનદાન કે દાદા મઝાર શરીફ કાહેરા મિસર)",
+                "hi": "हज़रत सैयद हाशिम शाह सब्ज़वारी हुसैनी रहमतुल्लाहि अलैह (मशायख़ी ख़ानदान के दादा; मज़ार शरीफ़: क़ाहिरा, मिस्र)",
+                "sw": "Hazrat Syed Hashim Shah Sabzwari Hussaini (Rahmatullahi Alaih) (Babu wa familia ya Mashayikhi; Mazar Sharif iko Cairo, Misri).",
+                "ar": "حضرة سيد هاشم شاه السبزواري الحسيني رحمه الله (جد الأسرة المشايخية؛ مزاره الشريف في القاهرة، مصر).",
+                "ur": "حضرت سید ہاشم شاہ سبزواری حسینی رحمۃ اللہ علیہ (مشائخی خاندان کے دادا؛ مزار شریف قاہرہ، مصر)"
+              }
+            },
+            {
+              "id": "m07_d01_e06",
+              "description": {
+                "en": "Hazrat Syed Muhibbuddin Sabzwari Hussaini (Rahmatullahi Alaih) (Ancestor of the Mashayikhi family; Mazar Sharif in Sabzevar, Iran).",
+                "gu": "હઝરત સૈયદ મોહિબુદ્દીન સબ્ઝવારી હુસૈની રહમતુલ્લાહિ અલૈહ (મશાયખી ખાનદાન કે દાદા મઝાર શરીફ સવાર ઈરાન)",
+                "hi": "हज़रत सैयद मुहिब्बुद्दीन सब्ज़वारी हुसैनी रहमतुल्लाहि अलैह (मशायख़ी ख़ानदान के दादा; मज़ार शरीफ़: सब्ज़वार, ईरान)",
+                "sw": "Hazrat Syed Muhibbuddin Sabzwari Hussaini (Rahmatullahi Alaih) (Babu wa familia ya Mashayikhi; Mazar Sharif iko Sabzevar, Iran).",
+                "ar": "حضرة سيد محب الدين السبزواري الحسيني رحمه الله (جد الأسرة المشايخية؛ مزاره الشريف في سبزوار، إيران).",
+                "ur": "حضرت سید محب الدین سبزواری حسینی رحمۃ اللہ علیہ (مشائخی خاندان کے دادا؛ مزار شریف سبزوار، ایران)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "events": [
+            {
+              "id": "m07_d03_e01",
+              "description": {
+                "en": "Hazrat Nasiruddin Abu Yusuf Chishti (Rahmatullahi Alaih) (Mazar Sharif in Kashma, Chisht, Herat, Afghanistan).",
+                "gu": "હઝરત નસીરુદ્દીન અબુ યુસુફ ચિશ્તી રહમતુલ્લાહિ અલૈહ (મઝાર શરીફ કશ્મા ચિશ્ત હૈરાત અફઘાનિસ્તાન)",
+                "hi": "हज़रत नसीरुद्दीन अबू यूसुफ़ चिश्ती रहमतुल्लाहि अलैह (मज़ार शरीफ़: कश्मा, चिश्त, हेरात, अफ़ग़ानिस्तान)",
+                "sw": "Hazrat Nasiruddin Abu Yusuf Chishti (Rahmatullahi Alaih) (Mazar Sharif iko Kashma, Chisht, Herat, Afghanistan).",
+                "ar": "حضرة نصير الدين أبو يوسف الجشتي رحمه الله (مزاره الشريف في كشما، جشت، هراة، أفغانستان).",
+                "ur": "حضرت نصیر الدین ابو یوسف چشتی رحمۃ اللہ علیہ (مزار شریف کشما، چشت، ہرات، افغانستان)"
+              }
+            },
+            {
+              "id": "m07_d03_e02",
+              "description": {
+                "en": "Hazrat Khwaja Haji Sharif Zindani (Rahmatullahi Alaih) (Grand-Peer of Huzoor Khwaja Gharib Nawaz Sarkar; Mazar Sharif in Bukhara, Uzbekistan).",
+                "gu": "હઝરત ખ્વાજા હાજી શરીફ ઝીંદાની રહમતુલ્લાહિ અલૈહ (હુઝુર ખ્વાજા ગરીબ નવાઝ સરકાર કે દાદા પીર મઝાર શરીફ બુખારા ઉઝબેકિસ્તાન)",
+                "hi": "हज़रत ख़्वाजा हाजी शरीफ़ ज़िंदानी रहमतुल्लाहि अलैह (हुज़ूर ख़्वाजा ग़रीब नवाज़ सरकार के दादा पीर; मज़ार शरीफ़: बुख़ारा, उज़्बेकिस्तान)",
+                "sw": "Hazrat Khwaja Haji Sharif Zindani (Rahmatullahi Alaih) (Babu-Peer wa Huzoor Khwaja Gharib Nawaz Sarkar; Mazar Sharif iko Bukhara, Uzbekistan).",
+                "ar": "حضرة الخواجة حاجي شريف الزنداني رحمه الله (شيخ شيخ حضور خواجة غريب نواز سركار؛ مزاره الشريف في بخارى، أوزبكستان).",
+                "ur": "حضرت خواجہ حاجی شریف زندانی رحمۃ اللہ علیہ (حضور خواجہ غریب نواز سرکار کے دادا پیر؛ مزار شریف بخارا، ازبکستان)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "events": [
+            {
+              "id": "m07_d04_e01",
+              "description": {
+                "en": "Hazrat Muhammad bin Idris alias Imam Shafi'i (Mazar Sharif in Egypt).",
+                "gu": "હઝરત મુહંમદ બિન ઈંદ્રિશ ઉર્ફે ઇમામ શાફઈ (મઝાર શરીફ ઇજિપ્ત)",
+                "hi": "हज़रत मुहम्मद बिन इदरीस उर्फ़ इमाम शाफ़ई (मज़ार शरीफ़, मिस्र)",
+                "sw": "Hazrat Muhammad bin Idris maarufu kama Imam Shafi'i (Mazar Sharif iko Misri).",
+                "ar": "الإمام محمد بن إدريس الشافعي رحمه الله (مزاره الشريف في مصر).",
+                "ur": "حضرت محمد بن ادریس عرف امام شافعی رحمۃ اللہ علیہ (مزار شریف، مصر)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "events": [
+            {
+              "id": "m07_d06_e01",
+              "description": {
+                "en": "Hazrat Khwaja-e-Khwajagan Khwaja Moinuddin Chishti Hasan al-Sanjari thumma Ajmeri Huzoor Khwaja Gharib Nawaz (Rahmatullahi Alaih), Ajmer Sharif.",
+                "gu": "હઝરતે ખ્વાજા એ ખ્વાજગાન ખ્વાજા મોઇનઉદ્દીન ચિશ્તી હસન અલ સંજરી સુમ્મા અજમેરી હુઝુર ખ્વાજા ગરીબ નવાઝ રહમતુલ્લાહિ અલૈહ અજમેર શરીફ",
+                "hi": "हज़रते ख़्वाजा-ए-ख़्वाजगान ख़्वाजा मोइनुद्दीन चिश्ती हसन अल-संजरी सुम्मा अजमेरी हुज़ूर ख़्वाजा ग़रीब नवाज़ रहमतुल्लाहि अलैह, अजमेर शरीफ़",
+                "sw": "Hazrat Khwaja-e-Khwajagan Khwaja Moinuddin Chishti Hasan al-Sanjari thumma Ajmeri Huzoor Khwaja Gharib Nawaz (Rahmatullahi Alaih), Ajmer Sharif.",
+                "ar": "حضرة خواجة خواجكان الخواجة معين الدين الجشتي حسن السنجري ثم الأجميري حضور خواجة غريب نواز رحمه الله، أجمير شريف.",
+                "ur": "حضرت خواجۂ خواجگان خواجہ معین الدین چشتی حسن السنجری ثم اجمیری حضور خواجہ غریب نواز رحمۃ اللہ علیہ، اجمیر شریف"
+              }
+            }
+          ]
+        },
+        {
+          "day": 8,
+          "events": [
+            {
+              "id": "m07_d08_e01",
+              "description": {
+                "en": "Hazrat Peer Syed Muzaffar Hussain Bawa Chishti Hussaini Mashayikhi (Rahmatullahi Alaih) (Mazar Sharif in Dholka).",
+                "gu": "હઝરત પીર સૈયદ મુઝફ્ફર હુસૈન બાવા ચિશ્તી હુસૈની મશાયખી રહમતુલ્લાહિ અલૈહ (મઝાર શરીફ ધોળકા)",
+                "hi": "हज़रत पीर सैयद मुज़फ़्फ़र हुसैन बावा चिश्ती हुसैनी मशायख़ी रहमतुल्लाहि अलैह (मज़ार शरीफ़: धोलका)",
+                "sw": "Hazrat Peer Syed Muzaffar Hussain Bawa Chishti Hussaini Mashayikhi (Rahmatullahi Alaih) (Mazar Sharif iko Dholka).",
+                "ar": "حضرة بير سيد مظفر حسين باوا الجشتي الحسيني المشايخي رحمه الله (مزاره الشريف في دهولكا).",
+                "ur": "حضرت پیر سید مظفر حسین باوا چشتی حسینی مشائخی رحمۃ اللہ علیہ (مزار شریف دھولکہ)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "events": [
+            {
+              "id": "m07_d09_e01",
+              "description": {
+                "en": "Hazrat Ibrahim, son of Huzoor Muhammad Mustafa ﷺ (Jannat-ul-Baqi, Madinah Sharif).",
+                "gu": "હઝરતે ઇબ્રાહિમ બિન હુઝુર મુહંમદ મુસ્તફા (જન્નતુલ બકીઅ મદીના શરીફ)",
+                "hi": "हज़रते इब्राहीम बिन हुज़ूर मुहम्मद मुस्तफ़ा ﷺ (जन्नतुल बक़ी, मदीना शरीफ़)",
+                "sw": "Hazrat Ibrahim mwana wa Huzoor Muhammad Mustafa ﷺ (Jannat-ul-Baqi, Madinah Sharif).",
+                "ar": "سيدنا إبراهيم بن رسول الله محمد المصطفى ﷺ (جنة البقيع، المدينة المنورة).",
+                "ur": "حضرت ابراہیم بن حضور محمد مصطفیٰ ﷺ (جنت البقیع، مدینہ شریف)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "events": [
+            {
+              "id": "m07_d10_e01",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Salman Farsi (Mazar Sharif in Baghdad Sharif).",
+                "gu": "વિસાલ હઝરત સલમાન ફારસી (મઝાર શરીફ બગદાદ શરીફ)",
+                "hi": "विसाल हज़रत सलमान फ़ारसी (मज़ार शरीफ़: बग़दाद शरीफ़)",
+                "sw": "Kufariki (Wisal) kwa Hazrat Salman Farsi (Mazar Sharif iko Baghdad Sharif).",
+                "ar": "وصال سيدنا سلمان الفارسي رضي الله عنه (مزاره الشريف في بغداد الشريف).",
+                "ur": "وصال حضرت سلمان فارسی رضی اللہ عنہ (مزار شریف بغداد شریف)"
+              }
+            },
+            {
+              "id": "m07_d10_e02",
+              "description": {
+                "en": "Birth (Wiladat) of Hazrat Imam Muhammad Taqi al-Jawad (Kazmain Sharif, Baghdad).",
+                "gu": "વિલાદતે હઝરત ઇમામ મુહંમદ તકી અલ જવ્વાદ (કાઝમૈન શરીફ બગદાદ)",
+                "hi": "विलादते हज़रत इमाम मुहम्मद तक़ी अल-जव्वाद (काज़मैन शरीफ़, बग़दाद)",
+                "sw": "Kuzaliwa (Wiladat) kwa Hazrat Imam Muhammad Taqi al-Jawad (Kazmain Sharif, Baghdad).",
+                "ar": "ولادة الإمام محمد التقي الجواد عليه السلام (الكاظمية، بغداد).",
+                "ur": "ولادتِ حضرت امام محمد تقی الجواد علیہ السلام (کاظمین شریف، بغداد)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "events": [
+            {
+              "id": "m07_d11_e01",
+              "description": {
+                "en": "Urs of Hazrat Mahmud Shah Bukhari (Mazar Sharif in Bhadiyad Sharif).",
+                "gu": "ઉર્સે હઝરત મહેમુદશાહ બુખારી (મઝાર શરીફ ભાળિયાદ શરીફ)",
+                "hi": "उर्से हज़रत महमूद शाह बुख़ारी (मज़ार शरीफ़: भाड़ियाद शरीफ़)",
+                "sw": "Urs ya Hazrat Mahmud Shah Bukhari (Mazar Sharif iko Bhadiyad Sharif).",
+                "ar": "عرس حضرة محمود شاه البخاري رحمه الله (مزاره الشريف في بهارياد شريف).",
+                "ur": "عرسِ حضرت محمود شاہ بخاری رحمۃ اللہ علیہ (مزار شریف بھاڑیاد شریف)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "events": [
+            {
+              "id": "m07_d12_e01",
+              "description": {
+                "en": "Hazrat Peer Syed Haji Mahmud Sadruddin Sabzwari Hussaini (Rahmatullahi Alaih) (Father of Hazrat Hasan Kabiruddin Kufr-Shikan Bawa; Mazar Sharif in Taiyar Ghazi Khan, Sadarshah, Uch Sharif, Pakistan).",
+                "gu": "હઝરત પીર સૈયદ હાજી મેહમુદ સદરુદ્દીન સબ્ઝવારી હુસૈની રહમતુલ્લાહિ અલૈહ (હઝરત હસન કબીરુદ્દીન કુફ્રે શિકન બાવા કે વાલીદ મઝાર શરીફ તૈયાર ગાઝી ખાન, સદરશાહ,ઉચ્ચ શરીફ,પાકિસ્તાન)",
+                "hi": "हज़रत पीर सैयद हाजी महमूद सदरुद्दीन सब्ज़वारी हुसैनी रहमतुल्लाहि अलैह (हज़रत हसन कबीरुद्दीन कुफ़्रे शिकन बावा के वालिद; मज़ार शरीफ़: तैयार ग़ाज़ी ख़ान, सदरशाह, उच्च शरीफ़, पाकिस्तान)",
+                "sw": "Hazrat Peer Syed Haji Mahmud Sadruddin Sabzwari Hussaini (Rahmatullahi Alaih) (Baba wa Hazrat Hasan Kabiruddin Kufr-Shikan Bawa; Mazar Sharif iko Taiyar Ghazi Khan, Sadarshah, Uch Sharif, Pakistan).",
+                "ar": "حضرة بير سيد حاجي محمود صدر الدين السبزواري الحسيني رحمه الله (والد حضرة حسن كبير الدين كفر شكن باوا؛ مزاره الشريف في تيار غازي خان، صدر شاه، أوتش شريف، باكستان).",
+                "ur": "حضرت پیر سید حاجی محمود صدر الدین سبزواری حسینی رحمۃ اللہ علیہ (حضرت حسن کبیرالدین کفر شکن باوا کے والد؛ مزار شریف تیار غازی خان، صدر شاہ، اوچ شریف، پاکستان)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "events": [
+            {
+              "id": "m07_d13_e01",
+              "description": {
+                "en": "Birth (Wiladat) of Maula Ali Haider-e-Karrar Ali Mushkil-Kusha (Alayhis Salam) (Mazar Sharif in Najaf-ul-Ashraf, Iraq).",
+                "gu": "વિલાદત એ મૌલા અલી હૈદર એ કર્રાર અલી મુશ્કિલકુશા અલૈહિસ્સલામ (મઝાર શરીફ નજફ ઉલ અશરફ ઇરાક)",
+                "hi": "विलादते मौला अली हैदरे कर्रार अली मुश्किल कुशा अलैहिस्सलाम (मज़ार शरीफ़: नजफ़-उल-अशरफ़, इराक़)",
+                "sw": "Kuzaliwa (Wiladat) kwa Maula Ali Haider-e-Karrar Ali Mushkil-Kusha (Alayhis Salam) (Mazar Sharif iko Najaf-ul-Ashraf, Iraq).",
+                "ar": "ولادة سيدنا ومولانا علي حيدر الكرار علي مشكل كشا عليه السلام (مزاره الشريف في النجف الأشرف، العراق).",
+                "ur": "ولادتِ مولیٰ علی حیدرِ کرار علی مشکل کشا علیہ السلام (مزار شریف نجف الاشرف، عراق)"
+              }
+            },
+            {
+              "id": "m07_d13_e02",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Abu Muhammad Isa alias Imam Tirmidhi (Mazar Sharif in Tirmidh).",
+                "gu": "વિસાલે હઝરતે અબુ મુહંમદ ઈશા ઉર્ફે ઇમામ તિર્મિઝી (મઝાર શરીફ તિર્મિઝ)",
+                "hi": "विसाले हज़रते अबू मुहम्मद ईसा उर्फ़ इमाम तिर्मिज़ी (मज़ार शरीफ़: तिर्मिज़)",
+                "sw": "Kufariki (Wisal) kwa Hazrat Abu Muhammad Isa maarufu kama Imam Tirmidhi (Mazar Sharif iko Tirmidh).",
+                "ar": "وصال الإمام أبي عيسى محمد بن عيسى الترمذي رحمه الله (مزاره الشريف في ترمذ).",
+                "ur": "وصالِ حضرت ابو محمد عیسیٰ عرف امام ترمذی رحمۃ اللہ علیہ (مزار شریف ترمذ)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "events": [
+            {
+              "id": "m07_d15_e01",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Syeduna Imam Ja'far al-Sadiq (Radiyallahu Anhu) (Mazar Sharif in Jannat-ul-Baqi, Madinah Sharif; he is the 6th Imam).",
+                "gu": "વિસાલે હઝરતે સૈયદુના ઇમામ જાફર સાદિક રદિયલ્લાહો અન્હો (મઝાર શરીફ જન્નતુલ બકીઅ મદીના શરીફ આપ 6થે ઇમામ હો)",
+                "hi": "विसाले हज़रते सैयदुना इमाम जाफ़र सादिक़ रदियल्लाहु अन्हु (मज़ार शरीफ़: जन्नतुल बक़ी, मदीना शरीफ़; आप 6ठे इमाम हैं)",
+                "sw": "Kufariki (Wisal) kwa Hazrat Syeduna Imam Ja'far al-Sadiq (Radiyallahu Anhu) (Mazar Sharif iko Jannat-ul-Baqi, Madinah Sharif; yeye ni Imam wa 6).",
+                "ar": "وصال سيدنا الإمام جعفر الصادق رضي الله عنه (مزاره الشريف في جنة البقيع، المدينة المنورة؛ وهو الإمام السادس).",
+                "ur": "وصالِ حضرت سیدنا امام جعفر صادق رضی اللہ عنہ (مزار شریف جنت البقیع، مدینہ شریف؛ آپ چھٹے امام ہیں)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "events": [
+            {
+              "id": "m07_d20_e01",
+              "description": {
+                "en": "Mother of the Believers (Umm-ul-Mu'minin) Hazrat Bibi Zaynab (Radiyallahu Anha).",
+                "gu": "ઉમ્મુલ મોઅમેનિન હઝરતે બીબી ઝૈનબ રદિયલ્લાહો અન્હા",
+                "hi": "उम्मुल मोमिनीन हज़रते बीबी ज़ैनब रदियल्लाहु अन्हा",
+                "sw": "Mama wa Waumini (Umm-ul-Mu'minin) Hazrat Bibi Zaynab (Radiyallahu Anha).",
+                "ar": "أم المؤمنين السيدة زينب رضي الله عنها.",
+                "ur": "ام المومنین حضرت بی بی زینب رضی اللہ عنہا"
+              }
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "events": [
+            {
+              "id": "m07_d22_e01",
+              "description": {
+                "en": "Niyaz of Imam Ja'far al-Sadiq (Radiyallahu Anhu).",
+                "gu": "નિયાઝે ઇમામ જાફર સાદિક રદિયલ્લાહો અન્હો ",
+                "hi": "नियाज़े इमाम जाफ़र सादिक़ रदियल्लाहु अन्हु",
+                "sw": "Niyaz ya Imam Ja'far al-Sadiq (Radiyallahu Anhu).",
+                "ar": "نياز (إهداء الثواب) للإمام جعفر الصادق رضي الله عنه.",
+                "ur": "نیازِ امام جعفر صادق رضی اللہ عنہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 24,
+          "events": [
+            {
+              "id": "m07_d24_e01",
+              "description": {
+                "en": "Conquest of Khaybar by the hands of Maula Ali (Alayhis Salam).",
+                "gu": "ફત્હ ખૈબર બ દસ્તે મૌલા અલી અલૈહિસ્સલામ",
+                "hi": "फ़तह-ए-ख़ैबर बदस्ते मौला अली अलैहिस्सलाम",
+                "sw": "Ushindi wa Khaybar mikononi mwa Maula Ali (Alayhis Salam).",
+                "ar": "فتح خيبر على يد مولانا علي عليه السلام.",
+                "ur": "فتحِ خیبر بدستِ مولیٰ علی علیہ السلام"
+              }
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "events": [
+            {
+              "id": "m07_d25_e01",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Imam Muslim Muhaddith Abul Hasan.",
+                "gu": "વિસાલે હઝરતે ઇમામ મુસ્લિમ મોહદ્દીસ અબુલ હસન ",
+                "hi": "विसाले हज़रते इमाम मुस्लिम मुहद्दिस अबुल हसन",
+                "sw": "Kufariki (Wisal) kwa Hazrat Imam Muslim Muhaddith Abul Hasan.",
+                "ar": "وصال الإمام المحدث أبي الحسن مسلم بن الحجاج رحمه الله.",
+                "ur": "وصالِ حضرت امام مسلم محدث ابوالحسن رحمۃ اللہ علیہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "events": [
+            {
+              "id": "m07_d27_e01",
+              "description": {
+                "en": "Shab-e-Mi'raj-un-Nabi ﷺ (Great Night).",
+                "gu": "શબે મેરાજુન્નબી ﷺ (બડી રાત)",
+                "hi": "शबे मेराजुन्नबी ﷺ (बड़ी रात)",
+                "sw": "Shab-e-Mi'raj-un-Nabi ﷺ (Usiku Mtukufu).",
+                "ar": "ليلة الإسراء والمعراج للنبي ﷺ (الليلة المباركة الكبرى).",
+                "ur": "شبِ معراج النبی ﷺ (بڑی رات)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month": 8,
+      "id": "shaban",
+      "name": {
+        "en": "Shaban-ul-Muazzam",
+        "gu": "શાબાન-ઉલ-મુઅજ્જમ",
+        "hi": "शाबान-उल-मुअज़्ज़म",
+        "sw": "Shaban-ul-Muazzam",
+        "ar": "شعبان المعظم",
+        "ur": "شعبان المعظم"
+      },
+      "heading": {
+        "en": "Events of the Month of Shaban-ul-Muazzam\nDates of Passing (Wisal) of Revered Mashayikh Elders",
+        "gu": "વાકીઆતે માંહે શાબાન\nમશાયખી બુઝુર્ગો કી વિસાલ કી તારીખ",
+        "hi": "वाक़िआते माहे शाबान\nमशायख़ी बुज़ुर्गों की विसाल की तारीख़",
+        "sw": "Matukio ya Mwezi wa Shaban-ul-Muazzam\nTarehe za Kufariki (Wisal) kwa Wazee Watukufu wa Mashayikh",
+        "ar": "وقائع شهر شعبان المعظم\nتواريخ وصال المشايخ الكرام",
+        "ur": "واقعاتِ ماہِ شعبان المعظم\nمشائخی بزرگوں کی وصال کی تاریخ"
+      },
+      "days": [
+        {
+          "day": 1,
+          "events": [
+            {
+              "id": "m08_d01_e01",
+              "description": {
+                "en": "Birth (Wiladat) of Syeda Bibi Zaynab, daughter of Hazrat Maula Ali.",
+                "gu": "વિલાદતે સૈયદા બીબી ઝૈનબ બિન્ને હઝરતે મૌલા અલી",
+                "hi": "विलादते सैयदा बीबी ज़ैनब बिन्ते हज़रते मौला अली",
+                "sw": "Kuzaliwa (Wiladat) kwa Syeda Bibi Zaynab binti Hazrat Maula Ali.",
+                "ar": "ولادة السيدة زينب بنت مولانا علي عليهما السلام.",
+                "ur": "ولادتِ سیدہ بی بی زینب بنتِ حضرت مولیٰ علی"
+              }
+            },
+            {
+              "id": "m08_d01_e02",
+              "description": {
+                "en": "The Qibla of Muslims was changed from Bayt-ul-Maqdis to Khana-e-Kaaba Sharif.",
+                "gu": "મુસલમાનો કા કિબ્લા બૈતુલ મુકદ્દસ સે ખાના એ કાબા શરીફ હુવા",
+                "hi": "मुसलमानों का क़िब्ला बैतुल मुक़द्दस से ख़ाना-ए-काबा शरीफ़ हुआ",
+                "sw": "Qibla cha Waislamu kilibadilishwa kutoka Bayt-ul-Maqdis kwenda Khana-e-Kaaba Sharif.",
+                "ar": "تحويل قبلة المسلمين من بيت المقدس إلى الكعبة المشرفة.",
+                "ur": "مسلمانوں کا قبلہ بیت المقدس سے خانۂ کعبہ شریف ہوا"
+              }
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "events": [
+            {
+              "id": "m08_d02_e01",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Imam-e-Azam Abu Hanifa (Radiyallahu Anhu).",
+                "gu": "વિસાલે હઝરતે ઇમામે આઝમ અબુ હનીફા રદિયલ્લાહો અન્હો",
+                "hi": "विसाले हज़रते इमामे आज़म अबू हनीफ़ा रदियल्लाहु अन्हु",
+                "sw": "Kufariki (Wisal) kwa Hazrat Imam-e-Azam Abu Hanifa (Radiyallahu Anhu).",
+                "ar": "وصال الإمام الأعظم أبي حنيفة النعمان رضي الله عنه.",
+                "ur": "وصالِ حضرت امامِ اعظم ابو حنیفہ رضی اللہ عنہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "events": [
+            {
+              "id": "m08_d03_e01",
+              "description": {
+                "en": "Birth (Wiladat) of Hazrat Syed-ush-Shuhada Syeduna Imam-e-Hussain Shaheed-e-Karbala (Alayhis Salam) (Karbala-e-Mu'alla).",
+                "gu": "વિલાદતે હઝરતે સૈયદુશોહદા સૈયદુના ઇમામે હુસૈન શહીદ એ કરબલા અલય્સિસ્સલામ (કરબલા મોઅલ્લાહ)",
+                "hi": "विलादते हज़रते सैयदुश्शुहदा सैयदुना इमामे हुसैन शहीदे कर्बला अलैहिस्सलाम (कर्बला-ए-मुअल्ला)",
+                "sw": "Kuzaliwa (Wiladat) kwa Hazrat Syed-ush-Shuhada Syeduna Imam-e-Hussain Shaheed-e-Karbala (Alayhis Salam) (Karbala-e-Mu'alla).",
+                "ar": "ولادة سيد الشهداء سيدنا الإمام الحسين شهيد كربلاء عليه السلام (كربلاء المعلى).",
+                "ur": "ولادتِ حضرت سید الشہداء سیدنا امامِ حسین شہیدِ کربلا علیہ السلام (کربلائے معلیٰ)"
+              }
+            },
+            {
+              "id": "m08_d03_e02",
+              "description": {
+                "en": "Passing away (Wisal) of Mother of the Believers (Umm-ul-Mu'minin) Bibi Hafsa (Radiyallahu Anha).",
+                "gu": "વિસાલે ઉમ્મુલ મોઅમેનિન બીબી હફસા રદિયલ્લાહો અન્હા",
+                "hi": "विसाले उम्मुल मोमिनीन बीबी हफ़्सा रदियल्लाहु अन्हा",
+                "sw": "Kufariki (Wisal) kwa Mama wa Waumini (Umm-ul-Mu'minin) Bibi Hafsa (Radiyallahu Anha).",
+                "ar": "وصال أم المؤمنين السيدة حفصة رضي الله عنها.",
+                "ur": "وصالِ ام المومنین بی بی حفصہ رضی اللہ عنہا"
+              }
+            },
+            {
+              "id": "m08_d03_e03",
+              "description": {
+                "en": "Fasting (Roza) of Ramadan Sharif became obligatory (Fard).",
+                "gu": "રમઝાન શરીફ કે રોઝ ફર્ઝ હવે",
+                "hi": "रमज़ान शरीफ़ के रोज़े फ़र्ज़ हुए",
+                "sw": "Saumu (Roza) ya Ramadan Sharif ilifaradhishwa (Fard).",
+                "ar": "فُرض صيام شهر رمضان المبارك.",
+                "ur": "رمضان شریف کے روزے فرض ہوئے"
+              }
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "events": [
+            {
+              "id": "m08_d04_e01",
+              "description": {
+                "en": "Hazrat Imam Hussain (Alayhis Salam) left Madinah and departed for Makkah Sharif.",
+                "gu": "હઝરતે ઇમામ હુસૈન અલય્સિસ્સલામ મદીના છોડ ઔર મક્કા શરીફ કે લિયે રવાના હુવે",
+                "hi": "हज़रते इमाम हुसैन अलैहिस्सलाम मदीना छोड़कर मक्का शरीफ़ के लिए रवाना हुए",
+                "sw": "Hazrat Imam Hussain (Alayhis Salam) aliondoka Madinah na kuelekea Makkah Sharif.",
+                "ar": "خروج الإمام الحسين عليه السلام من المدينة المنورة متوجهاً إلى مكة المكرمة.",
+                "ur": "حضرت امام حسین علیہ السلام مدینہ چھوڑ کر مکہ شریف کے لیے روانہ ہوئے"
+              }
+            },
+            {
+              "id": "m08_d04_e02",
+              "description": {
+                "en": "Birth (Wiladat) of Hazrat Abbas Alamdar Qamar-e-Bani Hashim (Alayhis Salam) (Karbala-e-Mu'alla).",
+                "gu": "વિલાદતે હઝરતે અબ્બાસ અલમ્બરદાર કમરે બની હાશિમ અલય્સિસ્સલામ (કરબલા મુઅલ્લાહ)",
+                "hi": "विलादते हज़रते अब्बास अलमबरदार क़मरे बनी हाशिम अलैहिस्सलाम (कर्बला-ए-मुअल्ला)",
+                "sw": "Kuzaliwa (Wiladat) kwa Hazrat Abbas Alamdar Qamar-e-Bani Hashim (Alayhis Salam) (Karbala-e-Mu'alla).",
+                "ar": "ولادة حضرة العباس علمدار قمر بني هاشم عليه السلام (كربلاء المعلى).",
+                "ur": "ولادتِ حضرت عباس علمبردار قمرِ بنی ہاشم علیہ السلام (کربلائے معلیٰ)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "events": [
+            {
+              "id": "m08_d05_e01",
+              "description": {
+                "en": "Birth (Wiladat) of Hazrat Syeduna Imam Zain-ul-Abidin, son of Imam Hussain (Alayhis Salam) (Jannat-ul-Baqi, Madinah Sharif).",
+                "gu": "વિલાદતે હઝરતે સૈયદુના ઇમામ ઝૈનુલઅબેદીન બિન ઇમામ હુસૈન અલય્સિસ્સલામ (જન્નતુલ બકીઅ મદીના શરીફ)",
+                "hi": "विलादते हज़रते सैयदुना इमाम ज़ैनुल आबिदीन बिन इमाम हुसैन अलैहिस्सलाम (जन्नतुल बक़ी, मदीना शरीफ़)",
+                "sw": "Kuzaliwa (Wiladat) kwa Hazrat Syeduna Imam Zain-ul-Abidin mwana wa Imam Hussain (Alayhis Salam) (Jannat-ul-Baqi, Madinah Sharif).",
+                "ar": "ولادة سيدنا الإمام زين العابدين بن الإمام الحسين عليهما السلام (جنة البقيع، المدينة المنورة).",
+                "ur": "ولادتِ حضرت سیدنا امام زین العابدین بن امام حسین علیہ السلام (جنت البقیع، مدینہ شریف)"
+              }
+            },
+            {
+              "id": "m08_d05_e02",
+              "description": {
+                "en": "Blessed Urs of Hazrat Khwaja Fakhruddin Chishti, Prince (Shahzada) of Khwaja Gharib Nawaz (Rahmatullahi Alaih).",
+                "gu": "ઉર્સ મુબારક હઝરતે ખ્વાજા ફખરુદ્દીન ચિશ્તી શેહઝાદા એ ખ્વાજા ગરીબ નવાઝ રહમતુલ્લાહિ અલૈહ",
+                "hi": "उर्से मुबारक हज़रते ख़्वाजा फ़ख़रुद्दीन चिश्ती शहज़ादा-ए-ख़्वाजा ग़रीब नवाज़ रहमतुल्लाहि अलैह",
+                "sw": "Urs tukufu ya Hazrat Khwaja Fakhruddin Chishti, Mwana wa Kifalme (Shahzada) wa Khwaja Gharib Nawaz (Rahmatullahi Alaih).",
+                "ar": "العرس المبارك لحضرة الخواجة فخر الدين الجشتي نجل خواجة غريب نواز رحمه الله.",
+                "ur": "عرسِ مبارک حضرت خواجہ فخر الدین چشتی شہزادۂ خواجہ غریب نواز رحمۃ اللہ علیہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "events": [
+            {
+              "id": "m08_d06_e01",
+              "description": {
+                "en": "Passing away (Wisal) of Syeda Bibi Kulsoom, daughter of Rasulullah ﷺ.",
+                "gu": "વિસાલે સૈયદા એ બીબી કુલસુમ બિન્તે રસૂલલ્લાહ ﷺ",
+                "hi": "विसाले सैयदा बीबी कुलसूम बिन्ते रसूलुल्लाह ﷺ",
+                "sw": "Kufariki (Wisal) kwa Syeda Bibi Kulsoom binti Rasulullah ﷺ.",
+                "ar": "وصال السيدة أم كلثوم بنت رسول الله ﷺ.",
+                "ur": "وصالِ سیدہ بی بی کلثوم بنتِ رسول اللہ ﷺ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "events": [
+            {
+              "id": "m08_d12_e01",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Syed Sabz Ali (Rahmatullahi Alaih) (10th son of Hazrat Hasan Kabiruddin Kufr-Shikan [Rahmatullahi Alaih]).",
+                "gu": "વિસાલે હઝરત સૈયદ સબ્ઝઅલી રહમતુલ્લાહિ અલૈહ (10 વે ક્રઝંદ હઝરત હસન કબીરુદ્દીન કુફ્રે શિકન રહમતુલ્લાહિ અલૈહ)",
+                "hi": "विसाले हज़रत सैयद सब्ज़ अली रहमतुल्लाहि अलैह (10वें फ़रज़ंद हज़रत हसन कबीरुद्दीन कुफ़्रे शिकन रहमतुल्लाहि अलैह)",
+                "sw": "Kufariki (Wisal) kwa Hazrat Syed Sabz Ali (Rahmatullahi Alaih) (Mwana wa 10 wa Hazrat Hasan Kabiruddin Kufr-Shikan [Rahmatullahi Alaih]).",
+                "ar": "وصال حضرة سيد سبز علي رحمه الله (الابن العاشر لحضرة حسن كبير الدين كفر شكن رحمه الله).",
+                "ur": "وصالِ حضرت سید سبز علی رحمۃ اللہ علیہ (دسویں فرزند حضرت حسن کبیرالدین کفر شکن رحمۃ اللہ علیہ)"
+              }
+            },
+            {
+              "id": "m08_d12_e02",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Syed Durvesh Ali (Rahmatullahi Alaih) (16th son of Hazrat Hasan Kabiruddin Kufr-Shikan [Rahmatullahi Alaih]).",
+                "gu": "વિસાલે હઝરત સૈયદ દુર્વેશઅલી રહમતુલ્લાહિ અલૈહ  (16 વે ફરઝંદ હઝરત હસન કબીરુદ્દીન કુદ્દે શિકન રહમતુલ્લાહિ અલૈહ)",
+                "hi": "विसाले हज़रत सैयद दुर्वेश अली रहमतुल्लाहि अलैह (16वें फ़रज़ंद हज़रत हसन कबीरुद्दीन कुफ़्रे शिकन रहमतुल्लाहि अलैह)",
+                "sw": "Kufariki (Wisal) kwa Hazrat Syed Durvesh Ali (Rahmatullahi Alaih) (Mwana wa 16 wa Hazrat Hasan Kabiruddin Kufr-Shikan [Rahmatullahi Alaih]).",
+                "ar": "وصال حضرة سيد درويش علي رحمه الله (الابن السادس عشر لحضرة حسن كبير الدين كفر شكن رحمه الله).",
+                "ur": "وصالِ حضرت سید درویش علی رحمۃ اللہ علیہ (سولہویں فرزند حضرت حسن کبیرالدین کفر شکن رحمۃ اللہ علیہ)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "events": [
+            {
+              "id": "m08_d14_e01",
+              "description": {
+                "en": "Shab-e-Barat, Great Night.",
+                "gu": "શબે બરાત બડી રાત",
+                "hi": "शबे बरात, बड़ी रात",
+                "sw": "Shab-e-Barat, Usiku Mtukufu.",
+                "ar": "ليلة البراءة (الليلة المباركة الكبرى).",
+                "ur": "شبِ برات، بڑی رات"
+              }
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "events": [
+            {
+              "id": "m08_d15_e01",
+              "description": {
+                "en": "Birth (Wiladat) of Hazrat Bala Buland Ali (Rahmatullahi Alaih) (18th son of Hazrat Hasan Kabiruddin Kufr-Shikan [Rahmatullahi Alaih]).",
+                "gu": "વિલાદત હઝરત બાલા બુલંદ અલી રહમતુલ્લાહિ અલૈહ (18 ફ઼ઝંદ હઝરત હસન કબીરુદ્દીન કુદ્દે શિકન રહમતુલ્લાહિ અલૈહ)",
+                "hi": "विलादत हज़रत बाला बुलंद अली रहमतुल्लाहि अलैह (18वें फ़रज़ंद हज़रत हसन कबीरुद्दीन कुफ़्रे शिकन रहमतुल्लाहि अलैह)",
+                "sw": "Kuzaliwa (Wiladat) kwa Hazrat Bala Buland Ali (Rahmatullahi Alaih) (Mwana wa 18 wa Hazrat Hasan Kabiruddin Kufr-Shikan [Rahmatullahi Alaih]).",
+                "ar": "ولادة حضرة بالا بلند علي رحمه الله (الابن الثامن عشر لحضرة حسن كبير الدين كفر شكن رحمه الله).",
+                "ur": "ولادت حضرت بالا بلند علی رحمۃ اللہ علیہ (اٹھارہویں فرزند حضرت حسن کبیرالدین کفر شکن رحمۃ اللہ علیہ)"
+              }
+            },
+            {
+              "id": "m08_d15_e02",
+              "description": {
+                "en": "Hazrat Noor Muhammad Nur-ul-Haqq (Rahmatullahi Alaih) (15th son of Hazrat Hasan Kabiruddin Kufr-Shikan [Rahmatullahi]).",
+                "gu": "હઝરત નૂર મુહંમદ નુરુલ હક રહમતુલ્લાહિ અલૈહ (15 વે ફરઝંદ હઝરત હસન કર્બીરુદ્દીન કુદ્દે શિકન રહમતુલ્લાહિ)",
+                "hi": "हज़रत नूर मुहम्मद नूरुल हक़ रहमतुल्लाहि अलैह (15वें फ़रज़ंद हज़रत हसन कबीरुद्दीन कुफ़्रे शिकन रहमतुल्लाहि अलैह)",
+                "sw": "Hazrat Noor Muhammad Nur-ul-Haqq (Rahmatullahi Alaih) (Mwana wa 15 wa Hazrat Hasan Kabiruddin Kufr-Shikan [Rahmatullahi]).",
+                "ar": "حضرة نور محمد نور الحق رحمه الله (الابن الخامس عشر لحضرة حسن كبير الدين كفر شكن رحمه الله).",
+                "ur": "حضرت نور محمد نور الحق رحمۃ اللہ علیہ (پندرہویں فرزند حضرت حسن کبیرالدین کفر شکن رحمۃ اللہ علیہ)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "events": [
+            {
+              "id": "m08_d17_e01",
+              "description": {
+                "en": "Blessed Urs of Hazrat Peer Syed Ahmad Hussain alias Balapeer Bawa Chishti Hussaini Sabzwari (Passing away [Wisal] took place in Ramadan Sharif) (Kadi, Mehsana).",
+                "gu": "ઉર્સ મુબારક હઝરત પીર સૈયદ અહમદ હુસૈન ઉર્ફે બાલાપીર બાવા ચિશ્તી હુસૈની સબ્ઝવારી (વિસાલ રમઝાન શરીફ મેં હુવા) (કડી મહેસાણા)",
+                "hi": "उर्से मुबारक हज़रत पीर सैयद अहमद हुसैन उर्फ़ बालापीर बावा चिश्ती हुसैनी सब्ज़वारी (विसाल रमज़ान शरीफ़ में हुआ) (कड़ी, मेहसाणा)",
+                "sw": "Urs tukufu ya Hazrat Peer Syed Ahmad Hussain maarufu kama Balapeer Bawa Chishti Hussaini Sabzwari (Kufariki [Wisal] kulitokea katika Ramadan Sharif) (Kadi, Mehsana).",
+                "ar": "العرس المبارك لحضرة بير سيد أحمد حسين الملقب ببالا بير باوا الجشتي الحسيني السبزواري (كان وصاله في شهر رمضان المبارك) (كادي، مهسانا).",
+                "ur": "عرسِ مبارک حضرت پیر سید احمد حسین عرف بالا پیر باوا چشتی حسینی سبزواری (وصال رمضان شریف میں ہوا) (کڑی، مہسانہ)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "events": [
+            {
+              "id": "m08_d18_e01",
+              "description": {
+                "en": "Urs of Hazrat Peer Syed Usman Ali alias Nazar Hussain Bawa, son of Hazrat Peer Qasim Ali Bawa (Rahmatullahi Alaih) (Dholka).",
+                "gu": "ઉર્સ હઝરત પીર સૈયદ ઉષ્માન અલી ઉર્ફે નઝર હુસૈન બાવા બિન હઝરત પીર કાસીમ અલી બાવા રહમતુલ્લાહિ અલૈહ (ધોળકા)",
+                "hi": "उर्स हज़रत पीर सैयद उस्मान अली उर्फ़ नज़र हुसैन बावा बिन हज़रत पीर क़ासिम अली बावा रहमतुल्लाहि अलैह (धोलका)",
+                "sw": "Urs ya Hazrat Peer Syed Usman Ali maarufu kama Nazar Hussain Bawa mwana wa Hazrat Peer Qasim Ali Bawa (Rahmatullahi Alaih) (Dholka).",
+                "ar": "عرس حضرة بير سيد عثمان علي الملقب بنظر حسين باوا بن حضرة بير قاسم علي باوا رحمه الله (دهولكا).",
+                "ur": "عرس حضرت پیر سید عثمان علی عرف نظر حسین باوا بن حضرت پیر قاسم علی باوا رحمۃ اللہ علیہ (دھولکہ)"
+              }
+            },
+            {
+              "id": "m08_d18_e02",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Usman Marwandi alias Lal Shahbaz Qalandar (Sehwan Sharif, Sindh, Pakistan).",
+                "gu": "વિસાલે હઝરત ઉષ્માન મરવન્દી ઉર્ફે લાલશાહબાઝ કલંદર (સેવણ શરીક સિંધ પાકિસ્તાન)",
+                "hi": "विसाले हज़रत उस्मान मरवंदी उर्फ़ लाल शाहबाज़ क़लंदर (सेहवन शरीफ़, सिंध, पाकिस्तान)",
+                "sw": "Kufariki (Wisal) kwa Hazrat Usman Marwandi maarufu kama Lal Shahbaz Qalandar (Sehwan Sharif, Sindh, Pakistan).",
+                "ar": "وصال حضرة عثمان المروندي الملقب بلعل شهباز قلندر رحمه الله (سهوان شريف، السند، باكستان).",
+                "ur": "وصالِ حضرت عثمان مروندی عرف لعل شہباز قلندر (سیہون شریف، سندھ، پاکستان)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "events": [
+            {
+              "id": "m08_d19_e01",
+              "description": {
+                "en": "Urs of Hazrat Antarshah Wali (Rahmatullahi Alaih) (Nawavas).",
+                "gu": "ઉર્સ હઝરત અંતરશાહ વલી રહમતુલ્લાહિ અલૈહ (નવાવાસ)",
+                "hi": "उर्स हज़रत अंतरशाह वली रहमतुल्लाहि अलैह (नवावास)",
+                "sw": "Urs ya Hazrat Antarshah Wali (Rahmatullahi Alaih) (Nawavas).",
+                "ar": "عرس حضرة عنتر شاه ولي رحمه الله (نواواس).",
+                "ur": "عرس حضرت عنتر شاہ ولی رحمۃ اللہ علیہ (نواواس)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "events": [
+            {
+              "id": "m08_d20_e01",
+              "description": {
+                "en": "Martyrdom (Shaheed) of Hazrat Peer Syed Fazilshah Bawa (Father of Peer Mashayikh Bawa and Balapeer Bawa, Kadi, Mehsana).",
+                "gu": "શહીદ હવે હઝરત પીર સૈયદ ફાઝિલશાહ બાવા (પીર મશાયખ બાવા વ બાલાપીર બાવા કે અબ્બા કડી મહેસાણા)",
+                "hi": "शहीद हुए हज़रत पीर सैयद फ़ाज़िलशाह बावा (पीर मशायख़ बावा व बालापीर बावा के अब्बा, कड़ी, मेहसाणा)",
+                "sw": "Aliuawa Shahidi (Shaheed) Hazrat Peer Syed Fazilshah Bawa (Baba wa Peer Mashayikh Bawa na Balapeer Bawa, Kadi, Mehsana).",
+                "ar": "استشهاد حضرة بير سيد فاضل شاه باوا (والد بير مشايخ باوا وبالا بير باوا، كادي، مهسانا).",
+                "ur": "شہید ہوئے حضرت پیر سید فاضل شاہ باوا (پیر مشائخ باوا و بالا پیر باوا کے ابا، کڑی، مہسانہ)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "events": [
+            {
+              "id": "m08_d30_e01",
+              "description": {
+                "en": "Birth (Wiladat) of Sarkar Ghaus-e-Azam Dastagir Peeran-e-Peer (Radiyallahu Anhu).",
+                "gu": "વિલાદતે સરકાર ગૌષે આઝમ દસ્તગીર પીરે પીરા રદિયલ્લાહો અન્હો",
+                "hi": "विलादते सरकार ग़ौसे आज़म दस्तगीर पीरे पीराँ रदियल्लाहु अन्हु",
+                "sw": "Kuzaliwa (Wiladat) kwa Sarkar Ghaus-e-Azam Dastagir Peeran-e-Peer (Radiyallahu Anhu).",
+                "ar": "ولادة سركار الغوث الأعظم دستكير سلطان الأولياء رضي الله عنه.",
+                "ur": "ولادتِ سرکار غوثِ اعظم دستگیر پیرانِ پیر رضی اللہ عنہ"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month": 9,
+      "id": "ramadan",
+      "name": {
+        "en": "Ramadan-ul-Mubarak",
+        "gu": "રમજ઼ાન-ઉલ-મુબારક",
+        "hi": "रमज़ान-उल-मुबारक",
+        "sw": "Ramadan-ul-Mubarak",
+        "ar": "رمضان المبارك",
+        "ur": "رمضان المبارک"
+      },
+      "heading": {
+        "en": "Events of the Month of Ramadan-ul-Mubarak\nDates of Passing (Wisal) of Revered Mashayikh Elders",
+        "gu": "વાકીઆતે માંહે રમઝાનુલ મુબારક\nમશાયખી બુઝુર્ગો કી વિસાલ કી તારીખ",
+        "hi": "वाक़िआते माहे रमज़ानुल मुबारक\nमशायख़ी बुज़ुर्गों की विसाल की तारीख़",
+        "sw": "Matukio ya Mwezi wa Ramadan-ul-Mubarak\nTarehe za Kufariki (Wisal) kwa Wazee Watukufu wa Mashayikh",
+        "ar": "وقائع شهر رمضان المبارك\nتواريخ وصال المشايخ الكرام",
+        "ur": "واقعاتِ ماہِ رمضان المبارک\nمشائخی بزرگوں کی وصال کی تاریخ"
+      },
+      "days": [
+        {
+          "day": 1,
+          "events": [
+            {
+              "id": "m09_d01_e01",
+              "description": {
+                "en": "Birth (Wiladat) of Huzoor Ghaus-e-Azam Dastagir (Rahmatullahi Alaih).",
+                "gu": "વિલાદતે હુઝુર ગૌષે આઝમ દસ્તગીર રહમતુલ્લાહિ અલૈહ",
+                "hi": "विलादते हुज़ूर ग़ौसे आज़म दस्तगीर रहमतुल्लाहि अलैह",
+                "sw": "Kuzaliwa (Wiladat) kwa Huzoor Ghaus-e-Azam Dastagir (Rahmatullahi Alaih).",
+                "ar": "ولادة حضرة الغوث الأعظم دستكير رحمه الله.",
+                "ur": "ولادتِ حضور غوثِ اعظم دستگیر رحمۃ اللہ علیہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "events": [
+            {
+              "id": "m09_d02_e01",
+              "description": {
+                "en": "Hazrat Syed Ismail Shah, son of Peer Hasan Kabiruddin Kufr-Shikan (Rahmatullahi Alaih) (14th son; Mazar in Lak Jungle, Pakistan).",
+                "gu": "હઝરત સૈયદ ઈસ્માઈલ શાહ બિન પીર હસન કબીરુદ્દીન કુફ્રે શિકન રહમતુલ્લાહિ અલૈહ (14 વે ફરઝંદ મઝાર લક જંગલ પાકિસ્તાન)",
+                "hi": "हज़रत सैयद इस्माईल शाह बिन पीर हसन कबीरुद्दीन कुफ़्रे शिकन रहमतुल्लाहि अलैह (14वें फ़रज़ंद; मज़ार: लक जंगल, पाकिस्तान)",
+                "sw": "Hazrat Syed Ismail Shah mwana wa Peer Hasan Kabiruddin Kufr-Shikan (Rahmatullahi Alaih) (Mwana wa 14; Mazar iko Lak Jungle, Pakistan).",
+                "ar": "حضرة سيد إسماعيل شاه بن بير حسن كبير الدين كفر شكن رحمه الله (الابن الرابع عشر؛ مزاره في لك جنكل، باكستان).",
+                "ur": "حضرت سید اسماعیل شاہ بن پیر حسن کبیرالدین کفر شکن رحمۃ اللہ علیہ (چودہویں فرزند؛ مزار لک جنگل، پاکستان)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "events": [
+            {
+              "id": "m09_d03_e01",
+              "description": {
+                "en": "Passing away (Wisal) of Syeda-e-Ka'inat, daughter of Huzoor ﷺ, Janab Fatimat-uz-Zahra (Salamullah Alaiha).",
+                "gu": "વિસાલે સૈયદાએ કાએનાત બિન્ને હુઝુર ﷺ જનાબે ફાતિમાતુઝ્ઝહરા સલામુલ્લાહ અલયહા",
+                "hi": "विसाले सैयदा-ए-काइनात बिन्ते हुज़ूर ﷺ जनाबे फ़ातिमातुज़-ज़हरा सलामुल्लाहि अलैहा",
+                "sw": "Kufariki (Wisal) kwa Syeda-e-Ka'inat, binti ya Huzoor ﷺ, Janab Fatimat-uz-Zahra (Salamullah Alaiha).",
+                "ar": "وصال سيدة نساء العالمين بنت رسول الله ﷺ السيدة فاطمة الزهراء عليها السلام.",
+                "ur": "وصالِ سیدۂ کائنات بنتِ حضور ﷺ جناب فاطمۃ الزہرا سلام اللہ علیہا"
+              }
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "events": [
+            {
+              "id": "m09_d09_e01",
+              "description": {
+                "en": "Hazrat Peer Syed Bande Ali, son of Syed Ghulam Ali Hazar Peer Chishti Mashayikhi (Rahmatullahi Alaih) (Rustampura, Surat).",
+                "gu": "હઝરત પીર સૈયદ બંદેઅલી વલ્દ સૈયદ ગુલામ અલી હાઝર પીર ચિશ્તી મશાયખી રહમતુલ્લાહિ અલૈહ (રૂસ્તમપુરા સુરત)",
+                "hi": "हज़रत पीर सैयद बंदे अली वल्द सैयद ग़ुलाम अली हाज़िर पीर चिश्ती मशायख़ी रहमतुल्लाहि अलैह (रुस्तमपुरा, सूरत)",
+                "sw": "Hazrat Peer Syed Bande Ali mwana wa Syed Ghulam Ali Hazar Peer Chishti Mashayikhi (Rahmatullahi Alaih) (Rustampura, Surat).",
+                "ar": "حضرة بير سيد بنده علي بن سيد غلام علي حاضر بير الجشتي المشايخي رحمه الله (رستم بورا، سورت).",
+                "ur": "حضرت پیر سید بندہ علی ولد سید غلام علی حاضر پیر چشتی مشائخی رحمۃ اللہ علیہ (رستم پورہ، سورت)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "events": [
+            {
+              "id": "m09_d10_e01",
+              "description": {
+                "en": "Mother of the Believers (Umm-ul-Mu'minin) Hazrat Khadijat-ul-Kubra (Salamullah Alaiha) (Makkah Sharif).",
+                "gu": "ઉમ્મુલ મોઅમેનિન હઝરતે ખદીજતુલ કુબ્રા સલામુલ્લાહ અલયહાં (મક્કા શરીફ)",
+                "hi": "उम्मुल मोमिनीन हज़रते ख़दीजतुल कुबरा सलामुल्लाहि अलैहा (मक्का शरीफ़)",
+                "sw": "Mama wa Waumini (Umm-ul-Mu'minin) Hazrat Khadijat-ul-Kubra (Salamullah Alaiha) (Makkah Sharif).",
+                "ar": "أم المؤمنين السيدة خديجة الكبرى رضي الله عنها وسلام الله عليها (مكة المكرمة).",
+                "ur": "ام المومنین حضرت خدیجۃ الکبریٰ سلام اللہ علیہا (مکہ شریف)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "events": [
+            {
+              "id": "m09_d11_e01",
+              "description": {
+                "en": "Hazrat Bu Ali Shah Qalandar Chishti Nizami Panipati (Rahmatullahi Alaih).",
+                "gu": "હઝરત બુઅલી શાહ કલંદર ચિશ્તી નિઝામી પાનીપતી રહમતુલ્લાહિ અલૈહ",
+                "hi": "हज़रत बू अली शाह क़लंदर चिश्ती निज़ामी पानीपती रहमतुल्लाहि अलैह",
+                "sw": "Hazrat Bu Ali Shah Qalandar Chishti Nizami Panipati (Rahmatullahi Alaih).",
+                "ar": "حضرة بو علي شاه قلندر الجشتي النظامي البانيبتي رحمه الله.",
+                "ur": "حضرت بو علی شاہ قلندر چشتی نظامی پانی پتی رحمۃ اللہ علیہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "events": [
+            {
+              "id": "m09_d14_e01",
+              "description": {
+                "en": "Hazrat Syeduna Muhammad Ghaus Gwaliori al-Shattari (Rahmatullahi Alaih) (Gwalior).",
+                "gu": "હઝરતે સૈયદુના મુહંમદ ગૌષે ગ્વાલિયરી અલ સત્તારી રહમતુલ્લાહિ અલૈહ (ગ્વાલિયર)",
+                "hi": "हज़रते सैयदुना मुहम्मद ग़ौस ग्वालियरी अल-शत्तारी रहमतुल्लाहि अलैह (ग्वालियर)",
+                "sw": "Hazrat Syeduna Muhammad Ghaus Gwaliori al-Shattari (Rahmatullahi Alaih) (Gwalior).",
+                "ar": "حضرة سيدنا محمد غوث الكواليوري الشطاري رحمه الله (كواليور).",
+                "ur": "حضرت سیدنا محمد غوث گوالیاری الشطاری رحمۃ اللہ علیہ (گوالیار)"
+              }
+            },
+            {
+              "id": "m09_d14_e02",
+              "description": {
+                "en": "Hazrat Abul Hasan alias Awwal Hussain, son of Fazle Ali Chishti Mashayikhi (Rahmatullahi Alaih) (Badi Dargah, Surat).",
+                "gu": "હઝરત અબુલ હસન ઉર્ફે અવ્વલ હુસૈન વન્દે ફઝલીઅલી ચિશ્તી મશાયખી રહમતુલ્લાહિ અલૈહ (બડી દરગાહ સુરત)",
+                "hi": "हज़रत अबुल हसन उर्फ़ अव्वल हुसैन वल्द फ़ज़्ले अली चिश्ती मशायख़ी रहमतुल्लाहि अलैह (बड़ी दरगाह, सूरत)",
+                "sw": "Hazrat Abul Hasan maarufu kama Awwal Hussain mwana wa Fazle Ali Chishti Mashayikhi (Rahmatullahi Alaih) (Badi Dargah, Surat).",
+                "ar": "حضرة أبو الحسن الملقب بأول حسين بن فضل علي الجشتي المشايخي رحمه الله (بادي دركاه، سورت).",
+                "ur": "حضرت ابوالحسن عرف اول حسین ولد فضلِ علی چشتی مشائخی رحمۃ اللہ علیہ (بڑی درگاہ، سورت)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "events": [
+            {
+              "id": "m09_d15_e01",
+              "description": {
+                "en": "Hazrat Syed Shamsuddin, son of Najmuddin Chishti (Rahmatullahi Alaih) (Badi Dargah, Surat).",
+                "gu": "હઝરત સૈયદ શમસુદ્દીન વલ્દ નજમુદ્દીન ચિશ્તી રહમતુલ્લાહિ અલૈહ (બડી દરગાહ સુરત)",
+                "hi": "हज़रत सैयद शम्सुद्दीन वल्द नजमुद्दीन चिश्ती रहमतुल्लाहि अलैह (बड़ी दरगाह, सूरत)",
+                "sw": "Hazrat Syed Shamsuddin mwana wa Najmuddin Chishti (Rahmatullahi Alaih) (Badi Dargah, Surat).",
+                "ar": "حضرة سيد شمس الدين بن نجم الدين الجشتي رحمه الله (بادي دركاه، سورت).",
+                "ur": "حضرت سید شمس الدین ولد نجم الدین چشتی رحمۃ اللہ علیہ (بڑی درگاہ، سورت)"
+              }
+            },
+            {
+              "id": "m09_d15_e02",
+              "description": {
+                "en": "Hazrat Syed Ghulam Ali, son of Peer Sahab Bawa Chishti Mashayikhi (Rahmatullahi Alaih) (Qasamshah Compound, Sarangpur, Ahmedabad).",
+                "gu": "હઝરત સૈયદ ગુલામ અલી વન્દે પીર સાહબ બાવા ચિશ્તી મશાયખી રહમતુલ્લાહિ અલૈહ (કાસમશાહ કમ્પાઉન્ડ શાહરંગપુર અહમદાબાદ)",
+                "hi": "हज़रत सैयद ग़ुलाम अली वल्द पीर साहब बावा चिश्ती मशायख़ी रहमतुल्लाहि अलैह (क़ासमशाह कंपाउंड, सारंगपुर, अहमदाबाद)",
+                "sw": "Hazrat Syed Ghulam Ali mwana wa Peer Sahab Bawa Chishti Mashayikhi (Rahmatullahi Alaih) (Qasamshah Compound, Sarangpur, Ahmedabad).",
+                "ar": "حضرة سيد غلام علي بن بير صاحب باوا الجشتي الحسيني المشايخي رحمه الله (مجمع قاسم شاه، سارانجبور، أحمد آباد).",
+                "ur": "حضرت سید غلام علی ولد پیر صاحب باوا چشتی مشائخی رحمۃ اللہ علیہ (قاسم شاہ کمپاؤنڈ، سارنگ پور، احمد آباد)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "events": [
+            {
+              "id": "m09_d16_e01",
+              "description": {
+                "en": "Hazrat Peer Syed Mirumiya Bawa Chishti Mashayikhi (Rahmatullahi Alaih) (Wankaner, Saurashtra).",
+                "gu": "હઝરત પીર સૈયદ મીરુમિયા બાવા ચિશ્તી મશાયખી રહમતુલ્લાહિ અલૈહ (વાંકાનેર સૌરાષ્ટ્ર)",
+                "hi": "हज़रत पीर सैयद मीरूमियाँ बावा चिश्ती मशायख़ी रहमतुल्लाहि अलैह (वांकानेर, सौराष्ट्र)",
+                "sw": "Hazrat Peer Syed Mirumiya Bawa Chishti Mashayikhi (Rahmatullahi Alaih) (Wankaner, Saurashtra).",
+                "ar": "حضرة بير سيد ميروميان باوا الجشتي المشايخي رحمه الله (وانكانير، سوراشترا).",
+                "ur": "حضرت پیر سید میرو میاں باوا چشتی مشائخی رحمۃ اللہ علیہ (وانکانیر، سوراشٹر)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 17,
+          "events": [
+            {
+              "id": "m09_d17_e01",
+              "description": {
+                "en": "Battle of Badr (Jang-e-Badr), the first battle of Islam.",
+                "gu": "જંગે બદર ઇસ્લામ કી પેગલી જંગ",
+                "hi": "जंगे बद्र, इस्लाम की पहली जंग",
+                "sw": "Vita vya Badr (Jang-e-Badr), vita vya kwanza vya Uislamu.",
+                "ar": "غزوة بدر الكبرى، أول معركة في الإسلام.",
+                "ur": "جنگِ بدر، اسلام کی پہلی جنگ"
+              }
+            },
+            {
+              "id": "m09_d17_e02",
+              "description": {
+                "en": "Mother of the Believers (Umm-ul-Mu'minin) Hazrat Aisha Siddiqa (Radiyallahu Anha).",
+                "gu": "ઉમ્મુલ મોઅમેનિન હઝરતે આઈશા સિદ્દીકા રદિયલ્લાહો અન્હા",
+                "hi": "उम्मुल मोमिनीन हज़रते आइशा सिद्दीक़ा रदियल्लाहु अन्हा",
+                "sw": "Mama wa Waumini (Umm-ul-Mu'minin) Hazrat Aisha Siddiqa (Radiyallahu Anha).",
+                "ar": "أم المؤمنين السيدة عائشة الصديقة رضي الله عنها.",
+                "ur": "ام المومنین حضرت عائشہ صدیقہ رضی اللہ عنہا"
+              }
+            },
+            {
+              "id": "m09_d17_e03",
+              "description": {
+                "en": "Hazrat Khwaja Nasiruddin Chishti Chiragh-e-Dehlavi (Rahmatullahi Alaih).",
+                "gu": "હઝરત ખ્વાજા નશીરુદ્દીન ચિશ્તી ચરાગે દેહલવી રહમતુલ્લાહિ અલૈહ",
+                "hi": "हज़रत ख़्वाजा नसीरुद्दीन चिश्ती चराग़े देहलवी रहमतुल्लाहि अलैह",
+                "sw": "Hazrat Khwaja Nasiruddin Chishti Chiragh-e-Dehlavi (Rahmatullahi Alaih).",
+                "ar": "حضرة الخواجة نصير الدين الجشتي چراغ دهلوي رحمه الله.",
+                "ur": "حضرت خواجہ نصیر الدین چشتی چراغِ دہلوی رحمۃ اللہ علیہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "events": [
+            {
+              "id": "m09_d18_e01",
+              "description": {
+                "en": "Birth (Wiladat) of Hazrat Peer Syed Mominshah Bawa (Rahmatullahi Alaih).",
+                "gu": "વિલાદતે હઝરત પીર સૈયદ મોમીનશાહ બાવા રહમતુલ્લાહિ અલૈહ ",
+                "hi": "विलादते हज़रत पीर सैयद मोमिनशाह बावा रहमतुल्लाहि अलैह",
+                "sw": "Kuzaliwa (Wiladat) kwa Hazrat Peer Syed Mominshah Bawa (Rahmatullahi Alaih).",
+                "ar": "ولادة حضرة بير سيد مؤمن شاه باوا رحمه الله.",
+                "ur": "ولادتِ حضرت پیر سید مومن شاہ باوا رحمۃ اللہ علیہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "events": [
+            {
+              "id": "m09_d19_e01",
+              "description": {
+                "en": "Actual passing away (Haqiqi Wisal) of Hazrat Peer Syed Ahmad Hussain alias Balapeer Bawa (Rahmatullahi Alaih) (Kadi, Mehsana; Urs on 17 Shaban).",
+                "gu": "હકીકી વિસાલ હઝરત પીર સૈયદ અહમદ હુસૈન ઉર્ફે બાલાપીર બાવા રહમતુલ્લાહિ અલૈહ (કડી મહેસાણા, ઉર્સ 17 શાબાન)",
+                "hi": "हक़ीक़ी विसाल हज़रत पीर सैयद अहमद हुसैन उर्फ़ बालापीर बावा रहमतुल्लाहि अलैह (कड़ी, मेहसाणा; उर्स 17 शाबान)",
+                "sw": "Kufariki halisi (Haqiqi Wisal) kwa Hazrat Peer Syed Ahmad Hussain maarufu kama Balapeer Bawa (Rahmatullahi Alaih) (Kadi, Mehsana; Urs ni 17 Shaban).",
+                "ar": "الوصال الحقيقي لحضرة بير سيد أحمد حسين الملقب ببالا بير باوا رحمه الله (كادي، مهسانا؛ وعرسه في ١٧ شعبان).",
+                "ur": "حقیقی وصال حضرت پیر سید احمد حسین عرف بالا پیر باوا رحمۃ اللہ علیہ (کڑی، مہسانہ؛ عرس 17 شعبان)"
+              }
+            },
+            {
+              "id": "m09_d19_e02",
+              "description": {
+                "en": "Hazrat Peer Syed Intekhab Alam alias Ghulam Ali Bawa (Rahmatullahi Alaih) (Wankaner).",
+                "gu": "હઝરત પીર સૈયદ ઇન્તેખાબ આલમ ઉર્ફે ગુલામ અલી બાવા રહમતુલ્લાહિ અલૈહ (વાંકાનેર)",
+                "hi": "हज़रत पीर सैयद इंतिख़ाब आलम उर्फ़ ग़ुलाम अली बावा रहमतुल्लाहि अलैह (वांकानेर)",
+                "sw": "Hazrat Peer Syed Intekhab Alam maarufu kama Ghulam Ali Bawa (Rahmatullahi Alaih) (Wankaner).",
+                "ar": "حضرة بير سيد انتخاب عالم الملقب بغلام علي باوا رحمه الله (وانكانير).",
+                "ur": "حضرت پیر سید انتخاب عالم عرف غلام علی باوا رحمۃ اللہ علیہ (وانکانیر)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "events": [
+            {
+              "id": "m09_d20_e01",
+              "description": {
+                "en": "Conquest of Makkah (Fath-e-Makkah).",
+                "gu": "ફતેહ મક્કા ",
+                "hi": "फ़तह-ए-मक्का",
+                "sw": "Ushindi wa Makkah (Fath-e-Makkah).",
+                "ar": "فتح مكة المكرمة.",
+                "ur": "فتحِ مکہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 21,
+          "events": [
+            {
+              "id": "m09_d21_e01",
+              "description": {
+                "en": "Martyrdom (Shahadat) of Hazrat Syeduna Sarkar Amir-ul-Mu'minin Haider-e-Karrar Maula Ali Mushkil-Kusha (Alayhis Salam) (Najaf-ul-Ashraf).",
+                "gu": "શહાદતે હઝરતે સૈયદુના સરકાર અમીરુલ મોઅમેનિન હૈદરે કર્રાર મૌલા અલી મુશ્કિલકુશા અલવ્હિસ્સલામ (નજફ ઉલ અશરફ)",
+                "hi": "शहादते हज़रते सैयदुना सरकार अमीरुल मोमिनीन हैदरे कर्रार मौला अली मुश्किल कुशा अलैहिस्सलाम (नजफ़-उल-अशरफ़)",
+                "sw": "Kuuawa Shahidi (Shahadat) kwa Hazrat Syeduna Sarkar Amir-ul-Mu'minin Haider-e-Karrar Maula Ali Mushkil-Kusha (Alayhis Salam) (Najaf-ul-Ashraf).",
+                "ar": "استشهاد سيدنا سركار أمير المؤمنين حيدر الكرار مولى علي مشكل كشا عليه السلام (النجف الأشرف).",
+                "ur": "شہادتِ حضرت سیدنا سرکار امیر المومنین حیدرِ کرار مولیٰ علی مشکل کشا علیہ السلام (نجف الاشرف)"
+              }
+            },
+            {
+              "id": "m09_d21_e02",
+              "description": {
+                "en": "Hazrat Syed Nasiruddin, son of Shams Sabzwari Iraqi (Rahmatullahi Alaih) (In the basement [Tehkhana] of Shahi Masjid, Shahi Fort, Lahore).",
+                "gu": "હઝરત સૈયદ નશીરુદ્દીન બિન શમ્સ સબ્ઝવારી ઈરાકી રહમતુલ્લાહિ અલૈહ (શાહી મસ્જિદ શાહી કિલે કે તેહખાને મેં લાહોર)",
+                "hi": "हज़रत सैयद नसीरुद्दीन बिन शम्स सब्ज़वारी इराक़ी रहमतुल्लाहि अलैह (शाही मस्जिद, शाही क़िले के तहख़ाने में, लाहौर)",
+                "sw": "Hazrat Syed Nasiruddin mwana wa Shams Sabzwari Iraqi (Rahmatullahi Alaih) (Katika chumba cha chini [Tehkhana] cha Shahi Masjid, Ngome ya Shahi, Lahore).",
+                "ar": "حضرة سيد نصير الدين بن شمس السبزواري العراقي رحمه الله (في سرداب المسجد الشاهي بالقلعة الشاهية، لاهور).",
+                "ur": "حضرت سید نصیر الدین بن شمس سبزواری عراقی رحمۃ اللہ علیہ (شاہی مسجد شاہی قلعے کے تہہ خانے میں، لاہور)"
+              }
+            },
+            {
+              "id": "m09_d21_e03",
+              "description": {
+                "en": "Hazrat Syed Shahabuddin, son of Nasiruddin Sabzwari (Rahmatullahi Alaih) (Abbottabad).",
+                "gu": "હઝરત સૈયદ શાહબુદ્દીન બિન નસીરુદ્દીન સબ્ઝવારી રહમતુલ્લાહિ અલૈહ (એબતાબાદ)",
+                "hi": "हज़रत सैयद शहाबुद्दीन बिन नसीरुद्दीन सब्ज़वारी रहमतुल्लाहि अलैह (ऐबटाबाद)",
+                "sw": "Hazrat Syed Shahabuddin mwana wa Nasiruddin Sabzwari (Rahmatullahi Alaih) (Abbottabad).",
+                "ar": "حضرة سيد شهاب الدين بن نصير الدين السبزواري رحمه الله (أبوت آباد).",
+                "ur": "حضرت سید شہاب الدین بن نصیر الدین سبزواری رحمۃ اللہ علیہ (ایبٹ آباد)"
+              }
+            },
+            {
+              "id": "m09_d21_e04",
+              "description": {
+                "en": "Hazrat Ali Gauhar Noor Sabit, son of Peer Hasan Kabiruddin Kufr-Shikan (Rahmatullahi Alaih) (Third son; Mazar at Mahmud Koti Masjid, Lahore).",
+                "gu": "હઝરત અલી ગોહર નૂર સાબિત બિન પોર હસન કબીરુદ્દીન કુફ્ફે શિકન રહમતુલ્લાહિ અલૈહ (તીસરે ફરઝંદ મઝાર મહેમુદ કોટી મસ્જિદ લાહોર)",
+                "hi": "हज़रत अली गौहर नूर साबित बिन पीर हसन कबीरुद्दीन कुफ़्रे शिकन रहमतुल्लाहि अलैह (तीसरे फ़रज़ंद; मज़ार: महमूद कोटी मस्जिद, लाहौर)",
+                "sw": "Hazrat Ali Gauhar Noor Sabit mwana wa Peer Hasan Kabiruddin Kufr-Shikan (Rahmatullahi Alaih) (Mwana wa tatu; Mazar iko Mahmud Koti Masjid, Lahore).",
+                "ar": "حضرة علي جوهر نور ثابت بن بير حسن كبير الدين كفر شكن رحمه الله (الابن الثالث؛ مزاره في مسجد محمود كوتي، لاهور).",
+                "ur": "حضرت علی گوہر نور ثابت بن پیر حسن کبیرالدین کفر شکن رحمۃ اللہ علیہ (تیسرے فرزند؛ مزار محمود کوٹی مسجد، لاہور)"
+              }
+            },
+            {
+              "id": "m09_d21_e05",
+              "description": {
+                "en": "Hazrat Syeduna Rahmatullah, son of Peer Hasan Kabiruddin Kufr-Shikan (Rahmatullahi Alaih) (Fifth son — according to one narration, the first son; ancestor of the Mashayikhi family, Khairpur, Tehsil Timliya).",
+                "gu": "હઝરત સૈયદુના રેહમતુલ્લાહ બિન પીર હસન કબીરુદ્દીન કુફ્રે શિકન રહમતુલ્લાહિ અલૈહ (પાચવે ફરઝંદ એક રિવાયત સે પહેલે ફરઝંદ, આપ મશાયખી ખાનદાન કે દાદા હો, ખેરપુર તેહસીલ ટીમલીયા)",
+                "hi": "हज़रत सैयदुना रहमतुल्लाह बिन पीर हसन कबीरुद्दीन कुफ़्रे शिकन रहमतुल्लाहि अलैह (पाँचवें फ़रज़ंद, एक रिवायत से पहले फ़रज़ंद; आप मशायख़ी ख़ानदान के दादा हैं, खैरपुर, तहसील टिमलिया)",
+                "sw": "Hazrat Syeduna Rahmatullah mwana wa Peer Hasan Kabiruddin Kufr-Shikan (Rahmatullahi Alaih) (Mwana wa tano — kwa riwaya moja mwana wa kwanza; babu wa familia ya Mashayikhi, Khairpur, Tehsil Timliya).",
+                "ar": "حضرة سيدنا رحمة الله بن بير حسن كبير الدين كفر شكن رحمه الله (الابن الخامس وفي رواية الابن الأول، وهو جد الأسرة المشايخية، خيربور، تحصيل تيمليا).",
+                "ur": "حضرت سیدنا رحمۃ اللہ بن پیر حسن کبیرالدین کفر شکن رحمۃ اللہ علیہ (پانچویں فرزند، ایک روایت سے پہلے فرزند؛ آپ مشائخی خاندان کے دادا ہیں، خیرپور، تحصیل ٹملیا)"
+              }
+            },
+            {
+              "id": "m09_d21_e06",
+              "description": {
+                "en": "Martyrdom (Shahadat) of Hazrat Syed Israil Taiyar Ghazi, son of Peer Hasan Kabiruddin Kufr-Shikan (Eighth [8th] son; Mazar in Bhaganaari, District Sibi, Sindh, Pakistan).",
+                "gu": "શહાદત હઝરત સૈયદ ઇસરાઈલ તૈયાર ગાઝી બિન પીર હસન કબીરુદ્દીન કુફ્રે શિકન (આઠવે 8 વે ફરઝંદ મઝાર ભગનારી જિલ્લા સેવી સિંધ પાકિસ્તાન)",
+                "hi": "शहादत हज़रत सैयद इसराईल तैयार ग़ाज़ी बिन पीर हसन कबीरुद्दीन कुफ़्रे शिकन (आठवें [8वें] फ़रज़ंद; मज़ार: भगनारी, ज़िला सिबी, सिंध, पाकिस्तान)",
+                "sw": "Kuuawa Shahidi (Shahadat) kwa Hazrat Syed Israil Taiyar Ghazi mwana wa Peer Hasan Kabiruddin Kufr-Shikan (Mwana wa nane [8]; Mazar iko Bhaganaari, Wilaya ya Sibi, Sindh, Pakistan).",
+                "ar": "استشهاد حضرة سيد إسرائيل تيار غازي بن بير حسن كبير الدين كفر شكن (الابن الثامن؛ مزاره في بهكناري، مقاطعة سيبي، السند، باكستان).",
+                "ur": "شہادت حضرت سید اسرائیل تیار غازی بن پیر حسن کبیرالدین کفر شکن (آٹھویں فرزند؛ مزار بھگناری، ضلع سبی، سندھ، پاکستان)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 22,
+          "events": [
+            {
+              "id": "m09_d22_e01",
+              "description": {
+                "en": "Hazrat Abdullah Muhammad, author of Sunan Ibn Majah Sharif (Radiyallahu Anhu).",
+                "gu": "હઝરત અબ્દુલ્લાહ મુહંમદ, ઈબ્ને માજા શરીફ કે મુસન્નીફ રદિયલ્લાહો અન્હો",
+                "hi": "हज़रत अब्दुल्लाह मुहम्मद, इब्ने माजा शरीफ़ के मुसन्निफ़ रदियल्लाहु अन्हु",
+                "sw": "Hazrat Abdullah Muhammad, mwandishi wa Sunan Ibn Majah Sharif (Radiyallahu Anhu).",
+                "ar": "الإمام أبو عبد الله محمد بن يزيد ابن ماجه، مصنف سنن ابن ماجه الشريف رضي الله عنه.",
+                "ur": "حضرت عبداللہ محمد، ابنِ ماجہ شریف کے مصنف رضی اللہ عنہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 25,
+          "events": [
+            {
+              "id": "m09_d25_e01",
+              "description": {
+                "en": "Sandal Sharif of Hazrat Imamshah, son of Peer Hasan Kabiruddin Kufr-Shikan (Rahmatullahi Alaih) (He is the 13th son; Mazar Sharif in Pirana).",
+                "gu": "સંદલ શરીફ હઝરત ઇમામશાહ બિન પીર હસન કબીરુદ્દીન કુફ્ફે શિકન રહમતુલ્લાહિ અલૈહ (13 વે ફરઝંદ હો મઝાર શરીફ પીરાણા)",
+                "hi": "संदल शरीफ़ हज़रत इमामशाह बिन पीर हसन कबीरुद्दीन कुफ़्रे शिकन रहमतुल्लाहि अलैह (13वें फ़रज़ंद हैं; मज़ार शरीफ़: पीराणा)",
+                "sw": "Sandal Sharif ya Hazrat Imamshah mwana wa Peer Hasan Kabiruddin Kufr-Shikan (Rahmatullahi Alaih) (Yeye ni mwana wa 13; Mazar Sharif iko Pirana).",
+                "ar": "صندل شريف لحضرة إمام شاه بن بير حسن كبير الدين كفر شكن رحمه الله (وهو الابن الثالث عشر؛ مزاره الشريف في بيرانا).",
+                "ur": "صندل شریف حضرت امام شاہ بن پیر حسن کبیرالدین کفر شکن رحمۃ اللہ علیہ (تیرہویں فرزند ہیں؛ مزار شریف پیرانہ)"
+              }
+            },
+            {
+              "id": "m09_d25_e02",
+              "description": {
+                "en": "Sandal Sharif: Hazrat Peer Syed Nuruddin alias Noormohammad, renowned as Syed Sadat (Rahmatullahi Alaih) (Navsari, Gujarat) (Urs takes place on 6 Shawwal).",
+                "gu": "સંદલ શરીફ: હઝરત પીર સૈયદ નૂરુદ્દીન ઉર્ફે નૂરમોહમદ અલ મારૂફ સૈયદ સાદાત રહમતુલ્લાહિ અલયહ (નવસારી ગુજરાત)\n(ઉર્ષ: 6 શવ્વાલ કો હોતા હૈ)",
+                "hi": "संदल शरीफ़: हज़रत पीर सैयद नूरुद्दीन उर्फ़ नूरमोहम्मद अल-मारूफ़ सैयद सादात रहमतुल्लाहि अलैह (नवसारी, गुजरात) (उर्स: 6 शव्वाल को होता है)",
+                "sw": "Sandal Sharif: Hazrat Peer Syed Nuruddin maarufu kama Noormohammad anayejulikana kama Syed Sadat (Rahmatullahi Alaih) (Navsari, Gujarat) (Urs hufanyika tarehe 6 Shawwal).",
+                "ar": "صندل شريف: حضرة بير سيد نور الدين الملقب بنور محمد المعروف بسيد سادات رحمه الله (نافساري، كجرات) (ويقام عرسه في ٦ شوال).",
+                "ur": "صندل شریف: حضرت پیر سید نور الدین عرف نور محمد المعروف سید سادات رحمۃ اللہ علیہ (نوساری، گجرات) (عرس: 6 شوال کو ہوتا ہے)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "events": [
+            {
+              "id": "m09_d26_e01",
+              "description": {
+                "en": "Shab-e-Qadr (The Night better than a thousand months), revelation of the Noble Qur'an, and the day of birth (Wiladat) of Hazrat Syeduna Usman Ghani (Radiyallahu Anhu).",
+                "gu": "શબે કદ્ર (હઝાર મહિનો સે અફઝલ રાત) નુઝૂલે કુરઆને કરીમ ઔર હઝરત સૈયદુના ઉષ્માન ગની રદિયલ્લાહો અન્હો કી વિલાદત કા દિન ",
+                "hi": "शबे क़द्र (हज़ार महीनों से अफ़ज़ल रात), नुज़ूले क़ुरआने करीम और हज़रत सैयदुना उस्मान ग़नी रदियल्लाहु अन्हु की विलादत का दिन",
+                "sw": "Shab-e-Qadr (Usiku bora kuliko miezi elfu), kuteremshwa kwa Qur'an Tukufu, na siku ya kuzaliwa (Wiladat) kwa Hazrat Syeduna Usman Ghani (Radiyallahu Anhu).",
+                "ar": "ليلة القدر (خير من ألف شهر)، نزول القرآن الكريم، ويوم ولادة سيدنا عثمان بن عفان ذي النورين رضي الله عنه.",
+                "ur": "شبِ قدر (ہزار مہینوں سے افضل رات)، نزولِ قرآنِ کریم اور حضرت سیدنا عثمان غنی رضی اللہ عنہ کی ولادت کا دن"
+              }
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "events": [
+            {
+              "id": "m09_d27_e01",
+              "description": {
+                "en": "Hazrat Sheikh Salim Chishti Faridi (Rahmatullahi Alaih) (Fatehpur Sikri).",
+                "gu": "હઝરત શૈખ સલીમ ચિશ્તી ફરીદી રહમતુલ્લાહિ અલૈહ (ફતેહપુરશીખરી)",
+                "hi": "हज़रत शैख़ सलीम चिश्ती फ़रीदी रहमतुल्लाहि अलैह (फ़तेहपुर सीकरी)",
+                "sw": "Hazrat Sheikh Salim Chishti Faridi (Rahmatullahi Alaih) (Fatehpur Sikri).",
+                "ar": "حضرة الشيخ سليم الجشتي الفريدي رحمه الله (فتح بور سيكري).",
+                "ur": "حضرت شیخ سلیم چشتی فریدی رحمۃ اللہ علیہ (فتح پور سیکری)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month": 10,
+      "id": "shawwal",
+      "name": {
+        "en": "Shawwal-ul-Mukarram",
+        "gu": "શવ્વાલ-ઉલ-મુકર્રમ",
+        "hi": "शव्वाल-उल-मुकर्रम",
+        "sw": "Shawwal-ul-Mukarram",
+        "ar": "شوال المكرم",
+        "ur": "شوال المکرم"
+      },
+      "heading": {
+        "en": "Events of the Month of Shawwal-ul-Mukarram\nDates of Passing (Wisal) of Revered Mashayikh Elders",
+        "gu": "વાકીઆતે માંહે શવ્વાલ\nમશાયખી બુઝુર્ગો કી વિસાલ કી તારીખ",
+        "hi": "वाक़िआते माहे शव्वाल\nमशायख़ी बुज़ुर्गों की विसाल की तारीख़",
+        "sw": "Matukio ya Mwezi wa Shawwal-ul-Mukarram\nTarehe za Kufariki (Wisal) kwa Wazee Watukufu wa Mashayikh",
+        "ar": "وقائع شهر شوال المكرم\nتواريخ وصال المشايخ الكرام",
+        "ur": "واقعاتِ ماہِ شوال المکرم\nمشائخی بزرگوں کی وصال کی تاریخ"
+      },
+      "days": [
+        {
+          "day": 1,
+          "events": [
+            {
+              "id": "m10_d01_e01",
+              "description": {
+                "en": "Eid-ul-Fitr & Blessed Marriage (Nikah) of Rasool-e-Khuda ﷺ and Janab Khadijat-ul-Kubra.",
+                "gu": "ઈદ ઉલ ફિત્ર & નિકાહ રસુલે ખુદા વ જનાબે ખદીજતુલ કુબ્રા",
+                "hi": "ईद-उल-फ़ित्र और निकाह रसूले ख़ुदा ﷺ व जनाबे ख़दीजतुल कुबरा",
+                "sw": "Eid-ul-Fitr na Ndoa (Nikah) ya Rasool-e-Khuda ﷺ na Janab Khadijat-ul-Kubra.",
+                "ar": "عيد الفطر المبارك وزواج رسول الله ﷺ من السيدة خديجة الكبرى رضي الله عنها.",
+                "ur": "عید الفطر اور نکاحِ رسولِ خدا ﷺ و جناب خدیجۃ الکبریٰ"
+              }
+            },
+            {
+              "id": "m10_d01_e02",
+              "description": {
+                "en": "And Hazrat Muhammad Shah alias Shahbawa Madari, Wankaner.",
+                "gu": "વહઝરત મુહંમદશાહ ઉર્ફે શાહબાવા મદારી વાંકાનેર ",
+                "hi": "व हज़रत मुहम्मद शाह उर्फ़ शाहबावा मदारी, वांकानेर",
+                "sw": "Na Hazrat Muhammad Shah maarufu kama Shahbawa Madari, Wankaner.",
+                "ar": "وحضرة محمد شاه الملقب بشاه باوا المداري، وانكانير.",
+                "ur": "و حضرت محمد شاہ عرف شاہ باوا مداری، وانکانیر"
+              }
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "events": [
+            {
+              "id": "m10_d02_e01",
+              "description": {
+                "en": "Passing away (Wafat) of Janab Syeda Umrao Bibi Maji Amma, daughter of Syed Meherali Imamshahi (She was the mother of Hazrat Peer Syed Mirumiya Bawa; her passing occurred on 2 Shawwal 1325 Hijri / 9-11-1907 CE; her Mazar is in Qasamshah Compound).",
+                "gu": "વફાત જનાબે સૈયદા ઉમરાવ બીબી માજી અમ્મા બિન્તે સૈયદ મહેરઅલી ઇમામશાહી (આપ હઝરત પીર સૈયદ મીરુમિયા બાવા કે વાલીદા હો આપકી વફાત 2 શવ્વાલ 1325 હિજરી ઈ.સ 9-11-1907 મેં હુઈ આપકા મઝાર કાશમશાહ કમ્પાઉન્ડ મેં હૈ)",
+                "hi": "वफ़ात जनाबे सैयदा उमराव बीबी माजी अम्मा बिन्ते सैयद मेहरअली इमामशाही (आप हज़रत पीर सैयद मीरूमियाँ बावा की वालिदा हैं; आपकी वफ़ात 2 शव्वाल 1325 हिजरी, ई.स. 9-11-1907 में हुई; आपका मज़ार क़ासमशाह कंपाउंड में है)",
+                "sw": "Kufariki (Wafat) kwa Janab Syeda Umrao Bibi Maji Amma binti Syed Meherali Imamshahi (Alikuwa mama wa Hazrat Peer Syed Mirumiya Bawa; kufariki kwake kulitokea tarehe 2 Shawwal 1325 Hijria / 9-11-1907 BK; Mazar yake iko Qasamshah Compound).",
+                "ar": "وفاة جناب السيدة أمراو بيبي ماجي أما بنت سيد مهر علي إمام شاهي (وهي والدة حضرة بير سيد ميروميان باوا؛ توفيت في ٢ شوال ١٣٢٥ هـ الموافق ٩-١١-١٩٠٧ م؛ ومزارها في مجمع قاسم شاه).",
+                "ur": "وفات جناب سیدہ امراؤ بی بی ماجی اماں بنتِ سید مہر علی امام شاہی (آپ حضرت پیر سید میرو میاں باوا کی والدہ ہیں؛ آپ کی وفات 2 شوال 1325 ہجری مطابق 9-11-1907ء میں ہوئی؛ آپ کا مزار قاسم شاہ کمپاؤنڈ میں ہے)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "events": [
+            {
+              "id": "m10_d03_e01",
+              "description": {
+                "en": "Member of the Sacred Ahl-e-Bayt, Hazrat Salman Farsi (Alayhir Rahmah).",
+                "gu": "અહેલેબૈયત એ પાક હઝરત સલમાન ફરસી અલયહીર્નેહમાં",
+                "hi": "अहले बैत-ए-पाक हज़रत सलमान फ़ारसी अलैहिर्रहमा",
+                "sw": "Mwanachama wa Ahl-e-Bayt Tukufu, Hazrat Salman Farsi (Alayhir Rahmah).",
+                "ar": "من أهل البيت الأطهار سيدنا سلمان الفارسي عليه الرحمة ورضي الله عنه.",
+                "ur": "اہلِ بیتِ پاک حضرت سلمان فارسی علیہ الرحمۃ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "events": [
+            {
+              "id": "m10_d05_e01",
+              "description": {
+                "en": "Mother of the Believers (Janab Umm-ul-Mu'minin) Hazrat Sawda (Radiyallahu Anha).",
+                "gu": "જનાબે ઉમ્મુલ મોઅમેનિન હઝરતે સવદા રદિયલ્લાહો અન્હા",
+                "hi": "जनाबे उम्मुल मोमिनीन हज़रते सौदा रदियल्लाहु अन्हा",
+                "sw": "Mama wa Waumini (Janab Umm-ul-Mu'minin) Hazrat Sawda (Radiyallahu Anha).",
+                "ar": "أم المؤمنين السيدة سودة بنت زمعة رضي الله عنها.",
+                "ur": "جناب ام المومنین حضرت سودہ رضی اللہ عنہا"
+              }
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "events": [
+            {
+              "id": "m10_d06_e01",
+              "description": {
+                "en": "Hazrat Khwaja Usman Harooni; his Mazar Sharif is in the courtyard of Hussain Sharif's palace in Makkah Sharif (He was the Peer-o-Murshid of Huzoor Khwaja Gharib Nawaz).",
+                "gu": "હઝરતે ખ્વાજા ઉષ્માન હારુની મઝાર શરીફ હુસૈન શરીફ કે મહેલ કે શહેન મેં મઝાર હૈ મક્કા શરીફ (આપ પીરો મુરશીદ હુઝુર ખ્વાજા ગરીબ નવાઝ કે હો)",
+                "hi": "हज़रते ख़्वाजा उस्मान हारूनी; मज़ार शरीफ़: हुसैन शरीफ़ के महल के सहन में मज़ार है, मक्का शरीफ़ (आप पीरो मुर्शिद हुज़ूर ख़्वाजा ग़रीब नवाज़ के हैं)",
+                "sw": "Hazrat Khwaja Usman Harooni; Mazar Sharif yake iko katika ua wa kasri la Hussain Sharif huko Makkah Sharif (Alikuwa Peer-o-Murshid wa Huzoor Khwaja Gharib Nawaz).",
+                "ar": "حضرة الخواجة عثمان الهاروني رحمه الله؛ مزاره الشريف في صحن قصر حسين شريف بمكة المكرمة (وهو شيخ ومرشد حضور خواجة غريب نواز).",
+                "ur": "حضرت خواجہ عثمان ہارونی؛ مزار شریف حسین شریف کے محل کے صحن میں مزار ہے، مکہ شریف (آپ پیر و مرشد حضور خواجہ غریب نواز کے ہیں)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "events": [
+            {
+              "id": "m10_d09_e01",
+              "description": {
+                "en": "Hazrat Imam Bukhari (Radiyallahu Anhu).",
+                "gu": "હઝરતે ઇમામ બુખારી રદિયલ્લાહો અન્હો",
+                "hi": "हज़रते इमाम बुख़ारी रदियल्लाहु अन्हु",
+                "sw": "Hazrat Imam Bukhari (Radiyallahu Anhu).",
+                "ar": "الإمام محمد بن إسماعيل البخاري رضي الله عنه ورحمه.",
+                "ur": "حضرت امام بخاری رضی اللہ عنہ"
+              }
+            },
+            {
+              "id": "m10_d09_e02",
+              "description": {
+                "en": "Hazrat Khwaja Uwais Qarni (Rahmatullahi Alaih).",
+                "gu": "હઝરતે ખ્વાજા ઉવૈસ કરની રહમતુલ્લાહિ અલૈહ",
+                "hi": "हज़रते ख़्वाजा उवैस क़रनी रहमतुल्लाहि अलैह",
+                "sw": "Hazrat Khwaja Uwais Qarni (Rahmatullahi Alaih).",
+                "ar": "حضرة الخواجة أويس القرني رحمه الله.",
+                "ur": "حضرت خواجہ اویس قرنی رحمۃ اللہ علیہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "events": [
+            {
+              "id": "m10_d12_e01",
+              "description": {
+                "en": "Hazrat Syed Shahbaz Ali, son of Hazrat Peer Hasan Kabiruddin Kufr-Shikan (Rahmatullahi Alaih) (He is the 9th son).",
+                "gu": "હઝરત સૈયદ શાહબાઝ અલી બિન હઝરત પીર હસન કબીરુદ્દીન કુફ્રેશિકન રહમતુલ્લાહિ અલૈહ (આપ 9 વે ફરઝંદ હો) ",
+                "hi": "हज़रत सैयद शाहबाज़ अली बिन हज़रत पीर हसन कबीरुद्दीन कुफ़्रे शिकन रहमतुल्लाहि अलैह (आप 9वें फ़रज़ंद हैं)",
+                "sw": "Hazrat Syed Shahbaz Ali mwana wa Hazrat Peer Hasan Kabiruddin Kufr-Shikan (Rahmatullahi Alaih) (Yeye ni mwana wa 9).",
+                "ar": "حضرة سيد شهباز علي بن حضرة بير حسن كبير الدين كفر شكن رحمه الله (وهو الابن التاسع).",
+                "ur": "حضرت سید شہباز علی بن حضرت پیر حسن کبیرالدین کفر شکن رحمۃ اللہ علیہ (آپ نویں فرزند ہیں)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "events": [
+            {
+              "id": "m10_d15_e01",
+              "description": {
+                "en": "Battle of Uhud (Jang-e-Uhud) and Martyrdom (Shahadat) of Hazrat Syeduna Amir Hamza.",
+                "gu": "જંગે ઓહદ વ શહાદતે હઝરતે સૈયદુના અમીર હઝ્ઝા",
+                "hi": "जंगे उहद व शहादते हज़रते सैयदुना अमीर हम्ज़ा",
+                "sw": "Vita vya Uhud (Jang-e-Uhud) na Kuuawa Shahidi (Shahadat) kwa Hazrat Syeduna Amir Hamza.",
+                "ar": "غزوة أحد واستشهاد سيدنا حمزة بن عبد المطلب أسد الله رضي الله عنه.",
+                "ur": "جنگِ احد و شہادتِ حضرت سیدنا امیر حمزہ رضی اللہ عنہ"
+              }
+            },
+            {
+              "id": "m10_d15_e02",
+              "description": {
+                "en": "Hazrat Peer Syed Ahmad Hadi, son of Hazrat Mustafa Shah (Mazar Sharif in Yemen; revered forefather of the Mashayikhi family).",
+                "gu": "હઝરતે પીર સૈયદ અહમદ હાદી વલ્દ હઝરત મુસ્તુફાશાહ (મઝાર શરીફ યમન મશાયખી ખાનદાન કે જદ્દે બુઝુર્ગવાર)",
+                "hi": "हज़रते पीर सैयद अहमद हादी वल्द हज़रत मुस्तफ़ा शाह (मज़ार शरीफ़: यमन; मशायख़ी ख़ानदान के जद्दे बुज़ुर्गवार)",
+                "sw": "Hazrat Peer Syed Ahmad Hadi mwana wa Hazrat Mustafa Shah (Mazar Sharif iko Yemen; babu mtukufu wa familia ya Mashayikhi).",
+                "ar": "حضرة بير سيد أحمد هادي بن حضرة مصطفى شاه (مزاره الشريف في اليمن، الجد الأكبر للأسرة المشايخية).",
+                "ur": "حضرت پیر سید احمد ہادی ولد حضرت مصطفیٰ شاہ (مزار شریف یمن؛ مشائخی خاندان کے جدِ بزرگوار)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "events": [
+            {
+              "id": "m10_d16_e01",
+              "description": {
+                "en": "Blessed Urs of Hazrat Peer Syed Mirumiya Bawa (Rahmatullahi Alaih) (Passing away [Wisal] took place on 16 Ramadan).",
+                "gu": "ઉર્સ મુબારક હઝરત પીર સૈયદ મીરુમિયા બાવા રહમતુલ્લાહિ અલૈહ  (વિસાલ 16 રમઝાન મેં હુવા)",
+                "hi": "उर्से मुबारक हज़रत पीर सैयद मीरूमियाँ बावा रहमतुल्लाहि अलैह (विसाल 16 रमज़ान में हुआ)",
+                "sw": "Urs tukufu ya Hazrat Peer Syed Mirumiya Bawa (Rahmatullahi Alaih) (Kufariki [Wisal] kulitokea tarehe 16 Ramadan).",
+                "ar": "العرس المبارك لحضرة بير سيد ميروميان باوا رحمه الله (كان وصاله في ١٦ رمضان).",
+                "ur": "عرسِ مبارک حضرت پیر سید میرو میاں باوا رحمۃ اللہ علیہ (وصال 16 رمضان میں ہوا)"
+              }
+            },
+            {
+              "id": "m10_d16_e02",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Imam Dawud Sulaiman (Radiyallahu Anhu).",
+                "gu": "વિસાલે હઝરત ઇમામ દાઉદ સુલૈમાન રદિયલ્લાહો અન્હો",
+                "hi": "विसाले हज़रत इमाम दाऊद सुलैमान रदियल्लाहु अन्हु",
+                "sw": "Kufariki (Wisal) kwa Hazrat Imam Dawud Sulaiman (Radiyallahu Anhu).",
+                "ar": "وصال الإمام داود بن سليمان رضي الله عنه ورحمه.",
+                "ur": "وصالِ حضرت امام داؤد سلیمان رضی اللہ عنہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "events": [
+            {
+              "id": "m10_d18_e01",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Khwaja Abu Hubayrah Basri (Alayhir Rahmah) (He is an elder of the Chishtiyya spiritual order).",
+                "gu": "વિસાલે હઝરત ખ્વાજા અબુ હુબૈરા બસરી અલયહીર્રહમાં (આપ ચિશ્તીયા સિલસિલે કે બુઝુર્ગ હો) ",
+                "hi": "विसाले हज़रत ख़्वाजा अबू हुबैरा बसरी अलैहिर्रहमा (आप चिश्तिया सिलसिले के बुज़ुर्ग हैं)",
+                "sw": "Kufariki (Wisal) kwa Hazrat Khwaja Abu Hubayrah Basri (Alayhir Rahmah) (Yeye ni mzee wa silsila ya Chishtiyya).",
+                "ar": "وصال حضرة الخواجة أبي هبيرة البصري عليه الرحمة (وهو من مشايخ الطريقة الجشتية).",
+                "ur": "وصالِ حضرت خواجہ ابو ہبیرہ بصری علیہ الرحمۃ (آپ چشتیہ سلسلے کے بزرگ ہیں)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "events": [
+            {
+              "id": "m10_d20_e01",
+              "description": {
+                "en": "Urs of Hazrat Khwaja Amir Khusrau Chishti Nizami (Delhi).",
+                "gu": "ઉર્સે હઝરત ખ્વાજા અમીર ખુશરુ ચિશ્તી નિઝામી (દિલ્હી)",
+                "hi": "उर्से हज़रत ख़्वाजा अमीर ख़ुसरो चिश्ती निज़ामी (दिल्ली)",
+                "sw": "Urs ya Hazrat Khwaja Amir Khusrau Chishti Nizami (Delhi).",
+                "ar": "عرس حضرة الخواجة أمير خسرو الجشتي النظامي رحمه الله (دلهي).",
+                "ur": "عرسِ حضرت خواجہ امیر خسرو چشتی نظامی (دہلی)"
+              }
+            },
+            {
+              "id": "m10_d20_e02",
+              "description": {
+                "en": "Passing away (Wisal) of Janab Syeda Ruqayyah, daughter of Huzoor ﷺ.",
+                "gu": "વિસાલે જનાબે સૈયદા રૂકૈયા બિન્તે હુઝુર ﷺ",
+                "hi": "विसाले जनाबे सैयदा रुक़ैया बिन्ते हुज़ूर ﷺ",
+                "sw": "Kufariki (Wisal) kwa Janab Syeda Ruqayyah binti Huzoor ﷺ.",
+                "ar": "وصال السيدة رقية بنت رسول الله ﷺ.",
+                "ur": "وصالِ جناب سیدہ رقیہ بنتِ حضور ﷺ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "events": [
+            {
+              "id": "m10_d27_e01",
+              "description": {
+                "en": "Blessed Marriage (Nikah) of Janab Umm Salama and Rasool-e-Khuda ﷺ.",
+                "gu": "નિકાહ જનાબે ઉમ્મે સલ્મા વ રસુલે ખુદા ﷺ",
+                "hi": "निकाह जनाबे उम्मे सलमा व रसूले ख़ुदा ﷺ",
+                "sw": "Ndoa (Nikah) ya Janab Umm Salama na Rasool-e-Khuda ﷺ.",
+                "ar": "زواج أم المؤمنين السيدة أم سلمة من رسول الله ﷺ.",
+                "ur": "نکاحِ جناب ام سلمہ و رسولِ خدا ﷺ"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month": 11,
+      "id": "dhul_qadah",
+      "name": {
+        "en": "Dhul-Qadah",
+        "gu": "જુલ કઅદહ",
+        "hi": "ज़ुल-क़ादा",
+        "sw": "Dhul-Qadah",
+        "ar": "ذو القعدة",
+        "ur": "ذوالقعدہ"
+      },
+      "heading": {
+        "en": "Events of the Month of Dhul-Qadah\nDates of Passing (Wisal) of Revered Mashayikh Elders",
+        "gu": "વાકીઆતે માંહે ઝિલ્કદ\nમશાયખી બુઝુર્ગો કી વિસાલ કી તારીખ",
+        "hi": "वाक़िआते माहे ज़िलक़द\nमशायख़ी बुज़ुर्गों की विसाल की तारीख़",
+        "sw": "Matukio ya Mwezi wa Dhul-Qadah\nTarehe za Kufariki (Wisal) kwa Wazee Watukufu wa Mashayikh",
+        "ar": "وقائع شهر ذي القعدة\nتواريخ وصال المشايخ الكرام",
+        "ur": "واقعاتِ ماہِ ذی القعدہ\nمشائخی بزرگوں کی وصال کی تاریخ"
+      },
+      "days": [
+        {
+          "day": 2,
+          "events": [
+            {
+              "id": "m11_d02_e01",
+              "description": {
+                "en": "Hazrat Peer Syed Qasim Ali Bawa (Rahmatullahi Alaih) ascended the spiritual seat (Sajjadanashin) of Hazrat Syed Peer Sahab alias Abdullah Bawa (Nawavas) on 2 Dhul-Qadah 1344 Hijri.",
+                "gu": "હઝરત પીર સૈયદ કાસીમ અલી બાવા રહમતુલ્લાહિ અલૈહ 2 ઝિલ્કદ હિજરી 1344 મેં હઝરત સૈયદ પીર સાહબ ઉર્ફે અબ્દુલ્લાહ બાવા (નવાવાસ) કી ગદ્દી પર સજ્જાદાનશીન હુવે",
+                "hi": "हज़रत पीर सैयद क़ासिम अली बावा रहमतुल्लाहि अलैह 2 ज़िलक़द हिजरी 1344 में हज़रत सैयद पीर साहब उर्फ़ अब्दुल्लाह बावा (नवावास) की गद्दी पर सज्जादानशीन हुए",
+                "sw": "Hazrat Peer Syed Qasim Ali Bawa (Rahmatullahi Alaih) alikalia kiti cha kiroho (Sajjadanashin) cha Hazrat Syed Peer Sahab maarufu kama Abdullah Bawa (Nawavas) tarehe 2 Dhul-Qadah 1344 Hijria.",
+                "ar": "جلس حضرة بير سيد قاسم علي باوا رحمه الله سجاداً على مسند حضرة سيد بير صاحب الملقب بعبد الله باوا (نواواس) في ٢ ذي القعدة عام ١٣٤٤ هـ.",
+                "ur": "حضرت پیر سید قاسم علی باوا رحمۃ اللہ علیہ 2 ذی القعدہ ہجری 1344 میں حضرت سید پیر صاحب عرف عبداللہ باوا (نواواس) کی گدی پر سجادہ نشین ہوئے"
+              }
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "events": [
+            {
+              "id": "m11_d04_e01",
+              "description": {
+                "en": "In 1344 Hijri, the Chehlum (40th-day commemoration) of Hazrat Peer Syed Mirumiya Bawa (Rahmatullahi Alaih) took place at Dholka.",
+                "gu": "હિજરી 1344 મેં હઝરત પીર સૈયદ મીરુમિયા બાવા રહમતુલ્લાહિ અલૈહ કી ચહેલુમ ધોળકા મુકામ પર હુઈ ",
+                "hi": "हिजरी 1344 में हज़रत पीर सैयद मीरूमियाँ बावा रहमतुल्लाहि अलैह की चेहलुम धोलका मुक़ाम पर हुई",
+                "sw": "Katika mwaka 1344 Hijria, Chehlum (kumbukumbu ya siku ya 40) ya Hazrat Peer Syed Mirumiya Bawa (Rahmatullahi Alaih) ilifanyika huko Dholka.",
+                "ar": "في عام ١٣٤٤ هـ أُقيمت ذكرى الأربعين (جهلم) لحضرة بير سيد ميروميان باوا رحمه الله في بلدة دهولكا.",
+                "ur": "ہجری 1344 میں حضرت پیر سید میرو میاں باوا رحمۃ اللہ علیہ کی چہلم دھولکہ مقام پر ہوئی"
+              }
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "events": [
+            {
+              "id": "m11_d06_e01",
+              "description": {
+                "en": "Passing away (Wafat) of Hazrat Syed Manzoor Hussain, son of Syed Qasim Ali Bawa (Qasamshah Compound, Sarangpur, Ahmedabad).",
+                "gu": "વફાત હઝરત સૈયદ મંઝુર હુસૈન બિન સૈયદ કાસીમ અલી બાવા (કાસમશાહ કમ્પાઉન્ડ સારંગપુર અહમદાબાદ)",
+                "hi": "वफ़ात हज़रत सैयद मंज़ूर हुसैन बिन सैयद क़ासिम अली बावा (क़ासमशाह कंपाउंड, सारंगपुर, अहमदाबाद)",
+                "sw": "Kufariki (Wafat) kwa Hazrat Syed Manzoor Hussain mwana wa Syed Qasim Ali Bawa (Qasamshah Compound, Sarangpur, Ahmedabad).",
+                "ar": "وفاة حضرة سيد منظور حسين بن سيد قاسم علي باوا (مجمع قاسم شاه، سارانجبور، أحمد آباد).",
+                "ur": "وفات حضرت سید منظور حسین بن سید قاسم علی باوا (قاسم شاہ کمپاؤنڈ، سارنگ پور، احمد آباد)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "events": [
+            {
+              "id": "m11_d11_e01",
+              "description": {
+                "en": "Birth (Wiladat) of Hazrat Imam Ali Reza (Alayhis Salam) (8th Imam; Mazar: Mashhad Sharif, Iran).",
+                "gu": "વિલાદતે હઝરત ઈમામ અલી રિઝા અલવ્હિસ્સલામ (8 વે ઇમામ મઝાર:મશહદ શરીફ ઈરાન)",
+                "hi": "विलादते हज़रत इमाम अली रज़ा अलैहिस्सलाम (8वें इमाम; मज़ार: मशहद शरीफ़, ईरान)",
+                "sw": "Kuzaliwa (Wiladat) kwa Hazrat Imam Ali Reza (Alayhis Salam) (Imam wa 8; Mazar: Mashhad Sharif, Iran).",
+                "ar": "ولادة الإمام علي الرضا عليه السلام (الإمام الثامن؛ مزاره في مشهد المقدسة، إيران).",
+                "ur": "ولادتِ حضرت امام علی رضا علیہ السلام (آٹھویں امام؛ مزار: مشہد شریف، ایران)"
+              }
+            },
+            {
+              "id": "m11_d11_e02",
+              "description": {
+                "en": "Hazrat Syed Auliya Ali, son of Hazrat Peer Hasan Kabiruddin Kufr-Shikan (Rahmatullahi Alaih), first son (Mazar Sharif is in the basement of Chawdi [Big] Masjid, Agra Cantt Railway Station, Agra).",
+                "gu": "હઝરત સૈયદ ઔલિયા અલી વ હઝરત પીર હસન કબીરુદ્દીન કુદ્દે શિકન રહમતુલ્લાહિ અલૈહ કે પહેલે ફરઝંદ (મઝાર શરીફ ચોડી (મોટી) મસ્જિદ કે તેહખાને મેં હૈ આગ્રા કેન્ટ રેલવે સ્ટેશન આગ્રા)",
+                "hi": "हज़रत सैयद औलिया अली वल्द हज़रत पीर हसन कबीरुद्दीन कुफ़्रे शिकन रहमतुल्लाहि अलैह के पहले फ़रज़ंद (मज़ार शरीफ़: चौड़ी [मोटी] मस्जिद के तहख़ाने में है, आगरा कैंट रेलवे स्टेशन, आगरा)",
+                "sw": "Hazrat Syed Auliya Ali mwana wa kwanza wa Hazrat Peer Hasan Kabiruddin Kufr-Shikan (Rahmatullahi Alaih) (Mazar Sharif iko katika chumba cha chini cha Chawdi [Kubwa] Masjid, Kituo cha Reli cha Agra Cantt, Agra).",
+                "ar": "حضرة سيد أولياء علي بن حضرة بير حسن كبير الدين كفر شكن رحمه الله، الابن الأول (مزاره الشريف في سرداب المسجد الكبير عند محطة قطار أغرا كانت، أغرا).",
+                "ur": "حضرت سید اولیاء علی ولد حضرت پیر حسن کبیرالدین کفر شکن رحمۃ اللہ علیہ کے پہلے فرزند (مزار شریف چوڑی [بڑی] مسجد کے تہہ خانے میں ہے، آگرہ کینٹ ریلوے اسٹیشن، آگرہ)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 13,
+          "events": [
+            {
+              "id": "m11_d13_e01",
+              "description": {
+                "en": "Hazrat Syed Kamunshah Wali Bukhari (Bavdavadar, Porbandar).",
+                "gu": "હઝરત સૈયદ કામુનશાહ વલી બુખારી (બાવડાવદર પોરબંદર)",
+                "hi": "हज़रत सैयद कामुनशाह वली बुख़ारी (बावड़ावदर, पोरबंदर)",
+                "sw": "Hazrat Syed Kamunshah Wali Bukhari (Bavdavadar, Porbandar).",
+                "ar": "حضرة سيد كامون شاه ولي البخاري (باوداودار، بوربندر).",
+                "ur": "حضرت سید کامون شاہ ولی بخاری (باوڈاودر، پوربندر)"
+              }
+            },
+            {
+              "id": "m11_d13_e02",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Momin Walishah Dada (Dargah-e-Najumiya Bawa).",
+                "gu": "વિસાલે હઝરત મોમીન વલીશાહ દાદા (દરગાહે નજુમિયા બાવા)",
+                "hi": "विसाले हज़रत मोमिन वलीशाह दादा (दरगाहे नजुमियाँ बावा)",
+                "sw": "Kufariki (Wisal) kwa Hazrat Momin Walishah Dada (Dargah-e-Najumiya Bawa).",
+                "ar": "وصال حضرة مؤمن ولي شاه دادا (دركاه نجميان باوا).",
+                "ur": "وصالِ حضرت مومن ولی شاہ دادا (درگاہِ نجمیاں باوا)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "events": [
+            {
+              "id": "m11_d15_e01",
+              "description": {
+                "en": "Hazrat Peer Syed Abdul Majeed, son of Syed Ghalibuddin Sabzwari (Rahmatullahi Alaih) (Mazar in Tin city, Yemen).",
+                "gu": "હઝરત પીર સૈયદ અબ્દુલ મજીદ વલ્દ સૈયદ ગલીબુદ્દીન સબ્ઝવારી રહમતુલ્લાહિ અલૈહ (મઝાર તીન શહેર યમન)",
+                "hi": "हज़रत पीर सैयद अब्दुल मजीद वल्द सैयद ग़ालिबुद्दीन सब्ज़वारी रहमतुल्लाहि अलैह (मज़ार: तीन शहर, यमन)",
+                "sw": "Hazrat Peer Syed Abdul Majeed mwana wa Syed Ghalibuddin Sabzwari (Rahmatullahi Alaih) (Mazar iko mji wa Tin, Yemen).",
+                "ar": "حضرة بير سيد عبد المجيد بن سيد غالب الدين السبزواري رحمه الله (مزاره في مدينة تين، اليمن).",
+                "ur": "حضرت پیر سید عبدالمجید ولد سید غالب الدین سبزواری رحمۃ اللہ علیہ (مزار تین شہر، یمن)"
+              }
+            },
+            {
+              "id": "m11_d15_e02",
+              "description": {
+                "en": "Hazrat Khwaja Banda Nawaz Gesudaraz Chishti, Gulbarga Sharif.",
+                "gu": "હઝરત ખ્વાજા બંદાનવાઝ મૈસુલ દરાઝ ચિશ્તી ગુલબરગા શરીફ",
+                "hi": "हज़रत ख़्वाजा बंदा नवाज़ गेसूदराज़ चिश्ती, गुलबर्गा शरीफ़",
+                "sw": "Hazrat Khwaja Banda Nawaz Gesudaraz Chishti, Gulbarga Sharif.",
+                "ar": "حضرة الخواجة بندة نواز كيسو دراز الجشتي رحمه الله، كلبركة شريف.",
+                "ur": "حضرت خواجہ بندہ نواز گیسودراز چشتی، گلبرگہ شریف"
+              }
+            }
+          ]
+        },
+        {
+          "day": 16,
+          "events": [
+            {
+              "id": "m11_d16_e01",
+              "description": {
+                "en": "Hazrat Khwaja Hasan Khatib Chishti Sahib-ul-Wali-e-Wilayat alias Hazrat Shah Dada Chishti Nizami (Dholka Old Bus Depot).",
+                "gu": "હઝરત ખ્વાજા હસન ખતીબ ચિશ્તી સાહિબુલ વાલીએ વિલાયત ઉર્ફે હઝરત શાહ દાદા ચિશ્તી નિઝામી (ધોળકા જૂની બસ ડેપો)",
+                "hi": "हज़रत ख़्वाजा हसन ख़तीब चिश्ती साहिबुल वली-ए-विलायत उर्फ़ हज़रत शाह दादा चिश्ती निज़ामी (धोलका पुराना बस डिपो)",
+                "sw": "Hazrat Khwaja Hasan Khatib Chishti Sahib-ul-Wali-e-Wilayat maarufu kama Hazrat Shah Dada Chishti Nizami (Kituo cha Zamani cha Mabasi cha Dholka).",
+                "ar": "حضرة الخواجة حسن خطيب الجشتي صاحب الولي والولاية الملقب بحضرة شاه دادا الجشتي النظامي (محطة الحافلات القديمة، دهولكا).",
+                "ur": "حضرت خواجہ حسن خطیب چشتی صاحب الولی ولایت عرف حضرت شاہ دادا چشتی نظامی (دھولکہ پرانا بس ڈپو)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "events": [
+            {
+              "id": "m11_d18_e01",
+              "description": {
+                "en": "Hazrat Fatehullah Chishti Faridi (Son of Hazrat Peer Mashayikh Bawa's Peer, Hazrat Tajuddin Bawa Chishti Faridi; Mazar at Sharmo Burhani Dargah Compound, Usmanpura, Ahmedabad).",
+                "gu": "હઝરત ફતેઉલ્લાહ ચિશ્તી ફરીદી (હઝરત પીર મશાયખ બાવા કે પીર હઝરત તાજુદ્દીન બાવા ચિશ્તી ફરીદી કે બેટે મઝાર શર્મો બુરહાની દરગાહ કમ્પાઉન્ડ ઉષ્માનપુરા અહમદાબાદ)",
+                "hi": "हज़रत फ़तेहुल्लाह चिश्ती फ़रीदी (हज़रत पीर मशायख़ बावा के पीर हज़रत ताजुद्दीन बावा चिश्ती फ़रीदी के बेटे; मज़ार: शर्मो बुरहानी दरगाह कंपाउंड, उस्मानपुरा, अहमदाबाद)",
+                "sw": "Hazrat Fatehullah Chishti Faridi (Mwana wa Peer wa Hazrat Peer Mashayikh Bawa, Hazrat Tajuddin Bawa Chishti Faridi; Mazar iko Sharmo Burhani Dargah Compound, Usmanpura, Ahmedabad).",
+                "ar": "حضرة فتح الله الجشتي الفريدي (ابن شيخ حضرة بير مشايخ باوا، حضرة تاج الدين باوا الجشتي الفريدي؛ مزاره في مجمع دركاه شرمو برهاني، عثمان بورا، أحمد آباد).",
+                "ur": "حضرت فتح اللہ چشتی فریدی (حضرت پیر مشائخ باوا کے پیر حضرت تاج الدین باوا چشتی فریدی کے بیٹے؛ مزار شرمو برہانی درگاہ کمپاؤنڈ، عثمان پورہ، احمد آباد)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 19,
+          "events": [
+            {
+              "id": "m11_d19_e01",
+              "description": {
+                "en": "Birth (Wiladat) of Hazrat Peer Syed Muhammad Fazilshah Bawa, Sajjadanashin of Khanqah-e-Hazrat Peer Syed Intekhab Alam Bawa, took place on Saturday, 19 Dhul-Qadah 1422 Hijri (Date: 2/2/2002) in Ahmedabad.",
+                "gu": "ખાનકાહે હઝરત પીર સૈયદ ઇન્તેખાબ આલમ બાવા કે સજ્જાદાનશીન હઝરત પીર સૈયદ મોહમ્મદ ફાઝિલશાહ બાવા કી વિલાદત 19 જુલ કઅદહ હિજરી 1422 તારીખ: 2/2/2002 શનિચર કો એહમદાબાદ મેં હુઈ",
+                "hi": "ख़ानक़ाहे हज़रत पीर सैयद इंतिख़ाब आलम बावा के सज्जादानशीन हज़रत पीर सैयद मोहम्मद फ़ाज़िलशाह बावा की विलादत 19 ज़ुल-क़ादा हिजरी 1422, तारीख़: 2/2/2002 शनिवार को अहमदाबाद में हुई",
+                "sw": "Kuzaliwa (Wiladat) kwa Hazrat Peer Syed Muhammad Fazilshah Bawa, Sajjadanashin wa Khanqah-e-Hazrat Peer Syed Intekhab Alam Bawa, kulitokea Jumamosi, 19 Dhul-Qadah 1422 Hijria (Tarehe: 2/2/2002) huko Ahmedabad.",
+                "ar": "كانت ولادة حضرة بير سيد محمد فاضل شاه باوا، سجاد خانقاه حضرة بير سيد انتخاب عالم باوا، يوم السبت ١٩ ذي القعدة ١٤٢٢ هـ الموافق ٢/٢/٢٠٠٢ م في أحمد آباد.",
+                "ur": "خانقاہِ حضرت پیر سید انتخاب عالم باوا کے سجادہ نشین حضرت پیر سید محمد فاضل شاہ باوا کی ولادت 19 ذوالقعدہ ہجری 1422، تاریخ: 2/2/2002 ہفتہ کو احمد آباد میں ہوئی"
+              }
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "events": [
+            {
+              "id": "m11_d26_e01",
+              "description": {
+                "en": "Martyrdom (Shahadat) of Hazrat Imam Muhammad Taqi, son of Imam Ali Musa Reza (Alayhis Salam) (He is the 9th Imam; Mazar in Baghdad Sharif).",
+                "gu": "શહાદત હઝરત ઇમામ મુહંમદ તકી બિન ઈમામ અલી મુસા રઝા અલવ્હિસ્સલામ (આપ 9 વે ઇમામ હો મઝાર બગદાદ શરીફ)",
+                "hi": "शहादत हज़रत इमाम मुहम्मद तक़ी बिन इमाम अली मूसा रज़ा अलैहिस्सलाम (आप 9वें इमाम हैं; मज़ार: बग़दाद शरीफ़)",
+                "sw": "Kuuawa Shahidi (Shahadat) kwa Hazrat Imam Muhammad Taqi mwana wa Imam Ali Musa Reza (Alayhis Salam) (Yeye ni Imam wa 9; Mazar iko Baghdad Sharif).",
+                "ar": "استشهاد الإمام محمد التقي بن الإمام علي موسى الرضا عليهما السلام (وهو الإمام التاسع؛ مزاره في بغداد الشريف).",
+                "ur": "شہادت حضرت امام محمد تقی بن امام علی موسیٰ رضا علیہ السلام (آپ نویں امام ہیں؛ مزار بغداد شریف)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "events": [
+            {
+              "id": "m11_d27_e01",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Badshah Alamgir Aurangzeb, Aurangabad.",
+                "gu": "વિસાલ હઝરત બાદશાહ આલમગીર ઔઝેબ ઔરંગાબાદ ",
+                "hi": "विसाल हज़रत बादशाह आलमगीर औरंगज़ेब, औरंगाबाद",
+                "sw": "Kufariki (Wisal) kwa Hazrat Badshah Alamgir Aurangzeb, Aurangabad.",
+                "ar": "وصال السلطان عالمكير أورنك زيب رحمه الله، أورنك آباد.",
+                "ur": "وصال حضرت بادشاہ عالمگیر اورنگ زیب، اورنگ آباد"
+              }
+            }
+          ]
+        },
+        {
+          "day": 29,
+          "events": [
+            {
+              "id": "m11_d29_e01",
+              "description": {
+                "en": "Hazrat Shaheed Syed Manzoor Hussain Pirzada and Hazrat Shaheed Parvez Ahmad, son of Shaheed Manzoor Hussain Pirzada (Rahmatullahi Alaih) (Wankaner, Khanqah-e-Hussaini).",
+                "gu": "હઝરત શહીદ સૈયદ મંજુર હુસૈન પીરઝાદા ઔર હઝરત શહિદ પરવેઝ અહમદ વલ્ક શહીદ મંજુર હુસૈન પીરઝાદા રહમતુલ્લાહિ અલૈહ (વાંકાનેર ખાનકાહે હુસૈની)",
+                "hi": "हज़रत शहीद सैयद मंज़ूर हुसैन पीरज़ादा और हज़रत शहीद परवेज़ अहमद वल्द शहीद मंज़ूर हुसैन पीरज़ादा रहमतुल्लाहि अलैह (वांकानेर, ख़ानक़ाहे हुसैनी)",
+                "sw": "Hazrat Shaheed Syed Manzoor Hussain Pirzada na Hazrat Shaheed Parvez Ahmad mwana wa Shaheed Manzoor Hussain Pirzada (Rahmatullahi Alaih) (Wankaner, Khanqah-e-Hussaini).",
+                "ar": "حضرة الشهيد سيد منظور حسين بيرزاده وحضرة الشهيد برويز أحمد بن الشهيد منظور حسين بيرزاده رحمهما الله (وانكانير، خانقاه حسيني).",
+                "ur": "حضرت شہید سید منظور حسین پیرزادہ اور حضرت شہید پرویز احمد ولد شہید منظور حسین پیرزادہ رحمۃ اللہ علیہ (وانکانیر، خانقاہِ حسینی)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "month": 12,
+      "id": "dhul_hijjah",
+      "name": {
+        "en": "Dhul-Hijjah",
+        "gu": "જુલ હિજ્જાહ",
+        "hi": "ज़ुल-हिज्जा",
+        "sw": "Dhul-Hijjah",
+        "ar": "ذو الحجة",
+        "ur": "ذوالحجہ"
+      },
+      "heading": {
+        "en": "Events of the Month of Dhul-Hijjah\nDates of Passing (Wisal) of Revered Mashayikh Elders",
+        "gu": "વાકીઆતે માંહે ઝિલ્હજ્જ\nમશાયખી બુઝુર્ગો કી વિસાલ કી તારીખ",
+        "hi": "वाक़िआते माहे ज़िलहिज्जा\nमशायख़ी बुज़ुर्गों की विसाल की तारीख़",
+        "sw": "Matukio ya Mwezi wa Dhul-Hijjah\nTarehe za Kufariki (Wisal) kwa Wazee Watukufu wa Mashayikh",
+        "ar": "وقائع شهر ذي الحجة\nتواريخ وصال المشايخ الكرام",
+        "ur": "واقعاتِ ماہِ ذوالحجہ\nمشائخی بزرگوں کی وصال کی تاریخ"
+      },
+      "days": [
+        {
+          "day": 1,
+          "events": [
+            {
+              "id": "m12_d01_e01",
+              "description": {
+                "en": "Blessed Marriage (Nikah Mubarak) of Hazrat Maula Ali (Alayhis Salam) and Hazrat Syeda-e-Ka'inat Bibi Fatima Khatoon-e-Jannat.",
+                "gu": "નિકાહ મુબારક હઝરતે મૌલા અલી અલવ્હિસ્સલામ વ્ હઝરતે સૈયદાએ કાએનાત બીબી ફાતિમા ખાતુને જન્નત",
+                "hi": "निकाहे मुबारक हज़रते मौला अली अलैहिस्सलाम व हज़रते सैयदा-ए-काइनात बीबी फ़ातिमा ख़ातूने जन्नत",
+                "sw": "Ndoa Tukufu (Nikah Mubarak) ya Hazrat Maula Ali (Alayhis Salam) na Hazrat Syeda-e-Ka'inat Bibi Fatima Khatoon-e-Jannat.",
+                "ar": "الزواج المبارك لمولانا علي عليه السلام من سيدة نساء العالمين السيدة فاطمة الزهراء خاتون الجنة عليها السلام.",
+                "ur": "نکاحِ مبارک حضرت مولیٰ علی علیہ السلام و حضرت سیدۂ کائنات بی بی فاطمہ خاتونِ جنت"
+              }
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "events": [
+            {
+              "id": "m12_d03_e01",
+              "description": {
+                "en": "Martyrdom (Shahadat) of Hazrat Muslim bin Aqeel and both of his sons, Hazrat Ibrahim and Hazrat Muhammad (Radiyallahu Anhum) (Kufa).",
+                "gu": "શહાદતે હઝરતે મુસ્લિમ બિન અકિલ વ આપકે દોનો સાહબઝાદે હઝરત ઇબ્રાહિમ વ્ હઝરત મુહંમદ રદિયલ્લાહો અન્હુમ {કુફા}",
+                "hi": "शहादते हज़रते मुस्लिम बिन अक़ील व आपके दोनों साहबज़ादे हज़रत इब्राहीम व हज़रत मुहम्मद रदियल्लाहु अन्हुम (कूफ़ा)",
+                "sw": "Kuuawa Shahidi (Shahadat) kwa Hazrat Muslim bin Aqeel na wanawe wote wawili, Hazrat Ibrahim na Hazrat Muhammad (Radiyallahu Anhum) (Kufa).",
+                "ar": "استشهاد حضرة مسلم بن عقيل وولديه الكريمين إبراهيم ومحمد رضي الله عنهم (الكوفة).",
+                "ur": "شہادتِ حضرت مسلم بن عقیل و آپ کے دونوں صاحبزادے حضرت ابراہیم و حضرت محمد رضی اللہ عنہم (کوفہ)"
+              }
+            },
+            {
+              "id": "m12_d03_e02",
+              "description": {
+                "en": "Departure of Hazrat Imam Hussain (Alayhis Salam) towards Kufa.",
+                "gu": "હઝરત ઇમામ હુસૈન અલવ્હિસ્સલામ કી કુફા કી તરફ રવાનગી",
+                "hi": "हज़रत इमाम हुसैन अलैहिस्सलाम की कूफ़ा की तरफ़ रवानगी",
+                "sw": "Kuondoka kwa Hazrat Imam Hussain (Alayhis Salam) kuelekea Kufa.",
+                "ar": "توجه الإمام الحسين عليه السلام نحو الكوفة.",
+                "ur": "حضرت امام حسین علیہ السلام کی کوفہ کی طرف روانگی"
+              }
+            },
+            {
+              "id": "m12_d03_e03",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Sulaiman (Alayhis Salam).",
+                "gu": "વિસાલે હઝરતે સુલેમાન અલવ્હિસ્સલામ ",
+                "hi": "विसाले हज़रते सुलैमान अलैहिस्सलाम",
+                "sw": "Kufariki (Wisal) kwa Hazrat Sulaiman (Alayhis Salam).",
+                "ar": "وصال نبي الله سليمان عليه السلام.",
+                "ur": "وصالِ حضرت سلیمان علیہ السلام"
+              }
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "events": [
+            {
+              "id": "m12_d05_e01",
+              "description": {
+                "en": "Hazrat Qutb-e-Alam Bukhari (Rahmatullahi Alaih).",
+                "gu": "હઝરતે કુતબે આલમ બુખારી રહમતુલ્લાહિ અલૈહ ",
+                "hi": "हज़रते क़ुत्बे आलम बुख़ारी रहमतुल्लाहि अलैह",
+                "sw": "Hazrat Qutb-e-Alam Bukhari (Rahmatullahi Alaih).",
+                "ar": "حضرة قطب عالم البخاري رحمه الله.",
+                "ur": "حضرت قطبِ عالم بخاری رحمۃ اللہ علیہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "events": [
+            {
+              "id": "m12_d07_e01",
+              "description": {
+                "en": "Day of Passing (Yaum-e-Wisal) of Hazrat Imam Muhammad Baqir (Alayhis Salam) (5th Imam; Madinah Sharif, Jannat-ul-Baqi).",
+                "gu": "યૌમે વિસાલ હઝરત ઈમામ મુહંમદ બાકીર અલવ્હિસ્સલામ (5વે ઈમામ મદીના શરીફ જન્નતુલ બકીઅ) ",
+                "hi": "यौमे विसाल हज़रत इमाम मुहम्मद बाक़िर अलैहिस्सलाम (5वें इमाम; मदीना शरीफ़, जन्नतुल बक़ी)",
+                "sw": "Siku ya Kufariki (Yaum-e-Wisal) kwa Hazrat Imam Muhammad Baqir (Alayhis Salam) (Imam wa 5; Madinah Sharif, Jannat-ul-Baqi).",
+                "ar": "يوم وصال الإمام محمد الباقر عليه السلام (الإمام الخامس؛ المدينة المنورة، جنة البقيع).",
+                "ur": "یومِ وصال حضرت امام محمد باقر علیہ السلام (پانچویں امام؛ مدینہ شریف، جنت البقیع)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 9,
+          "events": [
+            {
+              "id": "m12_d09_e01",
+              "description": {
+                "en": "Day of Arafah (Yaum-e-Arafah) (Be sure to observe fasting on this day).",
+                "gu": "યૌમે અરફા {ઇસ દિન રોઝા ઝરૂર રખે}",
+                "hi": "यौमे अरफ़ा (इस दिन रोज़ा ज़रूर रखें)",
+                "sw": "Siku ya Arafah (Yaum-e-Arafah) (Hakikisha unafunga saumu siku hii).",
+                "ar": "يوم عرفة (احرصوا على صيام هذا اليوم).",
+                "ur": "یومِ عرفہ (اس دن روزہ ضرور رکھیں)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "events": [
+            {
+              "id": "m12_d10_e01",
+              "description": {
+                "en": "Eid-ul-Adha (Bakri Eid).",
+                "gu": "ઈદ ઉલ અઝહા (બકરી ઈદ)",
+                "hi": "ईद-उल-अज़हा (बकरी ईद)",
+                "sw": "Eid-ul-Adha (Bakri Eid).",
+                "ar": "عيد الأضحى المبارك.",
+                "ur": "عید الاضحیٰ (بقر عید)"
+              }
+            },
+            {
+              "id": "m12_d10_e02",
+              "description": {
+                "en": "Hazrat Makhdoom Jahaniyan Jahangasht Bukhari (Rahmatullahi Alaih), Uch Sharif, Bahawalpur, Pakistan.",
+                "gu": "હઝરત મખદુમ જહાનિયાઓ જહાંગશ્ય બુખારી રહમતુલ્લાહિ અલૈહ ઉચ્ચ શરીફ ભાવલપુર પાકિસ્તાન ",
+                "hi": "हज़रत मख़दूम जहानियाँ जहाँगश्त बुख़ारी रहमतुल्लाहि अलैह, उच्च शरीफ़, बहावलपुर, पाकिस्तान",
+                "sw": "Hazrat Makhdoom Jahaniyan Jahangasht Bukhari (Rahmatullahi Alaih), Uch Sharif, Bahawalpur, Pakistan.",
+                "ar": "حضرة مخدوم جهانيان جهانكشت البخاري رحمه الله، أوتش شريف، بهاولبور، باكستان.",
+                "ur": "حضرت مخدوم جہانیاں جہاں گشت بخاری رحمۃ اللہ علیہ، اوچ شریف، بہاولپور، پاکستان"
+              }
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "events": [
+            {
+              "id": "m12_d11_e01",
+              "description": {
+                "en": "Passing away (Wafat) of Maji Begum Saheba (Rahmatullahi Alaiha) (Wife of Hazrat Peer Abutalib Bawa, Khambhat, Gujarat).",
+                "gu": "વફાત માજી બેગમ સાહેબા રહમતુલ્લાહિ અલયહાં (અહેલિયા એ હઝરત પીર અબુતાલિબ બાવા ખંભાત ગુજરાત) ",
+                "hi": "वफ़ात माजी बेगम साहेबा रहमतुल्लाहि अलैहा (अहलिया-ए-हज़रत पीर अबू तालिब बावा, खंभात, गुजरात)",
+                "sw": "Kufariki (Wafat) kwa Maji Begum Saheba (Rahmatullahi Alaiha) (Mke wa Hazrat Peer Abutalib Bawa, Khambhat, Gujarat).",
+                "ar": "وفاة ماجي بيغم صاحبة رحمها الله (زوجة حضرة بير أبو طالب باوا، خمبهات، كجرات).",
+                "ur": "وفات ماجی بیگم صاحبہ رحمۃ اللہ علیہا (اہلیۂ حضرت پیر ابوطالب باوا، کھمبھات، گجرات)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 12,
+          "events": [
+            {
+              "id": "m12_d12_e01",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Syed Ja'far Shah, son of Peer Syed Hasan Kabiruddin Kufr-Shikan (Rahmatullahi Alaih) (7th son; Mazar at Tibagar, Nagaur city).",
+                "gu": "વિસાલે હઝરત સૈયદ જાફર શાહ વહ્દ પીર સૈયદ હસન કબીરુદ્દીન કુફ્રે શિકન રહમતુલ્લાહિ અલૈહ (7 વે ફરજન્દ મઝાર ટિબાગાર શહેર નાગોર) ",
+                "hi": "विसाले हज़रत सैयद जाफ़र शाह वल्द पीर सैयद हसन कबीरुद्दीन कुफ़्रे शिकन रहमतुल्लाहि अलैह (7वें फ़रज़ंद; मज़ार: टिबागार, नागौर शहर)",
+                "sw": "Kufariki (Wisal) kwa Hazrat Syed Ja'far Shah mwana wa Peer Syed Hasan Kabiruddin Kufr-Shikan (Rahmatullahi Alaih) (Mwana wa 7; Mazar iko Tibagar, mji wa Nagaur).",
+                "ar": "وصال حضرة سيد جعفر شاه بن بير سيد حسن كبير الدين كفر شكن رحمه الله (الابن السابع؛ مزاره في تيباغار، مدينة ناغور).",
+                "ur": "وصالِ حضرت سید جعفر شاہ ولد پیر سید حسن کبیرالدین کفر شکن رحمۃ اللہ علیہ (ساتویں فرزند؛ مزار ٹباگار، شہر ناگور)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 14,
+          "events": [
+            {
+              "id": "m12_d14_e01",
+              "description": {
+                "en": "Blessed Urs / Wisal of Hazrat Peer Syed Ghulam Ali alias Hazar Peer, son of Hazrat Abutalib (Rahmatullahi Alaih), Dholka.",
+                "gu": "ઉર્સ વિસાલે મુબારક હઝરત પીર સૈયદ ગુલામઅલી ઉર્ફે હાજર પીર વલ્દ હઝરત અબુતાલિબ રહમતુલ્લાહિ અલૈહ ધોળકા",
+                "hi": "उर्स विसाले मुबारक हज़रत पीर सैयद ग़ुलाम अली उर्फ़ हाज़िर पीर वल्द हज़रत अबू तालिब रहमतुल्लाहि अलैह, धोलका",
+                "sw": "Urs / Kufariki tukufu (Wisal-e-Mubarak) kwa Hazrat Peer Syed Ghulam Ali maarufu kama Hazar Peer mwana wa Hazrat Abutalib (Rahmatullahi Alaih), Dholka.",
+                "ar": "عرس ووصال مبارك لحضرة بير سيد غلام علي الملقب بحاضر بير بن حضرة أبو طالب رحمه الله، دهولكا.",
+                "ur": "عرس وصالِ مبارک حضرت پیر سید غلام علی عرف حاضر پیر ولد حضرت ابوطالب رحمۃ اللہ علیہ، دھولکہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 15,
+          "events": [
+            {
+              "id": "m12_d15_e01",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Noor Muhammad Nur-ul-Haqq, son of Peer Syed Hasan Kabiruddin Kufr-Shikan (Rahmatullahi Alaih) (15th son).",
+                "gu": "વિસાલે હઝરત નૂરમૂહંમદ નુરુલ હક વન્દ પીર સૈયદ હસન કબીરુદ્દીન કુફ્રે શિકન રહમતુલ્લાહિ અલૈહ {15 વે ફરઝન્દ} ",
+                "hi": "विसाले हज़रत नूर मुहम्मद नूरुल हक़ वल्द पीर सैयद हसन कबीरुद्दीन कुफ़्रे शिकन रहमतुल्लाहि अलैह (15वें फ़रज़ंद)",
+                "sw": "Kufariki (Wisal) kwa Hazrat Noor Muhammad Nur-ul-Haqq mwana wa Peer Syed Hasan Kabiruddin Kufr-Shikan (Rahmatullahi Alaih) (Mwana wa 15).",
+                "ar": "وصال حضرة نور محمد نور الحق بن بير سيد حسن كبير الدين كفر شكن رحمه الله (الابن الخامس عشر).",
+                "ur": "وصالِ حضرت نور محمد نور الحق ولد پیر سید حسن کبیرالدین کفر شکن رحمۃ اللہ علیہ (پندرہویں فرزند)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 18,
+          "events": [
+            {
+              "id": "m12_d18_e01",
+              "description": {
+                "en": "Son-in-law of Huzoor ﷺ, Amir-ul-Mu'minin Hazrat Syeduna Usman Ghani Dhun-Nurayn (Radiyallahu Anhu), the 3rd Caliph.",
+                "gu": "દામાદે હુઝુર ﷺ અમીરૂલ મોઅમેનીન હઝરતે સૈયદુના ઉષ્માન ગની ઝુન્નુરૈન રદિયલ્લાહો અન્હો ખલિફા એ (3) સોયમ ",
+                "hi": "दामादे हुज़ूर ﷺ अमीरुल मोमिनीन हज़रते सैयदुना उस्मान ग़नी ज़ुन्नूरैन रदियल्लाहु अन्हु, ख़लीफ़ा-ए-सोयम (तीसरे ख़लीफ़ा)",
+                "sw": "Mkwe wa Huzoor ﷺ, Amir-ul-Mu'minin Hazrat Syeduna Usman Ghani Dhun-Nurayn (Radiyallahu Anhu), Khalifa wa 3.",
+                "ar": "صهر رسول الله ﷺ أمير المؤمنين سيدنا عثمان بن عفان ذو النورين رضي الله عنه، الخليفة الثالث.",
+                "ur": "دامادِ حضور ﷺ امیر المومنین حضرت سیدنا عثمان غنی ذوالنورین رضی اللہ عنہ، خلیفۂ سوم (تیسرے خلیفہ)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 20,
+          "events": [
+            {
+              "id": "m12_d20_e01",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Peer Syed Qasim Ali Awwal, son of Syed Ghulam Ali Hazar Peer Kadiwal (Rahmatullahi Alaih).",
+                "gu": "વિસાલે હઝરત પીર સૈયદ કાસીમ અલી અવ્વલ વલ્દ સૈયદ ગુલામઅલી હાજરપીર કડીવાલ રહમતુલ્લાહિ અલૈહ  ",
+                "hi": "विसाले हज़रत पीर सैयद क़ासिम अली अव्वल वल्द सैयद ग़ुलाम अली हाज़िर पीर कड़ीवाल रहमतुल्लाहि अलैह",
+                "sw": "Kufariki (Wisal) kwa Hazrat Peer Syed Qasim Ali Awwal mwana wa Syed Ghulam Ali Hazar Peer Kadiwal (Rahmatullahi Alaih).",
+                "ar": "وصال حضرة بير سيد قاسم علي الأول بن سيد غلام علي حاضر بير الكاديوالي رحمه الله.",
+                "ur": "وصالِ حضرت پیر سید قاسم علی اول ولد سید غلام علی حاضر پیر کڑیوال رحمۃ اللہ علیہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 26,
+          "events": [
+            {
+              "id": "m12_d26_e01",
+              "description": {
+                "en": "Martyrdom (Shahadat) of Amir-ul-Mu'minin Hazrat Umar Farooq-e-Azam (Radiyallahu Anhu), the 2nd Caliph (Gumbad-e-Khazra, Madinah Sharif).",
+                "gu": "શહાદતે અમીરૂલ મોઅમેનીન હઝરતે ઉમર ફારૂકે આઝમ રદિયલ્લાહો અન્હો ખલીફા એ (2) દોયમ ગુમ્બદે ખઝરા મદીના શરીફ ",
+                "hi": "शहादते अमीरुल मोमिनीन हज़रते उमर फ़ारूक़े आज़म रदियल्लाहु अन्हु, ख़लीफ़ा-ए-दोयम (दूसरे ख़लीफ़ा) (गुंबदे ख़ज़रा, मदीना शरीफ़)",
+                "sw": "Kuuawa Shahidi (Shahadat) kwa Amir-ul-Mu'minin Hazrat Umar Farooq-e-Azam (Radiyallahu Anhu), Khalifa wa 2 (Gumbad-e-Khazra, Madinah Sharif).",
+                "ar": "استشهاد أمير المؤمنين سيدنا عمر الفاروق الأعظم رضي الله عنه، الخليفة الثاني (القبة الخضراء، المدينة المنورة).",
+                "ur": "شہادتِ امیر المومنین حضرت عمر فاروقِ اعظم رضی اللہ عنہ، خلیفۂ دوم (دوسرے خلیفہ) (گنبدِ خضرا، مدینہ شریف)"
+              }
+            }
+          ]
+        },
+        {
+          "day": 27,
+          "events": [
+            {
+              "id": "m12_d27_e01",
+              "description": {
+                "en": "Hazrat Sheikh Fariduddin Attar (Rahmatullahi Alaih).",
+                "gu": "હઝરતે શૈખ ફરીદુદ્દીન અત્તાર રહમતુલ્લાહિ અલૈહ ",
+                "hi": "हज़रते शैख़ फ़रीदुद्दीन अत्तार रहमतुल्लाहि अलैह",
+                "sw": "Hazrat Sheikh Fariduddin Attar (Rahmatullahi Alaih).",
+                "ar": "حضرة الشيخ فريد الدين العطار رحمه الله.",
+                "ur": "حضرت شیخ فرید الدین عطار رحمۃ اللہ علیہ"
+              }
+            }
+          ]
+        },
+        {
+          "day": 30,
+          "events": [
+            {
+              "id": "m12_d30_e01",
+              "description": {
+                "en": "Passing away (Wisal) of Hazrat Peer Syed Fazle Ali, son of Syed Durvesh Ali Bawa (Rahmatullahi Alaih) (Surat Badi Dargah).",
+                "gu": "વિસાલે હઝરત પીર સૈયદ ફઝલે અલી વહ્દ સૈયદ દુરવેશ અલી બાવા રહમતુલ્લાહિ અલૈહ (સુરત બડી દરગાહ)",
+                "hi": "विसाले हज़रत पीर सैयद फ़ज़्ले अली वल्द सैयद दुर्वेश अली बावा रहमतुल्लाहि अलैह (सूरत बड़ी दरगाह)",
+                "sw": "Kufariki (Wisal) kwa Hazrat Peer Syed Fazle Ali mwana wa Syed Durvesh Ali Bawa (Rahmatullahi Alaih) (Surat Badi Dargah).",
+                "ar": "وصال حضرة بير سيد فضل علي بن سيد درويش علي باوا رحمه الله (بادي دركاه، سورت).",
+                "ur": "وصالِ حضرت پیر سید فضلِ علی ولد سید درویش علی باوا رحمۃ اللہ علیہ (سورت بڑی درگاہ)"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

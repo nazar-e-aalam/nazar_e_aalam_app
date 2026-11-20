@@ -1,0 +1,91 @@
+[
+  {
+    "status": true,
+    "message": "Data fetched successfully",
+    "data": {
+      "chapter": {
+        "id": 102,
+        "serial_number": "102",
+        "arabic_name": "التكاثر",
+        "translated_name": "At-Takathur",
+        "verses_translate_name": "Verses",
+        "verses_count": "8"
+      },
+      "chapter_info": [
+        {
+          "eng_page_number": 600,
+          "page_number": "600",
+          "page_key": 0,
+          "page_verses": [
+            {
+              "id": 6169,
+              "chapter_id": 102,
+              "verses_translate_name": "Verses",
+              "verses_number": "1",
+              "arabic_name": "أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
+              "translated_name": "तुम्हें (धन, संतान की) बहुतायत पर गर्व ने ग़ाफ़िल कर दिया।"
+            },
+            {
+              "id": 6170,
+              "chapter_id": 102,
+              "verses_translate_name": "Verses",
+              "verses_number": "2",
+              "arabic_name": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ",
+              "translated_name": "यहाँ तक कि तुम क़ब्रिस्तान जा पहुँचे।[1]"
+            },
+            {
+              "id": 6171,
+              "chapter_id": 102,
+              "verses_translate_name": "Verses",
+              "verses_number": "3",
+              "arabic_name": "كَلَّا سَوْفَ تَعْلَمُونَ",
+              "translated_name": "कदापि नहीं, तुम शीघ्र ही जान लोगे।"
+            },
+            {
+              "id": 6172,
+              "chapter_id": 102,
+              "verses_translate_name": "Verses",
+              "verses_number": "4",
+              "arabic_name": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
+              "translated_name": "फिर कदापि नहीं, तुम शीघ्र ही जान लोगे।"
+            },
+            {
+              "id": 6173,
+              "chapter_id": 102,
+              "verses_translate_name": "Verses",
+              "verses_number": "5",
+              "arabic_name": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ",
+              "translated_name": "कदापि नहीं, यदि तुम निश्चित ज्ञान के साथ जान लेते (तो ऐसा न करते)।[2]"
+            },
+            {
+              "id": 6174,
+              "chapter_id": 102,
+              "verses_translate_name": "Verses",
+              "verses_number": "6",
+              "arabic_name": "لَتَرَوُنَّ ٱلْجَحِيمَ",
+              "translated_name": "निश्चय तुम अवश्य जहन्नम को देखोगे।"
+            },
+            {
+              "id": 6175,
+              "chapter_id": 102,
+              "verses_translate_name": "Verses",
+              "verses_number": "7",
+              "arabic_name": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ",
+              "translated_name": "फिर निश्चय तुम उसे अवश्य विश्वास की आँख से देखोगे।"
+            },
+            {
+              "id": 6176,
+              "chapter_id": 102,
+              "verses_translate_name": "Verses",
+              "verses_number": "8",
+              "arabic_name": "ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ",
+              "translated_name": "फिर निश्चय तुम उस दिन नेमतों के बारे में अवश्य पूछे जाओगे।[3]"
+            }
+          ],
+          "page_arabic_ayah": "أَلْهَىٰكُمُ ٱلتَّكَاثُرُ (١)  حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ (٢)  كَلَّا سَوْفَ تَعْلَمُونَ (٣)  ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ (٤)  كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ (٥)  لَتَرَوُنَّ ٱلْجَحِيمَ (٦)  ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ (٧)  ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ (٨)",
+          "is_read": false
+        }
+      ]
+    }
+  }
+]

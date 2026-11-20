@@ -1,0 +1,235 @@
+[
+  {
+    "status": true,
+    "message": "Data fetched successfully",
+    "data": {
+      "chapter": {
+        "id": 88,
+        "serial_number": "88",
+        "arabic_name": "الغاشية",
+        "translated_name": "Al-Ghashiyah",
+        "verses_translate_name": "Verses",
+        "verses_count": "26"
+      },
+      "chapter_info": [
+        {
+          "eng_page_number": 592,
+          "page_number": "592",
+          "page_key": 0,
+          "page_verses": [
+            {
+              "id": 5968,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "1",
+              "arabic_name": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَـٰشِيَةِ",
+              "translated_name": "क्या तेरे पास ढाँपने लेने वाली (क़ियामत) की ख़बर पहुँची?"
+            },
+            {
+              "id": 5969,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "2",
+              "arabic_name": "وُجُوهٌ يَوْمَئِذٍ خَـٰشِعَةٌ",
+              "translated_name": "उस दिन कई चेहरे अपमानित होंगे।"
+            },
+            {
+              "id": 5970,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "3",
+              "arabic_name": "عَامِلَةٌ نَّاصِبَةٌ",
+              "translated_name": "कठिन परिश्रम करने वाले, थक जाने वाले।"
+            },
+            {
+              "id": 5971,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "4",
+              "arabic_name": "تَصْلَىٰ نَارًا حَامِيَةً",
+              "translated_name": "वे गर्म धधकती आग में प्रवेश करेंगे।"
+            },
+            {
+              "id": 5972,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "5",
+              "arabic_name": "تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍ",
+              "translated_name": "उन्हें खौलते सोते का जल पिलाया जाएगा।"
+            },
+            {
+              "id": 5973,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "6",
+              "arabic_name": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ",
+              "translated_name": "उनके लिए कांटेदार झाड़ के सिवा कोई खाना नहीं होगा।"
+            },
+            {
+              "id": 5974,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "7",
+              "arabic_name": "لَّا يُسْمِنُ وَلَا يُغْنِى مِن جُوعٍ",
+              "translated_name": "जो न मोटा करेगा और न भूख मिटाएगा।[1]"
+            },
+            {
+              "id": 5975,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "8",
+              "arabic_name": "وُجُوهٌ يَوْمَئِذٍ نَّاعِمَةٌ",
+              "translated_name": "उस दिन कई चेहरे प्रफुल्लित होंगे।"
+            },
+            {
+              "id": 5976,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "9",
+              "arabic_name": "لِّسَعْيِهَا رَاضِيَةٌ",
+              "translated_name": "अपने प्रयास पर प्रसन्न होंगे।"
+            },
+            {
+              "id": 5977,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "10",
+              "arabic_name": "فِى جَنَّةٍ عَالِيَةٍ",
+              "translated_name": "ऊँची जन्नत में होंगे।"
+            },
+            {
+              "id": 5978,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "11",
+              "arabic_name": "لَّا تَسْمَعُ فِيهَا لَـٰغِيَةً",
+              "translated_name": "उसमें कोई बेकार (अशिष्ट) बात नहीं सुनेंगे।"
+            },
+            {
+              "id": 5979,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "12",
+              "arabic_name": "فِيهَا عَيْنٌ جَارِيَةٌ",
+              "translated_name": "उसमें बहने वाले स्रोत (चश्मे) हैं।"
+            },
+            {
+              "id": 5980,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "13",
+              "arabic_name": "فِيهَا سُرُرٌ مَّرْفُوعَةٌ",
+              "translated_name": "उसमें ऊँचे-ऊँचे तख्त हैं।"
+            },
+            {
+              "id": 5981,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "14",
+              "arabic_name": "وَأَكْوَابٌ مَّوْضُوعَةٌ",
+              "translated_name": "और (पीने वालों के लिए तैयार) रखे हुए प्याले हैं।"
+            },
+            {
+              "id": 5982,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "15",
+              "arabic_name": "وَنَمَارِقُ مَصْفُوفَةٌ",
+              "translated_name": "और क्रम में लगे हुए गाव-तकिए हैं।"
+            },
+            {
+              "id": 5983,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "16",
+              "arabic_name": "وَزَرَابِىُّ مَبْثُوثَةٌ",
+              "translated_name": "और बिछाए हुए क़ालीन हैं।[2]"
+            },
+            {
+              "id": 5984,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "17",
+              "arabic_name": "أَفَلَا يَنظُرُونَ إِلَى ٱلْإِبِلِ كَيْفَ خُلِقَتْ",
+              "translated_name": "क्या वे ऊँटों को नहीं देखते कि वे कैसे पैदा किए गए हैं?"
+            },
+            {
+              "id": 5985,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "18",
+              "arabic_name": "وَإِلَى ٱلسَّمَآءِ كَيْفَ رُفِعَتْ",
+              "translated_name": "और आकाश को (नहीं देखते) कि उसे कैसे ऊँचा किया गया?"
+            },
+            {
+              "id": 5986,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "19",
+              "arabic_name": "وَإِلَى ٱلْجِبَالِ كَيْفَ نُصِبَتْ",
+              "translated_name": "और पर्वतों को (नहीं देखते) कि कैसे गाड़े गए हैं?"
+            },
+            {
+              "id": 5987,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "20",
+              "arabic_name": "وَإِلَى ٱلْأَرْضِ كَيْفَ سُطِحَتْ",
+              "translated_name": "तथा धरती को (नहीं देखते) कि कैसे बिछाई गई है?[3]"
+            },
+            {
+              "id": 5988,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "21",
+              "arabic_name": "فَذَكِّرْ إِنَّمَآ أَنتَ مُذَكِّرٌ",
+              "translated_name": "अतः आप नसीहत करें, आप केवल नसीहत करने वाले हैं।"
+            },
+            {
+              "id": 5989,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "22",
+              "arabic_name": "لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ",
+              "translated_name": "आप उनपर कोई दरोग़ा (नियंत्रक) नहीं हैं।"
+            },
+            {
+              "id": 5990,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "23",
+              "arabic_name": "إِلَّا مَن تَوَلَّىٰ وَكَفَرَ",
+              "translated_name": "परंतु जिसने मुँह फेरा और कुफ़्र किया।"
+            },
+            {
+              "id": 5991,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "24",
+              "arabic_name": "فَيُعَذِّبُهُ ٱللَّهُ ٱلْعَذَابَ ٱلْأَكْبَرَ",
+              "translated_name": "तो अल्लाह उसे सबसे बड़ी यातना देगा।"
+            },
+            {
+              "id": 5992,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "25",
+              "arabic_name": "إِنَّ إِلَيْنَآ إِيَابَهُمْ",
+              "translated_name": "निःसंदेह हमारी ही ओर उनका लौटकर आना है।"
+            },
+            {
+              "id": 5993,
+              "chapter_id": 88,
+              "verses_translate_name": "Verses",
+              "verses_number": "26",
+              "arabic_name": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم",
+              "translated_name": "फिर बेशक हमारे ही ज़िम्मे उनका ह़िसाब लेना है।[4]"
+            }
+          ],
+          "page_arabic_ayah": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَـٰشِيَةِ (١)  وُجُوهٌ يَوْمَئِذٍ خَـٰشِعَةٌ (٢)  عَامِلَةٌ نَّاصِبَةٌ (٣)  تَصْلَىٰ نَارًا حَامِيَةً (٤)  تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍ (٥)  لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ (٦)  لَّا يُسْمِنُ وَلَا يُغْنِى مِن جُوعٍ (٧)  وُجُوهٌ يَوْمَئِذٍ نَّاعِمَةٌ (٨)  لِّسَعْيِهَا رَاضِيَةٌ (٩)  فِى جَنَّةٍ عَالِيَةٍ (١٠)  لَّا تَسْمَعُ فِيهَا لَـٰغِيَةً (١١)  فِيهَا عَيْنٌ جَارِيَةٌ (١٢)  فِيهَا سُرُرٌ مَّرْفُوعَةٌ (١٣)  وَأَكْوَابٌ مَّوْضُوعَةٌ (١٤)  وَنَمَارِقُ مَصْفُوفَةٌ (١٥)  وَزَرَابِىُّ مَبْثُوثَةٌ (١٦)  أَفَلَا يَنظُرُونَ إِلَى ٱلْإِبِلِ كَيْفَ خُلِقَتْ (١٧)  وَإِلَى ٱلسَّمَآءِ كَيْفَ رُفِعَتْ (١٨)  وَإِلَى ٱلْجِبَالِ كَيْفَ نُصِبَتْ (١٩)  وَإِلَى ٱلْأَرْضِ كَيْفَ سُطِحَتْ (٢٠)  فَذَكِّرْ إِنَّمَآ أَنتَ مُذَكِّرٌ (٢١)  لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ (٢٢)  إِلَّا مَن تَوَلَّىٰ وَكَفَرَ (٢٣)  فَيُعَذِّبُهُ ٱللَّهُ ٱلْعَذَابَ ٱلْأَكْبَرَ (٢٤)  إِنَّ إِلَيْنَآ إِيَابَهُمْ (٢٥)  ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم (٢٦)",
+          "is_read": false
+        }
+      ]
+    }
+  }
+]

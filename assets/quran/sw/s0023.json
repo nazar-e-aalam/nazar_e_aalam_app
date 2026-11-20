@@ -1,0 +1,1034 @@
+[
+  {
+    "status": true,
+    "message": "Data fetched successfully",
+    "data": {
+      "chapter": {
+        "id": 23,
+        "serial_number": "23",
+        "arabic_name": "المؤمنون",
+        "translated_name": "Al-Mu'minun",
+        "verses_translate_name": "Verses",
+        "verses_count": "118"
+      },
+      "chapter_info": [
+        {
+          "eng_page_number": 342,
+          "page_number": "342",
+          "page_key": 0,
+          "page_verses": [
+            {
+              "id": 2674,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "1",
+              "arabic_name": "قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ",
+              "translated_name": "Hakika wamefaulu Waumini."
+            },
+            {
+              "id": 2675,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "2",
+              "arabic_name": "ٱلَّذِينَ هُمْ فِى صَلَاتِهِمْ خَـٰشِعُونَ",
+              "translated_name": "Ambao ni wanyenyekevu katika Swala zao."
+            },
+            {
+              "id": 2676,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "3",
+              "arabic_name": "وَٱلَّذِينَ هُمْ عَنِ ٱللَّغْوِ مُعْرِضُونَ",
+              "translated_name": "Na ambao hujiepusha na mambo ya upuuzi."
+            },
+            {
+              "id": 2677,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "4",
+              "arabic_name": "وَٱلَّذِينَ هُمْ لِلزَّكَوٰةِ فَـٰعِلُونَ",
+              "translated_name": "Na ambao wanatoa Zaka."
+            },
+            {
+              "id": 2678,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "5",
+              "arabic_name": "وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَـٰفِظُونَ",
+              "translated_name": "Na ambao wanazilinda tupu zao."
+            },
+            {
+              "id": 2679,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "6",
+              "arabic_name": "إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَـٰنُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ",
+              "translated_name": "Isipokuwa kwa wake zao au kwa wale iliyowamiliki mikono yao ya kulia. Kwani hao si wenye kulaumiwa."
+            },
+            {
+              "id": 2680,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "7",
+              "arabic_name": "فَمَنِ ٱبْتَغَىٰ وَرَآءَ ذَٰلِكَ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْعَادُونَ",
+              "translated_name": "Lakini anayetaka kinyume cha haya, basi hao ndio wavukao mipaka."
+            },
+            {
+              "id": 2681,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "8",
+              "arabic_name": "وَٱلَّذِينَ هُمْ لِأَمَـٰنَـٰتِهِمْ وَعَهْدِهِمْ رَٰعُونَ",
+              "translated_name": "Na ambao wanazitunza amana zao na maagano yao."
+            },
+            {
+              "id": 2682,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "9",
+              "arabic_name": "وَٱلَّذِينَ هُمْ عَلَىٰ صَلَوَٰتِهِمْ يُحَافِظُونَ",
+              "translated_name": "Na ambao Swala zao wanazihifadhi."
+            },
+            {
+              "id": 2683,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "10",
+              "arabic_name": "أُو۟لَـٰٓئِكَ هُمُ ٱلْوَٰرِثُونَ",
+              "translated_name": "Hao ndio warithi."
+            },
+            {
+              "id": 2684,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "11",
+              "arabic_name": "ٱلَّذِينَ يَرِثُونَ ٱلْفِرْدَوْسَ هُمْ فِيهَا خَـٰلِدُونَ",
+              "translated_name": "Ambao watairithi Bustani ya Firdausi, nao watadumu humo."
+            },
+            {
+              "id": 2685,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "12",
+              "arabic_name": "وَلَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ مِن سُلَـٰلَةٍ مِّن طِينٍ",
+              "translated_name": "Na kwa yakini tumemuumba mtu kutokana na asili ya udongo."
+            },
+            {
+              "id": 2686,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "13",
+              "arabic_name": "ثُمَّ جَعَلْنَـٰهُ نُطْفَةً فِى قَرَارٍ مَّكِينٍ",
+              "translated_name": "Kisha tukamfanya kuwa tone la mbegu ya uzazi katika mahali patulivu palipo madhubuti."
+            },
+            {
+              "id": 2687,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "14",
+              "arabic_name": "ثُمَّ خَلَقْنَا ٱلنُّطْفَةَ عَلَقَةً فَخَلَقْنَا ٱلْعَلَقَةَ مُضْغَةً فَخَلَقْنَا ٱلْمُضْغَةَ عِظَـٰمًا فَكَسَوْنَا ٱلْعِظَـٰمَ لَحْمًا ثُمَّ أَنشَأْنَـٰهُ خَلْقًا ءَاخَرَ ۚ فَتَبَارَكَ ٱللَّهُ أَحْسَنُ ٱلْخَـٰلِقِينَ",
+              "translated_name": "Kisha tukaliumba tone hilo kuwa damu iliyoganda, na tukaiumba damu hiyo kuwa pande la nyama, kisha tukaliumba pande hilo la nyama kuwa mifupa, na mifupa hiyo tukaivisha nyama. Kisha tukamfanya kuwa kiumbe mwingine. Basi Mwenyezi Mungu ni Mwingi wa baraka, Mbora zaidi wa waumbaji."
+            },
+            {
+              "id": 2688,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "15",
+              "arabic_name": "ثُمَّ إِنَّكُم بَعْدَ ذَٰلِكَ لَمَيِّتُونَ",
+              "translated_name": "Kisha hakika nyinyi baada ya hayo mtakufa."
+            },
+            {
+              "id": 2689,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "16",
+              "arabic_name": "ثُمَّ إِنَّكُمْ يَوْمَ ٱلْقِيَـٰمَةِ تُبْعَثُونَ",
+              "translated_name": "Kisha hakika nyinyi Siku ya Kiyama mtafufuliwa."
+            },
+            {
+              "id": 2690,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "17",
+              "arabic_name": "وَلَقَدْ خَلَقْنَا فَوْقَكُمْ سَبْعَ طَرَآئِقَ وَمَا كُنَّا عَنِ ٱلْخَلْقِ غَـٰفِلِينَ",
+              "translated_name": "Na kwa yakini tumeziumba juu yenu njia saba. Nasi hatukuwa wenye kughafilika na viumbe."
+            }
+          ],
+          "page_arabic_ayah": "قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ (١)  ٱلَّذِينَ هُمْ فِى صَلَاتِهِمْ خَـٰشِعُونَ (٢)  وَٱلَّذِينَ هُمْ عَنِ ٱللَّغْوِ مُعْرِضُونَ (٣)  وَٱلَّذِينَ هُمْ لِلزَّكَوٰةِ فَـٰعِلُونَ (٤)  وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَـٰفِظُونَ (٥)  إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَـٰنُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ (٦)  فَمَنِ ٱبْتَغَىٰ وَرَآءَ ذَٰلِكَ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْعَادُونَ (٧)  وَٱلَّذِينَ هُمْ لِأَمَـٰنَـٰتِهِمْ وَعَهْدِهِمْ رَٰعُونَ (٨)  وَٱلَّذِينَ هُمْ عَلَىٰ صَلَوَٰتِهِمْ يُحَافِظُونَ (٩)  أُو۟لَـٰٓئِكَ هُمُ ٱلْوَٰرِثُونَ (١٠)  ٱلَّذِينَ يَرِثُونَ ٱلْفِرْدَوْسَ هُمْ فِيهَا خَـٰلِدُونَ (١١)  وَلَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ مِن سُلَـٰلَةٍ مِّن طِينٍ (١٢)  ثُمَّ جَعَلْنَـٰهُ نُطْفَةً فِى قَرَارٍ مَّكِينٍ (١٣)  ثُمَّ خَلَقْنَا ٱلنُّطْفَةَ عَلَقَةً فَخَلَقْنَا ٱلْعَلَقَةَ مُضْغَةً فَخَلَقْنَا ٱلْمُضْغَةَ عِظَـٰمًا فَكَسَوْنَا ٱلْعِظَـٰمَ لَحْمًا ثُمَّ أَنشَأْنَـٰهُ خَلْقًا ءَاخَرَ ۚ فَتَبَارَكَ ٱللَّهُ أَحْسَنُ ٱلْخَـٰلِقِينَ (١٤)  ثُمَّ إِنَّكُم بَعْدَ ذَٰلِكَ لَمَيِّتُونَ (١٥)  ثُمَّ إِنَّكُمْ يَوْمَ ٱلْقِيَـٰمَةِ تُبْعَثُونَ (١٦)  وَلَقَدْ خَلَقْنَا فَوْقَكُمْ سَبْعَ طَرَآئِقَ وَمَا كُنَّا عَنِ ٱلْخَلْقِ غَـٰفِلِينَ (١٧)",
+          "is_read": false
+        },
+        {
+          "eng_page_number": 343,
+          "page_number": "343",
+          "page_key": 1,
+          "page_verses": [
+            {
+              "id": 2691,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "18",
+              "arabic_name": "وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءًۢ بِقَدَرٍ فَأَسْكَنَّـٰهُ فِى ٱلْأَرْضِ ۖ وَإِنَّا عَلَىٰ ذَهَابٍۭ بِهِۦ لَقَـٰدِرُونَ",
+              "translated_name": "Na tumeteremsha kutoka mbinguni maji kwa kiasi na tukayatuliza katika ardhi. Na hakika Sisi tunaweza kuyaondoa."
+            },
+            {
+              "id": 2692,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "19",
+              "arabic_name": "فَأَنشَأْنَا لَكُم بِهِۦ جَنَّـٰتٍ مِّن نَّخِيلٍ وَأَعْنَـٰبٍ لَّكُمْ فِيهَا فَوَٰكِهُ كَثِيرَةٌ وَمِنْهَا تَأْكُلُونَ",
+              "translated_name": "Kwa maji hayo tukawafanyia bustani za mitende na mizabibu, mnapata humo matunda mengi, na katika hayo mnakula."
+            },
+            {
+              "id": 2693,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "20",
+              "arabic_name": "وَشَجَرَةً تَخْرُجُ مِن طُورِ سَيْنَآءَ تَنۢبُتُ بِٱلدُّهْنِ وَصِبْغٍ لِّلْـَٔاكِلِينَ",
+              "translated_name": "Na mti utokao katika mlima wa Sinai, unaotoa mafuta na kuwa kitoweo kwa walao."
+            },
+            {
+              "id": 2694,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "21",
+              "arabic_name": "وَإِنَّ لَكُمْ فِى ٱلْأَنْعَـٰمِ لَعِبْرَةً ۖ نُّسْقِيكُم مِّمَّا فِى بُطُونِهَا وَلَكُمْ فِيهَا مَنَـٰفِعُ كَثِيرَةٌ وَمِنْهَا تَأْكُلُونَ",
+              "translated_name": "Na hakika mnayo mazingatio makubwa katika wanyama wa kufugwa waliwao. Tunawanywesha nyinyi katika vile vilivyo matumboni mwao, na nyinyi mnapata katika hao manufaa mengi, na pia mnawala."
+            },
+            {
+              "id": 2695,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "22",
+              "arabic_name": "وَعَلَيْهَا وَعَلَى ٱلْفُلْكِ تُحْمَلُونَ",
+              "translated_name": "Na juu yao na juu ya marikebu mnabebwa."
+            },
+            {
+              "id": 2696,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "23",
+              "arabic_name": "وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦ فَقَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥٓ ۖ أَفَلَا تَتَّقُونَ",
+              "translated_name": "Na hakika tulimtuma Nuhu kwa kaumu yake, akasema, \"Enyi kaumu yangu! Muabuduni Mwenyezi Mungu. Nyinyi hamna mungu yeyote asiyekuwa Yeye. Basi je, hamwogopi?\""
+            },
+            {
+              "id": 2697,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "24",
+              "arabic_name": "فَقَالَ ٱلْمَلَؤُا۟ ٱلَّذِينَ كَفَرُوا۟ مِن قَوْمِهِۦ مَا هَـٰذَآ إِلَّا بَشَرٌ مِّثْلُكُمْ يُرِيدُ أَن يَتَفَضَّلَ عَلَيْكُمْ وَلَوْ شَآءَ ٱللَّهُ لَأَنزَلَ مَلَـٰٓئِكَةً مَّا سَمِعْنَا بِهَـٰذَا فِىٓ ءَابَآئِنَا ٱلْأَوَّلِينَ",
+              "translated_name": "Wakasema wale wakuu waliokufuru katika kaumu yake, \"Huyu si chochote isipokuwa ni mtu tu kama nyinyi. Anataka kujipa ubora juu yenu. Na lau kuwa Mwenyezi Mungu angetaka, basi kwa yakini angeliteremsha Malaika. Hatukusikia haya kwa baba zetu wa mwanzoni."
+            },
+            {
+              "id": 2698,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "25",
+              "arabic_name": "إِنْ هُوَ إِلَّا رَجُلٌۢ بِهِۦ جِنَّةٌ فَتَرَبَّصُوا۟ بِهِۦ حَتَّىٰ حِينٍ",
+              "translated_name": "Huyu si lolote isipokuwa ni mwanamume mwenye wazimu. Basi mngojeeni tu kwa muda.\""
+            },
+            {
+              "id": 2699,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "26",
+              "arabic_name": "قَالَ رَبِّ ٱنصُرْنِى بِمَا كَذَّبُونِ",
+              "translated_name": "Akasema (Nuhu), \"Mola wangu Mlezi! Ninusuru kwa kuwa wamenikanusha.\""
+            },
+            {
+              "id": 2700,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "27",
+              "arabic_name": "فَأَوْحَيْنَآ إِلَيْهِ أَنِ ٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا فَإِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ ۙ فَٱسْلُكْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ مِنْهُمْ ۖ وَلَا تُخَـٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۖ إِنَّهُم مُّغْرَقُونَ",
+              "translated_name": "Tukamfunulia wahyi kwamba, \"Unda jahazi mbele ya macho yetu na ufunuo wetu! Na itakapofika amri yetu na ikafurika tanuri, hapo waingize ndani yake kutoka kwa kila jozi, dume na jike, na ahali zako, isipokuwa yule ambaye katika wao juu yake imekwisha tangulia kauli. Wala usiniongeleshe kuhusu hao waliodhulumu. Kwani hao bila ya shaka watazamishwa."
+            }
+          ],
+          "page_arabic_ayah": "وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءًۢ بِقَدَرٍ فَأَسْكَنَّـٰهُ فِى ٱلْأَرْضِ ۖ وَإِنَّا عَلَىٰ ذَهَابٍۭ بِهِۦ لَقَـٰدِرُونَ (١٨)  فَأَنشَأْنَا لَكُم بِهِۦ جَنَّـٰتٍ مِّن نَّخِيلٍ وَأَعْنَـٰبٍ لَّكُمْ فِيهَا فَوَٰكِهُ كَثِيرَةٌ وَمِنْهَا تَأْكُلُونَ (١٩)  وَشَجَرَةً تَخْرُجُ مِن طُورِ سَيْنَآءَ تَنۢبُتُ بِٱلدُّهْنِ وَصِبْغٍ لِّلْـَٔاكِلِينَ (٢٠)  وَإِنَّ لَكُمْ فِى ٱلْأَنْعَـٰمِ لَعِبْرَةً ۖ نُّسْقِيكُم مِّمَّا فِى بُطُونِهَا وَلَكُمْ فِيهَا مَنَـٰفِعُ كَثِيرَةٌ وَمِنْهَا تَأْكُلُونَ (٢١)  وَعَلَيْهَا وَعَلَى ٱلْفُلْكِ تُحْمَلُونَ (٢٢)  وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦ فَقَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥٓ ۖ أَفَلَا تَتَّقُونَ (٢٣)  فَقَالَ ٱلْمَلَؤُا۟ ٱلَّذِينَ كَفَرُوا۟ مِن قَوْمِهِۦ مَا هَـٰذَآ إِلَّا بَشَرٌ مِّثْلُكُمْ يُرِيدُ أَن يَتَفَضَّلَ عَلَيْكُمْ وَلَوْ شَآءَ ٱللَّهُ لَأَنزَلَ مَلَـٰٓئِكَةً مَّا سَمِعْنَا بِهَـٰذَا فِىٓ ءَابَآئِنَا ٱلْأَوَّلِينَ (٢٤)  إِنْ هُوَ إِلَّا رَجُلٌۢ بِهِۦ جِنَّةٌ فَتَرَبَّصُوا۟ بِهِۦ حَتَّىٰ حِينٍ (٢٥)  قَالَ رَبِّ ٱنصُرْنِى بِمَا كَذَّبُونِ (٢٦)  فَأَوْحَيْنَآ إِلَيْهِ أَنِ ٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا فَإِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ ۙ فَٱسْلُكْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ مِنْهُمْ ۖ وَلَا تُخَـٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۖ إِنَّهُم مُّغْرَقُونَ (٢٧)",
+          "is_read": false
+        },
+        {
+          "eng_page_number": 344,
+          "page_number": "344",
+          "page_key": 2,
+          "page_verses": [
+            {
+              "id": 2701,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "28",
+              "arabic_name": "فَإِذَا ٱسْتَوَيْتَ أَنتَ وَمَن مَّعَكَ عَلَى ٱلْفُلْكِ فَقُلِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى نَجَّىٰنَا مِنَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
+              "translated_name": "Basi utakapotulia sawasawa wewe na wale walio pamoja nawe humo merikebuni, sema: Alhamdulillahi (Sifa zote njema ni za Mwenyezi Mungu), aliyetuokoa kutoka kwa kaumu madhalimu!"
+            },
+            {
+              "id": 2702,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "29",
+              "arabic_name": "وَقُل رَّبِّ أَنزِلْنِى مُنزَلًا مُّبَارَكًا وَأَنتَ خَيْرُ ٱلْمُنزِلِينَ",
+              "translated_name": "Na sema: Mola wangu Mlezi! Niteremshe mteremsho wenye baraka, na Wewe ndiye Mbora wa wateremshaji.\""
+            },
+            {
+              "id": 2703,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "30",
+              "arabic_name": "إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ وَإِن كُنَّا لَمُبْتَلِينَ",
+              "translated_name": "Hakika katika hayo zipo ishara. Na kwa yakini Sisi ni wenye kuwajaribu."
+            },
+            {
+              "id": 2704,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "31",
+              "arabic_name": "ثُمَّ أَنشَأْنَا مِنۢ بَعْدِهِمْ قَرْنًا ءَاخَرِينَ",
+              "translated_name": "Kisha baada yao tukaanzisha kizazi kingine."
+            },
+            {
+              "id": 2705,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "32",
+              "arabic_name": "فَأَرْسَلْنَا فِيهِمْ رَسُولًا مِّنْهُمْ أَنِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥٓ ۖ أَفَلَا تَتَّقُونَ",
+              "translated_name": "Kisha tukawatumia Mtume miongoni mwao, kuwaambia: Muabuduni Mwenyezi Mungu! Hamna mungu yeyote asiyekuwa Yeye. Je, hamumchi?"
+            },
+            {
+              "id": 2706,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "33",
+              "arabic_name": "وَقَالَ ٱلْمَلَأُ مِن قَوْمِهِ ٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِلِقَآءِ ٱلْـَٔاخِرَةِ وَأَتْرَفْنَـٰهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا مَا هَـٰذَآ إِلَّا بَشَرٌ مِّثْلُكُمْ يَأْكُلُ مِمَّا تَأْكُلُونَ مِنْهُ وَيَشْرَبُ مِمَّا تَشْرَبُونَ",
+              "translated_name": "Na wakubwa katika kaumu yake, wale waliokufuru na wakakadhibisha mkutano wa Akhera, na tukawastarehesha katika uhai wa dunia hii, walisema: Huyu si chochote isipokuwa ni mtu kama nyinyi. Anakula katika mnavyokula, na anakunywa katika mnavyokunywa."
+            },
+            {
+              "id": 2707,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "34",
+              "arabic_name": "وَلَئِنْ أَطَعْتُم بَشَرًا مِّثْلَكُمْ إِنَّكُمْ إِذًا لَّخَـٰسِرُونَ",
+              "translated_name": "Kwa hivyo, nyinyi mkimtii mtu kama nyinyi, basi hakika mtakuwa hasarani."
+            },
+            {
+              "id": 2708,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "35",
+              "arabic_name": "أَيَعِدُكُمْ أَنَّكُمْ إِذَا مِتُّمْ وَكُنتُمْ تُرَابًا وَعِظَـٰمًا أَنَّكُم مُّخْرَجُونَ",
+              "translated_name": "Hivi anawaahidi ati mtakapokufa na mkawa udongo na mifupa, kuwa hakika mtatolewa?"
+            },
+            {
+              "id": 2709,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "36",
+              "arabic_name": "۞ هَيْهَاتَ هَيْهَاتَ لِمَا تُوعَدُونَ",
+              "translated_name": "Hayawi! Hayawi hayo mnayoahidiwa."
+            },
+            {
+              "id": 2710,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "37",
+              "arabic_name": "إِنْ هِىَ إِلَّا حَيَاتُنَا ٱلدُّنْيَا نَمُوتُ وَنَحْيَا وَمَا نَحْنُ بِمَبْعُوثِينَ",
+              "translated_name": "Hapana isipokuwa uhai wetu wa duniani tu, tunakufa na kuishi tu. Wala sisi hatutafufuliwa."
+            },
+            {
+              "id": 2711,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "38",
+              "arabic_name": "إِنْ هُوَ إِلَّا رَجُلٌ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا وَمَا نَحْنُ لَهُۥ بِمُؤْمِنِينَ",
+              "translated_name": "Huyu si lolote isipokuwa ni mwanamume anayemzulia Mwenyezi Mungu uongo, wala sisi sio wa kumuamini."
+            },
+            {
+              "id": 2712,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "39",
+              "arabic_name": "قَالَ رَبِّ ٱنصُرْنِى بِمَا كَذَّبُونِ",
+              "translated_name": "Akasema: Mola wangu Mlezi! Ninusuru kwa sababu wananikanusha."
+            },
+            {
+              "id": 2713,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "40",
+              "arabic_name": "قَالَ عَمَّا قَلِيلٍ لَّيُصْبِحُنَّ نَـٰدِمِينَ",
+              "translated_name": "(Mwenyezi Mungu) akasema: Baada ya muda mchache watakuwa wenye kujuta."
+            },
+            {
+              "id": 2714,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "41",
+              "arabic_name": "فَأَخَذَتْهُمُ ٱلصَّيْحَةُ بِٱلْحَقِّ فَجَعَلْنَـٰهُمْ غُثَآءً ۚ فَبُعْدًا لِّلْقَوْمِ ٱلظَّـٰلِمِينَ",
+              "translated_name": "Basi ukawanyakua ukelele kwa haki, na tukawafanya kama takataka zinazoelea juu ya maji. Ikapotelea mbali kaumu ya madhalimu!"
+            },
+            {
+              "id": 2715,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "42",
+              "arabic_name": "ثُمَّ أَنشَأْنَا مِنۢ بَعْدِهِمْ قُرُونًا ءَاخَرِينَ",
+              "translated_name": "Kisha tukaleta baada yao vizazi vingine."
+            }
+          ],
+          "page_arabic_ayah": "فَإِذَا ٱسْتَوَيْتَ أَنتَ وَمَن مَّعَكَ عَلَى ٱلْفُلْكِ فَقُلِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى نَجَّىٰنَا مِنَ ٱلْقَوْمِ ٱلظَّـٰلِمِينَ (٢٨)  وَقُل رَّبِّ أَنزِلْنِى مُنزَلًا مُّبَارَكًا وَأَنتَ خَيْرُ ٱلْمُنزِلِينَ (٢٩)  إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ وَإِن كُنَّا لَمُبْتَلِينَ (٣٠)  ثُمَّ أَنشَأْنَا مِنۢ بَعْدِهِمْ قَرْنًا ءَاخَرِينَ (٣١)  فَأَرْسَلْنَا فِيهِمْ رَسُولًا مِّنْهُمْ أَنِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥٓ ۖ أَفَلَا تَتَّقُونَ (٣٢)  وَقَالَ ٱلْمَلَأُ مِن قَوْمِهِ ٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِلِقَآءِ ٱلْـَٔاخِرَةِ وَأَتْرَفْنَـٰهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا مَا هَـٰذَآ إِلَّا بَشَرٌ مِّثْلُكُمْ يَأْكُلُ مِمَّا تَأْكُلُونَ مِنْهُ وَيَشْرَبُ مِمَّا تَشْرَبُونَ (٣٣)  وَلَئِنْ أَطَعْتُم بَشَرًا مِّثْلَكُمْ إِنَّكُمْ إِذًا لَّخَـٰسِرُونَ (٣٤)  أَيَعِدُكُمْ أَنَّكُمْ إِذَا مِتُّمْ وَكُنتُمْ تُرَابًا وَعِظَـٰمًا أَنَّكُم مُّخْرَجُونَ (٣٥)  ۞ هَيْهَاتَ هَيْهَاتَ لِمَا تُوعَدُونَ (٣٦)  إِنْ هِىَ إِلَّا حَيَاتُنَا ٱلدُّنْيَا نَمُوتُ وَنَحْيَا وَمَا نَحْنُ بِمَبْعُوثِينَ (٣٧)  إِنْ هُوَ إِلَّا رَجُلٌ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا وَمَا نَحْنُ لَهُۥ بِمُؤْمِنِينَ (٣٨)  قَالَ رَبِّ ٱنصُرْنِى بِمَا كَذَّبُونِ (٣٩)  قَالَ عَمَّا قَلِيلٍ لَّيُصْبِحُنَّ نَـٰدِمِينَ (٤٠)  فَأَخَذَتْهُمُ ٱلصَّيْحَةُ بِٱلْحَقِّ فَجَعَلْنَـٰهُمْ غُثَآءً ۚ فَبُعْدًا لِّلْقَوْمِ ٱلظَّـٰلِمِينَ (٤١)  ثُمَّ أَنشَأْنَا مِنۢ بَعْدِهِمْ قُرُونًا ءَاخَرِينَ (٤٢)",
+          "is_read": false
+        },
+        {
+          "eng_page_number": 345,
+          "page_number": "345",
+          "page_key": 3,
+          "page_verses": [
+            {
+              "id": 2716,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "43",
+              "arabic_name": "مَا تَسْبِقُ مِنْ أُمَّةٍ أَجَلَهَا وَمَا يَسْتَـْٔخِرُونَ",
+              "translated_name": "Hapana umma uwezao kutanguliza muda wake wala kuuchelewesha."
+            },
+            {
+              "id": 2717,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "44",
+              "arabic_name": "ثُمَّ أَرْسَلْنَا رُسُلَنَا تَتْرَا ۖ كُلَّ مَا جَآءَ أُمَّةً رَّسُولُهَا كَذَّبُوهُ ۚ فَأَتْبَعْنَا بَعْضَهُم بَعْضًا وَجَعَلْنَـٰهُمْ أَحَادِيثَ ۚ فَبُعْدًا لِّقَوْمٍ لَّا يُؤْمِنُونَ",
+              "translated_name": "Kisha tukawatuma Mitume wetu, mmoja baada ya mmoja. Kila umma alipowafikia Mtume wao, walimkadhibisha. Tukawafuatanisha hawa baada ya hawa, na tukawafanya kuwa hadithi za kusimuliwa. Basi wakapotelea mbali kaumu wasioamini."
+            },
+            {
+              "id": 2718,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "45",
+              "arabic_name": "ثُمَّ أَرْسَلْنَا مُوسَىٰ وَأَخَاهُ هَـٰرُونَ بِـَٔايَـٰتِنَا وَسُلْطَـٰنٍ مُّبِينٍ",
+              "translated_name": "Kisha tukamtuma Musa na kakaye, Harun, pamoja na ishara zetu na hoja zilizo wazi."
+            },
+            {
+              "id": 2719,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "46",
+              "arabic_name": "إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦ فَٱسْتَكْبَرُوا۟ وَكَانُوا۟ قَوْمًا عَالِينَ",
+              "translated_name": "Kumwendea Firauni na wakuu wake. Lakini wakatakabari, nao walikuwa kaumu majeuri."
+            },
+            {
+              "id": 2720,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "47",
+              "arabic_name": "فَقَالُوٓا۟ أَنُؤْمِنُ لِبَشَرَيْنِ مِثْلِنَا وَقَوْمُهُمَا لَنَا عَـٰبِدُونَ",
+              "translated_name": "Wakasema, \"Je, tuwaamini watu wawili hawa kama sisi, na ambao kaumu yao ni watumwa wetu?\""
+            },
+            {
+              "id": 2721,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "48",
+              "arabic_name": "فَكَذَّبُوهُمَا فَكَانُوا۟ مِنَ ٱلْمُهْلَكِينَ",
+              "translated_name": "Basi wakawakadhibisha, na wakawa miongoni mwa walioangamizwa."
+            },
+            {
+              "id": 2722,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "49",
+              "arabic_name": "وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَـٰبَ لَعَلَّهُمْ يَهْتَدُونَ",
+              "translated_name": "Na hakika tulimpa Musa Kitabu ili wapate kuongoka."
+            },
+            {
+              "id": 2723,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "50",
+              "arabic_name": "وَجَعَلْنَا ٱبْنَ مَرْيَمَ وَأُمَّهُۥٓ ءَايَةً وَءَاوَيْنَـٰهُمَآ إِلَىٰ رَبْوَةٍ ذَاتِ قَرَارٍ وَمَعِينٍ",
+              "translated_name": "Na tukamfanya mwana wa Mariamu na mama yake kuwa ni Ishara, na tukawapa makimbilio kwenda mahali palipoinuka penye utulivu na chemchemi za maji."
+            },
+            {
+              "id": 2724,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "51",
+              "arabic_name": "يَـٰٓأَيُّهَا ٱلرُّسُلُ كُلُوا۟ مِنَ ٱلطَّيِّبَـٰتِ وَٱعْمَلُوا۟ صَـٰلِحًا ۖ إِنِّى بِمَا تَعْمَلُونَ عَلِيمٌ",
+              "translated_name": "Enyi Mitume! Kuleni vyakula vizuri na tendeni mema. Hakika Mimi ninajua vyema mnayoyatenda."
+            },
+            {
+              "id": 2725,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "52",
+              "arabic_name": "وَإِنَّ هَـٰذِهِۦٓ أُمَّتُكُمْ أُمَّةً وَٰحِدَةً وَأَنَا۠ رَبُّكُمْ فَٱتَّقُونِ",
+              "translated_name": "Na kwa yakini huu Umma wenu ni Umma mmoja, na Mimi ni Mola wenu Mlezi, basi nicheni Mimi."
+            },
+            {
+              "id": 2726,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "53",
+              "arabic_name": "فَتَقَطَّعُوٓا۟ أَمْرَهُم بَيْنَهُمْ زُبُرًا ۖ كُلُّ حِزْبٍۭ بِمَا لَدَيْهِمْ فَرِحُونَ",
+              "translated_name": "Lakini walikatiana jambo lao mapande mbalimbali. Kila kundi likifurahia kwa waliyo nayo."
+            },
+            {
+              "id": 2727,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "54",
+              "arabic_name": "فَذَرْهُمْ فِى غَمْرَتِهِمْ حَتَّىٰ حِينٍ",
+              "translated_name": "Basi waache katika ghafla yao kwa muda."
+            },
+            {
+              "id": 2728,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "55",
+              "arabic_name": "أَيَحْسَبُونَ أَنَّمَا نُمِدُّهُم بِهِۦ مِن مَّالٍ وَبَنِينَ",
+              "translated_name": "Je, wanadhani ya kuwa kwa vile tunavyowapa mali na watoto."
+            },
+            {
+              "id": 2729,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "56",
+              "arabic_name": "نُسَارِعُ لَهُمْ فِى ٱلْخَيْرَٰتِ ۚ بَل لَّا يَشْعُرُونَ",
+              "translated_name": "Ndiyo tunawaharakishia heri? Lakini wenyewe hawatambui."
+            },
+            {
+              "id": 2730,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "57",
+              "arabic_name": "إِنَّ ٱلَّذِينَ هُم مِّنْ خَشْيَةِ رَبِّهِم مُّشْفِقُونَ",
+              "translated_name": "Kwa hakika hao ambao kwa kumwogopa Mola wao Mlezi wananyenyekea."
+            },
+            {
+              "id": 2731,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "58",
+              "arabic_name": "وَٱلَّذِينَ هُم بِـَٔايَـٰتِ رَبِّهِمْ يُؤْمِنُونَ",
+              "translated_name": "Na wale ambao Ishara za Mola wao Mlezi wanaziamini."
+            },
+            {
+              "id": 2732,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "59",
+              "arabic_name": "وَٱلَّذِينَ هُم بِرَبِّهِمْ لَا يُشْرِكُونَ",
+              "translated_name": "Na wale ambao Mola wao Mlezi hawamshirikishi."
+            }
+          ],
+          "page_arabic_ayah": "مَا تَسْبِقُ مِنْ أُمَّةٍ أَجَلَهَا وَمَا يَسْتَـْٔخِرُونَ (٤٣)  ثُمَّ أَرْسَلْنَا رُسُلَنَا تَتْرَا ۖ كُلَّ مَا جَآءَ أُمَّةً رَّسُولُهَا كَذَّبُوهُ ۚ فَأَتْبَعْنَا بَعْضَهُم بَعْضًا وَجَعَلْنَـٰهُمْ أَحَادِيثَ ۚ فَبُعْدًا لِّقَوْمٍ لَّا يُؤْمِنُونَ (٤٤)  ثُمَّ أَرْسَلْنَا مُوسَىٰ وَأَخَاهُ هَـٰرُونَ بِـَٔايَـٰتِنَا وَسُلْطَـٰنٍ مُّبِينٍ (٤٥)  إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦ فَٱسْتَكْبَرُوا۟ وَكَانُوا۟ قَوْمًا عَالِينَ (٤٦)  فَقَالُوٓا۟ أَنُؤْمِنُ لِبَشَرَيْنِ مِثْلِنَا وَقَوْمُهُمَا لَنَا عَـٰبِدُونَ (٤٧)  فَكَذَّبُوهُمَا فَكَانُوا۟ مِنَ ٱلْمُهْلَكِينَ (٤٨)  وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَـٰبَ لَعَلَّهُمْ يَهْتَدُونَ (٤٩)  وَجَعَلْنَا ٱبْنَ مَرْيَمَ وَأُمَّهُۥٓ ءَايَةً وَءَاوَيْنَـٰهُمَآ إِلَىٰ رَبْوَةٍ ذَاتِ قَرَارٍ وَمَعِينٍ (٥٠)  يَـٰٓأَيُّهَا ٱلرُّسُلُ كُلُوا۟ مِنَ ٱلطَّيِّبَـٰتِ وَٱعْمَلُوا۟ صَـٰلِحًا ۖ إِنِّى بِمَا تَعْمَلُونَ عَلِيمٌ (٥١)  وَإِنَّ هَـٰذِهِۦٓ أُمَّتُكُمْ أُمَّةً وَٰحِدَةً وَأَنَا۠ رَبُّكُمْ فَٱتَّقُونِ (٥٢)  فَتَقَطَّعُوٓا۟ أَمْرَهُم بَيْنَهُمْ زُبُرًا ۖ كُلُّ حِزْبٍۭ بِمَا لَدَيْهِمْ فَرِحُونَ (٥٣)  فَذَرْهُمْ فِى غَمْرَتِهِمْ حَتَّىٰ حِينٍ (٥٤)  أَيَحْسَبُونَ أَنَّمَا نُمِدُّهُم بِهِۦ مِن مَّالٍ وَبَنِينَ (٥٥)  نُسَارِعُ لَهُمْ فِى ٱلْخَيْرَٰتِ ۚ بَل لَّا يَشْعُرُونَ (٥٦)  إِنَّ ٱلَّذِينَ هُم مِّنْ خَشْيَةِ رَبِّهِم مُّشْفِقُونَ (٥٧)  وَٱلَّذِينَ هُم بِـَٔايَـٰتِ رَبِّهِمْ يُؤْمِنُونَ (٥٨)  وَٱلَّذِينَ هُم بِرَبِّهِمْ لَا يُشْرِكُونَ (٥٩)",
+          "is_read": false
+        },
+        {
+          "eng_page_number": 346,
+          "page_number": "346",
+          "page_key": 4,
+          "page_verses": [
+            {
+              "id": 2733,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "60",
+              "arabic_name": "وَٱلَّذِينَ يُؤْتُونَ مَآ ءَاتَوا۟ وَّقُلُوبُهُمْ وَجِلَةٌ أَنَّهُمْ إِلَىٰ رَبِّهِمْ رَٰجِعُونَ",
+              "translated_name": "Na wale ambao wanatoa kile walichopewa, na hali nyoyo zao zinaogopa kwa kuwa watarejea kwa Mola wao Mlezi."
+            },
+            {
+              "id": 2734,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "61",
+              "arabic_name": "أُو۟لَـٰٓئِكَ يُسَـٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَهُمْ لَهَا سَـٰبِقُونَ",
+              "translated_name": "Basi wote hao ndio wanaokimbilia mambo ya heri, na ndio watakaotangulia kuyafikia."
+            },
+            {
+              "id": 2735,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "62",
+              "arabic_name": "وَلَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَا ۖ وَلَدَيْنَا كِتَـٰبٌ يَنطِقُ بِٱلْحَقِّ ۚ وَهُمْ لَا يُظْلَمُونَ",
+              "translated_name": "Na hatuitwiki nafsi isipokuwa kwa kiasi cha uwezo wake. Na tunacho kitabu kisemacho kweli. Nao hawatadhulumiwa."
+            },
+            {
+              "id": 2736,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "63",
+              "arabic_name": "بَلْ قُلُوبُهُمْ فِى غَمْرَةٍ مِّنْ هَـٰذَا وَلَهُمْ أَعْمَـٰلٌ مِّن دُونِ ذَٰلِكَ هُمْ لَهَا عَـٰمِلُونَ",
+              "translated_name": "Lakini nyoyo zao zimefunikwa hazitambui hayo, na wanavyo vitendo vinginevyo wanavyovifanya."
+            },
+            {
+              "id": 2737,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "64",
+              "arabic_name": "حَتَّىٰٓ إِذَآ أَخَذْنَا مُتْرَفِيهِم بِٱلْعَذَابِ إِذَا هُمْ يَجْـَٔرُونَ",
+              "translated_name": "Hata tutakapowatia katika adhabu wale waliodekezwa kwa starehe kati yao, hapo ndipo watakapoyayatika."
+            },
+            {
+              "id": 2738,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "65",
+              "arabic_name": "لَا تَجْـَٔرُوا۟ ٱلْيَوْمَ ۖ إِنَّكُم مِّنَّا لَا تُنصَرُونَ",
+              "translated_name": "Msiyayatike leo! Hakika nyinyi hamtanusurika kutokana nasi."
+            },
+            {
+              "id": 2739,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "66",
+              "arabic_name": "قَدْ كَانَتْ ءَايَـٰتِى تُتْلَىٰ عَلَيْكُمْ فَكُنتُمْ عَلَىٰٓ أَعْقَـٰبِكُمْ تَنكِصُونَ",
+              "translated_name": "Hakika zilikuwa Aya zangu mkisomewa, nanyi mkirudi nyuma juu ya visigino vyenu."
+            },
+            {
+              "id": 2740,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "67",
+              "arabic_name": "مُسْتَكْبِرِينَ بِهِۦ سَـٰمِرًا تَهْجُرُونَ",
+              "translated_name": "Na huku mkiitakabari na usiku mkiizungumzia (Qur-ani) kwa dharau."
+            },
+            {
+              "id": 2741,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "68",
+              "arabic_name": "أَفَلَمْ يَدَّبَّرُوا۟ ٱلْقَوْلَ أَمْ جَآءَهُم مَّا لَمْ يَأْتِ ءَابَآءَهُمُ ٱلْأَوَّلِينَ",
+              "translated_name": "Je, hawakuifikiri kauli, au yamewajia ambayo hayakuwafikia baba zao wa zamani?"
+            },
+            {
+              "id": 2742,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "69",
+              "arabic_name": "أَمْ لَمْ يَعْرِفُوا۟ رَسُولَهُمْ فَهُمْ لَهُۥ مُنكِرُونَ",
+              "translated_name": "Au hawakumjua Mtume wao, ndiyo maana wanamkataa?"
+            },
+            {
+              "id": 2743,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "70",
+              "arabic_name": "أَمْ يَقُولُونَ بِهِۦ جِنَّةٌۢ ۚ بَلْ جَآءَهُم بِٱلْحَقِّ وَأَكْثَرُهُمْ لِلْحَقِّ كَـٰرِهُونَ",
+              "translated_name": "Au wanasema: Ana wazimu? Bali amewajia kwa Haki, na wengi wao wanaichukia Haki."
+            },
+            {
+              "id": 2744,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "71",
+              "arabic_name": "وَلَوِ ٱتَّبَعَ ٱلْحَقُّ أَهْوَآءَهُمْ لَفَسَدَتِ ٱلسَّمَـٰوَٰتُ وَٱلْأَرْضُ وَمَن فِيهِنَّ ۚ بَلْ أَتَيْنَـٰهُم بِذِكْرِهِمْ فَهُمْ عَن ذِكْرِهِم مُّعْرِضُونَ",
+              "translated_name": "Na lau kuwa Haki ingelifuata matamanio yao, basi zingeliharibika mbingu na ardhi na waliomo ndani yake. Bali tumewaletea ukumbusho wao, nao wanajitenga mbali na ukumbusho wao."
+            },
+            {
+              "id": 2745,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "72",
+              "arabic_name": "أَمْ تَسْـَٔلُهُمْ خَرْجًا فَخَرَاجُ رَبِّكَ خَيْرٌ ۖ وَهُوَ خَيْرُ ٱلرَّٰزِقِينَ",
+              "translated_name": "Au unawaomba ujira? Lakini ujira wa Mola wako Mlezi ni bora, na Yeye ndiye Mbora wa wanaoruzuku."
+            },
+            {
+              "id": 2746,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "73",
+              "arabic_name": "وَإِنَّكَ لَتَدْعُوهُمْ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
+              "translated_name": "Na kwa yakini, wewe unawaita kwenye njia iliyonyooka."
+            },
+            {
+              "id": 2747,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "74",
+              "arabic_name": "وَإِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ عَنِ ٱلصِّرَٰطِ لَنَـٰكِبُونَ",
+              "translated_name": "Na hakika wale wasioiamini Akhera wanajitenga mbali na njia hiyo."
+            }
+          ],
+          "page_arabic_ayah": "وَٱلَّذِينَ يُؤْتُونَ مَآ ءَاتَوا۟ وَّقُلُوبُهُمْ وَجِلَةٌ أَنَّهُمْ إِلَىٰ رَبِّهِمْ رَٰجِعُونَ (٦٠)  أُو۟لَـٰٓئِكَ يُسَـٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَهُمْ لَهَا سَـٰبِقُونَ (٦١)  وَلَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَا ۖ وَلَدَيْنَا كِتَـٰبٌ يَنطِقُ بِٱلْحَقِّ ۚ وَهُمْ لَا يُظْلَمُونَ (٦٢)  بَلْ قُلُوبُهُمْ فِى غَمْرَةٍ مِّنْ هَـٰذَا وَلَهُمْ أَعْمَـٰلٌ مِّن دُونِ ذَٰلِكَ هُمْ لَهَا عَـٰمِلُونَ (٦٣)  حَتَّىٰٓ إِذَآ أَخَذْنَا مُتْرَفِيهِم بِٱلْعَذَابِ إِذَا هُمْ يَجْـَٔرُونَ (٦٤)  لَا تَجْـَٔرُوا۟ ٱلْيَوْمَ ۖ إِنَّكُم مِّنَّا لَا تُنصَرُونَ (٦٥)  قَدْ كَانَتْ ءَايَـٰتِى تُتْلَىٰ عَلَيْكُمْ فَكُنتُمْ عَلَىٰٓ أَعْقَـٰبِكُمْ تَنكِصُونَ (٦٦)  مُسْتَكْبِرِينَ بِهِۦ سَـٰمِرًا تَهْجُرُونَ (٦٧)  أَفَلَمْ يَدَّبَّرُوا۟ ٱلْقَوْلَ أَمْ جَآءَهُم مَّا لَمْ يَأْتِ ءَابَآءَهُمُ ٱلْأَوَّلِينَ (٦٨)  أَمْ لَمْ يَعْرِفُوا۟ رَسُولَهُمْ فَهُمْ لَهُۥ مُنكِرُونَ (٦٩)  أَمْ يَقُولُونَ بِهِۦ جِنَّةٌۢ ۚ بَلْ جَآءَهُم بِٱلْحَقِّ وَأَكْثَرُهُمْ لِلْحَقِّ كَـٰرِهُونَ (٧٠)  وَلَوِ ٱتَّبَعَ ٱلْحَقُّ أَهْوَآءَهُمْ لَفَسَدَتِ ٱلسَّمَـٰوَٰتُ وَٱلْأَرْضُ وَمَن فِيهِنَّ ۚ بَلْ أَتَيْنَـٰهُم بِذِكْرِهِمْ فَهُمْ عَن ذِكْرِهِم مُّعْرِضُونَ (٧١)  أَمْ تَسْـَٔلُهُمْ خَرْجًا فَخَرَاجُ رَبِّكَ خَيْرٌ ۖ وَهُوَ خَيْرُ ٱلرَّٰزِقِينَ (٧٢)  وَإِنَّكَ لَتَدْعُوهُمْ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ (٧٣)  وَإِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ عَنِ ٱلصِّرَٰطِ لَنَـٰكِبُونَ (٧٤)",
+          "is_read": false
+        },
+        {
+          "eng_page_number": 347,
+          "page_number": "347",
+          "page_key": 5,
+          "page_verses": [
+            {
+              "id": 2748,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "75",
+              "arabic_name": "۞ وَلَوْ رَحِمْنَـٰهُمْ وَكَشَفْنَا مَا بِهِم مِّن ضُرٍّ لَّلَجُّوا۟ فِى طُغْيَـٰنِهِمْ يَعْمَهُونَ",
+              "translated_name": "Na lau tungeliwarehemu na tukawaondolea shida waliyo nayo, bila ya shaka wangeliendelea katika upotovu wao, vile vile wakitangatanga."
+            },
+            {
+              "id": 2749,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "76",
+              "arabic_name": "وَلَقَدْ أَخَذْنَـٰهُم بِٱلْعَذَابِ فَمَا ٱسْتَكَانُوا۟ لِرَبِّهِمْ وَمَا يَتَضَرَّعُونَ",
+              "translated_name": "Na hakika tuliwatia adhabu kali; lakini hawakuelekea kwa Mola wao Mlezi wala hawakunyenyekea."
+            },
+            {
+              "id": 2750,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "77",
+              "arabic_name": "حَتَّىٰٓ إِذَا فَتَحْنَا عَلَيْهِم بَابًا ذَا عَذَابٍ شَدِيدٍ إِذَا هُمْ فِيهِ مُبْلِسُونَ",
+              "translated_name": "Mpaka tulipowafungulia mlango wa adhabu, hapo ndipo wakawa wenye kukata tamaa."
+            },
+            {
+              "id": 2751,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "78",
+              "arabic_name": "وَهُوَ ٱلَّذِىٓ أَنشَأَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَـٰرَ وَٱلْأَفْـِٔدَةَ ۚ قَلِيلًا مَّا تَشْكُرُونَ",
+              "translated_name": "Na Yeye ndiye aliyewaumbia kusikia na kuona na nyoyo za kufahamu. Ni kuchache mno kushukuru kwenu."
+            },
+            {
+              "id": 2752,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "79",
+              "arabic_name": "وَهُوَ ٱلَّذِى ذَرَأَكُمْ فِى ٱلْأَرْضِ وَإِلَيْهِ تُحْشَرُونَ",
+              "translated_name": "Na Yeye ndiye aliyewaeneza katika ardhi, na kwake Yeye mtakusanywa."
+            },
+            {
+              "id": 2753,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "80",
+              "arabic_name": "وَهُوَ ٱلَّذِى يُحْىِۦ وَيُمِيتُ وَلَهُ ٱخْتِلَـٰفُ ٱلَّيْلِ وَٱلنَّهَارِ ۚ أَفَلَا تَعْقِلُونَ",
+              "translated_name": "Na Yeye ndiye anayehuisha na kufisha, na ni yake Yeye mabadiliko ya usiku na mchana. Basi je, hamfahamu?"
+            },
+            {
+              "id": 2754,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "81",
+              "arabic_name": "بَلْ قَالُوا۟ مِثْلَ مَا قَالَ ٱلْأَوَّلُونَ",
+              "translated_name": "Bali wanasema kama walivyosema watu wa kwanza."
+            },
+            {
+              "id": 2755,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "82",
+              "arabic_name": "قَالُوٓا۟ أَءِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَـٰمًا أَءِنَّا لَمَبْعُوثُونَ",
+              "translated_name": "Walisema: Je, tukishakufa tukawa udongo na mifupa, ndio tutafufuliwa?"
+            },
+            {
+              "id": 2756,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "83",
+              "arabic_name": "لَقَدْ وُعِدْنَا نَحْنُ وَءَابَآؤُنَا هَـٰذَا مِن قَبْلُ إِنْ هَـٰذَآ إِلَّآ أَسَـٰطِيرُ ٱلْأَوَّلِينَ",
+              "translated_name": "Tuliahidiwa haya sisi na baba zetu wa zamani. Hayakuwa haya ila ni visa vya uongo vya watu wa zamani."
+            },
+            {
+              "id": 2757,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "84",
+              "arabic_name": "قُل لِّمَنِ ٱلْأَرْضُ وَمَن فِيهَآ إِن كُنتُمْ تَعْلَمُونَ",
+              "translated_name": "Sema: Ni ya nani ardhi na vilivyo ndani yake, kama nyinyi mnajua?"
+            },
+            {
+              "id": 2758,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "85",
+              "arabic_name": "سَيَقُولُونَ لِلَّهِ ۚ قُلْ أَفَلَا تَذَكَّرُونَ",
+              "translated_name": "Watasema: Ni vya Mwenyezi Mungu! Sema: Basi, je, hamkumbuki?"
+            },
+            {
+              "id": 2759,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "86",
+              "arabic_name": "قُلْ مَن رَّبُّ ٱلسَّمَـٰوَٰتِ ٱلسَّبْعِ وَرَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ",
+              "translated_name": "Sema: Ni nani Mola Mlezi wa mbingu saba na Mola Mlezi wa Kiti Kikuu cha Enzi."
+            },
+            {
+              "id": 2760,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "87",
+              "arabic_name": "سَيَقُولُونَ لِلَّهِ ۚ قُلْ أَفَلَا تَتَّقُونَ",
+              "translated_name": "Watasema: Ni vya Mwenyezi Mungu. Sema, Basi, je, hamwogopi?"
+            },
+            {
+              "id": 2761,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "88",
+              "arabic_name": "قُلْ مَنۢ بِيَدِهِۦ مَلَكُوتُ كُلِّ شَىْءٍ وَهُوَ يُجِيرُ وَلَا يُجَارُ عَلَيْهِ إِن كُنتُمْ تَعْلَمُونَ",
+              "translated_name": "Sema: Ni nani mkononi mwake umo Ufalme wa kila kitu, naye ndiye anayelinda, wala hakilindwi asichotaka, kama mnajua?"
+            },
+            {
+              "id": 2762,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "89",
+              "arabic_name": "سَيَقُولُونَ لِلَّهِ ۚ قُلْ فَأَنَّىٰ تُسْحَرُونَ",
+              "translated_name": "Watasema, \"Ufalme huo ni wa Mwenyezi Mungu.\" Sema: Basi vipi mnadanganyika?"
+            }
+          ],
+          "page_arabic_ayah": "۞ وَلَوْ رَحِمْنَـٰهُمْ وَكَشَفْنَا مَا بِهِم مِّن ضُرٍّ لَّلَجُّوا۟ فِى طُغْيَـٰنِهِمْ يَعْمَهُونَ (٧٥)  وَلَقَدْ أَخَذْنَـٰهُم بِٱلْعَذَابِ فَمَا ٱسْتَكَانُوا۟ لِرَبِّهِمْ وَمَا يَتَضَرَّعُونَ (٧٦)  حَتَّىٰٓ إِذَا فَتَحْنَا عَلَيْهِم بَابًا ذَا عَذَابٍ شَدِيدٍ إِذَا هُمْ فِيهِ مُبْلِسُونَ (٧٧)  وَهُوَ ٱلَّذِىٓ أَنشَأَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَـٰرَ وَٱلْأَفْـِٔدَةَ ۚ قَلِيلًا مَّا تَشْكُرُونَ (٧٨)  وَهُوَ ٱلَّذِى ذَرَأَكُمْ فِى ٱلْأَرْضِ وَإِلَيْهِ تُحْشَرُونَ (٧٩)  وَهُوَ ٱلَّذِى يُحْىِۦ وَيُمِيتُ وَلَهُ ٱخْتِلَـٰفُ ٱلَّيْلِ وَٱلنَّهَارِ ۚ أَفَلَا تَعْقِلُونَ (٨٠)  بَلْ قَالُوا۟ مِثْلَ مَا قَالَ ٱلْأَوَّلُونَ (٨١)  قَالُوٓا۟ أَءِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَـٰمًا أَءِنَّا لَمَبْعُوثُونَ (٨٢)  لَقَدْ وُعِدْنَا نَحْنُ وَءَابَآؤُنَا هَـٰذَا مِن قَبْلُ إِنْ هَـٰذَآ إِلَّآ أَسَـٰطِيرُ ٱلْأَوَّلِينَ (٨٣)  قُل لِّمَنِ ٱلْأَرْضُ وَمَن فِيهَآ إِن كُنتُمْ تَعْلَمُونَ (٨٤)  سَيَقُولُونَ لِلَّهِ ۚ قُلْ أَفَلَا تَذَكَّرُونَ (٨٥)  قُلْ مَن رَّبُّ ٱلسَّمَـٰوَٰتِ ٱلسَّبْعِ وَرَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ (٨٦)  سَيَقُولُونَ لِلَّهِ ۚ قُلْ أَفَلَا تَتَّقُونَ (٨٧)  قُلْ مَنۢ بِيَدِهِۦ مَلَكُوتُ كُلِّ شَىْءٍ وَهُوَ يُجِيرُ وَلَا يُجَارُ عَلَيْهِ إِن كُنتُمْ تَعْلَمُونَ (٨٨)  سَيَقُولُونَ لِلَّهِ ۚ قُلْ فَأَنَّىٰ تُسْحَرُونَ (٨٩)",
+          "is_read": false
+        },
+        {
+          "eng_page_number": 348,
+          "page_number": "348",
+          "page_key": 6,
+          "page_verses": [
+            {
+              "id": 2763,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "90",
+              "arabic_name": "بَلْ أَتَيْنَـٰهُم بِٱلْحَقِّ وَإِنَّهُمْ لَكَـٰذِبُونَ",
+              "translated_name": "Bali tumewaletea Haki, na kwa yakini hao ni waongo."
+            },
+            {
+              "id": 2764,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "91",
+              "arabic_name": "مَا ٱتَّخَذَ ٱللَّهُ مِن وَلَدٍ وَمَا كَانَ مَعَهُۥ مِنْ إِلَـٰهٍ ۚ إِذًا لَّذَهَبَ كُلُّ إِلَـٰهٍۭ بِمَا خَلَقَ وَلَعَلَا بَعْضُهُمْ عَلَىٰ بَعْضٍ ۚ سُبْحَـٰنَ ٱللَّهِ عَمَّا يَصِفُونَ",
+              "translated_name": "Mwenyezi Mungu hana mwana yeyote, wala hanaye mungu mwingine. Ingekuwa hivyo basi kila mungu angelichukua alivyoumba, na baadhi yao wangeliwashinda wengine. Mwenyezi Mungu ameepukana na sifa wanazomsifu."
+            },
+            {
+              "id": 2765,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "92",
+              "arabic_name": "عَـٰلِمِ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ فَتَعَـٰلَىٰ عَمَّا يُشْرِكُونَ",
+              "translated_name": "Yeye ndiye ajuaye siri na dhahiri, na ametukuka juu ya hayo wanayomshirikisha nayo."
+            },
+            {
+              "id": 2766,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "93",
+              "arabic_name": "قُل رَّبِّ إِمَّا تُرِيَنِّى مَا يُوعَدُونَ",
+              "translated_name": "Sema: Mola wangu Mlezi! Ukinionyesha adhabu waliyoahidiwa."
+            },
+            {
+              "id": 2767,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "94",
+              "arabic_name": "رَبِّ فَلَا تَجْعَلْنِى فِى ٱلْقَوْمِ ٱلظَّـٰلِمِينَ",
+              "translated_name": "Mola wangu Mlezi! Usinifanye katika hao watu madhalimu."
+            },
+            {
+              "id": 2768,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "95",
+              "arabic_name": "وَإِنَّا عَلَىٰٓ أَن نُّرِيَكَ مَا نَعِدُهُمْ لَقَـٰدِرُونَ",
+              "translated_name": "Na hakika Sisi ni waweza wa kukuonyesha tuliyowaahidi."
+            },
+            {
+              "id": 2769,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "96",
+              "arabic_name": "ٱدْفَعْ بِٱلَّتِى هِىَ أَحْسَنُ ٱلسَّيِّئَةَ ۚ نَحْنُ أَعْلَمُ بِمَا يَصِفُونَ",
+              "translated_name": "Kinga maovu kwa kutenda yaliyo mema zaidi. Sisi tunayajua vyema wayasemayo."
+            },
+            {
+              "id": 2770,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "97",
+              "arabic_name": "وَقُل رَّبِّ أَعُوذُ بِكَ مِنْ هَمَزَٰتِ ٱلشَّيَـٰطِينِ",
+              "translated_name": "Na sema: Mola wangu Mlezi! Ninajikinga kwako kutokana na wasiwasi wa mashetani."
+            },
+            {
+              "id": 2771,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "98",
+              "arabic_name": "وَأَعُوذُ بِكَ رَبِّ أَن يَحْضُرُونِ",
+              "translated_name": "Na ninajikinga kwako, Mola wangu Mlezi, wasinikaribie."
+            },
+            {
+              "id": 2772,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "99",
+              "arabic_name": "حَتَّىٰٓ إِذَا جَآءَ أَحَدَهُمُ ٱلْمَوْتُ قَالَ رَبِّ ٱرْجِعُونِ",
+              "translated_name": "Mpaka yanapomfikia mmoja wao mauti, husema: \"Mola wangu Mlezi! Nirudishe."
+            },
+            {
+              "id": 2773,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "100",
+              "arabic_name": "لَعَلِّىٓ أَعْمَلُ صَـٰلِحًا فِيمَا تَرَكْتُ ۚ كَلَّآ ۚ إِنَّهَا كَلِمَةٌ هُوَ قَآئِلُهَا ۖ وَمِن وَرَآئِهِم بَرْزَخٌ إِلَىٰ يَوْمِ يُبْعَثُونَ",
+              "translated_name": "Ili nitende mema sasa badala ya yale niliyoyaacha.\" Wapi! Hii ni kauli aisemayo yeye tu. Na nyuma yao kipo kizuizi mpaka siku watakapofufuliwa."
+            },
+            {
+              "id": 2774,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "101",
+              "arabic_name": "فَإِذَا نُفِخَ فِى ٱلصُّورِ فَلَآ أَنسَابَ بَيْنَهُمْ يَوْمَئِذٍ وَلَا يَتَسَآءَلُونَ",
+              "translated_name": "Basi litakapopulizwa baragumu, hapo hautakuwapo ujamaa baina yao siku hiyo, wala hawataulizana."
+            },
+            {
+              "id": 2775,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "102",
+              "arabic_name": "فَمَن ثَقُلَتْ مَوَٰزِينُهُۥ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+              "translated_name": "Ama wale ambao mizani zao zitakuwa nzito, hao ndio wenye kufanikiwa."
+            },
+            {
+              "id": 2776,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "103",
+              "arabic_name": "وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَـٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فِى جَهَنَّمَ خَـٰلِدُونَ",
+              "translated_name": "Na wale ambao mizani zao zitakuwa nyepesi, hao ndio waliozitia hasarani nafsi zao, na katika Jahannamu watadumu."
+            },
+            {
+              "id": 2777,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "104",
+              "arabic_name": "تَلْفَحُ وُجُوهَهُمُ ٱلنَّارُ وَهُمْ فِيهَا كَـٰلِحُونَ",
+              "translated_name": "Moto utababua nyuso zao, nao watakuwa na nyuso zilizo kunjana."
+            }
+          ],
+          "page_arabic_ayah": "بَلْ أَتَيْنَـٰهُم بِٱلْحَقِّ وَإِنَّهُمْ لَكَـٰذِبُونَ (٩٠)  مَا ٱتَّخَذَ ٱللَّهُ مِن وَلَدٍ وَمَا كَانَ مَعَهُۥ مِنْ إِلَـٰهٍ ۚ إِذًا لَّذَهَبَ كُلُّ إِلَـٰهٍۭ بِمَا خَلَقَ وَلَعَلَا بَعْضُهُمْ عَلَىٰ بَعْضٍ ۚ سُبْحَـٰنَ ٱللَّهِ عَمَّا يَصِفُونَ (٩١)  عَـٰلِمِ ٱلْغَيْبِ وَٱلشَّهَـٰدَةِ فَتَعَـٰلَىٰ عَمَّا يُشْرِكُونَ (٩٢)  قُل رَّبِّ إِمَّا تُرِيَنِّى مَا يُوعَدُونَ (٩٣)  رَبِّ فَلَا تَجْعَلْنِى فِى ٱلْقَوْمِ ٱلظَّـٰلِمِينَ (٩٤)  وَإِنَّا عَلَىٰٓ أَن نُّرِيَكَ مَا نَعِدُهُمْ لَقَـٰدِرُونَ (٩٥)  ٱدْفَعْ بِٱلَّتِى هِىَ أَحْسَنُ ٱلسَّيِّئَةَ ۚ نَحْنُ أَعْلَمُ بِمَا يَصِفُونَ (٩٦)  وَقُل رَّبِّ أَعُوذُ بِكَ مِنْ هَمَزَٰتِ ٱلشَّيَـٰطِينِ (٩٧)  وَأَعُوذُ بِكَ رَبِّ أَن يَحْضُرُونِ (٩٨)  حَتَّىٰٓ إِذَا جَآءَ أَحَدَهُمُ ٱلْمَوْتُ قَالَ رَبِّ ٱرْجِعُونِ (٩٩)  لَعَلِّىٓ أَعْمَلُ صَـٰلِحًا فِيمَا تَرَكْتُ ۚ كَلَّآ ۚ إِنَّهَا كَلِمَةٌ هُوَ قَآئِلُهَا ۖ وَمِن وَرَآئِهِم بَرْزَخٌ إِلَىٰ يَوْمِ يُبْعَثُونَ (١٠٠)  فَإِذَا نُفِخَ فِى ٱلصُّورِ فَلَآ أَنسَابَ بَيْنَهُمْ يَوْمَئِذٍ وَلَا يَتَسَآءَلُونَ (١٠١)  فَمَن ثَقُلَتْ مَوَٰزِينُهُۥ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ (١٠٢)  وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَـٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فِى جَهَنَّمَ خَـٰلِدُونَ (١٠٣)  تَلْفَحُ وُجُوهَهُمُ ٱلنَّارُ وَهُمْ فِيهَا كَـٰلِحُونَ (١٠٤)",
+          "is_read": false
+        },
+        {
+          "eng_page_number": 349,
+          "page_number": "349",
+          "page_key": 7,
+          "page_verses": [
+            {
+              "id": 2778,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "105",
+              "arabic_name": "أَلَمْ تَكُنْ ءَايَـٰتِى تُتْلَىٰ عَلَيْكُمْ فَكُنتُم بِهَا تُكَذِّبُونَ",
+              "translated_name": "Je, hazikuwa Aya zangu mkisomewa, na nyinyi mkizikanusha?"
+            },
+            {
+              "id": 2779,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "106",
+              "arabic_name": "قَالُوا۟ رَبَّنَا غَلَبَتْ عَلَيْنَا شِقْوَتُنَا وَكُنَّا قَوْمًا ضَآلِّينَ",
+              "translated_name": "Watasema: Mola wetu Mlezi! Tulizidiwa na uovu wetu na tukawa watu tuliopotea."
+            },
+            {
+              "id": 2780,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "107",
+              "arabic_name": "رَبَّنَآ أَخْرِجْنَا مِنْهَا فَإِنْ عُدْنَا فَإِنَّا ظَـٰلِمُونَ",
+              "translated_name": "Mola wetu Mlezi! Tutoe humu Motoni. Na tukirudia tena (ya zamani), basi kweli sisi ni wenye kudhulumu."
+            },
+            {
+              "id": 2781,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "108",
+              "arabic_name": "قَالَ ٱخْسَـُٔوا۟ فِيهَا وَلَا تُكَلِّمُونِ",
+              "translated_name": "Atasema Mwenyezi Mungu: Tokomeeni humo, wala msinisemeshe."
+            },
+            {
+              "id": 2782,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "109",
+              "arabic_name": "إِنَّهُۥ كَانَ فَرِيقٌ مِّنْ عِبَادِى يَقُولُونَ رَبَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ",
+              "translated_name": "Bila ya shaka lilikuwapo kundi katika waja wangu likisema: Mola wetu Mlezi! Tumeamini; basi tusamehe na uturehemu, nawe ndiwe Mbora wa wanaorehemu."
+            },
+            {
+              "id": 2783,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "110",
+              "arabic_name": "فَٱتَّخَذْتُمُوهُمْ سِخْرِيًّا حَتَّىٰٓ أَنسَوْكُمْ ذِكْرِى وَكُنتُم مِّنْهُمْ تَضْحَكُونَ",
+              "translated_name": "Lakini nyinyi mliwakejeli hata wakakusahaulisheni kunikumbuka, na mlikuwa mkiwacheka."
+            },
+            {
+              "id": 2784,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "111",
+              "arabic_name": "إِنِّى جَزَيْتُهُمُ ٱلْيَوْمَ بِمَا صَبَرُوٓا۟ أَنَّهُمْ هُمُ ٱلْفَآئِزُونَ",
+              "translated_name": "Hakika Mimi leo nimewalipa kwa vile walivyosubiri. Bila ya shaka hao ndio wenye kufuzu."
+            },
+            {
+              "id": 2785,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "112",
+              "arabic_name": "قَـٰلَ كَمْ لَبِثْتُمْ فِى ٱلْأَرْضِ عَدَدَ سِنِينَ",
+              "translated_name": "Atasema: Mlikaa muda gani katika ardhi kwa hisabu ya miaka?"
+            },
+            {
+              "id": 2786,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "113",
+              "arabic_name": "قَالُوا۟ لَبِثْنَا يَوْمًا أَوْ بَعْضَ يَوْمٍ فَسْـَٔلِ ٱلْعَآدِّينَ",
+              "translated_name": "Watasema: Tulikaa siku moja au sehemu ya siku. Basi waulize wanaoweka hisabu."
+            },
+            {
+              "id": 2787,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "114",
+              "arabic_name": "قَـٰلَ إِن لَّبِثْتُمْ إِلَّا قَلِيلًا ۖ لَّوْ أَنَّكُمْ كُنتُمْ تَعْلَمُونَ",
+              "translated_name": "Atasema: Nyinyi hamkukaa huko duniani ila kidogo, laiti ingelikuwa mnajua."
+            },
+            {
+              "id": 2788,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "115",
+              "arabic_name": "أَفَحَسِبْتُمْ أَنَّمَا خَلَقْنَـٰكُمْ عَبَثًا وَأَنَّكُمْ إِلَيْنَا لَا تُرْجَعُونَ",
+              "translated_name": "Je, mlidhani ya kwamba tuliwaumba bure, na ya kwamba nyinyi kwetu hamtarudishwa?"
+            },
+            {
+              "id": 2789,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "116",
+              "arabic_name": "فَتَعَـٰلَى ٱللَّهُ ٱلْمَلِكُ ٱلْحَقُّ ۖ لَآ إِلَـٰهَ إِلَّا هُوَ رَبُّ ٱلْعَرْشِ ٱلْكَرِيمِ",
+              "translated_name": "Ametukuka Mwenyezi Mungu, Mfalme wa Haki. Hakuna mungu yeyote isipokuwa Yeye, Mola Mlezi wa Kiti cha Enzi Kitukufu."
+            },
+            {
+              "id": 2790,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "117",
+              "arabic_name": "وَمَن يَدْعُ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ لَا بُرْهَـٰنَ لَهُۥ بِهِۦ فَإِنَّمَا حِسَابُهُۥ عِندَ رَبِّهِۦٓ ۚ إِنَّهُۥ لَا يُفْلِحُ ٱلْكَـٰفِرُونَ",
+              "translated_name": "Na anayemuomba - pamoja na Mwenyezi Mungu - mungu mwenginewe, hana ushahidi wa hili; basi bila ya shaka hisabu yake iko kwa Mola wake Mlezi. Kwa hakika makafiri hawafanikiwi."
+            },
+            {
+              "id": 2791,
+              "chapter_id": 23,
+              "verses_translate_name": "Verses",
+              "verses_number": "118",
+              "arabic_name": "وَقُل رَّبِّ ٱغْفِرْ وَٱرْحَمْ وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ",
+              "translated_name": "Nawe sema, \"Mola wangu Mlezi, samehe na urehemu nawe ni Mbora wa wanaorehemu.\""
+            }
+          ],
+          "page_arabic_ayah": "أَلَمْ تَكُنْ ءَايَـٰتِى تُتْلَىٰ عَلَيْكُمْ فَكُنتُم بِهَا تُكَذِّبُونَ (١٠٥)  قَالُوا۟ رَبَّنَا غَلَبَتْ عَلَيْنَا شِقْوَتُنَا وَكُنَّا قَوْمًا ضَآلِّينَ (١٠٦)  رَبَّنَآ أَخْرِجْنَا مِنْهَا فَإِنْ عُدْنَا فَإِنَّا ظَـٰلِمُونَ (١٠٧)  قَالَ ٱخْسَـُٔوا۟ فِيهَا وَلَا تُكَلِّمُونِ (١٠٨)  إِنَّهُۥ كَانَ فَرِيقٌ مِّنْ عِبَادِى يَقُولُونَ رَبَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ (١٠٩)  فَٱتَّخَذْتُمُوهُمْ سِخْرِيًّا حَتَّىٰٓ أَنسَوْكُمْ ذِكْرِى وَكُنتُم مِّنْهُمْ تَضْحَكُونَ (١١٠)  إِنِّى جَزَيْتُهُمُ ٱلْيَوْمَ بِمَا صَبَرُوٓا۟ أَنَّهُمْ هُمُ ٱلْفَآئِزُونَ (١١١)  قَـٰلَ كَمْ لَبِثْتُمْ فِى ٱلْأَرْضِ عَدَدَ سِنِينَ (١١٢)  قَالُوا۟ لَبِثْنَا يَوْمًا أَوْ بَعْضَ يَوْمٍ فَسْـَٔلِ ٱلْعَآدِّينَ (١١٣)  قَـٰلَ إِن لَّبِثْتُمْ إِلَّا قَلِيلًا ۖ لَّوْ أَنَّكُمْ كُنتُمْ تَعْلَمُونَ (١١٤)  أَفَحَسِبْتُمْ أَنَّمَا خَلَقْنَـٰكُمْ عَبَثًا وَأَنَّكُمْ إِلَيْنَا لَا تُرْجَعُونَ (١١٥)  فَتَعَـٰلَى ٱللَّهُ ٱلْمَلِكُ ٱلْحَقُّ ۖ لَآ إِلَـٰهَ إِلَّا هُوَ رَبُّ ٱلْعَرْشِ ٱلْكَرِيمِ (١١٦)  وَمَن يَدْعُ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ لَا بُرْهَـٰنَ لَهُۥ بِهِۦ فَإِنَّمَا حِسَابُهُۥ عِندَ رَبِّهِۦٓ ۚ إِنَّهُۥ لَا يُفْلِحُ ٱلْكَـٰفِرُونَ (١١٧)  وَقُل رَّبِّ ٱغْفِرْ وَٱرْحَمْ وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ (١١٨)",
+          "is_read": false
+        }
+      ]
+    }
+  }
+]

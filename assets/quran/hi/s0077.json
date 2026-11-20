@@ -1,0 +1,436 @@
+[
+  {
+    "status": true,
+    "message": "Data fetched successfully",
+    "data": {
+      "chapter": {
+        "id": 77,
+        "serial_number": "77",
+        "arabic_name": "المرسلات",
+        "translated_name": "Al-Mursalat",
+        "verses_translate_name": "Verses",
+        "verses_count": "50"
+      },
+      "chapter_info": [
+        {
+          "eng_page_number": 580,
+          "page_number": "580",
+          "page_key": 0,
+          "page_verses": [
+            {
+              "id": 5623,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "1",
+              "arabic_name": "وَٱلْمُرْسَلَـٰتِ عُرْفًا",
+              "translated_name": "क़सम है उन हवाओं की जो निरंतर भेजी जाती हैं!"
+            },
+            {
+              "id": 5624,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "2",
+              "arabic_name": "فَٱلْعَـٰصِفَـٰتِ عَصْفًا",
+              "translated_name": "फिर बहुत तेज़ चलने वाली हवाओं की क़सम!"
+            },
+            {
+              "id": 5625,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "3",
+              "arabic_name": "وَٱلنَّـٰشِرَٰتِ نَشْرًا",
+              "translated_name": "और बादलों को फैलाने वाली हवाओं[1] की क़सम!"
+            },
+            {
+              "id": 5626,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "4",
+              "arabic_name": "فَٱلْفَـٰرِقَـٰتِ فَرْقًا",
+              "translated_name": "फिर सत्य और असत्य के बीच अंतर करने वाली चीज़[2] के साथ उतरने वाले फ़रिश्तों की क़सम!"
+            },
+            {
+              "id": 5627,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "5",
+              "arabic_name": "فَٱلْمُلْقِيَـٰتِ ذِكْرًا",
+              "translated_name": "फिर वह़्य[3] लेकर उतरने वाले फ़रिश्तों की क़सम!"
+            },
+            {
+              "id": 5628,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "6",
+              "arabic_name": "عُذْرًا أَوْ نُذْرًا",
+              "translated_name": "उज़्र (बहाना) समाप्त करने या डराने[4] के लिए।"
+            },
+            {
+              "id": 5629,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "7",
+              "arabic_name": "إِنَّمَا تُوعَدُونَ لَوَٰقِعٌ",
+              "translated_name": "निःसंदेह तुमसे जिस चीज़ का वादा किया जाता है, निश्चय वह होकर रहने वाली है।"
+            },
+            {
+              "id": 5630,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "8",
+              "arabic_name": "فَإِذَا ٱلنُّجُومُ طُمِسَتْ",
+              "translated_name": "फिर जब तारे मिटा दिए जाएँगे।"
+            },
+            {
+              "id": 5631,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "9",
+              "arabic_name": "وَإِذَا ٱلسَّمَآءُ فُرِجَتْ",
+              "translated_name": "और जब आकाश फाड़ दिया जाएगा।"
+            },
+            {
+              "id": 5632,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "10",
+              "arabic_name": "وَإِذَا ٱلْجِبَالُ نُسِفَتْ",
+              "translated_name": "और जब पर्वत उड़ा दिए जाएँगे।"
+            },
+            {
+              "id": 5633,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "11",
+              "arabic_name": "وَإِذَا ٱلرُّسُلُ أُقِّتَتْ",
+              "translated_name": "और जब रसूलों को निर्धारित समय पर एकत्र किया जाएगा।[5]"
+            },
+            {
+              "id": 5634,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "12",
+              "arabic_name": "لِأَىِّ يَوْمٍ أُجِّلَتْ",
+              "translated_name": "किस दिन के लिए वे विलंबित किए गए हैं?"
+            },
+            {
+              "id": 5635,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "13",
+              "arabic_name": "لِيَوْمِ ٱلْفَصْلِ",
+              "translated_name": "निर्णय के दिन के लिए।"
+            },
+            {
+              "id": 5636,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "14",
+              "arabic_name": "وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلْفَصْلِ",
+              "translated_name": "और आपको किस चीज़ ने अवगत कराया कि निर्णय का दिन क्या है?"
+            },
+            {
+              "id": 5637,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "15",
+              "arabic_name": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+              "translated_name": "उस दिन झुठलाने वालों के लिए बड़ा विनाश है।"
+            },
+            {
+              "id": 5638,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "16",
+              "arabic_name": "أَلَمْ نُهْلِكِ ٱلْأَوَّلِينَ",
+              "translated_name": "क्या हमने पहलों को विनष्ट नहीं किया?"
+            },
+            {
+              "id": 5639,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "17",
+              "arabic_name": "ثُمَّ نُتْبِعُهُمُ ٱلْـَٔاخِرِينَ",
+              "translated_name": "फिर हम उनके पीछे बाद वालों को भेजेंगे।[6]"
+            },
+            {
+              "id": 5640,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "18",
+              "arabic_name": "كَذَٰلِكَ نَفْعَلُ بِٱلْمُجْرِمِينَ",
+              "translated_name": "हम अपराधियों के साथ ऐसा ही करते हैं।"
+            },
+            {
+              "id": 5641,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "19",
+              "arabic_name": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+              "translated_name": "उस दिन झुठलाने वालों के लिए बड़ा विनाश है।"
+            }
+          ],
+          "page_arabic_ayah": "وَٱلْمُرْسَلَـٰتِ عُرْفًا (١)  فَٱلْعَـٰصِفَـٰتِ عَصْفًا (٢)  وَٱلنَّـٰشِرَٰتِ نَشْرًا (٣)  فَٱلْفَـٰرِقَـٰتِ فَرْقًا (٤)  فَٱلْمُلْقِيَـٰتِ ذِكْرًا (٥)  عُذْرًا أَوْ نُذْرًا (٦)  إِنَّمَا تُوعَدُونَ لَوَٰقِعٌ (٧)  فَإِذَا ٱلنُّجُومُ طُمِسَتْ (٨)  وَإِذَا ٱلسَّمَآءُ فُرِجَتْ (٩)  وَإِذَا ٱلْجِبَالُ نُسِفَتْ (١٠)  وَإِذَا ٱلرُّسُلُ أُقِّتَتْ (١١)  لِأَىِّ يَوْمٍ أُجِّلَتْ (١٢)  لِيَوْمِ ٱلْفَصْلِ (١٣)  وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلْفَصْلِ (١٤)  وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ (١٥)  أَلَمْ نُهْلِكِ ٱلْأَوَّلِينَ (١٦)  ثُمَّ نُتْبِعُهُمُ ٱلْـَٔاخِرِينَ (١٧)  كَذَٰلِكَ نَفْعَلُ بِٱلْمُجْرِمِينَ (١٨)  وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ (١٩)",
+          "is_read": false
+        },
+        {
+          "eng_page_number": 581,
+          "page_number": "581",
+          "page_key": 1,
+          "page_verses": [
+            {
+              "id": 5642,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "20",
+              "arabic_name": "أَلَمْ نَخْلُقكُّم مِّن مَّآءٍ مَّهِينٍ",
+              "translated_name": "क्या हमने तुम्हें एक तुच्छ पानी से पैदा नहीं किया?"
+            },
+            {
+              "id": 5643,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "21",
+              "arabic_name": "فَجَعَلْنَـٰهُ فِى قَرَارٍ مَّكِينٍ",
+              "translated_name": "फिर हमने उसे एक सुरक्षित ठिकाने में रखा।"
+            },
+            {
+              "id": 5644,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "22",
+              "arabic_name": "إِلَىٰ قَدَرٍ مَّعْلُومٍ",
+              "translated_name": "एक ज्ञात अवधि तक।[7]"
+            },
+            {
+              "id": 5645,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "23",
+              "arabic_name": "فَقَدَرْنَا فَنِعْمَ ٱلْقَـٰدِرُونَ",
+              "translated_name": "फिर हमने अनुमान[8] लगाया, तो हम क्या ही अच्छा अनुमान लगाने वाले हैं।"
+            },
+            {
+              "id": 5646,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "24",
+              "arabic_name": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+              "translated_name": "उस दिन झुठलाने वालों के लिए बड़ा विनाश है।"
+            },
+            {
+              "id": 5647,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "25",
+              "arabic_name": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ كِفَاتًا",
+              "translated_name": "क्या हमने धरती को समेटने[9] वाली नहीं बनाया?"
+            },
+            {
+              "id": 5648,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "26",
+              "arabic_name": "أَحْيَآءً وَأَمْوَٰتًا",
+              "translated_name": "जीवित और मृत लोगों को।"
+            },
+            {
+              "id": 5649,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "27",
+              "arabic_name": "وَجَعَلْنَا فِيهَا رَوَٰسِىَ شَـٰمِخَـٰتٍ وَأَسْقَيْنَـٰكُم مَّآءً فُرَاتًا",
+              "translated_name": "तथा हमने उसमें ऊँचे पर्वत बनाए और हमने तुम्हें मीठा पानी पिलाया।"
+            },
+            {
+              "id": 5650,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "28",
+              "arabic_name": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+              "translated_name": "उस दिन झुठलाने वालों के लिए बड़ा विनाश है।"
+            },
+            {
+              "id": 5651,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "29",
+              "arabic_name": "ٱنطَلِقُوٓا۟ إِلَىٰ مَا كُنتُم بِهِۦ تُكَذِّبُونَ",
+              "translated_name": "(कहा जाएगा :) उस चीज़ की ओर चलो, जिसे तुम झुठलाते थे।"
+            },
+            {
+              "id": 5652,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "30",
+              "arabic_name": "ٱنطَلِقُوٓا۟ إِلَىٰ ظِلٍّ ذِى ثَلَـٰثِ شُعَبٍ",
+              "translated_name": "एक छाया[10] की ओर चलो, जो तीन शाखाओं वाली है।"
+            },
+            {
+              "id": 5653,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "31",
+              "arabic_name": "لَّا ظَلِيلٍ وَلَا يُغْنِى مِنَ ٱللَّهَبِ",
+              "translated_name": "जो न छाया देगी और न ज्वाला से बचाएगी।"
+            },
+            {
+              "id": 5654,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "32",
+              "arabic_name": "إِنَّهَا تَرْمِى بِشَرَرٍ كَٱلْقَصْرِ",
+              "translated_name": "निःसंदेह वह (आग) भवन के समान चिंगारियाँ फेंकेगी।"
+            },
+            {
+              "id": 5655,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "33",
+              "arabic_name": "كَأَنَّهُۥ جِمَـٰلَتٌ صُفْرٌ",
+              "translated_name": "जैसे वे पीले ऊँट हों।"
+            },
+            {
+              "id": 5656,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "34",
+              "arabic_name": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+              "translated_name": "उस दिन झुठलाने वालों के लिए बड़ा विनाश है।"
+            },
+            {
+              "id": 5657,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "35",
+              "arabic_name": "هَـٰذَا يَوْمُ لَا يَنطِقُونَ",
+              "translated_name": "यह वह दिन है कि वे बोल[11] नहीं सकेंगे।"
+            },
+            {
+              "id": 5658,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "36",
+              "arabic_name": "وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ",
+              "translated_name": "और न उन्हें अनुमति दी जाएगी कि वे उज़्र (कारण) पेश करें।"
+            },
+            {
+              "id": 5659,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "37",
+              "arabic_name": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+              "translated_name": "उस दिन झुठलाने वालों के लिए बड़ा विनाश है।"
+            },
+            {
+              "id": 5660,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "38",
+              "arabic_name": "هَـٰذَا يَوْمُ ٱلْفَصْلِ ۖ جَمَعْنَـٰكُمْ وَٱلْأَوَّلِينَ",
+              "translated_name": "यह निर्णय का दिन है। हमने तुम्हें और पहलों को एकत्र कर दिया है।"
+            },
+            {
+              "id": 5661,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "39",
+              "arabic_name": "فَإِن كَانَ لَكُمْ كَيْدٌ فَكِيدُونِ",
+              "translated_name": "तो यदि तुम्हारे पास कोई चाल[12] हो, तो मेरे विरुद्ध चलो।"
+            },
+            {
+              "id": 5662,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "40",
+              "arabic_name": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+              "translated_name": "उस दिन झुठलाने वालों के लिए बड़ा विनाश है।"
+            },
+            {
+              "id": 5663,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "41",
+              "arabic_name": "إِنَّ ٱلْمُتَّقِينَ فِى ظِلَـٰلٍ وَعُيُونٍ",
+              "translated_name": "निश्चय डरने वाले लोग छाँवों तथा स्रोतों में होंगे।"
+            },
+            {
+              "id": 5664,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "42",
+              "arabic_name": "وَفَوَٰكِهَ مِمَّا يَشْتَهُونَ",
+              "translated_name": "तथा फलों में, जिसमें से वे चाहेंगे।"
+            },
+            {
+              "id": 5665,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "43",
+              "arabic_name": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَا كُنتُمْ تَعْمَلُونَ",
+              "translated_name": "(तथा उनसे कहा जाएगा :) मज़े से खाओ और पियो, उसके बदले जो तुम किया करते थे।"
+            },
+            {
+              "id": 5666,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "44",
+              "arabic_name": "إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ",
+              "translated_name": "हम सदाचारियों को इसी तरह बदला प्रदान करते हैं।"
+            },
+            {
+              "id": 5667,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "45",
+              "arabic_name": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+              "translated_name": "उस दिन झुठलाने वालों के लिए बड़ा विनाश है।"
+            },
+            {
+              "id": 5668,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "46",
+              "arabic_name": "كُلُوا۟ وَتَمَتَّعُوا۟ قَلِيلًا إِنَّكُم مُّجْرِمُونَ",
+              "translated_name": "(ऐ झुठलाने वालो!) तुम खा लो तथा थोड़ा-सा[13] आनंद ले लो। निश्चय तुम अपराधी हो।"
+            },
+            {
+              "id": 5669,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "47",
+              "arabic_name": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+              "translated_name": "उस दिन झुठलाने वालों के लिए बड़ा विनाश है।"
+            },
+            {
+              "id": 5670,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "48",
+              "arabic_name": "وَإِذَا قِيلَ لَهُمُ ٱرْكَعُوا۟ لَا يَرْكَعُونَ",
+              "translated_name": "तथा जब उनसे कहा जाता है कि (अल्लाह के आगे) झुको, तो वे नहीं झुकते।"
+            },
+            {
+              "id": 5671,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "49",
+              "arabic_name": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
+              "translated_name": "उस दिन झुठलाने वालों के लिए बड़ा विनाश है।"
+            },
+            {
+              "id": 5672,
+              "chapter_id": 77,
+              "verses_translate_name": "Verses",
+              "verses_number": "50",
+              "arabic_name": "فَبِأَىِّ حَدِيثٍۭ بَعْدَهُۥ يُؤْمِنُونَ",
+              "translated_name": "फिर इस (क़ुरआन) के बाद वे किस बात पर ईमान[14] लाएँगे?"
+            }
+          ],
+          "page_arabic_ayah": "أَلَمْ نَخْلُقكُّم مِّن مَّآءٍ مَّهِينٍ (٢٠)  فَجَعَلْنَـٰهُ فِى قَرَارٍ مَّكِينٍ (٢١)  إِلَىٰ قَدَرٍ مَّعْلُومٍ (٢٢)  فَقَدَرْنَا فَنِعْمَ ٱلْقَـٰدِرُونَ (٢٣)  وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ (٢٤)  أَلَمْ نَجْعَلِ ٱلْأَرْضَ كِفَاتًا (٢٥)  أَحْيَآءً وَأَمْوَٰتًا (٢٦)  وَجَعَلْنَا فِيهَا رَوَٰسِىَ شَـٰمِخَـٰتٍ وَأَسْقَيْنَـٰكُم مَّآءً فُرَاتًا (٢٧)  وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ (٢٨)  ٱنطَلِقُوٓا۟ إِلَىٰ مَا كُنتُم بِهِۦ تُكَذِّبُونَ (٢٩)  ٱنطَلِقُوٓا۟ إِلَىٰ ظِلٍّ ذِى ثَلَـٰثِ شُعَبٍ (٣٠)  لَّا ظَلِيلٍ وَلَا يُغْنِى مِنَ ٱللَّهَبِ (٣١)  إِنَّهَا تَرْمِى بِشَرَرٍ كَٱلْقَصْرِ (٣٢)  كَأَنَّهُۥ جِمَـٰلَتٌ صُفْرٌ (٣٣)  وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ (٣٤)  هَـٰذَا يَوْمُ لَا يَنطِقُونَ (٣٥)  وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ (٣٦)  وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ (٣٧)  هَـٰذَا يَوْمُ ٱلْفَصْلِ ۖ جَمَعْنَـٰكُمْ وَٱلْأَوَّلِينَ (٣٨)  فَإِن كَانَ لَكُمْ كَيْدٌ فَكِيدُونِ (٣٩)  وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ (٤٠)  إِنَّ ٱلْمُتَّقِينَ فِى ظِلَـٰلٍ وَعُيُونٍ (٤١)  وَفَوَٰكِهَ مِمَّا يَشْتَهُونَ (٤٢)  كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَا كُنتُمْ تَعْمَلُونَ (٤٣)  إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ (٤٤)  وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ (٤٥)  كُلُوا۟ وَتَمَتَّعُوا۟ قَلِيلًا إِنَّكُم مُّجْرِمُونَ (٤٦)  وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ (٤٧)  وَإِذَا قِيلَ لَهُمُ ٱرْكَعُوا۟ لَا يَرْكَعُونَ (٤٨)  وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ (٤٩)  فَبِأَىِّ حَدِيثٍۭ بَعْدَهُۥ يُؤْمِنُونَ (٥٠)",
+          "is_read": false
+        }
+      ]
+    }
+  }
+]

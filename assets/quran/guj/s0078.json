@@ -1,0 +1,356 @@
+[
+  {
+    "status": true,
+    "message": "Data fetched successfully",
+    "data": {
+      "chapter": {
+        "id": 78,
+        "serial_number": "78",
+        "arabic_name": "النبإ",
+        "translated_name": "An-Naba",
+        "verses_translate_name": "Verses",
+        "verses_count": "40"
+      },
+      "chapter_info": [
+        {
+          "eng_page_number": 582,
+          "page_number": "582",
+          "page_key": 0,
+          "page_verses": [
+            {
+              "id": 5673,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "1",
+              "arabic_name": "عَمَّ يَتَسَآءَلُونَ",
+              "translated_name": "૧. કઈ વસ્તુ બાબતે તેઓ સવાલ કરી રહ્યા છે?"
+            },
+            {
+              "id": 5674,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "2",
+              "arabic_name": "عَنِ ٱلنَّبَإِ ٱلْعَظِيمِ",
+              "translated_name": "૨. તે જબરદસ્ત ખબર વિશે?"
+            },
+            {
+              "id": 5675,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "3",
+              "arabic_name": "ٱلَّذِى هُمْ فِيهِ مُخْتَلِفُونَ",
+              "translated_name": "૩. જેના વિશે તેઓ એકબીજાથી મતભેદ કરી રહ્યા છે."
+            },
+            {
+              "id": 5676,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "4",
+              "arabic_name": "كَلَّا سَيَعْلَمُونَ",
+              "translated_name": "૪. કદાપિ નહી, તેઓ નજીકમાં જ જાણી લેશે."
+            },
+            {
+              "id": 5677,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "5",
+              "arabic_name": "ثُمَّ كَلَّا سَيَعْلَمُونَ",
+              "translated_name": "૫. ફરી તેઓ નજીકમાં જ જાણી લેશે."
+            },
+            {
+              "id": 5678,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "6",
+              "arabic_name": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ مِهَـٰدًا",
+              "translated_name": "૬. શું અમે ધરતીને પાથરણું નથી બનાવ્યું?"
+            },
+            {
+              "id": 5679,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "7",
+              "arabic_name": "وَٱلْجِبَالَ أَوْتَادًا",
+              "translated_name": "૭. અને પર્વતોને ખુંટા (નથી બનાવ્યા?)"
+            },
+            {
+              "id": 5680,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "8",
+              "arabic_name": "وَخَلَقْنَـٰكُمْ أَزْوَٰجًا",
+              "translated_name": "૮. અને તમને જોડકામાં પેદા કર્યા."
+            },
+            {
+              "id": 5681,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "9",
+              "arabic_name": "وَجَعَلْنَا نَوْمَكُمْ سُبَاتًا",
+              "translated_name": "૯. અને તમારી નિદ્રાને તમારા માટે આરામનું કારણ બનાવી."
+            },
+            {
+              "id": 5682,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "10",
+              "arabic_name": "وَجَعَلْنَا ٱلَّيْلَ لِبَاسًا",
+              "translated_name": "૧૦. અને રાતને અમે પરદાનું કારણ બનાવ્યું."
+            },
+            {
+              "id": 5683,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "11",
+              "arabic_name": "وَجَعَلْنَا ٱلنَّهَارَ مَعَاشًا",
+              "translated_name": "૧૧. અને દિવસને કમાણી માટે બનાવ્યો."
+            },
+            {
+              "id": 5684,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "12",
+              "arabic_name": "وَبَنَيْنَا فَوْقَكُمْ سَبْعًا شِدَادًا",
+              "translated_name": "૧૨. અને અમે તમારા ઉપર સાત મજબુત (આકાશો) બનાવ્યા."
+            },
+            {
+              "id": 5685,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "13",
+              "arabic_name": "وَجَعَلْنَا سِرَاجًا وَهَّاجًا",
+              "translated_name": "૧૩. અને એક ચમકતો દીવો (સૂર્ય) બનાવ્યો."
+            },
+            {
+              "id": 5686,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "14",
+              "arabic_name": "وَأَنزَلْنَا مِنَ ٱلْمُعْصِرَٰتِ مَآءً ثَجَّاجًا",
+              "translated_name": "૧૪. અને અમે જ ભરેલા વાદળો માંથી મુશળધાર વરસાદ વરસાવ્યો."
+            },
+            {
+              "id": 5687,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "15",
+              "arabic_name": "لِّنُخْرِجَ بِهِۦ حَبًّا وَنَبَاتًا",
+              "translated_name": "૧૫. જેથી તેનાથી અમે અનાજ અને વનસ્પતિ ઉપજાવીએ."
+            },
+            {
+              "id": 5688,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "16",
+              "arabic_name": "وَجَنَّـٰتٍ أَلْفَافًا",
+              "translated_name": "૧૬. અને હર્યા-ભર્યા બાગ. (પણ ઉપજાવીએ)"
+            },
+            {
+              "id": 5689,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "17",
+              "arabic_name": "إِنَّ يَوْمَ ٱلْفَصْلِ كَانَ مِيقَـٰتًا",
+              "translated_name": "૧૭. નિ:શંક ફેસલાનો દિવસ એક નક્કી કરેલ સમય છે."
+            },
+            {
+              "id": 5690,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "18",
+              "arabic_name": "يَوْمَ يُنفَخُ فِى ٱلصُّورِ فَتَأْتُونَ أَفْوَاجًا",
+              "translated_name": "૧૮. જે દિવસે સૂર ફુકવામાં આવશે, પછી તમે જુથ ના જુથ નીકળી આવશો."
+            },
+            {
+              "id": 5691,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "19",
+              "arabic_name": "وَفُتِحَتِ ٱلسَّمَآءُ فَكَانَتْ أَبْوَٰبًا",
+              "translated_name": "૧૯. અને આકાશ ખોલી નાખવામાં આવશે . તેમાં દ્વાર જ દ્વાર થઇ જશે."
+            },
+            {
+              "id": 5692,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "20",
+              "arabic_name": "وَسُيِّرَتِ ٱلْجِبَالُ فَكَانَتْ سَرَابًا",
+              "translated_name": "૨૦. અને પર્વતને ચલાવવામાં આવશે, તો તે ચમકતી રેતીની જેમ બની જશે."
+            },
+            {
+              "id": 5693,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "21",
+              "arabic_name": "إِنَّ جَهَنَّمَ كَانَتْ مِرْصَادًا",
+              "translated_name": "૨૧. નિ:શંક જહન્નમ ઘાતમાં છે."
+            },
+            {
+              "id": 5694,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "22",
+              "arabic_name": "لِّلطَّـٰغِينَ مَـَٔابًا",
+              "translated_name": "૨૨. જે દુરાચારીઓનું ઠેકાણુ છે."
+            },
+            {
+              "id": 5695,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "23",
+              "arabic_name": "لَّـٰبِثِينَ فِيهَآ أَحْقَابًا",
+              "translated_name": "૨૩. જેમાં તેઓ અગણિત વર્ષો સુધી એવી રીતે પડ્યા હશે."
+            },
+            {
+              "id": 5696,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "24",
+              "arabic_name": "لَّا يَذُوقُونَ فِيهَا بَرْدًا وَلَا شَرَابًا",
+              "translated_name": "૨૪. કે ન તો તેઓ ત્યાં કોઈ ઠંડકનો સ્વાદ ચાખશે અને ન તો પીવા માટે પીણુંનો સ્વાદ ચાખી શકશે."
+            },
+            {
+              "id": 5697,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "25",
+              "arabic_name": "إِلَّا حَمِيمًا وَغَسَّاقًا",
+              "translated_name": "૨૫. સિવાય ગરમ પાણી અને (વહેતુ) પરૂ."
+            },
+            {
+              "id": 5698,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "26",
+              "arabic_name": "جَزَآءً وِفَاقًا",
+              "translated_name": "૨૬. આ (તેમનો) સંપૂર્ણ બદલો હશે."
+            },
+            {
+              "id": 5699,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "27",
+              "arabic_name": "إِنَّهُمْ كَانُوا۟ لَا يَرْجُونَ حِسَابًا",
+              "translated_name": "૨૭. તેઓ હિસાબની આશા જ નહતા રાખતા."
+            },
+            {
+              "id": 5700,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "28",
+              "arabic_name": "وَكَذَّبُوا۟ بِـَٔايَـٰتِنَا كِذَّابًا",
+              "translated_name": "૨૮. અને હંમેશા અમારી આયતોને જુઠલાવતા હતા."
+            },
+            {
+              "id": 5701,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "29",
+              "arabic_name": "وَكُلَّ شَىْءٍ أَحْصَيْنَـٰهُ كِتَـٰبًا",
+              "translated_name": "૨૯. અને અમે દરેક વસ્તુને લખીને સુરક્ષિત રાખી છે."
+            },
+            {
+              "id": 5702,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "30",
+              "arabic_name": "فَذُوقُوا۟ فَلَن نَّزِيدَكُمْ إِلَّا عَذَابًا",
+              "translated_name": "૩૦. (અને તેમને કહેવામાં આવશે) કે હવે સ્વાદ ચાખો, અમે તમારા માટે અઝાબ સિવાય બીજી કોઈ વસ્તુમાં વધારો નહીં કરીએ."
+            }
+          ],
+          "page_arabic_ayah": "عَمَّ يَتَسَآءَلُونَ (١)  عَنِ ٱلنَّبَإِ ٱلْعَظِيمِ (٢)  ٱلَّذِى هُمْ فِيهِ مُخْتَلِفُونَ (٣)  كَلَّا سَيَعْلَمُونَ (٤)  ثُمَّ كَلَّا سَيَعْلَمُونَ (٥)  أَلَمْ نَجْعَلِ ٱلْأَرْضَ مِهَـٰدًا (٦)  وَٱلْجِبَالَ أَوْتَادًا (٧)  وَخَلَقْنَـٰكُمْ أَزْوَٰجًا (٨)  وَجَعَلْنَا نَوْمَكُمْ سُبَاتًا (٩)  وَجَعَلْنَا ٱلَّيْلَ لِبَاسًا (١٠)  وَجَعَلْنَا ٱلنَّهَارَ مَعَاشًا (١١)  وَبَنَيْنَا فَوْقَكُمْ سَبْعًا شِدَادًا (١٢)  وَجَعَلْنَا سِرَاجًا وَهَّاجًا (١٣)  وَأَنزَلْنَا مِنَ ٱلْمُعْصِرَٰتِ مَآءً ثَجَّاجًا (١٤)  لِّنُخْرِجَ بِهِۦ حَبًّا وَنَبَاتًا (١٥)  وَجَنَّـٰتٍ أَلْفَافًا (١٦)  إِنَّ يَوْمَ ٱلْفَصْلِ كَانَ مِيقَـٰتًا (١٧)  يَوْمَ يُنفَخُ فِى ٱلصُّورِ فَتَأْتُونَ أَفْوَاجًا (١٨)  وَفُتِحَتِ ٱلسَّمَآءُ فَكَانَتْ أَبْوَٰبًا (١٩)  وَسُيِّرَتِ ٱلْجِبَالُ فَكَانَتْ سَرَابًا (٢٠)  إِنَّ جَهَنَّمَ كَانَتْ مِرْصَادًا (٢١)  لِّلطَّـٰغِينَ مَـَٔابًا (٢٢)  لَّـٰبِثِينَ فِيهَآ أَحْقَابًا (٢٣)  لَّا يَذُوقُونَ فِيهَا بَرْدًا وَلَا شَرَابًا (٢٤)  إِلَّا حَمِيمًا وَغَسَّاقًا (٢٥)  جَزَآءً وِفَاقًا (٢٦)  إِنَّهُمْ كَانُوا۟ لَا يَرْجُونَ حِسَابًا (٢٧)  وَكَذَّبُوا۟ بِـَٔايَـٰتِنَا كِذَّابًا (٢٨)  وَكُلَّ شَىْءٍ أَحْصَيْنَـٰهُ كِتَـٰبًا (٢٩)  فَذُوقُوا۟ فَلَن نَّزِيدَكُمْ إِلَّا عَذَابًا (٣٠)",
+          "is_read": false
+        },
+        {
+          "eng_page_number": 583,
+          "page_number": "583",
+          "page_key": 1,
+          "page_verses": [
+            {
+              "id": 5703,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "31",
+              "arabic_name": "إِنَّ لِلْمُتَّقِينَ مَفَازًا",
+              "translated_name": "૩૧. નિ:શંક ડરવા વાળાઓ માટે જ સફળતા છે."
+            },
+            {
+              "id": 5704,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "32",
+              "arabic_name": "حَدَآئِقَ وَأَعْنَـٰبًا",
+              "translated_name": "૩૨. બગીચાઓ અને દ્રાક્ષ છે."
+            },
+            {
+              "id": 5705,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "33",
+              "arabic_name": "وَكَوَاعِبَ أَتْرَابًا",
+              "translated_name": "૩૩. અને નવયુવાન અને સરખી વયની કુમારિકાઓ."
+            },
+            {
+              "id": 5706,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "34",
+              "arabic_name": "وَكَأْسًا دِهَاقًا",
+              "translated_name": "૩૪. અને છલકાતા પ્યાલા."
+            },
+            {
+              "id": 5707,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "35",
+              "arabic_name": "لَّا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا كِذَّٰبًا",
+              "translated_name": "૩૫. ત્યાં ન તો બકવાસ સાંભળશે અને ન તો કોઈ જુઠી વાત."
+            },
+            {
+              "id": 5708,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "36",
+              "arabic_name": "جَزَآءً مِّن رَّبِّكَ عَطَآءً حِسَابًا",
+              "translated_name": "૩૬. આ તમારા પાલનહાર તરફથી બદલો હશે, જે પોતાના કર્મ પ્રમાણે મળશે."
+            },
+            {
+              "id": 5709,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "37",
+              "arabic_name": "رَّبِّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلرَّحْمَـٰنِ ۖ لَا يَمْلِكُونَ مِنْهُ خِطَابًا",
+              "translated_name": "૩૭. જે આકાશો અને જમીન અને જે કાંઇ પણ તેમની વચ્ચે છે, તેનો પાલનહાર છે, અને તે ખુબજ રહમકરવાવાળો છે, (તે દિવસે) કોઇને પણ તેનાથી વાતચીત કરવાનો અધિકાર નહી હોય."
+            },
+            {
+              "id": 5710,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "38",
+              "arabic_name": "يَوْمَ يَقُومُ ٱلرُّوحُ وَٱلْمَلَـٰٓئِكَةُ صَفًّا ۖ لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَـٰنُ وَقَالَ صَوَابًا",
+              "translated_name": "૩૮. જે દિવસે રૂહ અને ફરિશ્તાઓ કતારબંધ ઉભા હશે, કોઇ વાત નહી કરી શકે સિવાય તે, જેને અત્યંત દયાળુ પરવાનગી આપે, અને જે યોગ્ય વાત કહેશે."
+            },
+            {
+              "id": 5711,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "39",
+              "arabic_name": "ذَٰلِكَ ٱلْيَوْمُ ٱلْحَقُّ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا",
+              "translated_name": "૩૯. તે દિવસ નિશ્ર્ચિત છે. હવે જે ઇચ્છે તે પોતાના પાલનહાર પાસે (સારા કાર્યો) કરી ઠેકાણુ બનાવી લે."
+            },
+            {
+              "id": 5712,
+              "chapter_id": 78,
+              "verses_translate_name": "Verses",
+              "verses_number": "40",
+              "arabic_name": "إِنَّآ أَنذَرْنَـٰكُمْ عَذَابًا قَرِيبًا يَوْمَ يَنظُرُ ٱلْمَرْءُ مَا قَدَّمَتْ يَدَاهُ وَيَقُولُ ٱلْكَافِرُ يَـٰلَيْتَنِى كُنتُ تُرَٰبًۢا",
+              "translated_name": "૪૦. નિ:શંક અમે તમને નજીકમાં જ આવનારા અઝાબથી ડરાવી દીધા, જે દિવસે માનવી તેના હાથોએ કરેલા (કર્મ) જોઇ લેશે, અને કાફિર કહેશે કે કાશ! હું માટી હોત."
+            }
+          ],
+          "page_arabic_ayah": "إِنَّ لِلْمُتَّقِينَ مَفَازًا (٣١)  حَدَآئِقَ وَأَعْنَـٰبًا (٣٢)  وَكَوَاعِبَ أَتْرَابًا (٣٣)  وَكَأْسًا دِهَاقًا (٣٤)  لَّا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا كِذَّٰبًا (٣٥)  جَزَآءً مِّن رَّبِّكَ عَطَآءً حِسَابًا (٣٦)  رَّبِّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلرَّحْمَـٰنِ ۖ لَا يَمْلِكُونَ مِنْهُ خِطَابًا (٣٧)  يَوْمَ يَقُومُ ٱلرُّوحُ وَٱلْمَلَـٰٓئِكَةُ صَفًّا ۖ لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَـٰنُ وَقَالَ صَوَابًا (٣٨)  ذَٰلِكَ ٱلْيَوْمُ ٱلْحَقُّ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا (٣٩)  إِنَّآ أَنذَرْنَـٰكُمْ عَذَابًا قَرِيبًا يَوْمَ يَنظُرُ ٱلْمَرْءُ مَا قَدَّمَتْ يَدَاهُ وَيَقُولُ ٱلْكَافِرُ يَـٰلَيْتَنِى كُنتُ تُرَٰبًۢا (٤٠)",
+          "is_read": false
+        }
+      ]
+    }
+  }
+]

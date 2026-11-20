@@ -1,0 +1,187 @@
+[
+  {
+    "status": true,
+    "message": "Data fetched successfully",
+    "data": {
+      "chapter": {
+        "id": 90,
+        "serial_number": "90",
+        "arabic_name": "البلد",
+        "translated_name": "Al-Balad",
+        "verses_translate_name": "Verses",
+        "verses_count": "20"
+      },
+      "chapter_info": [
+        {
+          "eng_page_number": 594,
+          "page_number": "594",
+          "page_key": 0,
+          "page_verses": [
+            {
+              "id": 6024,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "1",
+              "arabic_name": "لَآ أُقْسِمُ بِهَـٰذَا ٱلْبَلَدِ",
+              "translated_name": "मैं इस नगर (मक्का) की क़सम खाता हूँ!"
+            },
+            {
+              "id": 6025,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "2",
+              "arabic_name": "وَأَنتَ حِلٌّۢ بِهَـٰذَا ٱلْبَلَدِ",
+              "translated_name": "तथा तुम्हारे लिए इस नगर में लड़ाई हलाल होने वाली है।"
+            },
+            {
+              "id": 6026,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "3",
+              "arabic_name": "وَوَالِدٍ وَمَا وَلَدَ",
+              "translated_name": "तथा क़सम है पिता तथा उसकी संतान की!"
+            },
+            {
+              "id": 6027,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "4",
+              "arabic_name": "لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِى كَبَدٍ",
+              "translated_name": "निःसंदेह हमने मनुष्य को बड़ी कठिनाई में पैदा किया है।"
+            },
+            {
+              "id": 6028,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "5",
+              "arabic_name": "أَيَحْسَبُ أَن لَّن يَقْدِرَ عَلَيْهِ أَحَدٌ",
+              "translated_name": "क्या वह समझता है कि उसपर कभी किसी का वश नहीं चलेगा?[1]"
+            },
+            {
+              "id": 6029,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "6",
+              "arabic_name": "يَقُولُ أَهْلَكْتُ مَالًا لُّبَدًا",
+              "translated_name": "वह कहता है कि मैंने ढेर सारा धन ख़र्च कर दिया।"
+            },
+            {
+              "id": 6030,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "7",
+              "arabic_name": "أَيَحْسَبُ أَن لَّمْ يَرَهُۥٓ أَحَدٌ",
+              "translated_name": "क्या वह समझता है कि उसे किसी ने नहीं देखा?[2]"
+            },
+            {
+              "id": 6031,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "8",
+              "arabic_name": "أَلَمْ نَجْعَل لَّهُۥ عَيْنَيْنِ",
+              "translated_name": "क्या हमने उसके लिए दो आँखें नहीं बनाईं?"
+            },
+            {
+              "id": 6032,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "9",
+              "arabic_name": "وَلِسَانًا وَشَفَتَيْنِ",
+              "translated_name": "तथा एक ज़बान और दो होंठ (नहीं बनाए)?"
+            },
+            {
+              "id": 6033,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "10",
+              "arabic_name": "وَهَدَيْنَـٰهُ ٱلنَّجْدَيْنِ",
+              "translated_name": "और हमने उसे दोनों मार्ग दिखा दिए?!"
+            },
+            {
+              "id": 6034,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "11",
+              "arabic_name": "فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ",
+              "translated_name": "परंतु उसने दुर्लभ घाटी में प्रवेश ही नहीं किया।"
+            },
+            {
+              "id": 6035,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "12",
+              "arabic_name": "وَمَآ أَدْرَىٰكَ مَا ٱلْعَقَبَةُ",
+              "translated_name": "और तुम्हें किस चीज़ ने ज्ञात कराया कि वह दुर्लभ 'घाटी' क्या है?"
+            },
+            {
+              "id": 6036,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "13",
+              "arabic_name": "فَكُّ رَقَبَةٍ",
+              "translated_name": "(वह) गर्दन छुड़ाना है।"
+            },
+            {
+              "id": 6037,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "14",
+              "arabic_name": "أَوْ إِطْعَـٰمٌ فِى يَوْمٍ ذِى مَسْغَبَةٍ",
+              "translated_name": "या किसी भूख वाले दिन में खाना खिलाना है।"
+            },
+            {
+              "id": 6038,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "15",
+              "arabic_name": "يَتِيمًا ذَا مَقْرَبَةٍ",
+              "translated_name": "किसी रिश्तेदार अनाथ को।"
+            },
+            {
+              "id": 6039,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "16",
+              "arabic_name": "أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ",
+              "translated_name": "या मिट्टी में लथड़े हुए निर्धन को।[3]"
+            },
+            {
+              "id": 6040,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "17",
+              "arabic_name": "ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ",
+              "translated_name": "फिर वह उन लोगों में से हो, जो ईमान लाए और एक-दूसरे को धैर्य रखने की सलाह दी और एक-दूसरे को दया करने की सलाह दी।"
+            },
+            {
+              "id": 6041,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "18",
+              "arabic_name": "أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْمَيْمَنَةِ",
+              "translated_name": "यही लोग दाहिने हाथ वाले (सौभाग्यशाली) हैं।"
+            },
+            {
+              "id": 6042,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "19",
+              "arabic_name": "وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِنَا هُمْ أَصْحَـٰبُ ٱلْمَشْـَٔمَةِ",
+              "translated_name": "और जिन लोगों ने हमारी आयतों का इनकार किया, वही लोग बाएँ हाथ वाले (दुर्भाग्यशाली) हैं।"
+            },
+            {
+              "id": 6043,
+              "chapter_id": 90,
+              "verses_translate_name": "Verses",
+              "verses_number": "20",
+              "arabic_name": "عَلَيْهِمْ نَارٌ مُّؤْصَدَةٌۢ",
+              "translated_name": "उनपर (हर ओर से) बंद की हुई आग होगी।"
+            }
+          ],
+          "page_arabic_ayah": "لَآ أُقْسِمُ بِهَـٰذَا ٱلْبَلَدِ (١)  وَأَنتَ حِلٌّۢ بِهَـٰذَا ٱلْبَلَدِ (٢)  وَوَالِدٍ وَمَا وَلَدَ (٣)  لَقَدْ خَلَقْنَا ٱلْإِنسَـٰنَ فِى كَبَدٍ (٤)  أَيَحْسَبُ أَن لَّن يَقْدِرَ عَلَيْهِ أَحَدٌ (٥)  يَقُولُ أَهْلَكْتُ مَالًا لُّبَدًا (٦)  أَيَحْسَبُ أَن لَّمْ يَرَهُۥٓ أَحَدٌ (٧)  أَلَمْ نَجْعَل لَّهُۥ عَيْنَيْنِ (٨)  وَلِسَانًا وَشَفَتَيْنِ (٩)  وَهَدَيْنَـٰهُ ٱلنَّجْدَيْنِ (١٠)  فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ (١١)  وَمَآ أَدْرَىٰكَ مَا ٱلْعَقَبَةُ (١٢)  فَكُّ رَقَبَةٍ (١٣)  أَوْ إِطْعَـٰمٌ فِى يَوْمٍ ذِى مَسْغَبَةٍ (١٤)  يَتِيمًا ذَا مَقْرَبَةٍ (١٥)  أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ (١٦)  ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ (١٧)  أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْمَيْمَنَةِ (١٨)  وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِنَا هُمْ أَصْحَـٰبُ ٱلْمَشْـَٔمَةِ (١٩)  عَلَيْهِمْ نَارٌ مُّؤْصَدَةٌۢ (٢٠)",
+          "is_read": false
+        }
+      ]
+    }
+  }
+]

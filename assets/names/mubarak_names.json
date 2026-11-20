@@ -1,0 +1,4793 @@
+{
+  "version": "1.0.0",
+  "supported_languages": ["en", "gu", "hi", "sw", "ar", "ur"],
+  "default_language": "gu",
+  "categories": [
+    {
+      "id": "azwaj_e_mutahharat",
+      "number": 1,
+      "source_file": "azvaje_mutahhirat.xml",
+      "title": {
+        "en": "Azwaj-e-Mutahharat",
+        "gu": "અજ્વાજ઼ે મુતહ્હીરાત",
+        "hi": "अज्वाज़े मुतह्हीरात",
+        "sw": "Wake Watakatifu wa Mtume (Azwaj-e-Mutahharat)",
+        "ar": "أزواج النبي المطهرات",
+        "ur": "ازواجِ مطہرات"
+      },
+      "heading": {
+        "en": "Azwaj-e-Mutahharat",
+        "gu": "અજ્વાજ઼ે મુતહ્હીરાત",
+        "hi": "अज्वाज़े मुतह्हीरात",
+        "sw": "Wake Watakatifu wa Mtume (Azwaj-e-Mutahharat)",
+        "ar": "أزواج النبي المطهرات",
+        "ur": "ازواجِ مطہرات"
+      },
+      "entries": [
+        {
+          "id": "azwaj_e_mutahharat_001",
+          "order": 1,
+          "type": "entry",
+          "number": 1,
+          "text": {
+            "en": "Ummul Mu'minin Hazrat Khadija bint Khuwaylid رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "gu": "ઉમ્મુલ મુઅમીનીન હજરત ખદીજા બિન્તે ખુવાલીદ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "hi": "उम्मुल मुअमीनीन हज़रत खदीजा बिन्ते खुवालीद رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "sw": "Ummul Mu'minin Hadhrat Khadija binti Khuwaylid رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ar": "أم المؤمنين حضرة خديجة بنت خويلد رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ur": "ام المؤمنین حضرت خدیجہ بنت خویلد رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا"
+          }
+        },
+        {
+          "id": "azwaj_e_mutahharat_002",
+          "order": 2,
+          "type": "entry",
+          "number": 2,
+          "text": {
+            "en": "Ummul Mu'minin Hazrat Zainab bint Khuzaimah رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "gu": "ઉમ્મુલ મુઅમીનીન હજરત જૈનબ બિન્તે ખુજૈમાહ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "hi": "उम्मुल मुअमीनीन हज़रत जैनब बिन्ते खुजैमाह رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "sw": "Ummul Mu'minin Hadhrat Zainab binti Khuzaimah رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ar": "أم المؤمنين حضرة زينب بنت خزيمة رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ur": "ام المؤمنین حضرت زینب بنت خزیمہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا"
+          }
+        },
+        {
+          "id": "azwaj_e_mutahharat_003",
+          "order": 3,
+          "type": "entry",
+          "number": 3,
+          "text": {
+            "en": "Ummul Mu'minin Hazrat Aisha Siddiqa bint Abu Bakr Siddiq رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "gu": "ઉમ્મુલ મુઅમીનીન હજરત આઈશા સિદ્દીકા બિન્તે અબુબક્ર સિદ્દીક رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "hi": "उम्मुल मुअमीनीन हज़रत आईशा सिद्दीका बिन्ते अबुबक्र सिद्दीक رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "sw": "Ummul Mu'minin Hadhrat Aisha Siddiqa binti Abu Bakr Siddiq رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ar": "أم المؤمنين حضرة عائشة الصديقة بنت أبي بكر الصديق رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ur": "ام المؤمنین حضرت عائشہ الصدیقہ بنت ابی بکر الصدیق رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا"
+          }
+        },
+        {
+          "id": "azwaj_e_mutahharat_004",
+          "order": 4,
+          "type": "entry",
+          "number": 4,
+          "text": {
+            "en": "Ummul Mu'minin Hazrat Hafsa bint Umar bin Khattab رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "gu": "ઉમ્મુલ મુઅમીનીન હજરત હફ્સા બિન્તે ઉમર બિન ખત્તાબ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "hi": "उम्मुल मुअमीनीन हज़रत हफ्सा बिन्ते उमर बिन खत्ताब رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "sw": "Ummul Mu'minin Hadhrat Hafsa binti Umar bin Khattab رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ar": "أم المؤمنين حضرة حفصة بنت عمر بن الخطاب رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ur": "ام المؤمنین حضرت حفصہ بنت عمر بن الخطاب رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا"
+          }
+        },
+        {
+          "id": "azwaj_e_mutahharat_005",
+          "order": 5,
+          "type": "entry",
+          "number": 5,
+          "text": {
+            "en": "Ummul Mu'minin Hazrat Zainab bint Jahsh رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "gu": "ઉમ્મુલ મુઅમીનીન હજરત જૈનબ બિન્તે જહશ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "hi": "उम्मुल मुअमीनीन हज़रत जैनब बिन्ते जहश رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "sw": "Ummul Mu'minin Hadhrat Zainab binti Jahsh رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ar": "أم المؤمنين حضرة زينب بنت جحش رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ur": "ام المؤمنین حضرت زینب بنت جحش رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا"
+          }
+        },
+        {
+          "id": "azwaj_e_mutahharat_006",
+          "order": 6,
+          "type": "entry",
+          "number": 6,
+          "text": {
+            "en": "Ummul Mu'minin Hazrat Sawda bint Zam'ah رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "gu": "ઉમ્મુલ મુઅમીનીન હજરત સવ્દા બિન્તે જમ્આ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "hi": "उम्मुल मुअमीनीन हज़रत सव्दा बिन्ते जम्आ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "sw": "Ummul Mu'minin Hadhrat Sawda binti Zam'ah رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ar": "أم المؤمنين حضرة سودة بنت زمعة رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ur": "ام المؤمنین حضرت سودہ بنت زمعہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا"
+          }
+        },
+        {
+          "id": "azwaj_e_mutahharat_007",
+          "order": 7,
+          "type": "entry",
+          "number": 7,
+          "text": {
+            "en": "Ummul Mu'minin Hazrat Umm-e-Habiba bint Abu Sufyan رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "gu": "ઉમ્મુલ મુઅમીનીન હજરત ઉમ્મે હબીબા બિન્તે અબુ સુફિયાન رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "hi": "उम्मुल मुअमीनीन हज़रत उम्मे हबीबा बिन्ते अबु सुफियान رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "sw": "Ummul Mu'minin Hadhrat Umm-e-Habiba binti Abu Sufyan رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ar": "أم المؤمنين حضرة أم حبيبة بنت أبي سفيان رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ur": "ام المؤمنین حضرت ام حبیبہ بنت ابی سفیان رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا"
+          }
+        },
+        {
+          "id": "azwaj_e_mutahharat_008",
+          "order": 8,
+          "type": "entry",
+          "number": 8,
+          "text": {
+            "en": "Ummul Mu'minin Hazrat Umm-e-Salama bint Abu Umayyah رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "gu": "ઉમ્મુલ મુઅમીનીન હજરત ઉમ્મે સલમા બિન્તે અબુ ઉમૈયા رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "hi": "उम्मुल मुअमीनीन हज़रत उम्मे सलमा बिन्ते अबु उमैया رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "sw": "Ummul Mu'minin Hadhrat Umm-e-Salama binti Abu Umayyah رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ar": "أم المؤمنين حضرة أم سلمة بنت أبي أمية رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ur": "ام المؤمنین حضرت ام سلمہ بنت ابی امیہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا"
+          }
+        },
+        {
+          "id": "azwaj_e_mutahharat_009",
+          "order": 9,
+          "type": "entry",
+          "number": 9,
+          "text": {
+            "en": "Ummul Mu'minin Hazrat Juwayriyah bint Harith رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "gu": "ઉમ્મુલ મુઅમીનીન હજરત જુવેરીયા બિન્તે હારીસ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "hi": "उम्मुल मुअमीनीन हज़रत जुवेरीया बिन्ते हारीस رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "sw": "Ummul Mu'minin Hadhrat Juwayriyah binti Harith رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ar": "أم المؤمنين حضرة جويرية بنت الحارث رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ur": "ام المؤمنین حضرت جویریہ بنت الحارث رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا"
+          }
+        },
+        {
+          "id": "azwaj_e_mutahharat_010",
+          "order": 10,
+          "type": "entry",
+          "number": 10,
+          "text": {
+            "en": "Ummul Mu'minin Hazrat Maymunah رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "gu": "ઉમ્મુલ મુઅમીનીન હજરત મૈમુના رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "hi": "उम्मुल मुअमीनीन हज़रत मैमुना رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "sw": "Ummul Mu'minin Hadhrat Maymunah رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ar": "أم المؤمنين حضرة ميمونة رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ur": "ام المؤمنین حضرت میمونہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا"
+          }
+        },
+        {
+          "id": "azwaj_e_mutahharat_011",
+          "order": 11,
+          "type": "entry",
+          "number": 11,
+          "text": {
+            "en": "Ummul Mu'minin Hazrat Safiyyah bint Huyayy رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "gu": "ઉમ્મુલ મુઅમીનીન હજરત સફિય્યા બિન્તે હુયઇ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "hi": "उम्मुल मुअमीनीन हज़रत सफिय्या बिन्ते हुयइ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "sw": "Ummul Mu'minin Hadhrat Safiyyah binti Huyayy رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ar": "أم المؤمنين حضرة صفية بنت حيي رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ur": "ام المؤمنین حضرت صفیہ بنت حیی رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا"
+          }
+        }
+      ]
+    },
+    {
+      "id": "panjtan_pak",
+      "number": 2,
+      "source_file": "panjtan_pak.xml",
+      "title": {
+        "en": "Panjtan Pak",
+        "gu": "પંજતન પાક",
+        "hi": "पंजतन पाक",
+        "sw": "Panjtan Pak (Watano Watakatifu)",
+        "ar": "الخمسة الطاهرون (پنجتن پاک)",
+        "ur": "پنجتن پاک"
+      },
+      "heading": {
+        "en": "Panjtan Pak",
+        "gu": "પંજતન પાક",
+        "hi": "पंजतन पाक",
+        "sw": "Panjtan Pak (Watano Watakatifu)",
+        "ar": "الخمسة الطاهرون (پنجتن پاک)",
+        "ur": "پنجتن پاک"
+      },
+      "entries": [
+        {
+          "id": "panjtan_pak_001",
+          "order": 1,
+          "type": "entry",
+          "number": 1,
+          "text": {
+            "en": "Hazrat Ahmad-e-Mujtaba Muhammad Mustafa\n صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم",
+            "gu": "હજરત અહમદે મુજતબા મુહમ્મદ મુસ્તફા\n صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم",
+            "hi": "हज़रत अहमदे मुजतबा मुहम्मद मुस्तफा\n صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم",
+            "sw": "Hadhrat Ahmad-e-Mujtaba Muhammad Mustafa\n صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم",
+            "ar": "حضرة أحمد المجتبى محمد المصطفى\n صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم",
+            "ur": "حضرت احمد المجتبی محمد المصطفی\n صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم"
+          }
+        },
+        {
+          "id": "panjtan_pak_002",
+          "order": 2,
+          "type": "entry",
+          "number": 2,
+          "text": {
+            "en": "Khatun-e-Jannat Sayyida Fatima-tuz-Zahra سَلَامُ اللّٰهِ عَلَیْهَا",
+            "gu": "ખાતૂને જન્નત સૈયદા ફાતિમા-તુજ-જહરા سَلَامُ اللّٰهِ عَلَیْهَا",
+            "hi": "खातूने जन्नत सैयदा फातिमा-तुज-जहरा سَلَامُ اللّٰهِ عَلَیْهَا",
+            "sw": "Khatun-e-Jannat Sayyida Fatima-tuz-Zahra سَلَامُ اللّٰهِ عَلَیْهَا",
+            "ar": "خاتون الجنة سيدة فاطمة الزهراء سَلَامُ اللّٰهِ عَلَیْهَا",
+            "ur": "خاتون الجنہ سیدہ فاطمہ الزہراء سَلَامُ اللّٰهِ عَلَیْهَا"
+          }
+        },
+        {
+          "id": "panjtan_pak_003",
+          "order": 3,
+          "type": "entry",
+          "number": 3,
+          "text": {
+            "en": "Maula-e-Kainat Hazrat Ali Sher-e-Khuda عَلَيْهِ السَّلَام",
+            "gu": "મૌલા-એ-કાએનાત હજરત અલી શેરે ખુદા عَلَيْهِ السَّلَام",
+            "hi": "मौला-ए-काएनात हज़रत अली शेरे खुदा عَلَيْهِ السَّلَام",
+            "sw": "Maula-e-Kainat Hadhrat Ali Sher-e-Khuda عَلَيْهِ السَّلَام",
+            "ar": "مولى الكائنات حضرة علي شير خدا عَلَيْهِ السَّلَام",
+            "ur": "مولی الکائنات حضرت علی شیر خدا عَلَيْهِ السَّلَام"
+          }
+        },
+        {
+          "id": "panjtan_pak_004",
+          "order": 4,
+          "type": "entry",
+          "number": 4,
+          "text": {
+            "en": "Imam-e-Ali Muqam Sayyiduna Imam Hasan Mujtaba عَلَيْهِ السَّلَام",
+            "gu": "ઈમામે આલી મુકામ સૈયદના ઈમામ હસન મુજતબા عَلَيْهِ السَّلَام",
+            "hi": "इमामे आली मुकाम सैयदना इमाम हसन मुजतबा عَلَيْهِ السَّلَام",
+            "sw": "Imamu-e-Ali Muqam Sayyidina Imamu Hasan Mujtaba عَلَيْهِ السَّلَام",
+            "ar": "الإمام عالي مقام سيدنا الإمام الحسن المجتبى عَلَيْهِ السَّلَام",
+            "ur": "الامام عالی مقام سیدنا الامام الحسن المجتبی عَلَيْهِ السَّلَام"
+          }
+        },
+        {
+          "id": "panjtan_pak_005",
+          "order": 5,
+          "type": "entry",
+          "number": 5,
+          "text": {
+            "en": "Imam-e-Ali Muqam Sayyiduna Imam Husain عَلَيْهِ السَّلَام",
+            "gu": "ઈમામે આલી મુકામ સૈયદના ઈમામ હુસૈન عَلَيْهِ السَّلَام",
+            "hi": "इमामे आली मुकाम सैयदना इमाम हुसैन عَلَيْهِ السَّلَام",
+            "sw": "Imamu-e-Ali Muqam Sayyidina Imamu Husain عَلَيْهِ السَّلَام",
+            "ar": "الإمام عالي مقام سيدنا الإمام الحسين عَلَيْهِ السَّلَام",
+            "ur": "الامام عالی مقام سیدنا الامام الحسین عَلَيْهِ السَّلَام"
+          }
+        }
+      ]
+    },
+    {
+      "id": "khulafa_e_rashideen",
+      "number": 3,
+      "source_file": "khulfae_rashidin.xml",
+      "title": {
+        "en": "Khulafa-e-Rashideen",
+        "gu": "ખુલ્ફા-એ-રાશિદીન",
+        "hi": "खुल्फा-ए-राशिदीन",
+        "sw": "Makhalifa Waongofu (Khulafa-e-Rashideen)",
+        "ar": "الخلفاء الراشدون",
+        "ur": "خلفائے راشدین"
+      },
+      "heading": {
+        "en": "Khulafa-e-Rashideen",
+        "gu": "ખુલ્ફા-એ-રાશિદીન",
+        "hi": "खुल्फा-ए-राशिदीन",
+        "sw": "Makhalifa Waongofu (Khulafa-e-Rashideen)",
+        "ar": "الخلفاء الراشدون",
+        "ur": "خلفائے راشدین"
+      },
+      "entries": [
+        {
+          "id": "khulafa_e_rashideen_001",
+          "order": 1,
+          "type": "entry",
+          "number": 1,
+          "text": {
+            "en": "Amirul Mu'minin Sayyiduna Abu Bakr Siddiq رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "અમીરુલ મુઅમીનીન સૈયદના અબુ બકર સિદ્દીક رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "अमीरुल मुअमीनीन सैयदना अबु बकर सिद्दीक رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Amirul Mu'minin Sayyidina Abu Bakr Siddiq رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "أمير المؤمنين سيدنا أبو بكر الصديق رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "امیر المؤمنین سیدنا ابو بکر الصدیق رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "khulafa_e_rashideen_002",
+          "order": 2,
+          "type": "entry",
+          "number": 2,
+          "text": {
+            "en": "Amirul Mu'minin Sayyiduna Umar Faruq bin Khattab رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "અમીરુલ મુઅમીનીન સૈયદના ઉમર ફારુક બિન ખત્તાબ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "अमीरुल मुअमीनीन सैयदना उमर फारुक बिन खत्ताब رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Amirul Mu'minin Sayyidina Umar Faruq bin Khattab رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "أمير المؤمنين سيدنا عمر الفاروق بن الخطاب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "امیر المؤمنین سیدنا عمر الفاروق بن الخطاب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "khulafa_e_rashideen_003",
+          "order": 3,
+          "type": "entry",
+          "number": 3,
+          "text": {
+            "en": "Amirul Mu'minin Sayyiduna Uthman Ghani bin Affan رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "અમીરુલ મુઅમીનીન સૈયદના ઉસ્માન ગની બિન અફ્ફાન رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "अमीरुल मुअमीनीन सैयदना उस्मान गनी बिन अफ्फान رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Amirul Mu'minin Sayyidina Uthman Ghani bin Affan رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "أمير المؤمنين سيدنا عثمان الغني بن عفان رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "امیر المؤمنین سیدنا عثمان الغنی بن عفان رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "khulafa_e_rashideen_004",
+          "order": 4,
+          "type": "entry",
+          "number": 4,
+          "text": {
+            "en": "Amirul Mu'minin Sayyiduna Maula Ali bin Abu Talib رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "અમીરુલ મુઅમીનીન સૈયદના મૌલા અલી બિન અબુ તાલીબ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "अमीरुल मुअमीनीन सैयदना मौला अली बिन अबु तालीब رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Amirul Mu'minin Sayyidina Maula Ali bin Abu Talib رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "أمير المؤمنين سيدنا مولى علي بن أبي طالب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "امیر المؤمنین سیدنا مولی علی بن ابی طالب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "khulafa_e_rashideen_005",
+          "order": 5,
+          "type": "entry",
+          "number": 5,
+          "text": {
+            "en": "Amirul Mu'minin Sayyiduna Imam Hasan Mujtaba رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "અમીરુલ મુઅમીનીન સૈયદના ઇમામ હસન મુજતબા رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "अमीरुल मुअमीनीन सैयदना इमाम हसन मुजतबा رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Amirul Mu'minin Sayyidina Imamu Hasan Mujtaba رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "أمير المؤمنين سيدنا الإمام الحسن المجتبى رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "امیر المؤمنین سیدنا الامام الحسن المجتبی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "awlad_e_rasulullah",
+      "number": 4,
+      "source_file": "aulade_rasulullah.xml",
+      "title": {
+        "en": "Awlad-e-Rasulullah ﷺ",
+        "gu": "ઔલાદે રસુલુલ્લાહ ﷺ",
+        "hi": "औलादे रसुलुल्लाह ﷺ",
+        "sw": "Watoto wa Mtume wa Allah ﷺ",
+        "ar": "أولاد رسول الله ﷺ",
+        "ur": "اولادِ رسول اللہ ﷺ"
+      },
+      "heading": {
+        "en": "Awlad-e-Rasulullah ﷺ",
+        "gu": "ઔલાદે રસુલુલ્લાહ ﷺ",
+        "hi": "औलादे रसुलुल्लाह ﷺ",
+        "sw": "Watoto wa Mtume wa Allah ﷺ",
+        "ar": "أولاد رسول الله ﷺ",
+        "ur": "اولادِ رسول اللہ ﷺ"
+      },
+      "entries": [
+        {
+          "id": "awlad_e_rasulullah_001",
+          "order": 1,
+          "type": "entry",
+          "number": 1,
+          "text": {
+            "en": "Hazrat Qasim رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત કાસિમ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत कासिम رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Qasim رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة قاسم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت قاسم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "awlad_e_rasulullah_002",
+          "order": 2,
+          "type": "entry",
+          "number": 2,
+          "text": {
+            "en": "Hazrat Zainab رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "gu": "હજરત જૈનબ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "hi": "हज़रत जैनब رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "sw": "Hadhrat Zainab رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ar": "حضرة زينب رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ur": "حضرت زینب رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا"
+          }
+        },
+        {
+          "id": "awlad_e_rasulullah_003",
+          "order": 3,
+          "type": "entry",
+          "number": 3,
+          "text": {
+            "en": "Hazrat Ruqayyah رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "gu": "હજરત રુકય્યા رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "hi": "हज़रत रुकय्या رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "sw": "Hadhrat Ruqayyah رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ar": "حضرة رقية رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ur": "حضرت رقیہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا"
+          }
+        },
+        {
+          "id": "awlad_e_rasulullah_004",
+          "order": 4,
+          "type": "entry",
+          "number": 4,
+          "text": {
+            "en": "Hazrat Umm-e-Kulthum رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "gu": "હજરત ઉમ્મે કુલ્સુમ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "hi": "हज़रत उम्मे कुल्सुम رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "sw": "Hadhrat Umm-e-Kulthum رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ar": "حضرة أم كلثوم رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ur": "حضرت ام کلثوم رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا"
+          }
+        },
+        {
+          "id": "awlad_e_rasulullah_005",
+          "order": 5,
+          "type": "entry",
+          "number": 5,
+          "text": {
+            "en": "Hazrat Abdullah رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબ્દુલ્લાહ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अब्दुल्लाह رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abdullah رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عبد الله رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عبد اللہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "awlad_e_rasulullah_006",
+          "order": 6,
+          "type": "entry",
+          "number": 6,
+          "text": {
+            "en": "Hazrat Bibi Fatima tuz Zahra سَلَامُ اللّٰهِ عَلَیْهَا",
+            "gu": "હજરત બીબી ફાતિમા તુજ જહરા سَلَامُ اللّٰهِ عَلَیْهَا",
+            "hi": "हज़रत बीबी फातिमा तुज जहरा سَلَامُ اللّٰهِ عَلَیْهَا",
+            "sw": "Hadhrat Bibi Fatima tuz Zahra سَلَامُ اللّٰهِ عَلَیْهَا",
+            "ar": "حضرة بيبي فاطمة الزهراء سَلَامُ اللّٰهِ عَلَیْهَا",
+            "ur": "حضرت بیبی فاطمہ الزہراء سَلَامُ اللّٰهِ عَلَیْهَا"
+          }
+        },
+        {
+          "id": "awlad_e_rasulullah_007",
+          "order": 7,
+          "type": "entry",
+          "number": 7,
+          "text": {
+            "en": "Hazrat Ibrahim رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ઇબ્રાહીમ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत इब्राहीम رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Ibrahim رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة إبراهيم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت ابراہیم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "alqab_e_sayyida_bibi_fatima",
+      "number": 5,
+      "source_file": "alkabe_bibifatima.xml",
+      "title": {
+        "en": "Alqab-e-Sayyida Bibi Fatima",
+        "gu": "અલકાબ-એ-સૈયદા બીબી ફાતિમા",
+        "hi": "अलकाब-ए-सैयदा बीबी फातिमा",
+        "sw": "Majina ya Sifa ya Sayyida Bibi Fatima",
+        "ar": "ألقاب السيدة بيبي فاطمة",
+        "ur": "القابِ سیدہ بی بی فاطمہ"
+      },
+      "heading": {
+        "en": "Alqab-e-Sayyida Bibi Fatima سَلَامُ اللّٰهِ عَلَیْهَا",
+        "gu": "અલકાબ-એ-સૈયદા બીબી ફાતિમા سَلَامُ اللّٰهِ عَلَیْهَا",
+        "hi": "अलकाब-ए-सैयदा बीबी फातिमा سَلَامُ اللّٰهِ عَلَیْهَا",
+        "sw": "Majina ya Sifa ya Sayyida Bibi Fatima سَلَامُ اللّٰهِ عَلَیْهَا",
+        "ar": "ألقاب السيدة بيبي فاطمة سَلَامُ اللّٰهِ عَلَیْهَا",
+        "ur": "القابِ سیدہ بی بی فاطمہ سَلَامُ اللّٰهِ عَلَیْهَا"
+      },
+      "entries": [
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_001",
+          "order": 1,
+          "type": "entry",
+          "number": 1,
+          "text": {
+            "en": "Fatima سَلَامُ اللّٰهِ عَلَیْهَا",
+            "gu": "ફાતિમા سَلَامُ اللّٰهِ عَلَیْهَا",
+            "hi": "फातिमा سَلَامُ اللّٰهِ عَلَیْهَا",
+            "sw": "Fatima سَلَامُ اللّٰهِ عَلَیْهَا",
+            "ar": "فاطمة سَلَامُ اللّٰهِ عَلَیْهَا",
+            "ur": "فاطمہ سَلَامُ اللّٰهِ عَلَیْهَا"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_002",
+          "order": 2,
+          "type": "entry",
+          "number": 2,
+          "text": {
+            "en": "Sayyida Kulli Nisa-il-Jannah",
+            "gu": "સૈયદા કુલ્લી નિસા-ઇલ-જન્નહ",
+            "hi": "सैयदा कुल्ली निसा-इल-जन्नह",
+            "sw": "Sayyida Kulli Nisa-il-Jannah",
+            "ar": "سيدة كل نساء الجنة",
+            "ur": "سیدہ کل نساء الجنہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_003",
+          "order": 3,
+          "type": "entry",
+          "number": 3,
+          "text": {
+            "en": "Az-Zahra",
+            "gu": "અજ઼્-જ઼હરા",
+            "hi": "अज़्-ज़हरा",
+            "sw": "Az-Zahra",
+            "ar": "الزهراء",
+            "ur": "الزہراء"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_004",
+          "order": 4,
+          "type": "entry",
+          "number": 4,
+          "text": {
+            "en": "Batul",
+            "gu": "બતૂલ",
+            "hi": "बतूल",
+            "sw": "Batul",
+            "ar": "بتول",
+            "ur": "بتول"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_005",
+          "order": 5,
+          "type": "entry",
+          "number": 5,
+          "text": {
+            "en": "Sayyida",
+            "gu": "સૈયદા",
+            "hi": "सैयदा",
+            "sw": "Sayyida",
+            "ar": "سيدة",
+            "ur": "سیدہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_006",
+          "order": 6,
+          "type": "entry",
+          "number": 6,
+          "text": {
+            "en": "Ma'sumah",
+            "gu": "માસૂમાહ",
+            "hi": "मासूमाह",
+            "sw": "Ma'sumah",
+            "ar": "معصومة",
+            "ur": "معصومہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_007",
+          "order": 7,
+          "type": "entry",
+          "number": 7,
+          "text": {
+            "en": "Marhumah",
+            "gu": "મર્હુમા",
+            "hi": "मर्हुमा",
+            "sw": "Marhumah",
+            "ar": "مرحومة",
+            "ur": "مرحومہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_008",
+          "order": 8,
+          "type": "entry",
+          "number": 8,
+          "text": {
+            "en": "Musturah",
+            "gu": "મુસ્તુરાહ",
+            "hi": "मुस्तुराह",
+            "sw": "Musturah",
+            "ar": "مستورة",
+            "ur": "مستورہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_009",
+          "order": 9,
+          "type": "entry",
+          "number": 9,
+          "text": {
+            "en": "Raki'ah",
+            "gu": "રાકિઆહ",
+            "hi": "राकिआह",
+            "sw": "Raki'ah",
+            "ar": "راكعة",
+            "ur": "راکعہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_010",
+          "order": 10,
+          "type": "entry",
+          "number": 10,
+          "text": {
+            "en": "Sajida",
+            "gu": "સાજિદા",
+            "hi": "साजिदा",
+            "sw": "Sajida",
+            "ar": "ساجدة",
+            "ur": "ساجدہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_011",
+          "order": 11,
+          "type": "entry",
+          "number": 11,
+          "text": {
+            "en": "Saimah",
+            "gu": "સાઈમાહ",
+            "hi": "साईमाह",
+            "sw": "Saimah",
+            "ar": "صائمة",
+            "ur": "صائمہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_012",
+          "order": 12,
+          "type": "entry",
+          "number": 12,
+          "text": {
+            "en": "Saniyah",
+            "gu": "સાનીયાહ",
+            "hi": "सानीयाह",
+            "sw": "Saniyah",
+            "ar": "ثانية",
+            "ur": "ثانیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_013",
+          "order": 13,
+          "type": "entry",
+          "number": 13,
+          "text": {
+            "en": "Damiyah",
+            "gu": "દામિયાહ",
+            "hi": "दामियाह",
+            "sw": "Damiyah",
+            "ar": "دامية",
+            "ur": "دامیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_014",
+          "order": 14,
+          "type": "entry",
+          "number": 14,
+          "text": {
+            "en": "Mukhaddarah",
+            "gu": "મુખદ્દરાહ",
+            "hi": "मुखद्दराह",
+            "sw": "Mukhaddarah",
+            "ar": "مخدرة",
+            "ur": "مخدرہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_015",
+          "order": 15,
+          "type": "entry",
+          "number": 15,
+          "text": {
+            "en": "Zahidah",
+            "gu": "જ઼ાહિદાહ",
+            "hi": "ज़ाहिदाह",
+            "sw": "Zahidah",
+            "ar": "زاهدة",
+            "ur": "زاہدہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_016",
+          "order": 16,
+          "type": "entry",
+          "number": 16,
+          "text": {
+            "en": "Abidah",
+            "gu": "આબીદાહ",
+            "hi": "आबीदाह",
+            "sw": "Abidah",
+            "ar": "عابدة",
+            "ur": "عابدہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_017",
+          "order": 17,
+          "type": "entry",
+          "number": 17,
+          "text": {
+            "en": "Waliyyah",
+            "gu": "વલિય્યા",
+            "hi": "वलिय्या",
+            "sw": "Waliyyah",
+            "ar": "ولية",
+            "ur": "ولیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_018",
+          "order": 18,
+          "type": "entry",
+          "number": 17,
+          "text": {
+            "en": "Waliyyah",
+            "gu": "વલિય્યા",
+            "hi": "वलिय्या",
+            "sw": "Waliyyah",
+            "ar": "ولية",
+            "ur": "ولیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_019",
+          "order": 19,
+          "type": "entry",
+          "number": 19,
+          "text": {
+            "en": "Baqiyyah",
+            "gu": "બાકિય્યાહ",
+            "hi": "बाकिय्याह",
+            "sw": "Baqiyyah",
+            "ar": "باقية",
+            "ur": "باقیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_020",
+          "order": 20,
+          "type": "entry",
+          "number": 20,
+          "text": {
+            "en": "Adfiyyah",
+            "gu": "અદ્ફીય્યા",
+            "hi": "अद्फीय्या",
+            "sw": "Adfiyyah",
+            "ar": "أدفية",
+            "ur": "ادفیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_021",
+          "order": 21,
+          "type": "entry",
+          "number": 21,
+          "text": {
+            "en": "Taqiyyah",
+            "gu": "તકીય્યા",
+            "hi": "तकीय्या",
+            "sw": "Taqiyyah",
+            "ar": "تقية",
+            "ur": "تقیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_022",
+          "order": 22,
+          "type": "entry",
+          "number": 22,
+          "text": {
+            "en": "Zakiyyah",
+            "gu": "જ઼કીય્યા",
+            "hi": "ज़कीय्या",
+            "sw": "Zakiyyah",
+            "ar": "زكية",
+            "ur": "زکیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_023",
+          "order": 23,
+          "type": "entry",
+          "number": 23,
+          "text": {
+            "en": "Radiyyah",
+            "gu": "રદીય્યાહ",
+            "hi": "रदीय्याह",
+            "sw": "Radiyyah",
+            "ar": "رضية",
+            "ur": "رضیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_024",
+          "order": 24,
+          "type": "entry",
+          "number": 24,
+          "text": {
+            "en": "Mardiyyah",
+            "gu": "મરદીયાહ",
+            "hi": "मरदीयाह",
+            "sw": "Mardiyyah",
+            "ar": "مرضية",
+            "ur": "مرضیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_025",
+          "order": 25,
+          "type": "entry",
+          "number": 25,
+          "text": {
+            "en": "Hulliyah",
+            "gu": "હુલ્લિયાહ",
+            "hi": "हुल्लियाह",
+            "sw": "Hulliyah",
+            "ar": "حلية",
+            "ur": "حلیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_026",
+          "order": 26,
+          "type": "entry",
+          "number": 26,
+          "text": {
+            "en": "Aliyyah",
+            "gu": "અલીય્યા",
+            "hi": "अलीय्या",
+            "sw": "Aliyyah",
+            "ar": "علية",
+            "ur": "علیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_027",
+          "order": 27,
+          "type": "entry",
+          "number": 27,
+          "text": {
+            "en": "Safiyyah",
+            "gu": "સફીય્યા",
+            "hi": "सफीय्या",
+            "sw": "Safiyyah",
+            "ar": "صفية",
+            "ur": "صفیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_028",
+          "order": 28,
+          "type": "entry",
+          "number": 28,
+          "text": {
+            "en": "Salimah",
+            "gu": "સલીમાહ",
+            "hi": "सलीमाह",
+            "sw": "Salimah",
+            "ar": "سليمة",
+            "ur": "سلیمہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_029",
+          "order": 29,
+          "type": "entry",
+          "number": 29,
+          "text": {
+            "en": "Halima",
+            "gu": "હલીમા",
+            "hi": "हलीमा",
+            "sw": "Halima",
+            "ar": "حليمة",
+            "ur": "حلیمہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_030",
+          "order": 30,
+          "type": "entry",
+          "number": 30,
+          "text": {
+            "en": "Raqiyyah",
+            "gu": "રકીય્યાહ",
+            "hi": "रकीय्याह",
+            "sw": "Raqiyyah",
+            "ar": "رقية",
+            "ur": "رقیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_031",
+          "order": 31,
+          "type": "entry",
+          "number": 31,
+          "text": {
+            "en": "Hakima",
+            "gu": "હકીમા",
+            "hi": "हकीमा",
+            "sw": "Hakima",
+            "ar": "حكيمة",
+            "ur": "حکیمہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_032",
+          "order": 32,
+          "type": "entry",
+          "number": 32,
+          "text": {
+            "en": "Hasibah",
+            "gu": "હસીબાહ",
+            "hi": "हसीबाह",
+            "sw": "Hasibah",
+            "ar": "حسيبة",
+            "ur": "حسیبہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_033",
+          "order": 33,
+          "type": "entry",
+          "number": 33,
+          "text": {
+            "en": "Nasibah",
+            "gu": "નસીબાહ",
+            "hi": "नसीबाह",
+            "sw": "Nasibah",
+            "ar": "نسيبة",
+            "ur": "نسیبہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_034",
+          "order": 34,
+          "type": "entry",
+          "number": 34,
+          "text": {
+            "en": "Jamilah",
+            "gu": "જમીલાહ",
+            "hi": "जमीलाह",
+            "sw": "Jamilah",
+            "ar": "جميلة",
+            "ur": "جمیلہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_035",
+          "order": 35,
+          "type": "entry",
+          "number": 35,
+          "text": {
+            "en": "Jalilah",
+            "gu": "જલિલાહ",
+            "hi": "जलिलाह",
+            "sw": "Jalilah",
+            "ar": "جليلة",
+            "ur": "جلیلہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_036",
+          "order": 36,
+          "type": "entry",
+          "number": 36,
+          "text": {
+            "en": "Habibah",
+            "gu": "હબીબાહ",
+            "hi": "हबीबाह",
+            "sw": "Habibah",
+            "ar": "حبيبة",
+            "ur": "حبیبہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_037",
+          "order": 37,
+          "type": "entry",
+          "number": 37,
+          "text": {
+            "en": "Hasaniyyah",
+            "gu": "હસનીય્યાહ",
+            "hi": "हसनीय्याह",
+            "sw": "Hasaniyyah",
+            "ar": "حسنية",
+            "ur": "حسنیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_038",
+          "order": 38,
+          "type": "entry",
+          "number": 38,
+          "text": {
+            "en": "Mushfiqa",
+            "gu": "મુશ્ફિકા",
+            "hi": "मुश्फिका",
+            "sw": "Mushfiqa",
+            "ar": "مشفقة",
+            "ur": "مشفقہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_039",
+          "order": 39,
+          "type": "entry",
+          "number": 39,
+          "text": {
+            "en": "Saliha",
+            "gu": "સાલિહા",
+            "hi": "सालिहा",
+            "sw": "Saliha",
+            "ar": "صالحة",
+            "ur": "صالحہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_040",
+          "order": 40,
+          "type": "entry",
+          "number": 40,
+          "text": {
+            "en": "Sabiha",
+            "gu": "સબીહા",
+            "hi": "सबीहा",
+            "sw": "Sabiha",
+            "ar": "صبيحة",
+            "ur": "صبیحہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_041",
+          "order": 41,
+          "type": "entry",
+          "number": 41,
+          "text": {
+            "en": "Musabbiha",
+            "gu": "મુસબ્બીહા",
+            "hi": "मुसब्बीहा",
+            "sw": "Musabbiha",
+            "ar": "مسبحة",
+            "ur": "مسبحہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_042",
+          "order": 42,
+          "type": "entry",
+          "number": 42,
+          "text": {
+            "en": "Majdidah",
+            "gu": "મજ્દીદાહ",
+            "hi": "मज्दीदाह",
+            "sw": "Majdidah",
+            "ar": "مجددة",
+            "ur": "مجددہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_043",
+          "order": 43,
+          "type": "entry",
+          "number": 43,
+          "text": {
+            "en": "Muhammadah",
+            "gu": "મુહમ્મદાહ",
+            "hi": "मुहम्मदाह",
+            "sw": "Muhammadah",
+            "ar": "محمدة",
+            "ur": "محمدہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_044",
+          "order": 44,
+          "type": "entry",
+          "number": 44,
+          "text": {
+            "en": "Musahhilah",
+            "gu": "મુસહ્હીલાહ",
+            "hi": "मुसह्हीलाह",
+            "sw": "Musahhilah",
+            "ar": "مسهلة",
+            "ur": "مسہلہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_045",
+          "order": 45,
+          "type": "entry",
+          "number": 45,
+          "text": {
+            "en": "Mukabbirah",
+            "gu": "મુકબ્બીરાહ",
+            "hi": "मुकब्बीराह",
+            "sw": "Mukabbirah",
+            "ar": "مكبرة",
+            "ur": "مکبرہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_046",
+          "order": 46,
+          "type": "entry",
+          "number": 46,
+          "text": {
+            "en": "Qariyah",
+            "gu": "કારીયાહ",
+            "hi": "कारीयाह",
+            "sw": "Qariyah",
+            "ar": "قارية",
+            "ur": "قاریہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_047",
+          "order": 47,
+          "type": "entry",
+          "number": 47,
+          "text": {
+            "en": "Jariya",
+            "gu": "જરીયા",
+            "hi": "जरीया",
+            "sw": "Jariya",
+            "ar": "جارية",
+            "ur": "جاریہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_048",
+          "order": 48,
+          "type": "entry",
+          "number": 48,
+          "text": {
+            "en": "Mumajjidah",
+            "gu": "મુમજ્જીદાહ",
+            "hi": "मुमज्जीदाह",
+            "sw": "Mumajjidah",
+            "ar": "ممجدة",
+            "ur": "ممجدہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_049",
+          "order": 49,
+          "type": "entry",
+          "number": 49,
+          "text": {
+            "en": "Fazilah",
+            "gu": "ફાજિલાહ",
+            "hi": "फाजिलाह",
+            "sw": "Fazilah",
+            "ar": "فاضلة",
+            "ur": "فاضلہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_050",
+          "order": 50,
+          "type": "entry",
+          "number": 50,
+          "text": {
+            "en": "Wasilah",
+            "gu": "વસિલાહ",
+            "hi": "वसिलाह",
+            "sw": "Wasilah",
+            "ar": "واصلة",
+            "ur": "واصلہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_051",
+          "order": 51,
+          "type": "entry",
+          "number": 51,
+          "text": {
+            "en": "Nasibah",
+            "gu": "નસીબાહ",
+            "hi": "नसीबाह",
+            "sw": "Nasibah",
+            "ar": "نسيبة",
+            "ur": "نسیبہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_052",
+          "order": 52,
+          "type": "entry",
+          "number": 52,
+          "text": {
+            "en": "Najibah",
+            "gu": "નજીબાહ",
+            "hi": "नजीबाह",
+            "sw": "Najibah",
+            "ar": "نجيبة",
+            "ur": "نجیبہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_053",
+          "order": 53,
+          "type": "entry",
+          "number": 53,
+          "text": {
+            "en": "Sharifa",
+            "gu": "શરીફા",
+            "hi": "शरीफा",
+            "sw": "Sharifa",
+            "ar": "شريفة",
+            "ur": "شریفہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_054",
+          "order": 54,
+          "type": "entry",
+          "number": 54,
+          "text": {
+            "en": "Karima",
+            "gu": "કરીમા",
+            "hi": "करीमा",
+            "sw": "Karima",
+            "ar": "كريمة",
+            "ur": "کریمہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_055",
+          "order": 55,
+          "type": "entry",
+          "number": 55,
+          "text": {
+            "en": "Mukarrama",
+            "gu": "મુકર્રમા",
+            "hi": "मुकर्रमा",
+            "sw": "Mukarrama",
+            "ar": "مكرمة",
+            "ur": "مکرمہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_056",
+          "order": 56,
+          "type": "entry",
+          "number": 56,
+          "text": {
+            "en": "Alimah",
+            "gu": "અલીમાહ",
+            "hi": "अलीमाह",
+            "sw": "Alimah",
+            "ar": "عليمة",
+            "ur": "علیمہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_057",
+          "order": 57,
+          "type": "entry",
+          "number": 57,
+          "text": {
+            "en": "Fatiha",
+            "gu": "ફાતિહા",
+            "hi": "फातिहा",
+            "sw": "Fatiha",
+            "ar": "فاتحة",
+            "ur": "فاتحہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_058",
+          "order": 58,
+          "type": "entry",
+          "number": 58,
+          "text": {
+            "en": "Muhtaramah",
+            "gu": "મુહ્તરમાહ",
+            "hi": "मुह्तरमाह",
+            "sw": "Muhtaramah",
+            "ar": "محترمة",
+            "ur": "محترمہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_059",
+          "order": 59,
+          "type": "entry",
+          "number": 59,
+          "text": {
+            "en": "Mu'ammah",
+            "gu": "મુઅમ્માહ",
+            "hi": "मुअम्माह",
+            "sw": "Mu'ammah",
+            "ar": "معمة",
+            "ur": "معمہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_060",
+          "order": 60,
+          "type": "entry",
+          "number": 60,
+          "text": {
+            "en": "Mu'allamah",
+            "gu": "મુઅલ્લમાહ",
+            "hi": "मुअल्लमाह",
+            "sw": "Mu'allamah",
+            "ar": "معلمة",
+            "ur": "معلمہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_061",
+          "order": 61,
+          "type": "entry",
+          "number": 61,
+          "text": {
+            "en": "Da'iyah",
+            "gu": "દાઈયાહ",
+            "hi": "दाईयाह",
+            "sw": "Da'iyah",
+            "ar": "داعية",
+            "ur": "داعیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_062",
+          "order": 62,
+          "type": "entry",
+          "number": 62,
+          "text": {
+            "en": "Shafiyah",
+            "gu": "શફીયાહ",
+            "hi": "शफीयाह",
+            "sw": "Shafiyah",
+            "ar": "شافية",
+            "ur": "شافیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_063",
+          "order": 63,
+          "type": "entry",
+          "number": 63,
+          "text": {
+            "en": "Ummiyyah",
+            "gu": "ઉમ્મીય્યાહ",
+            "hi": "उम्मीय्याह",
+            "sw": "Ummiyyah",
+            "ar": "أمية",
+            "ur": "امیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_064",
+          "order": 64,
+          "type": "entry",
+          "number": 64,
+          "text": {
+            "en": "Tahiyyah",
+            "gu": "તહીય્યાહ",
+            "hi": "तहीय्याह",
+            "sw": "Tahiyyah",
+            "ar": "تحية",
+            "ur": "تحیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_065",
+          "order": 65,
+          "type": "entry",
+          "number": 65,
+          "text": {
+            "en": "Nasihah",
+            "gu": "નસીહાહ",
+            "hi": "नसीहाह",
+            "sw": "Nasihah",
+            "ar": "نصيحة",
+            "ur": "نصیحہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_066",
+          "order": 66,
+          "type": "entry",
+          "number": 66,
+          "text": {
+            "en": "Rajihah",
+            "gu": "રજીહાહ",
+            "hi": "रजीहाह",
+            "sw": "Rajihah",
+            "ar": "راجحة",
+            "ur": "راجحہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_067",
+          "order": 67,
+          "type": "entry",
+          "number": 67,
+          "text": {
+            "en": "Wahiyyah",
+            "gu": "વહીય્યાહ",
+            "hi": "वहीय्याह",
+            "sw": "Wahiyyah",
+            "ar": "وحية",
+            "ur": "وحیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_068",
+          "order": 68,
+          "type": "entry",
+          "number": 68,
+          "text": {
+            "en": "Shahiyyah",
+            "gu": "શાહીય્યાહ",
+            "hi": "शाहीय्याह",
+            "sw": "Shahiyyah",
+            "ar": "شاهية",
+            "ur": "شاہیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_069",
+          "order": 69,
+          "type": "entry",
+          "number": 69,
+          "text": {
+            "en": "Jahida",
+            "gu": "જાહિદા",
+            "hi": "जाहिदा",
+            "sw": "Jahida",
+            "ar": "جاهدة",
+            "ur": "جاہدہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_070",
+          "order": 70,
+          "type": "entry",
+          "number": 70,
+          "text": {
+            "en": "Raqiyah",
+            "gu": "રકિયાહ",
+            "hi": "रकियाह",
+            "sw": "Raqiyah",
+            "ar": "راقية",
+            "ur": "راقیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_071",
+          "order": 71,
+          "type": "entry",
+          "number": 71,
+          "text": {
+            "en": "Nasiyah",
+            "gu": "નસિયાહ",
+            "hi": "नसियाह",
+            "sw": "Nasiyah",
+            "ar": "ناسية",
+            "ur": "ناسیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_072",
+          "order": 72,
+          "type": "entry",
+          "number": 72,
+          "text": {
+            "en": "Awsiyah",
+            "gu": "અવસિયાહ",
+            "hi": "अवसियाह",
+            "sw": "Awsiyah",
+            "ar": "أوسية",
+            "ur": "اوسیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_073",
+          "order": 73,
+          "type": "entry",
+          "number": 73,
+          "text": {
+            "en": "Mujtahidah",
+            "gu": "મુજતહીદાહ",
+            "hi": "मुजतहीदाह",
+            "sw": "Mujtahidah",
+            "ar": "مجتهدة",
+            "ur": "مجتہدہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_074",
+          "order": 74,
+          "type": "entry",
+          "number": 74,
+          "text": {
+            "en": "Khawirah",
+            "gu": "ખવીરાહ",
+            "hi": "खवीराह",
+            "sw": "Khawirah",
+            "ar": "خويرة",
+            "ur": "خویرہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_075",
+          "order": 75,
+          "type": "entry",
+          "number": 75,
+          "text": {
+            "en": "Khadira",
+            "gu": "ખદીરા",
+            "hi": "खदीरा",
+            "sw": "Khadira",
+            "ar": "خديرة",
+            "ur": "خدیرہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_076",
+          "order": 76,
+          "type": "entry",
+          "number": 76,
+          "text": {
+            "en": "Waqiyah",
+            "gu": "વાકિયાહ",
+            "hi": "वाकियाह",
+            "sw": "Waqiyah",
+            "ar": "واقية",
+            "ur": "واقیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_077",
+          "order": 77,
+          "type": "entry",
+          "number": 77,
+          "text": {
+            "en": "Dafiyah",
+            "gu": "દાફિયાહ",
+            "hi": "दाफियाह",
+            "sw": "Dafiyah",
+            "ar": "دافية",
+            "ur": "دافیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_078",
+          "order": 78,
+          "type": "entry",
+          "number": 78,
+          "text": {
+            "en": "Sahibah",
+            "gu": "સાહીબાહ",
+            "hi": "साहीबाह",
+            "sw": "Sahibah",
+            "ar": "صاحبة",
+            "ur": "صاحبہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_079",
+          "order": 79,
+          "type": "entry",
+          "number": 79,
+          "text": {
+            "en": "Hawirah",
+            "gu": "હાવિરાહ",
+            "hi": "हाविराह",
+            "sw": "Hawirah",
+            "ar": "حاورة",
+            "ur": "حاورہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_080",
+          "order": 80,
+          "type": "entry",
+          "number": 80,
+          "text": {
+            "en": "Wajidah",
+            "gu": "વાજિદાહ",
+            "hi": "वाजिदाह",
+            "sw": "Wajidah",
+            "ar": "واجدة",
+            "ur": "واجدہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_081",
+          "order": 81,
+          "type": "entry",
+          "number": 81,
+          "text": {
+            "en": "Aqibah",
+            "gu": "આકીબાહ",
+            "hi": "आकीबाह",
+            "sw": "Aqibah",
+            "ar": "عاقبة",
+            "ur": "عاقبہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_082",
+          "order": 82,
+          "type": "entry",
+          "number": 82,
+          "text": {
+            "en": "Samiyah",
+            "gu": "સામિયાહ",
+            "hi": "सामियाह",
+            "sw": "Samiyah",
+            "ar": "سامية",
+            "ur": "سامیہ"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_083",
+          "order": 83,
+          "type": "entry",
+          "number": 83,
+          "text": {
+            "en": "Nur",
+            "gu": "નુર",
+            "hi": "नुर",
+            "sw": "Nur",
+            "ar": "نور",
+            "ur": "نور"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_084",
+          "order": 84,
+          "type": "entry",
+          "number": 84,
+          "text": {
+            "en": "bint Nur",
+            "gu": "બિન્તે નુર",
+            "hi": "बिन्ते नुर",
+            "sw": "binti Nur",
+            "ar": "بنت نور",
+            "ur": "بنت نور"
+          }
+        },
+        {
+          "id": "alqab_e_sayyida_bibi_fatima_085",
+          "order": 85,
+          "type": "entry",
+          "number": 85,
+          "text": {
+            "en": "Bid'atu Rasulina Muhammad",
+            "gu": "બિદ્અતુ રસુલીના મુહમ્મદ",
+            "hi": "बिद्अतु रसुलीना मुहम्मद",
+            "sw": "Bid'atu Rasulina Muhammad",
+            "ar": "بضعة رسولنا محمد",
+            "ur": "بضعہ رسولنا محمد"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ashara_e_mubashshara",
+      "number": 6,
+      "source_file": "ashrae_mubashshira.xml",
+      "title": {
+        "en": "Ashara-e-Mubashshara",
+        "gu": "અશરા-એ-મુબશ્શીરા",
+        "hi": "अशरा-ए-मुबश्शीरा",
+        "sw": "Kumi Waliobashiriwa Pepo (Ashara-e-Mubashshara)",
+        "ar": "العشرة المبشرة بالجنة",
+        "ur": "عشرۂ مبشرہ"
+      },
+      "heading": {
+        "en": "Ashara-e-Mubashshara",
+        "gu": "અશરા-એ-મુબશ્શીરા",
+        "hi": "अशरा-ए-मुबश्शीरा",
+        "sw": "Kumi Waliobashiriwa Pepo (Ashara-e-Mubashshara)",
+        "ar": "العشرة المبشرة بالجنة",
+        "ur": "عشرۂ مبشرہ"
+      },
+      "entries": [
+        {
+          "id": "ashara_e_mubashshara_001",
+          "order": 1,
+          "type": "entry",
+          "number": 1,
+          "text": {
+            "en": "Amirul Mu'minin Sayyiduna Abu Bakr Siddiq رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "અમીરુલ મુઅમીનીન સૈયદના અબુ બકર સિદ્દીક رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "अमीरुल मुअमीनीन सैयदना अबु बकर सिद्दीक رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Amirul Mu'minin Sayyidina Abu Bakr Siddiq رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "أمير المؤمنين سيدنا أبو بكر الصديق رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "امیر المؤمنین سیدنا ابو بکر الصدیق رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "ashara_e_mubashshara_002",
+          "order": 2,
+          "type": "entry",
+          "number": 2,
+          "text": {
+            "en": "Amirul Mu'minin Sayyiduna Umar Faruq bin Khattab رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "અમીરુલ મુઅમીનીન સૈયદના ઉમર ફારુક બિન ખત્તાબ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "अमीरुल मुअमीनीन सैयदना उमर फारुक बिन खत्ताब رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Amirul Mu'minin Sayyidina Umar Faruq bin Khattab رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "أمير المؤمنين سيدنا عمر الفاروق بن الخطاب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "امیر المؤمنین سیدنا عمر الفاروق بن الخطاب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "ashara_e_mubashshara_003",
+          "order": 3,
+          "type": "entry",
+          "number": 3,
+          "text": {
+            "en": "Amirul Mu'minin Sayyiduna Uthman Ghani bin Affan رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "અમીરુલ મુઅમીનીન સૈયદના ઉસ્માન ગની બિન અફ્ફાન رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "अमीरुल मुअमीनीन सैयदना उस्मान गनी बिन अफ्फान رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Amirul Mu'minin Sayyidina Uthman Ghani bin Affan رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "أمير المؤمنين سيدنا عثمان الغني بن عفان رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "امیر المؤمنین سیدنا عثمان الغنی بن عفان رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "ashara_e_mubashshara_004",
+          "order": 4,
+          "type": "entry",
+          "number": 4,
+          "text": {
+            "en": "Amirul Mu'minin Sayyiduna Maula Ali bin Abu Talib رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "અમીરુલ મુઅમીનીન સૈયદના મૌલા અલી બિન અબુ તાલીબ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "अमीरुल मुअमीनीन सैयदना मौला अली बिन अबु तालीब رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Amirul Mu'minin Sayyidina Maula Ali bin Abu Talib رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "أمير المؤمنين سيدنا مولى علي بن أبي طالب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "امیر المؤمنین سیدنا مولی علی بن ابی طالب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "ashara_e_mubashshara_005",
+          "order": 5,
+          "type": "entry",
+          "number": 5,
+          "text": {
+            "en": "Hazrat Sayyiduna Talha bin Ubaidullah رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત સૈયદના તલ્હા બિન ઉબૈદુલ્લાહ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत सैयदना तल्हा बिन उबैदुल्लाह رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Sayyidina Talha bin Ubaidullah رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة سيدنا طلحة بن عبيد الله رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت سیدنا طلحہ بن عبید اللہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "ashara_e_mubashshara_006",
+          "order": 6,
+          "type": "entry",
+          "number": 6,
+          "text": {
+            "en": "Hazrat Sayyiduna Zubair bin Awwam رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત સૈયદના જ઼ુબૈર બિન અવ્વામ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत सैयदना ज़ुबैर बिन अव्वाम رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Sayyidina Zubair bin Awwam رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة سيدنا الزبير بن العوام رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت سیدنا الزبیر بن العوام رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "ashara_e_mubashshara_007",
+          "order": 7,
+          "type": "entry",
+          "number": 7,
+          "text": {
+            "en": "Hazrat Sayyiduna Abdur Rahman bin Auf رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત સૈયદના અબ્દુર્રહમાન બિન ઔફ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत सैयदना अब्दुर्रहमान बिन औफ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Sayyidina Abdur Rahman bin Auf رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة سيدنا عبد الرحمن بن عوف رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت سیدنا عبد الرحمن بن عوف رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "ashara_e_mubashshara_008",
+          "order": 8,
+          "type": "entry",
+          "number": 8,
+          "text": {
+            "en": "Hazrat Sayyiduna Sa'd bin Abi Waqqas رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત સૈયદના સાદ બિન અબી વક્કાસ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत सैयदना साद बिन अबी वक्कास رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Sayyidina Sa'd bin Abi Waqqas رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة سيدنا سعد بن أبي وقاص رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت سیدنا سعد بن ابی وقاص رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "ashara_e_mubashshara_009",
+          "order": 9,
+          "type": "entry",
+          "number": 9,
+          "text": {
+            "en": "Hazrat Sayyiduna Sa'id bin Zaid رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત સૈયદના સઈદ બિન જ઼ૈદ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत सैयदना सईद बिन ज़ैद رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Sayyidina Sa'id bin Zaid رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة سيدنا سعيد بن زيد رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت سیدنا سعید بن زید رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "ashara_e_mubashshara_010",
+          "order": 10,
+          "type": "entry",
+          "number": 10,
+          "text": {
+            "en": "Hazrat Sayyiduna Ubaidah bin al Jarrah رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત સૈયદના ઉબૈદાહ બિન અલ જર્રાહ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत सैयदना उबैदाह बिन अल जर्राह رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Sayyidina Ubaidah bin al Jarrah رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة سيدنا عبيدة بن الجراح رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت سیدنا عبیدہ بن الجراح رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shohada_e_karbala",
+      "number": 7,
+      "source_file": "shohdae_karbala.xml",
+      "title": {
+        "en": "72 Shohada-e-Karbala",
+        "gu": "72 શોહદા-એ-કરબલા",
+        "hi": "72 शोहदा-ए-करबला",
+        "sw": "Mashahidi 72 wa Karbala",
+        "ar": "72 من شهداء كربلاء",
+        "ur": "72 شہدائے کربلا"
+      },
+      "heading": {
+        "en": "72 Shohada-e-Karbala",
+        "gu": "72 શોહદા-એ-કરબલા",
+        "hi": "72 शोहदा-ए-करबला",
+        "sw": "Mashahidi 72 wa Karbala",
+        "ar": "72 من شهداء كربلاء",
+        "ur": "72 شہدائے کربلا"
+      },
+      "entries": [
+        {
+          "id": "shohada_e_karbala_001",
+          "order": 1,
+          "type": "entry",
+          "number": 1,
+          "text": {
+            "en": "Hazrat Imam Husainؑ  ibn Aliؑ عَلَيْهِ السَّلَام",
+            "gu": "હજરત ઇમામ હુસૈનؑ  ઇબ્ને અલીؑ عَلَيْهِ السَّلَام",
+            "hi": "हज़रत इमाम हुसैनؑ  इब्ने अलीؑ عَلَيْهِ السَّلَام",
+            "sw": "Hadhrat Imamu Husainؑ  ibn Aliؑ عَلَيْهِ السَّلَام",
+            "ar": "حضرة الإمام الحسينؑ  ابن عليؑ عَلَيْهِ السَّلَام",
+            "ur": "حضرت الامام الحسینؑ  ابن علیؑ عَلَيْهِ السَّلَام"
+          },
+          "section_id": "descendants_abu_talib"
+        },
+        {
+          "id": "shohada_e_karbala_002",
+          "order": 2,
+          "type": "entry",
+          "number": 2,
+          "text": {
+            "en": "Hazrat Abbas Alamdar ibn Ali رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબ્બાસ અમલદાર ઇબ્ને અલી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अब्बास अमलदार इब्ने अली رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abbas Alamdar ibn Ali رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عباس علمدار ابن علي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عباس علمدار ابن علی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "descendants_abu_talib"
+        },
+        {
+          "id": "shohada_e_karbala_003",
+          "order": 3,
+          "type": "entry",
+          "number": 3,
+          "text": {
+            "en": "Hazrat Ali Akbar ibn Imam Husain عَلَيْهِ السَّلَام",
+            "gu": "હજરત અલી અકબર ઇબ્ને ઇમામ હુસૈન عَلَيْهِ السَّلَام",
+            "hi": "हज़रत अली अकबर इब्ने इमाम हुसैन عَلَيْهِ السَّلَام",
+            "sw": "Hadhrat Ali Akbar ibn Imamu Husain عَلَيْهِ السَّلَام",
+            "ar": "حضرة علي الأكبر ابن الإمام الحسين عَلَيْهِ السَّلَام",
+            "ur": "حضرت علی الاکبر ابن الامام الحسین عَلَيْهِ السَّلَام"
+          },
+          "section_id": "descendants_abu_talib"
+        },
+        {
+          "id": "shohada_e_karbala_004",
+          "order": 4,
+          "type": "entry",
+          "number": 4,
+          "text": {
+            "en": "Hazrat Ali Asghar ibn Imam Husain عَلَيْهِ السَّلَام",
+            "gu": "હજરત અલી અસગર ઇબ્ને ઇમામ હુસૈન عَلَيْهِ السَّلَام",
+            "hi": "हज़रत अली असगर इब्ने इमाम हुसैन عَلَيْهِ السَّلَام",
+            "sw": "Hadhrat Ali Asghar ibn Imamu Husain عَلَيْهِ السَّلَام",
+            "ar": "حضرة علي الأصغر ابن الإمام الحسين عَلَيْهِ السَّلَام",
+            "ur": "حضرت علی الاصغر ابن الامام الحسین عَلَيْهِ السَّلَام"
+          },
+          "section_id": "descendants_abu_talib"
+        },
+        {
+          "id": "shohada_e_karbala_005",
+          "order": 5,
+          "type": "entry",
+          "number": 5,
+          "text": {
+            "en": "Hazrat Abdullah ibn Ali رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબ્દુલ્લાહ ઇબ્ને અલી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अब्दुल्लाह इब्ने अली رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abdullah ibn Ali رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عبد الله ابن علي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عبد اللہ ابن علی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "descendants_abu_talib"
+        },
+        {
+          "id": "shohada_e_karbala_006",
+          "order": 6,
+          "type": "entry",
+          "number": 6,
+          "text": {
+            "en": "Hazrat Ja'far ibn Ali رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત જાફર ઇબ્ને અલી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत जाफर इब्ने अली رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Ja'far ibn Ali رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة جعفر ابن علي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت جعفر ابن علی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "descendants_abu_talib"
+        },
+        {
+          "id": "shohada_e_karbala_007",
+          "order": 7,
+          "type": "entry",
+          "number": 7,
+          "text": {
+            "en": "Hazrat Uthman ibn Ali رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ઉસ્માન ઇબ્ને અલી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत उस्मान इब्ने अली رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Uthman ibn Ali رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عثمان ابن علي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عثمان ابن علی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "descendants_abu_talib"
+        },
+        {
+          "id": "shohada_e_karbala_008",
+          "order": 8,
+          "type": "entry",
+          "number": 8,
+          "text": {
+            "en": "Hazrat Abu Bakr ibn Ali رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબુબક્ર ઇબ્ને અલી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अबुबक्र इब्ने अली رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abu Bakr ibn Ali رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة أبو بكر ابن علي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت ابو بکر ابن علی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "descendants_abu_talib"
+        },
+        {
+          "id": "shohada_e_karbala_009",
+          "order": 9,
+          "type": "entry",
+          "number": 9,
+          "text": {
+            "en": "Hazrat Abu Bakr ibn Hasan ibn Ali رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબુબક્ર ઇબ્ને હસન ઇબ્નેે અલી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अबुबक्र इब्ने हसन इब्नेे अली رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abu Bakr ibn Hasan ibn Ali رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة أبو بكر ابن الحسن ابن علي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت ابو بکر ابن الحسن ابن علی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "descendants_abu_talib"
+        },
+        {
+          "id": "shohada_e_karbala_010",
+          "order": 10,
+          "type": "entry",
+          "number": 10,
+          "text": {
+            "en": "Hazrat Qasim ibn Hasan ibn Ali رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત કાસિમ ઇબ્ને હસન ઇબ્નેે અલી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत कासिम इब्ने हसन इब्नेे अली رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Qasim ibn Hasan ibn Ali رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة قاسم ابن الحسن ابن علي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت قاسم ابن الحسن ابن علی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "descendants_abu_talib"
+        },
+        {
+          "id": "shohada_e_karbala_011",
+          "order": 11,
+          "type": "entry",
+          "number": 11,
+          "text": {
+            "en": "Hazrat Abdullah ibn Hasan رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબ્દુલ્લાહ ઇબ્ને હસન رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अब्दुल्लाह इब्ने हसन رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abdullah ibn Hasan رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عبد الله ابن الحسن رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عبد اللہ ابن الحسن رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "descendants_abu_talib"
+        },
+        {
+          "id": "shohada_e_karbala_012",
+          "order": 12,
+          "type": "entry",
+          "number": 12,
+          "text": {
+            "en": "Hazrat Awn ibn Abdullah ibn Ja'far رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ઔન ઇબ્ને અબ્દુલ્લાહ ઇબ્ને જાફર رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत औन इब्ने अब्दुल्लाह इब्ने जाफर رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Awn ibn Abdullah ibn Ja'far رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عون ابن عبد الله ابن جعفر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عون ابن عبد اللہ ابن جعفر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "descendants_abu_talib"
+        },
+        {
+          "id": "shohada_e_karbala_013",
+          "order": 13,
+          "type": "entry",
+          "number": 13,
+          "text": {
+            "en": "Hazrat Muhammad ibn Abdullah ibn Ja'far رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત મુહમ્મદ ઇબ્ને અબ્દુલ્લાહ ઇબ્ને જાફર رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत मुहम्मद इब्ने अब्दुल्लाह इब्ने जाफर رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Muhammad ibn Abdullah ibn Ja'far رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة محمد ابن عبد الله ابن جعفر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت محمد ابن عبد اللہ ابن جعفر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "descendants_abu_talib"
+        },
+        {
+          "id": "shohada_e_karbala_014",
+          "order": 14,
+          "type": "entry",
+          "number": 14,
+          "text": {
+            "en": "Hazrat Abdullah ibn Muslim ibn Aqil رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબ્દુલ્લાહ ઇબ્ને મુસ્લિમ ઇબ્ને અકીલ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अब्दुल्लाह इब्ने मुस्लिम इब्ने अकील رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abdullah ibn Muslim ibn Aqil رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عبد الله ابن مسلم ابن عقيل رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عبد اللہ ابن مسلم ابن عقیل رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "descendants_abu_talib"
+        },
+        {
+          "id": "shohada_e_karbala_015",
+          "order": 15,
+          "type": "entry",
+          "number": 15,
+          "text": {
+            "en": "Hazrat Muhammad ibn Muslim رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત મુહમ્મદ ઇબ્ને મુસ્લિમ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत मुहम्मद इब्ने मुस्लिम رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Muhammad ibn Muslim رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة محمد ابن مسلم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت محمد ابن مسلم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "descendants_abu_talib"
+        },
+        {
+          "id": "shohada_e_karbala_016",
+          "order": 16,
+          "type": "entry",
+          "number": 16,
+          "text": {
+            "en": "Hazrat Muhammad ibn Sa'id ibn Aqil رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત મુહમ્મદ ઇબ્ને સઈદ ઇબ્ને અકીલ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत मुहम्मद इब्ने सईद इब्ने अकील رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Muhammad ibn Sa'id ibn Aqil رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة محمد ابن سعيد ابن عقيل رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت محمد ابن سعید ابن عقیل رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "descendants_abu_talib"
+        },
+        {
+          "id": "shohada_e_karbala_017",
+          "order": 17,
+          "type": "entry",
+          "number": 17,
+          "text": {
+            "en": "Hazrat Abdur Rahman ibn Aqil رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબ્દુર્રહમાન ઇબ્ને અકીલ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अब्दुर्रहमान इब्ने अकील رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abdur Rahman ibn Aqil رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عبد الرحمن ابن عقيل رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عبد الرحمن ابن عقیل رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "descendants_abu_talib"
+        },
+        {
+          "id": "shohada_e_karbala_018",
+          "order": 18,
+          "type": "entry",
+          "number": 18,
+          "text": {
+            "en": "Hazrat Ja'far ibn Aqil رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત જાફર ઇબ્ને અકીલ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत जाफर इब्ने अकील رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Ja'far ibn Aqil رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة جعفر ابن عقيل رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت جعفر ابن عقیل رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "descendants_abu_talib"
+        },
+        {
+          "id": "shohada_e_karbala_019",
+          "order": 19,
+          "type": "entry",
+          "number": 19,
+          "text": {
+            "en": "Hazrat Uns ibn Hars Asadi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ઉન્સ ઇબ્ને હર્સ અસદી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत उन्स इब्ने हर्स असदी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Uns ibn Hars Asadi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة أنس ابن الحارث الأسدي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت انس ابن الحارث الاسدی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "bani_asad"
+        },
+        {
+          "id": "shohada_e_karbala_020",
+          "order": 20,
+          "type": "entry",
+          "number": 20,
+          "text": {
+            "en": "Hazrat Habib ibn Mazahir Asadi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત હબીબ ઇબ્ને મજાહીર અસદી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत हबीब इब्ने मजाहीर असदी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Habib ibn Mazahir Asadi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة حبيب ابن مظاهر الأسدي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت حبیب ابن مظاہر الاسدی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "bani_asad"
+        },
+        {
+          "id": "shohada_e_karbala_021",
+          "order": 21,
+          "type": "entry",
+          "number": 21,
+          "text": {
+            "en": "Hazrat Muslim ibn Awsaja Asadi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત મુસ્લિમ ઇબ્ને ઔસજા અસદી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत मुस्लिम इब्ने औसजा असदी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Muslim ibn Awsaja Asadi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة مسلم ابن عوسجة الأسدي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت مسلم ابن عوسجہ الاسدی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "bani_asad"
+        },
+        {
+          "id": "shohada_e_karbala_022",
+          "order": 22,
+          "type": "entry",
+          "number": 22,
+          "text": {
+            "en": "Hazrat Qais ibn Mushir Asadi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત કૈસ ઇબ્ને મશર અસદી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत कैस इब्ने मशर असदी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Qais ibn Mushir Asadi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة قيس ابن مسهر الأسدي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت قیس ابن مسہر الاسدی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "bani_asad"
+        },
+        {
+          "id": "shohada_e_karbala_023",
+          "order": 23,
+          "type": "entry",
+          "number": 23,
+          "text": {
+            "en": "Hazrat Abu Thumama Amr ibn Abdullah رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબુ સમામા ઉમરૂ ઇબ્ને અબ્દુલ્લાહ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अबु समामा उमरू इब्ने अब्दुल्लाह رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abu Thumama Amr ibn Abdullah رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة أبو ثمامة عمرو ابن عبد الله رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت ابو ثمامہ عمرو ابن عبد اللہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "bani_asad"
+        },
+        {
+          "id": "shohada_e_karbala_024",
+          "order": 24,
+          "type": "entry",
+          "number": 24,
+          "text": {
+            "en": "Hazrat Burair Hamdani رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત બુરીર હમદાની رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत बुरीर हमदानी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Burair Hamdani رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة برير الهمداني رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت بریر الہمدانی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "bani_asad"
+        },
+        {
+          "id": "shohada_e_karbala_025",
+          "order": 25,
+          "type": "entry",
+          "number": 25,
+          "text": {
+            "en": "Hazrat Hanzala ibn Asad رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત હનાલા ઇબ્ને અસદ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत हनाला इब्ने असद رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Hanzala ibn Asad رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة حنظلة ابن أسد رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت حنظلہ ابن اسد رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "bani_asad"
+        },
+        {
+          "id": "shohada_e_karbala_026",
+          "order": 26,
+          "type": "entry",
+          "number": 26,
+          "text": {
+            "en": "Hazrat Abis Shakiri رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત આબિસ શકરી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत आबिस शकरी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abis Shakiri رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عابس الشاكري رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عابس الشاکری رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "bani_asad"
+        },
+        {
+          "id": "shohada_e_karbala_027",
+          "order": 27,
+          "type": "entry",
+          "number": 27,
+          "text": {
+            "en": "Hazrat Abdur Rahman Rahbi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબ્દુર્રહમાન રહબી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अब्दुर्रहमान रहबी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abdur Rahman Rahbi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عبد الرحمن الأرحبي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عبد الرحمن الارحبی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "bani_asad"
+        },
+        {
+          "id": "shohada_e_karbala_028",
+          "order": 28,
+          "type": "entry",
+          "number": 28,
+          "text": {
+            "en": "Hazrat Saif ibn Hars رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત સૈફ ઇબ્ને હર્સ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत सैफ इब्ने हर्स رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Saif ibn Hars رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة سيف ابن الحارث رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت سیف ابن الحارث رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "bani_asad"
+        },
+        {
+          "id": "shohada_e_karbala_029",
+          "order": 29,
+          "type": "entry",
+          "number": 29,
+          "text": {
+            "en": "Hazrat Amir ibn Abdullah Hamdani رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત આમીર ઇબ્ને અબ્દુલ્લાહ હમદાની رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत आमीर इब्ने अब्दुल्लाह हमदानी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Amir ibn Abdullah Hamdani رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عامر ابن عبد الله الهمداني رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عامر ابن عبد اللہ الہمدانی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "bani_asad"
+        },
+        {
+          "id": "shohada_e_karbala_030",
+          "order": 30,
+          "type": "entry",
+          "number": 30,
+          "text": {
+            "en": "Hazrat Junada ibn Hars رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત જુનાદા ઇબ્ને હર્સ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत जुनादा इब्ने हर्स رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Junada ibn Hars رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة جنادة ابن الحارث رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت جنادہ ابن الحارث رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "jahbi"
+        },
+        {
+          "id": "shohada_e_karbala_031",
+          "order": 31,
+          "type": "entry",
+          "number": 31,
+          "text": {
+            "en": "Hazrat Majma' ibn Abdullah رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત મજમા ઇબ્ને અબ્દુલ્લાહ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत मजमा इब्ने अब्दुल्लाह رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Majma' ibn Abdullah رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة مجمع ابن عبد الله رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت مجمع ابن عبد اللہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "jahbi"
+        },
+        {
+          "id": "shohada_e_karbala_032",
+          "order": 32,
+          "type": "entry",
+          "number": 32,
+          "text": {
+            "en": "Hazrat Nafi' ibn Hilal رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત નફઈ ઇબ્ને હલાલ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत नफई इब्ने हलाल رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Nafi' ibn Hilal رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة نافع ابن هلال رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت نافع ابن ہلال رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "jahbi"
+        },
+        {
+          "id": "shohada_e_karbala_033",
+          "order": 33,
+          "type": "entry",
+          "number": 33,
+          "text": {
+            "en": "Hazrat Hajjaj ibn Masruq (Mu'adhdhin-e-Qafila-e-Karbala) رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત હજ્જાજ ઇબ્ને મસરુક (મોઅજ્જિને કાફલા-એ-કરબલા) رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत हज्जाज इब्ने मसरुक (मोअज्जिने काफला-ए-करबला) رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Hajjaj ibn Masruq (Mu'adhdhin-e-Qafila-e-Karbala) رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة الحجاج ابن مسروق (مؤذن قافلة كربلاء) رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت الحجاج ابن مسروق (مؤذن قافلہ کربلاء) رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "jahbi"
+        },
+        {
+          "id": "shohada_e_karbala_034",
+          "order": 34,
+          "type": "entry",
+          "number": 34,
+          "text": {
+            "en": "Hazrat Umar ibn Qarazah رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ઉમર ઇબ્ને કરજા رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत उमर इब्ने करजा رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Umar ibn Qarazah رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عمر ابن قرظة رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عمر ابن قرظہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "ansari"
+        },
+        {
+          "id": "shohada_e_karbala_035",
+          "order": 35,
+          "type": "entry",
+          "number": 35,
+          "text": {
+            "en": "Hazrat Abdur Rahman ibn Abd-e-Rabb رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબ્દુર્રહમાન ઇબ્ને અબ્દે રૂબ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अब्दुर्रहमान इब्ने अब्दे रूब رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abdur Rahman ibn Abd-e-Rabb رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عبد الرحمن ابن عبد رب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عبد الرحمن ابن عبد رب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "ansari"
+        },
+        {
+          "id": "shohada_e_karbala_036",
+          "order": 36,
+          "type": "entry",
+          "number": 36,
+          "text": {
+            "en": "Hazrat Junada ibn Ka'b رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત જૂનાદા ઇબ્ને કાબ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत जूनादा इब्ने काब رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Junada ibn Ka'b رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة جنادة ابن كعب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت جنادہ ابن کعب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "ansari"
+        },
+        {
+          "id": "shohada_e_karbala_037",
+          "order": 37,
+          "type": "entry",
+          "number": 37,
+          "text": {
+            "en": "Hazrat Amir ibn Junada رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અામીર ઇબ્ને જૂનાદા رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अामीर इब्ने जूनादा رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Amir ibn Junada رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عامر ابن جنادة رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عامر ابن جنادہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "ansari"
+        },
+        {
+          "id": "shohada_e_karbala_038",
+          "order": 38,
+          "type": "entry",
+          "number": 38,
+          "text": {
+            "en": "Hazrat Nu'aym ibn Ajlan رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત નઈમ ઇબ્ને અજ્લન رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत नईम इब्ने अज्लन رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Nu'aym ibn Ajlan رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة نعيم ابن عجلان رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت نعیم ابن عجلان رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "ansari"
+        },
+        {
+          "id": "shohada_e_karbala_039",
+          "order": 39,
+          "type": "entry",
+          "number": 39,
+          "text": {
+            "en": "Hazrat Sa'd ibn Hars رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત સાદ ઇબ્ને હર્સ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत साद इब्ने हर्स رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Sa'd ibn Hars رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة سعد ابن الحارث رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت سعد ابن الحارث رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "ansari"
+        },
+        {
+          "id": "shohada_e_karbala_040",
+          "order": 40,
+          "type": "entry",
+          "number": 40,
+          "text": {
+            "en": "Hazrat Zuhair ibn Qayn رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત જુહૈર ઇબ્ને કૈન رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत जुहैर इब्ने कैन رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Zuhair ibn Qayn رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة زهير ابن القين رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت زہیر ابن القین رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "bajali_khathami"
+        },
+        {
+          "id": "shohada_e_karbala_041",
+          "order": 41,
+          "type": "entry",
+          "number": 41,
+          "text": {
+            "en": "Hazrat Salman ibn Mazarib رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત સલમાન ઇબ્ને મજારીબ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत सलमान इब्ने मजारीब رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Salman ibn Mazarib رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة سلمان ابن مضارب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت سلمان ابن مضارب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "bajali_khathami"
+        },
+        {
+          "id": "shohada_e_karbala_042",
+          "order": 42,
+          "type": "entry",
+          "number": 42,
+          "text": {
+            "en": "Hazrat Sa'id ibn Umar رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત સઈદ ઇબ્ને ઉમર رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत सईद इब्ने उमर رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Sa'id ibn Umar رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة سعيد ابن عمر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت سعید ابن عمر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "bajali_khathami"
+        },
+        {
+          "id": "shohada_e_karbala_043",
+          "order": 43,
+          "type": "entry",
+          "number": 43,
+          "text": {
+            "en": "Hazrat Abdullah ibn Bashir رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબ્દુલ્લાહ ઇબ્ને બશીર رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अब्दुल्लाह इब्ने बशीर رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abdullah ibn Bashir رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عبد الله ابن بشير رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عبد اللہ ابن بشیر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "bajali_khathami"
+        },
+        {
+          "id": "shohada_e_karbala_044",
+          "order": 44,
+          "type": "entry",
+          "number": 44,
+          "text": {
+            "en": "Hazrat Yazid ibn Zaid Kindi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત યજીદ ઇબ્ને જૈદ કન્દી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत यजीद इब्ने जैद कन्दी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Yazid ibn Zaid Kindi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة يزيد ابن زيد الكندي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت یزید ابن زید الکندی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "kindi_ghifari"
+        },
+        {
+          "id": "shohada_e_karbala_045",
+          "order": 45,
+          "type": "entry",
+          "number": 45,
+          "text": {
+            "en": "Hazrat Harb ibn Umrul Qais Kindi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત હર્બ ઇબ્ને ઉમરુલ કૈસ કન્દી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत हर्ब इब्ने उमरुल कैस कन्दी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Harb ibn Umrul Qais Kindi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة حرب ابن امرئ القيس الكندي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت حرب ابن امرئ القیس الکندی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "kindi_ghifari"
+        },
+        {
+          "id": "shohada_e_karbala_046",
+          "order": 46,
+          "type": "entry",
+          "number": 46,
+          "text": {
+            "en": "Hazrat Zuhair ibn Amir رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત જહીર ઇબ્ને આમીર رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत जहीर इब्ने आमीर رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Zuhair ibn Amir رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة ظهير ابن عامر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت ظہیر ابن عامر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "kindi_ghifari"
+        },
+        {
+          "id": "shohada_e_karbala_047",
+          "order": 47,
+          "type": "entry",
+          "number": 47,
+          "text": {
+            "en": "Hazrat Bashir ibn Amir رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત બશીર ઇબ્ને આમીર رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत बशीर इब्ने आमीर رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Bashir ibn Amir رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة بشير ابن عامر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت بشیر ابن عامر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "kindi_ghifari"
+        },
+        {
+          "id": "shohada_e_karbala_048",
+          "order": 48,
+          "type": "entry",
+          "number": 48,
+          "text": {
+            "en": "Hazrat Abdullah Arwah Ghifari رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબ્દુલ્લાહ અરવાહ ગફ્ફારી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अब्दुल्लाह अरवाह गफ्फारी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abdullah Arwah Ghifari رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عبد الله عروة الغفاري رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عبد اللہ عروہ الغفاری رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "kindi_ghifari"
+        },
+        {
+          "id": "shohada_e_karbala_049",
+          "order": 49,
+          "type": "entry",
+          "number": 49,
+          "text": {
+            "en": "Hazrat Ghulam Abu Jarr Ghifari رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ગુલામ અબુ જર્ર ગફ્ફારી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत गुलाम अबु जर्र गफ्फारी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Ghulam Abu Jarr Ghifari رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة غلام أبو ذر الغفاري رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت غلام ابو ذر الغفاری رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "kindi_ghifari"
+        },
+        {
+          "id": "shohada_e_karbala_050",
+          "order": 50,
+          "type": "entry",
+          "number": 50,
+          "text": {
+            "en": "Hazrat Abdullah ibn Amir رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબ્દુલ્લાહ ઇબ્ને આમીર رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अब्दुल्लाह इब्ने आमीर رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abdullah ibn Amir رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عبد الله ابن عامر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عبد اللہ ابن عامر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "kalbi"
+        },
+        {
+          "id": "shohada_e_karbala_051",
+          "order": 51,
+          "type": "entry",
+          "number": 51,
+          "text": {
+            "en": "Hazrat Abdul A'la ibn Yazid رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબ્દુલ આલા ઇબ્ને યજીદ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अब्दुल आला इब्ने यजीद رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abdul A'la ibn Yazid رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عبد الأعلى ابن يزيد رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عبد الاعلی ابن یزید رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "kalbi"
+        },
+        {
+          "id": "shohada_e_karbala_052",
+          "order": 52,
+          "type": "entry",
+          "number": 52,
+          "text": {
+            "en": "Hazrat Salim ibn Amir رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત સલીમ ઇબ્ને આમીર رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत सलीम इब्ने आमीर رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Salim ibn Amir رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة سليم ابن عامر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت سلیم ابن عامر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "kalbi"
+        },
+        {
+          "id": "shohada_e_karbala_053",
+          "order": 53,
+          "type": "entry",
+          "number": 53,
+          "text": {
+            "en": "Hazrat Qasim ibn Habib رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત કાસિમ ઇબ્ને હબીબ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत कासिम इब्ने हबीब رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Qasim ibn Habib رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة قاسم ابن حبيب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت قاسم ابن حبیب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "azdi"
+        },
+        {
+          "id": "shohada_e_karbala_054",
+          "order": 54,
+          "type": "entry",
+          "number": 54,
+          "text": {
+            "en": "Hazrat Zaid ibn Salim رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત જ઼ૈદ ઇબ્ને સલીમ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत ज़ैद इब्ने सलीम رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Zaid ibn Salim رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة زيد ابن سليم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت زید ابن سلیم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "azdi"
+        },
+        {
+          "id": "shohada_e_karbala_055",
+          "order": 55,
+          "type": "entry",
+          "number": 55,
+          "text": {
+            "en": "Hazrat Nu'man ibn Umar رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત નોઅમાન ઇબ્ને ઉમર رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत नोअमान इब्ने उमर رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Nu'man ibn Umar رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة نعمان ابن عمر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت نعمان ابن عمر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "azdi"
+        },
+        {
+          "id": "shohada_e_karbala_056",
+          "order": 56,
+          "type": "entry",
+          "number": 56,
+          "text": {
+            "en": "Hazrat Yazid ibn Thabit رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત યજીદ ઇબ્ને સાબિત رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत यजीद इब्ने साबित رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Yazid ibn Thabit رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة يزيد ابن ثابت رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت یزید ابن ثابت رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "abdi"
+        },
+        {
+          "id": "shohada_e_karbala_057",
+          "order": 57,
+          "type": "entry",
+          "number": 57,
+          "text": {
+            "en": "Hazrat Amir ibn Muslim رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત આમિર ઇબ્ને મુસ્લિમ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत आमिर इब्ने मुस्लिम رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Amir ibn Muslim رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عامر ابن مسلم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عامر ابن مسلم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "abdi"
+        },
+        {
+          "id": "shohada_e_karbala_058",
+          "order": 58,
+          "type": "entry",
+          "number": 58,
+          "text": {
+            "en": "Hazrat Saif ibn Malik رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત સૈફ ઇબ્ને માલિક رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत सैफ इब्ने मालिक رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Saif ibn Malik رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة سيف ابن مالك رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت سیف ابن مالک رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "abdi"
+        },
+        {
+          "id": "shohada_e_karbala_059",
+          "order": 59,
+          "type": "entry",
+          "number": 59,
+          "text": {
+            "en": "Hazrat Jabir ibn Hajjaji رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત જાબિર ઇબ્ને હજ્જાજી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत जाबिर इब्ने हज्जाजी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Jabir ibn Hajjaji رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة جابر ابن الحجاجي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت جابر ابن الحجاجی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "tamimi_tai"
+        },
+        {
+          "id": "shohada_e_karbala_060",
+          "order": 60,
+          "type": "entry",
+          "number": 60,
+          "text": {
+            "en": "Hazrat Mas'ud ibn Hajjaji رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત મસ્ઉદ ઇબ્ને હજ્જાજી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत मस्उद इब्ने हज्जाजी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Mas'ud ibn Hajjaji رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة مسعود ابن الحجاجي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت مسعود ابن الحجاجی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "tamimi_tai"
+        },
+        {
+          "id": "shohada_e_karbala_061",
+          "order": 61,
+          "type": "entry",
+          "number": 61,
+          "text": {
+            "en": "Hazrat Abdur Rahman ibn Mas'ud رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબ્દુર્રહમાન ઇબ્ને મસ્ઉદ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अब्दुर्रहमान इब्ने मस्उद رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abdur Rahman ibn Mas'ud رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عبد الرحمن ابن مسعود رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عبد الرحمن ابن مسعود رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "tamimi_tai"
+        },
+        {
+          "id": "shohada_e_karbala_062",
+          "order": 62,
+          "type": "entry",
+          "number": 62,
+          "text": {
+            "en": "Hazrat Baqir ibn Hai رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત બાકીર ઇબ્ને હાઈ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत बाकीर इब्ने हाई رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Baqir ibn Hai رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة باقر ابن حي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت باقر ابن حی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "tamimi_tai"
+        },
+        {
+          "id": "shohada_e_karbala_063",
+          "order": 63,
+          "type": "entry",
+          "number": 63,
+          "text": {
+            "en": "Hazrat Ammar ibn Hassan Tai رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અમ્માર ઇબ્ને હસ્સાન તાઈ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अम्मार इब्ने हस्सान ताई رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Ammar ibn Hassan Tai رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عمار ابن حسان الطائي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عمار ابن حسان الطائی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "tamimi_tai"
+        },
+        {
+          "id": "shohada_e_karbala_064",
+          "order": 64,
+          "type": "entry",
+          "number": 64,
+          "text": {
+            "en": "Hazrat Zurghama ibn Malik رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત જ઼ુરગમા ઇબ્ને માલિક رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत ज़ुरगमा इब्ने मालिक رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Zurghama ibn Malik رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة ضرغامة ابن مالك رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت ضرغامہ ابن مالک رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "taghlibi"
+        },
+        {
+          "id": "shohada_e_karbala_065",
+          "order": 65,
+          "type": "entry",
+          "number": 65,
+          "text": {
+            "en": "Hazrat Kinana ibn Atiq رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત કનાના ઇબ્ને અતીક رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत कनाना इब्ने अतीक رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Kinana ibn Atiq رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة كنانة ابن عتيق رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت کنانہ ابن عتیق رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "taghlibi"
+        },
+        {
+          "id": "shohada_e_karbala_066",
+          "order": 66,
+          "type": "entry",
+          "number": 66,
+          "text": {
+            "en": "Hazrat Uqba ibn Sult رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ઉક્બા ઇબ્ને સુલ્ત رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत उक्बा इब्ने सुल्त رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Uqba ibn Sult رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عقبة ابن الصلت رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عقبہ ابن الصلت رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "jahami_tamimi"
+        },
+        {
+          "id": "shohada_e_karbala_067",
+          "order": 67,
+          "type": "entry",
+          "number": 67,
+          "text": {
+            "en": "Hazrat Hurr ibn Yazid Tamimi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત હુર ઇબ્ને યજીદ તમીમી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत हुर इब्ने यजीद तमीमी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Hurr ibn Yazid Tamimi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة الحر ابن يزيد التميمي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت الحر ابن یزید التمیمی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "jahami_tamimi"
+        },
+        {
+          "id": "shohada_e_karbala_068",
+          "order": 68,
+          "type": "entry",
+          "number": 68,
+          "text": {
+            "en": "Hazrat Uqba ibn Sult رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ઉક્બા ઇબ્ને સુલ્ત رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत उक्बा इब्ने सुल्त رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Uqba ibn Sult رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عقبة ابن الصلت رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عقبہ ابن الصلت رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "jahami_tamimi"
+        },
+        {
+          "id": "shohada_e_karbala_069",
+          "order": 69,
+          "type": "entry",
+          "number": 69,
+          "text": {
+            "en": "Hazrat Habala ibn Ali Shaybani رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત હબાલા ઇબ્ને અલી શિબાની رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत हबाला इब्ने अली शिबानी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Habala ibn Ali Shaybani رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة حبالة ابن علي الشيباني رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت حبالہ ابن علی الشیبانی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "other_martyrs"
+        },
+        {
+          "id": "shohada_e_karbala_070",
+          "order": 70,
+          "type": "entry",
+          "number": 70,
+          "text": {
+            "en": "Hazrat Qanab ibn Umar رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત કનાબ ઇબ્ને ઉમર رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत कनाब इब्ने उमर رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Qanab ibn Umar رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة قناب ابن عمر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت قناب ابن عمر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "other_martyrs"
+        },
+        {
+          "id": "shohada_e_karbala_071",
+          "order": 71,
+          "type": "entry",
+          "number": 71,
+          "text": {
+            "en": "Hazrat Abdullah ibn Yaqtar رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબ્દુલ્લાહ ઇબ્ને યક્તર رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अब्दुल्लाह इब्ने यक्तर رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abdullah ibn Yaqtar رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عبد الله ابن يقطر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عبد اللہ ابن یقطر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "other_martyrs"
+        },
+        {
+          "id": "shohada_e_karbala_072",
+          "order": 72,
+          "type": "entry",
+          "number": 72,
+          "text": {
+            "en": "Hazrat Ghulam-e-Turki Ghulam-e-Imam-e-Sajjad رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ગુલામે તુર્કી ગુલામે ઇમામે સજ્જાદ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत गुलामे तुर्की गुलामे इमामे सज्जाद رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Ghulam-e-Turki Ghulam-e-Imamu-e-Sajjad رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة غلام التركي غلام الإمام السجاد رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت غلام الترکی غلام الامام السجاد رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "other_martyrs"
+        }
+      ],
+      "sections": [
+        {
+          "id": "descendants_abu_talib",
+          "order": 1,
+          "title": {
+            "en": "Descendants of Hazrat Abu Talib رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "ઔલાદે હજરત અબુ તાલીબ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "औलादे हज़रत अबु तालीब رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Watoto wa Hadhrat Abu Talib رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "أولاد حضرة أبي طالب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "اولادِ حضرت ابو طالب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "bani_asad",
+          "order": 2,
+          "title": {
+            "en": "Bani Asad",
+            "gu": "બની અસદ",
+            "hi": "बनी असद",
+            "sw": "Bani Asad",
+            "ar": "بنو أسد",
+            "ur": "بنو اسد"
+          }
+        },
+        {
+          "id": "jahbi",
+          "order": 3,
+          "title": {
+            "en": "Jahbi",
+            "gu": "જહબી",
+            "hi": "जहबी",
+            "sw": "Jahbi",
+            "ar": "الجهبي",
+            "ur": "جہبی"
+          }
+        },
+        {
+          "id": "ansari",
+          "order": 4,
+          "title": {
+            "en": "Ansari",
+            "gu": "અન્સારી",
+            "hi": "अन्सारी",
+            "sw": "Ansari",
+            "ar": "الأنصاري",
+            "ur": "انصاری"
+          }
+        },
+        {
+          "id": "bajali_khathami",
+          "order": 5,
+          "title": {
+            "en": "Bajali and Khath'ami",
+            "gu": "બિજલી ઔર ખાસ'મી",
+            "hi": "बिजली और खास'मी",
+            "sw": "Bajali na Khath'ami",
+            "ar": "البجلي والخثعمي",
+            "ur": "بجلی اور خثعمی"
+          }
+        },
+        {
+          "id": "kindi_ghifari",
+          "order": 6,
+          "title": {
+            "en": "Kindi and Ghifari",
+            "gu": "કન્દી ઔર ગફ્ફારી",
+            "hi": "कन्दी और गफ्फारी",
+            "sw": "Kindi na Ghifari",
+            "ar": "الكندي والغفاري",
+            "ur": "کندی اور غفاری"
+          }
+        },
+        {
+          "id": "kalbi",
+          "order": 7,
+          "title": {
+            "en": "Kalbi",
+            "gu": "કલ્બી",
+            "hi": "कल्बी",
+            "sw": "Kalbi",
+            "ar": "الكلبي",
+            "ur": "کلبی"
+          }
+        },
+        {
+          "id": "azdi",
+          "order": 8,
+          "title": {
+            "en": "Azdi",
+            "gu": "અજદી",
+            "hi": "अजदी",
+            "sw": "Azdi",
+            "ar": "الأزدي",
+            "ur": "ازدی"
+          }
+        },
+        {
+          "id": "abdi",
+          "order": 9,
+          "title": {
+            "en": "Abdi",
+            "gu": "અબ્દી",
+            "hi": "अब्दी",
+            "sw": "Abdi",
+            "ar": "العبدي",
+            "ur": "عبدی"
+          }
+        },
+        {
+          "id": "tamimi_tai",
+          "order": 10,
+          "title": {
+            "en": "Tamimi and Tai",
+            "gu": "તમીમી ઔર તાઈ",
+            "hi": "तमीमी और ताई",
+            "sw": "Tamimi na Tai",
+            "ar": "التميمي والطائي",
+            "ur": "تمیمی اور طائی"
+          }
+        },
+        {
+          "id": "taghlibi",
+          "order": 11,
+          "title": {
+            "en": "Taghlibi",
+            "gu": "તગ્લીબી",
+            "hi": "तग्लीबी",
+            "sw": "Taghlibi",
+            "ar": "التغلبي",
+            "ur": "تغلبی"
+          }
+        },
+        {
+          "id": "jahami_tamimi",
+          "order": 12,
+          "title": {
+            "en": "Jahami and Tamimi",
+            "gu": "જહામી ઔર તમીમી",
+            "hi": "जहामी और तमीमी",
+            "sw": "Jahami na Tamimi",
+            "ar": "الجهمي والتميمي",
+            "ur": "جہامی اور تمیمی"
+          }
+        },
+        {
+          "id": "other_martyrs",
+          "order": 13,
+          "title": {
+            "en": "Other Martyrs",
+            "gu": "ઔર શોહદા",
+            "hi": "और शोहदा",
+            "sw": "Mashahidi Wengine",
+            "ar": "شهداء آخرون",
+            "ur": "دیگر شہداء"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shohada_e_badr",
+      "number": 8,
+      "source_file": "shohdae_badr.xml",
+      "title": {
+        "en": "Shohada-e-Badr",
+        "gu": "શોહદા-એ-બદ્ર",
+        "hi": "शोहदा-ए-बद्र",
+        "sw": "Mashahidi wa Badr",
+        "ar": "شهداء بدر",
+        "ur": "شہدائے بدر"
+      },
+      "heading": {
+        "en": "Shohada-e-Badr",
+        "gu": "શોહદા-એ-બદ્ર",
+        "hi": "शोहदा-ए-बद्र",
+        "sw": "Mashahidi wa Badr",
+        "ar": "شهداء بدر",
+        "ur": "شہدائے بدر"
+      },
+      "entries": [
+        {
+          "id": "shohada_e_badr_001",
+          "order": 1,
+          "type": "entry",
+          "number": 1,
+          "text": {
+            "en": "Hazrat Ubaidah bin al Harith رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ઉબૈદહ બિન અલ હારિસ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत उबैदह बिन अल हारिस رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Ubaidah bin al Harith رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عبيدة بن الحارث رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عبیدہ بن الحارث رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "muhajirin"
+        },
+        {
+          "id": "shohada_e_badr_002",
+          "order": 2,
+          "type": "entry",
+          "number": 2,
+          "text": {
+            "en": "Hazrat Umair bin Abi Waqqas رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ઉમૈર બિન અબી વક્કાસ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत उमैर बिन अबी वक्कास رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Umair bin Abi Waqqas رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عمير بن أبي وقاص رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عمیر بن ابی وقاص رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "muhajirin"
+        },
+        {
+          "id": "shohada_e_badr_003",
+          "order": 3,
+          "type": "entry",
+          "number": 3,
+          "text": {
+            "en": "Hazrat Dhush Shimalain bin Abd-e-Amr رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત દ઼ુશ્ શિમલૈન બિન અબ્દે અમરુ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत द़ुश् शिमलैन बिन अब्दे अमरु رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Dhush Shimalain bin Abd-e-Amr رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة ذو الشمالين بن عبد عمرو رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت ذو الشمالین بن عبد عمرو رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "muhajirin"
+        },
+        {
+          "id": "shohada_e_badr_004",
+          "order": 4,
+          "type": "entry",
+          "number": 4,
+          "text": {
+            "en": "Hazrat Aqil bin al Bukair رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત આકિલ બિન અલ બુકૈર رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत आकिल बिन अल बुकैर رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Aqil bin al Bukair رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عاقل بن البكير رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عاقل بن البکیر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "muhajirin"
+        },
+        {
+          "id": "shohada_e_badr_005",
+          "order": 5,
+          "type": "entry",
+          "number": 5,
+          "text": {
+            "en": "Hazrat Mi'ahib Maula Umar bin Khattab رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત મિઆહીબ મૌલા ઉમર બિન ખત્તાબ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत मिआहीब मौला उमर बिन खत्ताब رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Mi'ahib Maula Umar bin Khattab رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة مهجع مولى عمر بن الخطاب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت مہجع مولی عمر بن الخطاب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "muhajirin"
+        },
+        {
+          "id": "shohada_e_badr_006",
+          "order": 6,
+          "type": "entry",
+          "number": 6,
+          "text": {
+            "en": "Hazrat Safwan bin Baiza رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત સફવાન બિન બઈજ઼ા رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत सफवान बिन बईज़ा رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Safwan bin Baiza رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة صفوان بن بيضاء رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت صفوان بن بیضاء رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "muhajirin"
+        },
+        {
+          "id": "shohada_e_badr_007",
+          "order": 7,
+          "type": "entry",
+          "number": 7,
+          "text": {
+            "en": "Hazrat Sa'd bin Khaythama رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત સાદ બિન ખૈસમા رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत साद बिन खैसमा رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Sa'd bin Khaythama رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة سعد بن خيثمة رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت سعد بن خیثمہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "ansar"
+        },
+        {
+          "id": "shohada_e_badr_008",
+          "order": 8,
+          "type": "entry",
+          "number": 8,
+          "text": {
+            "en": "Hazrat Mubashshir bin Abdul Mundhir رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત મુબશ્શિર બિન અબ્દુલ મુન્દ઼િર رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत मुबश्शिर बिन अब्दुल मुन्द़िर رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Mubashshir bin Abdul Mundhir رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة مبشر بن عبد المنذر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت مبشر بن عبد المنذر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "ansar"
+        },
+        {
+          "id": "shohada_e_badr_009",
+          "order": 9,
+          "type": "entry",
+          "number": 9,
+          "text": {
+            "en": "Hazrat Harith bin Suraqah رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત હારિસ બિન સુરાકા رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत हारिस बिन सुराका رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Harith bin Suraqah رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة الحارث بن سراقة رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت الحارث بن سراقہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "ansar"
+        },
+        {
+          "id": "shohada_e_badr_010",
+          "order": 10,
+          "type": "entry",
+          "number": 10,
+          "text": {
+            "en": "Hazrat Auf bin Afra al Harith رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ઔફ બિન અફરા અલ હારિસ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत औफ बिन अफरा अल हारिस رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Auf bin Afra al Harith رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عوف بن عفراء الحارث رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عوف بن عفراء الحارث رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "ansar"
+        },
+        {
+          "id": "shohada_e_badr_011",
+          "order": 11,
+          "type": "entry",
+          "number": 11,
+          "text": {
+            "en": "Hazrat Mu'awwidh bin Afra al Harith رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત મુઆવિદ઼ બિન અફરા અલ હારિસ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत मुआविद़ बिन अफरा अल हारिस رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Mu'awwidh bin Afra al Harith رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة معوذ بن عفراء الحارث رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت معوذ بن عفراء الحارث رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "ansar"
+        },
+        {
+          "id": "shohada_e_badr_012",
+          "order": 12,
+          "type": "entry",
+          "number": 12,
+          "text": {
+            "en": "Hazrat Umair bin Humam رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ઉમૈર બિન હુમામ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत उमैर बिन हुमाम رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Umair bin Humam رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عمير بن الحمام رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عمیر بن الحمام رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "ansar"
+        },
+        {
+          "id": "shohada_e_badr_013",
+          "order": 13,
+          "type": "entry",
+          "number": 13,
+          "text": {
+            "en": "Hazrat Yazid bin al Harith bin Fus'hum رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત યજિદ બિન અલ હારિસ બિન ફુસ્હમ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत यजिद बिन अल हारिस बिन फुस्हम رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Yazid bin al Harith bin Fus'hum رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة يزيد بن الحارث بن فسحم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت یزید بن الحارث بن فسحم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "ansar"
+        },
+        {
+          "id": "shohada_e_badr_014",
+          "order": 14,
+          "type": "entry",
+          "number": 14,
+          "text": {
+            "en": "Hazrat Rafi' bin Mu'alla رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત રાફેઅ બિન મુઅલ્લા رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत राफेअ बिन मुअल्ला رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Rafi' bin Mu'alla رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة رافع بن المعلى رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت رافع بن المعلی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "section_id": "ansar"
+        }
+      ],
+      "sections": [
+        {
+          "id": "muhajirin",
+          "order": 1,
+          "title": {
+            "en": "Muhajirin Sahaba-e-Kiram",
+            "gu": "મુહાજિરીન સહાબા એ કિરામ",
+            "hi": "मुहाजिरीन सहाबा ए किराम",
+            "sw": "Maswahaba Watukufu Muhajirin",
+            "ar": "الصحابة الكرام من المهاجرين",
+            "ur": "مہاجرین صحابۂ کرام"
+          }
+        },
+        {
+          "id": "ansar",
+          "order": 2,
+          "title": {
+            "en": "Ansar Sahaba-e-Kiram",
+            "gu": "અન્સાર સહાબા એ કિરામ",
+            "hi": "अन्सार सहाबा ए किराम",
+            "sw": "Maswahaba Watukufu Ansar",
+            "ar": "الصحابة الكرام من الأنصار",
+            "ur": "انصار صحابۂ کرام"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sahaba_naat_reciters",
+      "number": 9,
+      "source_file": "naat_padhne_wale_sahaba.xml",
+      "title": {
+        "en": "Sahaba-e-Kiram Who Recited Naat of Huzoor ﷺ",
+        "gu": "હુજુર ﷺ કી નાત પઢ઼ને વાલે સહાબા-એ-કિરામ",
+        "hi": "हुजुर ﷺ की नात पढ़ने वाले सहाबा-ए-किराम",
+        "sw": "Maswahaba Watukufu Waliomsifu Mtume ﷺ kwa Naat",
+        "ar": "الصحابة الكرام الذين أنشدوا نعت النبي ﷺ",
+        "ur": "حضور ﷺ کی نعت پڑھنے والے صحابۂ کرام"
+      },
+      "heading": {
+        "en": "Sahaba-e-Kiram Who Recited Naat of Huzoor ﷺ",
+        "gu": "હુજુર ﷺ કી નાત પઢ઼ને વાલે સહાબા-એ-કિરામ",
+        "hi": "हुजुर ﷺ की नात पढ़ने वाले सहाबा-ए-किराम",
+        "sw": "Maswahaba Watukufu Waliomsifu Mtume ﷺ kwa Naat",
+        "ar": "الصحابة الكرام الذين أنشدوا نعت النبي ﷺ",
+        "ur": "حضور ﷺ کی نعت پڑھنے والے صحابۂ کرام"
+      },
+      "entries": [
+        {
+          "id": "sahaba_naat_reciters_001",
+          "order": 1,
+          "type": "entry",
+          "number": 1,
+          "text": {
+            "en": "Uncle of Huzoor ﷺ: Hazrat Abu Talib رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હુજુર ﷺ કે ચાચા : હજરત અબુ તાલીબ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हुजुर ﷺ के चाचा : हज़रत अबु तालीब رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Mjomba wa Huzoor ﷺ: Hadhrat Abu Talib رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "عم الحضور ﷺ: حضرة أبو طالب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضور ﷺ کے چچا: حضرت ابو طالب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_002",
+          "order": 2,
+          "type": "entry",
+          "number": 2,
+          "text": {
+            "en": "Uncle of Huzoor ﷺ: Hazrat Abbas رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હુજુર ﷺ કે ચાચા : હજરત અબ્બાસ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हुजुर ﷺ के चाचा : हज़रत अब्बास رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Mjomba wa Huzoor ﷺ: Hadhrat Abbas رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "عم الحضور ﷺ: حضرة عباس رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضور ﷺ کے چچا: حضرت عباس رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_003",
+          "order": 3,
+          "type": "entry",
+          "number": 3,
+          "text": {
+            "en": "Uncle of Huzoor ﷺ: Hazrat Hamza رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હુજુર ﷺ કે ચાચા : હજરત હમ્જ઼ા رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हुजुर ﷺ के चाचा : हज़रत हम्ज़ा رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Mjomba wa Huzoor ﷺ: Hadhrat Hamza رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "عم الحضور ﷺ: حضرة حمزة رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضور ﷺ کے چچا: حضرت حمزہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_004",
+          "order": 4,
+          "type": "entry",
+          "number": 4,
+          "text": {
+            "en": "Sayyida-e-Kainat Hazrat Fatima Zahra سَلَامُ اللّٰهِ عَلَیْهَا",
+            "gu": "સૈયદા-એ-કાયનાત હજરત ફાતિમા જ઼હરા سَلَامُ اللّٰهِ عَلَیْهَا",
+            "hi": "सैयदा-ए-कायनात हज़रत फातिमा ज़हरा سَلَامُ اللّٰهِ عَلَیْهَا",
+            "sw": "Sayyida-e-Kainat Hadhrat Fatima Zahra سَلَامُ اللّٰهِ عَلَیْهَا",
+            "ar": "سيدة الكائنات حضرة فاطمة الزهراء سَلَامُ اللّٰهِ عَلَیْهَا",
+            "ur": "سیدہ الکائنات حضرت فاطمہ الزہراء سَلَامُ اللّٰهِ عَلَیْهَا"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_005",
+          "order": 5,
+          "type": "entry",
+          "number": 5,
+          "text": {
+            "en": "Hazrat Abu Bakr Siddiq رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબુ બકર સિદ્દીક رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अबु बकर सिद्दीक رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abu Bakr Siddiq رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة أبو بكر الصديق رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت ابو بکر الصدیق رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_006",
+          "order": 6,
+          "type": "entry",
+          "number": 6,
+          "text": {
+            "en": "Hazrat Umar Faruq رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ઉમર ફારુક رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत उमर फारुक رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Umar Faruq رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عمر الفاروق رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عمر الفاروق رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_007",
+          "order": 7,
+          "type": "entry",
+          "number": 7,
+          "text": {
+            "en": "Hazrat Uthman Ghani رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ઉસ્માન ગની رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत उस्मान गनी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Uthman Ghani رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عثمان الغني رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عثمان الغنی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_008",
+          "order": 8,
+          "type": "entry",
+          "number": 8,
+          "text": {
+            "en": "Hazrat Maula Ali Sher-e-Khuda رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત મૌલા અલી શેરે ખુદા رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत मौला अली शेरे खुदा رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Maula Ali Sher-e-Khuda رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة مولى علي شير خدا رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت مولی علی شیر خدا رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_009",
+          "order": 9,
+          "type": "entry",
+          "number": 9,
+          "text": {
+            "en": "Ummul Mu'minin Sayyida Aisha Siddiqa رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "gu": "ઉમ્મુલ મુઅમીનિન સૈયદા આઈશા સિદ્દીકા رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "hi": "उम्मुल मुअमीनिन सैयदा आईशा सिद्दीका رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "sw": "Ummul Mu'minin Sayyida Aisha Siddiqa رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ar": "أم المؤمنين سيدة عائشة الصديقة رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ur": "ام المؤمنین سیدہ عائشہ الصدیقہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_010",
+          "order": 10,
+          "type": "entry",
+          "number": 10,
+          "text": {
+            "en": "Paternal aunt of Huzoor ﷺ: Sayyida Safiyyah bint Abdul Muttalib رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હુજુર ﷺ કી ફૂફી જાન : સૈયદા સાફિયા બિન્તે અબ્દુલ મુત્તલીબ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हुजुर ﷺ की फूफी जान : सैयदा साफिया बिन्ते अब्दुल मुत्तलीब رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Shangazi wa Huzoor ﷺ: Sayyida Safiyyah binti Abdul Muttalib رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "عمة الحضور ﷺ: سيدة صفية بنت عبد المطلب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضور ﷺ کی پھوپھی جان: سیدہ صفیہ بنت عبد المطلب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_011",
+          "order": 11,
+          "type": "entry",
+          "number": 11,
+          "text": {
+            "en": "Hazrat Shaima bint Halima Sa'diyah رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "gu": "હજરત શિમા બિન્તે હલીમા સાદિયા رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "hi": "हज़रत शिमा बिन्ते हलीमा सादिया رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "sw": "Hadhrat Shaima binti Halima Sa'diyah رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ar": "حضرة الشيماء بنت حليمة السعدية رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا",
+            "ur": "حضرت الشیماء بنت حلیمہ السعدیہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَا"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_012",
+          "order": 12,
+          "type": "entry",
+          "number": 12,
+          "text": {
+            "en": "Hazrat Abu Sufyan bin Harith رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબુ સુફિયાન બિન હારિસ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अबु सुफियान बिन हारिस رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abu Sufyan bin Harith رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة أبو سفيان بن الحارث رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت ابو سفیان بن الحارث رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_013",
+          "order": 13,
+          "type": "entry",
+          "number": 13,
+          "text": {
+            "en": "Hazrat Abdullah ibn Rawaha رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબ્દુલ્લાહ ઇબ્ને રવાહ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अब्दुल्लाह इब्ने रवाह رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abdullah ibn Rawaha رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عبد الله ابن رواحة رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عبد اللہ ابن رواحہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_014",
+          "order": 14,
+          "type": "entry",
+          "number": 14,
+          "text": {
+            "en": "Hazrat Ka'b bin Malik Ansari رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત કઅબ બિન માલિક અંસારી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत कअब बिन मालिक अंसारी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Ka'b bin Malik Ansari رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة كعب بن مالك الأنصاري رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت کعب بن مالک الانصاری رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_015",
+          "order": 15,
+          "type": "entry",
+          "number": 15,
+          "text": {
+            "en": "Hazrat Hassan bin Thabit رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત હસ્સાન બિન સાબિત رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत हस्सान बिन साबित رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Hassan bin Thabit رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة حسان بن ثابت رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت حسان بن ثابت رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_016",
+          "order": 16,
+          "type": "entry",
+          "number": 16,
+          "text": {
+            "en": "Hazrat Zuhair bin Surad al Jasmi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત જ઼ુહૈર બિન સુરાદ અલ જસમી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत ज़ुहैर बिन सुराद अल जसमी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Zuhair bin Surad al Jasmi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة زهير بن صرد الجسمي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت زہیر بن صرد الجسمی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_017",
+          "order": 17,
+          "type": "entry",
+          "number": 17,
+          "text": {
+            "en": "Hazrat Abbas bin Mirdas al Sulami رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબ્બાસ બિન મુરદાસ અલ સલમી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अब्बास बिन मुरदास अल सलमी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abbas bin Mirdas al Sulami رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عباس بن مرداس السلمي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عباس بن مرداس السلمی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_018",
+          "order": 18,
+          "type": "entry",
+          "number": 18,
+          "text": {
+            "en": "Hazrat Ka'b bin Zuhair رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત કઅબ બિન જ઼ુહૈર رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत कअब बिन ज़ुहैर رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Ka'b bin Zuhair رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة كعب بن زهير رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت کعب بن زہیر رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_019",
+          "order": 19,
+          "type": "entry",
+          "number": 19,
+          "text": {
+            "en": "Hazrat Abdullah bin Jubghara رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબ્દુલ્લાહ બિન જુબગરા رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अब्दुल्लाह बिन जुबगरा رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abdullah bin Jubghara رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عبد الله بن جبغرا رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عبد اللہ بن جبغرا رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_020",
+          "order": 20,
+          "type": "entry",
+          "number": 20,
+          "text": {
+            "en": "Hazrat Abu Ajhal Jumuha رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબુ અજહલ જુમુહા رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अबु अजहल जुमुहा رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abu Ajhal Jumuha رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة أبو أجهل جمحة رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت ابو اجہل جمحہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_021",
+          "order": 21,
+          "type": "entry",
+          "number": 21,
+          "text": {
+            "en": "Hazrat Qutaylah bint al Harith Qurashiyyah رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત કુતૈલા બિન્તે અલ હારિસ કુરૈશિયા رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत कुतैला बिन्ते अल हारिस कुरैशिया رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Qutaylah binti al Harith Qurashiyyah رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة قتيلة بنت الحارث القرشية رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت قتیلہ بنت الحارث القرشیہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_022",
+          "order": 22,
+          "type": "entry",
+          "number": 22,
+          "text": {
+            "en": "Hazrat Malik bin Namt al Hamdani رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત માલિક બિન નમત અલ હમદાની رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत मालिक बिन नमत अल हमदानी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Malik bin Namt al Hamdani رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة مالك بن نمط الهمداني رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت مالک بن نمط الہمدانی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_023",
+          "order": 23,
+          "type": "entry",
+          "number": 23,
+          "text": {
+            "en": "Hazrat Anas bin Zaynam رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અનસ બિન જૈનમ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अनस बिन जैनम رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Anas bin Zaynam رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة أنس بن زنيم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت انس بن زنیم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_024",
+          "order": 24,
+          "type": "entry",
+          "number": 24,
+          "text": {
+            "en": "Hazrat Asyad bin Salama al Sulami رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અસ્યદ બિન સલમા અલ સલમી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अस्यद बिन सलमा अल सलमी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Asyad bin Salama al Sulami رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة أسيد بن سلمة السلمي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت اسید بن سلمہ السلمی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_025",
+          "order": 25,
+          "type": "entry",
+          "number": 25,
+          "text": {
+            "en": "Hazrat Malik bin Auf Ansari رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત માલિક બિન ઔફ અંસારી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत मालिक बिन औफ अंसारी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Malik bin Auf Ansari رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة مالك بن عوف الأنصاري رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت مالک بن عوف الانصاری رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_026",
+          "order": 26,
+          "type": "entry",
+          "number": 26,
+          "text": {
+            "en": "Hazrat Qais bin Bajr al Shaje'i رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત કૈસ બિન બજરલ શજેયી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत कैस बिन बजरल शजेयी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Qais bin Bajr al Shaje'i رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة قيس بن بجر الشجيعي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت قیس بن بجر الشجیعی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_027",
+          "order": 27,
+          "type": "entry",
+          "number": 27,
+          "text": {
+            "en": "Hazrat Amr bin Sub'i al Rahawi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ઉમરો બિન સુબઈ અલ રહવી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत उमरो बिन सुबई अल रहवी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Amr bin Sub'i al Rahawi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عمرو بن سبيع الرهاوي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عمرو بن سبیع الرہاوی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_028",
+          "order": 28,
+          "type": "entry",
+          "number": 28,
+          "text": {
+            "en": "Hazrat Nabighah al Ja'di رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત નબગહલ જાઅદી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत नबगहल जाअदी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Nabighah al Ja'di رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة نابغة الجعدي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت نابغہ الجعدی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_029",
+          "order": 29,
+          "type": "entry",
+          "number": 29,
+          "text": {
+            "en": "Hazrat Mazin bin Ghajuba al Tai رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત માજ઼િન બિન ગજુબા અલ તાઈ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत माज़िन बिन गजुबा अल ताई رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Mazin bin Ghajuba al Tai رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة مازن بن غضوبة الطائي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت مازن بن غضوبہ الطائی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_030",
+          "order": 30,
+          "type": "entry",
+          "number": 30,
+          "text": {
+            "en": "Hazrat al Asha al Mazni رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અલ અશી અલ માજની رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अल अशी अल माजनी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat al Asha al Mazni رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة الأعشى المازني رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت الاعشی المازنی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_031",
+          "order": 31,
+          "type": "entry",
+          "number": 31,
+          "text": {
+            "en": "Hazrat Fajala al Laisi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ફજલા અલ લૈસી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत फजला अल लैसी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Fajala al Laisi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة فضالة الليثي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت فضالہ اللیثی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_032",
+          "order": 32,
+          "type": "entry",
+          "number": 32,
+          "text": {
+            "en": "Hazrat Amr bin Salim al Khuza'i رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ઉમરો બિન સાલિમ અલ ખજ઼ાઈ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत उमरो बिन सालिम अल खज़ाई رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Amr bin Salim al Khuza'i رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عمرو بن سالم الخزاعي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عمرو بن سالم الخزاعی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_033",
+          "order": 33,
+          "type": "entry",
+          "number": 33,
+          "text": {
+            "en": "Hazrat Asad bin Abi Unas al Kinani رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અસદ બિન અબી ઉનાસ અલ કનની رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत असद बिन अबी उनास अल कननी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Asad bin Abi Unas al Kinani رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة أسد بن أبي أناس الكناني رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت اسد بن ابی اناس الکنانی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_034",
+          "order": 34,
+          "type": "entry",
+          "number": 34,
+          "text": {
+            "en": "Hazrat Amr bin Murrah al Juhani رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ઉમરો બિન મુર્રાહ અલ જહાની رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत उमरो बिन मुर्राह अल जहानी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Amr bin Murrah al Juhani رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عمرو بن مرة الجهني رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عمرو بن مرہ الجہنی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_035",
+          "order": 35,
+          "type": "entry",
+          "number": 35,
+          "text": {
+            "en": "Hazrat Qais bin Bahr al Ashja'i رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત કૈસ બિન બહરલ અશજાઈ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत कैस बिन बहरल अशजाई رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Qais bin Bahr al Ashja'i رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة قيس بن بحر الأشجعي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت قیس بن بحر الاشجعی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_036",
+          "order": 36,
+          "type": "entry",
+          "number": 36,
+          "text": {
+            "en": "Hazrat Abdullah bin Harith bin Qais رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબ્દુલ્લાહ બિન હારિસ બિન કૈસ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अब्दुल्लाह बिन हारिस बिन कैस رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abdullah bin Harith bin Qais رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عبد الله بن الحارث بن قيس رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عبد اللہ بن الحارث بن قیس رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_037",
+          "order": 37,
+          "type": "entry",
+          "number": 37,
+          "text": {
+            "en": "Hazrat Uthman bin Maz'un رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ઉસ્માન બિન મજ઼્ઉન رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत उस्मान बिन मज़्उन رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Uthman bin Maz'un رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عثمان بن مظعون رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عثمان بن مظعون رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_038",
+          "order": 38,
+          "type": "entry",
+          "number": 38,
+          "text": {
+            "en": "Hazrat Abu Ahmad bin Jahsh رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અબુ અહમદ બિન જહાશ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अबु अहमद बिन जहाश رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Abu Ahmad bin Jahsh رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة أبو أحمد بن جحش رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت ابو احمد بن جحش رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_039",
+          "order": 39,
+          "type": "entry",
+          "number": 39,
+          "text": {
+            "en": "Hazrat Suraqah bin Malik bin Ju'shum رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત સુરાકા બિન માલિક બિન જઅશમ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत सुराका बिन मालिक बिन जअशम رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Suraqah bin Malik bin Ju'shum رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة سراقة بن مالك بن جعشم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت سراقہ بن مالک بن جعشم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_040",
+          "order": 40,
+          "type": "entry",
+          "number": 40,
+          "text": {
+            "en": "Hazrat Aswad bin Sariyah رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત અસ્વદ બિન સારિયા رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत अस्वद बिन सारिया رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Aswad bin Sariyah رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة أسود بن سارية رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت اسود بن ساریہ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_041",
+          "order": 41,
+          "type": "entry",
+          "number": 41,
+          "text": {
+            "en": "Hazrat Amir bin Akwa' رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત આમીર બિન અક્વા رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत आमीर बिन अक्वा رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Amir bin Akwa' رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عامر بن الأكوع رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عامر بن الاکوع رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_042",
+          "order": 42,
+          "type": "entry",
+          "number": 42,
+          "text": {
+            "en": "Hazrat Umm-e-Ma'bad Atikah bint Khalid al Khuza'i رَضِيَ اللّٰهُ تَعَالٰى عَنْهَ",
+            "gu": "હજરત ઉમ્મે મઅબાદ અતિકા બિન્તે ખાલિદ અલ ખજ઼ઈ رَضِيَ اللّٰهُ تَعَالٰى عَنْهَ",
+            "hi": "हज़रत उम्मे मअबाद अतिका बिन्ते खालिद अल खज़ई رَضِيَ اللّٰهُ تَعَالٰى عَنْهَ",
+            "sw": "Hadhrat Umm-e-Ma'bad Atikah binti Khalid al Khuza'i رَضِيَ اللّٰهُ تَعَالٰى عَنْهَ",
+            "ar": "حضرة أم معبد عاتكة بنت خالد الخزاعي رَضِيَ اللّٰهُ تَعَالٰى عَنْهَ",
+            "ur": "حضرت ام معبد عاتکہ بنت خالد الخزاعی رَضِيَ اللّٰهُ تَعَالٰى عَنْهَ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_043",
+          "order": 43,
+          "type": "entry",
+          "number": 43,
+          "text": {
+            "en": "Hazrat Dukhtaran-e-Madina Munawwara",
+            "gu": "હજરત દુખ્તરાને મદીના મુનવ્વરા",
+            "hi": "हज़रत दुख्तराने मदीना मुनव्वरा",
+            "sw": "Hadhrat Dukhtaran-e-Madina Munawwara",
+            "ar": "حضرة بنات المدينة المنورة",
+            "ur": "حضرت بنات المدینہ المنورہ"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_044",
+          "order": 44,
+          "type": "entry",
+          "number": 44,
+          "text": {
+            "en": "Hazrat Habshi Wafd",
+            "gu": "હજરત હબશી વફદ",
+            "hi": "हज़रत हबशी वफद",
+            "sw": "Hadhrat Habshi Wafd",
+            "ar": "حضرة الحبشي وفد",
+            "ur": "حضرت الحبشی وفد"
+          }
+        },
+        {
+          "id": "sahaba_naat_reciters_045",
+          "order": 45,
+          "type": "entry",
+          "number": 45,
+          "text": {
+            "en": "Hazrat Amr Jinni (Jinn Sahabi) رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજરત ઉમરો જિન્ની (જિન્ન સહાબી) رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत उमरो जिन्नी (जिन्न सहाबी) رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Amr Jinni (Jinn Sahabi) رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة عمرو الجني (الجن صحابي) رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت عمرو الجنی (الجن صحابی) رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "twelve_imams_ahl_e_sunnat",
+      "number": 10,
+      "source_file": "ahle_sunnat_ke_imam.xml",
+      "title": {
+        "en": "12 Imams of Ahl-e-Sunnat Wal Jamaat",
+        "gu": "અહલે સુન્નત વલ જમાઅત કે 12 ઈમામ",
+        "hi": "अहले सुन्नत वल जमाअत के 12 इमाम",
+        "sw": "Maimamu 12 wa Ahl-e-Sunnat Wal Jamaat",
+        "ar": "الأئمة الاثنا عشر عند أهل السنة والجماعة",
+        "ur": "اہلِ سنت و جماعت کے 12 امام"
+      },
+      "heading": {
+        "en": "12 Imams of Ahl-e-Sunnat Wal Jamaat",
+        "gu": "અહલે સુન્નત વલ જમાઅત કે 12 ઈમામ",
+        "hi": "अहले सुन्नत वल जमाअत के 12 इमाम",
+        "sw": "Maimamu 12 wa Ahl-e-Sunnat Wal Jamaat",
+        "ar": "الأئمة الاثنا عشر عند أهل السنة والجماعة",
+        "ur": "اہلِ سنت و جماعت کے 12 امام"
+      },
+      "entries": [
+        {
+          "id": "twelve_imams_ahl_e_sunnat_001",
+          "order": 1,
+          "type": "entry",
+          "number": 1,
+          "text": {
+            "en": "Sayyiduna Imam Ali al Murtaza Sher-e-Khuda عَلَيْهِ السَّلَام",
+            "gu": "સૈયદના ઈમામ અલી અલ મુર્તજા શેરે ખુદા عَلَيْهِ السَّلَام",
+            "hi": "सैयदना इमाम अली अल मुर्तजा शेरे खुदा عَلَيْهِ السَّلَام",
+            "sw": "Sayyidina Imamu Ali al Murtaza Sher-e-Khuda عَلَيْهِ السَّلَام",
+            "ar": "سيدنا الإمام علي المرتضى شير خدا عَلَيْهِ السَّلَام",
+            "ur": "سیدنا الامام علی المرتضی شیر خدا عَلَيْهِ السَّلَام"
+          }
+        },
+        {
+          "id": "twelve_imams_ahl_e_sunnat_002",
+          "order": 2,
+          "type": "entry",
+          "number": 2,
+          "text": {
+            "en": "Sayyiduna Imam Hasan al Mujtaba عَلَيْهِ السَّلَام",
+            "gu": "સૈયદના ઈમામ હસન અલ મુજતબા عَلَيْهِ السَّلَام",
+            "hi": "सैयदना इमाम हसन अल मुजतबा عَلَيْهِ السَّلَام",
+            "sw": "Sayyidina Imamu Hasan al Mujtaba عَلَيْهِ السَّلَام",
+            "ar": "سيدنا الإمام الحسن المجتبى عَلَيْهِ السَّلَام",
+            "ur": "سیدنا الامام الحسن المجتبی عَلَيْهِ السَّلَام"
+          }
+        },
+        {
+          "id": "twelve_imams_ahl_e_sunnat_003",
+          "order": 3,
+          "type": "entry",
+          "number": 3,
+          "text": {
+            "en": "Sayyiduna Imam Husain عَلَيْهِ السَّلَام",
+            "gu": "સૈયદના ઈમામ હુસૈન عَلَيْهِ السَّلَام",
+            "hi": "सैयदना इमाम हुसैन عَلَيْهِ السَّلَام",
+            "sw": "Sayyidina Imamu Husain عَلَيْهِ السَّلَام",
+            "ar": "سيدنا الإمام الحسين عَلَيْهِ السَّلَام",
+            "ur": "سیدنا الامام الحسین عَلَيْهِ السَّلَام"
+          }
+        },
+        {
+          "id": "twelve_imams_ahl_e_sunnat_004",
+          "order": 4,
+          "type": "entry",
+          "number": 4,
+          "text": {
+            "en": "Sayyiduna Imam Imam Zain-ul Abidin عَلَيْهِ السَّلَام",
+            "gu": "સૈયદના ઇમામ ઈમામ જૈનુલ આબિદીન عَلَيْهِ السَّلَام",
+            "hi": "सैयदना इमाम इमाम जैनुल आबिदीन عَلَيْهِ السَّلَام",
+            "sw": "Sayyidina Imamu Imamu Zain-ul Abidin عَلَيْهِ السَّلَام",
+            "ar": "سيدنا الإمام الإمام زين العابدين عَلَيْهِ السَّلَام",
+            "ur": "سیدنا الامام الامام زین العابدین عَلَيْهِ السَّلَام"
+          }
+        },
+        {
+          "id": "twelve_imams_ahl_e_sunnat_005",
+          "order": 5,
+          "type": "entry",
+          "number": 5,
+          "text": {
+            "en": "Sayyiduna Imam Mohammad Baqir عَلَيْهِ السَّلَام",
+            "gu": "સૈયદના ઈમામ મોહમ્મદ બાકિર عَلَيْهِ السَّلَام",
+            "hi": "सैयदना इमाम मोहम्मद बाकिर عَلَيْهِ السَّلَام",
+            "sw": "Sayyidina Imamu Mohammad Baqir عَلَيْهِ السَّلَام",
+            "ar": "سيدنا الإمام محمد باقر عَلَيْهِ السَّلَام",
+            "ur": "سیدنا الامام محمد باقر عَلَيْهِ السَّلَام"
+          }
+        },
+        {
+          "id": "twelve_imams_ahl_e_sunnat_006",
+          "order": 6,
+          "type": "entry",
+          "number": 6,
+          "text": {
+            "en": "Sayyiduna Imam Ja'far Sadiq عَلَيْهِ السَّلَام",
+            "gu": "સૈયદના ઈમામ જાફર સાદીક عَلَيْهِ السَّلَام",
+            "hi": "सैयदना इमाम जाफर सादीक عَلَيْهِ السَّلَام",
+            "sw": "Sayyidina Imamu Ja'far Sadiq عَلَيْهِ السَّلَام",
+            "ar": "سيدنا الإمام جعفر الصادق عَلَيْهِ السَّلَام",
+            "ur": "سیدنا الامام جعفر الصادق عَلَيْهِ السَّلَام"
+          }
+        },
+        {
+          "id": "twelve_imams_ahl_e_sunnat_007",
+          "order": 7,
+          "type": "entry",
+          "number": 7,
+          "text": {
+            "en": "Sayyiduna Imam Musa al Kazim عَلَيْهِ السَّلَام",
+            "gu": "સૈયદના ઈમામ મુસા અલ કાજિમ عَلَيْهِ السَّلَام",
+            "hi": "सैयदना इमाम मुसा अल काजिम عَلَيْهِ السَّلَام",
+            "sw": "Sayyidina Imamu Musa al Kazim عَلَيْهِ السَّلَام",
+            "ar": "سيدنا الإمام موسى الكاظم عَلَيْهِ السَّلَام",
+            "ur": "سیدنا الامام موسی الکاظم عَلَيْهِ السَّلَام"
+          }
+        },
+        {
+          "id": "twelve_imams_ahl_e_sunnat_008",
+          "order": 8,
+          "type": "entry",
+          "number": 8,
+          "text": {
+            "en": "Sayyiduna Imam Ali Raza عَلَيْهِ السَّلَام",
+            "gu": "સૈયદના ઈમામ અલી રજા عَلَيْهِ السَّلَام",
+            "hi": "सैयदना इमाम अली रजा عَلَيْهِ السَّلَام",
+            "sw": "Sayyidina Imamu Ali Raza عَلَيْهِ السَّلَام",
+            "ar": "سيدنا الإمام علي الرضا عَلَيْهِ السَّلَام",
+            "ur": "سیدنا الامام علی الرضا عَلَيْهِ السَّلَام"
+          }
+        },
+        {
+          "id": "twelve_imams_ahl_e_sunnat_009",
+          "order": 9,
+          "type": "entry",
+          "number": 9,
+          "text": {
+            "en": "Sayyiduna Imam Mohammad Taqi al Jawwad عَلَيْهِ السَّلَام",
+            "gu": "સૈયદના ઈમામ મોહમ્મદ તકી અલ જવ્વાદ عَلَيْهِ السَّلَام",
+            "hi": "सैयदना इमाम मोहम्मद तकी अल जव्वाद عَلَيْهِ السَّلَام",
+            "sw": "Sayyidina Imamu Mohammad Taqi al Jawwad عَلَيْهِ السَّلَام",
+            "ar": "سيدنا الإمام محمد التقي الجواد عَلَيْهِ السَّلَام",
+            "ur": "سیدنا الامام محمد التقی الجواد عَلَيْهِ السَّلَام"
+          }
+        },
+        {
+          "id": "twelve_imams_ahl_e_sunnat_010",
+          "order": 10,
+          "type": "entry",
+          "number": 10,
+          "text": {
+            "en": "Sayyiduna Imam Ali Naqi عَلَيْهِ السَّلَام",
+            "gu": "સૈયદના ઈમામ અલી નકી عَلَيْهِ السَّلَام",
+            "hi": "सैयदना इमाम अली नकी عَلَيْهِ السَّلَام",
+            "sw": "Sayyidina Imamu Ali Naqi عَلَيْهِ السَّلَام",
+            "ar": "سيدنا الإمام علي النقي عَلَيْهِ السَّلَام",
+            "ur": "سیدنا الامام علی النقی عَلَيْهِ السَّلَام"
+          }
+        },
+        {
+          "id": "twelve_imams_ahl_e_sunnat_011",
+          "order": 11,
+          "type": "entry",
+          "number": 11,
+          "text": {
+            "en": "Sayyiduna Imam Hasan al Askari عَلَيْهِ السَّلَام",
+            "gu": "સૈયદના ઈમામ હસન અલ અસ્કરી عَلَيْهِ السَّلَام",
+            "hi": "सैयदना इमाम हसन अल अस्करी عَلَيْهِ السَّلَام",
+            "sw": "Sayyidina Imamu Hasan al Askari عَلَيْهِ السَّلَام",
+            "ar": "سيدنا الإمام الحسن العسكري عَلَيْهِ السَّلَام",
+            "ur": "سیدنا الامام الحسن العسکری عَلَيْهِ السَّلَام"
+          }
+        },
+        {
+          "id": "twelve_imams_ahl_e_sunnat_012",
+          "order": 12,
+          "type": "entry",
+          "number": 12,
+          "text": {
+            "en": "Sayyiduna Imam Mehdi عَلَيْهِ السَّلَام",
+            "gu": "સૈયદના ઈમામ મેહદી عَلَيْهِ السَّلَام",
+            "hi": "सैयदना इमाम मेहदी عَلَيْهِ السَّلَام",
+            "sw": "Sayyidina Imamu Mehdi عَلَيْهِ السَّلَام",
+            "ar": "سيدنا الإمام المهدي عَلَيْهِ السَّلَام",
+            "ur": "سیدنا الامام المہدی عَلَيْهِ السَّلَام"
+          }
+        }
+      ]
+    },
+    {
+      "id": "imam_ul_fiqh",
+      "number": 11,
+      "source_file": "imamul_fiqah.xml",
+      "title": {
+        "en": "Imam-ul-Fiqh",
+        "gu": "ઈમામ-ઉલ-ફિકહ",
+        "hi": "इमाम-उल-फिकह",
+        "sw": "Maimamu wa Fiqh (Imam-ul-Fiqh)",
+        "ar": "أئمة الفقه",
+        "ur": "ائمۂ فقہ"
+      },
+      "heading": {
+        "en": "Imam-ul-Fiqh",
+        "gu": "ઈમામ-ઉલ-ફિકહ",
+        "hi": "इमाम-उल-फिकह",
+        "sw": "Maimamu wa Fiqh (Imam-ul-Fiqh)",
+        "ar": "أئمة الفقه",
+        "ur": "ائمۂ فقہ"
+      },
+      "entries": [
+        {
+          "id": "imam_ul_fiqh_001",
+          "order": 1,
+          "type": "entry",
+          "number": 1,
+          "text": {
+            "en": "Sayyiduna Imam-e-Azam Abu Hanifa Hazrat Nu'man bin Thabit رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "સૈયદના ઈમામે આજમ અબુ હનીફા હજ઼રત નૌમાન બિન સાબિત رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "सैयदना इमामे आजम अबु हनीफा हज़रत नौमान बिन साबित رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Sayyidina Imamu-e-Azam Abu Hanifa Hadhrat Nu'man bin Thabit رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "سيدنا الإمام الأعظم أبو حنيفة حضرة النعمان بن ثابت رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "سیدنا الامام الاعظم ابو حنیفہ حضرت النعمان بن ثابت رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "description": {
+            "en": "(Imam of the Hanafi school of thought: 150 AH)",
+            "gu": "(હનફી મસ્લક કે ઈમામ : 150 હિજરી)",
+            "hi": "(हनफी मस्लक के इमाम : 150 हिजरी)",
+            "sw": "(Imamu wa madhehebu ya Hanafi: 150 AH)",
+            "ar": "(إمام المذهب الحنفي: 150 هـ)",
+            "ur": "(حنفی مسلک کے امام: 150 ہجری)"
+          }
+        },
+        {
+          "id": "imam_ul_fiqh_002",
+          "order": 2,
+          "type": "entry",
+          "number": 2,
+          "text": {
+            "en": "Hazrat Sayyiduna Imam Malik bin Anas رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજ઼રત સૈયદના ઈમામ માલિક બિન અનસ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत सैयदना इमाम मालिक बिन अनस رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Sayyidina Imamu Malik bin Anas رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة سيدنا الإمام مالك بن أنس رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت سیدنا الامام مالک بن انس رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "description": {
+            "en": "(Imam of the Maliki school of thought: 179 AH)",
+            "gu": "(માલિકી મસ્લક કે ઈમામ : 179 હિજરી)",
+            "hi": "(मालिकी मस्लक के इमाम : 179 हिजरी)",
+            "sw": "(Imamu wa madhehebu ya Maliki: 179 AH)",
+            "ar": "(إمام المذهب المالكي: 179 هـ)",
+            "ur": "(مالکی مسلک کے امام: 179 ہجری)"
+          }
+        },
+        {
+          "id": "imam_ul_fiqh_003",
+          "order": 3,
+          "type": "entry",
+          "number": 3,
+          "text": {
+            "en": "Hazrat Sayyiduna Imam Abu Abdullah Muhammad ibn Idris al Shafi'i رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજ઼રત સૈયદના ઈમામ અબુ અબ્દુલ્લાહ મુહમ્મદ ઇબ્ને ઇદ્રીસ અલ શાફઈ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत सैयदना इमाम अबु अब्दुल्लाह मुहम्मद इब्ने इद्रीस अल शाफई رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Sayyidina Imamu Abu Abdullah Muhammad ibn Idris al Shafi'i رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة سيدنا الإمام أبو عبد الله محمد ابن إدريس الشافعي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت سیدنا الامام ابو عبد اللہ محمد ابن ادریس الشافعی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "description": {
+            "en": "(Imam of the Shafi'i school of thought: 204 AH)",
+            "gu": "(શાફઈ મસ્લક કે ઈમામ : 204 હિજરી)",
+            "hi": "(शाफई मस्लक के इमाम : 204 हिजरी)",
+            "sw": "(Imamu wa madhehebu ya Shafi'i: 204 AH)",
+            "ar": "(إمام المذهب الشافعي: 204 هـ)",
+            "ur": "(شافعی مسلک کے امام: 204 ہجری)"
+          }
+        },
+        {
+          "id": "imam_ul_fiqh_004",
+          "order": 4,
+          "type": "entry",
+          "number": 4,
+          "text": {
+            "en": "Hazrat Sayyiduna Imam Ahmad ibn Hanbal رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "હજ઼રત સૈયદના ઈમામ અહમદ ઇબ્ને હમ્બલ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "हज़रत सैयदना इमाम अहमद इब्ने हम्बल رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Hadhrat Sayyidina Imamu Ahmad ibn Hanbal رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "حضرة سيدنا الإمام أحمد ابن حنبل رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "حضرت سیدنا الامام احمد ابن حنبل رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          },
+          "description": {
+            "en": "(Imam of the Hanbali school of thought: 241 AH)",
+            "gu": "(હમ્બલી મસ્લક કે ઈમામ : 241 હિજરી)",
+            "hi": "(हम्बली मस्लक के इमाम : 241 हिजरी)",
+            "sw": "(Imamu wa madhehebu ya Hanbali: 241 AH)",
+            "ar": "(إمام المذهب الحنبلي: 241 هـ)",
+            "ur": "(حنبلی مسلک کے امام: 241 ہجری)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "silsila_e_pak",
+      "number": 12,
+      "source_file": "silsila_pak.xml",
+      "title": {
+        "en": "Silsila-e-Pak",
+        "gu": "સિલસિલા-એ-પાક",
+        "hi": "सिलसिला-ए-पाक",
+        "sw": "Silsila-e-Pak (Msururu Mtakatifu)",
+        "ar": "السلسلة الطاهرة",
+        "ur": "سلسلۂ پاک"
+      },
+      "heading": {
+        "en": "Silsila-e-Pak",
+        "gu": "સિલસિલા-એ-પાક",
+        "hi": "सिलसिला-ए-पाक",
+        "sw": "Silsila-e-Pak (Msururu Mtakatifu)",
+        "ar": "السلسلة الطاهرة",
+        "ur": "سلسلۂ پاک"
+      },
+      "entries": [
+        {
+          "id": "silsila_e_pak_001",
+          "order": 1,
+          "type": "paragraph",
+          "group": "four_khalifas",
+          "text": {
+            "en": "Amirul Mu'minin Sayyiduna Maula Ali bin Abu Talib رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ had 4 khalifas:",
+            "gu": "અમીરુલ મુઅમીનીન સૈયદના મૌલા અલી બિન અબુ તાલીબ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ કે 4 ખલીફા હૈ :",
+            "hi": "अमीरुल मुअमीनीन सैयदना मौला अली बिन अबु तालीब رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ के 4 खलीफा है :",
+            "sw": "Amirul Mu'minin Sayyidina Maula Ali bin Abu Talib رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ alikuwa na makhalifa 4:",
+            "ar": "لأمير المؤمنين سيدنا مولى علي بن أبي طالب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ أربعة خلفاء:",
+            "ur": "امیر المومنین سیدنا مولا علی بن ابی طالب رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ کے 4 خلیفہ ہیں:"
+          }
+        },
+        {
+          "id": "silsila_e_pak_002",
+          "order": 2,
+          "type": "entry",
+          "group": "four_khalifas",
+          "number": 1,
+          "text": {
+            "en": "Sayyiduna Imam Hasan رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "સૈયદના ઈમામ હસન رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "सैयदना इमाम हसन رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Sayyidina Imamu Hasan رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "سيدنا الإمام الحسن رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "سیدنا الامام الحسن رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "silsila_e_pak_003",
+          "order": 3,
+          "type": "entry",
+          "group": "four_khalifas",
+          "number": 2,
+          "text": {
+            "en": "Sayyiduna Imam Husain رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "સૈયદના ઈમામ હુસૈન رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "सैयदना इमाम हुसैन رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Sayyidina Imamu Husain رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "سيدنا الإمام الحسين رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "سیدنا الامام الحسین رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "silsila_e_pak_004",
+          "order": 4,
+          "type": "entry",
+          "group": "four_khalifas",
+          "number": 3,
+          "text": {
+            "en": "Sayyiduna Imam Hasan al Basri رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "સૈયદના ઈમામ હસન અલ બસરી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "सैयदना इमाम हसन अल बसरी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Sayyidina Imamu Hasan al Basri رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "سيدنا الإمام الحسن البصري رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "سیدنا الامام الحسن البصری رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "silsila_e_pak_005",
+          "order": 5,
+          "type": "entry",
+          "group": "four_khalifas",
+          "number": 4,
+          "text": {
+            "en": "Sayyiduna Imam Kamil رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "સૈયદના ઈમામ કામિલ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "सैयदना इमाम कामिल رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Sayyidina Imamu Kamil رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "سيدنا الإمام كامل رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "سیدنا الامام کامل رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "silsila_e_pak_006",
+          "order": 6,
+          "type": "paragraph",
+          "group": "four_khalifas",
+          "text": {
+            "en": "From these four eminent personalities, a total of 14 silsilas (spiritual chains) were established, which, through the blessing (faiz) of Huzoor Nabi-e-Karim صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم, have continued from heart to heart (sina ba sina) in the Ummah until today.",
+            "gu": "ઇન ચારો બુજુર્ગોં સે કુલ 14 સિલસિલે જારી હુએ જો હુજુર નબી એ કરીમ صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم કે ફ઼ૈજ઼ સે સિના બ સિના આજ તક ઉમ્મત મેં ચલા આ રહા હૈ।",
+            "hi": "इन चारो बुजुर्गों से कुल 14 सिलसिले जारी हुए जो हुजुर नबी ए करीम صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم के फ़ैज़ से सिना ब सिना आज तक उम्मत में चला आ रहा है।",
+            "sw": "Kupitia watukufu hawa wanne, jumla ya silsila 14 zilianza, ambazo kwa baraka (faiz) ya Mtume Mtukufu صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم zimeendelea kupita kutoka moyo hadi moyo ndani ya Umma hadi leo.",
+            "ar": "ومن هؤلاء الأربعة الأجلاء انطلقت 14 سلسلة في المجموع، وهي بفيض النبي الكريم صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم ما زالت تنتقل من صدر إلى صدر في الأمة حتى يومنا هذا.",
+            "ur": "ان چاروں بزرگوں سے کل 14 سلسلے جاری ہوئے جو حضور نبیِ کریم صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم کے فیض سے سینہ بہ سینہ آج تک امت میں چلے آ رہے ہیں۔"
+          }
+        },
+        {
+          "id": "silsila_e_pak_007",
+          "order": 7,
+          "type": "heading",
+          "group": "fourteen_silsilas",
+          "text": {
+            "en": "Names of the 14 Silsilas:",
+            "gu": "14 સિલસિલોં કે નામ :",
+            "hi": "14 सिलसिलों के नाम :",
+            "sw": "Majina ya Silsila 14:",
+            "ar": "أسماء السلاسل الأربع عشرة:",
+            "ur": "14 سلسلوں کے نام:"
+          }
+        },
+        {
+          "id": "silsila_e_pak_008",
+          "order": 8,
+          "type": "entry",
+          "group": "fourteen_silsilas",
+          "number": 1,
+          "text": {
+            "en": "Silsila Zaidiyya: transmitted in the name of Hazrat Abdul Wahid bin Zaid رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "gu": "સિલસિલા જ઼ૈદિયા : હજ઼રત અબ્દુલ વાહિદ બિન જ઼ૈદ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ કે નામ સે મન્કુલ હુઆ।",
+            "hi": "सिलसिला ज़ैदिया : हज़रत अब्दुल वाहिद बिन ज़ैद رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ के नाम से मन्कुल हुआ।",
+            "sw": "Silsila ya Zaidiyya: ilihamishwa kwa jina la Hadhrat Abdul Wahid bin Zaid رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ar": "سلسلة الزيدية: نُقلت باسم حضرة عبد الواحد بن زيد رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ur": "سلسلہ الزیدیہ: حضرت عبد الواحد بن زید رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ کے نام سے منقول ہوا۔"
+          }
+        },
+        {
+          "id": "silsila_e_pak_009",
+          "order": 9,
+          "type": "entry",
+          "group": "fourteen_silsilas",
+          "number": 2,
+          "text": {
+            "en": "Silsila Ayaziyya: transmitted in the name of Hazrat Khwaja Fudayl bin Iyaz رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "gu": "સિલસિલા અયાજિયા : હજ઼રત ખ઼્વાજા ફુજ઼ૈલ બિન અયાજ઼ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ કે નામ સે મન્કુલ હુઆ।",
+            "hi": "सिलसिला अयाजिया : हज़रत ख़्वाजा फुज़ैल बिन अयाज़ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ के नाम से मन्कुल हुआ।",
+            "sw": "Silsila ya Ayaziyya: ilihamishwa kwa jina la Hadhrat Khwaja Fudayl bin Iyaz رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ar": "سلسلة العياضية: نُقلت باسم حضرة خواجة فضيل بن عياض رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ur": "سلسلہ العیاضیہ: حضرت خواجہ فضیل بن عیاض رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ کے نام سے منقول ہوا۔"
+          }
+        },
+        {
+          "id": "silsila_e_pak_010",
+          "order": 10,
+          "type": "entry",
+          "group": "fourteen_silsilas",
+          "number": 3,
+          "text": {
+            "en": "Silsila Adhamiyya: transmitted in the name of Hazrat Khwaja Ibrahim bin Adham رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "gu": "સિલસિલા અદ્હમીયા : હજ઼રત ખ઼્વાજા ઇબ્રાહીમ બિન અદ્હમ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ કે નામ સે મન્કુલ હુઆ।",
+            "hi": "सिलसिला अद्हमीया : हज़रत ख़्वाजा इब्राहीम बिन अद्हम رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ के नाम से मन्कुल हुआ।",
+            "sw": "Silsila ya Adhamiyya: ilihamishwa kwa jina la Hadhrat Khwaja Ibrahim bin Adham رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ar": "سلسلة الأدهمية: نُقلت باسم حضرة خواجة إبراهيم بن أدهم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ur": "سلسلہ الادہمیہ: حضرت خواجہ ابراہیم بن ادہم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ کے نام سے منقول ہوا۔"
+          }
+        },
+        {
+          "id": "silsila_e_pak_011",
+          "order": 11,
+          "type": "entry",
+          "group": "fourteen_silsilas",
+          "number": 4,
+          "text": {
+            "en": "Silsila Hubayriyya: transmitted in the name of Hazrat Khwaja Abu Hubayra Aminuddin رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "gu": "સિલસિલા હુબેરિયા : હજ઼રત ખ઼્વાજા અબુ હુબેરા અમીનુદ્દીન رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ કે નામ સે મન્કુલ હુઆ।",
+            "hi": "सिलसिला हुबेरिया : हज़रत ख़्वाजा अबु हुबेरा अमीनुद्दीन رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ के नाम से मन्कुल हुआ।",
+            "sw": "Silsila ya Hubayriyya: ilihamishwa kwa jina la Hadhrat Khwaja Abu Hubayra Aminuddin رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ar": "سلسلة الهبيرية: نُقلت باسم حضرة خواجة أبو هبيرة أمين الدين رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ur": "سلسلہ الہبیریہ: حضرت خواجہ ابو ہبیرہ امین الدین رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ کے نام سے منقول ہوا۔"
+          }
+        },
+        {
+          "id": "silsila_e_pak_012",
+          "order": 12,
+          "type": "entry",
+          "group": "fourteen_silsilas",
+          "number": 5,
+          "text": {
+            "en": "Silsila Chishtiyya: transmitted in the name of Hazrat Khwaja Abu Ishaq Shami رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "gu": "સિલસિલા ચિશ્તિયા : હજ઼રત ખ઼્વાજા અબુ ઈસ્હાક શામી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ કે નામ સે મન્કુલ હુઆ।",
+            "hi": "सिलसिला चिश्तिया : हज़रत ख़्वाजा अबु इस्हाक शामी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ के नाम से मन्कुल हुआ।",
+            "sw": "Silsila ya Chishtiyya: ilihamishwa kwa jina la Hadhrat Khwaja Abu Ishaq Shami رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ar": "سلسلة الجشتية: نُقلت باسم حضرة خواجة أبو إسحاق الشامي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ur": "سلسلہ الجشتیہ: حضرت خواجہ ابو اسحاق الشامی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ کے نام سے منقول ہوا۔"
+          }
+        },
+        {
+          "id": "silsila_e_pak_013",
+          "order": 13,
+          "type": "entry",
+          "group": "fourteen_silsilas",
+          "number": 6,
+          "text": {
+            "en": "Silsila Ajmiyya: transmitted in the name of Hazrat Khwaja Habib Ajami رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "gu": "સિલસિલા અજ્મિયા : હજ઼રત ખ઼્વાજા હબીબ અજમી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ કે નામ સે મન્કુલ હુઆ।",
+            "hi": "सिलसिला अज्मिया : हज़रत ख़्वाजा हबीब अजमी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ के नाम से मन्कुल हुआ।",
+            "sw": "Silsila ya Ajmiyya: ilihamishwa kwa jina la Hadhrat Khwaja Habib Ajami رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ar": "سلسلة العجمية: نُقلت باسم حضرة خواجة حبيب العجمي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ur": "سلسلہ العجمیہ: حضرت خواجہ حبیب العجمی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ کے نام سے منقول ہوا۔"
+          }
+        },
+        {
+          "id": "silsila_e_pak_014",
+          "order": 14,
+          "type": "entry",
+          "group": "fourteen_silsilas",
+          "number": 7,
+          "text": {
+            "en": "Silsila Tayfuriyya: transmitted in the name of Hazrat Khwaja Bayazid Bushtami رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "gu": "સિલસિલા તુફેરિયા : હજ઼રત ખ઼્વાજા બાયજીદ બુશ્તામી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ કે નામ સે મન્કુલ હુઆ ।",
+            "hi": "सिलसिला तुफेरिया : हज़रत ख़्वाजा बायजीद बुश्तामी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ के नाम से मन्कुल हुआ ।",
+            "sw": "Silsila ya Tayfuriyya: ilihamishwa kwa jina la Hadhrat Khwaja Bayazid Bushtami رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ar": "سلسلة الطيفورية: نُقلت باسم حضرة خواجة بايزيد البسطامي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ur": "سلسلہ الطیفوریہ: حضرت خواجہ بایزید البسطامی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ کے نام سے منقول ہوا۔"
+          }
+        },
+        {
+          "id": "silsila_e_pak_015",
+          "order": 15,
+          "type": "entry",
+          "group": "fourteen_silsilas",
+          "number": 8,
+          "text": {
+            "en": "Silsila Karkhiyya: transmitted in the name of Hazrat Shah Ma'ruf Karkhi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "gu": "સિલસિલા કર્ખિયા : હજ઼રત શાહ માઅરુફ કર્ખી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ કે નામ સે મન્કુલ હુઆ ।",
+            "hi": "सिलसिला कर्खिया : हज़रत शाह माअरुफ कर्खी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ के नाम से मन्कुल हुआ ।",
+            "sw": "Silsila ya Karkhiyya: ilihamishwa kwa jina la Hadhrat Shah Ma'ruf Karkhi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ar": "سلسلة الكرخية: نُقلت باسم حضرة شاه معروف الكرخي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ur": "سلسلہ الکرخیہ: حضرت شاہ معروف الکرخی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ کے نام سے منقول ہوا۔"
+          }
+        },
+        {
+          "id": "silsila_e_pak_016",
+          "order": 16,
+          "type": "entry",
+          "group": "fourteen_silsilas",
+          "number": 9,
+          "text": {
+            "en": "Silsila Saqatiyya: transmitted in the name of Hazrat Shah Sirri Saqati رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "gu": "સિલસિલા સક્તિયા : હજ઼રત શાહ સીર્રી સક્તી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ કે નામ સે મન્કુલ હુઆ ।",
+            "hi": "सिलसिला सक्तिया : हज़रत शाह सीर्री सक्ती رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ के नाम से मन्कुल हुआ ।",
+            "sw": "Silsila ya Saqatiyya: ilihamishwa kwa jina la Hadhrat Shah Sirri Saqati رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ar": "سلسلة السقطية: نُقلت باسم حضرة شاه سري السقطي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ur": "سلسلہ السقطیہ: حضرت شاہ سری السقطی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ کے نام سے منقول ہوا۔"
+          }
+        },
+        {
+          "id": "silsila_e_pak_017",
+          "order": 17,
+          "type": "entry",
+          "group": "fourteen_silsilas",
+          "number": 10,
+          "text": {
+            "en": "Silsila Junaidiyya: transmitted in the name of Hazrat Shah Junaid Baghdadi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "gu": "સિલસિલા જુનેદિયા : હજ઼રત શાહ જુનૈદ બગદાદી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ કે નામ સે મન્કુલ હુઆ ।",
+            "hi": "सिलसिला जुनेदिया : हज़रत शाह जुनैद बगदादी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ के नाम से मन्कुल हुआ ।",
+            "sw": "Silsila ya Junaidiyya: ilihamishwa kwa jina la Hadhrat Shah Junaid Baghdadi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ar": "سلسلة الجنيدية: نُقلت باسم حضرة شاه جنيد البغدادي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ur": "سلسلہ الجنیدیہ: حضرت شاہ جنید البغدادی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ کے نام سے منقول ہوا۔"
+          }
+        },
+        {
+          "id": "silsila_e_pak_018",
+          "order": 18,
+          "type": "entry",
+          "group": "fourteen_silsilas",
+          "number": 11,
+          "text": {
+            "en": "Silsila Gazruniyya: transmitted in the name of Hazrat Khwaja Abu Ishaq Gazruni رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "gu": "સિલસિલા ગજ઼રુનિયા : હજ઼રત ખ઼્વાજા અબુ ઇશાક ગજ઼રુની رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ કે નામ સે મન્કુલ હુઆ ।",
+            "hi": "सिलसिला गज़रुनिया : हज़रत ख़्वाजा अबु इशाक गज़रुनी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ के नाम से मन्कुल हुआ ।",
+            "sw": "Silsila ya Gazruniyya: ilihamishwa kwa jina la Hadhrat Khwaja Abu Ishaq Gazruni رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ar": "سلسلة الكازرونية: نُقلت باسم حضرة خواجة أبو إسحاق الكازروني رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ur": "سلسلہ الکازرونیہ: حضرت خواجہ ابو اسحاق الکازرونی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ کے نام سے منقول ہوا۔"
+          }
+        },
+        {
+          "id": "silsila_e_pak_019",
+          "order": 19,
+          "type": "entry",
+          "group": "fourteen_silsilas",
+          "number": 12,
+          "text": {
+            "en": "Silsila Tusiyya: transmitted in the name of Hazrat Alauddin Tusi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "gu": "સિલસિલા તૌસિયા : હજ઼રત અલાઉદ્દીન તૌસી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ કે નામ સે મન્કુલ હુઆ ।",
+            "hi": "सिलसिला तौसिया : हज़रत अलाउद्दीन तौसी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ के नाम से मन्कुल हुआ ।",
+            "sw": "Silsila ya Tusiyya: ilihamishwa kwa jina la Hadhrat Alauddin Tusi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ar": "سلسلة الطوسية: نُقلت باسم حضرة علاء الدين الطوسي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ur": "سلسلہ الطوسیہ: حضرت علاء الدین الطوسی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ کے نام سے منقول ہوا۔"
+          }
+        },
+        {
+          "id": "silsila_e_pak_020",
+          "order": 20,
+          "type": "entry",
+          "group": "fourteen_silsilas",
+          "number": 13,
+          "text": {
+            "en": "Silsila Suhrawardiyya: transmitted in the name of Hazrat Shaykh Ziauddin Abu Najib Suhrawardi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "gu": "સિલસિલા સોહરવર્દીયા : હજ઼રત શૈખ઼ જિયાઉદ્દીન અબુ નજીબ સોહરવર્દી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ કે નામ સે મન્કુલ હુઆ ।",
+            "hi": "सिलसिला सोहरवर्दीया : हज़रत शैख़ जियाउद्दीन अबु नजीब सोहरवर्दी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ के नाम से मन्कुल हुआ ।",
+            "sw": "Silsila ya Suhrawardiyya: ilihamishwa kwa jina la Hadhrat Shaykh Ziauddin Abu Najib Suhrawardi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ar": "سلسلة السهروردية: نُقلت باسم حضرة شيخ ضياء الدين أبو نجيب السهروردي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ur": "سلسلہ السہروردیہ: حضرت شیخ ضیاء الدین ابو نجیب السہروردی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ کے نام سے منقول ہوا۔"
+          }
+        },
+        {
+          "id": "silsila_e_pak_021",
+          "order": 21,
+          "type": "entry",
+          "group": "fourteen_silsilas",
+          "number": 14,
+          "text": {
+            "en": "Silsila Firdawsiyya: transmitted in the name of Hazrat Shaykh Nizamuddin Kubra رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "gu": "સિલસિલા ફીર્દૌસિયા : હજ઼રત શૈખ઼ નિજામુદ્દીન કુબ્રા رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ કે નામ સે મન્કુલ હુઆ ।",
+            "hi": "सिलसिला फीर्दौसिया : हज़रत शैख़ निजामुद्दीन कुब्रा رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ के नाम से मन्कुल हुआ ।",
+            "sw": "Silsila ya Firdawsiyya: ilihamishwa kwa jina la Hadhrat Shaykh Nizamuddin Kubra رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ar": "سلسلة الفردوسية: نُقلت باسم حضرة شيخ نظام الدين كبرى رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ur": "سلسلہ الفردوسیہ: حضرت شیخ نظام الدین کبری رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ کے نام سے منقول ہوا۔"
+          }
+        },
+        {
+          "id": "silsila_e_pak_022",
+          "order": 22,
+          "type": "paragraph",
+          "group": "closing",
+          "text": {
+            "en": "In this way, the 14 silsilas reached this point.",
+            "gu": "ઇસ તરહ 14 સિલસિલે યહાં તક આએ।",
+            "hi": "इस तरह 14 सिलसिले यहां तक आए।",
+            "sw": "Kwa njia hii, silsila 14 zilifika hapa.",
+            "ar": "وهكذا وصلت السلاسل الأربع عشرة إلى هنا.",
+            "ur": "اس طرح 14 سلسلے یہاں تک آئے۔"
+          }
+        },
+        {
+          "id": "silsila_e_pak_023",
+          "order": 23,
+          "type": "paragraph",
+          "group": "closing",
+          "text": {
+            "en": "Huzoor Ghaus-e-Azam رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ was sent as 'Imamul Awliya' (Leader of the Saints).",
+            "gu": "હુજુર ગૌસે આજમ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ કો 'ઈમામુલ ઔલિયા' બનાકર ભેજા।",
+            "hi": "हुजुर गौसे आजम رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ को 'इमामुल औलिया' बनाकर भेजा।",
+            "sw": "Huzoor Ghaus-e-Azam رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ alitumwa kama 'Imamul Awliya' (Kiongozi wa Mawalii).",
+            "ar": "أُرسل حضرة الغوث الأعظم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ إماماً للأولياء.",
+            "ur": "حضور غوثِ اعظم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ کو 'امام الاولیاء' بنا کر بھیجا گیا۔"
+          }
+        },
+        {
+          "id": "silsila_e_pak_024",
+          "order": 24,
+          "type": "paragraph",
+          "group": "closing",
+          "text": {
+            "en": "By the command of Allah, he announced: \"My foot is upon the necks of all the Awliya.\"",
+            "gu": "આપને બહુકમે ખુદા ઐલાન ફરમાયા \"મેરા કદમ તમામ ઔલિયા કી ગરદન પર હૈ।\"",
+            "hi": "आपने बहुकमे खुदा ऐलान फरमाया \"मेरा कदम तमाम औलिया की गरदन पर है।\"",
+            "sw": "Kwa amri ya Allah alitangaza: \"Unyayo wangu uko juu ya shingo za mawalii wote.\"",
+            "ar": "وأعلن بأمر الله: «قدمي على رقاب جميع الأولياء.»",
+            "ur": "آپ نے بحکمِ خدا اعلان فرمایا: \"میرا قدم تمام اولیاء کی گردن پر ہے۔\""
+          }
+        },
+        {
+          "id": "silsila_e_pak_025",
+          "order": 25,
+          "type": "paragraph",
+          "group": "closing",
+          "text": {
+            "en": "Then all the silsilas flowing from Maula Ali رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ merged into Huzoor Ghaus-e-Azam رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "gu": "ફિર મૌલા અલી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ સે ચલે આ રહે તમામ સિલસિલે હુજુર ગૌસે આજમ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ મેં જમા હો ગએ।",
+            "hi": "फिर मौला अली رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ से चले आ रहे तमाम सिलसिले हुजुर गौसे आजम رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ में जमा हो गए।",
+            "sw": "Kisha silsila zote zilizokuwa zikitoka kwa Maula Ali رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ zilikusanyika kwa Huzoor Ghaus-e-Azam رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ar": "ثم اجتمعت جميع السلاسل المتصلة من مولى علي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ في حضرة الغوث الأعظم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ.",
+            "ur": "پھر مولا علی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ سے چلے آ رہے تمام سلسلے حضور غوثِ اعظم رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ میں جمع ہو گئے۔"
+          }
+        },
+        {
+          "id": "silsila_e_pak_026",
+          "order": 26,
+          "type": "entry",
+          "group": "four_main_silsilas",
+          "number": 1,
+          "text": {
+            "en": "Silsila Qadiriyya : Imam ul Awliya Sayyiduna wa Maulana Shaykh Abdul Qadir Jilani رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "સિલસિલા કાદરિય્યા : ઇમામ ઉલ ઔલિયા સૈયદના વ મૌલાના શૈખ અબ્દુલ કાદીર જિલાની رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "सिलसिला कादरिय्या : इमाम उल औलिया सैयदना व मौलाना शैख अब्दुल कादीर जिलानी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Silsila Qadiriyya : Imamu ul Awliya Sayyidina wa Maulana Shaykh Abdul Qadir Jilani رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "سلسلة القادرية : الإمام الأولياء سيدنا و مولانا شيخ عبد القادر الجيلاني رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "سلسلہ القادریہ : الامام الاولیاء سیدنا و مولانا شیخ عبد القادر الجیلانی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "silsila_e_pak_027",
+          "order": 27,
+          "type": "entry",
+          "group": "four_main_silsilas",
+          "number": 2,
+          "text": {
+            "en": "Silsila Chishtiyya : Ata-e-Rasul ﷺ Sultanul Hind Hazrat Khwaja Mu'inuddin Chishti Sanjari رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "સિલસિલા ચિશ્તિયા : અતા-એ-રસુલ ﷺ સુલ્તાનુલ્ હિંદ હજ઼રત ખ્વાજા મોઇનુદ્દીન ચિશ્તી સંજરી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "सिलसिला चिश्तिया : अता-ए-रसुल ﷺ सुल्तानुल् हिंद हज़रत ख्वाजा मोइनुद्दीन चिश्ती संजरी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Silsila Chishtiyya : Ata-e-Rasul ﷺ Sultanul Hind Hadhrat Khwaja Mu'inuddin Chishti Sanjari رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "سلسلة الجشتية : عطاء الرسول ﷺ سلطان الهند حضرة خواجة معين الدين الجشتي السنجري رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "سلسلہ الجشتیہ : عطاء الرسول ﷺ سلطان الہند حضرت خواجہ معین الدین الجشتی السنجری رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "silsila_e_pak_028",
+          "order": 28,
+          "type": "entry",
+          "group": "four_main_silsilas",
+          "number": 3,
+          "text": {
+            "en": "Silsila Naqshbandiyya : Sayyiduna wa Maulana Shah Mohammad Bahauddin Naqshband رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "સિલસિલા નક્શબંદીયા : સૈયદના વ મૌલાના શાહ મોહમ્મદ બહાઉદ્દીન નક્શબંદ رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "सिलसिला नक्शबंदीया : सैयदना व मौलाना शाह मोहम्मद बहाउद्दीन नक्शबंद رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Silsila Naqshbandiyya : Sayyidina wa Maulana Shah Mohammad Bahauddin Naqshband رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "سلسلة النقشبندية : سيدنا و مولانا شاه محمد بهاء الدين نقشبند رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "سلسلہ النقشبندیہ : سیدنا و مولانا شاہ محمد بہاء الدین نقشبند رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        },
+        {
+          "id": "silsila_e_pak_029",
+          "order": 29,
+          "type": "entry",
+          "group": "four_main_silsilas",
+          "number": 4,
+          "text": {
+            "en": "Silsila Suhrawardiyya : Sayyiduna wa Maulana Hazrat Shahabuddin Umar Suhrawardi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "gu": "સિલસિલા સોહરવર્દીયા : સૈયદના વ મૌલાના હજ઼રત શાહબુદ્દીન ઉમર સોહરવર્દી رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "hi": "सिलसिला सोहरवर्दीया : सैयदना व मौलाना हज़रत शाहबुद्दीन उमर सोहरवर्दी رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "sw": "Silsila Suhrawardiyya : Sayyidina wa Maulana Hadhrat Shahabuddin Umar Suhrawardi رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ar": "سلسلة السهروردية : سيدنا و مولانا حضرة شهاب الدين عمر السهروردي رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ",
+            "ur": "سلسلہ السہروردیہ : سیدنا و مولانا حضرت شہاب الدین عمر السہروردی رَضِيَ اللّٰهُ تَعَالٰى عَنْهُ"
+          }
+        }
+      ]
+    }
+  ]
+}

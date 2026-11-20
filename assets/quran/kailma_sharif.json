@@ -1,0 +1,147 @@
+{
+  "collection": "seven_kalima_sharif",
+  "languages": ["en", "ar", "hi", "sw", "ur"],
+  "items": [
+    {
+      "id": 1,
+      "position": 1,
+      "title": {
+        "en": "Kalima Tayyibah",
+        "ar": "كلمة طيبة",
+        "hi": "पहला कलिमा तय्यिब",
+        "sw": "Kalima ya Kwanza: Tayyibah",
+        "ur": "پہلا کلمہ طیبہ"
+      },
+      "arabic_text": "لَا إِلٰهَ إِلَّا اللّٰهُ مُحَمَّدٌ رَسُولُ اللّٰهِ صَلَّى اللّٰهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ",
+      "translation": {
+        "en": "There is none worthy of worship except Allah. Muhammad (peace and blessings be upon him and his family) is the Messenger of Allah.",
+        "ar": "لا معبود بحق إلا الله، ومحمد رسول الله، صلى الله عليه وعلى آله وسلم.",
+        "hi": "अल्लाह के सिवा कोई इबादत के लायक नहीं। हज़रत मुहम्मद (सल्लल्लाहु अलैहि व आलिहि वसल्लम) अल्लाह के रसूल हैं।",
+        "sw": "Hapana anayestahiki kuabudiwa isipokuwa Allah. Muhammad (rehema na amani ziwe juu yake na familia yake) ni Mtume wa Allah.",
+        "ur": "اللہ کے سوا کوئی عبادت کے لائق نہیں۔ حضرت محمد ﷺ اللہ کے رسول ہیں۔"
+      },
+      "review_status": "draft_needs_scholar_review"
+    },
+    {
+      "id": 2,
+      "position": 2,
+      "title": {
+        "en": "Kalima Shahadat",
+        "ar": "كلمة الشهادة",
+        "hi": "दूसरा कलिमा शहादत",
+        "sw": "Kalima ya Pili: Shahada",
+        "ur": "دوسرا کلمہ شہادت"
+      },
+      "arabic_text": "أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيكَ لَهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+      "translation": {
+        "en": "I bear witness that none is worthy of worship except Allah alone, without partner, and I bear witness that Muhammad is His servant and Messenger.",
+        "ar": "أشهد أن الله وحده هو المستحق للعبادة، لا شريك له، وأشهد أن محمداً عبده ورسوله.",
+        "hi": "मैं गवाही देता हूँ कि अल्लाह के सिवा कोई इबादत के लायक नहीं। वह अकेला है, उसका कोई साझी नहीं। और मैं गवाही देता हूँ कि मुहम्मद उसके बंदे और रसूल हैं।",
+        "sw": "Nashuhudia kwamba hapana anayestahiki kuabudiwa isipokuwa Allah peke yake, hana mshirika; na nashuhudia kwamba Muhammad ni mja Wake na Mtume Wake.",
+        "ur": "میں گواہی دیتا ہوں کہ اللہ کے سوا کوئی عبادت کے لائق نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں، اور میں گواہی دیتا ہوں کہ محمد اس کے بندے اور رسول ہیں۔"
+      },
+      "review_status": "draft_needs_scholar_review"
+    },
+    {
+      "id": 3,
+      "position": 3,
+      "title": {
+        "en": "Kalima Tamjeed",
+        "ar": "كلمة التمجيد",
+        "hi": "तीसरा कलिमा तमजीद",
+        "sw": "Kalima ya Tatu: Tamjid",
+        "ur": "تیسرا کلمہ تمجید"
+      },
+      "arabic_text": "سُبْحَانَ اللّٰهِ وَالْحَمْدُ لِلّٰهِ وَلَا إِلٰهَ إِلَّا اللّٰهُ وَاللّٰهُ أَكْبَرُ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللّٰهِ الْعَلِيِّ الْعَظِيمِ",
+      "translation": {
+        "en": "Glory be to Allah, and all praise belongs to Allah. None is worthy of worship except Allah, and Allah is the Greatest. There is no power or strength except through Allah, the Most High, the Magnificent.",
+        "ar": "أنزّه الله عن كل نقص، وله جميع المحامد، ولا معبود بحق سواه، وهو أعظم من كل شيء، ولا قدرة ولا قوة إلا بعونه، وهو العلي العظيم.",
+        "hi": "अल्लाह पाक है और सारी तारीफ़ अल्लाह के लिए है। अल्लाह के सिवा कोई इबादत के लायक नहीं और अल्लाह सबसे बड़ा है। बुराई से बचने और भलाई करने की ताक़त अल्लाह, जो सबसे ऊँचा और महान है, की मदद से ही है।",
+        "sw": "Utukufu ni wa Allah, na sifa zote njema ni za Allah. Hapana anayestahiki kuabudiwa isipokuwa Allah, na Allah ni Mkuu zaidi. Hakuna uwezo wala nguvu isipokuwa kwa msaada wa Allah, Aliye Juu, Mkuu.",
+        "ur": "اللہ پاک ہے اور تمام تعریفیں اللہ کے لیے ہیں۔ اللہ کے سوا کوئی عبادت کے لائق نہیں اور اللہ سب سے بڑا ہے۔ برائی سے بچنے اور نیکی کرنے کی طاقت اللہ بلند و عظیم کی مدد ہی سے ہے۔"
+      },
+      "review_status": "draft_needs_scholar_review"
+    },
+    {
+      "id": 4,
+      "position": 4,
+      "title": {
+        "en": "Kalima Tawheed",
+        "ar": "كلمة التوحيد",
+        "hi": "चौथा कलिमा तौहीद",
+        "sw": "Kalima ya Nne: Tawhid",
+        "ur": "چوتھا کلمہ توحید"
+      },
+      "arabic_text": "لَا إِلٰهَ إِلَّا اللّٰهُ وَحْدَهُ لَا شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ بِيَدِهِ الْخَيْرُ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+      "translation": {
+        "en": "None is worthy of worship except Allah alone, without partner. His is the dominion and His is all praise. He gives life and causes death. All good is in His hand, and He has power over everything.",
+        "ar": "لا معبود بحق إلا الله وحده لا شريك له، له الملك وله الحمد، يحيي ويميت، والخير بيده، وهو على كل شيء قدير.",
+        "hi": "अल्लाह के सिवा कोई इबादत के लायक नहीं। वह अकेला है, उसका कोई साझी नहीं। बादशाही उसी की है और सारी तारीफ़ उसी के लिए है। वह जीवन देता है और मृत्यु देता है। भलाई उसी के हाथ में है और वह हर चीज़ पर क़ादिर है।",
+        "sw": "Hapana anayestahiki kuabudiwa isipokuwa Allah peke yake, hana mshirika. Ufalme ni Wake na sifa zote njema ni Zake. Huhuisha na hufisha. Kheri yote imo mikononi Mwake, na Yeye ni Muweza wa kila kitu.",
+        "ur": "اللہ کے سوا کوئی عبادت کے لائق نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں۔ بادشاہی اسی کی ہے اور تمام تعریف اسی کے لیے ہے۔ وہ زندگی دیتا ہے اور موت دیتا ہے۔ بھلائی اسی کے ہاتھ میں ہے اور وہ ہر چیز پر قادر ہے۔"
+      },
+      "review_status": "draft_needs_scholar_review"
+    },
+    {
+      "id": 5,
+      "position": 5,
+      "title": {
+        "en": "Kalima Radd-e-Kufr",
+        "ar": "كلمة رد الكفر",
+        "hi": "पाँचवाँ कलिमा रद्दे कुफ्र",
+        "sw": "Kalima ya Tano: Kujiepusha na Ukafiri",
+        "ur": "پانچواں کلمہ ردِ کفر"
+      },
+      "arabic_text": "اللّٰهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ أَنْ أُشْرِكَ بِكَ شَيْئًا وَأَنَا أَعْلَمُ بِهِ وَأَسْتَغْفِرُكَ لِمَا لَا أَعْلَمُ بِهِ تُبْتُ عَنْهُ وَتَبَرَّأْتُ مِنَ الْكُفْرِ وَالشِّرْكِ وَالْكَذِبِ وَالْغِيبَةِ وَالْبِدْعَةِ وَالنَّمِيمَةِ وَالْفَوَاحِشِ وَالْبُهْتَانِ وَالْمَعَاصِي كُلِّهَا وَأَسْلَمْتُ وَأَقُولُ لَا إِلٰهَ إِلَّا اللّٰهُ مُحَمَّدٌ رَسُولُ اللّٰهِ صَلَّى اللّٰهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ",
+      "translation": {
+        "en": "O Allah, I seek Your protection from knowingly associating anything with You, and I ask Your forgiveness for what I do unknowingly. I repent of it and renounce disbelief, associating partners with You, lying, backbiting, religious innovations, tale-bearing, indecency, slander, and all sins. I submit to Islam and declare that none is worthy of worship except Allah and Muhammad is the Messenger of Allah. May Allah bless him and his family and grant them peace.",
+        "ar": "اللهم إني أستجير بك من أن أشرك بك شيئاً وأنا أعلم، وأطلب مغفرتك لما لا أعلم. وأتوب إليك وأتبرأ من الكفر والشرك والكذب والغيبة والبدعة والنميمة والفواحش والبهتان وجميع المعاصي، وأعلن إسلامي وشهادتي بأن لا إله إلا الله وأن محمداً رسول الله، صلى الله عليه وعلى آله وسلم.",
+        "hi": "ऐ अल्लाह! मैं तेरी पनाह माँगता हूँ कि जानते हुए किसी को तेरा साझी बनाऊँ, और अनजाने में हुई ऐसी बातों के लिए तुझसे माफ़ी माँगता हूँ। मैं तौबा करता हूँ और कुफ़्र, शिर्क, झूठ, ग़ीबत, बिदअत, चुग़ली, बेहयाई, झूठे इल्ज़ाम और सभी गुनाहों से अलग होता हूँ। मैं इस्लाम स्वीकार करता हूँ और कहता हूँ कि अल्लाह के सिवा कोई इबादत के लायक नहीं और मुहम्मद अल्लाह के रसूल हैं।",
+        "sw": "Ewe Allah, najikinga Kwako nisikushirikishe na chochote huku nikijua, na nakuomba msamaha kwa nisiyoyajua. Ninatubia na kujitenga na ukafiri, ushirikina, uongo, kusengenya, uzushi wa kidini, uchonganishi, uchafu, uzushi wa tuhuma na dhambi zote. Nimejisalimisha katika Uislamu na ninakiri kuwa hapana anayestahiki kuabudiwa isipokuwa Allah na Muhammad ni Mtume wa Allah.",
+        "ur": "اے اللہ! میں تیری پناہ مانگتا ہوں کہ جان بوجھ کر کسی کو تیرا شریک ٹھہراؤں، اور جس بات کا مجھے علم نہیں اس کی معافی چاہتا ہوں۔ میں توبہ کرتا ہوں اور کفر، شرک، جھوٹ، غیبت، بدعت، چغلی، بے حیائی، بہتان اور تمام گناہوں سے بیزاری ظاہر کرتا ہوں۔ میں اسلام قبول کرتا ہوں اور کہتا ہوں کہ اللہ کے سوا کوئی عبادت کے لائق نہیں اور محمد اللہ کے رسول ہیں۔"
+      },
+      "review_status": "draft_needs_scholar_review"
+    },
+    {
+      "id": 6,
+      "position": 6,
+      "title": {
+        "en": "Iman-e-Mujmal",
+        "ar": "الإيمان المجمل",
+        "hi": "ईमान-ए-मुजमल",
+        "sw": "Imani kwa Muhtasari",
+        "ur": "ایمانِ مجمل"
+      },
+      "arabic_text": "آمَنْتُ بِاللّٰهِ كَمَا هُوَ بِأَسْمَائِهِ وَصِفَاتِهِ وَقَبِلْتُ جَمِيعَ أَحْكَامِهِ",
+      "translation": {
+        "en": "I believe in Allah as He is, with His names and attributes, and I accept all His commands.",
+        "ar": "أؤمن بالله كما يليق به وبأسمائه وصفاته، وأقبل جميع أحكامه.",
+        "hi": "मैं अल्लाह पर ईमान लाया, जैसा वह अपने नामों और गुणों के साथ है, और मैंने उसके सभी आदेश स्वीकार किए।",
+        "sw": "Ninamwamini Allah kama Alivyo, pamoja na majina na sifa Zake, na ninakubali amri Zake zote.",
+        "ur": "میں اللہ پر ایمان لایا جیسا کہ وہ اپنے ناموں اور صفات کے ساتھ ہے، اور میں نے اس کے تمام احکام قبول کیے۔"
+      },
+      "review_status": "draft_needs_scholar_review"
+    },
+    {
+      "id": 7,
+      "position": 7,
+      "title": {
+        "en": "Iman-e-Mufassal",
+        "ar": "الإيمان المفصل",
+        "hi": "ईमान-ए-मुफस्सल",
+        "sw": "Imani kwa Ufafanuzi",
+        "ur": "ایمانِ مفصل"
+      },
+      "arabic_text": "آمَنْتُ بِاللّٰهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ وَالْيَوْمِ الْآخِرِ وَالْقَدْرِ خَيْرِهِ وَشَرِّهِ مِنَ اللّٰهِ تَعَالَىٰ وَالْبَعْثِ بَعْدَ الْمَوْتِ",
+      "translation": {
+        "en": "I believe in Allah, His angels, His books, His messengers, the Last Day, destiny—its good and its bad being from Allah Most High—and resurrection after death.",
+        "ar": "أؤمن بالله وملائكته وكتبه ورسله واليوم الآخر، وبالقدر خيره وشره من الله تعالى، وبالبعث بعد الموت.",
+        "hi": "मैं अल्लाह, उसके फ़रिश्तों, उसकी किताबों, उसके रसूलों, आख़िरत के दिन, तक़दीर के अच्छे और बुरे होने का अल्लाह तआला की ओर से होना, और मृत्यु के बाद दोबारा उठाए जाने पर ईमान लाया।",
+        "sw": "Ninamwamini Allah, malaika Wake, vitabu Vyake, mitume Wake, Siku ya Mwisho, qadari—kheri na shari yake kutoka kwa Allah Aliyetukuka—na kufufuliwa baada ya kifo.",
+        "ur": "میں اللہ، اس کے فرشتوں، اس کی کتابوں، اس کے رسولوں، آخرت کے دن، اچھی اور بری تقدیر کے اللہ تعالیٰ کی طرف سے ہونے، اور موت کے بعد دوبارہ اٹھائے جانے پر ایمان لایا۔"
+      },
+      "review_status": "draft_needs_scholar_review"
+    }
+  ],
+  "notes": "Arabic text normalized from user XML; other translations are draft; review before publication. Arabic meaning translations omitted as the Arabic recitation is itself provided."
+}

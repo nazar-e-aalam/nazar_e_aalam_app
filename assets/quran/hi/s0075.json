@@ -1,0 +1,356 @@
+[
+  {
+    "status": true,
+    "message": "Data fetched successfully",
+    "data": {
+      "chapter": {
+        "id": 75,
+        "serial_number": "75",
+        "arabic_name": "القيامة",
+        "translated_name": "Al-Qiyamah",
+        "verses_translate_name": "Verses",
+        "verses_count": "40"
+      },
+      "chapter_info": [
+        {
+          "eng_page_number": 577,
+          "page_number": "577",
+          "page_key": 0,
+          "page_verses": [
+            {
+              "id": 5552,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "1",
+              "arabic_name": "لَآ أُقْسِمُ بِيَوْمِ ٱلْقِيَـٰمَةِ",
+              "translated_name": "मैं क़सम खाता हूँ क़ियामत के दिन[1] की।"
+            },
+            {
+              "id": 5553,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "2",
+              "arabic_name": "وَلَآ أُقْسِمُ بِٱلنَّفْسِ ٱللَّوَّامَةِ",
+              "translated_name": "तथा मैं क़सम खाता हूँ निंदा[2] करने वाली अंतरात्मा की।"
+            },
+            {
+              "id": 5554,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "3",
+              "arabic_name": "أَيَحْسَبُ ٱلْإِنسَـٰنُ أَلَّن نَّجْمَعَ عِظَامَهُۥ",
+              "translated_name": "क्या इनसान समझता है कि हम कभी उसकी हड्डियों को एकत्र नहीं करेंगे?"
+            },
+            {
+              "id": 5555,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "4",
+              "arabic_name": "بَلَىٰ قَـٰدِرِينَ عَلَىٰٓ أَن نُّسَوِّىَ بَنَانَهُۥ",
+              "translated_name": "क्यों नहीं? हम इस बता का भी सामर्थ्य रखते हैं कि उसकी उंगलियों की पोर-पोर सीधी कर दें।"
+            },
+            {
+              "id": 5556,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "5",
+              "arabic_name": "بَلْ يُرِيدُ ٱلْإِنسَـٰنُ لِيَفْجُرَ أَمَامَهُۥ",
+              "translated_name": "बल्कि मनुष्य चाहता है कि अपने आगे भी[3] गुनाह करता रहे।"
+            },
+            {
+              "id": 5557,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "6",
+              "arabic_name": "يَسْـَٔلُ أَيَّانَ يَوْمُ ٱلْقِيَـٰمَةِ",
+              "translated_name": "वह पूछता है कि क़ियामत का दिन कब होगा?"
+            },
+            {
+              "id": 5558,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "7",
+              "arabic_name": "فَإِذَا بَرِقَ ٱلْبَصَرُ",
+              "translated_name": "तो जब आँख चौंधिया जाएगी।"
+            },
+            {
+              "id": 5559,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "8",
+              "arabic_name": "وَخَسَفَ ٱلْقَمَرُ",
+              "translated_name": "और चाँद को ग्रहण लग जाएगा।"
+            },
+            {
+              "id": 5560,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "9",
+              "arabic_name": "وَجُمِعَ ٱلشَّمْسُ وَٱلْقَمَرُ",
+              "translated_name": "और सूर्य और चाँद एकत्र[4] कर दिए जाएँगे।"
+            },
+            {
+              "id": 5561,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "10",
+              "arabic_name": "يَقُولُ ٱلْإِنسَـٰنُ يَوْمَئِذٍ أَيْنَ ٱلْمَفَرُّ",
+              "translated_name": "उस दिन मनुष्य कहेगा कि भागने का स्थान कहाँ है?"
+            },
+            {
+              "id": 5562,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "11",
+              "arabic_name": "كَلَّا لَا وَزَرَ",
+              "translated_name": "कदापि नहीं, शरण लेने का स्थान कोई नहीं।"
+            },
+            {
+              "id": 5563,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "12",
+              "arabic_name": "إِلَىٰ رَبِّكَ يَوْمَئِذٍ ٱلْمُسْتَقَرُّ",
+              "translated_name": "उस दिन तेरे पालनहार ही की ओर लौटकर जाना है।"
+            },
+            {
+              "id": 5564,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "13",
+              "arabic_name": "يُنَبَّؤُا۟ ٱلْإِنسَـٰنُ يَوْمَئِذٍۭ بِمَا قَدَّمَ وَأَخَّرَ",
+              "translated_name": "उस दिन इनसान को बताया जाएगा जो उसने आगे भेजा और जो पीछे छोड़ा।[5]"
+            },
+            {
+              "id": 5565,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "14",
+              "arabic_name": "بَلِ ٱلْإِنسَـٰنُ عَلَىٰ نَفْسِهِۦ بَصِيرَةٌ",
+              "translated_name": "बल्कि इनसान स्वयं अपने विरुद्ध गवाह[6] है।"
+            },
+            {
+              "id": 5566,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "15",
+              "arabic_name": "وَلَوْ أَلْقَىٰ مَعَاذِيرَهُۥ",
+              "translated_name": "अगरचे वह अपने बहाने पेश करे।"
+            },
+            {
+              "id": 5567,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "16",
+              "arabic_name": "لَا تُحَرِّكْ بِهِۦ لِسَانَكَ لِتَعْجَلَ بِهِۦٓ",
+              "translated_name": "(ऐ नबी!) आप इसके साथ अपनी ज़ुबान न हिलाएँ[7], ताकि इसे शीघ्र याद कर लें।"
+            },
+            {
+              "id": 5568,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "17",
+              "arabic_name": "إِنَّ عَلَيْنَا جَمْعَهُۥ وَقُرْءَانَهُۥ",
+              "translated_name": "निःसंदेह उसको एकत्र करना और (आपका) उसे पढ़ना हमारे ज़िम्मे है।"
+            },
+            {
+              "id": 5569,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "18",
+              "arabic_name": "فَإِذَا قَرَأْنَـٰهُ فَٱتَّبِعْ قُرْءَانَهُۥ",
+              "translated_name": "अतः जब हम उसे पढ़ लें, तो आप उसके पठन का अनुसरण करें।"
+            },
+            {
+              "id": 5570,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "19",
+              "arabic_name": "ثُمَّ إِنَّ عَلَيْنَا بَيَانَهُۥ",
+              "translated_name": "फिर निःसंदेह उसे स्पषट करना हमारे ही ज़िम्मे है।"
+            }
+          ],
+          "page_arabic_ayah": "لَآ أُقْسِمُ بِيَوْمِ ٱلْقِيَـٰمَةِ (١)  وَلَآ أُقْسِمُ بِٱلنَّفْسِ ٱللَّوَّامَةِ (٢)  أَيَحْسَبُ ٱلْإِنسَـٰنُ أَلَّن نَّجْمَعَ عِظَامَهُۥ (٣)  بَلَىٰ قَـٰدِرِينَ عَلَىٰٓ أَن نُّسَوِّىَ بَنَانَهُۥ (٤)  بَلْ يُرِيدُ ٱلْإِنسَـٰنُ لِيَفْجُرَ أَمَامَهُۥ (٥)  يَسْـَٔلُ أَيَّانَ يَوْمُ ٱلْقِيَـٰمَةِ (٦)  فَإِذَا بَرِقَ ٱلْبَصَرُ (٧)  وَخَسَفَ ٱلْقَمَرُ (٨)  وَجُمِعَ ٱلشَّمْسُ وَٱلْقَمَرُ (٩)  يَقُولُ ٱلْإِنسَـٰنُ يَوْمَئِذٍ أَيْنَ ٱلْمَفَرُّ (١٠)  كَلَّا لَا وَزَرَ (١١)  إِلَىٰ رَبِّكَ يَوْمَئِذٍ ٱلْمُسْتَقَرُّ (١٢)  يُنَبَّؤُا۟ ٱلْإِنسَـٰنُ يَوْمَئِذٍۭ بِمَا قَدَّمَ وَأَخَّرَ (١٣)  بَلِ ٱلْإِنسَـٰنُ عَلَىٰ نَفْسِهِۦ بَصِيرَةٌ (١٤)  وَلَوْ أَلْقَىٰ مَعَاذِيرَهُۥ (١٥)  لَا تُحَرِّكْ بِهِۦ لِسَانَكَ لِتَعْجَلَ بِهِۦٓ (١٦)  إِنَّ عَلَيْنَا جَمْعَهُۥ وَقُرْءَانَهُۥ (١٧)  فَإِذَا قَرَأْنَـٰهُ فَٱتَّبِعْ قُرْءَانَهُۥ (١٨)  ثُمَّ إِنَّ عَلَيْنَا بَيَانَهُۥ (١٩)",
+          "is_read": false
+        },
+        {
+          "eng_page_number": 578,
+          "page_number": "578",
+          "page_key": 1,
+          "page_verses": [
+            {
+              "id": 5571,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "20",
+              "arabic_name": "كَلَّا بَلْ تُحِبُّونَ ٱلْعَاجِلَةَ",
+              "translated_name": "कदापि नहीं[8], बल्कि तुम शीघ्र प्राप्त होने वाली चीज़ (संसार) से प्रेम करते हो।"
+            },
+            {
+              "id": 5572,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "21",
+              "arabic_name": "وَتَذَرُونَ ٱلْـَٔاخِرَةَ",
+              "translated_name": "और बाद में आने वाली (आख़िरत) को छोड़ देते हो।"
+            },
+            {
+              "id": 5573,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "22",
+              "arabic_name": "وُجُوهٌ يَوْمَئِذٍ نَّاضِرَةٌ",
+              "translated_name": "उस दिन कई चेहरे तरो-ताज़ा होंगे।"
+            },
+            {
+              "id": 5574,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "23",
+              "arabic_name": "إِلَىٰ رَبِّهَا نَاظِرَةٌ",
+              "translated_name": "अपने पालनहार की ओर देख रहे होंगे।"
+            },
+            {
+              "id": 5575,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "24",
+              "arabic_name": "وَوُجُوهٌ يَوْمَئِذٍۭ بَاسِرَةٌ",
+              "translated_name": "और कई चेहरे उस दिन बिगड़े हुए होंगे।"
+            },
+            {
+              "id": 5576,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "25",
+              "arabic_name": "تَظُنُّ أَن يُفْعَلَ بِهَا فَاقِرَةٌ",
+              "translated_name": "उन्हें विश्वास होगा कि उनके साथ कमड़ तोड़ देने वाली सख्ती की जाएगी।"
+            },
+            {
+              "id": 5577,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "26",
+              "arabic_name": "كَلَّآ إِذَا بَلَغَتِ ٱلتَّرَاقِىَ",
+              "translated_name": "कदापि नहीं[9], जब प्राण हँसलियों तक पहुँच जाएगा।"
+            },
+            {
+              "id": 5578,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "27",
+              "arabic_name": "وَقِيلَ مَنْ ۜ رَاقٍ",
+              "translated_name": "और कहा जाएगा : कौन है झाड़-फूँक करने वाला?"
+            },
+            {
+              "id": 5579,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "28",
+              "arabic_name": "وَظَنَّ أَنَّهُ ٱلْفِرَاقُ",
+              "translated_name": "और उसे विश्वास हो जाएगा कि यह (संसार से) जुदाई का समय है।"
+            },
+            {
+              "id": 5580,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "29",
+              "arabic_name": "وَٱلْتَفَّتِ ٱلسَّاقُ بِٱلسَّاقِ",
+              "translated_name": "और पिंडली, पिंडली[10] के साथ लिपट जाएगी।"
+            },
+            {
+              "id": 5581,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "30",
+              "arabic_name": "إِلَىٰ رَبِّكَ يَوْمَئِذٍ ٱلْمَسَاقُ",
+              "translated_name": "उस दिन तेरे पालनहार ही की ओर जाना है।"
+            },
+            {
+              "id": 5582,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "31",
+              "arabic_name": "فَلَا صَدَّقَ وَلَا صَلَّىٰ",
+              "translated_name": "तो न उसने (सत्य को) माना और न नमाज़ पढ़ी।"
+            },
+            {
+              "id": 5583,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "32",
+              "arabic_name": "وَلَـٰكِن كَذَّبَ وَتَوَلَّىٰ",
+              "translated_name": "लेकिन उसने झुठलाया तथा मुँह फेरा।"
+            },
+            {
+              "id": 5584,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "33",
+              "arabic_name": "ثُمَّ ذَهَبَ إِلَىٰٓ أَهْلِهِۦ يَتَمَطَّىٰٓ",
+              "translated_name": "फिर अकड़ता हुआ अपने परिजनों की ओर गया।"
+            },
+            {
+              "id": 5585,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "34",
+              "arabic_name": "أَوْلَىٰ لَكَ فَأَوْلَىٰ",
+              "translated_name": "तेरे लिए विनाश है, फिर तेरे लिए बर्बादी है।"
+            },
+            {
+              "id": 5586,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "35",
+              "arabic_name": "ثُمَّ أَوْلَىٰ لَكَ فَأَوْلَىٰٓ",
+              "translated_name": "फिर तेरे लिए विनाश है, फिर तेरे लिए बर्बादी है।"
+            },
+            {
+              "id": 5587,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "36",
+              "arabic_name": "أَيَحْسَبُ ٱلْإِنسَـٰنُ أَن يُتْرَكَ سُدًى",
+              "translated_name": "क्या इनसान समझता है कि उसे यूँ ही बेकार छोड़ दिया जायेगा?[11]"
+            },
+            {
+              "id": 5588,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "37",
+              "arabic_name": "أَلَمْ يَكُ نُطْفَةً مِّن مَّنِىٍّ يُمْنَىٰ",
+              "translated_name": "क्या वह वीर्य की एक बूंद नहीं था, जो (गर्भाशय में) गिराई जाती है?"
+            },
+            {
+              "id": 5589,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "38",
+              "arabic_name": "ثُمَّ كَانَ عَلَقَةً فَخَلَقَ فَسَوَّىٰ",
+              "translated_name": "फिर वह जमे हुए रक्त का टुकड़ा हुआ, फिर अल्लाह ने पैदा किया और दुरुस्त बनाया।"
+            },
+            {
+              "id": 5590,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "39",
+              "arabic_name": "فَجَعَلَ مِنْهُ ٱلزَّوْجَيْنِ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ",
+              "translated_name": "फिर उसने उससे दो प्रकार : नर और मादा बनाए।"
+            },
+            {
+              "id": 5591,
+              "chapter_id": 75,
+              "verses_translate_name": "Verses",
+              "verses_number": "40",
+              "arabic_name": "أَلَيْسَ ذَٰلِكَ بِقَـٰدِرٍ عَلَىٰٓ أَن يُحْـِۧىَ ٱلْمَوْتَىٰ",
+              "translated_name": "क्या वह इसमें समर्थ नहीं कि मुर्दों को जीवित कर दे?"
+            }
+          ],
+          "page_arabic_ayah": "كَلَّا بَلْ تُحِبُّونَ ٱلْعَاجِلَةَ (٢٠)  وَتَذَرُونَ ٱلْـَٔاخِرَةَ (٢١)  وُجُوهٌ يَوْمَئِذٍ نَّاضِرَةٌ (٢٢)  إِلَىٰ رَبِّهَا نَاظِرَةٌ (٢٣)  وَوُجُوهٌ يَوْمَئِذٍۭ بَاسِرَةٌ (٢٤)  تَظُنُّ أَن يُفْعَلَ بِهَا فَاقِرَةٌ (٢٥)  كَلَّآ إِذَا بَلَغَتِ ٱلتَّرَاقِىَ (٢٦)  وَقِيلَ مَنْ ۜ رَاقٍ (٢٧)  وَظَنَّ أَنَّهُ ٱلْفِرَاقُ (٢٨)  وَٱلْتَفَّتِ ٱلسَّاقُ بِٱلسَّاقِ (٢٩)  إِلَىٰ رَبِّكَ يَوْمَئِذٍ ٱلْمَسَاقُ (٣٠)  فَلَا صَدَّقَ وَلَا صَلَّىٰ (٣١)  وَلَـٰكِن كَذَّبَ وَتَوَلَّىٰ (٣٢)  ثُمَّ ذَهَبَ إِلَىٰٓ أَهْلِهِۦ يَتَمَطَّىٰٓ (٣٣)  أَوْلَىٰ لَكَ فَأَوْلَىٰ (٣٤)  ثُمَّ أَوْلَىٰ لَكَ فَأَوْلَىٰٓ (٣٥)  أَيَحْسَبُ ٱلْإِنسَـٰنُ أَن يُتْرَكَ سُدًى (٣٦)  أَلَمْ يَكُ نُطْفَةً مِّن مَّنِىٍّ يُمْنَىٰ (٣٧)  ثُمَّ كَانَ عَلَقَةً فَخَلَقَ فَسَوَّىٰ (٣٨)  فَجَعَلَ مِنْهُ ٱلزَّوْجَيْنِ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ (٣٩)  أَلَيْسَ ذَٰلِكَ بِقَـٰدِرٍ عَلَىٰٓ أَن يُحْـِۧىَ ٱلْمَوْتَىٰ (٤٠)",
+          "is_read": false
+        }
+      ]
+    }
+  }
+]

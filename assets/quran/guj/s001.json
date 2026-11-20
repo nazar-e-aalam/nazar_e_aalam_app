@@ -1,0 +1,81 @@
+{
+  "status": true,
+  "message": "Data fetched successfully",
+  "data": {
+    "chapter": {
+      "id": 1,
+      "serial_number": "1",
+      "arabic_name": "الفاتحة",
+      "translated_name": "Al-Fatihah",
+      "verses_translate_name": "Verses",
+      "verses_count": "7"
+    },
+    "chapter_info": [
+      {
+        "eng_page_number": 1,
+        "page_number": "1",
+        "page_key": 0,
+        "page_verses": [
+          {
+            "id": 1,
+            "chapter_id": 1,
+            "verses_translate_name": "Verses",
+            "verses_number": "1",
+            "arabic_name": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "translated_name": "૧. અલ્લાહના નામથી, (શરૂ કરું છું), જે અત્યંત કૃપાળુ અને દયાળુ છે."
+          },
+          {
+            "id": 2,
+            "chapter_id": 1,
+            "verses_translate_name": "Verses",
+            "verses_number": "2",
+            "arabic_name": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+            "translated_name": "૨. દરેક પ્રકારની પ્રશંસા અલ્લાહ માટે જ છે, જે સમગ્ર સૃષ્ટિનો પરવરદિગાર (પાલનહાર) છે."
+          },
+          {
+            "id": 3,
+            "chapter_id": 1,
+            "verses_translate_name": "Verses",
+            "verses_number": "3",
+            "arabic_name": "الرَّحْمَٰنِ الرَّحِيمِ",
+            "translated_name": "૩. (જે) ઘણો જ કૃપાળુ, અત્યંત દયાળુ, (છે)."
+          },
+          {
+            "id": 4,
+            "chapter_id": 1,
+            "verses_translate_name": "Verses",
+            "verses_number": "4",
+            "arabic_name": "مَالِكِ يَوْمِ الدِّينِ",
+            "translated_name": "૪. બદલાના દિવસ (કયામત) નો માલિક છે."
+          },
+          {
+            "id": 5,
+            "chapter_id": 1,
+            "verses_translate_name": "Verses",
+            "verses_number": "5",
+            "arabic_name": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+            "translated_name": "૫. અમે ફકત તારી જ બંદગી કરીએ છીએ અને ફકત તારી જ પાસે મદદ માંગીએ છીએ."
+          },
+          {
+            "id": 6,
+            "chapter_id": 1,
+            "verses_translate_name": "Verses",
+            "verses_number": "6",
+            "arabic_name": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+            "translated_name": "૬. અમને સત્ય (અને સાચો) માર્ગ બતાવ."
+          },
+          {
+            "id": 7,
+            "chapter_id": 1,
+            "verses_translate_name": "Verses",
+            "verses_number": "7",
+            "arabic_name": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+            "translated_name": "૭. તે લોકોનો માર્ગ, જેમના પર તે કૃપા કરી. તે લોકોનો (માર્ગ) ન બતાવ, જેમના પર તું ક્રોધિત થયો અને તેમનો પણ માર્ગ ન બતાવ, જેઓ પથભ્રષ્ટ છે."
+          }
+        ],
+        "page_arabic_ayah": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ (١)  الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ (٢)  الرَّحْمَٰنِ الرَّحِيمِ (٣)  مَالِكِ يَوْمِ الدِّينِ (٤)  إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ (٥)  اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ (٦)  صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ (٧)",
+        "is_read": false
+      }
+    ]
+  }
+}

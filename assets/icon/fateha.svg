@@ -1,0 +1,15 @@
+
+<!-- fateha.svg -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="24" height="24" viewBox="0 0 24 24"
+     fill="none" stroke="currentColor"
+     stroke-width="1.7" stroke-linecap="round"
+     stroke-linejoin="round">
+  <path d="M4 20l-1-6a2 2 0 0 1 1-2.2
+           c.8-.4 1.6 0 2 1l2 3"/>
+  <path d="M8 15V6a1.5 1.5 0 0 1 3 0v7"/>
+  <path d="M20 20l1-6a2 2 0 0 0-1-2.2
+           c-.8-.4-1.6 0-2 1l-2 3"/>
+  <path d="M16 15V6a1.5 1.5 0 0 0-3 0v7"/>
+  <path d="M8 15l2 4v2M16 15l-2 4v2"/>
+</svg>

@@ -1,0 +1,1716 @@
+{
+  "version": "1.0.0",
+  "id": "fateha_ka_tarika",
+  "default_language": "gu",
+  "supported_languages": [
+    "en",
+    "gu",
+    "hi",
+    "sw",
+    "ar",
+    "ur"
+  ],
+  "title": {
+    "en": "Fateha Ka Tarika",
+    "gu": "ફાતિહે કા તરીકા",
+    "hi": "फ़ातिहा का तरीक़ा",
+    "sw": "Utaratibu wa Fatiha",
+    "ar": "طريقة الفاتحة",
+    "ur": "فاتحہ کا طریقہ"
+  },
+  "sections": [
+    {
+      "id": "opening",
+      "order": 1,
+      "title": {
+        "en": "Opening Recitations",
+        "gu": "શરૂઆતની તિલાવત",
+        "hi": "शुरुआती तिलावत",
+        "sw": "Visomo vya Mwanzo",
+        "ar": "الأذكار الافتتاحية",
+        "ur": "ابتدائی تلاوت"
+      },
+      "items": [
+        {
+          "id": "opening_001",
+          "order": 1,
+          "type": "recitation",
+          "text": {
+            "en": "A'udhu billahi min ash-shaytanir rajim 0",
+            "gu": "અઉઝુબીલ્લાહી મીનશ્શયતાનીર્રજીમ‌ ૦",
+            "hi": "अऊज़ू बिल्लाहि मिन अश-शैतानिर रजीम ०",
+            "sw": "A'udhu billahi min ash-shaytanir rajim 0",
+            "ar": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+            "ur": "اعوذ بالله من الشیطان الرجیم ۰"
+          }
+        },
+        {
+          "id": "opening_002",
+          "order": 2,
+          "type": "recitation",
+          "text": {
+            "en": "Bismillah hir-rahmanir rahim 0",
+            "gu": "બીસ્મીલ્લાહીર્રહ્માનીર્રહીમ ૦",
+            "hi": "बिस्मिल्लाह हिर-रहमानिर रहीम ०",
+            "sw": "Bismillah hir-rahmanir rahim 0",
+            "ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "ur": "بسم اللہ الرحمن الرحیم ۰"
+          }
+        },
+        {
+          "id": "opening_003",
+          "order": 3,
+          "type": "duo_durood",
+          "text": {
+            "en": "Allahumma salli 'ala sayyidina wa mawlana wa shafi'ina wa habibina wa sanadina Muhammadin wa ala alihi sayyidina wa mawlana Muhammadin kama tuhibbu wa tarda an tusalli alayh.",
+            "gu": "અલ્લાહુમ્મા સલ્લેઅલા સૈયદેના વ મવલાના વ શફીએના વ હબીબેના વ સનદેના મોહંમ્મદીવ વ અલા આલેહી સૈયદેના વ મવલાના મુહંમ્મદીન કમા તોહીબુ વ તરદા બે અન તુસલ્લી અલયહ.",
+            "hi": "अल्लाहूम्मा सल्लिअला सय्यदिना व मवलाना व शफीइना व हबीबिना व सनदिना मोहम्मदीव व अला आलेही सय्यदिना व मवलाना मुहम्मदीन कमा तोहूबु व तरदा बे अन तुसल्ली अलयह.",
+            "sw": "Allahumma salli 'ala sayyidina wa mawlana wa shafi'ina wa habibina wa sanadina Muhammadin wa ala alihi sayyidina wa mawlana Muhammadin kama tuhibbu wa tarda an tusalli alayh.",
+            "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا وَشَفِيعِنَا وَحَبِيبِنَا وَسَنَدِنَا مُحَمَّدٍ وَعَلَى آلِهِ سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ كَمَا تُحِبُّ وَتَرْضَى أَنْ تُصَلِّيَ عَلَيْهِ.",
+            "ur": "اللھم صل علی سیدنا و مولانا و شفیعنا و حبیبنا و سندینا محمدی و علی آلہ سیدنا و مولانا محمدین کما توھیبو و تردا بے ان توسلی علیہ۔"
+          }
+        },
+        {
+          "id": "opening_004",
+          "order": 4,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        },
+        {
+          "id": "opening_005",
+          "order": 5,
+          "type": "recitation",
+          "text": {
+            "en": "Bismillah hir-rahmanir rahim 0",
+            "gu": "બીસ્મીલ્લાહીર્રહ્માનીર્રહીમ ૦",
+            "hi": "बिस्मिल्लाह हिर-रहमानिर रहीम ०",
+            "sw": "Bismillah hir-rahmanir rahim 0",
+            "ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "ur": "بسم اللہ الرحمن الرحیم ۰"
+          }
+        }
+      ]
+    },
+    {
+      "id": "surah_al_kafirun",
+      "order": 2,
+      "title": {
+        "en": "Surah Al-Kafirun",
+        "gu": "સુરહ કાફીરૂન",
+        "hi": "सूरह काफिरून",
+        "sw": "Surah Al-Kafirun",
+        "ar": "سورة الكافرون",
+        "ur": "سورہ کافرون"
+      },
+      "items": [
+        {
+          "id": "kafirun_001",
+          "order": 1,
+          "type": "recitation",
+          "reference": {
+            "surah": 109,
+            "ayah_start": 1,
+            "ayah_end": 6
+          },
+          "text": {
+            "en": "Kul ya ayyuhal kafirun 0 La a'budu ma ta'budun 0 Wa la antum abidu-n ma a'bud 0 Wa la ana abidumma abdtum 0 Wa la antum abidu-n ma a'bud 0 Lakum dinukum wali-y din 0",
+            "gu": "કુલ્ યા અય્યુહલ્ કાફીરૂન ૦ લા અઅ્બુદુમા તઅ્બુદુન ૦ વલા‌ અન્તુમ્ આબીદુ-ન મા અઅ્બુદ ૦ વલા અ‍ના આબીદુમ્મા અબદ્તુમ ૦ વલા અન્તુમ્ આબીદુ-ન મા અઅ્બુદ ૦ લકુમ્ દીનુકુમ્ વલી-ય દીન ૦",
+            "hi": "कुल या अय्युहल काफिरून ० ला अअ्बुदुमा तअ्बुदून ० वला‌ अन्तुम् आबिदु-न मा अअ्बुद ० वला अ‍ना आबिदुम्मा अबद्तुम ० वला अन्तुम् आबिदु-न मा अअ्बुद ० लकूम दीनुकुम वली-य दीन ०",
+            "sw": "Kul ya ayyuhal kafirun 0 La a'budu ma ta'budun 0 Wa la antum abidu-n ma a'bud 0 Wa la ana abidumma abdtum 0 Wa la antum abidu-n ma a'bud 0 Lakum dinukum wali-y din 0",
+            "ar": "قُلْ يَا أَيُّهَا الْكَافِرُونَ ﴿١﴾ لَا أَعْبُدُ مَا تَعْبُدُونَ ﴿٢﴾ وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ ﴿٣﴾ وَلَا أَنَا عَابِدٌ مَا عَبَدْتُمْ ﴿٤﴾ وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ ﴿٥﴾ لَكُمْ دِينُكُمْ وَلِيَ دِينِ ﴿٦﴾",
+            "ur": "قل یا ایہا الکافرون ۰ لا اعبد ما تعبدون ۰ ولا انتم عابدون ما اعبد ۰ ولا انا عابد بما عبدتم ۰ ولا انتم عابدون ما اعبد ۰ لكم دینکم ولی دین ۰"
+          }
+        },
+        {
+          "id": "kafirun_002",
+          "order": 2,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Kafirun)",
+            "gu": "(સુરહ કાફીરૂન)",
+            "hi": "(सूरह काफिरून)",
+            "sw": "(Surah Kafirun)",
+            "ar": "(سورة الكافرون)",
+            "ur": "(سورہ کافرون)"
+          }
+        },
+        {
+          "id": "kafirun_003",
+          "order": 3,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        }
+      ]
+    },
+    {
+      "id": "surah_al_ikhlas",
+      "order": 3,
+      "title": {
+        "en": "Surah Al-Ikhlas",
+        "gu": "સુરહ ઇખ્લાસ",
+        "hi": "सूरह इख्लास",
+        "sw": "Surah Al-Ikhlas",
+        "ar": "سورة الإخلاص",
+        "ur": "سورہ اخلاص"
+      },
+      "items": [
+        {
+          "id": "ikhlas_001",
+          "order": 1,
+          "type": "recitation",
+          "text": {
+            "en": "Bismillah hir-rahmanir rahim 0",
+            "gu": "બીસ્મીલ્લાહીર્રહ્માનીર્રહીમ ૦",
+            "hi": "बिस्मिल्लाह हिर-रहमानिर रहीम ०",
+            "sw": "Bismillah hir-rahmanir rahim 0",
+            "ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "ur": "بسم اللہ الرحمن الرحیم ۰"
+          }
+        },
+        {
+          "id": "ikhlas_002",
+          "order": 2,
+          "type": "recitation",
+          "reference": {
+            "surah": 112,
+            "ayah_start": 1,
+            "ayah_end": 4
+          },
+          "repeat_count": 3,
+          "text": {
+            "en": "Kul huwallahu ahad 0 Allahus-samad 0 Lam yalid, wa lam yulad 0 Wa lam yakullahu kufuwan ahad 0",
+            "gu": "કુલ્ હુવલ્લાહુ અહદ ૦ અલ્લાહુસ્સમદ ૦ લમ્ યલીદ્ , વ લમ્ યુલદ્ ૦ વલમ્ યકુલ્લહુ કુફુવન્ અહદ ૦",
+            "hi": "कुल हुवल्लाहु अहद ० अल्लाहूस्समद ० लम् यलीद, व लम् युलद ० वलम् यकुल्लहु कुफुवन् अहद ०",
+            "sw": "Kul huwallahu ahad 0 Allahus-samad 0 Lam yalid, wa lam yulad 0 Wa lam yakullahu kufuwan ahad 0",
+            "ar": "قُلْ هُوَ اللَّهُ أَحَدٌ ﴿١﴾ اللَّهُ الصَّمَدُ ﴿٢﴾ لَمْ يَلِدْ وَلَمْ يُولَدْ ﴿٣﴾ وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ ﴿٤﴾",
+            "ur": "قل ہو اللہ احد ۰ اللہ الصمد ۰ لم یلد ، و لم یولد ۰ و لم یکن لہ کفوا احد ۰"
+          }
+        },
+        {
+          "id": "ikhlas_003",
+          "order": 3,
+          "type": "instruction",
+          "repeat_count": 3,
+          "text": {
+            "en": "3 times",
+            "gu": "૩ વખત",
+            "hi": "३ बार",
+            "sw": "Mara 3",
+            "ar": "٣ مرات",
+            "ur": "۳ مرتبہ"
+          }
+        },
+        {
+          "id": "ikhlas_004",
+          "order": 4,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Ikhlas)",
+            "gu": "(સુરહ ઇખ્લાસ)",
+            "hi": "(सूरह इख्लास)",
+            "sw": "(Surah Ikhlas)",
+            "ar": "(سورة الإخلاص)",
+            "ur": "(سورہ اخلاص)"
+          }
+        },
+        {
+          "id": "ikhlas_005",
+          "order": 5,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        }
+      ]
+    },
+    {
+      "id": "surah_al_falaq",
+      "order": 4,
+      "title": {
+        "en": "Surah Al-Falaq",
+        "gu": "સુરહ ફલક",
+        "hi": "सूरह फलक",
+        "sw": "Surah Al-Falaq",
+        "ar": "سورة الفلق",
+        "ur": "سورہ فلق"
+      },
+      "items": [
+        {
+          "id": "falaq_001",
+          "order": 1,
+          "type": "recitation",
+          "text": {
+            "en": "Bismillah hir-rahmanir rahim 0",
+            "gu": "બીસ્મીલ્લાહીર્રહ્માનીર્રહીમ ૦",
+            "hi": "बिस्मिल्लाह हिर-रहमानिर रहीम ०",
+            "sw": "Bismillah hir-rahmanir rahim 0",
+            "ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "ur": "بسم اللہ الرحمن الرحیم ۰"
+          }
+        },
+        {
+          "id": "falaq_002",
+          "order": 2,
+          "type": "recitation",
+          "reference": {
+            "surah": 113,
+            "ayah_start": 1,
+            "ayah_end": 5
+          },
+          "text": {
+            "en": "Kul a'udhubi rabbil-falak 0 Min sharri ma khalak 0 Wa min sharri- gasikin iza wakab 0 Wa min sharrin-naffasati fi-l ukad 0 Wa min sharri hasidin iza hasad 0",
+            "gu": "કુલ્ અઉઝુબી રબ્બીલ્ફલક ૦ મીન્ શર્રી મા ખલક ૦ વમીન્ શર્રી‌ ગાસીકીન્ ઇઝા વકબ ૦ વમીન્ શર્રીન્નફ્ફાસાતી ફીલ્ ઉકદ ૦ વમીન્ શર્રી હાસીદીન્ ઇઝા હસદ ૦",
+            "hi": "कुल अऊज़ूबी रब्बील्फलक ० मीन शर्री मा खलक ० वमीन शर्री गासिकीन इजा वकब ० वमीन शर््रीनफ्फासाती फील् उकद ० वमीन शर्री हासीदीन इजा हसद ०",
+            "sw": "Kul a'udhubi rabbil-falak 0 Min sharri ma khalak 0 Wa min sharri- gasikin iza wakab 0 Wa min sharrin-naffasati fi-l ukad 0 Wa min sharri hasidin iza hasad 0",
+            "ar": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ﴿١﴾ مِنْ شَرِّ مَا خَلَقَ ﴿٢﴾ وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ ﴿٣﴾ وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ ﴿٤﴾ وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ ﴿٥﴾",
+            "ur": "قل اعوذ برب الفلق ۰ من شر ما خلق ۰ و من شر غاسق اذا وقب ۰ و من شر النفاثات في العقد ۰ و من شر حاسد اذا حسد ۰"
+          }
+        },
+        {
+          "id": "falaq_003",
+          "order": 3,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Falaq)",
+            "gu": "(સુરહ ફલક)",
+            "hi": "(सूरह फलक)",
+            "sw": "(Surah Falaq)",
+            "ar": "(سورة الفلق)",
+            "ur": "(سورہ فلق)"
+          }
+        },
+        {
+          "id": "falaq_004",
+          "order": 4,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        }
+      ]
+    },
+    {
+      "id": "surah_an_nas",
+      "order": 5,
+      "title": {
+        "en": "Surah An-Nas",
+        "gu": "સુરહ નાસ",
+        "hi": "सूरह नास",
+        "sw": "Surah An-Nas",
+        "ar": "سورة الناس",
+        "ur": "سورہ ناس"
+      },
+      "items": [
+        {
+          "id": "nas_001",
+          "order": 1,
+          "type": "recitation",
+          "text": {
+            "en": "Bismillah hir-rahmanir rahim 0",
+            "gu": "બીસ્મીલ્લાહીર્રહ્માનીર્રહીમ ૦",
+            "hi": "बिस्मिल्लाह हिर-रहमानिर रहीम ०",
+            "sw": "Bismillah hir-rahmanir rahim 0",
+            "ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "ur": "بسم اللہ الرحمن الرحیم ۰"
+          }
+        },
+        {
+          "id": "nas_002",
+          "order": 2,
+          "type": "recitation",
+          "reference": {
+            "surah": 114,
+            "ayah_start": 1,
+            "ayah_end": 6
+          },
+          "text": {
+            "en": "Kul a'udhubi rabbin-nas 0 Malikin-nas 0 Ilahin-nas 0 Min sharril-wasvasil khannas 0 Allazi yuwasvisu fi sudurin-nas 0 Min-al jinnati wan-nas 0",
+            "gu": "કુલ્ અઉઝુબી રબ્બીન્નાસ ૦ મલીકીન્નાસ ૦ ઇલાહીન્નાસ ૦ મીન્ શર્રીલ્ વસ્વાસીલ્ ખન્નાસ ૦ અલ્લઝી યુવસ્વીસુ ફી સુદુરીન્નાસ ૦ મીનલ્ જીન્નતી વન્નાસ ૦",
+            "hi": "कुल अऊज़ूबी रब्बिन्नास ० मलीकीन्नास ० इलाहीन्नास ० मीन शर््रील् वस्वासील् खन्नास ० अल्लजी युवस्वीसु फी सुदुरीन्नास ० मीनल् जिन्नती वन्नास ०",
+            "sw": "Kul a'udhubi rabbin-nas 0 Malikin-nas 0 Ilahin-nas 0 Min sharril-wasvasil khannas 0 Allazi yuwasvisu fi sudurin-nas 0 Min-al jinnati wan-nas 0",
+            "ar": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ ﴿١﴾ مَلِكِ النَّاسِ ﴿٢﴾ إِلَٰهِ النَّاسِ ﴿٣﴾ مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ﴿٤﴾ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ ﴿٥﴾ مِنَ الْجِنَّةِ وَالنَّاسِ ﴿٦﴾",
+            "ur": "قل اعوذ برب الناس ۰ ملک الناس ۰ الہ الناس ۰ من شر الوسواس الخناس ۰ الذی یوسوس فی صدور الناس ۰ من الجنة والناس ۰"
+          }
+        },
+        {
+          "id": "nas_003",
+          "order": 3,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Nas)",
+            "gu": "(સુરહ નાસ)",
+            "hi": "(सूरह नास)",
+            "sw": "(Surah Nas)",
+            "ar": "(سورة الناس)",
+            "ur": "(سورہ ناس)"
+          }
+        },
+        {
+          "id": "nas_004",
+          "order": 4,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        }
+      ]
+    },
+    {
+      "id": "surah_al_fatiha",
+      "order": 6,
+      "title": {
+        "en": "Surah Al-Fatiha",
+        "gu": "સુરહ ફાતિહા",
+        "hi": "सूरह फातिहा",
+        "sw": "Surah Al-Fatiha",
+        "ar": "سورة الفاتحة",
+        "ur": "سورہ فاتحہ"
+      },
+      "items": [
+        {
+          "id": "fatiha_001",
+          "order": 1,
+          "type": "recitation",
+          "text": {
+            "en": "Bismillah hir-rahmanir rahim 0",
+            "gu": "બીસ્મીલ્લાહીર્રહ્માનીર્રહીમ ૦",
+            "hi": "बिस्मिल्लाह हिर-रहमानिर रहीम ०",
+            "sw": "Bismillah hir-rahmanir rahim 0",
+            "ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "ur": "بسم اللہ الرحمن الرحیم ۰"
+          }
+        },
+        {
+          "id": "fatiha_002",
+          "order": 2,
+          "type": "recitation",
+          "reference": {
+            "surah": 1,
+            "ayah_start": 1,
+            "ayah_end": 7
+          },
+          "text": {
+            "en": "Al hamdulillahi rabbil alamin 0 Ar-rahmanir-rahim 0 Maliki yawmid-din 0 Iyya-k na'budu wa iyya-k nasta'in 0 Ihdinas-siratal mustakim 0 Siratallazi-n an'amt alayhim 0 Gairil magdubi alayhim walad d-ollin 0",
+            "gu": "અલ્ હમ્દુલીલ્લાહી રબ્બીલ્ આલમીન ૦ અર્હમાનીર્રહીમ ૦ માલીકી યૌમીદ્દીન ૦ ઇય્યા-ક નઅ્બુદુ વ ઇય્યા-ક નસ્તઈન ૦ ઇહ્દીનસ્સીરાતલ્ મુસ્તકીમ ૦ સીરાતલ્લઝી-ન અન્અમ્ત અલયહીમ ૦ ગૈરીલ્ મગ્દૂબી અલયહીમ્ વલદ્ દૉલ્લીન ૦",
+            "hi": "अल हम्दुलिल्लाहि रब्बील् आलमीन ० अर्हमानिर्रहीम ० मालीकी यौमीद्दीन ० इय्या-क नअ्बुदु व इय्या-क नस्तईन ० इह्दीनस्सीरातल् मुस्तकीम ० सीरातल्लजी-न अन्अम्त अलयहीम ० గૈરીલ્ મગ્દૂબી અલયહીમ્ વલદ્ દૉલ્લીन ०",
+            "sw": "Al hamdulillahi rabbil alamin 0 Ar-rahmanir-rahim 0 Maliki yawmid-din 0 Iyya-k na'budu wa iyya-k nasta'in 0 Ihdinas-siratal mustakim 0 Siratallazi-n an'amt alayhim 0 Gairil magdubi alayhim walad d-ollin 0",
+            "ar": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ﴿٢﴾ الرَّحْمَٰنِ الرَّحِيمِ ﴿٣﴾ مَالِكِ يَوْمِ الدِّينِ ﴿٤﴾ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ﴿٥﴾ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ﴿٦﴾ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ ﴿٧﴾",
+            "ur": "الحمد للہ رب العالمین ۰ الرحمن الرحیم ۰ مالک یوم الدین ۰ ایاک نعبد و ایاک نستعین ۰ اھدنا الصراط المستقیم ۰ صراط الذین انعمت علیہم غیر المغضوب علیہم ولا الضالین ۰"
+          }
+        },
+        {
+          "id": "fatiha_003",
+          "order": 3,
+          "type": "recitation",
+          "text": {
+            "en": "Amin",
+            "gu": "આમીન",
+            "hi": "आमीन",
+            "sw": "Amin",
+            "ar": "آمِين",
+            "ur": "آمین"
+          }
+        },
+        {
+          "id": "fatiha_004",
+          "order": 4,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Fatiha)",
+            "gu": "(સુરહ ફાતિહા)",
+            "hi": "(सूरह फातिहा)",
+            "sw": "(Surah Fatiha)",
+            "ar": "(سورة الفاتحة)",
+            "ur": "(سورہ فاتحہ)"
+          }
+        },
+        {
+          "id": "fatiha_005",
+          "order": 5,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        }
+      ]
+    },
+    {
+      "id": "surah_al_baqarah_1_5",
+      "order": 7,
+      "title": {
+        "en": "Surah Al-Baqarah, Ayahs 1-5",
+        "gu": "સુરહ બકરહ: આયત નં. ૦૧-૦૫",
+        "hi": "सूरह बकरा: आयत नं. ०१-०५",
+        "sw": "Surah Al-Baqarah, Ayah 1-5",
+        "ar": "سورة البقرة، الآيات ١-٥",
+        "ur": "سورہ بقرہ: آیات ۱-۵"
+      },
+      "items": [
+        {
+          "id": "baqarah_1_5_001",
+          "order": 1,
+          "type": "recitation",
+          "text": {
+            "en": "Bismillah hir-rahmanir rahim 0",
+            "gu": "બીસ્મીલ્લાહીર્રહ્માનીર્રહીમ ૦",
+            "hi": "बिस्मिल्लाह हिर-रहमानिर रहीम ०",
+            "sw": "Bismillah hir-rahmanir rahim 0",
+            "ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "ur": "بسم اللہ الرحمن الرحیم ۰"
+          }
+        },
+        {
+          "id": "baqarah_1_5_002",
+          "order": 2,
+          "type": "recitation",
+          "reference": {
+            "surah": 2,
+            "ayah_start": 1,
+            "ayah_end": 5
+          },
+          "text": {
+            "en": "Alif-lam-mim 0 Zalikal kitabu la raib fihi hudal-lillil muttakin 0 Allazin yu'minun bil gaibi wa yukimun-ssalat wa mimma razaqnahum yunfikun 0 Vallazin yu'minun bima unzil ilayk wama unzil min kablik wa bil akhirati hum yukinun 0 Ulaik ala hudammir-rabbihim wa ulaik humul muflihun 0",
+            "gu": "અલીફ-લામ્-મીમ્ ૦ ઝાલીકલ્ કીતાબુ લા રૈબ ફીહી હુદલ્લીલ્ મુત્તકીન ૦ અલ્લઝીન યુઅ્મીનુન બીલ્ ગૈબી વ યુકીમુનસ્સલાત વ મીમ્મા રઝકનાહુમ્ યુન્ફીકુન ૦ વલ્લઝીન યુઅ્મીનુન બીમા ઉન્ઝીલ ઇલયક વમા ઉન્ઝીલ મીન્ કબ્લીક વ બીલ્ આખીરતી હુમ્ યુકીનુન ૦ ઉલાઇક અલા હુદમ્મીર્રબ્બીહીમ્ વ ઉલાઇક હુમુલ્ મુફ્લીહુન ૦",
+            "hi": "अलीफ-लाम्-मीम ० जालिकल् किताबु ला रैब फीही हुदल्लील् मुत्तकीन ० अल्लजीन युअ्मीनून बिल् गैबी व युकीमुनस्सलात व मीम्मा रज़कनाहुम युन्फीकून ० वल्लजीन युअ्मीनून बीमा उन्जील इलयक वमा उन्जील मीन् कब्लीक व बिल् आखिरती हुम युकीकून ० उलाइक अला हुदम्मीर्रब्बीहीम व उलाइक हुमुल् मुफ्लीहून ०",
+            "sw": "Alif-lam-mim 0 Zalikal kitabu la raib fihi hudal-lillil muttakin 0 Allazin yu'minun bil gaibi wa yukimun-ssalat wa mimma razaqnahum yunfikun 0 Vallazin yu'minun bima unzil ilayk wama unzil min kablik wa bil akhirati hum yukinun 0 Ulaik ala hudammir-rabbihim wa ulaik humul muflihun 0",
+            "ar": "الم ﴿١﴾ ذَلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ هُدًى لِلْمُتَّقِينَ ﴿٢﴾ الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ وَيُقِيمُونَ الصَّلَاةَ وَمِمَّا رَزَقْنَاهُمْ يُنْفِقُونَ ﴿٣﴾ وَالَّذِينَ يُؤْمِنُونَ بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ ﴿٤﴾ أُولَئِكَ عَلَى هُدًى مِنْ رَبِّهِمْ وَأُولَئِكَ هُمُ الْمُفْلِحُونَ ﴿٥﴾",
+            "ur": "الف لام میم ۰ ذاللک الکتاب لا ریب فیہ ہدلی للمتقین ۰ الذین یؤمنون بالغیب و یقیمون الصلاة و ممَّا رزقناہم ینفقون ۰ والذین یؤمنون بما انزل الیک وما انزل من قبلک و بالآخرة ہم یوقنون ۰ اولایک علی ہدممیر ربہم و اولایک ہمم المفلحون ۰"
+          }
+        },
+        {
+          "id": "baqarah_1_5_003",
+          "order": 3,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Baqarah: Ayah No. 01-05)",
+            "gu": "(સુરહ બકરહ: આયત નં. ૦૧-૦૫)",
+            "hi": "(सूरह बकरा: आयत नं. ०१-०५)",
+            "sw": "(Surah Baqarah: Ayah No. 01-05)",
+            "ar": "(سورة البقرة: الآيات ١-٥)",
+            "ur": "(سورہ بقرہ: آیت نمبر ۰۱-۰۵)"
+          }
+        },
+        {
+          "id": "baqarah_1_5_004",
+          "order": 4,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        }
+      ]
+    },
+    {
+      "id": "surah_al_baqarah_163",
+      "order": 8,
+      "title": {
+        "en": "Surah Al-Baqarah, Ayah 163",
+        "gu": "સુરહ બકરહ: આયત નં. ૧૬૩",
+        "hi": "सूरह बकरा: आयत नं. १६३",
+        "sw": "Surah Al-Baqarah, Ayah 163",
+        "ar": "سورة البقرة، الآية ١٦٣",
+        "ur": "سورہ بقرہ: آیت ۱۶۳"
+      },
+      "items": [
+        {
+          "id": "baqarah_163_001",
+          "order": 1,
+          "type": "recitation",
+          "reference": {
+            "surah": 2,
+            "ayah_start": 163,
+            "ayah_end": 163
+          },
+          "text": {
+            "en": "Wa ilahukum ilahuv vahid la ilah illa huvar rahmanur rahim 0",
+            "gu": "વ ઇલાહુકુમ ઇલાહુવ્ વાહિદ લા ઇલાહ ઇલ્લા હુવર્ રહ્માનુર્ રહીમ ૦",
+            "hi": "व इलाहुकुम इलाहुव् वाहिद ला इलाह इल्ला हुवर् रहमानु र्रहीम ०",
+            "sw": "Wa ilahukum ilahuv vahid la ilah illa huvar rahmanur rahim 0",
+            "ar": "وَإِلَهُكُمْ إِلَهٌ وَاحِدٌ لَا إِلَهَ إِلَّا هُوَ الرَّحْمَٰنُ الرَّحِيمُ ﴿١٦٣﴾",
+            "ur": "و الہکم الہ واحد لا الہ الا ہو الرحمن الرحیم ۰"
+          }
+        },
+        {
+          "id": "baqarah_163_002",
+          "order": 2,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Baqarah: Ayah No. 163)",
+            "gu": "(સુરહ બકરહ: આયત નં. ૧૬૩)",
+            "hi": "(सूरह बकरा: आयत नं. १६३)",
+            "sw": "(Surah Baqarah: Ayah No. 163)",
+            "ar": "(سورة البقرة: الآية ١٦٣)",
+            "ur": "(سورہ بقرہ: آیت نمبر ۱۶۳)"
+          }
+        },
+        {
+          "id": "baqarah_163_003",
+          "order": 3,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ayat_al_kursi",
+      "order": 9,
+      "title": {
+        "en": "Ayat al-Kursi (Al-Baqarah 255)",
+        "gu": "આયતુલ કુર્સી - સુરહ બકરહ ૨૫૫",
+        "hi": "आयतुल कुर्सी - सूरह बकरा २५५",
+        "sw": "Ayat al-Kursi",
+        "ar": "آية الكرسي",
+        "ur": "آیت الكرسی"
+      },
+      "items": [
+        {
+          "id": "kursi_001",
+          "order": 1,
+          "type": "recitation",
+          "text": {
+            "en": "Bismillah hir-rahmanir rahim 0",
+            "gu": "બીસ્મીલ્લાહીર્રહ્માનીર્રહીમ ૦",
+            "hi": "बिस्मिल्लाह हिर-रहमानिर रहीम ०",
+            "sw": "Bismillah hir-rahmanir rahim 0",
+            "ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "ur": "بسم اللہ الرحمن الرحیم ۰"
+          }
+        },
+        {
+          "id": "kursi_002",
+          "order": 2,
+          "type": "recitation",
+          "reference": {
+            "surah": 2,
+            "ayah_start": 255,
+            "ayah_end": 255
+          },
+          "text": {
+            "en": "Allahu laila-h illa huval hachyul kayyam, la ta'khuzuhu sinatuvvala noum, lahu ma fissamavati vama fi-l ardi, man zalli yashfu induh illa bi'iznih, ya'lmu ma bai-n ayadihim vama khalfahum, vala yuhitu-n bishaiim mi-n ilmihi illa bima sha' , vasi-a kursiyyuhussamavati val ard, vala yauduhu hifzuhuma, vahuval aliyyul azim 0",
+            "gu": "અલ્લાહુ લાઇલા-હ ઇલ્લા હુવલ્ હચ્યુલ્ કય્યમ્, લા તઅ્ખુઝુહુ સીનતુવ્વલા નૌમ, લહુ મા ફીસ્સમાવાતી વમા ફીલ્ અર્દી, મન્ ઝલ્લી યશ્ફઉ ઇન્દહુ ઇલ્લા બીઇઝ્નીહ, યઅ્લમુ મા બૈ-ન અયદિહીમ વમા ખલ્ફહુમ્, વલા યુહીતુ-ન બીશૈઇમ્ મીન્ ઇલ્મીહી ઇલ્લા બીમા શાઅ્ , વસી-અ કુર્સીય્યહુસ્સમાવાતી વલ્ અર્દ, વલા યઉદુહુ હીફઝુહુમા, વહુવલ્ અલીય્યુલ્ અઝીમ ૦",
+            "hi": "अल्लाहु लाइला-ह इल्ला हुवल् हच्युल् कय्यम, ला तअ्खुजुहु सीनतुव्वला नौम, लहु मा फिस्समावाती वमा फील् अर्दी, मन् जल्ली यश्फऊ इन्दहु इल्ला बीइज्नीह, यअ्ल्मु मा बै-न अयदिहीम वमा खल्फ़हुम, वला युहीतु-न बीशैइम् मीन् इल्मीही इल्ला बीमा शाअ् , वसी-अ कुर्सिय्यहुस्समावाती वल् अर्द, वला यऊदुहु हीफ्जुहुमा, वहुवल् अलीय्युल् अजीम ०",
+            "sw": "Allahu laila-h illa huval hachyul kayyam, la ta'khuzuhu sinatuvvala noum, lahu ma fissamavati vama fi-l ardi, man zalli yashfu induh illa bi'iznih, ya'lmu ma bai-n ayadihim vama khalfahum, vala yuhitu-n bishaiim mi-n ilmihi illa bima sha' , vasi-a kursiyyuhussamavati val ard, vala yauduhu hifzuhuma, vahuval aliyyul azim 0",
+            "ar": "اللَّهُ لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَلْأَرْضَ وَلَا يَئُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ ﴿٢٥٥﴾",
+            "ur": "اللہ لا الہ الا ہو الحی القیوم لا تأخذہ سنۃ ولا نوم لہ ما فی السماوات وما فی الارض من ذا الذی یشفع عندہ الا باذنہ یعلم ما بین ایدیہم وما خلفہم ولا یحیطون بشیء من علمہ الا بما شاء وسع کرسیہ السماوات والارض ولا یئودہ حفظہما وہو العلی العظیم ۰"
+          }
+        },
+        {
+          "id": "kursi_003",
+          "order": 3,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Baqarah: Ayah No. 255)",
+            "gu": "(સુરહ બકરહ: આયત નં. ૨૫૫)",
+            "hi": "(सूरह बकरा: आयत नं. २५५)",
+            "sw": "(Surah Baqarah: Ayah No. 255)",
+            "ar": "(سورة البقرة: الآية ٢٥٥)",
+            "ur": "(سورہ بقرہ: آیت نمبر ۲۵۵)"
+          }
+        },
+        {
+          "id": "kursi_004",
+          "order": 4,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        }
+      ]
+    },
+    {
+      "id": "surah_al_baqarah_285",
+      "order": 10,
+      "title": {
+        "en": "Surah Al-Baqarah, Ayah 285",
+        "gu": "સુરહ બકરહ : આયત નં. ૨૮૫",
+        "hi": "सूरह बकरा: आयत नं. २८५",
+        "sw": "Surah Al-Baqarah, Ayah 285",
+        "ar": "سورة البقرة، الآية ٢٨٥",
+        "ur": "سورہ بقرہ: آیت ۲۸۵"
+      },
+      "items": [
+        {
+          "id": "baqarah_285_001",
+          "order": 1,
+          "type": "recitation",
+          "text": {
+            "en": "Bismillah hir-rahmanir rahim 0",
+            "gu": "બીસ્મીલ્લાહીર્રહ્માનીર્રહીમ ૦",
+            "hi": "बिस्मिल्लाह हिर-रहमानिर रहीम ०",
+            "sw": "Bismillah hir-rahmanir rahim 0",
+            "ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "ur": "بسم اللہ الرحمن الرحیم ۰"
+          }
+        },
+        {
+          "id": "baqarah_285_002",
+          "order": 2,
+          "type": "recitation",
+          "reference": {
+            "surah": 2,
+            "ayah_start": 285,
+            "ayah_end": 285
+          },
+          "text": {
+            "en": "Amanar-rasulu bima unzi-l ilayhi mir rabbihi val mu'minun , kullun am-n billahi wa malaikatihi wa kutubihi wa rusulihi la nufrriku, bai-n ahadim mir rusulih, va kalu sami'na wa ata'na gufran-k rabbana wa ilaykal masir 0",
+            "gu": "આમનર્રસુલુ બીમા ઉન્ઝિ-લ ઇલયહી મીર્ રબ્બીહી વલ્ મુઅ્મીનુન્ , કુલ્લુન્ આમ-ન બિલ્લાહી વ મલાઇકતીહી વ કુતુબીહી વ રૂસુલીહી લા નુફર્રીકુ, બૈ-ન અહદીમ્ મીર્ રૂસુલીહ, વ કાલુ સમીઅ્ના વ અતૉઅ્ના ગુફરાન-ક રબ્બના વ ઇલયકલ્ મસીર ૦",
+            "hi": "आम नर्रसुलु बीमा उन्जि-ल इलयही मीर रब्बीही वल् मुअ्मीनून , कुल्लून आम-न बिल्लाहि व मलाईकतीही व कुतुबीही व रसूलीही ला नुफ्रीकू, बै-न अहदीम् मीर रसूलीह, व कालू समीअ्ना व अतोअ्ना गुफरान-क रब्बना व इलयकल् मसीर ०",
+            "sw": "Amanar-rasulu bima unzi-l ilayhi mir rabbihi val mu'minun , kullun am-n billahi wa malaikatihi wa kutubihi wa rusulihi la nufrriku, bai-n ahadim mir rusulih, va kalu sami'na wa ata'na gufran-k rabbana wa ilaykal masir 0",
+            "ar": "آمَنَ الرَّسُولُ بِمَا أُنْزِلَ إِلَيْهِ مِنْ رَبِّهِ وَالْمُؤْمِنُونَ كُلٌّ آمَنَ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِنْ رُسُلِهِ وَقَالُوا سَمِعْنَا وَأَطَعْنَا غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ الْمَصِيرُ ﴿٢٨٥﴾",
+            "ur": "آمن الرسول بما انزل الیہ من ربہ والمؤمنون کل آمن باللہ وملائکتہ و کتبہ ورسلہ لا نفرق بین احد من رسلہ وقالوا سمعنا واطعنا غفرانك ربنا و إلیک المصیر ۰"
+          }
+        },
+        {
+          "id": "baqarah_285_003",
+          "order": 3,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Baqarah: Ayah No. 285)",
+            "gu": "(સુરહ બકરહ : આયત નં. ૨૮૫)",
+            "hi": "(सूरह बकरा: आयत नं. २८५)",
+            "sw": "(Surah Baqarah: Ayah No. 285)",
+            "ar": "(سورة البقرة: الآية ٢٨٥)",
+            "ur": "(سورہ بقرہ: آیت نمبر ۲۸۵)"
+          }
+        },
+        {
+          "id": "baqarah_285_004",
+          "order": 4,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        }
+      ]
+    },
+    {
+      "id": "surah_al_baqarah_286",
+      "order": 11,
+      "title": {
+        "en": "Surah Al-Baqarah, Ayah 286",
+        "gu": "સુરહ બકરહ: આયત નં. ૨૮૬",
+        "hi": "सूरह बकरा: आयत नं. २८६",
+        "sw": "Surah Al-Baqarah, Ayah 286",
+        "ar": "سورة البقرة، الآية ٢٨٦",
+        "ur": "سورہ بقرہ: آیت ۲۸۶"
+      },
+      "items": [
+        {
+          "id": "baqarah_286_001",
+          "order": 1,
+          "type": "recitation",
+          "reference": {
+            "surah": 2,
+            "ayah_start": 286,
+            "ayah_end": 286
+          },
+          "text": {
+            "en": "La yukallikullahu nafsan illa vuscaha, laha ma kasabat va alayha maktasabat, rabbana la tu'akhizna innasina av akhta'na, rabbana vala tahmil alayna is-ran kama hamaltahu alallazi-n min kablyna, rabbana vala tuhammilna ma la tok-t lana bih, va'fu anna vagfir lana var hamna, anta maulana fansur-na alal kaumil kafirin 0",
+            "gu": "લા યુકલ્લીકુલ્લાહુ નફ્સન્ ઇલ્લા વુસ્અહા, લહા મા કસબત્ વ અલયહા મક્તસબત્, રબ્બના લા તુઆખીઝ્ના ઇન્નસીના અવ્ અખ્તઅ્ના, રબ્બના વલા તહ્મીલ્ અલયના ઇસ્-રન્ કમા હમલ્તહુ અલલ્લઝી-ન મીન્ કબ્લીના,  રબ્બના વલા તુહમ્મીલ્ના મા લા તૉક-ત લના બીહ્, વઅ્ફુ અન્ના વગ્ફીર્ લના વર્ હમ્ના, અન્ત મૌલાના ફન્સુર્-ના અલલ્ કૌમીલ્ કાફીરીન ૦",
+            "hi": "ला युकल्लीकुल्लाहु नफ्सन् इल्ला वुसअहा, लहा मा कसबत व अलया मक्तसबत, रब्बना ला तुआखीज्ना इन्नसीना अव् अख्तअ्ना, रब्बना वला तह्मील् अलया इस्त-रन् कमा हमल्तहु अलल्लजी-न मीन् कब्लीना, रब्बना वला तुहम्मीर्ल्ना मा ला तॉक-त लना बीह्र, वअ्फु अन्ना वगफीर लना वर् हम्ना, अन्त मौलाना फन्सुर्-ना अलल् कौमील् काफीरीन ०",
+            "sw": "La yukallikullahu nafsan illa vuscaha, laha ma kasabat va alayha maktasabat, rabbana la tu'akhizna innasina av akhta'na, rabbana vala tahmil alayna is-ran kama hamaltahu alallazi-n min kablyna, rabbana vala tuhammilna ma la tok-t lana bih, va'fu anna vagfir lana var hamna, anta maulana fansur-na alal kaumil kafirin 0",
+            "ar": "لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا اكْتَسَبَتْ رَبَّنَا لَا تُؤَاخِذْنَا إِن نَّسِينَا أَوْ أَخْطَأْنَا رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَا إِصْرًا كَمَا حَمَلْتَهُ عَلَى الَّذِينَ مِنْ قَبْلِنَا رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِ وَاعْفُ عَنَّا وَغْفِرْ لَنَا وَارْحَمْنَا أَنْتَ مَوْلَانَا فَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ ﴿٢٨٦﴾",
+            "ur": "لا یکلف اللہ نفسا الا وسعہا لہا ما کسبت و علیہا ما اکتسبت ربنا لا تؤاخذنا ان نسینا او اخطأنا ربنا ولا تحمل علینا اصرًا کما حملتہ علی الذین من قبلنا ربنا ولا تحملنا ما لا طاقة لنا بہ واعف عنا وغفر لنا وارحمنا انت مولانا فانسورنا علی القوم الکافرین ۰"
+          }
+        },
+        {
+          "id": "baqarah_286_002",
+          "order": 2,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Baqarah: Ayah No. 286)",
+            "gu": "(સુરહ બકરહ: આયત નં. ૨૮૬)",
+            "hi": "(सूरह बकरा: आयत नं. २८६)",
+            "sw": "(Surah Baqarah: Ayah No. 286)",
+            "ar": "(سورة البقرة: الآية ٢٨٦)",
+            "ur": "(سورہ بقرہ: آیت نمبر ۲۸۶)"
+          }
+        },
+        {
+          "id": "baqarah_286_003",
+          "order": 3,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        }
+      ]
+    },
+    {
+      "id": "surah_al_araf_56",
+      "order": 12,
+      "title": {
+        "en": "Surah Al-A'raf, Ayah 56",
+        "gu": "સુરહ અઅરાફ : આયત નં. ૫૬",
+        "hi": "सूरह अअराफ: आयत नं. ५६",
+        "sw": "Surah Al-A'raf, Ayah 56",
+        "ar": "سورة الأعراف، الآية ٥٦",
+        "ur": "سورہ اعراف: آیت ۵۶"
+      },
+      "items": [
+        {
+          "id": "araf_56_001",
+          "order": 1,
+          "type": "recitation",
+          "reference": {
+            "surah": 7,
+            "ayah_start": 56,
+            "ayah_end": 56
+          },
+          "text": {
+            "en": "Inna rah-matallahi karibum minul muhsinin 0",
+            "gu": "ઇન્ન રહ્-મતલ્લાહી કરીબુમ્ મિનલ્ મુહસિનીન ૦",
+            "hi": "इन्न रह्-मतल्लाहि करीबुम् मिनल् मुहसिनीन ०",
+            "sw": "Inna rah-matallahi karibum minul muhsinin 0",
+            "ar": "إِنَّ رَحْمَتَ اللَّهِ قَرِيبٌ مِنَ الْمُحْسِنِينَ ﴿٥٦﴾",
+            "ur": "ان رحمت اللہ قریب من المحسین ۰"
+          }
+        },
+        {
+          "id": "araf_56_002",
+          "order": 2,
+          "type": "reference",
+          "text": {
+            "en": "(Surah A'raf: Ayah No. 56)",
+            "gu": "(સુરહ અઅરાફ : આયત નં. ૫૬)",
+            "hi": "(सूरह अअराफ: आयत नं. ५६)",
+            "sw": "(Surah A'raf: Ayah No. 56)",
+            "ar": "(سورة الأعراف: الآية ٥٦)",
+            "ur": "(سورہ اعراف: آیت نمبر ۵۶)"
+          }
+        },
+        {
+          "id": "araf_56_003",
+          "order": 3,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        }
+      ]
+    },
+    {
+      "id": "surah_al_anbiya_107",
+      "order": 13,
+      "title": {
+        "en": "Surah Al-Anbiya, Ayah 107",
+        "gu": "સુરહ અંબીયા : આયત નં. ૧૦૭",
+        "hi": "सूरह अंबिया: आयत नं. १०७",
+        "sw": "Surah Al-Anbiya, Ayah 107",
+        "ar": "سورة الأنبياء، الآية ١٠٧",
+        "ur": "سورہ انبیاء: آیت ۱۰۷"
+      },
+      "items": [
+        {
+          "id": "anbiya_107_001",
+          "order": 1,
+          "type": "recitation",
+          "reference": {
+            "surah": 21,
+            "ayah_start": 107,
+            "ayah_end": 107
+          },
+          "text": {
+            "en": "Vama ar-salna-k illa rahmatallill alamin 0",
+            "gu": "વમા અર્-સલ્ના-ક ઇલ્લા રહમતલ્લીલ્ આલમીન ૦",
+            "hi": "वमा अर्-सल्ना-क इल्ला रहमतल्लील् आलमीन ०",
+            "sw": "Vama ar-salna-k illa rahmatallill alamin 0",
+            "ar": "وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِلْعَالَمِينَ ﴿١٠٧﴾",
+            "ur": "وما ارسلناك الا رحمة للعالمین ۰"
+          }
+        },
+        {
+          "id": "anbiya_107_002",
+          "order": 2,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Anbiya: Ayah No. 107)",
+            "gu": "(સુરહ અંબીયા : આયત નં. ૧૦૭)",
+            "hi": "(सूरह अंबिया: आयत नं. १०७)",
+            "sw": "(Surah Anbiya: Ayah No. 107)",
+            "ar": "(سورة الأنبياء: الآية ١٠٧)",
+            "ur": "(سورہ انبیاء: آیت نمبر ۱۰۷)"
+          }
+        },
+        {
+          "id": "anbiya_107_003",
+          "order": 3,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        }
+      ]
+    },
+    {
+      "id": "surah_at_tawbah_128_129",
+      "order": 14,
+      "title": {
+        "en": "Surah At-Tawbah, Ayahs 128-129",
+        "gu": "સુરહ તૌબા : આયત નં. ૧૨૮-૧૨૯",
+        "hi": "सूरह तौबा: आयत नं. १२८-१२९",
+        "sw": "Surah At-Tawbah, Ayah 128-129",
+        "ar": "سورة التوبة، الآيات ١٢٨-١٢٩",
+        "ur": "سورہ توبہ: آیات ۱۲۸-۱۲۹"
+      },
+      "items": [
+        {
+          "id": "tawbah_128_001",
+          "order": 1,
+          "type": "recitation",
+          "reference": {
+            "surah": 9,
+            "ayah_start": 128,
+            "ayah_end": 128
+          },
+          "text": {
+            "en": "La kad ja'akum rasulum min anfusikum azizun alayhi ma anittum harisum alaykum bil mu'mini-n raufurrahim 0",
+            "gu": "લ કદ્ જાઅકુમ્ રસુલુમ્ મિન્ અન્ફુસિકુમ્ અઝિઝુન્ અલયહી મા અનિત્તુમ્ હરીસુમ્ અલયકુમ્ બિલ્ મુઅમીની-ન રઉફુર્રહીમ ૦",
+            "hi": "ल कद जाअकुम्म रसुतुम् मिन् अन्फुसिकुम अजीजुन् अलयही मा अनित्तुम हरीसुम् अलयकुम बिल् मुअमीनी-न रउफुर्रहीम ०",
+            "sw": "La kad ja'akum rasulum min anfusikum azizun alayhi ma anittum harisum alaykum bil mu'mini-n raufurrahim 0",
+            "ar": "لَقَدْ جَاءَكُمْ رَسُولٌ مِنْ أَنْفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيصٌ عَلَيْكُمْ بِالْمُؤْمِنِينَ رَءُوفٌ رَحِيمٌ ﴿١٢٨﴾",
+            "ur": "لقد جاءکم رسول من انفسکم عزیز علیہ ما عنتم حریص علیکم بالمؤمنین رؤوف رحیم ۰"
+          }
+        },
+        {
+          "id": "tawbah_128_002",
+          "order": 2,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Tawba: Ayah No. 128)",
+            "gu": "(સુરહ તૌબા : આયત નં. ૧૨૮)",
+            "hi": "(सूरह तौबा: आयत नं. १२८)",
+            "sw": "(Surah Tawba: Ayah No. 128)",
+            "ar": "(سورة التوبة: الآية ١٢٨)",
+            "ur": "(سورہ توبہ: آیت نمبر ۱۲۸)"
+          }
+        },
+        {
+          "id": "tawbah_128_003",
+          "order": 3,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        },
+        {
+          "id": "tawbah_129_001",
+          "order": 4,
+          "type": "recitation",
+          "reference": {
+            "surah": 9,
+            "ayah_start": 129,
+            "ayah_end": 129
+          },
+          "text": {
+            "en": "F-in tavallau fakul hasbiyallahu la ila-h illa hu-v alayhi tavakkaltu vahu-v rabbul arshil azim 0",
+            "gu": "ફ-ઇન્ તવલ્લઉ ફકુલ્ હસ્બીયલ્લાહુ લા ઇલા-હ ઇલ્લા હુ-વ અલયહી તવક્કલતુ વહુ-વ રબ્બુલ્ અર્શીલ્ અઝીમ ૦",
+            "hi": "फ-इन् तवल्लऊ फकुल् हस्बियल्लाहु ला इला-ह इल्ला हु-व अलयही तवक्कलतु वहु-व रब्बुल अर्शील् अजीम ०",
+            "sw": "F-in tavallau fakul hasbiyallahu la ila-h illa hu-v alayhi tavakkaltu vahu-v rabbul arshil azim 0",
+            "ar": "فَإِنْ تَوَلَّوْا فَقُلْ حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ ﴿١٢٩﴾",
+            "ur": "فإن تولوا فقل حسبی اللہ لا الہ الا ہو علیہ توکلت وہو رب العرش العظیم ۰"
+          }
+        },
+        {
+          "id": "tawbah_129_002",
+          "order": 5,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Tawba: Ayah No. 129)",
+            "gu": "(સુરહ તૌબા : આયત નં. ૧૨૯)",
+            "hi": "(सूरह तौबा: आयत नं. १२९)",
+            "sw": "(Surah Tawba: Ayah No. 129)",
+            "ar": "(سورة التوبة: الآية ١٢٩)",
+            "ur": "(سورہ توبہ: آیت نمبر ۱۲۹)"
+          }
+        },
+        {
+          "id": "tawbah_129_003",
+          "order": 6,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        }
+      ]
+    },
+    {
+      "id": "surah_yunus_10",
+      "order": 15,
+      "title": {
+        "en": "Surah Yunus, Ayah 10",
+        "gu": "સુરહ યુનુસ : આયત નં. ૧૦",
+        "hi": "सूरह यूनुस: आयत नं. १०",
+        "sw": "Surah Yunus, Ayah 10",
+        "ar": "سورة يونس، الآية ١٠",
+        "ur": "سورہ یونس: آیت ۱۰"
+      },
+      "items": [
+        {
+          "id": "yunus_10_001",
+          "order": 1,
+          "type": "recitation",
+          "reference": {
+            "surah": 10,
+            "ayah_start": 10,
+            "ayah_end": 10
+          },
+          "text": {
+            "en": "Da'-wahum fiha subhanakallahumm va tahiyyatuhum fiha salam va akhiru da'-wahum anil hamdu lillahi rabbil alamin 0",
+            "gu": "દઅ-વાહુમ્ ફિહા સુબ્હાનકલ્લાહુમ્મ વ તહિય્યતુહુમ્ ફીહા સલામ્ વ આખિરુ દઅ્-વાહુમ્ અનિલ્ હમ્દુ લિલ્લાહી રબ્બીલ્ આલમીન ૦",
+            "hi": "दअ-वाहुम फिहा सुब्हानकल्लाहुम्म व तहिय्यतुहुम फीहा सलाम व आखिरु दअ्-वाहुम अनिल् हम्दु लिल्लाहि रब्बील् आलमीन ०",
+            "sw": "Da'-wahum fiha subhanakallahumm va tahiyyatuhum fiha salam va akhiru da'-wahum anil hamdu lillahi rabbil alamin 0",
+            "ar": "دَعْوَاهُمْ فِيهَا سُبْحَانَكَ اللَّهُمَّ وَتَحِيَّتُهُمْ فِيهَا سَلَامٌ وَآخِرُ دَعْوَاهُمْ أَنِ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ﴿١٠﴾",
+            "ur": "دعواہم فیہا سبحانک اللھم و تحیتہم فیہا سلام و آخر دعواہم ان الحمد للہ رب العالمین ۰"
+          }
+        },
+        {
+          "id": "yunus_10_002",
+          "order": 2,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Yunus: Ayah No. 10)",
+            "gu": "(સુરહ યુનુસ : આયત નં. ૧૦)",
+            "hi": "(सूरह यूनुस: आयत नं. १०)",
+            "sw": "(Surah Yunus: Ayah No. 10)",
+            "ar": "(سورة يونس: الآية ١٠)",
+            "ur": "(سورہ یونس: آیت نمبر ۱۰)"
+          }
+        },
+        {
+          "id": "yunus_10_003",
+          "order": 3,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        }
+      ]
+    },
+    {
+      "id": "surah_al_ahzab_40_56",
+      "order": 16,
+      "title": {
+        "en": "Surah Al-Ahzab, Ayahs 40 and 56",
+        "gu": "સુરહ અલ-અહઝાબ : આયત નં. ૪૦ અને ૫૬",
+        "hi": "सूरह अल-अहज़ाब: आयत नं. ४० और ५६",
+        "sw": "Surah Al-Ahzab, Ayahs 40 and 56",
+        "ar": "سورة الأحزاب، الآيتان ٤٠ و٥٦",
+        "ur": "سورہ احزاب: آیات ۴۰ اور ۵۶"
+      },
+      "items": [
+        {
+          "id": "ahzab_40_001",
+          "order": 1,
+          "type": "recitation",
+          "reference": {
+            "surah": 33,
+            "ayah_start": 40,
+            "ayah_end": 40
+          },
+          "text": {
+            "en": "Ma ka-n muhammadun aba ahadim mir rijalikum v lakir resulallahi va khatam-nabiyyi-n va kanallahu bikulli shayin alima 0",
+            "gu": "મા કા-ન મુહમ્મદુન્ અબા અહદીમ્ મીર્ રિજાલિકુમ્ વ લાકિર્ રસુલલ્લાહી વ ખાતમન્નબીય્યી-ન વ કાનલ્લાહુ બીકુલ્લી શયઇન્ અલીમા ૦",
+            "hi": "मा का-न मुहम्मदुन अवा अहदीम मीर रिजालिकुम व लाकिर रसुल्लाही व खातमुन्नबिय्यी-न व कानल्लाहु बीकुल्लि शयइन अलिमा ०",
+            "sw": "Ma ka-n muhammadun aba ahadim mir rijalikum v lakir resulallahi va khatam-nabiyyi-n va kanallahu bikulli shayin alima 0",
+            "ar": "مَا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِنْ رِجَالِكُمْ وَلَكِنْ رَسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ وَكَانَ اللَّهُ بِكُلِّ شَيْءٍ عَلِيمًا ﴿٤٠﴾",
+            "ur": "ما کان محمد ابا احد من رجالکم و لکن رسول اللہ و خاتم النبیین و کان اللہ بکل شیء علیمًا ۰"
+          }
+        },
+        {
+          "id": "ahzab_40_002",
+          "order": 2,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Al-Ahzab: Ayah No. 40)",
+            "gu": "(સુરહ અલ-અહઝાબ : આયત નં. ૪૦)",
+            "hi": "(सूरह अल-अहज़ाब: आयत नं. ४०)",
+            "sw": "(Surah Al-Ahzab: Ayah No. 40)",
+            "ar": "(سورة الأحزاب: الآية ٤٠)",
+            "ur": "(سورہ احزاب: آیت نمبر ۴۰)"
+          }
+        },
+        {
+          "id": "ahzab_40_003",
+          "order": 3,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        },
+        {
+          "id": "ahzab_56_001",
+          "order": 4,
+          "type": "recitation",
+          "reference": {
+            "surah": 33,
+            "ayah_start": 56,
+            "ayah_end": 56
+          },
+          "text": {
+            "en": "Innal-ah v malaikatuhu yu sallu-n alannabiyy,\nYa ayyuhallazi-n amanu sallu alayhi vasallimu taslima",
+            "gu": "ઇન્નલ્લા-હ વ મલાઇકતુહુ યુ સલ્લુ-ન અલન્નબીય્ય,\nયા અય્યુહલ્લઝી-ન આમનુ સલ્લુ અલયહી વસલ્લીમુ તસ્લીમા",
+            "hi": "इन्नल्ला-ह व मलाईकतुहु यु सल्लु-न अलन्नबिय्य,\nया अय्युहल्लजी-न आमनु सल्लु अलयही वसल्लीमू तस्लीमा",
+            "sw": "Innal-ah v malaikatuhu yu sallu-n alannabiyy,\nYa ayyuhallazi-n amanu sallu alayhi vasallimu taslima",
+            "ar": "إِنَّ اللَّهَ وَمَلَائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ يَا أَيُّهَا الَّذِينَ آمَنُوا صَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيمًا ﴿٥٦﴾",
+            "ur": "إن اللہ و ملائکتہ یصلون علی النبی,\nیا ایہا الذین آمنوا صلوا علیہ وسلموا تسلیما"
+          }
+        },
+        {
+          "id": "ahzab_56_002",
+          "order": 5,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Al-Ahzab: Ayah No. 56)",
+            "gu": "(સુરહ અલ-અહઝાબ : આયત નં. ૫૬)",
+            "hi": "(सूरह अल-अहज़ाब: आयत नं. ५६)",
+            "sw": "(Surah Al-Ahzab: Ayah No. 56)",
+            "ar": "(سورة الأحزاب: الآية ٥٦)",
+            "ur": "(سورہ احزاب: آیت نمبر ۵۶)"
+          }
+        },
+        {
+          "id": "ahzab_56_003",
+          "order": 6,
+          "type": "recitation",
+          "text": {
+            "en": "Allahumma salli ala sayyidina muhammadivv ala آli sayyidina va maulana muhammadin kad kada adriknika ya rasulullah sallallahu alayhi va alihi vasallam.",
+            "gu": "અલ્લાહુમ્મ સલ્લી અલા સૈયદીના મુહમ્મદીવ્વ અલા આલી સૈયદીના વ મૌલાના મુહમ્મદીન કદ કદા અદરીકની યા રસુલુલ્લાહ સલ્લલ્લાહુ અલયહી વ આલીહી વસલ્લમ.",
+            "hi": "अल्लाहूम्म सल्लि अला सय्यदीना मुहम्मदीव्व अला आली सय्यदीना व मवलाना मुहम्मदीन कद कदा अदरीकनी या रसुतुल्लाह सल्लमल्लाहु अलयही व आलीही वसल्लम.",
+            "sw": "Allahumma salli ala sayyidina muhammadivv ala ali sayyidina va maulana muhammadin kad kada adriknika ya rasulullah sallallahu alayhi va alihi vasallam.",
+            "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ قَدْ كَدَا أَدْرَكْنِي يَا رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ.",
+            "ur": "اللھم صل علی سیدنا محمدی و علی آلی سیدنا و مولانا محمدین قد کدا ادريکنی یا رسول اللہ صلی اللہ علیہ و آلہ وسلم۔"
+          }
+        }
+      ]
+    },
+    {
+      "id": "durood_e_taj",
+      "order": 17,
+      "title": {
+        "en": "Durood-e-Taj",
+        "gu": "દુરૂદે તાજ",
+        "hi": "दुरूदे ताज",
+        "sw": "Durood-e-Taj",
+        "ar": "درود تاج",
+        "ur": "درود تاج"
+      },
+      "items": [
+        {
+          "id": "taj_001",
+          "order": 1,
+          "type": "heading",
+          "text": {
+            "en": "Durood-e-Taj",
+            "gu": "દુરૂદે તાજ",
+            "hi": "दुरूदे ताज",
+            "sw": "Durood-e-Taj",
+            "ar": "درود تاج",
+            "ur": "درود تاج"
+          }
+        },
+        {
+          "id": "taj_002",
+          "order": 2,
+          "type": "separator",
+          "text": {
+            "en": "━───⊱◈✿◈⊰───━",
+            "gu": "━───⊱◈✿◈⊰───━",
+            "hi": "━───⊱◈✿◈⊰───━",
+            "sw": "━───⊱◈✿◈⊰───━",
+            "ar": "━───⊱◈✿◈⊰───━",
+            "ur": "━───⊱◈✿◈⊰───━"
+          }
+        },
+        {
+          "id": "taj_003",
+          "order": 3,
+          "type": "recitation",
+          "text": {
+            "en": "Bismillah hir-rahmanir rahim 0",
+            "gu": "બીસ્મીલ્લાહીર્રહ્માનીર્રહીમ ૦",
+            "hi": "बिस्मिल्लाह हिर-रहमानिर रहीम ०",
+            "sw": "Bismillah hir-rahmanir rahim 0",
+            "ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "ur": "بسم اللہ الرحمن الرحیم ۰"
+          }
+        },
+        {
+          "id": "taj_004",
+          "order": 4,
+          "type": "recitation",
+          "text": {
+            "en": "Allahumma salli ala sayyidina va maulana muhammadin sahibittaji val mi-raji val buraki val alam 0 Dafi'il balai val vabai val kahti val mar-zi val alam 0 Ismuhu maktabum markuum mankushum fi-l lauhi val kalam 0 Sayyidil arabi val ajmi jismuhu mukaddasum muattarum mutharum munvarum fi-l beiti val haram 0 Shammiduha badriduja sadgil ula nuril huda kahfil vora misbahizulam 0 Jamilishiyami shafi'il umam 0 Sahibil judi val karam 0 Vallahu asimuhu 0 V jibrilu khadimuhu 0 Val buraku mar-kabuhu 0 Val mi araju safaruh va sidratul muntaha makamuhu 0 Va kaba kauseni matlabuhu 0 Val matlubu makkisduhu val maksudu maujuduhu 0 Sayyidil mur-salin 0 Khataminnabiyyin 0 Shafi'il muzzibin 0 Anisil garibin rahmatillil alamin 0 Rahatil ashikin 0 Muradik mushtakin 0 Shamsil arifin sirajissalikin 0 Misbahil mukarrabin 0 Muhibbil kuk-rai val gur-bai val masakin 0 Sayyidissak-lain 0 Nabiyyill har-main 0 Imamill kibltain 0 Vasilitina fiddaren 0 Sahibi kaba kauseni mahbubi rabbil mashireken va rabbil mag-ribain jaddil hasani val huseni maulana va maulasskalain abil kasimin muhammadibni abdillah muhammadur-rasulullah sallallahu alayhi vasallam nurimminurillah, nurimminurillah, nurimminurillah ya ayyuhal mushtakun binuri jamalihi, balagal ula bi kamalihi, kashfadduja bi jamalihi, hasunat jami'u khisolihi, sallu alayhi va alihi va ashabihi va sallimu taslima 0",
+            "gu": "અલ્લાહુમ્મ સલ્લી અલા સૈયદીના વ મૌલાના મુહમ્મદીન્ સાહીબીત્તાજી વલ્ મી-રાજી વલ્ બુરાકી વલ્ અલમ ૦ દાફીઇલ્ બલાઇ વલ્ વબાઇ વલ્ કહ્તી વલ્ મર-ઝી વલ્ અલમ ૦ ઇસ્મુહુ મક્તબુમ્ મરકુઉમ્ મન્કુશુમ્ ફીલ્ લૌહી વલ્ કલમ ૦ સૈયદીલ અરબી વલ્ અજમી જીસ્મુહુ મુકદ્દસુમ્ મુઅત્તરુમ્ મુતહરુમ્ મુનવ્વરુમ્ ફીલ્ બૈતી વલ્ હરમ ૦ શમ્મીદુહા બદ્રીદુજા સદ્ગીલ ઉલા નૂરીલ્ હુદા કહ્ફીલ્ વરા મીસ્બાહીઝુલમ ૦ જમીલીશીયમી શફીઇલ્ ઉમમ ૦ સાહીબીલ્ જુદી વલ્ કરમ ૦ વલ્લાહુ આસીમુહુ ૦ વ જીબ્રીલુ ખાદીમુહુ ૦ વલ્ બુરાકુ મર્-કબુહુ ૦ વલ્ મી અરાજુ સફરુહ વ સીદ્રતુલ મુન્તહા મકામુહુ ૦ વ કાબા કૌસૈની મત્લબુહુ ૦ વલ્ મત્લુબુ મક્ક્સદુહુ વલ્ મક્સદુ મૌજુદુહુ ૦ સૈયીદીલ મુર્-સલીન ૦ ખાતમીન્નબીય્યીન ૦ શફીઇલ્ મુઝ્ઝીબીન ૦ અનીસીલ્ ગરીબીન્ રહમતલ્લીલ્ આલમીન ૦ રાહતીલ આશીકીન ૦ મુરાદીક્ મુશ્તાકીન ૦ શમ્સીલ્ આરીફીન સિરાજીસ્સાલીકીન ૦ મીસ્બાહીલ મુકર્રબીન ૦ મુહીબ્બીલ કુક-રાઇ વલ્ ગુર-બાઇ વલ મસાકીન ૦ સૈયદીસ્સક-લૈન ૦ નબીય્યીલ્ હર-મૈન ૦ ઇમામીલ્ કીબ્લતૈન ૦ વસીલતીના ફીદ્દારૈન ૦ સાહીબી કાબા કૌસૈની મહબુબી રબ્બીલ્ મશરીકેની વ રબ્બીલ મગ્-રીબૈન જદ્દીલ હસની વલ હુસૈની મૌલાના વ મૌલસ્સકલૈન અબીલ કાસીમીં મુહમ્મદીબ્ની અબ્દીલ્લાહ મુહમ્મદુર્રસુલુલ્લાહ સલ્લલ્લાહુ અલયહી વસલ્લમ નુરીમ્મીનુરીલ્લાહ, નુરીમ્મીનુરીલ્લાહ, નુરીમ્મીનુરીલ્લાહ યા અય્યુહલ મુશ્તાકુન બીનુરી જમાલીહી, બલગલ્ ઉલા બિ કમાલિહી, કશફદદુજા બિ જમાલિહી, હસુનત જમીઉ ખિસૉલિહી, સલ્લુ અલયહી વ આલીહી વ અસ્હાબીહી વ સલ્લીમુ તસ્લીમા ૦",
+            "hi": "अल्लाहूम्म सल्लि अला सय्यदीना व मवलाना मुहम्मदीन् साहिबीत्ताजी वल् मी-राजी वल् बुराकी वल् अलम ० दाफीइल् बलाई वल् वबाइ वल् कह्ती वल् मर-जी वल् अलम ० इसमुहु मक्तबुम् मर्कुउम् मन्कुशुम् फील् लौही वल् कलम ० सय्यदील अरबी वल् अजमी जीस्मुहु मुकद्दसुम् मुअत्तरुम् मुतहर्मुम् मुनव्वरुम फील् बैती वल् हरम ० शम्मिदुहा बद्रीदुजा सद्गील उला नूरील् हुदा कहफील् वरा मीस्बाहीजुलम ० जमीलीशीयमी शफीइल् उमम ० साहिबील् जुदी वल् करम ० वल्लाहु आसीमुहु ० व जिब्रिलु खादिमुहु ० वल् बुराकु मर्-कबृहू ० वल् मी अराजु सफरुह व सीद्रतुल मुन्तहा मकामुहु ० व काबा कौसैनी मतलबुहु ० वल् मतलबु मक्सदुहु वल् मक्सदु मौजुदुहु ० सय्यिदील मुर्सलीन ० खातमिन्नबिय्यीन ० शफीइल् मुज्जीबीन ० अनीसील् गरीबीन् रहमतल्लील् आलमीन ० राहतिल आषीकीन ० मुरादीक्क मुश्ताकीन ० शम्सील् आरीफीन सिराजीस्सालीकीन ० मीस्बाहिल मुकर्रबीन ० मुहीब्बील कुक-राइ वल् गुर-बाइ वल मसाकीन ० सय्यदीस्सक-लैं ० नबिय्यील् हर-मैन ० इमामील् कीब्लतैं ० वसीलतीना फीड्दारैं ० साहिबी काबा कौसैनी महबुबी रब्बील् मश्रीकेनी व रब्बील मगरीबैं जद्दील हसनी वल हुसैनी मवलाना व मौलस्स्कलैं अबील कासीबीं मुहम्मदीब्नी अब्दीલ્લાह मुहम्मदुर्रसुलुल्लाह सल्लमल्लाहु अलयही वसल्लम नुरीम्मीनुरील्लाहा, नुरीम्मीनुरील्लाह, नुरीम्मीनुरील्लाह या अय्युहल मुश्ताकुन बीनुरी जमालीही, बलग़ल् उला बि कमालिही, कषफद्दुजा बि जमालिही, हसुन्त जमीउ खिसोलीही, सल्लु अलयही व आलीही व अस्हाबीही व सल्लीमू तस्लीमा ०",
+            "sw": "Allahumma salli ala sayyidina va maulana muhammadin sahibittaji val mi-raji val buraki val alam 0 Dafi'il balai val vabai val kahti val mar-zi val alam 0 Ismuhu maktabum markuum mankushum fi-l lauhi val kalam 0 Sayyidil arabi val ajmi jismuhu mukaddasum muattarum mutharum munvarum fi-l beiti val haram 0 Shammiduha badriduja sadgil ula nuril huda kahfil vora misbahizulam 0 Jamilishiyami shafi'il umam 0 Sahibil judi val karam 0 Vallahu asimuhu 0 V jibrilu khadimuhu 0 Val buraku mar-kabuhu 0 Val mi araju safaruh va sidratul muntaha makamuhu 0 Va kaba kauseni matlabuhu 0 Val matlubu makkisduhu val maksudu maujuduhu 0 Sayyidil mur-salin 0 Khataminnabiyyin 0 Shafi'il muzzibin 0 Anisil garibin rahmatillil alamin 0 Rahatil ashikin 0 Muradik mushtakin 0 Shamsil arifin sirajissalikin 0 Misbahil mukarrabin 0 Muhibbil kuk-rai val gur-bai val masakin 0 Sayyidissak-lain 0 Nabiyyill har-main 0 Imamill kibltain 0 Vasilitina fiddaren 0 Sahibi kaba kauseni mahbubi rabbil mashireken va rabbil mag-ribain jaddil hasani val huseni maulana va maulasskalain abil kasimin muhammadibni abdillah muhammadur-rasulullah sallallahu alayhi vasallam nurimminurillah, nurimminurillah, nurimminurillah ya ayyuhal mushtakun binuri jamalihi, balagal ula bi kamalihi, kashfadduja bi jamalihi, hasunat jami'u khisolihi, sallu alayhi va alihi va ashabihi va sallimu taslima 0",
+            "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ صَاحِبِ التَّاجِ وَالْمِعْرَاجِ وَالْبُرَاقِ وَالْعَلَمِ... (صلى الله عليه وسلم)",
+            "ur": "اللھم صل علی سیدنا و مولانا محمدین صاحب التاج والمعراج والبراق والاعلم ۰ دافع البلاء والوباء والقحط والمرض والالم ۰..."
+          }
+        },
+        {
+          "id": "taj_005",
+          "order": 5,
+          "type": "separator",
+          "text": {
+            "en": "",
+            "gu": "",
+            "hi": "",
+            "sw": "",
+            "ar": "",
+            "ur": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "durood_e_tunjina",
+      "order": 18,
+      "title": {
+        "en": "Durood-e-Tunjina",
+        "gu": "દુરૂદે તુનજ્જીના",
+        "hi": "दुरूदे तुनज्जीना",
+        "sw": "Durood-e-Tunjina",
+        "ar": "درود تنجينا",
+        "ur": "درود تنجینا"
+      },
+      "items": [
+        {
+          "id": "tunjina_001",
+          "order": 1,
+          "type": "heading",
+          "text": {
+            "en": "Durood-e-Tunjina",
+            "gu": "દુરૂદે તુનજ્જીના",
+            "hi": "दुरूदे तुनज्जीना",
+            "sw": "Durood-e-Tunjina",
+            "ar": "درود تنجينا",
+            "ur": "درود تنجینا"
+          }
+        },
+        {
+          "id": "tunjina_002",
+          "order": 2,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        },
+        {
+          "id": "tunjina_003",
+          "order": 3,
+          "type": "recitation",
+          "text": {
+            "en": "Bismillah hir-rahmanir rahim 0",
+            "gu": "બીસ્મીલ્લાહીર્રહ્માનીર્રહીમ ૦",
+            "hi": "बिस्मिल्लाह हिर-रहमानिर रहीम ०",
+            "sw": "Bismillah hir-rahmanir rahim 0",
+            "ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "ur": "بسم اللہ الرحمن الرحیم ۰"
+          }
+        },
+        {
+          "id": "tunjina_004",
+          "order": 4,
+          "type": "recitation",
+          "text": {
+            "en": "Allahumma salli ala muhammadin salatan tunjjina biha min jami'il ah-vali val afati takdi lana biha jami'il hajati va tutahhiruna biha min jami'issacchiati va tar-fa'una biha ind-k a'alad-dar-jati va tuballiguna biha ak-sal gayati min jami'il khairati fi-l hayati va ba'd-al mamat innak mujibud da'vat innak ala kulli shayin kadir 0",
+            "gu": "અલ્લાહુમ્મ સલ્લી અલા મુહમ્મદીન્ સલાતન્ તુનજ્જીના બીહા મીન્ જમીઇલ્ અહ્-વાલી વલ્ આફાતિ તકદી લના બીહા જમીઇલ્ હાજાતી વ તુતહ્હીરુના બીહા મીન્ જમીઇસ્સચ્ચીઆતી વ તર્-ફઉના બીહા ઇન્દ-ક અઅ્-લદ્-દર્-જાતી વ તુબલ્લિગુના બીહા અક્-સલ્ ગાયાતિ મીન્ જમીઇલ્ ખૈરાતી ફિલ્ હયાતી વ બઅ્-દલ્ મમાત ઇન્નક્ મુજીબુદ્ દઅ્વાત ઇન્નક અલા કુલ્લિ શયઇન્ કદીર ૦",
+            "hi": "अल्लाहूम्म सल्लि अला मुहम्मदीन् सालातन् तुनज्जीना बीहा मीन जम्मीइल् अह-वाली वल् आफाती तकदी लना बीहा जम्मीइल् हाजाती व तुतहहिरुना बीहा मीन जम्मीइस्सच्चीआती व तर्-फउना बीहा इन्द-क अअ्-लद-दर-जाती व तुबल्लिगुना बीहा अक्-सल गायाती मीन जम्मीइल् खैराती फिल् हयाती व बअ्-दल् ममात इन्नक् मुजीबुद् दअ्वात इन्नक अला कुल्लि शयइन् कदीर ०",
+            "sw": "Allahumma salli ala muhammadin salatan tunjjina biha min jami'il ah-vali val afati takdi lana biha jami'il hajati va tutahhiruna biha min jami'issacchiati va tar-fa'una biha ind-k a'alad-dar-jati va tuballiguna biha ak-sal gayati min jami'il khairati fi-l hayati va ba'd-al mamat innak mujibud da'vat innak ala kulli shayin kadir 0",
+            "ar": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ صَلَاةً تُنجِينَا بِهَا مِنْ جَمِيعِ الْأَهْوَالِ وَالْآفَاتِ، وَتَقْضِي لَنَا بِهَا جَمِيعَ الْحَاجَاتِ، وَتُطَهِّرُنَا بِهَا مِنْ جَمِيعِ السَّيِّئَاتِ، وَتَرْفَعُنَا بِهَا عِنْدَكَ أَعْلَى الدَّرَجَاتِ، وَتُبَلِّغُنَا بِهَا أَقْصَى الْغَايَاتِ مِنْ جَمِيعِ الْخَيْرَاتِ فِي الْحَيَاةِ وَبَعْدَ الْمَمَاتِ، إِنَّكَ مُجِيبُ الدَّعَوَاتِ وَإِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ ٠",
+            "ur": "اللھم صل علی محمد صلاة تننجینا بہا من جمیع الأهوال والآفات..."
+          }
+        },
+        {
+          "id": "tunjina_005",
+          "order": 5,
+          "type": "recitation",
+          "text": {
+            "en": "Va sallallahu ta'ala ala khairi khalkihi va nuri arshihi muhammadivv ala alihi va ashabihi ajmain 0",
+            "gu": "વ સલ્લલ્લાહુ તઆલા અલા ખૈરી ખલ્કીહી વ નુરી‌ અર્શીહી મુહમ્મદીવ્વ અલા આલીહી વ અસ્હાબીહી અજમઈન ૦",
+            "hi": "व सल्लमल्लाहु तआला अला खैरी खल्कीही व नूरी अर्शीही मुहम्मदीव्व अला आलीही व अस्हाबीही अजमईत ०",
+            "sw": "Va sallallahu ta'ala ala khairi khalkihi va nuri arshihi muhammadivv ala alihi va ashabihi ajmain 0",
+            "ar": "وَصَلَّى اللَّهُ تَعَالَى عَلَى خَيْرِ خَلْقِهِ وَنُورِ عَرْشِهِ مُحَمَّدٍ وَعَلَى آلِهِ وَأَصْحَابِهِ أَجْمَعِينَ ٠",
+            "ur": "و صلی اللہ تعالی علی خیر خلقہ و نور عرشہ محمدی و علی آلہ و اصحابہ اجمعین ۰"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bakshwane_ka_tarika",
+      "order": 19,
+      "title": {
+        "en": "Bakshwane Ka Tarika",
+        "gu": "બખ્શવા નો તરીકો",
+        "hi": "बख्शवाने का तरीक़ा",
+        "sw": "Utaratibu wa Msamaha (Bakshwane Ka Tarika)",
+        "ar": "طريقة الاستغفار والإهداء",
+        "ur": "بخشوانے کا طریقہ"
+      },
+      "items": [
+        {
+          "id": "bakshwa_001",
+          "order": 1,
+          "type": "heading",
+          "text": {
+            "en": "Bakshwane Ka Tarika",
+            "gu": "બખ્શવા નો તરીકો",
+            "hi": "बख्शवाने का तरीक़ा",
+            "sw": "Bakshwane Ka Tarika",
+            "ar": "طريقة الاستغفار والإهداء",
+            "ur": "بخشوانے کا طریقہ"
+          }
+        },
+        {
+          "id": "bakshwa_002",
+          "order": 2,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        },
+        {
+          "id": "bakshwa_003",
+          "order": 3,
+          "type": "recitation",
+          "text": {
+            "en": "Bismillah hir-rahmanir rahim 0",
+            "gu": "બીસ્મીલ્લાહીર્રહ્માનીર્રહીમ ૦",
+            "hi": "बिस्मिल्लाह हिर-रहमानिर रहीम ०",
+            "sw": "Bismillah hir-rahmanir rahim 0",
+            "ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "ur": "بسم اللہ الرحمن الرحیم ۰"
+          }
+        },
+        {
+          "id": "bakshwa_004",
+          "order": 4,
+          "type": "duia",
+          "text": {
+            "en": "Ya Rabbana (x5)",
+            "gu": "યા રબ્બના\nયા રબ્બના\nયા રબ્બના\nયા રબ્બના\nયા રબ્બના",
+            "hi": "या रब्बना (x5)",
+            "sw": "Ya Rabbana (x5)",
+            "ar": "يَا رَبَّنَا (٥ مرات)",
+            "ur": "یا ربنا (۵ مرتبہ)"
+          }
+        },
+        {
+          "id": "bakshwa_005",
+          "order": 5,
+          "type": "duia",
+          "text": {
+            "en": "Ya Arhamur-rahimin (x5)",
+            "gu": "યા અર્રહમુર્રાહેમીન\nયા અર્રહમુર્રાહેમીન\nયા અર્રહમુર્રાહેમીન\nયા અર્રહમુર્રાહેમીન\nયા અર્રહમુર્રાહેમીન",
+            "hi": "या अर्हमुर्-राहेमीन (x5)",
+            "sw": "Ya Arhamur-rahimin (x5)",
+            "ar": "يَا أَرْحَمَ الرَّاحِمِينَ (٥ مرات)",
+            "ur": "یا ارحم الراحمین (۵ مرتبہ)"
+          }
+        },
+        {
+          "id": "bakshwa_006",
+          "order": 6,
+          "type": "duia",
+          "text": {
+            "en": "Ya Allahu ya Rahmanu ya Rahim u ya Hayyu ya Qayyum u (x3)",
+            "gu": "યા અલ્લાહો યા રહમાનો યા રહીમો યા હય્યુ યા કય્યુમો\nયા અલ્લાહો યા રહમાનો યા રહીમો યા હય્યુ યા કય્યુમો\nયા અલ્લાહો યા રહમાનો યા રહીમો યા હય્યુ યા કય્યુમો",
+            "hi": "या अल्लाहो या रहमानो या रहीमो या हय्यु या कय्युमो (x3)",
+            "sw": "Ya Allahu ya Rahmanu ya Rahim u ya Hayyu ya Qayyum u (x3)",
+            "ar": "يَا اللَّهُ يَا رَحْمَانُ يَا رَحِيمُ يَا حَيُّ يَا قَيُّومُ (٣ مرات)",
+            "ur": "یا اللہو یا رحمانو یا رحیمو یا حی یا قیومو (۳ مرتبہ)"
+          }
+        },
+        {
+          "id": "bakshwa_007",
+          "order": 7,
+          "type": "duia",
+          "text": {
+            "en": "Ya Allah Pak jo kuch bhi mene padha gaya, jo bhi nazro niyaz yaha pesh hai ya Allah ﷻ sabhi ko teri bargah me kabul aur makbul farma aur isme jo kuch bhi galti ho apne rehmo karam se muaf farma aur sabse pehle iska sawab janabe rehamate alam nuremujassam huzur nabie karim sallallahu ta'ala alayhi va alehi vasallam ki bargahe bekas panah me pohchkar tumara ambiyae kiram alayhimuslatosalam ki bargah me pohchkar tamam khulfae rashedin ridunallahi ta'ala alayhim azmain ki bargah me pohch kar panjetane pak aur tamam ahlebeyate atahar ridunallahi ta'ala alayhim azmain ki bargah me pohchkar tamam ajvaje muthnherat ridunallahi ta'ala alayhim azmain ki bargah me pohchkar tamam sahabae kiram aur sahabiya aur tamam tabain v tabe tabain ridunallahi ta'ala alayhim azmain ki bargaheme pohchkar tamam siddikin v shohda v salehin ridunallahi ta'ala alayhim azmain ki bargahemephohchkar aimma e mujaddidin aimma e mufassirin aimma e mufakkhirin ridunallahi ta'ala alayhim azmain ki bargah me pohchkar iska sawab pire pira mire mira shaikh sayyad abdul kadir jilani mehbube subhani gause samadani kutbe rabbani pire lasani al maruf huzur gause azam dastagir roshan zamir radiyallahu ta'ala anho ki bargah me pohchkar sultanul hind hazrate khwaja e khwaja panahe beksa shifae dardmanda ata e rasul hindal vali khwaja moinuddin chishti hasan al sajji summa ajmeri radiyallahu ta'ala anho ki bargah me pohchkar hazrat khwaja kutbuddin bakhtiyar kaki radiyallahu ta'ala anho ki bargaheme pohchkar hazrat shaikh ul islam baba fariduddin masud ganjeshkar radiyallahu ta'ala anho ki bargaheme pohchkar hazrat khwaja badruddin suleman chishti faridi rahmatullahi alayh ki bargah me pohchkar hazrat shaikh tajuddin kutbezma rahmatullahi alayh ki bargaheme pohchkar mujaddide islam sahibe luabe dahan hazrat pir mashaykh sani al husaini chishti summa kadiwal rahmatullahi alayh aur hazrat pir sayyad ahmad husain urfe balapir bawa rahmatullahi alayh ki bargah me pohchkar\nHazrat Pir Sayyad Fazilshah Bawa Vald\nHazrat Pir Sayyad Sadroddin Bawa Vald\nHazrat Pir Sayyad Zainuddin Bawa Vald\nHazrat Pir Sayyad Abul Hasan Bawa Vald\nHazrat Pir Sayyad Mashaykh Avval Bawa Vald\nHazrat Pir Sayyad Rehmatullah Bawa Vald  Hazrat Pir Sayyad Hasan Kabiruddin Kufre Shikin Bawa  aur huzur ﷺ tak aae huve husaini khandanke tamam buzurgੋ ki bargah me pohchkar",
+            "gu": "યા અલ્લાહ પાક જો કુછ ભી મેને પઢા ગયા, જો ભી નઝરો નિયાઝ યહાં પેશ હૈ યા અલ્લાહ ﷻ સભી કો તેરી બારગાહ મેં કબૂલ ઔર મકબુલ ફરમા ઔર ઈસમે જો કુછ ભી ગલતી હો અપને રેહમો કરમ સે મુઆફ ફરમા ઔર સબસે પેહલે ઈસકા સવાબ જનાબે રેહમતે આલમ નુરેમુજસ્સમ હુઝુર નબીએ કરીમ સલ્લલ્લાહુ તઆલા અલૈહી વ આલેહી વસલ્લમ કી બરગાહે બેકસ પનાહ મેં પોહચકર તમારા અંબિયાએ કિરામ અલયહીમુસ્લાતોસલામ કી બરગાહ મેં પોહચકર તમામ ખુલફાએ રાશેદિન રિદનુલ્લાહી તઆલા અલયહીમ અઝ્માઇન કી બરગાહ મેં પોહચ કર પંજેતને પાક ઔર તમામ અહેલેબૈયતે અતહાર રિદનુલ્લાહી તઆલા અલયહીમ અઝ્માઇન કી બરગાહ મેં પોહચકર તમામ અજવાજે મુતહ્નહેરાત રિદનુલ્લાહી તઆલા અલયહીમ અઝ્માઇન કી બરગાહ મેં પોહચકર તમામ સહાબાએ કિરામ ઔર સહાબીયા ઔર તમામ તાબઈન વ તબે તાબઈન રિદનુલ્લાહી તઆલા અલયહીમ અઝ્માઇન કી બરગાહમેં પોહચકર તમામ સિદ્દીકીન વ શોહદા વ સાલેહીન રિદનુલ્લાહી તઆલા અલયહીમ અઝ્માઇન કી બરગાહમેં પોહચકર તમામ આઈમ્માં એ મુજદ્દીદિન આઈમ્માં એ મુફસ્સીરિન આઈમ્માં એ મુફખ્ખીરિન રિદનુલ્લાહી તઆલા અલયહીમ અઝ્માઇન કી બરગાહ મેં પોહચકર ઈસકા સવાબ પીરે પીરા મીરે મીરા શૈખ સૈયદ અબ્દુલ કાદિર જીલાની મેહબુબે સુબ્હાની ગૌષે સમદાની કુતબે રબ્બાની પીરે લાસાની અલ મારૂફ હુઝુર ગૌષે આઝમ દસ્તગીર રૌશન ઝમીર રદિયલ્લાહો તઆલા અન્હો કી બરગાહ મેં પોહચકર સુલ્તાનુલ હિન્દ હઝરતે ખ્વાજા એ ખ્વાજગા પનાહે બેકસા શિફાએ દર્દમંદા અતા એ રસુલ હિંદલ વલી ખ્વાજા મોઈનુદ્દીન ચિશ્તી હસન અલ સજજી સુમ્મા અજમેરી રદિયલ્લાહો તઆલા અન્હો કી બરગાહ મેં પોહચકર હઝરત ખવાજા કુતબુદ્દીન બખ્તીયાર કાકી રદિયલ્લાહો તઆલા અન્હો કી બરગાહમેં પોહચકર હઝરત શૈખ ઉલ ઈસ્લામ બાબા ફરીદુદ્દીન મસઊદ ગંજેશકર રદિયલ્લાહો તઆલા અન્હો કી બરગાહમેં પોહચકર હઝરત ખ્વાજા બાદરુદ્દીન સુલેમાન ચિશ્તી ફરીદી રહમતુલ્લાહિ અલયહ કી બરગાહ મેં પોહચકર હઝરત શૈખ તાજુદ્દીન કુતબેઝમાં રહમતુલ્લાહિ અલયહ  કી બરગાહમેં પોહચકર મુજદ્દીદે ઇસ્લામ સાહિબે લુઆબે દહન હઝરત પીર મશાયખ સાની અલ હુસૈની ચિશ્તી સુમ્મા કડીવાલ રહમતુલ્લાહિ અલયહ  ઔર હઝરત પીર સૈયદ અહમદ હુસૈન ઉર્ફે બાલાપીર બાવા રહમતુલ્લાહિ અલયહ કી બરગાહ મેં પોહચકર\nહઝરત પીર સૈયદ ફાઝિલશાહ બાવા વલ્દ\nહઝરત પીર સૈયદ સદરુદ્દીન બાવા વલ્દ\nહઝરત પીર સૈયદ ઝૈનુંદ્દીન બાવા વલ્દ\nહઝરત પીર સૈયદ અબુલ હસન બાવા વલ્દ\nહઝરત પીર સૈયદ મશાયખ અવ્વલ બાવા વલ્દ\nહઝરત પીર સૈયદ રેહમતુલ્લાહ બાવા વલ્દ  હઝરત પીર સૈયદ હસન કબીરુદ્દીન કુફ્રે શિકન બાવા  ઔર હુઝુર ﷺ તક આએ હુવે હુસૈની ખાનદાનકે તમામ બુઝુર્ગો કી બરગાહ મેં પોહચકર",
+            "hi": "या अल्लाह पाक जो कुछ भी मैने पढ़ा गया, जो भी नजरो नियाज़ यहाँ पेश है या अल्लाह ﷻ सभी को तेरी बारगाह मे कबूल और मकबुल फरमा और इसमें जो कुछ भी गलती हो अपने रेहमो करम से मुआफ फरमा और सबसे पेहले इसका सबाब जनाबे रेहमते आलम नुरेमुजस्सम हुरुर नबीए करीम सल्लल्लाहु तआला अलैही व आलेही वसल्लम की बरगाहे बेकस पनाह मे पोहचकर तुमारा अंबियाए किराम अललयहिमुस्लातोसलाम की बरगाह मे पोहचकर तमाम खुलफाए राशेडिन रिदनुल्लाही तआला अलैहिम अज्माइन की बरगाह मे पोहच कर पंजेतने पाक और तमाम अहलेबयते अतहार रिदनुल्लाही तआला अलैहिम अज्माइन की बरगाह मे पोहचकर तमाम अजवाजे मुतहनेरात रिदनुल्लाही तआला अलैहिम अज्माइन की बरगाह मे पोहचकर तमाम सहाबाए किराम और सहाबिया और तमाम ताबइन व तबे ताबइन रिदनुल्लाही तआला अलैहिम अज्माइन की बरगाहेमे पोहचकर तमाम सिद्दीकीन व शोहदा व सालेहीन रिदनुल्लाही तआला अलैहिम अज्माइन की बरगाहेमेपोहचकर तमाम आइम्मा ए मुजद्दिदीन आइम्मा ए मुफस्सिरीन आइम्मा ए मुफख्खीरीन रिदनुल्लाही तआला अलैहिम अज्माइन की बरगाह मे पोहचकर इसका सबाब पीरे पीरा मीरे मीरा शૈख सय्यद अब्दुल कादिर जीलानी मेहबुबे सुब्हानी गौषे समदानी कुतबे रब्बानी पीरे लासानी अल मारुफ हुरुर गौषे आजम दस्तगीर रोशन जमीर रदियल्लाहो तआला अन्हो की बरगाह मे पोहचकर सुलतानुल हिन्द हजरते ख्वाजा ए ख्वाजगा पनाहे बेकसा शिफाए दर्दमंदा अता ए रसूल हिन्दल वली ख्वाजा मोईनुद्दीन चिश्ती हसन अल सजजी सुम्मा अजमेरी रदियल्लाहो तआला अन्हो की बरगाह मे पोहचकर हजरत खवाजा कुतबुद्दीन बख्तीयार काकी रदियल्लाहो तआला अन्हो की बरगाहेमे पोहचकर हजरत शૈख उल इस्लाम बाबा फरीदुद्दीन मसऊद गंजेशकर रदियल्लाहो तआला अन्हो की बरगाहेमे पोहचकर हजरत ख्वाजा बादरुद्दीन सुलेमान चिश्ती फरीदी रहमतुल्लाहि अलयह की बरगाह मे पोहचकर हजरत शૈख ताजुद्दीन कुतबेजमा रहमतुल्लाहि अलयह की बरगाहेमे पोहचकर मुजद्दिदे इस्लाम साहिबे लुअब ए दहन हजरत पीर मशाएख सानी अल हुसैनी चिश्ती सुम्मा कडीवाल रहमतुल्लाहि अलयह और हजरत पीर सय्यद अहमद हुसैन उर्फ बालापीर बावा रहमतुल्लाहि अलयह की बरगाह मे पोहचकर\nहजरत पीर सय्यद फाजिलशाह बावा वल्द\nहजरत पीर सय्यद सदरोद्दीन बावा वल्द\nहजरत पीर सय्यद जैनुद्दीन बावा वल्द\nहजरत पीर सय्यद अबुल हसन बावा वल्द\nहजरत पीर सय्यद मशाएख अव्वल बावा वल्द\nहजरत पीर सय्यद रहमतुल्लाह बावा वल्द हजरत पीर सय्यद हसन कबीरुद्दीन कुफ्रे शिकन बावा और हुरुर ﷺ तक आए हुवे हुसैनी खानदानके तमाम बुजुर्गो की बरगाह मे पोहचकर",
+            "sw": "Ya Allah Pak jo kuch bhi mene padha gaya, jo bhi nazro niyaz yaha pesh hai ya Allah ﷻ sabhi ko teri bargah me kabul aur makbul farma aur isme jo kuch bhi galti ho apne rehmo karam se muaf farma aur sabse pehle iska sawab janabe rehamate alam nuremujassam huzur nabie karim sallallahu ta'ala alayhi va alehi vasallam ki bargahe bekas panah me pohchkar tumara ambiyae kiram alayhimuslatosalam ki bargah me pohchkar tamam khulfae rashedin ridunallahi ta'ala alayhim azmain ki bargah me pohch kar panjetane pak aur tamam ahlebeyate atahar ridunallahi ta'ala alayhim azmain ki bargah me pohchkar tamam ajvaje muthnherat ridunallahi ta'ala alayhim azmain ki bargah me pohchkar tamam sahabae kiram aur sahabiya aur tamam tabain v tabe tabain ridunallahi ta'ala alayhim azmain ki bargaheme pohchkar tamam siddikin v shohda v salehin ridunallahi ta'ala alayhim azmain ki bargahemephohchkar aimma e mujaddidin aimma e mufassirin aimma e mufakkhirin ridunallahi ta'ala alayhim azmain ki bargah me pohchkar iska sawab pire pira mire mira shaikh sayyad abdul kadir jilani mehbube subhani gause samadani kutbe rabbani pire lasani al maruf huzur gause azam dastagir roshan zamir radiyallahu ta'ala anho ki bargah me pohchkar sultanul hind hazrate khwaja e khwaja panahe beksa shifae dardmanda ata e rasul hindal vali khwaja moinuddin chishti hasan al sajji summa ajmeri radiyallahu ta'ala anho ki bargah me pohchkar hazrat khwaja kutbuddin bakhtiyar kaki radiyallahu ta'ala anho ki bargaheme pohchkar hazrat shaikh ul islam baba fariduddin masud ganjeshkar radiyallahu ta'ala anho ki bargaheme pohchkar hazrat khwaja badruddin suleman chishti faridi rahmatullahi alayh ki bargah me pohchkar hazrat shaikh tajuddin kutbezma rahmatullahi alayh ki bargaheme pohchkar mujaddide islam sahibe luabe dahan hazrat pir mashaykh sani al husaini chishti summa kadiwal rahmatullahi alayh aur hazrat pir sayyad ahmad husain urfe balapir bawa rahmatullahi alayh ki bargah me pohchkar\nHazrat Pir Sayyad Fazilshah Bawa Vald\nHazrat Pir Sayyad Sadroddin Bawa Vald\nHazrat Pir Sayyad Zainuddin Bawa Vald\nHazrat Pir Sayyad Abul Hasan Bawa Vald\nHazrat Pir Sayyad Mashaykh Avval Bawa Vald\nHazrat Pir Sayyad Rehmatullah Bawa Vald  Hazrat Pir Sayyad Hasan Kabiruddin Kufre Shikin Bawa  aur huzur ﷺ tak aae huve husaini khandanke tamam buzurgੋ ki bargah me pohchkar",
+            "ar": "يَا اللَّهُ الْقَادِرُ...",
+            "ur": "یا اللہ پاک جو کچھ بھی میں نے پڑھا گیا..."
+          }
+        },
+        {
+          "id": "bakshwa_008",
+          "order": 8,
+          "type": "duia",
+          "text": {
+            "en": "Char pir chaudah khanvade tamam auliyae kiram va tamam gause kutub abdal aur kalandaro ki bargaheme pohchkar tamam sahi silcilo ke sahi pir sahi murshad sahi sajjadanishin ki bargah me pohchkar nabieena adam alayhissalam se lekar ajtak jitne duniyame musalman aaye aur qayamat tak ane vale tamam mu'minin v mo'minat val muslimin val muslimat tamam musalamano ko sawab pohchkar tamam ummate mohammadiya sallallahu ta'ala alayhi va alehi vasallam ko sawab pohchkar hamare validen ko sawab pohchkar chishti mashaykhi kadiwal khandan ke ab tak achuke aur qayamat tak ane vale tamam buzurgo ko sawab pohchkar sunni hanfi chishti mashaykhi silcile ke तमाम muridin mutavasisilin aur mo'atkidin ko sawab pohchkar bil khushush jo khush bhi padha gaya hai nazro niyazka sawab...................... (Jemne pesh karvanu chhe temnu nam levu) pesh karta hu kubul farmae amin summa amin.",
+            "gu": "ચાર પીર ચૌદહ ખાનવાદે તમામ ઔલિયાએ કિરામ વ તમામ ગૌષ કુતુબ અબ્દાલ ઔર કલંદરો કી બરગાહમેં પોહચકર તમામ સહી સીલસીલો કે સહી પીર સહી મુરશદ સહી સજ્જાદાનશીન કી બરગાહ મેં પોહચકર નબીએના આદમ અલય્હિસ્સલામ સે લેકર આજતક જીતને દુનિયામે મુસલમાન આયે ઔર કયામત તક આને વાલે તમામ મુઅમિનીન વ મોઅમિનાત વલ મુસ્લિમીન વલ મુસ્લિમાત તમામ મુસલમાનો કો સવાબ પોહચકર તમામ ઉમ્મતે મોહમ્મદિયા સલ્લલ્લાહુ તઆલા અલૈહી વ આલેહી વસલ્લમ કો સવાબ પોહચકર હમારે વાલીદેન કો સવાબ પોહચકર ચિશ્તી મશાયખી કડીવાલ ખાનદાન કે અબ તક આચુકે ઔર કયામત તક આને વાલે તમામ બુઝુર્ગો કો સવાબ પોહચકર સુન્ની હનફી ચિશ્તી મશાયખી સિલસીલે કે તમામ મુરીદીન મુતવસ્સિલિન ઔર મોઅતકીદીન કો સવાબ પોહચકર બીલ ખુશુશ જો ખુશ ભી પઢા ગયા હૈ નઝરો નિયાઝકા સવાબ...................... (જેમને પેશ કરવાનું છે તેમનું નામ લેવું) પેશ કરતા હું કુબુલ ફરમાએ આમીન સુમ્મા આમીન.",
+            "hi": "चार पीर चौदह खानवादे तमाम औलियाए किराम व तमाम गौष कुतुब अब्दाल और कलंदरो की बरगाहेमे पोहचकर तमाम सही सीलसीलो के सही पीर सही मुरशद सही सज्जादानशिन की बरगाह मे पोहचकर नबीएना आदम अलय्हिस्सलाम से लेकर आजतक जितने दुनियामे मुसलमान आये और कयामत तक आने वाले तमाम मुअमिनिन व मोअमिनात वल मुस्लिमीन वल मुस्लिमात तमाम मुसलमानो को सबाब पोहचकर तमाम उम्मते मोहम्मदीया सल्लल्लाहु तआला अलैही व आलेही वसल्लम को सबाब पोहचकर हमारे वालिदेन को सबाब पोहचकर चिश्ती मशाएखी कडीवाल खानदान के अब तक आचुके और कयामत तक आने वाले तमाम बुजुर्गो को सबाब पोहचकर सुन्नी हनफी चिश्ती मशाएखी सिलसिले के तमाम मुरीदीन मुतवस्सिलिन और मोअतकीदीन को सबाब पोहचकर बील खुशुश जो खुश भी पढ़ा गया है नजरो नियाज़का सबाब...................... (जेમને पेश करवानु छै तेमु नाम लेवु) पेश करता हु कुबुल फरमाए आमीन सुम्मा आमीन.",
+            "sw": "Char pir chaudah khanvade tamam auliyae kiram va tamam gause kutub abdal aur kalandaro ki bargaheme pohchkar tamam sahi silcilo ke sahi pir sahi murshad sahi sajjadanishin ki bargah me pohchkar nabieena adam alayhissalam se lekar ajtak jitne duniyame musalman aaye aur qayamat tak ane vale tamam mu'minin v mo'minat val muslimin val muslimat tamam musalamano ko sawab pohchkar tamam ummate mohammadiya sallallahu ta'ala alayhi va alehi vasallam ko sawab pohchkar hamare validen ko sawab pohchkar chishti mashaykhi kadiwal khandan ke ab tak achuke aur qayamat tak ane vale tamam buzurgo ko sawab pohchkar sunni hanfi chishti mashaykhi silcile ke तमाम muridin mutavasisilin aur mo'atkidin ko sawab pohchkar bil khushush jo khush bhi padha gaya hai nazro niyazka sawab...................... (Jemne pesh karvanu chhe temnu nam levu) pesh करता hu kubul farmae amin summa amin.",
+            "ar": "أربعة أئمة...",
+            "ur": "چار پیر چودہ خوانوادہ..."
+          },
+          "placeholder": "recipient_name"
+        },
+        {
+          "id": "bakshwa_009",
+          "order": 9,
+          "type": "recitation",
+          "reference": {
+            "surah": 2,
+            "ayah_start": 201,
+            "ayah_end": 201
+          },
+          "text": {
+            "en": "Rabbana atina fid-duniya hasanatv va fil-akhirati hasanatv va kina azabannar",
+            "gu": "રબ્બના આતીના ફિદ્દુનિયા હસનતવ વ  ફિલઆખિરતી હસનતવ વકીના અઝાબન્નાર",
+            "hi": "रब्बना आतीना फिद्दुनिया हसनतव व फिलआखिरती हसनतव वकीना अजाबन्नार",
+            "sw": "Rabbana atina fid-duniya hasanatv va fil-akhirati hasanatv va kina azabannar",
+            "ar": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+            "ur": "ربنا آتنا فی الدنیا حسنة وفي الآخرة حسنة وقنا عذاب النار"
+          }
+        },
+        {
+          "id": "bakshwa_010",
+          "order": 10,
+          "type": "recitation",
+          "reference": {
+            "surah": 21,
+            "ayah_start": 87,
+            "ayah_end": 87
+          },
+          "text": {
+            "en": "Lailaha illa ant subhanak inni kuntu min-zzalimin",
+            "gu": "લાઈલાહા ઇલ્લા અન્ત સુબ્હાનક ઇન્ની કુન્તુ મીનઝ્ઝાલીમીન",
+            "hi": "लाइलाहा इल्ला अन्त सुब्हानक इन्नी कुन्तु मीन्ज्जालीमीन",
+            "sw": "Lailaha illa ant subhanak inni kuntu min-zzalimin",
+            "ar": "لَا إِلَهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+            "ur": "لا الہ الا انت سبحانک انی کنتو من الظالمین"
+          }
+        },
+        {
+          "id": "bakshwa_011",
+          "order": 11,
+          "type": "duia",
+          "text": {
+            "en": "Ya Allah Pak badshah karima jalleshanhu apne mehbub ﷺ ki ummat par raham farma",
+            "gu": "યા અલ્લાહ પાક બાદશાહ કરીમાં જલ્લેશાનહુ અપને મહેબૂબ ﷺ કી ઉમ્મત પર રહમ ફરમા",
+            "hi": "या अल्लाह पाक बादशाह करीमा जल्लेशानहु अपने महबूब ﷺ की उम्मत पर रहम फरमा",
+            "sw": "Ya Allah Pak badshah karima jalleshanhu apne mehbub ﷺ ki ummat par raham farma",
+            "ar": "يَا اللَّهُ الْحَكِيمُ...",
+            "ur": "یا اللہ پاک بادشاہ کریم جل شانہ اپنے محبوب ﷺ کی امت پر رحم فرما"
+          }
+        },
+        {
+          "id": "bakshwa_012",
+          "order": 12,
+          "type": "duia",
+          "text": {
+            "en": "Ya Allah Pak tamam ummate mohammadiya ﷺ ke mard aurat ki hamare validen ki chishti mashaykhi kadiwal khandan aur unke murido ki magfirat farma.",
+            "gu": "યા અલ્લાહ પાક તમામ ઉમ્મતે મોહમ્મદિયા ﷺ કે મર્દ ઔરત કી હમારે વાલીદેન કી ચિશ્તી મશાયખી કડીવાલ ખાનદાન ઔર ઉનકે મુરીદો કી મગફિરત ફરમા.",
+            "hi": "या अल्लाह पाक तमाम उम्मते मोहम्मदीया ﷺ के मर्द औरत की हमारे वालिदेन की चिश्ती मशाएखी कडीवाल खानदान और उनके मुरीदो की मगफिरत फरमा.",
+            "sw": "Ya Allah Pak tamam ummate mohammadiya ﷺ ke mard aurat ki hamare validen ki chishti mashaykhi kadiwal khandan aur unke murido ki magfirat farma.",
+            "ar": "يَا اللَّهُ اغْفِرْ...",
+            "ur": "یا اللہ پاک تمام امت محمدیہ ﷺ کے مرد عورت کی ہمارے والدین کی..."
+          }
+        },
+        {
+          "id": "bakshwa_013",
+          "order": 13,
+          "type": "duia",
+          "text": {
+            "en": "Ya Allah Pak puri duniyake musalmanoki janki malki imanki izzat ki abruki karobar ki hifazat farma\n\nYa Allah Pak tamam musalmano ko duniyame teri panah me rakh ya Allah kabr me teri panah me rakh ya Allah akhiratme teri panah me rakh ya Allah Pak hum sabko teri panahme lele \n\nYa Allah Pak hamare iman ki hifazat farma iman ki nigehbani farma iman ko derakhshani ata farma iman ki halatme khatmas bin khair farma\n\nYa Allah Pak hamari tauba ko kubul farma humko rahe mustakim par gamzan farma.\n\nYa Allah Pak hamare din me iname izzatme abru me karibar me ahlebeyait ki mohabbatme din duni rat chogni tarakki ata farma \n\nYa Allah Pak hamare sagira aur kabira gunahoko muaf farma ya Allah hamari tauba ko kubul farma.\n\nYa Allah Pak hamari mao aur behanoki izzato abruki hifzat farma unhe sayeda fatematuzzahra radiyallahu ta'ala anha ke nakshe kadam par chalne ki taufik nasib farma\n\nYa Allah Pak hamsab ki pareshani ko dur farma ya Allah hum sabko apne mehbub huzur rehamate alam ﷺ ki mohabbat ke dariya me gark farma de yaha tak ki hum apna namo nishan bhul jaye hum apni hasti ko faramosh karde hum j-ie to aehmede mujtaba kehte huwe j-ie aur mare to mohammad mustafa ﷺ kehte huwe mare \n\nYa Allah Pak hum gunehgaro lacharo shaitan ke satae huwe hai gunaho ke najasat me lotne valo par apna karam farma aur apne mehbub ﷺ ki mohobbat ka sadka ata farma \n\nYa Allah Pak tuhi malik hai tuhi aka hai tuhi sahara dene vala hai hum tere dar par bhik na mangege to kisker darpar jakar bhik mangege ya Allah hum bhikhariyo par raham kar, karam kar, fazal kar, aur apne mehbub ﷺ ki mohobbat ka sadka ata farma\n\nYa Allah Pak rasule pak sallallahu ta'ala alayhi va alehi vasallam ke sadke me panjetane pak ke sadke me allah tabarak va ta'ala is makan par teri rehamate aur barkate nazil farma (Ahiya kabr, aur je maksad mate duaao karo cho te naam lai sako) allah pak yaha se afato baliyat ko dur farma allah pak gharvalo ki pareshani ko dur farma allah pak hamsab ghar valo ko aman aur sukun ki zindagi nasib farma \n\nYa Allah Pak hampar tera fazle khas nazil farma allah pak jo be olad hai unhe apne rehmo karam se aur kalame pak ki tilavat ke sadke me hazrate sayeduna maula husain alayhissalam ke vasile se nek saleh olad ata farma.\n\nYa Allah Pak jin jin logone dua karne ko kaha un sabki nek jaiza tamannaoko duaao ko shariyate dayreme kubul farma sabki pareshani ko dur farma emno sukun ki zindagi nasib farma \n\nGause azam bamne besaro sama madde kible din madde kabae iman madde \n\nMa gadaim tu sultane do alam hasti az tu darem tama ya shahe jilan madde \n\nBagirrda be bala uftade kashti zaifane shikasta ra tu pushti\n\nBahakke khwaja ushman haruni madad kun ya khwaja moinundin chishti \n\nBahakke khwaja moinundin chishti madad kun ya khwaja kutbuddin chishti \n\nBahakke khvaja kutbuddin chishti madad kun ya khwaja fariduddin chishti \n\nAllah mohammad char yar haji khwaja kutub farid hak farid ya farid hak farid ya farid hak farid ya farid \n\nShah karima dastagira asharfa hurmate ruhe payambar yak nazar kum sue ma brae panjetane pak ya makhdum ashraf simnani brae panjetane pak ya balapir sarkar brae panjetane pak ya pir mashaykh sani ek nazar kardo mite hamsab ki pareshani.\n\nAstagfirullah rabbi min kulli zambiu va atubu ilayhe astagfirullah alilil azim",
+            "gu": "યા અલ્લાહ પાક પુરી દુનિયાકે મુસલમાનો કી જાનકી માલકી ઈમાનકી ઇઝ્ઝત કી આબરૂકી કારોબાર કી હિફાઝત ફરમાં\n\nયા અલ્લાહ પાક તમામ મુસલમાનો કો દુનિયામે તેરી પનાહ મેં રખ યા અલ્લાહ કબ્ર મેં તેરી પનાહ મેં રખ યા અલ્લાહ આખીરતમેં તેરી પનાહ મેં રખ યા અલ્લાહ પાક હમ સબકો તેરી પનાહમેં લેલે \n\nયા અલ્લાહ પાક હમારે ઈમાન કી હિફાઝત ફરમા ઈમાન કી નિગેહબાની ફરમા ઈમાન કો દરખ્શાની અતા ફરમા ઈમાન કી હાલતમે ખાતમાં બિન ખૈર ફરમા\n\nયા અલ્લાહ પાક હમારી તૌબા કો કુબુલ ફરમા હમકો રાહે મુસ્તકિમ પર ગામઝન ફરમા.\n\nયા અલ્લાહ પાક હમારે દિન મેં ઈમાન મેં ઈઝ્ઝતમેં આબરૂ મેં કારીબાર મેં અહેલેબઈયત કી મોહબ્બતમેં દિન દુની રાત ચોગની તરક્કી અતા ફરમા \n\nયા અલ્લાહ પાક હમારે સગીરા ઔર કબીરા ગુનાહોકો મુઆફ ફરમા યા અલ્લાહ હમારી તૌબા કો કુબુલ ફરમા.\n\nયા અલ્લાહ પાક હમારી માઓ ઔર બેહનોકી ઇઝ્ઝતો આબરૂકી હિફઝત ફરમા ઉન્હેં સૈયદા ફતેમાંતુઝ્ઝહરા રદિયલ્લાહો તઆલા અન્હા કે નક્શે કદમ પર ચલને કી તૌફિક નસીબ ફરમા\n\nયા અલ્લાહ પાક હમસબ કી પરેશાની કો દૂર ફરમા યા અલ્લાહ હમ સબકો અપને મહેબૂબ હુઝુર રેહમતે આલમ ﷺ કી મોહબ્બત કે દરિયા મેં ગર્ક ફરમા દે યહાં તક કે હમ અપના નામો નિશાન ભૂલ જાયે હમ અપની હસ્તી કો ફરામોશ કરદે હમ જીએ તો એહમદે મુજતબા કેહતે હુવે જીએ ઔર મરે તો મોહમ્મદ મુસ્તફા ﷺ કેહતે હુવે મરે \n\nયા અલ્લાહ પાક હમ ગુનેહગારો લાચારો શૈતાન કે સતાએ હુવે હૈ ગુનાહો કે નજાસત મેં લોટને વાલો પર અપના કરમ ફરમા ઔર અપને મહેબૂબ ﷺ કી મહોબ્બત કા સદકા અતા ફરમાં \n\nયા અલ્લાહ પાક તુહી માલિક હૈ તુહી આકા હૈ તુહી સહારા દેને વાલા હૈ હમ તેરે દર પર ભીખ ના માંગેગે તો કિસકે દરપર જાકર ભીખ માંગેગે યા અલ્લાહ હમ ભિખારીઓ પર રહમ કર, કરમ કર, ફઝલ કર, ઔર અપને મહેબૂબ ﷺ કી મોહબ્બત કા સદકા અતા ફરમા\n\nયા અલ્લાહ પાક રસુલે પાક સલ્લલ્લાહુ તઆલા અલૈહી વ આલેહી વસલ્લમ કે સદકે મેં પંજેતને પાક કે સદકે મેં અલ્લાહ તબારક વ તઆલા ઈસ મકાન પર તેરી રેહમતે ઔર બરકતે નાઝીલ ફરમા (અહીંયા કબ્ર, અને જે મકસદ માટે દુઆઓ કરો છો તે નામ લઈ શકો) અલ્લાહ પાક યહાં સે આફતો બલિયાત કો દૂર ફરમા અલ્લાહ પાક ઘરવાલો કી પરેશાની કો દૂર ફરમા અલ્લાહ પાક હમસબ ઘર વાલો કો અમન ઔર સૂકુન કી ઝિંદગી નસીબ ફરમા \n\nયા અલ્લાહ પાક હમપર તેરા ફઝલે ખાસ નાઝીલ ફરમા અલ્લાહ પાક જો બે ઔલાદ હૈ ઉન્હેં અપને રેહમો કરમ સે ઔર કલામે પાક કી તીલાવત કે સદકે મેં હઝરતે સૈયદુના મૌલા હુસૈન અલય્હિસ્સલામ કે વસીલે સે નેક સાલેહ ઔલાદ અતા ફરમા.\n\nયા અલ્લાહ પાક જિન જિન લોગોને દુઆ કરને કો કહા ઉન સબકી નેક જાઈઝ તમાન્નાઓ કો દુઆઓ કો શરીયત કે દાયરેમેં કુબુલ ફરમા સબકી પરેશાની કો દૂર ફરમા એમનો સૂકુન કી ઝિંદગી નસીબ ફરમા \n\nગૌષે આઝમ બમને બેસરો સામા મદદે કિબ્લા એ દિન મદદે કાબાઓ ઈમાન મદદે \n\nમા ગદાઈમ તું સુલ્તાને દો આલમ હસ્તી અઝ તું દારેમ તમાં યા શાહે જીલાન મદદે \n\nબગીરર્દા બે બલા ઉફતાદે કશ્તી ઝઈફાને શિકસ્તા રા તુ પુશ્તી\n\nબહક્કે ખ્વાજા ઉષ્માન હારૂની મદદ કુન યા ખ્વાજા મોઈનુંદિન ચિશ્તી \n\nબહક્કે ખ્વાજા મોઈનુંદિન ચિશ્તી મદદ કુન યા ખ્વાજા કુતબુદ્દીન ચિશ્તી \n\nબહક્કે ખવાજા કુતબુદ્દીન ચિશ્તી મદદ કુન યા ખ્વાજા  ફરીદુદ્દીન ચિશ્તી \n\nઅલ્લાહ મોહમ્મદ ચાર યાર હાજી ખ્વાજા કુતુબ ફરીદ હક ફરીદ યા ફરીદ હક ફરીદ યા ફરીદ હક ફરીદ યા ફરીદ \n\nશાહ કરીમાં દસ્તગીરા અશરફા હુરમતે રૂહે પયમ્બર યક નઝર કુમ સુએ માં બરાએ પંજેતને પાક યા મખદુમ અશરફ સીમનાની બરાએ પંજેતને પાક યા બાલાપીર સરકાર બરાએ પંજેતને પાક યા પીર મશાયખ સાની એક નઝર કરદો મિટે હમસબ કી પરેશાની.\n\nઅસ્તગફિરૂલ્લાહ રબ્બી મીન કુલ્લી ઝંબીઉ વ અતુબુ ઇલયહે અસ્તગફિરૂલ્લાહ અલિલીલ અઝીમ ",
+            "hi": "या अल्लाह पाक पुरी दुनियाके मुसलमानो की जानकी मालकी इमानकी इज्जत की आब्रूकी कारोबार की हिफज़त फરમાં\n\nया अल्लाह पाक तमाम मुसलमानो को दुनियामे तेरी पनाह मे रख या अल्लाह कब्र मे तेरी पनाह मे रख या अल्लाह आखिरतमे तेरी पनाह मे रख या अल्लाह पाक हम सबको तेरी पनाहमे लेले \n\nया अल्लाह पाक हमारे इमान की हिफज़त फरमा इमान की निगेहबानी फरमा इमान को दरख्शानी अता फरमा इमान की हालतमे खातमास बिन खैर् फरमा\n\nया अल्लाह पाक हमारी तौबा को कबूल फरमा हमको राहे मुस्तकिम पर गामज़न फरमा.\n\nया अल्लाह पाक हमारे दिन मे इमान मे इज्जत मे आब्रू मे कारीबार मे अहेलेबइयत की मोहब्बत मे दिन दुनी रात चौगनी तरक्की अता फरमा \n\nया अल्लाह पाक हमारे सगीरा और कबीरा गुनाहോകो मुआफ फरमा या अल्लाह हमारी तौबा को कबूल फरमा.\n\nया अल्लाह पाक हमारी माओ और बेहनोंकी इज्जतो आब्रूकी हिफजत फरमा उन्हे सैयदा फतेमातुज्जहरा रदियल्लाहो तआला अन्हा के नक्शे कदम पर चलने की तौफिक नसीब फरमा\n\nया अल्लाह पाक हमसब की परेशानी को दूर फरमा या अल्लाह हम सबको अपने महबूब हुरुर रेहमते आलम ﷺ की मोहब्बत के दरिया मे गर्क फरमा दे यहा तक कि हम अपना नामो निशान भूल जाये हम अपनी हस्ती को फरामोष करदे हम जीए तो एहमदे मुजतबा केहते हुए जीए और मरे तो मोहम्मद मुस्तफा ﷺ केहते हुए मरे \n\nया अल्लाह पाक हम गुनेहगारो लाचरो शैतान के सताए हुए है गुनाहो के नजासत मे लोटने वालो पर अपना करम फरमा और अपने महबूब ﷺ की मोहोब्बत का सदा अता फરમાં \n\nया अल्लाह पाक तुही मालिक है तुही आका है तुही सहारा देने वाला है हम तेरे दर पर भीख ना मांगेगे तो किसके दरपर जाकर भीख मांगेगे या अल्लाह हम भिक्षारियो पर रहम कर, करम कर, फजल कर, और अपने महबूब ﷺ की मोहब्बत का सदा अता फरमा\n\nया अल्लाह पाक रसुले पाक सल्लल्लाहु तआला अलैही व आलेही वसल्लम के सदके मे पंजेतने पाक के सदके मे अल्लाह तबारक व तआला इस मकान पर तेरी रेहमते और बरकते नाज़िल फरमा (अहियां कब्र, और जे मकसद माटे दुआओ करो छों ते नाम लै शको) अल्लाह पाक यहाँ से आफतो बलियात को दूर फरमा अल्लाह पाक घरवालो की परेशानी को दूर फरमा अल्लाह पाक हमसब घर वालो को अमन और सुकुन की जिंदगी नसीब फरमा \n\nया अल्लाह पाक हमपर तेरा फजले खास नाजिल फरमा अल्लाह पाक जो बे औलाद है उन्हे अपने रेहमो करम से और कलामे पाक की तिलावत के सदके मे हजरते सय्यदुना मौला हुसैन अलयहिसस्लाम के वसीले से नेक सालेह औलाद अता फरमा.\n\nया अल्लाह पाक जिन जिन लोगो ने दुआ करने को कहा उन सबकी नेक जाइज तमन्नाओ को दुआओ को शरियत के दायरेमे कबूल फरमा सबकी परेशानी को दूर फरमा एमनो सुकुन की जिंदगी नसीब फरमा \n\nगौषे आजम बमने बेसरो सामा madde किब्ला ए दिन madde काबाओ इमान madde \n\nमा गदाइम तु सुलताने दो आलम हस्ती अज़ तु दारेम तमा या शाहे जीलान madde \n\nबगीररदा बे बला उफतादें कश्ती ज़ैफाने शिकस्ता रा तु पुश्ती \n\nबहक्के ख्वाजा उष्मान हारूनी मदद कुन या ख्वाजा मोईनुदिन चिश्ती \n\nबहक्के ख्वाजा मोईनुदिन चिश्ती मदद कुन या ख्वाजा कुतबुद्दीन चिश्ती \n\nबहक्के ख्वाजा कुतबुद्दीन चिश्ती मदद कुन या ख्वाजा फरीदुद्दीन चिश्ती \n\nअल्लाह मोहम्मद चार यार हाजी ख्वाजा कुतुब फरीद हक फरीद या फरीद हक फरीद या फरीद हक फरीद या फरीद \n\nशाह करीमा दस्तगीरा अशरफा हुरमते रुहे पयम्बर यक नजर कुम सुए मा ब्राए पंजेतने पाक या मख्दुम अशरफ सेमनानी ब्राए पंजेतने पाक या बालापीर सरकार ब्राए पंजेतने पाक या पीर मशाएख सानी एक नजर करदो मिटे हमसब की परेशानी.\n\nअस्तगफिरुल्लाह रब्बी मिन कुल्ली ज़ंबीउ व अतुबु इलयहै अस्तगफिरुल्लाह अलिलील अजीम",
+            "sw": "Ya Allah Pak puri duniyake musalmanoki janki malki imanki izzat ki abruki karobar ki hifazat farma...",
+            "ar": "يَا اللَّهُ احْفَظْ...",
+            "ur": "یا اللہ پاک پوری دنیا کے مسلمانوں کی..."
+          }
+        },
+        {
+          "id": "bakshwa_014",
+          "order": 14,
+          "type": "duia",
+          "text": {
+            "en": "Amin...\nYa Rabbul alamin...",
+            "gu": "આમીન...\nયા રબ્બુલ આલમીન...",
+            "hi": "आमीन...\nया रब्बुल आलमीन...",
+            "sw": "Amin...\nYa Rabbul alamin...",
+            "ar": "آمِينَ...\nيَا رَبَّ الْعَالَمِينَ...",
+            "ur": "آمین...\nیا رب العالمین..."
+          }
+        }
+      ]
+    },
+    {
+      "id": "closing",
+      "order": 20,
+      "title": {
+        "en": "Closing Recitations",
+        "gu": "અલ ફાતિહા અને સમાપન",
+        "hi": "अल फातिहा और समापन",
+        "sw": "Hitimisho na Visomo vya Mwisho",
+        "ar": "الخاتمة والأذكار النهائية",
+        "ur": "ختمی تلاوت اور دعا"
+      },
+      "items": [
+        {
+          "id": "closing_001",
+          "order": 1,
+          "type": "heading",
+          "text": {
+            "en": "Al-Fatiha",
+            "gu": "અલ ફાતિહા",
+            "hi": "अल फातिहा",
+            "sw": "Al-Fatiha",
+            "ar": "الفاتحة",
+            "ur": "الفاتحہ"
+          }
+        },
+        {
+          "id": "closing_002",
+          "order": 2,
+          "type": "separator",
+          "text": {
+            "en": "━────⊱◈✿◈⊰────━",
+            "gu": "━────⊱◈✿◈⊰────━",
+            "hi": "━────⊱◈✿◈⊰────━",
+            "sw": "━────⊱◈✿◈⊰────━",
+            "ar": "━────⊱◈✿◈⊰────━",
+            "ur": "━────⊱◈✿◈⊰────━"
+          }
+        },
+        {
+          "id": "closing_003",
+          "order": 3,
+          "type": "recitation",
+          "text": {
+            "en": "Bismillah hir-rahmanir rahim 0",
+            "gu": "બીસ્મીલ્લાહીર્રહ્માનીર્રહીમ ૦",
+            "hi": "बिस्मिल्लाह हिर-रहमानिर रहीम ०",
+            "sw": "Bismillah hir-rahmanir rahim 0",
+            "ar": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "ur": "بسم اللہ الرحمن الرحیم ۰"
+          }
+        },
+        {
+          "id": "closing_004",
+          "order": 4,
+          "type": "recitation",
+          "reference": {
+            "surah": 1,
+            "ayah_start": 1,
+            "ayah_end": 7
+          },
+          "text": {
+            "en": "Al hamdulillahi rabbil alamin 0 Ar-rahmanir-rahim 0 Maliki yawmid-din 0 Iyya-k na'budu wa iyya-k nasta'in 0 Ihdinas-siratal mustakim 0 Siratallazi-n an'amt alayhim 0 Gairil magdubi alayhim walad d-ollin 0",
+            "gu": "અલ્ હમ્દુલીલ્લાહી રબ્બીલ્ આલમીન ૦ અર્હમાનીર્રહીમ ૦ માલીકી યૌમીદ્દીન ૦ ઇય્યા-ક નઅ્બુદુ વ ઇય્યા-ક નસ્તઈન ૦ ઇહ્દીનસ્સીરાતલ્ મુસ્તકીમ ૦ સીરાતલ્લઝી-ન અન્અમ્ત અલયહીમ ૦ ગૈરીલ્ મગ્દૂબી અલયહીમ્ વલદ્ દૉલ્લીન ૦",
+            "hi": "अल हम्दुलिल्लाहि रब्बील् आलमीन ० अर्हमानिर्रहीम ० मालीकी यौमीद्दीन ० इय्या-क नअ्बुदु व इय्या-क नस्तईन ० इह्दीनस्सीरातल् मुस्तकीम ० सीरातल्लजी-न अन्अम्त अलयहीम ० गैरिल् मगदूबी अलयहीम् वलद् दॉल्लीन ०",
+            "sw": "Al hamdulillahi rabbil alamin 0 Ar-rahmanir-rahim 0 Maliki yawmid-din 0 Iyya-k na'budu wa iyya-k nasta'in 0 Ihdinas-siratal mustakim 0 Siratallazi-n an'amt alayhim 0 Gairil magdubi alayhim walad d-ollin 0",
+            "ar": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ... (الفاتحة)",
+            "ur": "الحمد للہ رب العالمین..."
+          }
+        },
+        {
+          "id": "closing_005",
+          "order": 5,
+          "type": "recitation",
+          "text": {
+            "en": "Amin",
+            "gu": "આમીન",
+            "hi": "आमीन",
+            "sw": "Amin",
+            "ar": "آمِين",
+            "ur": "آمین"
+          }
+        },
+        {
+          "id": "closing_006",
+          "order": 6,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Fatiha)",
+            "gu": "(સુરહ ફાતિહા)",
+            "hi": "(सूरह फातिहा)",
+            "sw": "(Surah Fatiha)",
+            "ar": "(سورة الفاتحة)",
+            "ur": "(سورہ فاتحہ)"
+          }
+        },
+        {
+          "id": "closing_007",
+          "order": 7,
+          "type": "recitation",
+          "reference": {
+            "surah": 33,
+            "ayah_start": 56,
+            "ayah_end": 56
+          },
+          "text": {
+            "en": "Innal-ah v malaikatuhu yu sallu-n alannabiyy,\nYa ayyuhallazi-n amanu sallu alayhi vasallimu taslima",
+            "gu": "ઇન્નલ્લા-હ વ મલાઇકતુહુ યુ સલ્લુ-ન અલન્નબીય્ય,\nયા અય્યુહલ્લઝી-ન આમનુ સલ્લુ અલયહી વસલ્લીમુ તસ્લીમા",
+            "hi": "इन्नल्ला-ह व मलाईकतुहु यु सल्लु-न अलन्नबिय्य,\nया अय्युहल्लजी-न आमनु सल्लु अलयही वसल्लीमू तस्लीमा",
+            "sw": "Innal-ah v malaikatuhu yu sallu-n alannabiyy,\nYa ayyuhallazi-n amanu sallu alayhi vasallimu taslima",
+            "ar": "إِنَّ اللَّهَ وَمَلَائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ...",
+            "ur": "إن اللہ و ملائکتہ یصلون علی النبی..."
+          }
+        },
+        {
+          "id": "closing_008",
+          "order": 8,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Al-Ahzab: Ayah No. 56)",
+            "gu": "(સુરહ અલ-અહઝાબ : આયત નં. ૫૬)",
+            "hi": "(सूरह अल-अहज़ाब: आयत नं. ५६)",
+            "sw": "(Surah Al-Ahzab: Ayah No. 56)",
+            "ar": "(سورة الأحزاب: الآية ٥٦)",
+            "ur": "(سورہ احزاب: آیت نمبر ۵۶)"
+          }
+        },
+        {
+          "id": "closing_009",
+          "order": 9,
+          "type": "recitation",
+          "text": {
+            "en": "Allahumma salli ala sayyidina muhammadivv ala ali sayyidina va maulana muhammadin kad kada adriknika ya rasulullah sallallahu alayhi va alihi vasallam.",
+            "gu": "અલ્લાહુમ્મ સલ્લી અલા સૈયદીના મુહમ્મદીવ્વ અલા આલી સૈયદીના વ મૌલાના મુહમ્મદીન કદ કદા અદરીકની યા રસુલુલ્લાહ સલ્લલ્લાહુ અલયહી વ આલીહી વસલ્લમ.",
+            "hi": "अल्लाहूम्म सल्लि अला सय्यदीना मुहम्मदीव्व अला आली सय्यदीना व मवलाना मुहम्मदीन कद कदा अदरीकनी या रसुतुल्लाह सल्लमल्लाहु अलयही व आलीही वसल्लम.",
+            "sw": "Allahumma salli ala sayyidina muhammadivv ala ali sayyidina va maulana muhammadin kad kada adriknika ya rasulullah sallallahu alayhi va alihi vasallam.",
+            "ar": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ...",
+            "ur": "اللھم صل علی سیدنا محمدی و علی آلی سیدنا..."
+          }
+        },
+        {
+          "id": "closing_010",
+          "order": 10,
+          "type": "recitation",
+          "reference": {
+            "surah": 37,
+            "ayah_start": 180,
+            "ayah_end": 182
+          },
+          "text": {
+            "en": "Subhan rabbi-k rabbil izzati amma yasifun 0 Va salamun alal mur-salin 0 Valhamdu lillahi rabbil alamin 0",
+            "gu": "સુબ્હાન રબ્બી-ક રબ્બીલ્ ઈઝ્ઝતી અમ્મા યસીફુન ૦ વ સલામુન્ અલલ્ મુર્-સલીન ૦ વલ્હમ્દુ લિલ્લાહી રબ્બીલ્ આલમીન ૦",
+            "hi": "सुब्हान रब्बी-क रब्बील् ईज्जती अम्मा यसीफुन ० व सलामुन् अलल् मुर्सलीन ० वल्हम्दु लिल्लाहि रब्बील् आलमीन ०",
+            "sw": "Subhan rabbi-k rabbil izzati amma yasifun 0 Va salamun alal mur-salin 0 Valhamdu lillahi rabbil alamin 0",
+            "ar": "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ ﴿١٨٠﴾ وَسَلَامٌ عَلَى الْمُرْسَلِينَ ﴿١٨١﴾ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ﴿١٨٢﴾",
+            "ur": "سبحان ربک رب العزّة عما یصفون ۰ و سلام علی المرسلین ۰ والحمد للہ رب العالمین ۰"
+          }
+        },
+        {
+          "id": "closing_011",
+          "order": 11,
+          "type": "reference",
+          "text": {
+            "en": "(Surah Saffat: Ayah No. 180-181-182)",
+            "gu": "(સુરહ સૉફ્ફાત : આયત નં. ૧૮૦-૧૮૧-૧૮૨)",
+            "hi": "(सूरह सोफ्फत: आयत नं. १८०-१८१-१८२)",
+            "sw": "(Surah Saffat: Ayah No. 180-181-182)",
+            "ar": "(سورة الصافات: الآيات ١٨٠-١٨٢)",
+            "ur": "(سورہ صافات: آیات ۱۸۰-۱۸۱-۱۸۲)"
+          }
+        }
+      ]
+    }
+  ]
+}

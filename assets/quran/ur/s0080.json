@@ -1,0 +1,363 @@
+[
+  {
+    "status": true,
+    "message": "Data fetched successfully",
+    "data": {
+      "chapter": {
+        "id": 80,
+        "serial_number": "80",
+        "arabic_name": "عبس",
+        "translated_name": "'Abasa",
+        "verses_translate_name": "Verses",
+        "verses_count": "42"
+      },
+      "chapter_info": [
+        {
+          "eng_page_number": 585,
+          "page_number": "585",
+          "page_key": 0,
+          "page_verses": [
+            {
+              "id": 5759,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "1",
+              "arabic_name": "عَبَسَ وَتَوَلَّىٰٓ",
+              "translated_name": "وه ترش رو ہوا اور منھ موڑ لیا."
+            },
+            {
+              "id": 5760,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "2",
+              "arabic_name": "أَن جَآءَهُ ٱلْأَعْمَىٰ",
+              "translated_name": "(صرف اس لئے) کہ اس کے پاس ایک نابینا آیا.[1]"
+            },
+            {
+              "id": 5761,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "3",
+              "arabic_name": "وَمَا يُدْرِيكَ لَعَلَّهُۥ يَزَّكَّىٰٓ",
+              "translated_name": "تجھے کیا خبر شاید وه سنور جاتا.[1]"
+            },
+            {
+              "id": 5762,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "4",
+              "arabic_name": "أَوْ يَذَّكَّرُ فَتَنفَعَهُ ٱلذِّكْرَىٰٓ",
+              "translated_name": "یا نصیحت سنتا اور اسے نصیحت فائده پہنچاتی."
+            },
+            {
+              "id": 5763,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "5",
+              "arabic_name": "أَمَّا مَنِ ٱسْتَغْنَىٰ",
+              "translated_name": "جو بے پرواہی کرتا ہے.[1]"
+            },
+            {
+              "id": 5764,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "6",
+              "arabic_name": "فَأَنتَ لَهُۥ تَصَدَّىٰ",
+              "translated_name": "اس کی طرف تو تو پوری توجہ کرتا ہے.[1]"
+            },
+            {
+              "id": 5765,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "7",
+              "arabic_name": "وَمَا عَلَيْكَ أَلَّا يَزَّكَّىٰ",
+              "translated_name": "حاﻻنکہ اس کے نہ سنورنے سے تجھ پر کوئی الزام نہیں.[1]"
+            },
+            {
+              "id": 5766,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "8",
+              "arabic_name": "وَأَمَّا مَن جَآءَكَ يَسْعَىٰ",
+              "translated_name": "اور جو شخص تیرے پاس دوڑتا ہوا آتا ہے.[1]"
+            },
+            {
+              "id": 5767,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "9",
+              "arabic_name": "وَهُوَ يَخْشَىٰ",
+              "translated_name": "اور وه ڈر (بھی) رہا ہے.[1]"
+            },
+            {
+              "id": 5768,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "10",
+              "arabic_name": "فَأَنتَ عَنْهُ تَلَهَّىٰ",
+              "translated_name": "تو اس سے بےرخی برتتا ہے.[1]"
+            },
+            {
+              "id": 5769,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "11",
+              "arabic_name": "كَلَّآ إِنَّهَا تَذْكِرَةٌ",
+              "translated_name": "یہ ٹھیک نہیں[1] قرآن تو نصیحت (کی چیز) ہے."
+            },
+            {
+              "id": 5770,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "12",
+              "arabic_name": "فَمَن شَآءَ ذَكَرَهُۥ",
+              "translated_name": "جو چاہے اس سے نصیحت لے.[1]"
+            },
+            {
+              "id": 5771,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "13",
+              "arabic_name": "فِى صُحُفٍ مُّكَرَّمَةٍ",
+              "translated_name": "(یہ تو) پر عظمت صحیفوں میں (ہے).[1]"
+            },
+            {
+              "id": 5772,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "14",
+              "arabic_name": "مَّرْفُوعَةٍ مُّطَهَّرَةٍۭ",
+              "translated_name": "جو بلند وباﻻ اور پاک صاف ہے.[1]"
+            },
+            {
+              "id": 5773,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "15",
+              "arabic_name": "بِأَيْدِى سَفَرَةٍ",
+              "translated_name": "ایسے لکھنے والوں کے ہاتھوں میں ہے.[1]"
+            },
+            {
+              "id": 5774,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "16",
+              "arabic_name": "كِرَامٍۭ بَرَرَةٍ",
+              "translated_name": "جو بزرگ اور پاکباز ہیں.[1]"
+            },
+            {
+              "id": 5775,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "17",
+              "arabic_name": "قُتِلَ ٱلْإِنسَـٰنُ مَآ أَكْفَرَهُۥ",
+              "translated_name": "اللہ کی مار انسان پر کیسا ناشکرا ہے.[1]"
+            },
+            {
+              "id": 5776,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "18",
+              "arabic_name": "مِنْ أَىِّ شَىْءٍ خَلَقَهُۥ",
+              "translated_name": "اسے اللہ نے کس چیز سے پیدا کیا."
+            },
+            {
+              "id": 5777,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "19",
+              "arabic_name": "مِن نُّطْفَةٍ خَلَقَهُۥ فَقَدَّرَهُۥ",
+              "translated_name": "اسے) ایک نطفہ[1] سے پیدا کیا،پھراس کا اندازہ مقررکیا .[2]"
+            },
+            {
+              "id": 5778,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "20",
+              "arabic_name": "ثُمَّ ٱلسَّبِيلَ يَسَّرَهُۥ",
+              "translated_name": "پھر اس کے لئے راستہ آسان کیا.[1]"
+            },
+            {
+              "id": 5779,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "21",
+              "arabic_name": "ثُمَّ أَمَاتَهُۥ فَأَقْبَرَهُۥ",
+              "translated_name": "پھر اسے موت دی اور پھر قبر میں دفن کیا."
+            },
+            {
+              "id": 5780,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "22",
+              "arabic_name": "ثُمَّ إِذَا شَآءَ أَنشَرَهُۥ",
+              "translated_name": "پھر جب چاہے گا اسے زنده کر دے گا۔"
+            },
+            {
+              "id": 5781,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "23",
+              "arabic_name": "كَلَّا لَمَّا يَقْضِ مَآ أَمَرَهُۥ",
+              "translated_name": "ہرگز نہیں[1] ۔ اس نے اب تک اللہ کے حکم کی بجا آوری نہیں کی."
+            },
+            {
+              "id": 5782,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "24",
+              "arabic_name": "فَلْيَنظُرِ ٱلْإِنسَـٰنُ إِلَىٰ طَعَامِهِۦٓ",
+              "translated_name": "انسان کو چاہئے کہ اپنے کھانے کو دیکھے.[1]"
+            },
+            {
+              "id": 5783,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "25",
+              "arabic_name": "أَنَّا صَبَبْنَا ٱلْمَآءَ صَبًّا",
+              "translated_name": "کہ ہم نے خوب پانی برسایا."
+            },
+            {
+              "id": 5784,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "26",
+              "arabic_name": "ثُمَّ شَقَقْنَا ٱلْأَرْضَ شَقًّا",
+              "translated_name": "پھر پھاڑا زمین کو اچھی طرح."
+            },
+            {
+              "id": 5785,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "27",
+              "arabic_name": "فَأَنۢبَتْنَا فِيهَا حَبًّا",
+              "translated_name": "پھر اس میں سے اناج اگائے."
+            },
+            {
+              "id": 5786,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "28",
+              "arabic_name": "وَعِنَبًا وَقَضْبًا",
+              "translated_name": "اور انگور اور ترکاری."
+            },
+            {
+              "id": 5787,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "29",
+              "arabic_name": "وَزَيْتُونًا وَنَخْلًا",
+              "translated_name": "اور زیتون اور کھجور."
+            },
+            {
+              "id": 5788,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "30",
+              "arabic_name": "وَحَدَآئِقَ غُلْبًا",
+              "translated_name": "اور گنجان باغات."
+            },
+            {
+              "id": 5789,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "31",
+              "arabic_name": "وَفَـٰكِهَةً وَأَبًّا",
+              "translated_name": "اور میوه اور (گھاس) چاره (بھی اگایا).[1]"
+            },
+            {
+              "id": 5790,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "32",
+              "arabic_name": "مَّتَـٰعًا لَّكُمْ وَلِأَنْعَـٰمِكُمْ",
+              "translated_name": "تمہارے استعمال وفائدے کے لئے اور تمہارے چوپایوں کے لئے."
+            },
+            {
+              "id": 5791,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "33",
+              "arabic_name": "فَإِذَا جَآءَتِ ٱلصَّآخَّةُ",
+              "translated_name": "پس جب کہ کان بہرے کر دینے والی (قیامت) آجائے گی.[1]"
+            },
+            {
+              "id": 5792,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "34",
+              "arabic_name": "يَوْمَ يَفِرُّ ٱلْمَرْءُ مِنْ أَخِيهِ",
+              "translated_name": "اس دن آدمی اپنے بھائی سے."
+            },
+            {
+              "id": 5793,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "35",
+              "arabic_name": "وَأُمِّهِۦ وَأَبِيهِ",
+              "translated_name": "اور اپنی ماں اور اپنے باپ سے."
+            },
+            {
+              "id": 5794,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "36",
+              "arabic_name": "وَصَـٰحِبَتِهِۦ وَبَنِيهِ",
+              "translated_name": "اور اپنی بیوی اور اپنی اوﻻد سے بھاگے گا."
+            },
+            {
+              "id": 5795,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "37",
+              "arabic_name": "لِكُلِّ ٱمْرِئٍ مِّنْهُمْ يَوْمَئِذٍ شَأْنٌ يُغْنِيهِ",
+              "translated_name": "ان میں سے ہر ایک کو اس دن ایسی فکر (دامن گیر) ہوگی جو اس کے لئے کافی ہوگی.[1]"
+            },
+            {
+              "id": 5796,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "38",
+              "arabic_name": "وُجُوهٌ يَوْمَئِذٍ مُّسْفِرَةٌ",
+              "translated_name": "اس دن بہت سے چہرے روشن ہوں گے."
+            },
+            {
+              "id": 5797,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "39",
+              "arabic_name": "ضَاحِكَةٌ مُّسْتَبْشِرَةٌ",
+              "translated_name": "(جو) ہنستے ہوئے اور ہشاش بشاش ہوں گے.[1]"
+            },
+            {
+              "id": 5798,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "40",
+              "arabic_name": "وَوُجُوهٌ يَوْمَئِذٍ عَلَيْهَا غَبَرَةٌ",
+              "translated_name": "اور بہت سے چہرے اس دن غبار آلود ہوں گے."
+            },
+            {
+              "id": 5799,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "41",
+              "arabic_name": "تَرْهَقُهَا قَتَرَةٌ",
+              "translated_name": "جن پر سیاہی چڑھی ہوئی ہوگی.[1]"
+            },
+            {
+              "id": 5800,
+              "chapter_id": 80,
+              "verses_translate_name": "Verses",
+              "verses_number": "42",
+              "arabic_name": "أُو۟لَـٰٓئِكَ هُمُ ٱلْكَفَرَةُ ٱلْفَجَرَةُ",
+              "translated_name": "وه یہی کافر بدکردار لوگ ہوں گے.[1]"
+            }
+          ],
+          "page_arabic_ayah": "عَبَسَ وَتَوَلَّىٰٓ (١)  أَن جَآءَهُ ٱلْأَعْمَىٰ (٢)  وَمَا يُدْرِيكَ لَعَلَّهُۥ يَزَّكَّىٰٓ (٣)  أَوْ يَذَّكَّرُ فَتَنفَعَهُ ٱلذِّكْرَىٰٓ (٤)  أَمَّا مَنِ ٱسْتَغْنَىٰ (٥)  فَأَنتَ لَهُۥ تَصَدَّىٰ (٦)  وَمَا عَلَيْكَ أَلَّا يَزَّكَّىٰ (٧)  وَأَمَّا مَن جَآءَكَ يَسْعَىٰ (٨)  وَهُوَ يَخْشَىٰ (٩)  فَأَنتَ عَنْهُ تَلَهَّىٰ (١٠)  كَلَّآ إِنَّهَا تَذْكِرَةٌ (١١)  فَمَن شَآءَ ذَكَرَهُۥ (١٢)  فِى صُحُفٍ مُّكَرَّمَةٍ (١٣)  مَّرْفُوعَةٍ مُّطَهَّرَةٍۭ (١٤)  بِأَيْدِى سَفَرَةٍ (١٥)  كِرَامٍۭ بَرَرَةٍ (١٦)  قُتِلَ ٱلْإِنسَـٰنُ مَآ أَكْفَرَهُۥ (١٧)  مِنْ أَىِّ شَىْءٍ خَلَقَهُۥ (١٨)  مِن نُّطْفَةٍ خَلَقَهُۥ فَقَدَّرَهُۥ (١٩)  ثُمَّ ٱلسَّبِيلَ يَسَّرَهُۥ (٢٠)  ثُمَّ أَمَاتَهُۥ فَأَقْبَرَهُۥ (٢١)  ثُمَّ إِذَا شَآءَ أَنشَرَهُۥ (٢٢)  كَلَّا لَمَّا يَقْضِ مَآ أَمَرَهُۥ (٢٣)  فَلْيَنظُرِ ٱلْإِنسَـٰنُ إِلَىٰ طَعَامِهِۦٓ (٢٤)  أَنَّا صَبَبْنَا ٱلْمَآءَ صَبًّا (٢٥)  ثُمَّ شَقَقْنَا ٱلْأَرْضَ شَقًّا (٢٦)  فَأَنۢبَتْنَا فِيهَا حَبًّا (٢٧)  وَعِنَبًا وَقَضْبًا (٢٨)  وَزَيْتُونًا وَنَخْلًا (٢٩)  وَحَدَآئِقَ غُلْبًا (٣٠)  وَفَـٰكِهَةً وَأَبًّا (٣١)  مَّتَـٰعًا لَّكُمْ وَلِأَنْعَـٰمِكُمْ (٣٢)  فَإِذَا جَآءَتِ ٱلصَّآخَّةُ (٣٣)  يَوْمَ يَفِرُّ ٱلْمَرْءُ مِنْ أَخِيهِ (٣٤)  وَأُمِّهِۦ وَأَبِيهِ (٣٥)  وَصَـٰحِبَتِهِۦ وَبَنِيهِ (٣٦)  لِكُلِّ ٱمْرِئٍ مِّنْهُمْ يَوْمَئِذٍ شَأْنٌ يُغْنِيهِ (٣٧)  وُجُوهٌ يَوْمَئِذٍ مُّسْفِرَةٌ (٣٨)  ضَاحِكَةٌ مُّسْتَبْشِرَةٌ (٣٩)  وَوُجُوهٌ يَوْمَئِذٍ عَلَيْهَا غَبَرَةٌ (٤٠)  تَرْهَقُهَا قَتَرَةٌ (٤١)  أُو۟لَـٰٓئِكَ هُمُ ٱلْكَفَرَةُ ٱلْفَجَرَةُ (٤٢)",
+          "is_read": false
+        }
+      ]
+    }
+  }
+]

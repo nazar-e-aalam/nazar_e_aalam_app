@@ -1,0 +1,276 @@
+[
+  {
+    "status": true,
+    "message": "Data fetched successfully",
+    "data": {
+      "chapter": {
+        "id": 89,
+        "serial_number": "89",
+        "arabic_name": "الفجر",
+        "translated_name": "Al-Fajr",
+        "verses_translate_name": "Verses",
+        "verses_count": "30"
+      },
+      "chapter_info": [
+        {
+          "eng_page_number": 593,
+          "page_number": "593",
+          "page_key": 0,
+          "page_verses": [
+            {
+              "id": 5994,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "1",
+              "arabic_name": "وَٱلْفَجْرِ",
+              "translated_name": "क़सम है फ़ज्र (उषाकाल) की!"
+            },
+            {
+              "id": 5995,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "2",
+              "arabic_name": "وَلَيَالٍ عَشْرٍ",
+              "translated_name": "तथा दस रातों की!"
+            },
+            {
+              "id": 5996,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "3",
+              "arabic_name": "وَٱلشَّفْعِ وَٱلْوَتْرِ",
+              "translated_name": "और सम (जोड़े) और विषम (अकेले) की!"
+            },
+            {
+              "id": 5997,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "4",
+              "arabic_name": "وَٱلَّيْلِ إِذَا يَسْرِ",
+              "translated_name": "और रात की, जब वह चलती है!"
+            },
+            {
+              "id": 5998,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "5",
+              "arabic_name": "هَلْ فِى ذَٰلِكَ قَسَمٌ لِّذِى حِجْرٍ",
+              "translated_name": "निश्चय इसमें बुद्धिमान के लिए बड़ी क़सम है?[1]"
+            },
+            {
+              "id": 5999,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "6",
+              "arabic_name": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ",
+              "translated_name": "क्या तुमने नहीं देखा कि तुम्हारे पालनहार ने \"आद\" के साथ किस तरह किया?"
+            },
+            {
+              "id": 6000,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "7",
+              "arabic_name": "إِرَمَ ذَاتِ ٱلْعِمَادِ",
+              "translated_name": "(वे आद) जो स्तंभों वाले 'इरम' (गोत्र के लोग) थे।"
+            },
+            {
+              "id": 6001,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "8",
+              "arabic_name": "ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَـٰدِ",
+              "translated_name": "जिनके समान (दुनिया के) शहरों में कोई पैदा नहीं किया गया।"
+            },
+            {
+              "id": 6002,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "9",
+              "arabic_name": "وَثَمُودَ ٱلَّذِينَ جَابُوا۟ ٱلصَّخْرَ بِٱلْوَادِ",
+              "translated_name": "तथा 'समूद' के साथ (किस तरह किया) जिन्होंने वादी में चट्टानों को तराशा।"
+            },
+            {
+              "id": 6003,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "10",
+              "arabic_name": "وَفِرْعَوْنَ ذِى ٱلْأَوْتَادِ",
+              "translated_name": "और मेखों वाले फ़िरऔन के साथ (किस तरह किया)।"
+            },
+            {
+              "id": 6004,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "11",
+              "arabic_name": "ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَـٰدِ",
+              "translated_name": "वे लोग, जो नगरों में हद से बढ़ गए।"
+            },
+            {
+              "id": 6005,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "12",
+              "arabic_name": "فَأَكْثَرُوا۟ فِيهَا ٱلْفَسَادَ",
+              "translated_name": "और उनमें बहुत अधिक उपद्रव फैलाया।"
+            },
+            {
+              "id": 6006,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "13",
+              "arabic_name": "فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ",
+              "translated_name": "तो तेरे पालनहार ने उनपर यातना का कोड़ा बरसाया।"
+            },
+            {
+              "id": 6007,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "14",
+              "arabic_name": "إِنَّ رَبَّكَ لَبِٱلْمِرْصَادِ",
+              "translated_name": "निःसंदेह तेरा पालनहार निश्चय घात में है।[2]"
+            },
+            {
+              "id": 6008,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "15",
+              "arabic_name": "فَأَمَّا ٱلْإِنسَـٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ",
+              "translated_name": "लेकिन मनुष्य (का हाल यह है कि) जब उसका पालनहार उसका परीक्षण करे, फिर उसे सम्मानित करे और नेमत प्रदान करे, तो कहता है कि मेरे पालनहार ने मुझे सम्मानित किया।"
+            },
+            {
+              "id": 6009,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "16",
+              "arabic_name": "وَأَمَّآ إِذَا مَا ٱبْتَلَىٰهُ فَقَدَرَ عَلَيْهِ رِزْقَهُۥ فَيَقُولُ رَبِّىٓ أَهَـٰنَنِ",
+              "translated_name": "लेकिन जब वह उसका परीक्षण करे, फिर उसपर उसकी रोज़ी तंग कर दे, तो कहता कि मेरे पालनहार ने मुझे अपमानित किया।"
+            },
+            {
+              "id": 6010,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "17",
+              "arabic_name": "كَلَّا ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ",
+              "translated_name": "हरगिज़ ऐसा नहीं, बल्कि तुम अनाथ का सम्मान नहीं करते।"
+            },
+            {
+              "id": 6011,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "18",
+              "arabic_name": "وَلَا تَحَـٰٓضُّونَ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+              "translated_name": "तथा तुम एक-दूसरे को ग़रीब को खाना खिलाने के लिए प्रोत्साहित नहीं करते हो।"
+            },
+            {
+              "id": 6012,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "19",
+              "arabic_name": "وَتَأْكُلُونَ ٱلتُّرَاثَ أَكْلًا لَّمًّا",
+              "translated_name": "और तुम मीरास का सारा धन समेटकर खा जाते हो।"
+            },
+            {
+              "id": 6013,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "20",
+              "arabic_name": "وَتُحِبُّونَ ٱلْمَالَ حُبًّا جَمًّا",
+              "translated_name": "और तुम धन से बहुत अधिक प्रेम करते हो।[3]"
+            },
+            {
+              "id": 6014,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "21",
+              "arabic_name": "كَلَّآ إِذَا دُكَّتِ ٱلْأَرْضُ دَكًّا دَكًّا",
+              "translated_name": "हरगिज़ नहीं! जब धरती कूट-कूटकर चूर्ण-विचूर्ण कर दी जाएगी।"
+            },
+            {
+              "id": 6015,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "22",
+              "arabic_name": "وَجَآءَ رَبُّكَ وَٱلْمَلَكُ صَفًّا صَفًّا",
+              "translated_name": "और तेरा पालनहार आएगा और फ़रिश्ते जो पंक्तियों में होंगे।"
+            },
+            {
+              "id": 6016,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "23",
+              "arabic_name": "وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍ يَتَذَكَّرُ ٱلْإِنسَـٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ",
+              "translated_name": "और उस दिन नरक लाई जाएगी। उस दिन इनसान याद करेगा। लेकिन उस दिन याद करना उसे कहाँ से लाभ देगा।"
+            }
+          ],
+          "page_arabic_ayah": "وَٱلْفَجْرِ (١)  وَلَيَالٍ عَشْرٍ (٢)  وَٱلشَّفْعِ وَٱلْوَتْرِ (٣)  وَٱلَّيْلِ إِذَا يَسْرِ (٤)  هَلْ فِى ذَٰلِكَ قَسَمٌ لِّذِى حِجْرٍ (٥)  أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ (٦)  إِرَمَ ذَاتِ ٱلْعِمَادِ (٧)  ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَـٰدِ (٨)  وَثَمُودَ ٱلَّذِينَ جَابُوا۟ ٱلصَّخْرَ بِٱلْوَادِ (٩)  وَفِرْعَوْنَ ذِى ٱلْأَوْتَادِ (١٠)  ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَـٰدِ (١١)  فَأَكْثَرُوا۟ فِيهَا ٱلْفَسَادَ (١٢)  فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ (١٣)  إِنَّ رَبَّكَ لَبِٱلْمِرْصَادِ (١٤)  فَأَمَّا ٱلْإِنسَـٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ (١٥)  وَأَمَّآ إِذَا مَا ٱبْتَلَىٰهُ فَقَدَرَ عَلَيْهِ رِزْقَهُۥ فَيَقُولُ رَبِّىٓ أَهَـٰنَنِ (١٦)  كَلَّا ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ (١٧)  وَلَا تَحَـٰٓضُّونَ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ (١٨)  وَتَأْكُلُونَ ٱلتُّرَاثَ أَكْلًا لَّمًّا (١٩)  وَتُحِبُّونَ ٱلْمَالَ حُبًّا جَمًّا (٢٠)  كَلَّآ إِذَا دُكَّتِ ٱلْأَرْضُ دَكًّا دَكًّا (٢١)  وَجَآءَ رَبُّكَ وَٱلْمَلَكُ صَفًّا صَفًّا (٢٢)  وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍ يَتَذَكَّرُ ٱلْإِنسَـٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ (٢٣)",
+          "is_read": false
+        },
+        {
+          "eng_page_number": 594,
+          "page_number": "594",
+          "page_key": 1,
+          "page_verses": [
+            {
+              "id": 6017,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "24",
+              "arabic_name": "يَقُولُ يَـٰلَيْتَنِى قَدَّمْتُ لِحَيَاتِى",
+              "translated_name": "वह कहेगा : ऐ काश! मैंने अपने (इस) जीवन के लिए कुछ आगे भेजा होता।"
+            },
+            {
+              "id": 6018,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "25",
+              "arabic_name": "فَيَوْمَئِذٍ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٌ",
+              "translated_name": "चुनाँचे उस दिन उस (अल्लाह) के दंड जैसा दंड कोई नहीं देगा।"
+            },
+            {
+              "id": 6019,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "26",
+              "arabic_name": "وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٌ",
+              "translated_name": "और न उसके बाँधने जैसा कोई बाँधेगा।[4]"
+            },
+            {
+              "id": 6020,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "27",
+              "arabic_name": "يَـٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ",
+              "translated_name": "ऐ संतुष्ट आत्मा!"
+            },
+            {
+              "id": 6021,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "28",
+              "arabic_name": "ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةً مَّرْضِيَّةً",
+              "translated_name": "अपने पालनहार की ओर लौट चल, इस हाल में कि तू उससे प्रसन्न है, उसके निकट पसंदीदा है।"
+            },
+            {
+              "id": 6022,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "29",
+              "arabic_name": "فَٱدْخُلِى فِى عِبَـٰدِى",
+              "translated_name": "अतः तू मेरे बंदों में प्रवेश कर जा।"
+            },
+            {
+              "id": 6023,
+              "chapter_id": 89,
+              "verses_translate_name": "Verses",
+              "verses_number": "30",
+              "arabic_name": "وَٱدْخُلِى جَنَّتِى",
+              "translated_name": "और मेरी जन्नत में प्रवेश कर जा।[5]"
+            }
+          ],
+          "page_arabic_ayah": "يَقُولُ يَـٰلَيْتَنِى قَدَّمْتُ لِحَيَاتِى (٢٤)  فَيَوْمَئِذٍ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٌ (٢٥)  وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٌ (٢٦)  يَـٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ (٢٧)  ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةً مَّرْضِيَّةً (٢٨)  فَٱدْخُلِى فِى عِبَـٰدِى (٢٩)  وَٱدْخُلِى جَنَّتِى (٣٠)",
+          "is_read": false
+        }
+      ]
+    }
+  }
+]

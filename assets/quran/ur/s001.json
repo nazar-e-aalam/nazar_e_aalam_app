@@ -1,0 +1,81 @@
+{
+  "status": true,
+  "message": "Data fetched successfully",
+  "data": {
+    "chapter": {
+      "id": 1,
+      "serial_number": "1",
+      "arabic_name": "الفاتحة",
+      "translated_name": "Al-Fatihah",
+      "verses_translate_name": "Verses",
+      "verses_count": "7"
+    },
+    "chapter_info": [
+      {
+        "eng_page_number": 1,
+        "page_number": "1",
+        "page_key": 0,
+        "page_verses": [
+          {
+            "id": 1,
+            "chapter_id": 1,
+            "verses_translate_name": "Verses",
+            "verses_number": "1",
+            "arabic_name": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "translated_name": "شروع کرتا ہوں اللہ تعالیٰ کے نام سے جو بڑا مہربان نہایت رحم واﻻ ہے۔[1]"
+          },
+          {
+            "id": 2,
+            "chapter_id": 1,
+            "verses_translate_name": "Verses",
+            "verses_number": "2",
+            "arabic_name": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+            "translated_name": "سب تعریف اللہ تعالیٰ کے لئے ہے[1] جو تمام جہانوں کا پالنے واﻻ ہے۔[2]"
+          },
+          {
+            "id": 3,
+            "chapter_id": 1,
+            "verses_translate_name": "Verses",
+            "verses_number": "3",
+            "arabic_name": "الرَّحْمَٰنِ الرَّحِيمِ",
+            "translated_name": "بڑا مہربان نہایت رحم کرنے واﻻ۔[1]"
+          },
+          {
+            "id": 4,
+            "chapter_id": 1,
+            "verses_translate_name": "Verses",
+            "verses_number": "4",
+            "arabic_name": "مَالِكِ يَوْمِ الدِّينِ",
+            "translated_name": "بدلے کے دن (یعنی قیامت) کا مالک ہے۔[1]"
+          },
+          {
+            "id": 5,
+            "chapter_id": 1,
+            "verses_translate_name": "Verses",
+            "verses_number": "5",
+            "arabic_name": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+            "translated_name": "ہم صرف تیری ہی عبادت کرتے ہیں اور صرف تجھ ہی سے مدد چاہتے ہیں۔[1]"
+          },
+          {
+            "id": 6,
+            "chapter_id": 1,
+            "verses_translate_name": "Verses",
+            "verses_number": "6",
+            "arabic_name": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+            "translated_name": "ہمیں سیدھی (اور سچی) راه دکھا۔[1]"
+          },
+          {
+            "id": 7,
+            "chapter_id": 1,
+            "verses_translate_name": "Verses",
+            "verses_number": "7",
+            "arabic_name": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+            "translated_name": "ان لوگوں کی راه جن پر تو نے انعام کیا[1] ان کی نہیں جن پر غضب کیا گیا (یعنی وه لوگ جنہوں نے حق کو پہچانا، مگر اس پر عمل پیرا نہیں ہوئے) اور نہ گمراہوں کی[2] (یعنی وه لوگ جو جہالت کے سبب راه حق سے برگشتہ ہوگئے)۔"
+          }
+        ],
+        "page_arabic_ayah": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ (١)  الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ (٢)  الرَّحْمَٰنِ الرَّحِيمِ (٣)  مَالِكِ يَوْمِ الدِّينِ (٤)  إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ (٥)  اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ (٦)  صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ (٧)",
+        "is_read": false
+      }
+    ]
+  }
+}
