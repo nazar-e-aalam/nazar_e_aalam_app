@@ -6,6 +6,7 @@ import 'package:nazar_e_alam/controller/home_layout_controller.dart';
 import 'package:nazar_e_alam/controller/internet_check_controller.dart';
 import 'package:nazar_e_alam/controller/prayer_time_controller.dart';
 import 'package:nazar_e_alam/controller/prayer_time_adjustment.dart';
+import 'package:nazar_e_alam/data/auth/device_auth_service.dart';
 // import 'package:nazar_e_alam/controller/quran_settings_controller.dart';
 import 'package:nazar_e_alam/helper/salat_waqt_service.dart';
 import 'package:nazar_e_alam/util/app_constants.dart';
@@ -28,6 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _loadInitialData() {
     Get.find<InternetController>().checkConnection();
+    Get.find<DeviceAuthService>().registerDevice();
     // Get.find<SettingsController>().fetchMosqueSettingsData();
 
     WidgetsBinding.instance.addPostFrameCallback((_) async {

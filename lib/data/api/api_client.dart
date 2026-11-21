@@ -1,4 +1,6 @@
 // ignore_for_file: library_prefixes, empty_catches
+import 'dart:async';
+import 'dart:io';
 
 import 'dart:convert';
 import 'package:nazar_e_alam/data/model/response/error_response_model.dart';
@@ -10,12 +12,25 @@ import 'package:nazar_e_alam/data/auth/device_auth_service.dart';
 import 'package:nazar_e_alam/data/cache/api_cache_service.dart';
 import 'package:nazar_e_alam/data/cache/api_cache_policy.dart';
 
+class ApiAuthenticationException implements Exception {
+  final String message;
+
+  const ApiAuthenticationException(this.message);
+
+  @override
+  String toString() => message;
+}
+
 class ApiClient extends GetxService {
   final String appBaseUrl;
   final SharedPreferences sharedPreferences;
   static const String noInternetMessage =
       'Connection to API server failed due to internet connection';
   final int timeoutInSeconds = 120;
+  static const int maxGetRetries = 3;
+  static const Duration retryBaseDelay = Duration(seconds: 2);
+  static const Duration retryMaxDelay = Duration(seconds: 10);
+  static const Duration retryRequestTimeout = Duration(seconds: 15);
   final Map<String, String> _mainHeaders = {
     'Content-Type': 'application/json; charset=UTF-8',
   };
@@ -49,6 +64,7 @@ class ApiClient extends GetxService {
     dynamic body,
     Map<String, String>? headers,
     bool requiresAuth = false,
+    Duration? requestTimeout,
   }) async {
     String? token;
 
@@ -56,7 +72,7 @@ class ApiClient extends GetxService {
       token = await _auth.getAccessToken();
 
       if (token == null) {
-        throw StateError('Authentication unavailable');
+        throw const ApiAuthenticationException('Authentication unavailable');
       }
     }
 
@@ -94,19 +110,122 @@ class ApiClient extends GetxService {
 
     var response = await send(
       token,
-    ).timeout(Duration(seconds: timeoutInSeconds));
-
+    ).timeout(requestTimeout ?? Duration(seconds: timeoutInSeconds));
     if (requiresAuth && response.statusCode == 401) {
       final refreshedToken = await _auth.refreshAccessToken();
 
       if (refreshedToken != null) {
         response = await send(
           refreshedToken,
-        ).timeout(Duration(seconds: timeoutInSeconds));
+        ).timeout(requestTimeout ?? Duration(seconds: timeoutInSeconds));
       }
     }
 
     return response;
+  }
+
+  Future<Http.Response> _sendWithRetry(
+    String method,
+    Uri uri, {
+    dynamic body,
+    Map<String, String>? headers,
+    bool requiresAuth = false,
+  }) async {
+    final canRetry = method == 'GET';
+    final maxAttempts = canRetry ? maxGetRetries + 1 : 1;
+
+    for (int attempt = 1; attempt <= maxAttempts; attempt++) {
+      try {
+        final response = await _sendRequest(
+          method,
+          uri,
+          body: body,
+          headers: headers,
+          requiresAuth: requiresAuth,
+          requestTimeout: retryRequestTimeout,
+        );
+
+        final retryableStatus =
+            response.statusCode == 429 ||
+            response.statusCode == 500 ||
+            response.statusCode == 502 ||
+            response.statusCode == 503 ||
+            response.statusCode == 504;
+
+        if (!canRetry || !retryableStatus || attempt == maxAttempts) {
+          return response;
+        }
+
+        final retryAfter = response.headers['retry-after'];
+        Duration? serverDelay;
+
+        if (retryAfter != null) {
+          final seconds = int.tryParse(retryAfter);
+
+          if (seconds != null && seconds >= 0) {
+            serverDelay = Duration(seconds: seconds);
+          } else {
+            final date = HttpDate.parse;
+            try {
+              final until = date(retryAfter).difference(DateTime.now().toUtc());
+              if (!until.isNegative) {
+                serverDelay = until;
+              }
+            } on FormatException {
+              // Invalid Retry-After header.
+            }
+          }
+        }
+
+        final backoff = Duration(
+          milliseconds: retryBaseDelay.inMilliseconds * (1 << (attempt - 1)),
+        );
+
+        final delay =
+            serverDelay ?? (backoff > retryMaxDelay ? retryMaxDelay : backoff);
+
+        if (kDebugMode) {
+          debugPrint(
+            'API RETRY: $method $uri '
+            'HTTP ${response.statusCode} '
+            'attempt $attempt/$maxAttempts '
+            'delay ${delay.inMilliseconds}ms',
+          );
+        }
+
+        await Future.delayed(delay);
+      } on SocketException catch (e) {
+        if (!canRetry || attempt == maxAttempts) rethrow;
+        await _retryDelay(attempt, e);
+      } on TimeoutException catch (e) {
+        if (!canRetry || attempt == maxAttempts) rethrow;
+        await _retryDelay(attempt, e);
+      } on Http.ClientException catch (e) {
+        if (!canRetry || attempt == maxAttempts) rethrow;
+        await _retryDelay(attempt, e);
+      }
+    }
+
+    throw StateError('Retry loop ended unexpectedly');
+  }
+
+  Future<void> _retryDelay(int attempt, Object error) async {
+    final backoff = Duration(
+      milliseconds: retryBaseDelay.inMilliseconds * (1 << (attempt - 1)),
+    );
+
+    final delay = backoff > retryMaxDelay ? retryMaxDelay : backoff;
+
+    if (kDebugMode) {
+      debugPrint(
+        'API NETWORK RETRY: '
+        'attempt $attempt, '
+        'waiting ${delay.inSeconds}s, '
+        'error: $error',
+      );
+    }
+
+    await Future.delayed(delay);
   }
 
   String _cacheKey(Uri uri) {
@@ -137,7 +256,11 @@ class ApiClient extends GetxService {
     required String cacheKey,
   }) async {
     try {
-      final response0 = await _sendRequest('GET', requestUri, headers: headers);
+      final response0 = await _sendWithRetry(
+        'GET',
+        requestUri,
+        headers: headers,
+      );
 
       final response = handleResponse(response0);
 
@@ -158,6 +281,8 @@ class ApiClient extends GetxService {
       }
 
       return response;
+    } on ApiAuthenticationException catch (e) {
+      return Response(statusCode: 401, statusText: e.message);
     } catch (e) {
       if (offlineFallback) {
         final oldData = _cache.get(cacheKey, allowExpired: true);
@@ -205,7 +330,7 @@ class ApiClient extends GetxService {
         effectiveCacheDuration > Duration.zero;
     if (!useCache) {
       try {
-        final response0 = await _sendRequest(
+        final response0 = await _sendWithRetry(
           'GET',
           requestUri,
           headers: headers,
@@ -213,6 +338,8 @@ class ApiClient extends GetxService {
         );
 
         return handleResponse(response0);
+      } on ApiAuthenticationException catch (e) {
+        return Response(statusCode: 401, statusText: e.message);
       } catch (e) {
         if (kDebugMode) {
           debugPrint('GET request failed: $e');
@@ -278,7 +405,7 @@ class ApiClient extends GetxService {
         print(appBaseUrl + uri);
       }
 
-      final response0 = await _sendRequest(
+      final response0 = await _sendWithRetry(
         'POST',
         Uri.parse('$appBaseUrl$uri'),
         body: body,
@@ -297,6 +424,8 @@ class ApiClient extends GetxService {
       }
 
       return response;
+    } on ApiAuthenticationException catch (e) {
+      return Response(statusCode: 401, statusText: e.message);
     } catch (e) {
       return const Response(statusCode: 1, statusText: noInternetMessage);
     }
@@ -313,7 +442,7 @@ class ApiClient extends GetxService {
         print('====> API Body: $body');
       }
 
-      final response0 = await _sendRequest(
+      final response0 = await _sendWithRetry(
         'PUT',
         Uri.parse('$appBaseUrl$uri'),
         body: body,
@@ -329,6 +458,8 @@ class ApiClient extends GetxService {
       }
 
       return response;
+    } on ApiAuthenticationException catch (e) {
+      return Response(statusCode: 401, statusText: e.message);
     } catch (e) {
       return const Response(statusCode: 1, statusText: noInternetMessage);
     }
@@ -340,7 +471,7 @@ class ApiClient extends GetxService {
     bool requiresAuth = false,
   }) async {
     try {
-      final response0 = await _sendRequest(
+      final response0 = await _sendWithRetry(
         'DELETE',
         Uri.parse('$appBaseUrl$uri'),
         headers: headers,
@@ -355,6 +486,8 @@ class ApiClient extends GetxService {
       }
 
       return response;
+    } on ApiAuthenticationException catch (e) {
+      return Response(statusCode: 401, statusText: e.message);
     } catch (e) {
       return const Response(statusCode: 1, statusText: noInternetMessage);
     }

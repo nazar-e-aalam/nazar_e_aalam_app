@@ -90,10 +90,10 @@ class _FatehaScreenState extends State<FatehaScreen> {
                 horizontal: modern ? 16 : 12,
                 vertical: 16,
               ),
-              itemCount: document.sections.length + 2,
+              itemCount: document.sections.length,
               itemBuilder: (context, index) {
-                if (index == 0) {
-                  return SizedBox.shrink();
+                // if (index == 0) {
+                  // return SizedBox.shrink();
                   // return Padding(
                   //   padding: const EdgeInsets.only(bottom: 20, top: 8),
                   //   child: Column(
@@ -114,8 +114,8 @@ class _FatehaScreenState extends State<FatehaScreen> {
                   //     ],
                   //   ),
                   // );
-                }
-                final section = document.sections[index - 1];
+                // }
+                final section = document.sections[index];
                 final content = Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [

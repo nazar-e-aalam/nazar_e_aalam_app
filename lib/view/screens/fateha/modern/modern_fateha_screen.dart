@@ -78,24 +78,24 @@ class _ModernFatehaScreenState extends State<ModernFatehaScreen> {
           return SelectionArea(
             child: ListView.builder(
               padding: const EdgeInsets.fromLTRB(16, 16, 16, 28),
-              itemCount: document.sections.length + 1,
+              itemCount: document.sections.length,
               itemBuilder: (context, index) {
-                if (index == 0) {
-                  return Padding(
-                    padding: const EdgeInsets.fromLTRB(8, 10, 8, 26),
-                    child: Column(
-                      children: [
-                        Icon(Icons.menu_book_rounded, size: 40, color: scheme.primary),
-                        const SizedBox(height: 12),
-                        Text(document.localizedTitle(language),
-                            textAlign: TextAlign.center,
-                            style: theme.textTheme.headlineSmall?.copyWith(
-                                fontWeight: FontWeight.w800)),
-                      ],
-                    ),
-                  );
-                }
-                final section = document.sections[index - 1];
+                // if (index == 0) {
+                //   return Padding(
+                //     padding: const EdgeInsets.fromLTRB(8, 10, 8, 26),
+                //     child: Column(
+                //       children: [
+                //         Icon(Icons.menu_book_rounded, size: 40, color: scheme.primary),
+                //         const SizedBox(height: 12),
+                //         Text(document.localizedTitle(language),
+                //             textAlign: TextAlign.center,
+                //             style: theme.textTheme.headlineSmall?.copyWith(
+                //                 fontWeight: FontWeight.w800)),
+                //       ],
+                //     ),
+                //   );
+                // }
+                final section = document.sections[index];
                 return Container(
                   margin: const EdgeInsets.only(bottom: 16),
                   padding: const EdgeInsets.fromLTRB(18, 20, 18, 16),

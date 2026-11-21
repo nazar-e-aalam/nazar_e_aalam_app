@@ -1,6 +1,7 @@
 // ignore_for_file: no_leading_underscores_for_local_identifiers
 
 import 'dart:convert';
+// import 'package:flutter/foundation.dart';
 
 // import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
@@ -11,7 +12,6 @@ import 'package:nazar_e_alam/controller/alphabet_controller.dart';
 import 'package:nazar_e_alam/controller/audio_player_controller.dart';
 import 'package:nazar_e_alam/controller/bookmark_controller.dart';
 import 'package:nazar_e_alam/controller/chand_controller.dart';
-import 'package:nazar_e_alam/controller/category_controller.dart';
 import 'package:nazar_e_alam/controller/dhikr_controller.dart';
 // import 'package:nazar_e_alam/controller/donation_controller.dart';
 import 'package:nazar_e_alam/controller/dua_controller.dart';
@@ -53,7 +53,7 @@ Future<Map<String, Map<String, String>>> init(
 ) async {
   Get.lazyPut(() => sharedPreferences);
   await Get.putAsync<DeviceAuthService>(
-    () => DeviceAuthService(baseUrl: AppConstants.API_BASE_URL).init(),
+    () => DeviceAuthService(baseUrl: AppConstants.API_BASE_URL, debugMode: true).init(),
     permanent: true,
   );
   await Get.putAsync<ApiCacheService>(
@@ -140,7 +140,6 @@ Future<Map<String, Map<String, String>>> init(
     fenix: true,
   );
   Get.lazyPut(() => BookMarkController());
-  Get.lazyPut(() => CategoryListController());
   Get.lazyPut(() => ZakatCalculatorController());
   Get.lazyPut<ChandController>(
     () => ChandController(apiClient: Get.find<ApiClient>()),
