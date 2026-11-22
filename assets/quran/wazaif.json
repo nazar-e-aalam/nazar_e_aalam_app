@@ -1,0 +1,612 @@
+{
+  "schema_version": 1,
+  "module": "wazaif",
+  "default_language": "en",
+  "supported_languages": [
+    "en",
+    "hi",
+    "gu",
+    "ur",
+    "ar",
+    "sw"
+  ],
+  "items": [
+    {
+      "id": "tasbih_fatima",
+      "order": 1,
+      "category": "tasbih",
+      "title": {
+        "en": "Tasbih-e-Bibi Fatima (Salamullahi Alayha)",
+        "hi": "तस्बीहे बीबी फ़ातिमा (सलामुल्लाही अलैहा)",
+        "gu": "તસ્બીહે બીબી ફાતિમા (સલામુલ્લાહી અલય્હા)",
+        "ur": "تسبیحِ بی بی فاطمہ (سلام اللہ علیہا)",
+        "ar": "تسبيح السيدة فاطمة (سلام الله عليها)",
+        "sw": "Tasbihi ya Bibi Fatima (Salamullahi Alayha)"
+      },
+      "description": {
+        "en": "Recitation of SubhanAllah 33 times, Alhamdulillah 33 times, and Allahu Akbar 34 times.",
+        "hi": "33 बार सुब्हानल्लाह, 33 बार अल्हम्दुलिल्लाह और 34 बार अल्लाहु अकबर पढ़ना।",
+        "gu": "૩૩ વખત સુબ્હાનલ્લાહ, ૩૩ વખત અલ્હમ્દુલિલ્લાહ અને ૩૪ વખત અલ્લાહુ અકબર પઢવું.",
+        "ur": "33 مرتبہ سبحان اللہ، 33 مرتبہ الحمد للہ اور 34 مرتبہ اللہ اکبر پڑھنا۔",
+        "ar": "تلاوة سبحان الله ٣٣ مرة، والحمد لله ٣٣ مرة، والله أكبر ٣٤ مرة.",
+        "sw": "Kusoma SubhanAllah mara 33, Alhamdulillah mara 33, na Allahu Akbar mara 34."
+      },
+      "sections": [
+        {
+          "id": "bismillah_1",
+          "type": "invocation",
+          "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
+          "translations": {
+            "en": "In the name of Allah, the Most Gracious, the Most Merciful.",
+            "hi": "अल्लाह के नाम से जो बड़ा मेहरबान निहायत रहम वाला है।",
+            "gu": "અલ્લાહના નામથી જે અત્યંત કૃપાળુ અને દયાળુ છે.",
+            "ur": "اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے۔",
+            "ar": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
+            "sw": "Kwa jina la Mwenyezi Mungu, Mwingi wa rehema, Mwenye kurehemu."
+          },
+          "transliterations": {
+            "en": "Bismillahir Rahmanir Rahim",
+            "hi": "बिस्मिल्लाहिर रहमानिर रहीम",
+            "gu": "બિસ્મિલ્લાહિર રહ્માનિર રહીમ",
+            "ur": "بسم اللہ الرحمن الرحیم",
+            "sw": "Bismillahir Rahmanir Rahim"
+          },
+          "repeat_count": 1,
+          "reference_ids": []
+        },
+        {
+          "id": "subhanallah",
+          "type": "recitation",
+          "arabic_text": "سُبْحَانَ اللّٰه",
+          "translations": {
+            "en": "Glory be to Allah",
+            "hi": "अल्लाह पाक है",
+            "gu": "અલ્લાહ પાક છે",
+            "ur": "اللہ پاک ہے",
+            "ar": "سُبْحَانَ اللّٰه",
+            "sw": "Utukufu ni wa Mwenyezi Mungu"
+          },
+          "transliterations": {
+            "en": "SubhanAllah",
+            "hi": "सुब्हानल्लाह",
+            "gu": "સુબ્હાનલ્લાહ",
+            "ur": "سبحان اللہ",
+            "sw": "SubhanAllah"
+          },
+          "repeat_count": 33,
+          "reference_ids": []
+        },
+        {
+          "id": "alhamdulillah",
+          "type": "recitation",
+          "arabic_text": "اَلْحَمْدُ لِلّٰه",
+          "translations": {
+            "en": "All praise is due to Allah",
+            "hi": "सब तारीफ़ें अल्लाह के लिए हैं",
+            "gu": "તમામ વખાણ અલ્લાહ માટે છે",
+            "ur": "تمام تعریفیں اللہ کے لیے ہیں",
+            "ar": "اَلْحَمْدُ لِلّٰه",
+            "sw": "Sifa njema zote ni za Mwenyezi Mungu"
+          },
+          "transliterations": {
+            "en": "Alhamdulillah",
+            "hi": "अल्हम्दुलिल्लाह",
+            "gu": "અલ્હમ્દુલિલ્લાહ",
+            "ur": "الحمد للہ",
+            "sw": "Alhamdulillah"
+          },
+          "repeat_count": 33,
+          "reference_ids": []
+        },
+        {
+          "id": "allahu_akbar",
+          "type": "recitation",
+          "arabic_text": "اَللّٰهُ اَكْبَر",
+          "translations": {
+            "en": "Allah is the Greatest",
+            "hi": "अल्लाह सबसे बड़ा है",
+            "gu": "અલ્લાહ સૌથી મોટો છે",
+            "ur": "اللہ سب سے بڑا ہے",
+            "ar": "اَللّٰهُ اَكْبَر",
+            "sw": "Mwenyezi Mungu ni Mkubwa zaidi"
+          },
+          "transliterations": {
+            "en": "Allahu Akbar",
+            "hi": "अल्लाहु अकबर",
+            "gu": "અલ્લાહુ અકબર",
+            "ur": "اللہ اکبر",
+            "sw": "Allahu Akbar"
+          },
+          "repeat_count": 34,
+          "reference_ids": []
+        }
+      ],
+      "references": [],
+      "review_status": "verified"
+    },
+    {
+      "id": "recitations_before_sleeping",
+      "order": 2,
+      "category": "daily_routine",
+      "title": {
+        "en": "Recite These Before Sleeping",
+        "hi": "सोने से पहले यह भी पढ़ें",
+        "gu": "સોને સે પહલે યહ ભી પઢ઼ે",
+        "ur": "سونے سے پہلے یہ بھی پڑھیں",
+        "ar": "يُقرأ هذا أيضاً قبل النوم",
+        "sw": "Soma Haya Pia Kabla ya Kulala"
+      },
+      "description": {
+        "en": "Recommended sequence of Surahs, Durood-e-Pak, Istighfar, and Third Kalima before sleeping as instructed in the source.",
+        "hi": "स्रोत के अनुसार सोने से पहले सूरह अल-फ़ातिहा, सूरह अल-इख़्लास, दुरूद-ए-पाक, इस्तिग़फ़ार और तीसरे कलिमे का क्रम।",
+        "gu": "સ્ત્રોત મુજબ સૂતા પહેલા સૂરહ અલ-ફાતિહા, સૂરહ અલ-ઇખ્લાસ, દુરૂદ-એ-પાક, ઇસ્તિગ્ફાર અને ત્રીજા કલિમાનો ક્રમ.",
+        "ur": "ماخذ کی ہدایت کے مطابق سونے سے پہلے سورۃ الفاتحہ، سورۃ الاخلاص، درودِ پاک، استغفار اور تیسرے کلمے کی ترتیب۔",
+        "ar": "تسلسل التلاوات الموصى به قبل النوم حسب المصدر: سورة الفاتحة، سورة الإخلاص، الصلاة على النبي، الاستغفار، والكلمة الثالثة.",
+        "sw": "Mfuatano uliopendekezwa wa kusoma kabla ya kulala kama ilivyoelekezwa katika chanzo."
+      },
+      "sections": [
+        {
+          "id": "sleep_surah_fatiha",
+          "type": "recitation",
+          "title": {
+            "en": "4 times Surah Al-Fatiha",
+            "hi": "4 मरतबा 'सूरह फ़ातिहा'",
+            "gu": "4 મરતબા 'સુરહ ફાતિહા'",
+            "ur": "4 مرتبہ 'سورۃ الفاتحہ'",
+            "ar": "٤ مرات 'سورة الفاتحة'",
+            "sw": "Mara 4 'Surah Al-Fatiha'"
+          },
+          "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَ ۝ الرَّحْمٰنِ الرَّحِيْمِ ۝ مٰلِكِ يَوْمِ الدِّيْنِ ۝ اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُ ۝ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَ ۝ صِرَاطَ الَّذِيْنَ اَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّاۤلِّيْنَ ۝",
+          "translations": {
+            "en": "In the name of Allah, the Most Gracious, the Most Merciful. All praise is due to Allah, Lord of all the worlds. The Most Gracious, the Most Merciful. Master of the Day of Judgment. You alone we worship, and You alone we ask for help. Guide us on the Straight Path, the path of those whom You have blessed, not of those who have incurred Your wrath, nor of those who have gone astray.",
+            "hi": "अल्लाह के नाम से जो बड़ा मेहरबान निहायत रहम वाला है। सब तारीफ़ें अल्लाह के लिए हैं जो तमाम जहानों का पालनहार है। बड़ा मेहरबान निहायत रहम वाला है। बदले के दिन का मालिक है। हम तेरी ही इबादत करते हैं और तुझी से मदद चाहते हैं। हमें सीधा रास्ता दिखा। उन लोगों का रास्ता जिन पर तूने इनाम किया, न कि उनका जिन पर ग़ज़ब हुआ और न गुमराहों का।",
+            "gu": "અલ્લાહના નામથી જે અત્યંત કૃપાળુ અને દયાળુ છે. તમામ પ્રશંસા અલ્લાહ માટે છે જે સમગ્ર વિશ્વનો પાલનહાર છે. અત્યંત કૃપાળુ અને દયાળુ છે. બદલાના દિવસનો માલિક છે. અમે તારી જ બંદગી કરીએ છીએ અને તારી જ પાસે મદદ માંગીએ છીએ. અમને સીધો માર્ગ બતાવ. તે લોકોનો માર્ગ જેમના પર તેં કૃપા કરી, ન કે તેમનો જેમના પર ક્રોધ થયો અને ન ભટકેલાઓનો.",
+            "ur": "اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے۔ سب تعریفیں اللہ کے لیے ہیں جو تمام جہانوں کا رب ہے۔ بڑا مہربان نہایت رحم والا ہے۔ روزِ جزا کا مالک ہے۔ ہم تیری ہی عبادت کرتے ہیں اور تجھ ہی سے مدد چاہتے ہیں۔ ہمیں سیدھا راستہ دکھا۔ ان لوگوں کا راستہ جن پر تو نے انعام کیا، نہ کہ ان کا جن پر غضب کیا گیا اور نہ گمراہوں کا۔",
+            "ar": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَ ۝ الرَّحْمٰنِ الرَّحِيْمِ ۝ مٰلِكِ يَوْمِ الدِّيْنِ ۝ اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُ ۝ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَ ۝ صِرَاطَ الَّذِيْنَ اَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّاۤلِّيْنَ ۝",
+            "sw": "Kwa jina la Mwenyezi Mungu, Mwingi wa rehema, Mwenye kurehemu. Sifa njema zote ni za Mwenyezi Mungu, Mola Mlezi wa walimwengu wote. Mwingi wa rehema, Mwenye kurehemu. Mwenye kumiliki Siku ya Malipo. Wewe tu tunakuabudu, na Wewe tu tunakuomba msaada. Tuongoze njia iliyonyooka, njia ya wale uliowaneemesha, si ya wale waliokasirikiwa, wala waliopotea."
+          },
+          "transliterations": {
+            "en": "Alhamdu lillahi Rabbil 'alamin. Ar-Rahmanir-Rahim. Maliki Yawmid-Din. Iyyaka na'budu wa iyyaka nasta'in. Ihdinas-Siratal-Mustaqim. Siratal-ladhina an'amta 'alayhim ghayril-maghdubi 'alayhim wa lad-dallin.",
+            "hi": "अल् हम्दुलिल्लाही रब्बील् आलमीन ० अर्रह्मानीर्रहीम ० मालीकी यौमीद्दीन ० ईय्या-क नअ्बुदु व ईय्या-क नस्तईन ० ईह्दीनस्सीरातल् मुस्तकीम् सीरातल्लजी-न अन्अम्त अलयहीम् गैरील् मग्दुबी अलयहीम् वलद् दाॅल्लीन ०",
+            "gu": "અલ્ હમ્દુલિલ્લાહી રબ્બીલ્ આલમીન ૦ અર્રહ્માનીર્રહીમ ૦ માલીકી યૌમીદ્દીન ૦ ઈય્યા-ક નઅ્બુદુ વ ઈય્યા-ક નસ્તઈન ૦ ઈહ્દીનસ્સીરાતલ્ મુસ્તકીમ્ સીરાતલ્લજી-ન અન્અમ્ત અલયહીમ્ ગૈરીલ્ મગ્દુબી અલયહીમ્ વલદ્ દાૅલ્લીન ૦",
+            "ur": "الحمد للہ رب العالمین، الرحمن الرحیم، مالک یوم الدین، ایاک نعبد و ایاک نستعین، اھدنا الصراط المستقیم، صراط الذین انعمت علیھم غیر المغضوب علیھم ولا الضالین",
+            "sw": "Alhamdu lillahi Rabbil 'alamin. Ar-Rahmanir-Rahim. Maliki Yawmid-Din. Iyyaka na'budu wa iyyaka nasta'in. Ihdinas-Siratal-Mustaqim. Siratal-ladhina an'amta 'alayhim ghayril-maghdubi 'alayhim wa lad-dallin."
+          },
+          "repeat_count": 4,
+          "reference_ids": [
+            "quran_1_1_7"
+          ]
+        },
+        {
+          "id": "sleep_surah_ikhlas",
+          "type": "recitation",
+          "title": {
+            "en": "3 times Surah Al-Ikhlas",
+            "hi": "3 मरतबा 'सूरह इख़्लास'",
+            "gu": "3 મરતબા 'સુરહ ઈખ્લાસ'",
+            "ur": "3 مرتبہ 'سورۃ الاخلاص'",
+            "ar": "٣ مرات 'سورة الإخلاص'",
+            "sw": "Mara 3 'Surah Al-Ikhlas'"
+          },
+          "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ قُلْ هُوَ اللّٰهُ اَحَدٌ ۝ اَللّٰهُ الصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُوْلَدْ ۝ وَلَمْ يَكُنْ لَّهٗ كُفُوًا اَحَدٌ ۝",
+          "translations": {
+            "en": "In the name of Allah, the Most Gracious, the Most Merciful. Say, He is Allah, the One. Allah, the Eternal Refuge. He neither begets nor is born, nor is there to Him any equivalent.",
+            "hi": "अल्लाह के नाम से जो बड़ा मेहरबान निहायत रहम वाला है। कह दीजिए कि वह अल्लाह एक है। अल्लाह बेनियाज़ है। न उससे कोई पैदा हुआ और न वह किसी से पैदा हुआ। और न कोई उसका हमसर है।",
+            "gu": "અલ્લાહના નામથી જે અત્યંત કૃપાળુ અને દયાળુ છે. કહો કે તે અલ્લાહ એક છે. અલ્લાહ નિરપેક્ષ (બેનિયાઝ) છે. ન તેનાથી કોઈ જન્મ્યું છે અને ન તે કોઈથી જન્મ્યો છે. અને કોઈ તેના સમાન નથી.",
+            "ur": "اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے۔ کہہ دیجیے کہ وہ اللہ ایک ہے۔ اللہ بے نیاز ہے۔ نہ اس سے کوئی پیدا ہوا اور نہ وہ کسی سے پیدا ہوا۔ اور نہ کوئی اس کا ہمسر ہے۔",
+            "ar": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ قُلْ هُوَ اللّٰهُ اَحَدٌ ۝ اَللّٰهُ الصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُوْلَدْ ۝ وَلَمْ يَكُنْ لَّهٗ كُفُوًا اَحَدٌ ۝",
+            "sw": "Kwa jina la Mwenyezi Mungu, Mwingi wa rehema, Mwenye kurehemu. Sema: Yeye Mwenyezi Mungu ni wa pekee. Mwenyezi Mungu Mkusudiwa. Hakuzaa wala hakuzaliwa. Wala hana anayefanana naye hata mmoja."
+          },
+          "transliterations": {
+            "en": "Qul Huwallahu Ahad. Allahus-Samad. Lam yalid wa lam yulad. Wa lam yakun lahu kufuwan ahad.",
+            "hi": "कुल् हुवल्लाहु अहद ० अल्लाहुस्समद ० लम् यलीद ० व लम् युलद ० वलम् यकुल्लहु कुफुवन् अहद ०",
+            "gu": "કુલ્ હુવલ્લાહુ અહદ ૦ અલ્લાહુસ્સમદ ૦ લમ્ યલીદ ૦ વ લમ્ યુલદ ૦ વલમ્ યકુલ્લહુ કુફુવન્ અહદ ૦",
+            "ur": "قل ھو اللہ احد، اللہ الصمد، لم یلد ولم یولد، ولم یکن لہ کفوا احد",
+            "sw": "Qul Huwallahu Ahad. Allahus-Samad. Lam yalid wa lam yulad. Wa lam yakun lahu kufuwan ahad."
+          },
+          "repeat_count": 3,
+          "reference_ids": [
+            "quran_112_1_4"
+          ]
+        },
+        {
+          "id": "sleep_durood_pak",
+          "type": "recitation",
+          "title": {
+            "en": "3 times Durood-e-Pak",
+            "hi": "3 मरतबा 'दुरूदे पाक'",
+            "gu": "3 મરતબા 'દુરુદે પાક'",
+            "ur": "3 مرتبہ 'درودِ پاک'",
+            "ar": "٣ مرات 'الصلاة على النبي ﷺ'",
+            "sw": "Mara 3 'Durood-e-Pak'"
+          },
+          "arabic_text": "اَللّٰهُمَّ صَلِّ عَلٰى سَيِّدِنَا مُحَمَّدٍ وَّعَلٰى اٰلِ سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ قَدْ ضَاقَتْ حِيْلَتِيْ اَدْرِكْنِيْ يَا رَسُوْلَ اللّٰهِ صَلَّى اللّٰهُ عَلَيْهِ وَاٰلِهٖ وَسَلَّمَ",
+          "translations": {
+            "en": "O Allah, send blessings upon our master Muhammad and upon the family of our master and leader Muhammad; my means have become straitened, come to my aid, O Messenger of Allah (peace and blessings of Allah be upon him and his family).",
+            "hi": "ऐ अल्लाह! हमारे सरदार मुहम्मद और हमारे सरदार व मौला मुहम्मद की आल पर रहमत नाज़िल फ़रमा; मेरी तदबीर तंग हो गई है, मेरी मदद फ़रमाइए या रसूलुल्लाह (सल्लल्लाहु अलैहि व आलिही वसल्लम)।",
+            "gu": "હે અલ્લાહ! અમારા સરદાર મુહમ્મદ અને અમારા સરદાર વ મૌલા મુહમ્મદની આલ પર રહમત નાઝિલ ફરમાવ; મારી તદબીર તંગ થઈ ગઈ છે, મારી મદદ ફરમાવો યા રસૂલુલ્લાહ (સલ્લલ્લાહુ અલયહિ વ આલિહી વસલ્લમ).",
+            "ur": "اے اللہ! ہمارے سردار محمد اور ہمارے سردار و مولا محمد کی آل پر رحمت نازل فرما؛ میری تدبیر تنگ ہو گئی ہے، میری مدد فرمائیے یا رسول اللہ (صلی اللہ علیہ وآلہ وسلم)۔",
+            "ar": "اَللّٰهُمَّ صَلِّ عَلٰى سَيِّدِنَا مُحَمَّدٍ وَّعَلٰى اٰلِ سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ قَدْ ضَاقَتْ حِيْلَتِيْ اَدْرِكْنِيْ يَا رَسُوْلَ اللّٰهِ صَلَّى اللّٰهُ عَلَيْهِ وَاٰلِهٖ وَسَلَّمَ",
+            "sw": "Ee Mwenyezi Mungu, mshushie rehema bwana wetu Muhammad na familia ya bwana na kiongozi wetu Muhammad; njia zangu zimebana, niokoe ewe Mtume wa Mwenyezi Mungu (rehema na amani za Mwenyezi Mungu ziwe juu yake na familia yake)."
+          },
+          "transliterations": {
+            "en": "Allahumma salli 'ala Sayyidina Muhammadiw wa 'ala ali Sayyidina wa Mawlana Muhammadin qad daqat hilati adrikni Ya Rasulallah sallallahu 'alayhi wa alihi wa sallam",
+            "hi": "अल्लाहुम्म सल्ली अला सैयदीना मुहम्मदीव् व अला आली सैयदीना व मौलाना मुहम्मदीन् कद् कदा अदरीक्-नी या रसुलुल्लाह सल्लल्लाहु अलयही व आलीही वसल्लम ०",
+            "gu": "અલ્લાહુમ્મ સલ્લી અલા સૈયદીના મુહમ્મદીવ્ વ અલા આલી સૈયદીના વ મૌલાના મુહમ્મદીન્ કદ્ કદા અદરીક્-ની યા રસુલુલ્લાહ સલ્લલ્લાહુ અલયહી વ આલીહી વસલ્લમ ૦",
+            "ur": "اللھم صل علی سیدنا محمد وعلی آل سیدنا ومولانا محمد قد ضاقت حیلتی ادرکنی یا رسول اللہ صلی اللہ علیہ وآلہ وسلم",
+            "sw": "Allahumma salli 'ala Sayyidina Muhammadiw wa 'ala ali Sayyidina wa Mawlana Muhammadin qad daqat hilati adrikni Ya Rasulallah sallallahu 'alayhi wa alihi wa sallam"
+          },
+          "repeat_count": 3,
+          "reference_ids": [
+            "source_durood_unverified"
+          ],
+          "needs_review": true,
+          "review_note": "Source XML transliteration contains 'कद् कदा / કદ્ કદા' (likely a scribal variant/typo of 'قَدْ ضَاقَتْ حِيْلَتِيْ' - qad daqat hilati in Durood-e-Tunjina/Adrikni). Arabic reconstructed from standard devotional text and flagged for manual verification."
+        },
+        {
+          "id": "sleep_istighfar",
+          "type": "recitation",
+          "title": {
+            "en": "10 times Istighfar",
+            "hi": "10 मरतबा 'इस्तिग़फ़ार'",
+            "gu": "10 મરતબા 'ઈસ્તિગ્ફાર'",
+            "ur": "10 مرتبہ 'استغفار'",
+            "ar": "١٠ مرات 'الاستغفار'",
+            "sw": "Mara 10 'Istighfar'"
+          },
+          "arabic_text": "اَسْتَغْفِرُ اللّٰهَ رَبِّيْ مِنْ كُلِّ ذَنْبٍ وَّاَتُوْبُ اِلَيْهِ",
+          "translations": {
+            "en": "I seek forgiveness from Allah, my Lord, from every sin and I repent unto Him.",
+            "hi": "मैं अल्लाह से जो मेरा रब है, हर गुनाह की माफ़ी माँगता हूँ और उसी की तरफ़ तौबा करता हूँ।",
+            "gu": "હું અલ્લાહ પાસે જે મારો રબ છે, દરેક ગુનાહની માફી માંગું છું અને તેની જ તરફ તૌબા કરું છું.",
+            "ur": "میں اللہ سے جو میرا رب ہے، ہر گناہ کی معافی مانگتا ہوں اور اسی کی طرف توبہ کرتا ہوں۔",
+            "ar": "اَسْتَغْفِرُ اللّٰهَ رَبِّيْ مِنْ كُلِّ ذَنْبٍ وَّاَتُوْبُ اِلَيْهِ",
+            "sw": "Ninaomba msamaha kwa Mwenyezi Mungu, Mola wangu Mlezi, kutokana na kila dhambi na ninatubia Kwake."
+          },
+          "transliterations": {
+            "en": "Astaghfirullaha Rabbi min kulli dhanbiw wa atubu ilayh",
+            "hi": "अस्तग्फिरुल्लाह रब्बी मीन् कुल्ली जन्बिव्वअतुबु ईलयही",
+            "gu": "અસ્તગ્ફિરુલ્લાહ રબ્બી મીન્ કુલ્લી જન્બિવ્વઅતુબુ ઈલયહી",
+            "ur": "استغفر اللہ ربی من کل ذنب واتوب الیہ",
+            "sw": "Astaghfirullaha Rabbi min kulli dhanbiw wa atubu ilayh"
+          },
+          "repeat_count": 10,
+          "reference_ids": []
+        },
+        {
+          "id": "sleep_third_kalima",
+          "type": "recitation",
+          "title": {
+            "en": "4 times Third Kalima (Tamjeed)",
+            "hi": "4 मरतबा 'तीसरा कलिमा तमजीद'",
+            "gu": "4 મરતબા 'તીસરા કલિમા તમજીદ'",
+            "ur": "4 مرتبہ 'تیسرا کلمہ تمجید'",
+            "ar": "٤ مرات 'الكلمة الثالثة (التمجيد)'",
+            "sw": "Mara 4 'Kalima ya Tatu (Tamjeed)'"
+          },
+          "arabic_text": "سُبْحَانَ اللّٰهِ وَالْحَمْدُ لِلّٰهِ وَلَا اِلٰهَ اِلَّا اللّٰهُ وَاللّٰهُ اَكْبَرُ وَلَا حَوْلَ وَلَا قُوَّةَ اِلَّا بِاللّٰهِ الْعَلِيِّ الْعَظِيْمِ",
+          "translations": {
+            "en": "Glory be to Allah, and all praise is due to Allah, and there is no deity worthy of worship except Allah, and Allah is the Greatest, and there is no power and no strength except with Allah, the Most High, the Most Great.",
+            "hi": "अल्लाह पाक है और सब तारीफ़ें अल्लाह के लिए हैं, और अल्लाह के सिवा कोई माबूद नहीं, और अल्लाह सबसे बड़ा है, और गुनाहों से बचने की ताक़त और नेकी करने की क़ुव्वत नहीं मगर अल्लाह की तरफ़ से जो बहुत बुलंद और अज़मत वाला है।",
+            "gu": "અલ્લાહ પાક છે અને તમામ પ્રશંસા અલ્લાહ માટે છે, અને અલ્લાહ સિવાય કોઈ બંદગીને લાયક નથી, અને અલ્લાહ સૌથી મોટો છે, અને ગુનાહોથી બચવાની તાકાત અને નેકી કરવાની શક્તિ નથી પરંતુ અલ્લાહની મદદથી જે અત્યંત ઉચ્ચ અને મહાન છે.",
+            "ur": "اللہ پاک ہے اور سب تعریفیں اللہ کے لیے ہیں، اور اللہ کے سوا کوئی معبود نہیں، اور اللہ سب سے بڑا ہے، اور گناہوں سے بچنے کی طاقت اور نیکی کرنے کی قوت نہیں مگر اللہ کی طرف سے جو بہت بلند اور عظمت والا ہے۔",
+            "ar": "سُبْحَانَ اللّٰهِ وَالْحَمْدُ لِلّٰهِ وَلَا اِلٰهَ اِلَّا اللّٰهُ وَاللّٰهُ اَكْبَرُ وَلَا حَوْلَ وَلَا قُوَّةَ اِلَّا بِاللّٰهِ الْعَلِيِّ الْعَظِيْمِ",
+            "sw": "Utukufu ni wa Mwenyezi Mungu, na sifa njema zote ni za Mwenyezi Mungu, na hapana mola apasaye kuabudiwa kwa haki ila Mwenyezi Mungu, na Mwenyezi Mungu ni Mkubwa zaidi, na hapana uwezo wala nguvu ila kwa msaada wa Mwenyezi Mungu, Aliye juu, Aliye mkuu."
+          },
+          "transliterations": {
+            "en": "SubhanAllahi wal-hamdulillahi wa la ilaha illallahu wallahu Akbar, wa la hawla wa la quwwata illa billahil-'Aliyyil-'Azim",
+            "hi": "सुब्हानल्लाही वल् हम्दुलिल्लाही व લા ईला-ह ईल्लल्लाहु वल्लाहु अकबर व ला हौ-ल व ला कुव्व-त ईल्ला बिल्लाहिल् अलीय्यिल् अज़ीम",
+            "gu": "સુબ્હાનલ્લાહી વલ્ હમ્દુલિલ્લાહી વ લા ઈલા-હ ઈલ્લલ્લાહુ વલ્લાહુ અકબર વ લા હૌ-લ વ લા કુવ્વ-ત ઈલ્લા બિલ્લાહિલ્ અલીય્યિલ્ અજ઼ીમ",
+            "ur": "سبحان اللہ والحمد للہ ولا الہ الا اللہ واللہ اکبر ولا حول ولا قوۃ الا باللہ العلی العظیم",
+            "sw": "SubhanAllahi wal-hamdulillahi wa la ilaha illallahu wallahu Akbar, wa la hawla wa la quwwata illa billahil-'Aliyyil-'Azim"
+          },
+          "repeat_count": 4,
+          "reference_ids": []
+        }
+      ],
+      "references": [
+        {
+          "id": "quran_1_1_7",
+          "type": "quran",
+          "surah_number": 1,
+          "surah_name": "Al-Fatiha",
+          "ayah_range": "1-7",
+          "verification_status": "verified"
+        },
+        {
+          "id": "quran_112_1_4",
+          "type": "quran",
+          "surah_number": 112,
+          "surah_name": "Al-Ikhlas",
+          "ayah_range": "1-4",
+          "verification_status": "verified"
+        },
+        {
+          "id": "source_durood_unverified",
+          "type": "source_note",
+          "citation": "Provided Android XML (wazaif_sonese_pahele_padhe.xml)",
+          "verification_status": "needs_review"
+        }
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "id": "ayatul_kursi",
+      "order": 3,
+      "category": "quranic_verses",
+      "title": {
+        "en": "Ayatul Kursi: After Obligatory Prayers and When Leaving Home",
+        "hi": "आयतुल कुर्सी : फ़र्ज़ नमाज़ के बाद और घर से निकलते वक़्त",
+        "gu": "આયતુલ કુર્સી : ફર્જ નમાજ કે બાદ ઔર ઘર સે નિકલતે વક્ત",
+        "ur": "آیۃ الکرسی: فرض نماز کے بعد اور گھر سے نکلتے وقت",
+        "ar": "آية الكرسي: بعد الصلاة المفروضة وعند الخروج من المنزل",
+        "sw": "Ayatul Kursi: Baada ya Swala za Faradhi na Wakati wa Kutoka Nyumbani"
+      },
+      "description": {
+        "en": "Surah Al-Baqarah (2:255) with narration on recitation after obligatory prayers and guidance on reciting when leaving home.",
+        "hi": "सूरह अल-बक़रह (2:255), फ़र्ज़ नमाज़ के बाद पढ़ने की रिवायत और घर से बाहर निकलते वक़्त पढ़ने की हिदायत।",
+        "gu": "સૂરહ અલ-બકરહ (2:255), ફર્જ નમાઝ પછી પઢવાની રિવાયત અને ઘરની બહાર નીકળતી વખતે પઢવાની સૂચના.",
+        "ur": "سورۃ البقرہ (2:255)، فرض نماز کے بعد پڑھنے کی روایت اور گھر سے باہر نکلتے وقت پڑھنے کی ہدایت۔",
+        "ar": "سورة البقرة (٢:٢٥٥) مع الرواية الواردة في قراءتها بعد الصلوات المفروضة والتوجيه بقراءتها عند الخروج من المنزل.",
+        "sw": "Surah Al-Baqarah (2:255) pamoja na riwaya ya kuisoma baada ya swala za faradhi na mwongozo wa kuisoma wakati wa kutoka nyumbani."
+      },
+      "sections": [
+        {
+          "id": "ayatul_kursi_hadith",
+          "type": "narration",
+          "content": {
+            "en": "Imam Hasan al-Mujtaba (Alayhis Salam) narrated that the Messenger of Allah (Sallallahu Alayhi wa Aalihi wa Sallam) said: \"Whoever recites Ayatul Kursi after every obligatory prayer will remain in the protection of Allah the Exalted until the time of the next prayer.\"",
+            "hi": "ईमाम हसन अल मुजतबा عَلَيْهِ السَّلَام बयान फरमाते है कि रसुलुल्लाह صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم ने इरशाद फ़रमाया : \"जिस शख्स ने हर फर्ज नमाज के बाद आयतुल कुर्सी पढ़ी तो वोह दूसरी नमाज का वक्त होने तक अल्लाह तआला की हिफाज़त में रहेगा।\"",
+            "gu": "ઈમામ હસન અલ મુજતબા عَلَيْهِ السَّلَام બયાન ફરમાતે હૈ કિ રસુલુલ્લાહ صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم ને ઇરશાદ ફ઼રમાયા : \"જિસ શખ્સ ને હર ફર્જ નમાજ કે બાદ આયતુલ કુર્સી પઢ઼ી તો વોહ દૂસરી નમાજ કા વક્ત હોને તક અલ્લાહ તઆલા કી હિફાજ઼ત મેં રહેગા।\"",
+            "ur": "امام حسن المجتبیٰ عَلَيْهِ السَّلَام بیان فرماتے ہیں کہ رسول اللہ صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم نے ارشاد فرمایا: \"جس شخص نے ہر فرض نماز کے بعد آیۃ الکرسی پڑھی تو وہ دوسری نماز کا وقت ہونے تک اللہ تعالیٰ کی حفاظت میں رہے گا۔\"",
+            "ar": "روى الإمام الحسن المجتبى عَلَيْهِ السَّلَام أن رسول الله صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم قال: «مَنْ قَرَأَ آيَةَ الْكُرْسِيِّ دُبُرَ الصَّلَاةِ الْمَكْتُوبَةِ كَانَ فِي ذِمَّةِ اللّٰهِ إِلَى الصَّلَاةِ الْأُخْرَى».",
+            "sw": "Imam Hasan al-Mujtaba (Alayhis Salam) amesimulia kuwa Mtume wa Mwenyezi Mungu (Sallallahu Alayhi wa Aalihi wa Sallam) alisema: \"Yeyote atakayesoma Ayatul Kursi baada ya kila swala ya faradhi atabaki katika ulinzi wa Mwenyezi Mungu Mtukufu mpaka wakati wa swala inayofuata.\""
+          },
+          "reference_ids": [
+            "hadith_tabarani_2733"
+          ]
+        },
+        {
+          "id": "ayatul_kursi_leaving_home",
+          "type": "instruction",
+          "content": {
+            "en": "Recite 'Ayatul Kursi' when leaving home as well.",
+            "hi": "घर से बाहर निकलते वक्त भी 'आयतुल कुर्सी' पढ़े :",
+            "gu": "ઘર સે બાહર નિકલતે વક્ત ભી 'આયતુલ કુર્સી' પઢ઼ે :",
+            "ur": "گھر سے باہر نکلتے وقت بھی 'آیۃ الکرسی' پڑھیں:",
+            "ar": "اقرأ «آية الكرسي» عند الخروج من المنزل أيضاً:",
+            "sw": "Soma 'Ayatul Kursi' wakati wa kutoka nyumbani pia:"
+          },
+          "reference_ids": []
+        },
+        {
+          "id": "ayatul_kursi_recitation",
+          "type": "recitation",
+          "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اَللّٰهُ لَا اِلٰهَ اِلَّا هُوَ الْحَيُّ الْقَيُّوْمُ ۚ لَا تَأْخُذُهٗ سِنَةٌ وَّلَا نَوْمٌ ۗ لَهٗ مَا فِى السَّمٰوٰتِ وَمَا فِى الْاَرْضِ ۗ مَنْ ذَا الَّذِيْ يَشْفَعُ عِنْدَهٗ اِلَّا بِاِذْنِهٖ ۗ يَعْلَمُ مَا بَيْنَ اَيْدِيْهِمْ وَمَا خَلْفَهُمْ ۚ وَلَا يُحِيْطُوْنَ بِشَيْءٍ مِّنْ عِلْمِهٖ اِلَّا بِمَا شَاۤءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمٰوٰتِ وَالْاَرْضَ ۚ وَلَا يَـُٔوْدُهٗ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيْمُ ۝",
+          "translations": {
+            "en": "In the name of Allah, the Most Gracious, the Most Merciful. Allah—there is no deity worthy of worship except Him, the Ever-Living, the Sustainer of all existence. Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is before them and what will be after them, and they encompass not a thing of His knowledge except for what He wills. His Kursi extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High, the Most Great.",
+            "hi": "अल्लाह के नाम से जो बड़ा मेहरबान निहायत रहम वाला है। अल्लाह, उसके सिवा कोई माबूद नहीं, वह हमेशा ज़िंदा रहने वाला और सबको क़ायम रखने वाला है। न उसे ऊँघ आती है और न नींद। जो कुछ आसमानों में है और जो कुछ ज़मीन में है, सब उसी का है। कौन है जो उसकी इजाज़त के बिना उसके पास सिफ़ारिश कर सके? वह जानता है जो कुछ उनके सामने है और जो कुछ उनके पीछे है। और वे उसके इल्म में से किसी चीज़ का अहाता नहीं कर सकते मगर जितना वह चाहे। उसकी कुर्सी ने आसमानों और ज़मीन को घेर रखा है, और उन दोनों की हिफ़ाज़त उसे थकाती नहीं, और वह बहुत बुलंद व अज़मत वाला है।",
+            "gu": "અલ્લાહના નામથી જે અત્યંત કૃપાળુ અને દયાળુ છે. અલ્લાહ, તેના સિવાય કોઈ બંદગીને લાયક નથી, તે સદા જીવંત અને સમગ્ર સૃષ્ટિનો પાલનહાર છે. ન તેને ઝોકું આવે છે અને ન ઊંઘ. જે કંઈ આકાશોમાં છે અને જે કંઈ ધરતી પર છે, તે બધું તેનું જ છે. કોણ છે જે તેની પરવાનગી વિના તેની પાસે ભલામણ કરી શકે? તે જાણે છે જે કંઈ તેમની સામે છે અને જે કંઈ તેમની પાછળ છે. અને તેઓ તેના જ્ઞાનમાંથી કોઈ પણ વસ્તુને ઘેરી શકતા નથી સિવાય કે જેટલું તે ચાહે. તેની કુર્સીએ આકાશો અને ધરતીને ઘેરી લીધા છે, અને તે બંનેનું રક્ષણ તેને થકવતું નથી, અને તે અત્યંત ઉચ્ચ અને મહાન છે.",
+            "ur": "اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے۔ اللہ، اس کے سوا کوئی معبود نہیں، وہ ہمیشہ زندہ رہنے والا اور سب کو قائم رکھنے والا ہے۔ نہ اسے اونگھ آتی ہے اور نہ نیند۔ جو کچھ آسمانوں میں ہے اور جو کچھ زمین میں ہے، سب اسی کا ہے۔ کون ہے جو اس کی اجازت کے بغیر اس کے پاس سفارش کر سکے؟ وہ جانتا ہے جو کچھ ان کے سامنے ہے اور جو کچھ ان کے پیچھے ہے۔ اور وہ اس کے علم میں سے کسی چیز کا احاطہ نہیں کر سکتے مگر جتنا وہ چاہے۔ اس کی کرسی نے آسمانوں اور زمین کو گھیر رکھا ہے، اور ان دونوں کی حفاظت اسے تھکاتی نہیں، اور وہ بہت بلند اور عظمت والا ہے۔",
+            "ar": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اَللّٰهُ لَا اِلٰهَ اِلَّا هُوَ الْحَيُّ الْقَيُّوْمُ ۚ لَا تَأْخُذُهٗ سِنَةٌ وَّلَا نَوْمٌ ۗ لَهٗ مَا فِى السَّمٰوٰتِ وَمَا فِى الْاَرْضِ ۗ مَنْ ذَا الَّذِيْ يَشْفَعُ عِنْدَهٗ اِلَّا بِاِذْنِهٖ ۗ يَعْلَمُ مَا بَيْنَ اَيْدِيْهِمْ وَمَا خَلْفَهُمْ ۚ وَلَا يُحِيْطُوْنَ بِشَيْءٍ مِّنْ عِلْمِهٖ اِلَّا بِمَا شَاۤءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمٰوٰتِ وَالْاَرْضَ ۚ وَلَا يَـُٔوْدُهٗ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيْمُ ۝",
+            "sw": "Kwa jina la Mwenyezi Mungu, Mwingi wa rehema, Mwenye kurehemu. Mwenyezi Mungu—hapana mola apasaye kuabudiwa kwa haki ila Yeye, Aliye hai, Msimamizi wa kila kitu. Kusinzia hakumshiki wala kulala. Ni vyake vilivyomo mbinguni na vilivyomo ardhini. Ni nani huyo awezaye kuombea mbele Yake bila ya idhini Yake? Anayajua yaliyo mbele yao na yaliyo nyuma yao; wala wao hawajui chochote katika elimu Yake ila kwa alipendalo Mwenyewe. Kursi Yake imeenea mbingu na ardhi, wala hakumchoshi kuvilinda viwili hivyo. Na Yeye ndiye Aliye juu, Aliye mkuu."
+          },
+          "transliterations": {
+            "en": "Allahu la ilaha illa Huwal-Hayyul-Qayyum, la ta'khudhuhu sinatun wa la nawm, lahu ma fis-samawati wa ma fil-ard, man dhal-ladhi yashfa'u 'indahu illa bi-idhnih, ya'lamu ma bayna aydihim wa ma khalfahum, wa la yuhituna bi-shay'in min 'ilmihi illa bima sha', wasi'a Kursiyyuhus-samawati wal-ard, wa la ya'uduhu hifzhuhuma, wa Huwal-'Aliyyul-'Azim.",
+            "hi": "अल्लाहु लाईला- ह ईल्ला हुवल् हय्युल् कय्युम्, ला तअखुजुहु सीनतुव्वला नौम, लहु मा फीस्समावाती वमा फील् अर्दी, मन् ज़ल्लज़ी यश्फऊ ईन्दहु ईल्ला बीईथज़्नीह, यअलमु मा बै- न अयदीहीम् वमा खल्फहुम, वला युहीतु-न बीशैईम् मीन् ईल्मीही ईल्ला बीमा शाअ, वसी-अ कुर्सीय्युहुस्समावाती वल् अर्द, वला यऊदुहु हीफ्जुहुमा, व हुवल् अलीय्युल् अजीम ૦",
+            "gu": "અલ્લાહુ લાઈલા- હ ઈલ્લા હુવલ્ હય્યુલ્ કય્યુમ્, લા તઅખુજુહુ સીનતુવ્વલા નૌમ, લહુ મા ફીસ્સમાવાતી વમા ફીલ્ અર્દી, મન્ જ઼લ્લજ઼ી યશ્ફઊ ઈન્દહુ ઈલ્લા બીઈથજ઼્નીહ, યઅલમુ મા બૈ- ન અયદીહીમ્ વમા ખલ્ફહુમ, વલા યુહીતુ-ન બીશૈઈમ્ મીન્ ઈલ્મીહી ઈલ્લા બીમા શાઅ, વસી-અ કુર્સીય્યુહુસ્સમાવાતી વલ્ અર્દ, વલા યઊદુહુ હીફ્જુહુમા, વ હુવલ્ અલીય્યુલ્ અજીમ ૦",
+            "ur": "اللہ لا الہ الا ھو الحی القیوم، لا تاخذہ سنۃ ولا نوم، لہ ما فی السموات وما فی الارض، من ذا الذی یشفع عندہ الا باذنہ، یعلم ما بین ایدیھم وما خلفھم، ولا یحیطون بشیء من علمہ الا بما شاء، وسع کرسیہ السموات والارض، ولا یئودہ حفظھما، وھو العلی العظیم",
+            "sw": "Allahu la ilaha illa Huwal-Hayyul-Qayyum, la ta'khudhuhu sinatun wa la nawm, lahu ma fis-samawati wa ma fil-ard, man dhal-ladhi yashfa'u 'indahu illa bi-idhnih, ya'lamu ma bayna aydihim wa ma khalfahum, wa la yuhituna bi-shay'in min 'ilmihi illa bima sha', wasi'a Kursiyyuhus-samawati wal-ard, wa la ya'uduhu hifzhuhuma, wa Huwal-'Aliyyul-'Azim."
+          },
+          "repeat_count": null,
+          "reference_ids": [
+            "quran_2_255"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "id": "quran_2_255",
+          "type": "quran",
+          "surah_number": 2,
+          "surah_name": "Al-Baqarah",
+          "ayah_range": "255",
+          "verification_status": "verified"
+        },
+        {
+          "id": "hadith_tabarani_2733",
+          "type": "hadith",
+          "source": "Al-Mu'jam al-Kabir by al-Tabarani",
+          "volume": "3",
+          "page": "83",
+          "hadith_number": "2733",
+          "authenticity_grade": null,
+          "verification_status": "unverified_citation"
+        }
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "id": "surah_fatiha_wazifa",
+      "order": 4,
+      "category": "quranic_surahs",
+      "title": {
+        "en": "Surah Al-Fatiha: 100 or 40 Times (For Relief from Illness)",
+        "hi": "सूरह फ़ातिहा : 100 या 40 मरतबा (हर तरह की बीमारी से निजात के लिए)",
+        "gu": "સુરહ ફાતિહા : 100 યા 40 મરતબા (હર તરહ કી બીમારી સે નિજાત કે લિએ)",
+        "ur": "سورۃ الفاتحہ: 100 یا 40 مرتبہ (ہر طرح کی بیماری سے نجات کے لیے)",
+        "ar": "سورة الفاتحة: ١٠٠ أو ٤٠ مرة (للتداوي والشفاء من الأمراض)",
+        "sw": "Surah Al-Fatiha: Mara 100 au 40 (Kwa Ajili ya Kuondokewa na Maradhi)"
+      },
+      "description": {
+        "en": "Source guidance on reciting Surah Al-Fatiha 100 or 40 times daily with Durood-e-Pak 11 times before and after.",
+        "hi": "स्रोत की हिदायत के अनुसार रोज़ाना 100 या 40 बार सूरह अल-फ़ातिहा और अव्वल व आख़िर 11-11 बार दुरूद-ए-पाक पढ़ने का तरीक़ा।",
+        "gu": "સ્ત્રોતની સૂચના મુજબ દરરોજ 100 અથવા 40 વખત સૂરહ અલ-ફાતિહા અને અવ્વલ વ આખિર 11-11 વખત દુરૂદ-એ-પાક પઢવાની રીત.",
+        "ur": "ماخذ کی ہدایت کے مطابق روزانہ 100 یا 40 مرتبہ سورۃ الفاتحہ اور اول و آخر 11-11 مرتبہ درودِ پاک پڑھنے کا طریقہ۔",
+        "ar": "توجيه المصدر حول قراءة سورة الفاتحة ١٠٠ أو ٤٠ مرة يومياً مع الصلاة على النبي ١١ مرة قبلها وبعدها.",
+        "sw": "Mwongozo wa chanzo kuhusu kusoma Surah Al-Fatiha mara 100 au 40 kila siku pamoja na Durood-e-Pak mara 11 kabla na baada."
+      },
+      "sections": [
+        {
+          "id": "fatiha_instruction_counts",
+          "type": "instruction",
+          "content": {
+            "en": "According to the source guide: Recite Surah Al-Fatiha abundantly. Those who have time should recite it 100 times daily, and those with less time may recite it 40 times. Recite Durood-e-Pak 11 times before and 11 times after.",
+            "hi": "स्रोत के अनुसार: सुरह फातिहा का विर्द कसरत से करे, जिनके पास फुरसत हो वोह रोजाना 100 मरतबा जरुर पढ़े और जिनके पास वक्त कम हो तो 40 मरतबा भी पढ़ सकते है। अव्वल आखिर 11-11 मरतबा दुरुदे पाक पढ़े।",
+            "gu": "સ્ત્રોત મુજબ: સુરહ ફાતિહા કા વિર્દ કસરત સે કરે, જિનકે પાસ ફુરસત હો વોહ રોજાના 100 મરતબા જરુર પઢ઼ે ઔર જિનકે પાસ વક્ત કમ હો તો 40 મરતબા ભી પઢ઼ સકતે હૈ। અવ્વલ આખિર 11-11 મરતબા દુરુદે પાક પઢ઼ે।",
+            "ur": "ماخذ کے مطابق: سورۃ الفاتحہ کا ورد کثرت سے کریں، جن کے پاس فرصت ہو وہ روزانہ 100 مرتبہ ضرور پڑھیں اور جن کے پاس وقت کم ہو تو 40 مرتبہ بھی پڑھ سکتے ہیں۔ اول و آخر 11-11 مرتبہ درودِ پاک پڑھیں۔",
+            "ar": "بحسب توجيه المصدر: أكثر من ورد سورة الفاتحة؛ فمن كان لديه متسع من الوقت فليقرأها ١٠٠ مرة يومياً، ومن ضاق وقته فيمكنه قراءتها ٤٠ مرة، مع الصلاة على النبي ﷺ ١١ مرة قبلها و١١ مرة بعدها.",
+            "sw": "Kwa mujibu wa mwongozo wa chanzo: Soma Surah Al-Fatiha kwa wingi. Wale wenye nafasi waisome mara 100 kila siku, na wenye muda mchache wanaweza kuisoma mara 40. Soma Durood-e-Pak mara 11 kabla na mara 11 baada."
+          },
+          "recommended_counts": [
+            100,
+            40
+          ],
+          "pre_post_durood_count": 11,
+          "reference_ids": []
+        },
+        {
+          "id": "fatiha_explanation",
+          "type": "explanation",
+          "content": {
+            "en": "Source note: Through Surah Al-Fatiha, Allah, Lord of Majesty, grants healing (Shifa), and Allah (Subhanahu wa Ta'ala) has placed healing in it for everything except death. Repent sincerely before Allah and supplicate to Him with humility and tears for help.",
+            "hi": "स्रोत का बयान: सुरह फातिहा के जरिए अल्लाह रब्बुल इज्ज़त शिफा अता फरमाता है और मौत के अलावा अल्लाह ﷻ ने हर चीज की शिफा इसमें रखी है। अल्लाह के हुजुर दिल से तौबा करे और उसे गिड़गिड़ा कर रो-रो कर मदद तलब करे।",
+            "gu": "સ્ત્રોતનું બયાન: સુરહ ફાતિહા કે જરિએ અલ્લાહ રબ્બુલ ઇજ્જ઼ત શિફા અતા ફરમાતા હૈ ઔર મૌત કે અલાવા અલ્લાહ ﷻ ને હર ચીજ કી શિફા ઇસમેં રખી હૈ। અલ્લાહ કે હુજુર દિલ સે તૌબા કરે ઔર ઉસે ગિડ઼ગિડ઼ા કર રો-રો કર મદદ તલબ કરે।",
+            "ur": "ماخذ کا بیان: سورۃ الفاتحہ کے ذریعے اللہ رب العزت شفا عطا فرماتا ہے اور موت کے علاوہ اللہ ﷻ نے ہر چیز کی شفا اس میں رکھی ہے۔ اللہ کے حضور دل سے توبہ کریں اور اس کے سامنے گڑگڑا کر رو رو کر مدد طلب کریں۔",
+            "ar": "بيان المصدر: يمنح الله رب العزة الشفاء ببركة سورة الفاتحة، وقد جعل الله ﷻ فيها شفاءً من كل داء إلا السام (الموت). ينبغي التوبة الصادقة إلى الله والتضرع إليه بصدق لطلب العون والشفاء.",
+            "sw": "Maelezo ya chanzo: Kupitia Surah Al-Fatiha, Mwenyezi Mungu, Mola wa Utukufu, hutoa uponyaji (Shifa), na Mwenyezi Mungu (Subhanahu wa Ta'ala) ameweka ndani yake uponyaji wa kila kitu isipokuwa mauti. Tubia kwa dhati mbele ya Mwenyezi Mungu na umuombe msaada kwa unyenyekevu."
+          },
+          "reference_ids": []
+        },
+        {
+          "id": "fatiha_recitation",
+          "type": "recitation",
+          "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَ ۝ الرَّحْمٰنِ الرَّحِيْمِ ۝ مٰلِكِ يَوْمِ الدِّيْنِ ۝ اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُ ۝ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَ ۝ صِرَاطَ الَّذِيْنَ اَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّاۤلِّيْنَ ۝",
+          "translations": {
+            "en": "In the name of Allah, the Most Gracious, the Most Merciful. All praise is due to Allah, Lord of all the worlds. The Most Gracious, the Most Merciful. Master of the Day of Judgment. You alone we worship, and You alone we ask for help. Guide us on the Straight Path, the path of those whom You have blessed, not of those who have incurred Your wrath, nor of those who have gone astray.",
+            "hi": "अल्लाह के नाम से जो बड़ा मेहरबान निहायत रहम वाला है। सब तारीफ़ें अल्लाह के लिए हैं जो तमाम जहानों का पालनहार है। बड़ा मेहरबान निहायत रहम वाला है। बदले के दिन का मालिक है। हम तेरी ही इबादत करते हैं और तुझी से मदद चाहते हैं। हमें सीधा रास्ता दिखा। उन लोगों का रास्ता जिन पर तूने इनाम किया, न कि उनका जिन पर ग़ज़ब हुआ और न गुमराहों का।",
+            "gu": "અલ્લાહના નામથી જે અત્યંત કૃપાળુ અને દયાળુ છે. તમામ પ્રશંસા અલ્લાહ માટે છે જે સમગ્ર વિશ્વનો પાલનહાર છે. અત્યંત કૃપાળુ અને દયાળુ છે. બદલાના દિવસનો માલિક છે. અમે તારી જ બંદગી કરીએ છીએ અને તારી જ પાસે મદદ માંગીએ છીએ. અમને સીધો માર્ગ બતાવ. તે લોકોનો માર્ગ જેમના પર તેં કૃપા કરી, ન કે તેમનો જેમના પર ક્રોધ થયો અને ન ભટકેલાઓનો.",
+            "ur": "اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے۔ سب تعریفیں اللہ کے لیے ہیں جو تمام جہانوں کا رب ہے۔ بڑا مہربان نہایت رحم والا ہے۔ روزِ جزا کا مالک ہے۔ ہم تیری ہی عبادت کرتے ہیں اور تجھ ہی سے مدد چاہتے ہیں۔ ہمیں سیدھا راستہ دکھا۔ ان لوگوں کا راستہ جن پر تو نے انعام کیا، نہ کہ ان کا جن پر غضب کیا گیا اور نہ گمراہوں کا۔",
+            "ar": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَ ۝ الرَّحْمٰنِ الرَّحِيْمِ ۝ مٰلِكِ يَوْمِ الدِّيْنِ ۝ اِيَّاكَ نَعْبُدُ وَاِيَّاكَ نَسْتَعِيْنُ ۝ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَ ۝ صِرَاطَ الَّذِيْنَ اَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّاۤلِّيْنَ ۝",
+            "sw": "Kwa jina la Mwenyezi Mungu, Mwingi wa rehema, Mwenye kurehemu. Sifa njema zote ni za Mwenyezi Mungu, Mola Mlezi wa walimwengu wote. Mwingi wa rehema, Mwenye kurehemu. Mwenye kumiliki Siku ya Malipo. Wewe tu tunakuabudu, na Wewe tu tunakuomba msaada. Tuongoze njia iliyonyooka, njia ya wale uliowaneemesha, si ya wale waliokasirikiwa, wala waliopotea."
+          },
+          "transliterations": {
+            "en": "Alhamdu lillahi Rabbil 'alamin. Ar-Rahmanir-Rahim. Maliki Yawmid-Din. Iyyaka na'budu wa iyyaka nasta'in. Ihdinas-Siratal-Mustaqim. Siratal-ladhina an'amta 'alayhim ghayril-maghdubi 'alayhim wa lad-dallin.",
+            "hi": "अल् हम्दुलिल्लाही रब्बील् आलमीन ० अर्रह्मानीर्रहीम ० मालीकी यौमीद्दीन ० ईय्या-क नअ्बुदु व ईय्या-क नस्तईन ० ईह्दीनस्सीरातल् मुस्तकीम् सीरातल्लजी-न अन्अम्त अलयहीम् गैरील् मग्दुबी अलयहीम् वलद् दाॅल्लीन ०",
+            "gu": "અલ્ હમ્દુલીલ્લાહી રબ્બીલ્ આલમીન ૦ અર્હમાનીર્રહીમ ૦ માલીકી યૌમીદ્દીન ૦ ઇય્યા-ક નઅ્બુદુ વ ઇય્યા-ક નસ્તઈન ૦ ઇહ્દીનસ્સીરાતલ્ મુસ્તકીમ ૦ સીરાતલ્લઝી-ન અન્અમ્ત અલયહીમ ૦ ગૈરીલ્ મગ્દૂબી અલયહીમ્ વલદ્ દૉલ્લીન ૦",
+            "ur": "الحمد للہ رب العالمین، الرحمن الرحیم، مالک یوم الدین، ایاک نعبد و ایاک نستعین، اھدنا الصراط المستقیم، صراط الذین انعمت علیھم غیر المغضوب علیھم ولا الضالین",
+            "sw": "Alhamdu lillahi Rabbil 'alamin. Ar-Rahmanir-Rahim. Maliki Yawmid-Din. Iyyaka na'budu wa iyyaka nasta'in. Ihdinas-Siratal-Mustaqim. Siratal-ladhina an'amta 'alayhim ghayril-maghdubi 'alayhim wa lad-dallin."
+          },
+          "repeat_count": null,
+          "reference_ids": [
+            "quran_1_1_7"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "id": "quran_1_1_7",
+          "type": "quran",
+          "surah_number": 1,
+          "surah_name": "Al-Fatiha",
+          "ayah_range": "1-7",
+          "verification_status": "verified"
+        }
+      ],
+      "review_status": "needs_review"
+    },
+    {
+      "id": "ayat_e_karima",
+      "order": 5,
+      "category": "quranic_supplications",
+      "title": {
+        "en": "Ayat-e-Karima",
+        "hi": "आयते करीमा",
+        "gu": "આયતે કરીમા",
+        "ur": "آیتِ کریمہ",
+        "ar": "الآية الكريمة",
+        "sw": "Ayat-e-Karima"
+      },
+      "description": {
+        "en": "Quranic supplication from Surah Al-Anbiya (21:87) recited abundantly for relief from calamities and difficulties.",
+        "hi": "सूरह अल-अंबिया (21:87) की क़ुरआनी दुआ, जिसे वबाओं और मुश्किलात से निजात के लिए कसरत से पढ़ा जाता है।",
+        "gu": "સૂરહ અલ-અંબિયા (21:87) ની કુરાની દુઆ, જેને વબાઓ અને મુશ્કેલીઓ દૂર થવા માટે કસરતથી પઢવામાં આવે છે.",
+        "ur": "سورۃ الانبیاء (21:87) کی قرآنی دعا، جسے وباؤں اور مشکلات کے حل کے لیے کثرت سے پڑھا جاتا ہے۔",
+        "ar": "الدعاء القرآني من سورة الأنبياء (٢١:٨٧) الذي يُقرأ بكثرة لدفع البلاء وتفريج الكربات.",
+        "sw": "Dua ya Qur'ani kutoka Surah Al-Anbiya (21:87) inayosomwa kwa wingi kwa ajili ya kuondokewa na mabalaa na matatizo."
+      },
+      "sections": [
+        {
+          "id": "bismillah_5",
+          "type": "invocation",
+          "arabic_text": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
+          "translations": {
+            "en": "In the name of Allah, the Most Gracious, the Most Merciful.",
+            "hi": "अल्लाह के नाम से जो बड़ा मेहरबान निहायत रहम वाला है।",
+            "gu": "અલ્લાહના નામથી જે અત્યંત કૃપાળુ અને દયાળુ છે.",
+            "ur": "اللہ کے نام سے جو بڑا مہربان نہایت رحم والا ہے۔",
+            "ar": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ",
+            "sw": "Kwa jina la Mwenyezi Mungu, Mwingi wa rehema, Mwenye kurehemu."
+          },
+          "transliterations": {
+            "en": "Bismillahir Rahmanir Rahim",
+            "hi": "बिस्मिल्लाहिर रहमानिर रहीम",
+            "gu": "બિસ્મિલ્લાહિર રહ્માનિર રહીમ",
+            "ur": "بسم اللہ الرحمن الرحیم",
+            "sw": "Bismillahir Rahmanir Rahim"
+          },
+          "repeat_count": 1,
+          "reference_ids": []
+        },
+        {
+          "id": "ayat_e_karima_recitation",
+          "type": "recitation",
+          "arabic_text": "لَا اِلٰهَ اِلَّا اَنْتَ سُبْحٰنَكَ اِنِّيْ كُنْتُ مِنَ الظّٰلِمِيْنَ",
+          "translations": {
+            "en": "There is no deity worthy of worship except You; glory be to You. Indeed, I have been of the wrongdoers.",
+            "hi": "तेरे सिवा कोई माबूद नहीं, तू पाक है, बेशक मैं ही ज़ालिमों (गुनाहगारों) में से था।",
+            "gu": "તારા સિવાય કોઈ બંદગીને લાયક નથી, તું પાક છે, બેશક હું જ અન્યાયીઓ (ગુનેગારો) માંથી હતો.",
+            "ur": "تیرے سوا کوئی معبود نہیں، تو پاک ہے، بے شک میں ہی قصورواروں میں سے تھا۔",
+            "ar": "لَا اِلٰهَ اِلَّا اَنْتَ سُبْحٰنَكَ اِنِّيْ كُنْتُ مِنَ الظّٰلِمِيْنَ",
+            "sw": "Hapana mola apasaye kuabudiwa kwa haki ila Wewe; Umetakasika. Hakika mimi nilikuwa miongoni mwa waliodhulumu nafsi zao."
+          },
+          "transliterations": {
+            "en": "La ilaha illa Anta Subhanaka inni kuntu minaz-zalimin",
+            "hi": "ला ईलाह ईल्ला अन्त सुब्हान-क ईन्नी कुन्तु मीनज़् ज़ालिमीन",
+            "gu": "લા ઈલાહ ઈલ્લા અન્ત સુબ્હાન-ક ઈન્ની કુન્તુ મીનજ઼્ જ઼ાલિમીન",
+            "ur": "لا الہ الا انت سبحانک انی کنت من الظالمین",
+            "sw": "La ilaha illa Anta Subhanaka inni kuntu minaz-zalimin"
+          },
+          "repeat_count": null,
+          "reference_ids": [
+            "quran_21_87"
+          ]
+        },
+        {
+          "id": "ayat_e_karima_explanation",
+          "type": "explanation",
+          "content": {
+            "en": "Source note: By reciting this Tasbih abundantly, Allah the Pure averts epidemics/calamities and resolves difficulties.",
+            "hi": "स्रोत का बयान: इस तस्बीह को कसरत से पढ़ने से अल्लाह पाक वबाओं को टालता है और मुश्किलात हल कर देता है।",
+            "gu": "સ્ત્રોતનું બયાન: ઇસ તસ્બીહ કો કસરત સે પઢ઼ને સે અલ્લાહ પાક વબાઓં કો ટાલતા હૈ ઔર મુશ્કિલાત હલ કર દેતા હૈ।",
+            "ur": "ماخذ کا بیان: اس تسبیح کو کثرت سے پڑھنے سے اللہ پاک وباؤں کو ٹالتا ہے اور مشکلات حل کر دیتا ہے۔",
+            "ar": "بيان المصدر: بالإكثار من تلاوة هذا التسبيح يدفع الله تعالى الأوبئة والبلايا ويفرّج الكربات والصعوبات.",
+            "sw": "Maelezo ya chanzo: Kwa kusoma Tasbihi hii kwa wingi, Mwenyezi Mungu Mtukufu huondoa majanga/maradhi ya mlipuko na hutatua matatizo."
+          },
+          "reference_ids": []
+        }
+      ],
+      "references": [
+        {
+          "id": "quran_21_87",
+          "type": "quran",
+          "surah_number": 21,
+          "surah_name": "Al-Anbiya",
+          "ayah_range": "87",
+          "verification_status": "verified"
+        }
+      ],
+      "review_status": "verified"
+    }
+  ]
+}

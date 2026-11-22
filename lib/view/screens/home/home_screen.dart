@@ -29,21 +29,26 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _loadInitialData() {
     Get.find<InternetController>().checkConnection();
+    debugPrint('registering device');
     Get.find<DeviceAuthService>().registerDevice();
     // Get.find<SettingsController>().fetchMosqueSettingsData();
 
     WidgetsBinding.instance.addPostFrameCallback((_) async {
+      debugPrint('Calling Prayer Time Controller');
       final prayerTimeController = Get.find<PrayerTimeController>();
 
       // 1. Get location first
+      debugPrint('Calling Location Get');
       await prayerTimeController.getLocation();
 
       // 2. Load settings
+      debugPrint('Loading local settings');
       prayerTimeController.loadSwitchValue();
       // prayerTimeController.loadPrayerTimeSettings();
       // Get.find<SettingsController>().fetchMosqueSettingsData();
 
       // 3. Fetch prayer time
+      debugPrint('Fetching prayer time');
       await _fetchPrayerTimes(prayerTimeController);
 
       // 4. Init adjustment

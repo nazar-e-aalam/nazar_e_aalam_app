@@ -414,6 +414,77 @@ class ModernSecondaryButton extends StatelessWidget {
   }
 }
 
+/// Gradient square badge placed beside a section title.
+/// Matches the Modern Hadith header style: primary → white fade from right,
+/// rounded square with a soft glow shadow. Pass [icon] or [number].
+class ModernTitleBadge extends StatelessWidget {
+  final IconData? icon;
+  final int? number;
+  final double size;
+  final Color? startColor;
+  final Color? endColor;
+  const ModernTitleBadge({
+    super.key,
+    this.icon,
+    this.number,
+    this.size = 44,
+    this.startColor,
+    this.endColor,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final primary = Theme.of(context).primaryColor;
+    final dark = Theme.of(context).brightness == Brightness.dark;
+    return Container(
+      width: size,
+      height: size,
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: [
+            startColor ??
+                (dark
+                    ? const Color(0xFF2B1D13)
+                    : Theme.of(context).primaryColor),
+            endColor ??
+                (dark
+                    ? const Color(0xFF3A2E24).withValues(alpha: 0.5)
+                    : AppColorModern.primaryColorDark.withValues(alpha: 0.6)),
+          ],
+          begin: Alignment.centerLeft,
+          end: Alignment.centerRight,
+        ),
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(
+          color: dark
+              ? Colors.white.withValues(alpha: 0.15)
+              : Colors.black.withValues(alpha: 0.06),
+          width: 1,
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: primary.withValues(alpha: 0.35),
+            blurRadius: 20,
+            offset: const Offset(0, 8),
+          ),
+        ],
+      ),
+      child: Center(
+        child: icon != null
+            ? Icon(icon, color: Colors.white, size: size * 0.55)
+            : Text(
+                '${number ?? ''}',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                  fontSize: size * 0.35,
+                ),
+              ),
+      ),
+    );
+  }
+}
+
 /// Gradient pill tag (e.g., "Sahih", "Madinah", "Surah").
 class ModernTag extends StatelessWidget {
   final String label;

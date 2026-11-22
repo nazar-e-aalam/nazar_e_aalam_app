@@ -14,9 +14,13 @@ class ModernMemorableDaysScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: CustomAppBar(title: memorableLabel('title')),
-    body: MemorableMonthLoader(builder: (context, months) =>
-      MemorableMonthList(months: months, modern: true,
-        onOpen: (MemorableMonth month) => Get.to(() =>
-          ModernMemorableDaysDetailsScreen(month: month)))),
+    body: MemorableMonthLoader(
+      builder: (context, months) => MemorableMonthList(
+        months: months,
+        modern: true,
+        onOpen: (MemorableMonth month) =>
+            Get.to(() => ModernMemorableDaysDetailsScreen(month: month)),
+      ),
+    ),
   );
 }

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../model/kalima_model.dart';
+import 'package:nazar_e_alam/view/base/modern/modern_components.dart';
 import '../service/kalima_local_service.dart';
 
 String kalimaLanguage() {
@@ -77,22 +78,26 @@ class KalimaListContent extends StatelessWidget {
                   ),
                   child: Row(
                     children: [
-                      Container(
-                        width: 44,
-                        height: 44,
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          color: primary.withValues(alpha: 0.12),
-                          borderRadius: BorderRadius.circular(13),
-                        ),
-                        child: Text(
-                          '${kalima.position}',
-                          style: TextStyle(
-                            color: primary,
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
+                      // Container(
+                      //   width: 44,
+                      //   height: 44,
+                      //   alignment: Alignment.center,
+                      //   decoration: BoxDecoration(
+                      //     color: primary.withValues(alpha: 0.12),
+                      //     borderRadius: BorderRadius.circular(13),
+                      //   ),
+                      //   child: Text(
+                      //     '${kalima.position}',
+                      //     style: TextStyle(
+                      //       color: primary,
+                      //       fontSize: 18,
+                      //       fontWeight: FontWeight.bold,
+                      //     ),
+                      //   ),
+                      // ),
+                      ModernTitleBadge(
+                        size: 44,
+                        number: kalima.position,
                       ),
                       const SizedBox(width: 14),
                       Expanded(

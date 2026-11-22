@@ -58,10 +58,7 @@ class _ModernDuaScreenState extends State<ModernDuaScreen>
             onPressed: () {
               Get.toNamed(RouteHelper.duaAdd);
             },
-            icon: const Icon(
-              Icons.playlist_add_rounded,
-              color: Colors.white,
-            ),
+            icon: const Icon(Icons.playlist_add_rounded, color: Colors.white),
           ),
         ],
       ),
@@ -121,10 +118,7 @@ class _ModernDuaScreenState extends State<ModernDuaScreen>
         indicatorSize: TabBarIndicatorSize.tab,
         indicatorPadding: const EdgeInsets.all(4),
         labelPadding: const EdgeInsets.symmetric(horizontal: 16),
-        tabs: [
-          _buildTab('dua'.tr),
-          _buildTab('added_dua'.tr),
-        ],
+        tabs: [_buildTab('dua'.tr), _buildTab('added_dua'.tr)],
       ),
     );
   }
@@ -190,7 +184,9 @@ class _ModernApiDuaList extends StatelessWidget {
               isFirst: index == 0,
               isLast: index == data.length - 1,
               onTap: () {
-                Get.toNamed(RouteHelper.duaView, arguments: item.id);
+                final controller = Get.find<DuaController>();
+                controller.fetchDuaDetailsData(duaId: item.id.toString());
+                Get.toNamed(RouteHelper.duaView);
               },
             );
           },

@@ -37,6 +37,7 @@ import 'package:nazar_e_alam/view/screens/kalima/kalima_wrapper.dart';
 import 'package:nazar_e_alam/view/screens/shijra/shijra_wrapper.dart';
 import 'package:nazar_e_alam/view/screens/memorable_days/memorable_days_wrapper.dart';
 import 'package:nazar_e_alam/view/screens/fateha/fateha_wrapper.dart';
+import 'package:nazar_e_alam/view/screens/wazaif/wazaif_wrapper.dart';
 // import 'package:nazar_e_alam/view/screens/mubarak_names/mubarak_names_screen.dart';
 
 // import '../view/screens/payment/donated_list.dart';
@@ -80,6 +81,7 @@ class RouteHelper {
   static String shijra = "/shijra";
   static String memorabledays = "/memorabledays";
   static String fateha = "/fateha";
+  static String wazaif = "/wazaif";
   // static String aiNameGenerator = "/aiNameGenerator";
 
   static String getInitialRoute() => initial;
@@ -187,6 +189,11 @@ class RouteHelper {
     GetPage(
       name: shijra,
       page: () => const ShijraWrapper(appBackButton: true),
+      transition: Transition.cupertinoDialog,
+    ),    
+    GetPage(
+      name: wazaif,
+      page: () => const WazaifWrapper(appBackButton: true),
       transition: Transition.cupertinoDialog,
     ),
     // GetPage(

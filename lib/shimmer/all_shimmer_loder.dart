@@ -968,64 +968,49 @@ class WallpaperListTypeShimmer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-      itemCount: 4,
+    return GridView.builder(
+      itemCount: 8,
       shrinkWrap: true,
-      padding: const EdgeInsets.symmetric(
-        horizontal: Dimensions.PADDING_SIZE_SMALL,
+      physics: const NeverScrollableScrollPhysics(),
+      padding: const EdgeInsets.all(12),
+      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+        crossAxisCount: 2,
+        crossAxisSpacing: 10,
+        mainAxisSpacing: 12,
+        childAspectRatio: 0.57,
       ),
-      itemBuilder: (BuildContext context, int index) {
-        return Shimmer.fromColors(
-          baseColor: Colors.grey.shade400,
-          highlightColor: Colors.grey.shade100,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Padding(
-                padding: const EdgeInsets.only(
-                  top: 5.0,
-                  bottom: 10.0,
-                  right: 10,
-                ),
-                child: InkWell(
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(height: 20, width: 100, color: Colors.white),
-                      Icon(
-                        Icons.arrow_forward_ios,
-                        color: Theme.of(context).primaryColor,
-                      ),
-                    ],
+      itemBuilder: (context, index) {
+        return Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Shimmer.fromColors(
+              baseColor: Colors.grey.shade300,
+              highlightColor: Colors.grey.shade100,
+              child: Container(
+                width: double.infinity,
+                height: 220,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(18),
+                  border: Border.all(
+                    color: Colors.grey.withValues(alpha: 0.2),
+                    width: 1,
                   ),
                 ),
               ),
-              SizedBox(height: 5),
-              SizedBox(
-                height: 230,
-                child: ListView.builder(
-                  itemCount: 6,
-                  primary: false,
-                  shrinkWrap: true,
-                  scrollDirection: Axis.horizontal,
-                  itemBuilder: (BuildContext context, int index) {
-                    return Padding(
-                      padding: const EdgeInsets.only(right: 8.0),
-                      child: Container(
-                        height: 230,
-                        width: Get.width * 0.3,
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(16),
-                        ),
-                      ),
-                    );
-                  },
-                ),
+            ),
+            const SizedBox(height: 6),
+            Shimmer.fromColors(
+              baseColor: Colors.grey.shade300,
+              highlightColor: Colors.grey.shade100,
+              child: Container(
+                height: 14,
+                width: double.infinity,
+                color: Colors.white,
               ),
-              SizedBox(height: 10),
-            ],
-          ),
+            ),
+          ],
         );
       },
     );

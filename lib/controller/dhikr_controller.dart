@@ -99,7 +99,7 @@ class DhikrController extends GetxController implements GetxService {
 
   Future<void> fetchDikirDetailsData({String? dikirId}) async {
     final id = int.tryParse(dikirId ?? '');
-
+    debugPrint(id.toString());
     if (id == null || id < 1) {
       debugPrint('Invalid Dhikr ID: $dikirId');
       dikirDetailApiData = null;
@@ -114,7 +114,7 @@ class DhikrController extends GetxController implements GetxService {
 
     try {
       final response = await dhikrRepo.getDikirDetailsRepo(id.toString());
-
+      debugPrint(response.body.toString());
       if (response.statusCode == 200) {
         dikirDetailApiData = DikirDetailsModel.fromJson(
           Map<String, dynamic>.from(response.body as Map),

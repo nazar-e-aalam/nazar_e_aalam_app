@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 // import 'package:get/get.dart';
 import '../model/memorable_days_model.dart';
 import 'memorable_days_common.dart';
+import 'package:nazar_e_alam/view/base/modern/modern_components.dart';
+import 'package:nazar_e_alam/theme/modern_light_theme.dart';
 
 class MemorableMonthList extends StatelessWidget {
   final List<MemorableMonth> months;
@@ -15,11 +17,75 @@ class MemorableMonthList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final color = Theme.of(context).colorScheme;
+    final dark = Theme.of(context).brightness == Brightness.dark;
     return ListView.builder(
-      padding: const EdgeInsets.all(12),
+      padding: const EdgeInsets.fromLTRB(16, 12, 16, 28),
       itemCount: months.length,
       itemBuilder: (context, index) {
         final month = months[index];
+        if (modern) {
+          return Padding(
+            padding: const EdgeInsets.only(bottom: 14),
+            child: Material(
+              color: Colors.transparent,
+              child: InkWell(
+                borderRadius: BorderRadius.circular(18),
+                onTap: () => onOpen(month),
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: dark
+                        ? const Color(0x0AFFFFFF)
+                        : AppColorModern.glassFill,
+                    borderRadius: BorderRadius.circular(18),
+                    border: Border.all(
+                      color: dark
+                          ? Colors.white.withValues(alpha: 0.15)
+                          : AppColorModern.divider.withValues(alpha: 0.8),
+                      width: 1,
+                    ),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withValues(alpha: dark ? 0.25 : 0.04),
+                        blurRadius: 16,
+                        offset: const Offset(0, 6),
+                      ),
+                    ],
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(18),
+                    child: Row(
+                      children: [
+                        ModernTitleBadge(
+                          number: month.month,
+                          size: 44,
+                        ),
+                        const SizedBox(width: 14),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                localizedValue(month.name, memorableLanguage()),
+                                style: Theme.of(context).textTheme.titleMedium
+                                    ?.copyWith(fontWeight: FontWeight.w700),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Icon(
+                          Icons.chevron_right_rounded,
+                          size: 16,
+                          color: Theme.of(context).primaryColor,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          );
+        }
+
         final tile = ListTile(
           leading: CircleAvatar(
             backgroundColor: color.primaryContainer,
@@ -32,12 +98,7 @@ class MemorableMonthList extends StatelessWidget {
         );
         return Padding(
           padding: const EdgeInsets.only(bottom: 8),
-          child: modern
-            ? Card(clipBehavior: Clip.antiAlias, elevation: 0,
-                color: color.surfaceContainerLow,
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(18)),
-                child: tile)
-            : Card(child: tile),
+          child: Card(child: tile),
         );
       },
     );

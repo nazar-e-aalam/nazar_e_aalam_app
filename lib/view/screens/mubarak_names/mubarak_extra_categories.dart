@@ -124,22 +124,16 @@ class _MubarakExtraCategoriesState extends State<MubarakExtraCategories> {
             padding: const EdgeInsets.all(18),
             child: Row(
               children: [
-                Container(
-                  width: 54,
-                  height: 54,
-                  decoration: BoxDecoration(
-                    color: theme.primaryColor.withValues(alpha: 0.12),
-                    borderRadius: BorderRadius.circular(16),
-                  ),
-                  child: Center(
-                    child: Text(
-                      '${index + 4}',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: theme.primaryColor,
-                      ),
-                    ),
-                  ),
+                ModernTitleBadge(
+                  number: index + 4,
+                  size: 44,
+                  startColor: dark
+                      ? const Color(0xFF2B1D13)
+                      : Theme.of(context).primaryColor,
+                  endColor: dark
+                      ? const Color(0xFF3A2E24).withValues(alpha: 0.5)
+                      : AppColorModern.primaryColorDark
+                          .withValues(alpha: 0.6),
                 ),
                 const SizedBox(width: 14),
                 Expanded(

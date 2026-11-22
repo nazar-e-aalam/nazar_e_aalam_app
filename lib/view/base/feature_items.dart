@@ -95,6 +95,11 @@ class FeatureItems {
       titleKey: 'chand',
       icon: Images.Icon_Calender,
       route: RouteHelper.chand,
+    ),    
+    FeatureItem(
+      titleKey: 'wazaif',
+      icon: Images.Icon_Dikir,
+      route: RouteHelper.wazaif,
     ),
     // FeatureItem(
     //     titleKey: 'settings',

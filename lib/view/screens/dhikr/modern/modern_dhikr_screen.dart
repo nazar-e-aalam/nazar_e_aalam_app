@@ -29,10 +29,7 @@ class _ModernDhikrScreenState extends State<ModernDhikrScreen>
   void initState() {
     super.initState();
     _tabController = TabController(length: 2, vsync: this);
-    Get.put(DhikrRepo(
-      apiClient: Get.find(),
-      sharedPreferences: Get.find(),
-    ));
+    Get.put(DhikrRepo(apiClient: Get.find(), sharedPreferences: Get.find()));
     Get.find<DhikrController>().fetchDikirListData();
     Get.find<DhikrController>().localLoadDhikrList();
   }
@@ -61,10 +58,7 @@ class _ModernDhikrScreenState extends State<ModernDhikrScreen>
             onPressed: () {
               Get.toNamed(RouteHelper.addDhikr);
             },
-            icon: const Icon(
-              Icons.playlist_add_rounded,
-              color: Colors.white,
-            ),
+            icon: const Icon(Icons.playlist_add_rounded, color: Colors.white),
           ),
         ],
       ),
@@ -120,10 +114,7 @@ class _ModernDhikrScreenState extends State<ModernDhikrScreen>
         indicatorSize: TabBarIndicatorSize.tab,
         indicatorPadding: const EdgeInsets.all(4),
         labelPadding: const EdgeInsets.symmetric(horizontal: 16),
-        tabs: [
-          _buildTab('dhikr'.tr),
-          _buildTab('added_dhikr'.tr),
-        ],
+        tabs: [_buildTab('dhikr'.tr), _buildTab('added_dhikr'.tr)],
       ),
     );
   }
@@ -189,7 +180,10 @@ class _ModernApiDhikrList extends StatelessWidget {
               isFirst: index == 0,
               isLast: index == data.length - 1,
               onTap: () {
-                Get.toNamed(RouteHelper.dhikrCount, arguments: item.id);
+                final controller = Get.find<DhikrController>();
+                controller.fetchDikirDetailsData(dikirId: item.id.toString());
+                controller.dikirId = item.id.toString();
+                Get.toNamed(RouteHelper.dhikrCount);
               },
             );
           },
