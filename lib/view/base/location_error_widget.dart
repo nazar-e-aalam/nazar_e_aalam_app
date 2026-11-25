@@ -26,13 +26,15 @@ class LocationErrorWidget extends StatelessWidget {
           box,
           Padding(
             padding: const EdgeInsets.symmetric(
-                horizontal: Dimensions.PADDING_SIZE_DEFAULT),
+              horizontal: Dimensions.PADDING_SIZE_DEFAULT,
+            ),
             child: Text(
               error!,
               textAlign: TextAlign.center,
               style: robotoMedium.copyWith(
-                  color: Theme.of(context).colorScheme.error,
-                  fontWeight: FontWeight.bold),
+                color: Theme.of(context).colorScheme.error,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
           box,

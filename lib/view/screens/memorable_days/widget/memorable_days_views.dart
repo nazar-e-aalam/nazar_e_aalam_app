@@ -11,8 +11,12 @@ class MemorableMonthList extends StatelessWidget {
   final List<MemorableMonth> months;
   final bool modern;
   final void Function(MemorableMonth) onOpen;
-  const MemorableMonthList({super.key, required this.months,
-    required this.modern, required this.onOpen});
+  const MemorableMonthList({
+    super.key,
+    required this.months,
+    required this.modern,
+    required this.onOpen,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -45,7 +49,9 @@ class MemorableMonthList extends StatelessWidget {
                     ),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.black.withValues(alpha: dark ? 0.25 : 0.04),
+                        color: Colors.black.withValues(
+                          alpha: dark ? 0.25 : 0.04,
+                        ),
                         blurRadius: 16,
                         offset: const Offset(0, 6),
                       ),
@@ -55,10 +61,7 @@ class MemorableMonthList extends StatelessWidget {
                     padding: const EdgeInsets.all(18),
                     child: Row(
                       children: [
-                        ModernTitleBadge(
-                          number: month.month,
-                          size: 44,
-                        ),
+                        ModernTitleBadge(number: month.month, size: 44),
                         const SizedBox(width: 14),
                         Expanded(
                           child: Column(
@@ -108,7 +111,11 @@ class MemorableMonthList extends StatelessWidget {
 class MemorableDayContent extends StatelessWidget {
   final MemorableMonth month;
   final bool modern;
-  const MemorableDayContent({super.key, required this.month, required this.modern});
+  const MemorableDayContent({
+    super.key,
+    required this.month,
+    required this.modern,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -119,32 +126,52 @@ class MemorableDayContent extends StatelessWidget {
       padding: const EdgeInsets.all(14),
       children: [
         if (localizedValue(month.heading, language).isNotEmpty)
-          Padding(padding: const EdgeInsets.fromLTRB(8, 6, 8, 18),
-            child: Text(localizedValue(month.heading, language),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(8, 6, 8, 18),
+            child: Text(
+              localizedValue(month.heading, language),
               textAlign: TextAlign.center,
-              style: theme.textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold))),
+              style: theme.textTheme.titleMedium?.copyWith(
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
         if (month.days.isEmpty) Center(child: Text(memorableLabel('empty'))),
         for (final day in month.days)
-          Padding(padding: const EdgeInsets.only(bottom: 12),
+          Padding(
+            padding: const EdgeInsets.only(bottom: 12),
             child: Card(
               elevation: modern ? 0 : 1,
               color: modern ? scheme.surfaceContainerLow : null,
-              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(modern ? 18 : 8)),
-              child: Padding(padding: const EdgeInsets.all(16), child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(dayTitle(day.day), style: theme.textTheme.titleMedium?.copyWith(
-                    color: scheme.primary, fontWeight: FontWeight.bold)),
-                  const SizedBox(height: 10),
-                  for (var i = 0; i < day.events.length; i++) ...[
-                    if (i > 0) const SizedBox(height: 14),
-                    Text(localizedValue(day.events[i].description, language),
-                      textDirection: language == 'ar' || language == 'ur'
-                        ? TextDirection.rtl : TextDirection.ltr,
-                      style: theme.textTheme.bodyLarge?.copyWith(height: 1.6)),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(modern ? 18 : 8),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.all(16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      dayTitle(day.day),
+                      style: theme.textTheme.titleMedium?.copyWith(
+                        color: scheme.primary,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    for (var i = 0; i < day.events.length; i++) ...[
+                      if (i > 0) const SizedBox(height: 14),
+                      Text(
+                        localizedValue(day.events[i].description, language),
+                        textDirection: language == 'ar' || language == 'ur'
+                            ? TextDirection.rtl
+                            : TextDirection.ltr,
+                        style: theme.textTheme.bodyLarge?.copyWith(height: 1.6),
+                      ),
+                    ],
                   ],
-                ],
-              )),
+                ),
+              ),
             ),
           ),
       ],

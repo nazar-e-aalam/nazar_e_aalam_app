@@ -1,82 +1,166 @@
-// ignore_for_file: deprecated_member_use
-// ignore_for_file: avoid_print
+import 'dart:async';
 
-import 'dart:convert';
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:get/get.dart';
-// import 'package:shared_preferences/shared_preferences.dart';
+
+import 'package:nazar_e_alam/controller/quran_settings_controller.dart';
+
 import 'package:nazar_e_alam/data/model/response/juz_list_model.dart';
 import 'package:nazar_e_alam/data/model/response/offline_sura_model.dart';
 import 'package:nazar_e_alam/data/model/response/sura_detile_model.dart';
+
 import 'package:nazar_e_alam/helper/offline_quran_loader.dart';
-import 'package:nazar_e_alam/view/screens/offline_quran/offline_surah_detail_screen.dart';
 import 'package:nazar_e_alam/helper/quran_local_data.dart';
+import 'package:nazar_e_alam/helper/arabic_utils.dart';
+
+import 'package:nazar_e_alam/view/screens/offline_quran/offline_surah_detail_screen.dart';
 
 class OfflineQuranController extends GetxController {
-  RxBool isLoading = true.obs;
-  RxList<OfflineSurahListModel> surahList = <OfflineSurahListModel>[].obs;
+  // ==================== CONTROLLERS ====================
 
-  Future<void> loadSurahList() async {
-    print('Loading offline surah list...');
+  SettingsController get settingsController => Get.find<SettingsController>();
+
+  String get currentLanguage => QuranLocalData.resolveLanguage();
+
+  Worker? _languageWorker;
+
+  // ==================== REQUEST TRACKING ====================
+  String? _lastResolvedLanguage;
+  int _surahListRequestId = 0;
+  int _surahDetailsRequestId = 0;
+  int _juzListRequestId = 0;
+  int _searchRequestId = 0;
+
+  // ==================== INITIALIZATION ====================
+
+  @override
+  void onInit() {
+    super.onInit();
+
+    if (!Get.isRegistered<SettingsController>()) {
+      Get.put(SettingsController(), permanent: true);
+    }
+
+    _lastResolvedLanguage = currentLanguage;
+
+    _languageWorker = ever<String>(settingsController.quranLanguage, (_) {
+      unawaited(refreshQuranLanguage());
+    });
+  }
+
+  // ==================== SURAH LIST ====================
+
+  final RxBool isLoading = true.obs;
+
+  final RxList<OfflineSurahListModel> surahList = <OfflineSurahListModel>[].obs;
+
+  Future<void> loadSurahList({String? language}) async {
+    final requestId = ++_surahListRequestId;
+    isLoading.value = true;
+
     try {
-      final String response = await rootBundle.loadString(
-        'assets/quran/surah_list.json',
+      await settingsController.quranLanguageReady;
+
+      if (isClosed || requestId != _surahListRequestId) {
+        return;
+      }
+
+      final resolvedLanguage = QuranLocalData.resolveLanguage(language);
+
+      final data = await QuranLocalData.surahList(language: resolvedLanguage);
+
+      if (isClosed || requestId != _surahListRequestId) {
+        return;
+      }
+
+      final surahData = data['data'] as List;
+
+      surahList.assignAll(
+        surahData.map((e) => OfflineSurahListModel.fromJson(e)),
       );
-      final data = json.decode(response);
-      final List surahData = data['data'];
-      surahList.value = surahData
-          .map((e) => OfflineSurahListModel.fromJson(e))
-          .toList();
-    } catch (e) {
-      print('Error loading surah list: $e');
+    } catch (e, stackTrace) {
+      debugPrint('Error loading offline Surah list: $e');
+      debugPrintStack(stackTrace: stackTrace);
     } finally {
-      isLoading.value = false;
-      update();
+      if (!isClosed && requestId == _surahListRequestId) {
+        isLoading.value = false;
+        update();
+      }
     }
   }
 
-  // Add other methods to load surah details, ayahs, etc. as needed
+  // ==================== SURAH DETAILS ====================
 
-  RxBool isSurahDetailsLoading = true.obs;
+  final RxBool isSurahDetailsLoading = true.obs;
 
   SuraDetaileModel? suraDetailsApiData;
+
+  int? lastSurahNumber;
 
   Future<void> loadSurahDetails({
     required int surahNumber,
     String? translatorId,
+    String? language,
   }) async {
     if (surahNumber < 1 || surahNumber > 114) {
       debugPrint('Invalid Surah number: $surahNumber');
       return;
     }
+
+    final requestId = ++_surahDetailsRequestId;
+
+    lastSurahNumber = surahNumber;
+
     isSurahDetailsLoading.value = true;
     suraDetailsApiData = null;
+
     update();
 
     try {
-      final data = await QuranLocalData.surah(surahNumber);
+      await settingsController.quranLanguageReady;
+
+      if (isClosed || requestId != _surahDetailsRequestId) {
+        return;
+      }
+
+      final resolvedLanguage = QuranLocalData.resolveLanguage(language);
+
+      final data = await QuranLocalData.surah(
+        surahNumber,
+        language: resolvedLanguage,
+      );
+
+      if (isClosed || requestId != _surahDetailsRequestId) {
+        return;
+      }
+
       suraDetailsApiData = SuraDetaileModel.fromJson(data);
-    } catch (e) {
+    } catch (e, stackTrace) {
       debugPrint('Error loading offline Surah $surahNumber: $e');
+
+      debugPrintStack(stackTrace: stackTrace);
     } finally {
-      isSurahDetailsLoading.value = false;
-
-      WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!isClosed && requestId == _surahDetailsRequestId) {
+        isSurahDetailsLoading.value = false;
         update();
-      });
+      }
     }
-  } // change surah detail ayah font size
+  }
 
-  int? lastSurahNumber;
+  // ==================== CHANGE SURAH ====================
 
   void changeSurah(int surahNumber) {
-    lastSurahNumber = surahNumber;
-    loadSurahDetails(surahNumber: surahNumber);
-    update(); // refresh the GetBuilder UI
+    if (surahNumber < 1 || surahNumber > 114) {
+      return;
+    }
 
-    // Navigate after updating state (prevents setState/build conflicts)
+    lastSurahNumber = surahNumber;
+
+    unawaited(loadSurahDetails(surahNumber: surahNumber));
+
     Future.microtask(() {
+      if (isClosed) return;
+
       Get.to(
         () => OfflineSuraDetaileScreen(
           appBackButton: true,
@@ -87,45 +171,143 @@ class OfflineQuranController extends GetxController {
     });
   }
 
-  // juzz data
-  RxBool isJuzzLoading = true.obs;
+  // ==================== JUZ LIST ====================
+
+  final RxBool isJuzzLoading = true.obs;
+
   JuzListModel? juzListApiData;
-  Future<void> loadJuzzList() async {
-    print('Loading offline juzz list...');
+
+  Future<void> loadJuzzList({String? language}) async {
+    final requestId = ++_juzListRequestId;
+    isJuzzLoading.value = true;
+
     try {
-      final String response = await rootBundle.loadString(
-        'assets/quran/juzz_list.json',
-      );
-      final data = json.decode(response);
+      await settingsController.quranLanguageReady;
+
+      if (isClosed || requestId != _juzListRequestId) {
+        return;
+      }
+
+      final resolvedLanguage = QuranLocalData.resolveLanguage(language);
+
+      final data = await QuranLocalData.juzList(language: resolvedLanguage);
+
+      if (isClosed || requestId != _juzListRequestId) {
+        return;
+      }
+
       juzListApiData = JuzListModel.fromJson(data);
-    } catch (e) {
-      print('Error loading juzz list: $e');
+    } catch (e, stackTrace) {
+      debugPrint('Error loading offline Juz list: $e');
+      debugPrintStack(stackTrace: stackTrace);
     } finally {
-      isJuzzLoading.value = false;
+      if (!isClosed && requestId == _juzListRequestId) {
+        isJuzzLoading.value = false;
+        update();
+      }
     }
   }
 
-  final verses = <Map<String, dynamic>>[].obs; // cached verses
-  final results = <Map<String, dynamic>>[].obs; // search results
-  final isQuranSearching = false.obs;
+  // ==================== SEARCH STATE ====================
 
-  Future<void> initLoader() async {
+  final verses = <Map<String, dynamic>>[].obs;
+
+  final results = <Map<String, dynamic>>[].obs;
+
+  final RxBool isQuranSearching = false.obs;
+
+  final RxnString searchError = RxnString();
+
+  String? _searchLanguage;
+
+  String _lastSearchQuery = '';
+
+  bool _searchInitialized = false;
+
+  // ==================== INITIALIZE SEARCH ====================
+
+  Future<void> initLoader({String? language}) async {
+    final requestId = ++_searchRequestId;
+
+    _searchInitialized = true;
+
     isQuranSearching.value = true;
+    searchError.value = null;
 
     try {
-      await QuranLoader.instance.loadAllVerses();
-      verses.assignAll(QuranLoader.instance.allVerses);
-    } catch (e) {
+      await settingsController.quranLanguageReady;
+
+      if (isClosed || requestId != _searchRequestId) {
+        return;
+      }
+
+      final resolvedLanguage = QuranLocalData.resolveLanguage(language);
+
+      if (_searchLanguage != resolvedLanguage) {
+        verses.clear();
+        results.clear();
+        _searchLanguage = null;
+      }
+
+      final loadedVerses = await QuranLoader.instance.loadAllVerses(
+        language: resolvedLanguage,
+      );
+
+      if (isClosed || requestId != _searchRequestId) {
+        return;
+      }
+
+      verses.assignAll(loadedVerses);
+
+      _searchLanguage = resolvedLanguage;
+
+      // Re-run the existing search in the new language.
+      if (_lastSearchQuery.isNotEmpty) {
+        _filterVerses(_lastSearchQuery);
+      }
+    } catch (e, stackTrace) {
+      if (isClosed || requestId != _searchRequestId) {
+        return;
+      }
+
+      searchError.value = e.toString();
+
       debugPrint('Error initializing Quran search: $e');
+      debugPrintStack(stackTrace: stackTrace);
     } finally {
-      isQuranSearching.value = false;
+      if (!isClosed && requestId == _searchRequestId) {
+        isQuranSearching.value = false;
+        update();
+      }
     }
   }
 
-  /// Search query on cached verses. Case-insensitive, supports Arabic or translation.
+  // ==================== SEARCH ====================
+
   void search(String q) {
-    final query = removeDiacritics(q.trim().toLowerCase());
-    print('search data =====> $query');
+    _lastSearchQuery = q.trim();
+
+    if (_lastSearchQuery.isEmpty) {
+      results.clear();
+      return;
+    }
+
+    // Prevent searching translations from an old language.
+    if (_searchLanguage != currentLanguage) {
+      results.clear();
+
+      if (!isQuranSearching.value) {
+        unawaited(initLoader());
+      }
+
+      return;
+    }
+
+    _filterVerses(_lastSearchQuery);
+  }
+
+  void _filterVerses(String input) {
+    final query = removeDiacritics(input.trim().toLowerCase());
 
     if (query.isEmpty) {
       results.clear();
@@ -133,16 +315,23 @@ class OfflineQuranController extends GetxController {
     }
 
     final filtered = verses.where((v) {
-      final arabic = removeDiacritics((v['arabic_name'] ?? '').toString());
+      final arabic = removeDiacritics(
+        (v['arabic_name'] ?? '').toString(),
+      ).toLowerCase();
+
       final noTashkeel = removeDiacritics(
         (v['text_without_taskeel'] ?? '').toString(),
-      );
+      ).toLowerCase();
+
       final translated = removeDiacritics(
         (v['translated_name'] ?? '').toString(),
-      );
+      ).toLowerCase();
+
+      final chapter = v['chapter'];
+
       final chapterName = removeDiacritics(
-        ((v['chapter'] ?? {})['arabic_name'] ?? '').toString(),
-      );
+        chapter is Map ? (chapter['arabic_name'] ?? '').toString() : '',
+      ).toLowerCase();
 
       return arabic.contains(query) ||
           noTashkeel.contains(query) ||
@@ -151,55 +340,84 @@ class OfflineQuranController extends GetxController {
     }).toList();
 
     results.assignAll(filtered);
-    print('Search found: ${filtered.length} results');
+
+    debugPrint(
+      'Quran search ($_searchLanguage): '
+      '${filtered.length} results',
+    );
   }
 
   void clearSearch() {
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      isQuranSearching.value = false;
+    _lastSearchQuery = '';
 
-      results.clear();
-      update();
-    });
+    results.clear();
+    searchError.value = null;
+
+    update();
   }
 
-  String removeDiacritics(String input) {
-    // Step 1: Normalize presentation forms (Arabic special letters)
-    const arabicMap = {
-      'أ': 'ا',
-      'إ': 'ا',
-      'آ': 'ا',
-      'ٱ': 'ا',
-      'ء': '',
-      'ؤ': 'و',
-      'ئ': 'ي',
-      'ة': 'ه',
-      'ى': 'ي',
-      '٠': '0',
-      '١': '1',
-      '٢': '2',
-      '٣': '3',
-      '٤': '4',
-      '٥': '5',
-      '٦': '6',
-      '٧': '7',
-      '٨': '8',
-      '٩': '9',
-    };
+  // ==================== LANGUAGE REFRESH ====================
 
-    // Step 2: Replace each special char
-    String normalized = input;
-    arabicMap.forEach((key, value) {
-      normalized = normalized.replaceAll(key, value);
-    });
+  Future<void> refreshQuranLanguage({String? language}) async {
+    try {
+      final resolvedLanguage = await QuranLocalData.resolveLanguageAsync(
+        language,
+      );
 
-    // Step 3: Remove tashkeel / diacritics
-    final diacriticsRegex = RegExp(
-      r'[\u0610-\u061A\u064B-\u065F\u06D6-\u06ED]',
-    );
-    normalized = normalized.replaceAll(diacriticsRegex, '');
+      if (isClosed) return;
 
-    // Step 4: Trim and lowercase for safety
-    return normalized.trim().toLowerCase();
+      if (_lastResolvedLanguage == resolvedLanguage) {
+        return;
+      }
+
+      _lastResolvedLanguage = resolvedLanguage;
+
+      final activeSurah = lastSurahNumber;
+      final refreshSearch = _searchInitialized;
+
+      // Invalidate only language-dependent requests.
+      _surahDetailsRequestId++;
+      _searchRequestId++;
+
+      suraDetailsApiData = null;
+
+      verses.clear();
+      results.clear();
+
+      _searchLanguage = null;
+      searchError.value = null;
+
+      isSurahDetailsLoading.value = activeSurah != null;
+
+      isQuranSearching.value = refreshSearch;
+
+      update();
+
+      await Future.wait<void>([
+        if (activeSurah != null)
+          loadSurahDetails(
+            surahNumber: activeSurah,
+            language: resolvedLanguage,
+          ),
+
+        if (refreshSearch) initLoader(language: resolvedLanguage),
+      ]);
+    } catch (e, stackTrace) {
+      debugPrint('Error refreshing Quran language: $e');
+      debugPrintStack(stackTrace: stackTrace);
+    }
+  }
+  // ==================== DISPOSE ====================
+
+  @override
+  void onClose() {
+    _languageWorker?.dispose();
+
+    _surahListRequestId++;
+    _surahDetailsRequestId++;
+    _juzListRequestId++;
+    _searchRequestId++;
+
+    super.onClose();
   }
 }

@@ -10,8 +10,9 @@ class DateConverter {
   }
 
   static String dateTimeStringToDateOnly(String dateTime) {
-    return DateFormat('dd MMM yyyy')
-        .format(DateFormat('yyyy-MM-dd HH:mm:ss').parse(dateTime));
+    return DateFormat(
+      'dd MMM yyyy',
+    ).format(DateFormat('yyyy-MM-dd HH:mm:ss').parse(dateTime));
   }
 
   static DateTime dateTimeStringToDate(String dateTime) {

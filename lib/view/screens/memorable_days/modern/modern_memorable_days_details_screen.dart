@@ -11,7 +11,9 @@ class ModernMemorableDaysDetailsScreen extends StatelessWidget {
   const ModernMemorableDaysDetailsScreen({super.key, required this.month});
   @override
   Widget build(BuildContext context) => Scaffold(
-    appBar: CustomAppBar(title: localizedValue(month.name, memorableLanguage())),
+    appBar: CustomAppBar(
+      title: localizedValue(month.name, memorableLanguage()),
+    ),
     body: MemorableDayContent(month: month, modern: true),
   );
 }

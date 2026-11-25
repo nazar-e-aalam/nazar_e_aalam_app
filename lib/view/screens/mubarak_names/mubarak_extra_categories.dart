@@ -132,8 +132,7 @@ class _MubarakExtraCategoriesState extends State<MubarakExtraCategories> {
                       : Theme.of(context).primaryColor,
                   endColor: dark
                       ? const Color(0xFF3A2E24).withValues(alpha: 0.5)
-                      : AppColorModern.primaryColorDark
-                          .withValues(alpha: 0.6),
+                      : AppColorModern.primaryColorDark.withValues(alpha: 0.6),
                 ),
                 const SizedBox(width: 14),
                 Expanded(

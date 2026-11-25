@@ -14,8 +14,11 @@ import '../../../../util/dimensions.dart';
 class LocalDuasViewScreen extends StatelessWidget {
   final bool appBackButton;
   final LocalDuaModel dua;
-  const LocalDuasViewScreen(
-      {super.key, required this.appBackButton, required this.dua});
+  const LocalDuasViewScreen({
+    super.key,
+    required this.appBackButton,
+    required this.dua,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -60,14 +63,15 @@ class LocalDuasViewScreen extends StatelessWidget {
                             ? "--"
                             : dua.arabicDescription,
                         textAlign: TextAlign.right,
-                        style:Get.find<SettingsController>()
-                            .selectedArabicFont
+                        style: Get.find<SettingsController>().selectedArabicFont
                             .copyWith(
-                          fontSize: Get.find<SettingsController>()
-                              .arabicFontSize
-                              .value,
-                          color: Theme.of(context).textTheme.bodyLarge!.color,
-                        ),
+                              fontSize: Get.find<SettingsController>()
+                                  .arabicFontSize
+                                  .value,
+                              color: Theme.of(
+                                context,
+                              ).textTheme.bodyLarge!.color,
+                            ),
                       ),
                     ),
                     const SizedBox(height: Dimensions.PADDING_SIZE_LARGE),

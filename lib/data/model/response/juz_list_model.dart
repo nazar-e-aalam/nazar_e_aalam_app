@@ -64,13 +64,14 @@ class ChapterList {
   String? versesTranslateName;
   String? verseNumber;
 
-  ChapterList(
-      {this.chapterId,
-      this.serialNumber,
-      this.arabicName,
-      this.translatedName,
-      this.versesTranslateName,
-      this.verseNumber});
+  ChapterList({
+    this.chapterId,
+    this.serialNumber,
+    this.arabicName,
+    this.translatedName,
+    this.versesTranslateName,
+    this.verseNumber,
+  });
 
   ChapterList.fromJson(Map<String, dynamic> json) {
     chapterId = json['chapter_id'];

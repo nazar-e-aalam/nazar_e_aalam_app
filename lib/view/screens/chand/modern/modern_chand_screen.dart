@@ -91,10 +91,10 @@ class ModernChandScreen extends StatelessWidget {
                         //   //   ),
                         //   // ),
                         const Text(
-                            '🌒',
-                            textAlign: TextAlign.center,
-                            style: TextStyle(fontSize: 85, height: 0),
-                          ),
+                          '🌒',
+                          textAlign: TextAlign.center,
+                          style: TextStyle(fontSize: 85, height: 0),
+                        ),
                         // ),
                         const SizedBox(height: 22),
                         Text(
@@ -157,7 +157,6 @@ class ModernChandScreen extends StatelessWidget {
                 //   value: city,
                 //   accentColor: AppColorModern.primaryColor,
                 // ),
-
                 const SizedBox(height: 30),
 
                 _buildUpdatedAt(context),

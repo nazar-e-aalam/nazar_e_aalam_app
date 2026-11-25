@@ -66,12 +66,14 @@ class _DuaScreenState extends State<DuaScreen> {
                     vertical: Dimensions.PADDING_SIZE_EXTRA_SMALL,
                   ),
                   labelPadding: const EdgeInsets.symmetric(
-                      horizontal: Dimensions.PADDING_SIZE_EXTRA_SMALL),
+                    horizontal: Dimensions.PADDING_SIZE_EXTRA_SMALL,
+                  ),
                   isScrollable: false,
                   indicator: BoxDecoration(
                     color: Theme.of(context).primaryColor,
-                    borderRadius:
-                        BorderRadius.circular(Dimensions.RADIUS_SMALL),
+                    borderRadius: BorderRadius.circular(
+                      Dimensions.RADIUS_SMALL,
+                    ),
                   ),
                   tabs: [
                     tabBarButton('dua'.tr, context),

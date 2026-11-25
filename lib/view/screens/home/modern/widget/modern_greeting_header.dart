@@ -110,7 +110,9 @@ class ModernGreetingHeader extends StatelessWidget {
                               const SizedBox(width: 6),
                               Flexible(
                                 child: Text(
-                                  prayer.currentAddress.value.isNotEmpty ? prayer.currentAddressFull.value : prayer.currentAddress.value,
+                                  prayer.currentAddress.value.isNotEmpty
+                                      ? prayer.currentAddressFull.value
+                                      : prayer.currentAddress.value,
                                   // prayer.saveLocalStoreCity?.isNotEmpty
                                   //     ? prayer.saveLocalStoreCity!
                                   //     : prayer.currentAddressFull.value,

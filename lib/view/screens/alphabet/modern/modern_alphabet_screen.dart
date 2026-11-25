@@ -13,10 +13,7 @@ import '../widget/arabic_alphabet_grid.dart';
 class ModernAlphabetScreen extends StatelessWidget {
   final bool? appBackButton;
 
-  const ModernAlphabetScreen({
-    super.key,
-    this.appBackButton,
-  });
+  const ModernAlphabetScreen({super.key, this.appBackButton});
 
   @override
   Widget build(BuildContext context) {
@@ -40,10 +37,8 @@ class ModernAlphabetScreen extends StatelessWidget {
         child: SingleChildScrollView(
           physics: const BouncingScrollPhysics(),
           child: ModernGlassPanel(
-            color: dark
-                ? const Color(0x0AFFFFFF)
-                : AppColorModern.glassFill,
-            child: Column(
+            color: dark ? const Color(0x0AFFFFFF) : AppColorModern.glassFill,
+            child: const Column(
               mainAxisSize: MainAxisSize.min,
               children: [
                 // Padding(
@@ -55,7 +50,7 @@ class ModernAlphabetScreen extends StatelessWidget {
                 //   ),
                 // ),
 
-                const ArabicAlphabetGrid(),
+                ArabicAlphabetGrid(),
               ],
             ),
           ),

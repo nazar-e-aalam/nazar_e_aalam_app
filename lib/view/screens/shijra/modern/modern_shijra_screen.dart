@@ -11,10 +11,7 @@ import 'modern_shijra_details_screen.dart';
 class ModernShijraScreen extends StatelessWidget {
   final bool appBackButton;
 
-  const ModernShijraScreen({
-    super.key,
-    required this.appBackButton,
-  });
+  const ModernShijraScreen({super.key, required this.appBackButton});
 
   @override
   Widget build(BuildContext context) {
@@ -34,8 +31,7 @@ class ModernShijraScreen extends StatelessWidget {
         child: ListView.separated(
           padding: const EdgeInsets.all(16),
           itemCount: ShijraItems.all.length,
-          separatorBuilder: (_, _) =>
-              const SizedBox(height: 16),
+          separatorBuilder: (_, _) => const SizedBox(height: 16),
           itemBuilder: (context, index) {
             final item = ShijraItems.all[index];
 
@@ -47,17 +43,13 @@ class ModernShijraScreen extends StatelessWidget {
               child: InkWell(
                 borderRadius: BorderRadius.circular(22),
                 onTap: () {
-                  Get.to(
-                    () => ModernShijraDetailsScreen(item: item),
-                  );
+                  Get.to(() => ModernShijraDetailsScreen(item: item));
                 },
                 child: Container(
                   padding: const EdgeInsets.all(14),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(22),
-                    border: Border.all(
-                      color: primary.withValues(alpha: 0.14),
-                    ),
+                    border: Border.all(color: primary.withValues(alpha: 0.14)),
                   ),
                   child: Row(
                     children: [
@@ -65,14 +57,11 @@ class ModernShijraScreen extends StatelessWidget {
                         width: 80,
                         height: 95,
                         padding: const EdgeInsets.all(6),
-                        decoration: BoxDecoration(
-                          color: primary.withValues(alpha: 0.08),
-                          borderRadius: BorderRadius.circular(16),
-                        ),
-                        child: Image.asset(
-                          item.imagePath,
-                          fit: BoxFit.contain,
-                        ),
+                        // decoration: BoxDecoration(
+                        //   color: primary.withValues(alpha: 0.08),
+                        //   borderRadius: BorderRadius.circular(16),
+                        // ),
+                        child: Image.asset(item.imagePath, fit: BoxFit.cover),
                       ),
                       const SizedBox(width: 16),
                       Expanded(

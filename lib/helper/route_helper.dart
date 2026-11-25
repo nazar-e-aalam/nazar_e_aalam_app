@@ -38,6 +38,9 @@ import 'package:nazar_e_alam/view/screens/shijra/shijra_wrapper.dart';
 import 'package:nazar_e_alam/view/screens/memorable_days/memorable_days_wrapper.dart';
 import 'package:nazar_e_alam/view/screens/fateha/fateha_wrapper.dart';
 import 'package:nazar_e_alam/view/screens/wazaif/wazaif_wrapper.dart';
+import 'package:nazar_e_alam/view/screens/namaz/namaz_wrapper.dart';
+import 'package:nazar_e_alam/view/screens/dua_book/dua_book_wrapper.dart';
+
 // import 'package:nazar_e_alam/view/screens/mubarak_names/mubarak_names_screen.dart';
 
 // import '../view/screens/payment/donated_list.dart';
@@ -82,6 +85,8 @@ class RouteHelper {
   static String memorabledays = "/memorabledays";
   static String fateha = "/fateha";
   static String wazaif = "/wazaif";
+  static String namaz = "/namaz";
+  static String duaBook = "/duaBook";
   // static String aiNameGenerator = "/aiNameGenerator";
 
   static String getInitialRoute() => initial;
@@ -145,7 +150,7 @@ class RouteHelper {
       name: mubraak,
       page: () => const MubarakNamesWrapper(appBackButton: true),
       transition: Transition.cupertinoDialog,
-    ),    
+    ),
     GetPage(
       name: memorabledays,
       page: () => const MemorableDaysWrapper(appBackButton: true),
@@ -190,7 +195,7 @@ class RouteHelper {
       name: shijra,
       page: () => const ShijraWrapper(appBackButton: true),
       transition: Transition.cupertinoDialog,
-    ),    
+    ),
     GetPage(
       name: wazaif,
       page: () => const WazaifWrapper(appBackButton: true),
@@ -225,10 +230,20 @@ class RouteHelper {
       name: hadithBookName,
       page: () => const HadithBooksWrapper(appBackButton: true),
       transition: Transition.cupertinoDialog,
-    ),    
+    ),
     GetPage(
       name: fateha,
       page: () => const FatehaWrapper(appBackButton: true),
+      transition: Transition.cupertinoDialog,
+    ),
+    GetPage(
+      name: duaBook,
+      page: () => const DuaBookWrapper(appBackButton: true),
+      transition: Transition.cupertinoDialog,
+    ),
+    GetPage(
+      name: namaz,
+      page: () => const NamazWrapper(appBackButton: true),
       transition: Transition.cupertinoDialog,
     ),
     // GetPage(

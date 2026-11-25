@@ -137,6 +137,7 @@ class DeviceAuthService extends GetxService {
         // Another registration can start a fresh one-hour session.
         _debugSessionExpired = true;
       }
+      debugPrint('Device token response ${response.body}');
       debugPrint('Device token refresh rejected: HTTP ${response.statusCode}');
       return null;
     } on TimeoutException {

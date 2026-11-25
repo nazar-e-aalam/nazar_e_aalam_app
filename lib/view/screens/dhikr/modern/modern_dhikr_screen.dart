@@ -71,9 +71,9 @@ class _ModernDhikrScreenState extends State<ModernDhikrScreen>
               Expanded(
                 child: TabBarView(
                   controller: _tabController,
-                  children: [
-                    const _ModernApiDhikrList(),
-                    const _ModernUserDhikrList(),
+                  children: const [
+                    _ModernApiDhikrList(),
+                    _ModernUserDhikrList(),
                   ],
                 ),
               ),

@@ -1,14 +1,9 @@
-
 class ReciterSurahsModel {
   ReciterInfo? reciter;
   String? host;
   List<Surah>? surahs;
 
-  ReciterSurahsModel({
-    this.reciter,
-    this.host,
-    this.surahs,
-  });
+  ReciterSurahsModel({this.reciter, this.host, this.surahs});
 
   ReciterSurahsModel.fromJson(Map<String, dynamic> json) {
     reciter = json['reciter'] != null
@@ -56,12 +51,7 @@ class Surah {
   int? versesCount;
   String? revelationPlace;
 
-  Surah({
-    this.number,
-    this.arabicName,
-    this.versesCount,
-    this.revelationPlace,
-  });
+  Surah({this.number, this.arabicName, this.versesCount, this.revelationPlace});
 
   Surah.fromJson(Map<String, dynamic> json) {
     number = json['number'];

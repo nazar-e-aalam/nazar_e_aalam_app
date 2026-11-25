@@ -114,7 +114,9 @@ class _ArabicTileState extends State<_ArabicTile> {
                 // SVG Background
                 Positioned.fill(
                   child: SvgPicture.asset(
-                  Get.isDarkMode ? Images.Dark_Alphabet_Frame :  Images.Alphabet_Frame,
+                    Get.isDarkMode
+                        ? Images.Dark_Alphabet_Frame
+                        : Images.Alphabet_Frame,
                     fit: BoxFit.cover,
                   ),
                 ),

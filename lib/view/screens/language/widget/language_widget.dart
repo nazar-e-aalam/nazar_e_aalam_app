@@ -35,7 +35,9 @@ class LanguageWidget extends StatelessWidget {
         localizationController.setSelectIndex(index);
       },
       child: Container(
-        margin: const EdgeInsets.only(bottom: Dimensions.PADDING_SIZE_EXTRA_SMALL),
+        margin: const EdgeInsets.only(
+          bottom: Dimensions.PADDING_SIZE_EXTRA_SMALL,
+        ),
         decoration: BoxDecoration(
           color: Theme.of(context).cardColor,
           borderRadius: BorderRadius.circular(Dimensions.RADIUS_DEFAULT),
@@ -59,11 +61,7 @@ class LanguageWidget extends StatelessWidget {
             horizontal: Dimensions.PADDING_SIZE_DEFAULT,
           ),
           horizontalTitleGap: Dimensions.PADDING_SIZE_SMALL,
-          leading: Image.asset(
-            languageModel.imageUrl!,
-            width: 25,
-            height: 25,
-          ),
+          leading: Image.asset(languageModel.imageUrl!, width: 25, height: 25),
           title: Text(
             languageModel.languageName!,
             style: robotoMedium.copyWith(

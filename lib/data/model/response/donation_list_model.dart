@@ -34,8 +34,13 @@ class DonationData {
   String? date;
   dynamic amount;
 
-  DonationData(
-      {this.id, this.category, this.date, this.amount, this.paymentMethod});
+  DonationData({
+    this.id,
+    this.category,
+    this.date,
+    this.amount,
+    this.paymentMethod,
+  });
 
   DonationData.fromJson(Map<String, dynamic> json) {
     id = json['id'];

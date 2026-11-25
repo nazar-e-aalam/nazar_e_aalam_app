@@ -8,8 +8,11 @@ class ItemField extends StatelessWidget {
   final String fieldName;
   final TextEditingController controllerValue;
 
-  const ItemField(
-      {required this.fieldName, required this.controllerValue, super.key});
+  const ItemField({
+    required this.fieldName,
+    required this.controllerValue,
+    super.key,
+  });
   @override
   Widget build(BuildContext context) {
     return Row(
@@ -17,8 +20,9 @@ class ItemField extends StatelessWidget {
         Expanded(
           child: Text(
             fieldName,
-            style:
-                robotoMedium.copyWith(fontSize: Dimensions.FONT_SIZE_DEFAULT),
+            style: robotoMedium.copyWith(
+              fontSize: Dimensions.FONT_SIZE_DEFAULT,
+            ),
           ),
         ),
         Expanded(
@@ -32,16 +36,22 @@ class ItemField extends StatelessWidget {
                 fontWeight: FontWeight.w400,
               ),
               focusedBorder: OutlineInputBorder(
-                borderSide:
-                    BorderSide(color: Theme.of(context).primaryColor, width: 1),
+                borderSide: BorderSide(
+                  color: Theme.of(context).primaryColor,
+                  width: 1,
+                ),
               ),
               enabledBorder: OutlineInputBorder(
-                borderSide:
-                    BorderSide(color: Theme.of(context).primaryColor, width: 1),
+                borderSide: BorderSide(
+                  color: Theme.of(context).primaryColor,
+                  width: 1,
+                ),
               ),
               errorBorder: const OutlineInputBorder(
                 borderSide: BorderSide(
-                    color: Color.fromARGB(255, 177, 33, 5), width: 1),
+                  color: Color.fromARGB(255, 177, 33, 5),
+                  width: 1,
+                ),
               ),
             ),
           ),

@@ -73,11 +73,11 @@ class _ModernDuaScreenState extends State<ModernDuaScreen>
               Expanded(
                 child: TabBarView(
                   controller: _tabController,
-                  children: [
+                  children: const [
                     // API duas
-                    const _ModernApiDuaList(),
+                    _ModernApiDuaList(),
                     // User-added duas
-                    const _ModernUserDuaList(),
+                    _ModernUserDuaList(),
                   ],
                 ),
               ),

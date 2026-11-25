@@ -29,14 +29,16 @@ class HadithDetailsScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.symmetric(
-              horizontal: Dimensions.PADDING_SIZE_DEFAULT),
+            horizontal: Dimensions.PADDING_SIZE_DEFAULT,
+          ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               // bismillah image ==>
               Padding(
-                padding:
-                    const EdgeInsets.only(top: Dimensions.PADDING_SIZE_SMALL),
+                padding: const EdgeInsets.only(
+                  top: Dimensions.PADDING_SIZE_SMALL,
+                ),
                 child: SizedBox(
                   height: 50,
                   width: double.infinity,
@@ -53,23 +55,22 @@ class HadithDetailsScreen extends StatelessWidget {
                 child: Text(
                   "hadith_arabic".tr,
                   style: robotoMedium.copyWith(
-                      fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                    fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                  ),
                 ),
               ),
               const Divider(),
-              const SizedBox(
-                height: 20,
-              ),
+              const SizedBox(height: 20),
               // arabic data ==>
               Text(
                 data.hadithArabic.toString(),
                 textAlign: TextAlign.right,
-                style: Get.find<SettingsController>()
-                    .selectedArabicFont
+                style: Get.find<SettingsController>().selectedArabicFont
                     .copyWith(
-                  fontSize: Get.find<SettingsController>().arabicFontSize.value,
-                  color: Theme.of(context).textTheme.bodyLarge!.color,
-                ),
+                      fontSize:
+                          Get.find<SettingsController>().arabicFontSize.value,
+                      color: Theme.of(context).textTheme.bodyLarge!.color,
+                    ),
               ),
               const SizedBox(height: 20),
               const Divider(),
@@ -77,7 +78,8 @@ class HadithDetailsScreen extends StatelessWidget {
                 child: Text(
                   "hadith_english".tr,
                   style: robotoMedium.copyWith(
-                      fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                    fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                  ),
                 ),
               ),
               const Divider(),
@@ -88,11 +90,10 @@ class HadithDetailsScreen extends StatelessWidget {
                 data.hadithEnglish.toString(),
                 textAlign: TextAlign.justify,
                 style: robotoMedium.copyWith(
-                    fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                  fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                ),
               ),
-              const SizedBox(
-                height: 20,
-              ),
+              const SizedBox(height: 20),
               const Divider(),
               const SizedBox(height: 10),
 
@@ -101,49 +102,56 @@ class HadithDetailsScreen extends StatelessWidget {
                 "${"hadith_number".tr}: ${data.hadithNumber}",
                 textAlign: TextAlign.left,
                 style: robotoMedium.copyWith(
-                    fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                  fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                ),
               ),
               const SizedBox(height: 3),
               Text(
                 "${"book_name".tr}: ${data.book!.bookName!}".tr,
                 textAlign: TextAlign.left,
                 style: robotoMedium.copyWith(
-                    fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                  fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                ),
               ),
               const SizedBox(height: 3),
               Text(
                 "${"writer_name".tr}: ${data.book!.writerName}",
                 textAlign: TextAlign.left,
                 style: robotoMedium.copyWith(
-                    fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                  fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                ),
               ),
               const SizedBox(height: 3),
               Text(
                 "${"writer_death".tr}: ${data.book!.writerDeath!}",
                 textAlign: TextAlign.left,
                 style: robotoMedium.copyWith(
-                    fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                  fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                ),
               ),
               const SizedBox(height: 3),
               Text(
                 "${"chapter_number".tr}: ${data.chapter!.chapterNumber!}",
                 textAlign: TextAlign.left,
                 style: robotoMedium.copyWith(
-                    fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                  fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                ),
               ),
               const SizedBox(height: 3),
               Text(
                 "${"chapter_name".tr}: ${data.chapter!.chapterEnglish!}",
                 textAlign: TextAlign.left,
                 style: robotoMedium.copyWith(
-                    fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                  fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                ),
               ),
               const SizedBox(height: 3),
               Text(
                 "${"english_narrator".tr}: ${data.englishNarrator}",
                 textAlign: TextAlign.left,
                 style: robotoMedium.copyWith(
-                    fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                  fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                ),
               ),
               const SizedBox(height: 10),
               const Divider(),

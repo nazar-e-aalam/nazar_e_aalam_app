@@ -125,9 +125,7 @@ class _ModernNextPrayerCardState extends State<ModernNextPrayerCard> {
           end: Alignment.bottomRight,
         ),
         borderRadius: BorderRadius.circular(24),
-        border: dark
-            ? Border.all(color: primary.withOpacity(0.35))
-            : null,
+        border: dark ? Border.all(color: primary.withOpacity(0.35)) : null,
         boxShadow: [
           BoxShadow(
             color: primary.withOpacity(dark ? 0.18 : 0.35),
@@ -145,6 +143,7 @@ class _ModernNextPrayerCardState extends State<ModernNextPrayerCard> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
+                const SizedBox(height: 15),
                 Text(
                   'next_prayer'.tr,
                   style: robotoRegular.copyWith(
@@ -157,7 +156,7 @@ class _ModernNextPrayerCardState extends State<ModernNextPrayerCard> {
                   controller.currentWaqtName.value,
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
-                  style: robotoBold.copyWith(color: Colors.white, fontSize: 24, ),
+                  style: robotoBold.copyWith(color: Colors.white, fontSize: 24),
                 ),
                 const SizedBox(height: 8),
                 Container(

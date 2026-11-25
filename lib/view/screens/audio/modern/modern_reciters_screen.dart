@@ -16,14 +16,10 @@ import 'package:nazar_e_alam/view/base/modern/modern_components.dart';
 class ModernRecitersScreen extends StatefulWidget {
   final bool? appBackButton;
 
-  const ModernRecitersScreen({
-    super.key,
-    this.appBackButton,
-  });
+  const ModernRecitersScreen({super.key, this.appBackButton});
 
   @override
-  State<ModernRecitersScreen> createState() =>
-      _ModernRecitersScreenState();
+  State<ModernRecitersScreen> createState() => _ModernRecitersScreenState();
 }
 
 class _ModernRecitersScreenState extends State<ModernRecitersScreen> {
@@ -72,9 +68,7 @@ class _ModernRecitersScreenState extends State<ModernRecitersScreen> {
             }
 
             return ModernGlassPanel(
-              color: dark
-                  ? const Color(0x0AFFFFFF)
-                  : AppColorModern.glassFill,
+              color: dark ? const Color(0x0AFFFFFF) : AppColorModern.glassFill,
               child: ListView.separated(
                 padding: const EdgeInsets.fromLTRB(
                   Dimensions.PADDING_SIZE_DEFAULT,
@@ -83,8 +77,7 @@ class _ModernRecitersScreenState extends State<ModernRecitersScreen> {
                   Dimensions.PADDING_SIZE_EXTRA_LARGE,
                 ),
                 itemCount: data.length,
-                separatorBuilder: (_, _) =>
-                    const SizedBox(height: 8),
+                separatorBuilder: (_, _) => const SizedBox(height: 8),
                 itemBuilder: (context, index) {
                   final reciter = data[index];
 
@@ -125,10 +118,8 @@ class _ReciterGradientCard extends StatefulWidget {
   });
 
   @override
-  State<_ReciterGradientCard> createState() =>
-      _ReciterGradientCardState();
+  State<_ReciterGradientCard> createState() => _ReciterGradientCardState();
 }
-
 
 class _ReciterGradientCardState extends State<_ReciterGradientCard> {
   Color? extractedColor;
@@ -178,10 +169,7 @@ class _ReciterGradientCardState extends State<_ReciterGradientCard> {
     final imageColor = extractedColor ?? theme.primaryColor;
 
     Color blend(double opacity) {
-      return Color.alphaBlend(
-        imageColor.withValues(alpha: opacity),
-        surface,
-      );
+      return Color.alphaBlend(imageColor.withValues(alpha: opacity), surface);
     }
 
     return Material(
@@ -217,8 +205,8 @@ class _ReciterGradientCardState extends State<_ReciterGradientCard> {
                   child: SizedBox(
                     width: 64,
                     height: 64,
-                    child: widget.imageUrl != null &&
-                            widget.imageUrl!.isNotEmpty
+                    child:
+                        widget.imageUrl != null && widget.imageUrl!.isNotEmpty
                         ? CachedNetworkImage(
                             imageUrl: widget.imageUrl!,
                             fit: BoxFit.cover,
@@ -231,10 +219,7 @@ class _ReciterGradientCardState extends State<_ReciterGradientCard> {
                               fit: BoxFit.cover,
                             ),
                           )
-                        : Image.asset(
-                            Images.Reciter_Person,
-                            fit: BoxFit.cover,
-                          ),
+                        : Image.asset(Images.Reciter_Person, fit: BoxFit.cover),
                   ),
                 ),
                 const SizedBox(width: 12),
@@ -254,8 +239,7 @@ class _ReciterGradientCardState extends State<_ReciterGradientCard> {
                 Icon(
                   Icons.chevron_right_rounded,
                   size: 21,
-                  color: theme.colorScheme.onSurface
-                      .withValues(alpha: 0.65),
+                  color: theme.colorScheme.onSurface.withValues(alpha: 0.65),
                 ),
                 const SizedBox(width: 5),
               ],

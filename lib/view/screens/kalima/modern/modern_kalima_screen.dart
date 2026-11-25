@@ -12,10 +12,7 @@ import 'modern_kalima_details_screen.dart';
 class ModernKalimaScreen extends StatelessWidget {
   final bool? appBackButton;
 
-  const ModernKalimaScreen({
-    super.key,
-    this.appBackButton,
-  });
+  const ModernKalimaScreen({super.key, this.appBackButton});
 
   @override
   Widget build(BuildContext context) {
@@ -31,17 +28,11 @@ class ModernKalimaScreen extends StatelessWidget {
       ),
       body: SafeArea(
         child: ModernGlassPanel(
-          color: dark
-              ? const Color(0x0AFFFFFF)
-              : AppColorModern.glassFill,
+          color: dark ? const Color(0x0AFFFFFF) : AppColorModern.glassFill,
           child: KalimaListContent(
             modern: true,
             onSelected: (kalima) {
-              Get.to(
-                () => ModernKalimaDetailsScreen(
-                  kalima: kalima,
-                ),
-              );
+              Get.to(() => ModernKalimaDetailsScreen(kalima: kalima));
             },
           ),
         ),

@@ -1,24 +1,17 @@
 class HadithModel {
-  HadithModel({
-    this.status,
-    this.message,
-    this.hadiths,
-  });
+  HadithModel({this.status, this.message, this.hadiths});
 
   HadithModel.fromJson(dynamic json) {
     status = json['status'];
     message = json['message'];
-    hadiths =
-        json['hadiths'] != null ? Hadiths.fromJson(json['hadiths']) : null;
+    hadiths = json['hadiths'] != null
+        ? Hadiths.fromJson(json['hadiths'])
+        : null;
   }
   num? status;
   String? message;
   Hadiths? hadiths;
-  HadithModel copyWith({
-    num? status,
-    String? message,
-    Hadiths? hadiths,
-  }) =>
+  HadithModel copyWith({num? status, String? message, Hadiths? hadiths}) =>
       HadithModel(
         status: status ?? this.status,
         message: message ?? this.message,
@@ -104,22 +97,21 @@ class Hadiths {
     dynamic prevPageUrl,
     num? to,
     num? total,
-  }) =>
-      Hadiths(
-        currentPage: currentPage ?? this.currentPage,
-        data: data ?? this.data,
-        firstPageUrl: firstPageUrl ?? this.firstPageUrl,
-        from: from ?? this.from,
-        lastPage: lastPage ?? this.lastPage,
-        lastPageUrl: lastPageUrl ?? this.lastPageUrl,
-        links: links ?? this.links,
-        nextPageUrl: nextPageUrl ?? this.nextPageUrl,
-        path: path ?? this.path,
-        perPage: perPage ?? this.perPage,
-        prevPageUrl: prevPageUrl ?? this.prevPageUrl,
-        to: to ?? this.to,
-        total: total ?? this.total,
-      );
+  }) => Hadiths(
+    currentPage: currentPage ?? this.currentPage,
+    data: data ?? this.data,
+    firstPageUrl: firstPageUrl ?? this.firstPageUrl,
+    from: from ?? this.from,
+    lastPage: lastPage ?? this.lastPage,
+    lastPageUrl: lastPageUrl ?? this.lastPageUrl,
+    links: links ?? this.links,
+    nextPageUrl: nextPageUrl ?? this.nextPageUrl,
+    path: path ?? this.path,
+    perPage: perPage ?? this.perPage,
+    prevPageUrl: prevPageUrl ?? this.prevPageUrl,
+    to: to ?? this.to,
+    total: total ?? this.total,
+  );
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
     map['current_page'] = currentPage;
@@ -144,12 +136,7 @@ class Hadiths {
 }
 
 class Links {
-  Links({
-    this.url,
-    this.label,
-    this.active,
-    this.page,
-  });
+  Links({this.url, this.label, this.active, this.page});
 
   Links.fromJson(dynamic json) {
     url = json['url'];
@@ -159,16 +146,11 @@ class Links {
   }
 
   dynamic url;
-  dynamic label;   // ✅ was String? — API sends int OR String
+  dynamic label; // ✅ was String? — API sends int OR String
   bool? active;
-  num? page;       // ✅ new field, API sends int
+  num? page; // ✅ new field, API sends int
 
-  Links copyWith({
-    dynamic url,
-    dynamic label,
-    bool? active,
-    num? page,
-  }) =>
+  Links copyWith({dynamic url, dynamic label, bool? active, num? page}) =>
       Links(
         url: url ?? this.url,
         label: label ?? this.label,
@@ -214,8 +196,9 @@ class Data {
     bookSlug = json['bookSlug'];
     volume = json['volume'];
     book = json['book'] != null ? Book.fromJson(json['book']) : null;
-    chapter =
-        json['chapter'] != null ? Chapter.fromJson(json['chapter']) : null;
+    chapter = json['chapter'] != null
+        ? Chapter.fromJson(json['chapter'])
+        : null;
   }
   num? id;
   String? hadithNumber;
@@ -242,21 +225,20 @@ class Data {
     num? volume,
     Book? book,
     Chapter? chapter,
-  }) =>
-      Data(
-        id: id ?? this.id,
-        hadithNumber: hadithNumber ?? this.hadithNumber,
-        englishNarrator: englishNarrator ?? this.englishNarrator,
-        hadithEnglish: hadithEnglish ?? this.hadithEnglish,
-        hadithUrdu: hadithUrdu ?? this.hadithUrdu,
-        urduNarrator: urduNarrator ?? this.urduNarrator,
-        hadithArabic: hadithArabic ?? this.hadithArabic,
-        chapterId: chapterId ?? this.chapterId,
-        bookSlug: bookSlug ?? this.bookSlug,
-        volume: volume ?? this.volume,
-        book: book ?? this.book,
-        chapter: chapter ?? this.chapter,
-      );
+  }) => Data(
+    id: id ?? this.id,
+    hadithNumber: hadithNumber ?? this.hadithNumber,
+    englishNarrator: englishNarrator ?? this.englishNarrator,
+    hadithEnglish: hadithEnglish ?? this.hadithEnglish,
+    hadithUrdu: hadithUrdu ?? this.hadithUrdu,
+    urduNarrator: urduNarrator ?? this.urduNarrator,
+    hadithArabic: hadithArabic ?? this.hadithArabic,
+    chapterId: chapterId ?? this.chapterId,
+    bookSlug: bookSlug ?? this.bookSlug,
+    volume: volume ?? this.volume,
+    book: book ?? this.book,
+    chapter: chapter ?? this.chapter,
+  );
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
     map['id'] = id;
@@ -310,15 +292,14 @@ class Chapter {
     String? chapterUrdu,
     String? chapterArabic,
     String? bookSlug,
-  }) =>
-      Chapter(
-        id: id ?? this.id,
-        chapterNumber: chapterNumber ?? this.chapterNumber,
-        chapterEnglish: chapterEnglish ?? this.chapterEnglish,
-        chapterUrdu: chapterUrdu ?? this.chapterUrdu,
-        chapterArabic: chapterArabic ?? this.chapterArabic,
-        bookSlug: bookSlug ?? this.bookSlug,
-      );
+  }) => Chapter(
+    id: id ?? this.id,
+    chapterNumber: chapterNumber ?? this.chapterNumber,
+    chapterEnglish: chapterEnglish ?? this.chapterEnglish,
+    chapterUrdu: chapterUrdu ?? this.chapterUrdu,
+    chapterArabic: chapterArabic ?? this.chapterArabic,
+    bookSlug: bookSlug ?? this.bookSlug,
+  );
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
     map['id'] = id;
@@ -362,15 +343,14 @@ class Book {
     dynamic aboutWriter,
     String? writerDeath,
     String? bookSlug,
-  }) =>
-      Book(
-        id: id ?? this.id,
-        bookName: bookName ?? this.bookName,
-        writerName: writerName ?? this.writerName,
-        aboutWriter: aboutWriter ?? this.aboutWriter,
-        writerDeath: writerDeath ?? this.writerDeath,
-        bookSlug: bookSlug ?? this.bookSlug,
-      );
+  }) => Book(
+    id: id ?? this.id,
+    bookName: bookName ?? this.bookName,
+    writerName: writerName ?? this.writerName,
+    aboutWriter: aboutWriter ?? this.aboutWriter,
+    writerDeath: writerDeath ?? this.writerDeath,
+    bookSlug: bookSlug ?? this.bookSlug,
+  );
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
     map['id'] = id;

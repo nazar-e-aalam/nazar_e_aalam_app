@@ -11,10 +11,7 @@ import '../widget/shijra_items.dart';
 class ModernShijraDetailsScreen extends StatelessWidget {
   final ShijraItem item;
 
-  const ModernShijraDetailsScreen({
-    super.key,
-    required this.item,
-  });
+  const ModernShijraDetailsScreen({super.key, required this.item});
 
   @override
   Widget build(BuildContext context) {
@@ -25,16 +22,11 @@ class ModernShijraDetailsScreen extends StatelessWidget {
       backgroundColor: dark
           ? theme.scaffoldBackgroundColor
           : AppColorModern.scaffoldBackground,
-      appBar: CustomAppBar(
-        title: item.titleKey.tr,
-        isBackButtonExist: true,
-      ),
+      appBar: CustomAppBar(title: item.titleKey.tr, isBackButtonExist: true),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(8),
-          child: ShijraImageViewer(
-            imagePath: item.imagePath,
-          ),
+          child: ShijraImageViewer(imagePath: item.imagePath),
         ),
       ),
     );

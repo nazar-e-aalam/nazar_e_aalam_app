@@ -21,7 +21,9 @@ class _ChandWrapperState extends State<ChandWrapper> {
   @override
   Widget build(BuildContext context) {
     return Obx(() {
-      final modern = Get.find<HomeLayoutController>().currentLayout.value == HomeLayoutController.modern;
+      final modern =
+          Get.find<HomeLayoutController>().currentLayout.value ==
+          HomeLayoutController.modern;
       return AnimatedSwitcher(
         duration: const Duration(milliseconds: 400),
         transitionBuilder: (child, animation) =>

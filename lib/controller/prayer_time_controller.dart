@@ -283,7 +283,6 @@ class PrayerTimeController extends GetxController implements GetxService {
 
   /// Load the settings from local storage or set default values.
 
-
   /// Set a new calculation method and save it in local storage.
   Future<void> setSelectedCalculationMethod(String? value) async {
     if (value != null) {

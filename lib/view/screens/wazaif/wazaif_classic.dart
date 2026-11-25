@@ -14,9 +14,13 @@ class WazaifClassicScreen extends StatelessWidget {
       future: WazaifData.load(),
       builder: (context, snapshot) {
         if (snapshot.hasError) return _error(snapshot.error!);
-        if (!snapshot.hasData) return const Center(child: CircularProgressIndicator());
+        if (!snapshot.hasData) {
+          return const Center(child: CircularProgressIndicator());
+        }
         final items = snapshot.data!;
-        if (items.isEmpty) return const Center(child: Text('No Wazaif available'));
+        if (items.isEmpty) {
+          return const Center(child: Text('No Wazaif available'));
+        }
         return ListView.builder(
           padding: const EdgeInsets.fromLTRB(12, 12, 12, 110),
           itemCount: items.length,
@@ -24,16 +28,36 @@ class WazaifClassicScreen extends StatelessWidget {
             final item = items[index];
             return Card(
               child: ListTile(
-                contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
-                leading: CircleAvatar(backgroundColor: Theme.of(context).colorScheme.primary,
+                contentPadding: const EdgeInsets.symmetric(
+                  horizontal: 14,
+                  vertical: 8,
+                ),
+                leading: CircleAvatar(
+                  backgroundColor: Theme.of(context).colorScheme.primary,
                   foregroundColor: Theme.of(context).colorScheme.onPrimary,
-                  child: Text('${index + 1}')),
-                title: Text(item.name, textDirection: WazaifData.rtl ? TextDirection.rtl : TextDirection.ltr),
-                subtitle: Text(item.summary, maxLines: 2, overflow: TextOverflow.ellipsis,
-                  textDirection: WazaifData.rtl ? TextDirection.rtl : TextDirection.ltr),
+                  child: Text('${index + 1}'),
+                ),
+                title: Text(
+                  item.name,
+                  textDirection: WazaifData.rtl
+                      ? TextDirection.rtl
+                      : TextDirection.ltr,
+                ),
+                subtitle: Text(
+                  item.summary,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  textDirection: WazaifData.rtl
+                      ? TextDirection.rtl
+                      : TextDirection.ltr,
+                ),
                 trailing: const Icon(Icons.chevron_right),
-                onTap: () => Navigator.of(context).push(MaterialPageRoute(
-                  builder: (_) => WazaifDetailScreen(wazifa: item, modern: false))),
+                onTap: () => Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (_) =>
+                        WazaifDetailScreen(wazifa: item, modern: false),
+                  ),
+                ),
               ),
             );
           },
@@ -43,7 +67,12 @@ class WazaifClassicScreen extends StatelessWidget {
   );
 }
 
-Widget _error(Object error) => Center(child: Padding(
-  padding: const EdgeInsets.all(24),
-  child: Text('Unable to load Wazaif JSON. Check the asset path and JSON syntax.\n$error', textAlign: TextAlign.center),
-));
+Widget _error(Object error) => Center(
+  child: Padding(
+    padding: const EdgeInsets.all(24),
+    child: Text(
+      'Unable to load Wazaif JSON. Check the asset path and JSON syntax.\n$error',
+      textAlign: TextAlign.center,
+    ),
+  ),
+);

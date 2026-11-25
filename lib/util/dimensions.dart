@@ -10,7 +10,7 @@ class Dimensions {
 
   static const double PADDING_SIZE_EXTRA_SMALL = 5.0;
   static const double PADDING_SIZE_EXTRA_GRID_SMALL = 3.0;
-   static const double PADDING_SIZE_SMALL = 10.0;
+  static const double PADDING_SIZE_SMALL = 10.0;
   static const double PADDING_SIZE_GRID_SMALL = 13.0;
   static const double PADDING_SIZE_DEFAULT = 15.0;
   static const double PADDING_SIZE_LARGE = 20.0;

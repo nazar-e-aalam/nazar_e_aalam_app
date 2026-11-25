@@ -319,7 +319,7 @@ class ModernAnimatedList extends StatelessWidget {
       itemCount: itemCount,
       itemBuilder: (context, index) {
         return AnimatedBuilder(
-          animation: AlwaysStoppedAnimation(1.0),
+          animation: const AlwaysStoppedAnimation(1.0),
           builder: (context, _) {
             return itemBuilder(context, index);
           },

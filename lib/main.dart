@@ -14,9 +14,7 @@ import 'package:nazar_e_alam/controller/localization_controller.dart';
 import 'package:nazar_e_alam/controller/theme_controller.dart';
 import 'package:nazar_e_alam/helper/theme_helper.dart';
 import 'package:nazar_e_alam/util/app_constants.dart';
-import 'package:nazar_e_alam/util/dimensions.dart';
-import 'package:nazar_e_alam/util/images.dart';
-import 'package:nazar_e_alam/util/styles.dart';
+import 'package:nazar_e_alam/view/screens/splash/splash_screen.dart';
 
 import 'controller/internet_check_controller.dart';
 import 'controller/prayer_time_controller.dart';
@@ -43,112 +41,178 @@ class _Bootstrap extends StatefulWidget {
 }
 
 class _BootstrapState extends State<_Bootstrap> {
-  Future<_BootConfig>? _ready;
-  bool _logoReady = false;
+  _BootConfig? _config;
+
+  bool _animationCompleted = false;
+
+  Object? _bootError;
 
   @override
   void initState() {
     super.initState();
+
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (!mounted) return;
-      _ready = _boot();
-      setState(() {});
+
+      unawaited(_initialize());
     });
   }
 
+  // ==================== INITIALIZATION ====================
+
+  Future<void> _initialize() async {
+    try {
+      final config = await _boot();
+
+      if (!mounted) return;
+
+      setState(() {
+        _config = config;
+      });
+    } catch (e, stackTrace) {
+      debugPrint('Application initialization failed: $e');
+      debugPrintStack(stackTrace: stackTrace);
+
+      if (!mounted) return;
+
+      setState(() {
+        _bootError = e;
+      });
+    }
+  }
+
   Future<_BootConfig> _boot() async {
-    final totalStopwatch = Stopwatch()..start();
+    final stopwatch = Stopwatch()..start();
 
     // 1. Audio Service (Background)
     unawaited(
-      AudioServiceHelper.init().catchError((Object e, StackTrace st) {}),
+      AudioServiceHelper.init().catchError((Object e, StackTrace st) {
+        debugPrint('Audio initialization error: $e');
+      }),
     );
 
-    // 2. Precache Image (Background)
-    unawaited(precacheImage(const AssetImage(Images.APP_LOGO), context).then((_) {
-      if (mounted) setState(() => _logoReady = true);
-    }).catchError((_) {}));
-
-    // 3. SharedPreferences
+    // 2. SharedPreferences
     final prefs = await SharedPreferences.getInstance();
 
-    // 4. DI Init
+    // 3. Dependency Injection
     await di.init(prefs);
 
-    // 5. Internet Controller
-    Get.put(InternetController());
+    // 4. Internet Controller
+    if (!Get.isRegistered<InternetController>()) {
+      Get.put(InternetController());
+    }
 
-    // 6. Kick off Location (Background)
-    unawaited(Get.find<PrayerTimeController>().getLocation().catchError((_) {}));
+    // 5. Location (Background)
+    unawaited(
+      Get.find<PrayerTimeController>().getLocation().catchError((
+        Object e,
+        StackTrace st,
+      ) {
+        debugPrint('Location initialization error: $e');
+      }),
+    );
 
-    // 7. Load Languages Fast
+    // 6. Load Languages
     final languages = await di.loadLanguagesFast();
 
-    // 8. Themes
+    // 7. Prepare Themes
     final layout = Get.find<HomeLayoutController>().currentLayout.value;
+
     final light = getAppTheme(layout, false);
     final dark = getAppTheme(layout, true);
 
-    // 9. Enforce minimum splash time (800ms total)
-    final elapsed = totalStopwatch.elapsedMilliseconds;
-    if (elapsed < 800) {
-      await Future.delayed(Duration(milliseconds: 800 - elapsed));
-    }
+    stopwatch.stop();
+
+    debugPrint(
+      'Bootstrap completed in '
+      '${stopwatch.elapsedMilliseconds} ms',
+    );
 
     return _BootConfig(languages: languages, light: light, dark: dark);
   }
 
+  // ==================== ANIMATION CALLBACK ====================
+
+  void _onAnimationCompleted() {
+    if (!mounted || _animationCompleted) return;
+
+    setState(() {
+      _animationCompleted = true;
+    });
+
+    debugPrint('Splash pixel animation completed');
+  }
+
+  // ==================== BUILD ====================
+
   @override
   Widget build(BuildContext context) {
-    final cfg = _ready;
-    if (cfg == null) {
-      return _buildSplash(context);
+    final config = _config;
+
+    // Initialization and animation must both complete.
+    if (config != null && _animationCompleted) {
+      return MyApp(
+        languages: config.languages,
+        lightTheme: config.light,
+        darkTheme: config.dark,
+      );
     }
-    return FutureBuilder<_BootConfig>(
-      future: cfg,
-      builder: (context, snap) {
-        if (snap.connectionState != ConnectionState.done || snap.hasError) {
-          return _buildSplash(context);
-        }
-        final data = snap.data!;
-        return MyApp(
-          languages: data.languages,
-          lightTheme: data.light,
-          darkTheme: data.dark,
-        );
-      },
+
+    // Display an error instead of remaining stuck forever.
+    if (_bootError != null) {
+      return _buildErrorScreen();
+    }
+
+    // Keep the same splash widget mounted throughout boot.
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: SplashScreen(
+        key: const ValueKey('bootstrap_pixel_splash'),
+        onCompleted: _onAnimationCompleted,
+      ),
     );
   }
 
-  Widget _buildSplash(BuildContext context) {
+  // ==================== ERROR SCREEN ====================
+
+  Widget _buildErrorScreen() {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.white,
-        body: Center(
-          child: AnimatedOpacity(
-            opacity: _logoReady ? 1 : 0,
-            duration: const Duration(milliseconds: 250),
-            curve: Curves.easeOut,
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                Image.asset(
-                  Images.APP_LOGO,
-                  height: 120,
-                  fit: BoxFit.contain,
-                  gaplessPlayback: true,
-                ),
-                const SizedBox(height: Dimensions.PADDING_SIZE_EXTRA_SMALL),
-                Text(
-                  AppConstants.APP_NAME,
-                  style: robotoMedium.copyWith(
-                    fontSize: Dimensions.FONT_SIZE_OVER_LARGE,
-                    color: Colors.black87,
+        body: SafeArea(
+          child: Center(
+            child: Padding(
+              padding: const EdgeInsets.all(24),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  const Icon(
+                    Icons.error_outline_rounded,
+                    size: 48,
+                    color: Colors.redAccent,
                   ),
-                ),
-              ],
+                  const SizedBox(height: 16),
+                  const Text(
+                    'Unable to initialize application',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+                  ),
+                  const SizedBox(height: 8),
+                  const Text(
+                    'Please close and reopen the application.',
+                    textAlign: TextAlign.center,
+                  ),
+                  if (kDebugMode) ...[
+                    const SizedBox(height: 16),
+                    Text(
+                      _bootError.toString(),
+                      textAlign: TextAlign.center,
+                      style: const TextStyle(fontSize: 12, color: Colors.grey),
+                    ),
+                  ],
+                ],
+              ),
             ),
           ),
         ),
@@ -194,7 +258,9 @@ class MyApp extends StatelessWidget {
           title: AppConstants.APP_NAME,
           debugShowCheckedModeBanner: false,
           navigatorKey: Get.key,
-          themeMode: themeController.darkTheme ? ThemeMode.dark : ThemeMode.light, // ignore: argument_type_not_assignable
+          themeMode: themeController.darkTheme
+              ? ThemeMode.dark
+              : ThemeMode.light, // ignore: argument_type_not_assignable
           locale: loc.locale,
           initialRoute: RouteHelper.bottomNavbar,
           getPages: RouteHelper.routes,

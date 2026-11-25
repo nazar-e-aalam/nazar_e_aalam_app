@@ -69,8 +69,8 @@ class _NofificationDWWidgetState extends State<NofificationDWWidget> {
                 side: BorderSide.none,
               ),
               shape: const RoundedRectangleBorder(side: BorderSide.none),
-              expansionAnimationStyle: AnimationStyle(
-                duration: const Duration(milliseconds: 500),
+              expansionAnimationStyle: const AnimationStyle(
+                duration: Duration(milliseconds: 500),
               ),
               clipBehavior: Clip.antiAlias,
               title: Row(

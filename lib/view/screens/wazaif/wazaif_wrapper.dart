@@ -12,10 +12,7 @@ import 'modern/wazaif_modern.dart';
 class WazaifWrapper extends StatefulWidget {
   final bool? appBackButton;
 
-  const WazaifWrapper({
-    super.key,
-    this.appBackButton,
-  });
+  const WazaifWrapper({super.key, this.appBackButton});
 
   @override
   State<WazaifWrapper> createState() => _WazaifWrapperState();
@@ -25,24 +22,17 @@ class _WazaifWrapperState extends State<WazaifWrapper> {
   @override
   Widget build(BuildContext context) {
     return Obx(() {
-      final layout =
-          Get.find<HomeLayoutController>().currentLayout.value;
+      final layout = Get.find<HomeLayoutController>().currentLayout.value;
 
       final modern = layout == HomeLayoutController.modern;
 
       return AnimatedSwitcher(
         duration: const Duration(milliseconds: 400),
-        transitionBuilder: (child, animation) => FadeTransition(
-          opacity: animation,
-          child: child,
-        ),
+        transitionBuilder: (child, animation) =>
+            FadeTransition(opacity: animation, child: child),
         child: modern
-            ? WazaifModernScreen(
-                key: const ValueKey('modern'),
-              )
-            : WazaifClassicScreen(
-                key: const ValueKey('classic'),
-              ),
+            ? const WazaifModernScreen(key: ValueKey('modern'))
+            : const WazaifClassicScreen(key: ValueKey('classic')),
       );
     });
   }

@@ -29,9 +29,7 @@ class ModernZakatDetaileScreen extends StatelessWidget {
       ),
       body: SafeArea(
         child: ModernGlassPanel(
-          color: dark
-              ? const Color(0x0AFFFFFF)
-              : AppColorModern.glassFill,
+          color: dark ? const Color(0x0AFFFFFF) : AppColorModern.glassFill,
           child: SingleChildScrollView(
             child: Padding(
               padding: const EdgeInsets.all(Dimensions.PADDING_SIZE_DEFAULT),

@@ -90,7 +90,6 @@ class Chapter {
   }
 }
 
-
 class ChapterInfo {
   int? pageNumber;
   List<PageVerses>? pageVerses;
@@ -131,7 +130,6 @@ class ChapterInfo {
     return data;
   }
 }
-
 
 class PageVerses {
   int? id;
@@ -181,7 +179,6 @@ int? parseInt(dynamic value) {
   if (value is int) return value;
   return int.tryParse(value.toString());
 }
-
 
 String? parseString(dynamic value) {
   if (value == null) return null;

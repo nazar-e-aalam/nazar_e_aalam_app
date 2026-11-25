@@ -60,7 +60,7 @@ class FeatureItems {
       titleKey: 'memorable_days',
       icon: Images.Memorable_days,
       route: RouteHelper.memorabledays,
-    ),    
+    ),
     FeatureItem(
       titleKey: 'fateha',
       icon: Images.Fateha,
@@ -82,6 +82,16 @@ class FeatureItems {
     //     icon: Images.Icon_Haram,
     //     route: RouteHelper.haramIngredientsFood),
     FeatureItem(
+      titleKey: 'Namaz',
+      icon: Images.Icon_Namaz,
+      route: RouteHelper.namaz,
+    ),
+    FeatureItem(
+      titleKey: 'Dua Book',
+      icon: Images.Icon_DuaBook,
+      route: RouteHelper.duaBook,
+    ),
+    FeatureItem(
       titleKey: 'alphabet_key',
       icon: Images.Icon_Alif,
       route: RouteHelper.alphabetScreens,
@@ -95,7 +105,7 @@ class FeatureItems {
       titleKey: 'chand',
       icon: Images.Icon_Calender,
       route: RouteHelper.chand,
-    ),    
+    ),
     FeatureItem(
       titleKey: 'wazaif',
       icon: Images.Icon_Dikir,

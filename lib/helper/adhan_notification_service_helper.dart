@@ -47,7 +47,7 @@ class AdhanNotificationServiceImpl implements AdhanNotificationService {
         AndroidInitializationSettings("@mipmap/launcher_icon");
 
     final DarwinInitializationSettings initializationSettingsDarwin =
-        DarwinInitializationSettings(
+        const DarwinInitializationSettings(
           // onDidReceiveLocalNotification: _onDidReceiveLocalNotification,
           requestAlertPermission: true,
           requestBadgePermission: true,
@@ -69,7 +69,7 @@ class AdhanNotificationServiceImpl implements AdhanNotificationService {
         );
 
     await _flutterLocalNotificationsPlugin.initialize(
-      settings:  initializationSettings,
+      settings: initializationSettings,
       onDidReceiveNotificationResponse: _onDidReceiveNotificationResponse,
       onDidReceiveBackgroundNotificationResponse: _notificationTapBackground,
     );
@@ -120,11 +120,14 @@ class AdhanNotificationServiceImpl implements AdhanNotificationService {
       id: id,
       title: title,
       body: body,
-      scheduledDate:  scheduledDate,
-      notificationDetails:  _getNotificationDetails(sound: selectedSound, channel: selectedSound),
+      scheduledDate: scheduledDate,
+      notificationDetails: _getNotificationDetails(
+        sound: selectedSound,
+        channel: selectedSound,
+      ),
       androidScheduleMode: AndroidScheduleMode.exact,
       // uiLocalNotificationDateInterpretation:
-          // UILocalNotificationDateInterpretation.absoluteTime,
+      // UILocalNotificationDateInterpretation.absoluteTime,
       payload: payload,
     );
   }
@@ -222,9 +225,12 @@ class AdhanNotificationServiceImpl implements AdhanNotificationService {
   }) async {
     await _flutterLocalNotificationsPlugin.show(
       id: 0,
-      title:  title,
+      title: title,
       body: body,
-      notificationDetails:  _getNotificationDetails(channel: 'default_channel', sound: 'azan_1'),
+      notificationDetails: _getNotificationDetails(
+        channel: 'default_channel',
+        sound: 'azan_1',
+      ),
       payload: 'Default_Sound',
     );
   }

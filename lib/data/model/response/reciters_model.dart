@@ -1,4 +1,3 @@
-
 class RecitersModel {
   bool? result;
   List<Data>? data;
@@ -33,13 +32,7 @@ class Data {
   String? bitrate;
   String? profilePicture;
 
-  Data({
-    this.id,
-    this.name,
-    this.slug,
-    this.bitrate,
-    this.profilePicture,
-  });
+  Data({this.id, this.name, this.slug, this.bitrate, this.profilePicture});
 
   Data.fromJson(Map<String, dynamic> json) {
     id = json['id'];

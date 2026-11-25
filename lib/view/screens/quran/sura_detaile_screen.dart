@@ -85,7 +85,8 @@ class SuraDetaileScreen extends StatelessWidget {
         vertical: Dimensions.PADDING_SIZE_EXTRA_SMALL,
       ),
       labelPadding: const EdgeInsets.symmetric(
-          horizontal: Dimensions.PADDING_SIZE_EXTRA_SMALL),
+        horizontal: Dimensions.PADDING_SIZE_EXTRA_SMALL,
+      ),
       isScrollable: false,
       indicator: BoxDecoration(
         color: Theme.of(context).primaryColor,
@@ -99,7 +100,9 @@ class SuraDetaileScreen extends StatelessWidget {
   }
 
   Widget _buildNavigationButtons(
-      BuildContext context, QuranController quranController) {
+    BuildContext context,
+    QuranController quranController,
+  ) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 18),
       child: Row(

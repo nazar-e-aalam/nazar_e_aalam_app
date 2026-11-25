@@ -1,4 +1,3 @@
-
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:nazar_e_alam/data/model/mubarak_name_model.dart';

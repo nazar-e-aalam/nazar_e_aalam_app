@@ -107,7 +107,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
               ),
             ),
             const Positioned.fill(
-              child: IgnorePointer(child: GrainOverlay(animate: false,)),
+              child: IgnorePointer(child: GrainOverlay(animate: false)),
             ),
           ],
         ),
@@ -161,5 +161,5 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   }
 
   @override
-  Size get preferredSize => Size(1170, 56);
+  Size get preferredSize => const Size(1170, 56);
 }

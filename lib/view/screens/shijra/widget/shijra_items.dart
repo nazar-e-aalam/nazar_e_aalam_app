@@ -1,12 +1,8 @@
-
 class ShijraItem {
   final String titleKey;
   final String imagePath;
 
-  const ShijraItem({
-    required this.titleKey,
-    required this.imagePath,
-  });
+  const ShijraItem({required this.titleKey, required this.imagePath});
 }
 
 class ShijraItems {

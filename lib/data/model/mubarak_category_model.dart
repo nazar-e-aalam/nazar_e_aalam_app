@@ -1,4 +1,3 @@
-
 class MubarakCategoryEntry {
   final String id;
   final int? number;
@@ -36,10 +35,8 @@ class MubarakCategoryEntry {
 
   bool get isNumberedEntry => type == 'entry' && number != null;
 
-  String localized(String language) =>
-      MubarakCategory.pick(text, language);
+  String localized(String language) => MubarakCategory.pick(text, language);
 }
-
 
 class MubarakCategory {
   final String id;
@@ -56,20 +53,11 @@ class MubarakCategory {
     required this.entries,
   });
 
-  static const languages = {
-    'en',
-    'gu',
-    'hi',
-    'sw',
-    'ar',
-    'ur',
-  };
+  static const languages = {'en', 'gu', 'hi', 'sw', 'ar', 'ur'};
 
   static Map<String, String> localizedMap(dynamic value) {
     if (value is! Map) {
-      throw const FormatException(
-        'Expected a language map',
-      );
+      throw const FormatException('Expected a language map');
     }
 
     final result = <String, String>{};
@@ -78,9 +66,7 @@ class MubarakCategory {
       final text = value[lang];
 
       if (text is! String || text.trim().isEmpty) {
-        throw FormatException(
-          'Missing or empty translation for $lang',
-        );
+        throw FormatException('Missing or empty translation for $lang');
       }
 
       result[lang] = text;
@@ -89,49 +75,30 @@ class MubarakCategory {
     return Map.unmodifiable(result);
   }
 
-  static String pick(
-    Map<String, String> values,
-    String language,
-  ) {
-    final normalized = language == 'guj'
-        ? 'gu'
-        : language;
+  static String pick(Map<String, String> values, String language) {
+    final normalized = language == 'guj' ? 'gu' : language;
 
-    return values[normalized] ??
-        values['gu'] ??
-        values['en'] ??
-        '';
+    return values[normalized] ?? values['gu'] ?? values['en'] ?? '';
   }
 
-  factory MubarakCategory.fromJson(
-    Map<String, dynamic> json,
-  ) {
+  factory MubarakCategory.fromJson(Map<String, dynamic> json) {
     final raw = json['entries'];
 
     if (raw is! List) {
-      throw const FormatException(
-        'Category entries must be a list',
-      );
+      throw const FormatException('Category entries must be a list');
     }
 
     final entries = <MubarakCategoryEntry>[];
 
     for (var index = 0; index < raw.length; index++) {
-      final entry = Map<String, dynamic>.from(
-        raw[index] as Map,
-      );
+      final entry = Map<String, dynamic>.from(raw[index] as Map);
 
       entries.add(
-        MubarakCategoryEntry.fromJson(
-          entry,
-          fallbackOrder: index + 1,
-        ),
+        MubarakCategoryEntry.fromJson(entry, fallbackOrder: index + 1),
       );
     }
 
-    entries.sort(
-      (a, b) => a.order.compareTo(b.order),
-    );
+    entries.sort((a, b) => a.order.compareTo(b.order));
 
     return MubarakCategory(
       id: json['id'].toString(),
@@ -142,9 +109,7 @@ class MubarakCategory {
     );
   }
 
-  String localizedTitle(String language) =>
-      pick(title, language);
+  String localizedTitle(String language) => pick(title, language);
 
-  String localizedHeading(String language) =>
-      pick(heading, language);
+  String localizedHeading(String language) => pick(heading, language);
 }

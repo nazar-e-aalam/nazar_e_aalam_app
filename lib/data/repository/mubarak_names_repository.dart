@@ -1,14 +1,9 @@
-
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
 import 'package:nazar_e_alam/data/model/mubarak_name_model.dart';
 
-enum MubarakNamesCategory {
-  allah,
-  muhammad,
-  ghaus,
-}
+enum MubarakNamesCategory { allah, muhammad, ghaus }
 
 extension MubarakNamesCategoryExtension on MubarakNamesCategory {
   String get assetPath {
@@ -34,22 +29,16 @@ extension MubarakNamesCategoryExtension on MubarakNamesCategory {
 }
 
 class MubarakNamesRepository {
-  Future<List<MubarakName>> load(
-    MubarakNamesCategory category,
-  ) async {
+  Future<List<MubarakName>> load(MubarakNamesCategory category) async {
     final source = await rootBundle.loadString(category.assetPath);
     final decoded = jsonDecode(source);
 
     if (decoded is! List) {
-      throw const FormatException(
-        'Mubarak Names JSON must contain a list.',
-      );
+      throw const FormatException('Mubarak Names JSON must contain a list.');
     }
 
     final names = decoded.map((item) {
-      return MubarakName.fromJson(
-        Map<String, dynamic>.from(item as Map),
-      );
+      return MubarakName.fromJson(Map<String, dynamic>.from(item as Map));
     }).toList();
 
     if (names.length != category.expectedCount) {

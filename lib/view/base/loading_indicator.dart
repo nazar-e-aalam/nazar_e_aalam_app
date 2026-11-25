@@ -12,9 +12,6 @@ class LoadingIndicator extends StatelessWidget {
     final widget = (Platform.isAndroid)
         ? const CircularProgressIndicator()
         : const CupertinoActivityIndicator();
-    return Container(
-      alignment: Alignment.center,
-      child: widget,
-    );
+    return Container(alignment: Alignment.center, child: widget);
   }
 }

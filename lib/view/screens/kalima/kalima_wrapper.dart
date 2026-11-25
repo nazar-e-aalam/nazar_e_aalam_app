@@ -12,25 +12,19 @@ import 'modern/modern_kalima_screen.dart';
 class KalimaWrapper extends StatelessWidget {
   final bool appBackButton;
 
-  const KalimaWrapper({
-    super.key,
-    required this.appBackButton,
-  });
+  const KalimaWrapper({super.key, required this.appBackButton});
 
   @override
   Widget build(BuildContext context) {
     return Obx(() {
       final modern =
           Get.find<HomeLayoutController>().currentLayout.value ==
-              HomeLayoutController.modern;
+          HomeLayoutController.modern;
 
       return AnimatedSwitcher(
         duration: const Duration(milliseconds: 400),
         transitionBuilder: (child, animation) =>
-            FadeTransition(
-              opacity: animation,
-              child: child,
-            ),
+            FadeTransition(opacity: animation, child: child),
         child: modern
             ? ModernKalimaScreen(
                 key: const ValueKey('modern'),

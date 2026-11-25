@@ -62,7 +62,7 @@ class _ModernSettingsScreenState extends State<ModernSettingsScreen> {
     final dark = Theme.of(context).brightness == Brightness.dark;
     final modern =
         Get.find<HomeLayoutController>().currentLayout.value ==
-            HomeLayoutController.modern;
+        HomeLayoutController.modern;
     final bottomPad = (modern && !widget.appBackButton) ? 120.0 : 16.0;
 
     return Scaffold(
@@ -80,9 +80,7 @@ class _ModernSettingsScreenState extends State<ModernSettingsScreen> {
             final storeUrl = _storeUrl(settingsController);
 
             return ModernGlassPanel(
-              color: dark
-                  ? const Color(0x0AFFFFFF)
-                  : AppColorModern.glassFill,
+              color: dark ? const Color(0x0AFFFFFF) : AppColorModern.glassFill,
               child: SingleChildScrollView(
                 padding: EdgeInsets.fromLTRB(
                   Dimensions.PADDING_SIZE_EXTRA_SMALL,

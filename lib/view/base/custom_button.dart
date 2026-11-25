@@ -53,7 +53,8 @@ class CustomButton extends StatelessWidget {
             child: Padding(
               padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 16),
               child: Center(
-                child: buttonLoderWidget ??
+                child:
+                    buttonLoderWidget ??
                     Text(
                       buttonName.tr,
                       textAlign: TextAlign.center,

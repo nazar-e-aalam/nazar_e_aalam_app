@@ -50,9 +50,7 @@ class _ModernAllHadithScreenState extends State<ModernAllHadithScreen> {
       body: GetBuilder<HadithController>(
         builder: (_) {
           if (_controller.isLoadingHadith.value) {
-            return const SafeArea(
-              child: Center(child: HadisChapterShimmer()),
-            );
+            return const SafeArea(child: Center(child: HadisChapterShimmer()));
           }
 
           final data = _controller.hadithModel?.hadiths?.data;
@@ -69,9 +67,7 @@ class _ModernAllHadithScreenState extends State<ModernAllHadithScreen> {
 
           return SafeArea(
             child: ModernGlassPanel(
-              color: dark
-                  ? const Color(0x0AFFFFFF)
-                  : AppColorModern.glassFill,
+              color: dark ? const Color(0x0AFFFFFF) : AppColorModern.glassFill,
               child: Column(
                 children: [
                   // Header card with book info + count
@@ -89,7 +85,8 @@ class _ModernAllHadithScreenState extends State<ModernAllHadithScreen> {
                       ),
                       itemBuilder: (context, index) {
                         final item = data[index];
-                        final writer = item.book?.writerName ??
+                        final writer =
+                            item.book?.writerName ??
                             "${"writer".tr}: ${item.englishNarrator ?? ""}";
                         return ModernListItem(
                           key: ValueKey('hadith_${item.id}_$index'),
@@ -136,10 +133,7 @@ class _ModernAllHadithScreenState extends State<ModernAllHadithScreen> {
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
             colors: dark
-                ? [
-                    const Color(0xFF2B1D13),
-                    const Color(0xFF3A2E24),
-                  ]
+                ? [const Color(0xFF2B1D13), const Color(0xFF3A2E24)]
                 : [
                     Theme.of(context).primaryColor,
                     AppColorModern.primaryColorDark,
@@ -174,7 +168,9 @@ class _ModernAllHadithScreenState extends State<ModernAllHadithScreen> {
                     borderRadius: BorderRadius.circular(14),
                     boxShadow: [
                       BoxShadow(
-                        color: Theme.of(context).primaryColor.withValues(alpha: 0.35),
+                        color: Theme.of(
+                          context,
+                        ).primaryColor.withValues(alpha: 0.35),
                         blurRadius: 20,
                         offset: const Offset(0, 8),
                       ),

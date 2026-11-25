@@ -1,4 +1,3 @@
-
 class DuaDetailsModel {
   Data? data;
 
@@ -8,16 +7,12 @@ class DuaDetailsModel {
     final rawData = json['data'] ?? json;
 
     if (rawData is Map && rawData['id'] != null) {
-      data = Data.fromJson(
-        Map<String, dynamic>.from(rawData),
-      );
+      data = Data.fromJson(Map<String, dynamic>.from(rawData));
     }
   }
 
   Map<String, dynamic> toJson() {
-    return {
-      'data': data?.toJson(),
-    };
+    return {'data': data?.toJson()};
   }
 }
 

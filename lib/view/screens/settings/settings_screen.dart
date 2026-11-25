@@ -57,7 +57,8 @@ class _SettingsScreenState extends State<SettingsScreen> {
   @override
   Widget build(BuildContext context) {
     // As a tab in modern layout the page sits behind the floating glass bar.
-    final modern = Get.find<HomeLayoutController>().currentLayout.value ==
+    final modern =
+        Get.find<HomeLayoutController>().currentLayout.value ==
         HomeLayoutController.modern;
     final bottomPad = (modern && !widget.appBackButton) ? 120.0 : 16.0;
 

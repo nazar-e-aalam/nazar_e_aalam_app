@@ -67,8 +67,7 @@ class QuranMilestoneController extends GetxController implements GetxService {
     );
   }
 
-  double get progressRatio =>
-      dailyGoal.value <= 0
+  double get progressRatio => dailyGoal.value <= 0
       ? 0
       : (pagesReadToday.value / dailyGoal.value).clamp(0, 1);
 }

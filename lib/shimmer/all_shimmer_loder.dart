@@ -2105,23 +2105,15 @@ class ChandShimmer extends StatelessWidget {
             Container(
               height: 80,
               width: 80,
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: Colors.white,
                 shape: BoxShape.circle,
               ),
             ),
             const SizedBox(height: 16),
-            Container(
-              height: 20,
-              width: 150,
-              color: Colors.white,
-            ),
+            Container(height: 20, width: 150, color: Colors.white),
             const SizedBox(height: 8),
-            Container(
-              height: 15,
-              width: 200,
-              color: Colors.white,
-            ),
+            Container(height: 15, width: 200, color: Colors.white),
             const SizedBox(height: 30),
             Container(
               width: double.infinity,
@@ -2168,17 +2160,13 @@ class ChandShimmer extends StatelessWidget {
                   Container(
                     height: 16,
                     width: 16,
-                    decoration: BoxDecoration(
+                    decoration: const BoxDecoration(
                       color: Colors.white,
                       shape: BoxShape.circle,
                     ),
                   ),
                   const SizedBox(width: 6),
-                  Container(
-                    height: 14,
-                    width: 100,
-                    color: Colors.white,
-                  ),
+                  Container(height: 14, width: 100, color: Colors.white),
                 ],
               ),
             ),

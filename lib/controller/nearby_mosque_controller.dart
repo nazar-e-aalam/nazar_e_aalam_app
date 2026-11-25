@@ -1,64 +1,95 @@
-// ignore_for_file: deprecated_member_use
-
-import 'dart:async';
-
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:get/get.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:permission_handler/permission_handler.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:nazar_e_alam/util/app_constants.dart';
-import 'package:nazar_e_alam/view/base/custom_snackbar.dart';
 import 'package:nazar_e_alam/data/api/api_client.dart';
+import 'package:nazar_e_alam/data/model/response/nearby_mosque_model.dart';
 
 class NearbyMosqueController extends GetxController {
-  GlobalKey<FormState> nearbyMosqueFormKey = GlobalKey<FormState>();
   final ApiClient apiClient;
+
   NearbyMosqueController({required this.apiClient});
 
-  // Location
-  var location = '';
+  // ==================== LOCATION ====================
+
   double? latitude;
   double? longitude;
 
-  RxString currentAddress = '--'.obs;
-  StreamSubscription<Position>? streamSubscription;
-  late LocationSettings locationSettings;
+  final RxString userLocation = ''.obs;
 
-  RxBool isLocationDenied = false.obs;
+  final RxBool isLocationLoading = true.obs;
+  final RxBool isLocationDenied = false.obs;
+  final RxBool isLocationServiceDisabled = false.obs;
 
-  // Existing UI state
-  var userLocation = ''.obs;
-  var places = <dynamic>[].obs;
-  RxBool isLoading = false.obs;
+  final RxString locationError = ''.obs;
 
-  List<String> splitKm = [];
-  int kmToRadious = 2;
-  var km = '2  KM'.obs;
+  // ==================== MOSQUES ====================
 
-  // bool _requestInProgress = false;
+  final RxList<MosqueModel> places = <MosqueModel>[].obs;
+
+  final Rxn<NearbyMosqueModel> nearbyMosqueModel = Rxn<NearbyMosqueModel>();
+
+  final RxBool isLoading = false.obs;
+  final RxString errorMessage = ''.obs;
+
+  // ==================== RADIUS ====================
+
+  final RxInt radiusKm = 2.obs;
+
+  static const List<int> availableRadii = [1, 2, 3, 4, 5];
+
+  // Prevent outdated responses from updating the UI.
+  int _requestId = 0;
+
+  bool get hasLocation => latitude != null && longitude != null;
 
   @override
   void onInit() {
     super.onInit();
-    loadKmDropdownValue(km.value);
+    getLocation();
   }
 
   @override
   void onClose() {
-    streamSubscription?.cancel();
+    _requestId++;
     super.onClose();
   }
 
-  Future<void> getLocation() async {
-    final prefs = await SharedPreferences.getInstance();
+  // ==================== GET LOCATION ====================
+
+  Future<void> getLocation({bool forceRefresh = false}) async {
+    if (isClosed) return;
+
+    // Invalidate any previous mosque request.
+    _requestId++;
+
+    isLocationLoading.value = true;
+    isLoading.value = false;
+
+    isLocationDenied.value = false;
+    isLocationServiceDisabled.value = false;
+
+    locationError.value = '';
+    errorMessage.value = '';
+
+    latitude = null;
+    longitude = null;
+    userLocation.value = '';
+
+    places.clear();
+    nearbyMosqueModel.value = null;
 
     try {
+      final prefs = await SharedPreferences.getInstance();
+
       final serviceEnabled = await Geolocator.isLocationServiceEnabled();
 
+      if (isClosed) return;
+
       if (!serviceEnabled) {
-        await Geolocator.openLocationSettings();
+        isLocationServiceDisabled.value = true;
         return;
       }
 
@@ -68,22 +99,17 @@ class NearbyMosqueController extends GetxController {
         permission = await Geolocator.requestPermission();
       }
 
-      if (permission == LocationPermission.denied ||
-          permission == LocationPermission.deniedForever) {
-        isLocationDenied.value = true;
-        await prefs.setBool('isLocationDenied', true);
+      if (isClosed) return;
 
-        showCustomSnackBar(
-          'for_getting_Automatic_Prayer_Time_Nearby_Mosque_Qibla_Compass_need_to_enable_location_permission'
-              .tr,
-          isError: true,
-          onTap: () => openAppSettings(),
-        );
-        return;
-      }
+      final denied =
+          permission == LocationPermission.denied ||
+          permission == LocationPermission.deniedForever;
 
-      isLocationDenied.value = false;
-      await prefs.setBool('isLocationDenied', false);
+      isLocationDenied.value = denied;
+
+      await prefs.setBool('isLocationDenied', denied);
+
+      if (isClosed || denied) return;
 
       final position = await Geolocator.getCurrentPosition(
         locationSettings: const LocationSettings(
@@ -92,176 +118,183 @@ class NearbyMosqueController extends GetxController {
         ),
       );
 
+      if (isClosed) return;
+
       latitude = position.latitude;
       longitude = position.longitude;
 
       userLocation.value = '$latitude,$longitude';
 
-      await searchNearbyPlaces();
-      update();
+      await searchNearbyPlaces(forceRefresh: forceRefresh);
     } catch (e) {
       debugPrint('Nearby Mosque Location Error: $e');
 
-      showCustomSnackBar(
-        'Unable to get your location. Please try again.',
-        isError: true,
-      );
+      if (!isClosed) {
+        locationError.value = 'Unable to get your location. Please try again.';
+      }
+    } finally {
+      if (!isClosed) {
+        isLocationLoading.value = false;
+      }
     }
   }
 
-  Future<void> searchNearbyPlaces() async {
-    if (isLoading.value) return;
+  // ==================== SEARCH MOSQUES ====================
+
+  Future<void> searchNearbyPlaces({bool forceRefresh = false}) async {
+    if (isClosed) return;
 
     final userLat = latitude;
     final userLon = longitude;
-    final radiusKm = kmToRadious;
 
     if (userLat == null || userLon == null) {
-      debugPrint('Nearby Mosque: Location unavailable');
       return;
     }
 
+    final selectedRadius = radiusKm.value;
+    final requestId = ++_requestId;
+
     isLoading.value = true;
-    update();
+    errorMessage.value = '';
+
+    places.clear();
+    nearbyMosqueModel.value = null;
 
     try {
-      final radiusMeters = radiusKm * 1000;
-
       final response = await apiClient.getData(
-        Endpoints.NEARBY_MOSQUE_URL,
+        Endpoints.NEARBY_MOSQUE,
         query: {
-          'lat': userLat.toString(),
-          'lon': userLon.toString(),
-          'radius_m': radiusMeters.toString(),
+          'lat': userLat,
+          'lon': userLon,
+          'radius_m': selectedRadius * 1000,
         },
+        cacheDuration: const Duration(minutes: 15),
+        forceRefresh: forceRefresh,
+        offlineFallback: false,
       );
 
+      // Ignore outdated or disposed requests.
+      if (isClosed || requestId != _requestId) {
+        return;
+      }
+
       if (response.statusCode != 200) {
-        debugPrint('Nearby Mosque API Error: ${response.statusCode}');
+        errorMessage.value =
+            response.statusText ?? 'Unable to load nearby mosques';
+
         return;
       }
 
       final body = response.body;
 
-      List<dynamic> results;
-
-      if (body is List) {
-        results = body;
-      } else if (body is Map) {
-        final mosques = body['mosques'] ?? body['results'] ?? body['data'];
-
-        if (mosques is! List) {
-          throw const FormatException(
-            'Invalid nearby mosque response structure',
-          );
-        }
-
-        results = mosques;
-      } else {
-        throw const FormatException('Invalid nearby mosque API response');
+      if (body is! Map) {
+        throw const FormatException('Invalid nearby mosque response');
       }
 
-      final List<Map<String, dynamic>> processedMosques = [];
+      final model = NearbyMosqueModel.fromJson(Map<String, dynamic>.from(body));
 
-      for (final item in results) {
-        if (item is! Map) continue;
+      final List<MosqueModel> processedMosques = [];
 
-        final mosque = Map<String, dynamic>.from(item);
-
-        final mosqueLat = mosque['lat'];
-        final mosqueLon = mosque['lon'];
-
-        if (mosqueLat is! num || mosqueLon is! num) {
+      for (final mosque in model.mosques) {
+        if (!mosque.hasValidCoordinates) {
           continue;
         }
 
-        final lat = mosqueLat.toDouble();
-        final lon = mosqueLon.toDouble();
-
-        if (!lat.isFinite ||
-            !lon.isFinite ||
-            lat < -90 ||
-            lat > 90 ||
-            lon < -180 ||
-            lon > 180) {
-          continue;
-        }
-
-        // Calculate straight-line distance in kilometers.
+        // Straight-line distance in kilometers.
         final distanceKm =
-            Geolocator.distanceBetween(userLat, userLon, lat, lon) / 1000.0;
+            Geolocator.distanceBetween(
+              userLat,
+              userLon,
+              mosque.lat!,
+              mosque.lon!,
+            ) /
+            1000.0;
 
-        // Ensure results are within the selected radius.
-        if (distanceKm > radiusKm) {
+        // Enforce the selected radius locally.
+        if (distanceKm > selectedRadius) {
           continue;
         }
 
-        // Preserve original backend fields.
-        mosque['distance_km'] = distanceKm;
-
-        // Compatibility with existing Google Places UI.
-        mosque['vicinity'] = mosque['address'] ?? '';
-
-        mosque['geometry'] = {
-          'location': {'lat': lat, 'lng': lon},
-        };
-
-        processedMosques.add(mosque);
+        processedMosques.add(mosque.copyWith(distanceKm: distanceKm));
       }
 
-      // Sort nearest first.
-      processedMosques.sort((a, b) {
-        final distanceA = (a['distance_km'] as num).toDouble();
+      // Nearest mosque first.
+      processedMosques.sort((a, b) => a.distanceKm!.compareTo(b.distanceKm!));
 
-        final distanceB = (b['distance_km'] as num).toDouble();
-
-        return distanceA.compareTo(distanceB);
-      });
-
-      // Prevent an older request from replacing results
-      // after the user has selected another radius.
-      if (radiusKm != kmToRadious ||
-          userLat != latitude ||
-          userLon != longitude) {
-        debugPrint(
-          'Nearby Mosque: Search parameters changed, '
-          'discarding outdated results',
-        );
+      if (isClosed || requestId != _requestId) {
         return;
       }
+
+      nearbyMosqueModel.value = NearbyMosqueModel(
+        source: model.source,
+        count: processedMosques.length,
+        mosques: processedMosques,
+      );
 
       places.assignAll(processedMosques);
 
       debugPrint(
-        'Nearby Mosque: '
-        '${results.length} received, '
-        '${processedMosques.length} within '
-        '$radiusKm KM',
+        'Nearby Mosque | '
+        'Source: ${model.source} | '
+        'Received: ${model.count} | '
+        'Displayed: ${processedMosques.length} | '
+        'Radius: $selectedRadius KM',
       );
     } catch (e) {
-      debugPrint('Nearby Mosque Error: $e');
+      debugPrint('Nearby Mosque API Error: $e');
+
+      if (!isClosed && requestId == _requestId) {
+        errorMessage.value = 'Unable to load nearby mosques. Please try again.';
+      }
     } finally {
-      isLoading.value = false;
-      update();
+      // An older request must not stop a newer shimmer.
+      if (!isClosed && requestId == _requestId) {
+        isLoading.value = false;
+      }
     }
   }
 
-  void loadKmDropdownValue(String newValue) {
-    km.value = newValue;
+  // ==================== CHANGE RADIUS ====================
 
-    splitKm = newValue.trim().split(RegExp(r'\s+'));
-
-    final parsedKm = int.tryParse(splitKm.first);
-
-    if (parsedKm != null && parsedKm > 0) {
-      kmToRadious = parsedKm;
+  Future<void> changeRadius(int newRadius) async {
+    if (isClosed ||
+        !availableRadii.contains(newRadius) ||
+        radiusKm.value == newRadius) {
+      return;
     }
 
-    update();
+    radiusKm.value = newRadius;
 
-    // Refresh only if location is already available.
-    if (latitude != null && longitude != null) {
-      searchNearbyPlaces();
+    if (hasLocation) {
+      await searchNearbyPlaces();
     }
+  }
+
+  // ==================== REFRESH ====================
+
+  Future<void> refreshMosques() async {
+    if (isLocationLoading.value) return;
+
+    if (hasLocation) {
+      await searchNearbyPlaces(forceRefresh: true);
+    } else {
+      await getLocation(forceRefresh: true);
+    }
+  }
+
+  Future<void> refreshLocation() async {
+    if (isLocationLoading.value) return;
+
+    await getLocation(forceRefresh: true);
+  }
+
+  // ==================== SETTINGS ====================
+
+  Future<void> openLocationSettings() async {
+    await Geolocator.openLocationSettings();
+  }
+
+  Future<void> openPermissionSettings() async {
+    await Geolocator.openAppSettings();
   }
 }

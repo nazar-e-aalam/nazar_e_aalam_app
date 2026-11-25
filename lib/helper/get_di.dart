@@ -53,7 +53,10 @@ Future<Map<String, Map<String, String>>> init(
 ) async {
   Get.lazyPut(() => sharedPreferences);
   await Get.putAsync<DeviceAuthService>(
-    () => DeviceAuthService(baseUrl: AppConstants.API_BASE_URL, debugMode: true).init(),
+    () => DeviceAuthService(
+      baseUrl: AppConstants.API_BASE_URL,
+      debugMode: true,
+    ).init(),
     permanent: true,
   );
   await Get.putAsync<ApiCacheService>(
@@ -135,10 +138,7 @@ Future<Map<String, Map<String, String>>> init(
   Get.lazyPut(() => SplashController(splashRepo: Get.find()));
   Get.lazyPut(() => HadithController());
   Get.lazyPut(() => NearbyMosqueController(apiClient: Get.find()));
-  Get.lazyPut(
-    () => SettingsController(),
-    fenix: true,
-  );
+  Get.lazyPut(() => SettingsController(), fenix: true);
   Get.lazyPut(() => BookMarkController());
   Get.lazyPut(() => ZakatCalculatorController());
   Get.lazyPut<ChandController>(

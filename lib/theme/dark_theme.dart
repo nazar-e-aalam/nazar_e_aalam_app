@@ -24,21 +24,21 @@ ThemeData dark = ThemeData(
 class AppColor {
   static const int primarySwatchValue = 0xFFF26B21;
 
-  static const Color primaryColor      = Color(0xFFF26B21);
+  static const Color primaryColor = Color(0xFFF26B21);
   static const Color scaffoldBackground = Color(0xFF15100C);
-  static const Color cardColor          = Color(0xFF221A14);
+  static const Color cardColor = Color(0xFF221A14);
 
   static const MaterialColor primarySwatchValueColor =
       MaterialColor(primarySwatchValue, <int, Color>{
-    50:  Color(0xFFFFF3EA),
-    100: Color(0xFFFFE0CB),
-    200: Color(0xFFFFC299),
-    300: Color(0xFFFFA066),
-    400: Color(0xFFFF8A4C),
-    500: Color(0xFFF26B21),
-    600: Color(0xFFDB5E1A),
-    700: Color(0xFFC9540F),
-    800: Color(0xFFA2430C),
-    900: Color(0xFF7A3309),
-  });
+        50: Color(0xFFFFF3EA),
+        100: Color(0xFFFFE0CB),
+        200: Color(0xFFFFC299),
+        300: Color(0xFFFFA066),
+        400: Color(0xFFFF8A4C),
+        500: Color(0xFFF26B21),
+        600: Color(0xFFDB5E1A),
+        700: Color(0xFFC9540F),
+        800: Color(0xFFA2430C),
+        900: Color(0xFF7A3309),
+      });
 }

@@ -17,72 +17,70 @@ class ApiDuaListWidgets extends StatelessWidget {
       builder: (duaListController) {
         return duaListController.isDuaListLoading.value ||
                 duaListController.duaApiData == null
-            ? const Center(
-                child: DhuaShimmer(),
-              )
+            ? const Center(child: DhuaShimmer())
             : duaListController.duaApiData!.data!.isEmpty
-                ? Center(
-                    child: Text(
-                      "no_data_found".tr,
-                      style: robotoMedium.copyWith(
-                          fontSize: Dimensions.FONT_SIZE_LARGE),
-                    ),
-                  )
-                : SingleChildScrollView(
-                    child: ListView.builder(
-                      primary: false,
-                      shrinkWrap: true,
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: Dimensions.PADDING_SIZE_EXTRA_SMALL),
-                      itemCount: duaListController.duaApiData!.data!.length,
-                      itemBuilder: (context, index) {
-                        var apiData =
-                            duaListController.duaApiData!.data![index];
-                        return GestureDetector(
-                          onTap: () {
-                            var duaDetailsController =
-                                Get.find<DuaController>();
-                            duaDetailsController.fetchDuaDetailsData(
-                                duaId: apiData.id.toString());
+            ? Center(
+                child: Text(
+                  "no_data_found".tr,
+                  style: robotoMedium.copyWith(
+                    fontSize: Dimensions.FONT_SIZE_LARGE,
+                  ),
+                ),
+              )
+            : SingleChildScrollView(
+                child: ListView.builder(
+                  primary: false,
+                  shrinkWrap: true,
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: Dimensions.PADDING_SIZE_EXTRA_SMALL,
+                  ),
+                  itemCount: duaListController.duaApiData!.data!.length,
+                  itemBuilder: (context, index) {
+                    var apiData = duaListController.duaApiData!.data![index];
+                    return GestureDetector(
+                      onTap: () {
+                        var duaDetailsController = Get.find<DuaController>();
+                        duaDetailsController.fetchDuaDetailsData(
+                          duaId: apiData.id.toString(),
+                        );
 
-                            Get.toNamed(RouteHelper.duaView);
-                          },
-                          child: Card(
-                            clipBehavior: Clip.antiAlias,
-                            color: Theme.of(context).cardColor,
-                            shadowColor: Get.isDarkMode
-                                ? Colors.grey[800]!
-                                : Colors.grey[200]!,
-                            child: ListTile(
-                              contentPadding:
-                                  const EdgeInsetsDirectional.symmetric(
-                                      horizontal:
-                                          Dimensions.PADDING_SIZE_DEFAULT),
-                              title: Text(
-                                apiData.enShortName.toString(),
-                                style: robotoMedium.copyWith(
-                                    fontSize: Dimensions.FONT_SIZE_LARGE),
-                              ),
-                              subtitle: Text(
-                                apiData.arShortName.toString(),
-                                style: Get.find<SettingsController>()
-                                    .selectedArabicFont
-                                    .copyWith(
+                        Get.toNamed(RouteHelper.duaView);
+                      },
+                      child: Card(
+                        clipBehavior: Clip.antiAlias,
+                        color: Theme.of(context).cardColor,
+                        shadowColor: Get.isDarkMode
+                            ? Colors.grey[800]!
+                            : Colors.grey[200]!,
+                        child: ListTile(
+                          contentPadding: const EdgeInsetsDirectional.symmetric(
+                            horizontal: Dimensions.PADDING_SIZE_DEFAULT,
+                          ),
+                          title: Text(
+                            apiData.enShortName.toString(),
+                            style: robotoMedium.copyWith(
+                              fontSize: Dimensions.FONT_SIZE_LARGE,
+                            ),
+                          ),
+                          subtitle: Text(
+                            apiData.arShortName.toString(),
+                            style: Get.find<SettingsController>()
+                                .selectedArabicFont
+                                .copyWith(
                                   fontSize: Get.find<SettingsController>()
                                       .arabicFontSize
                                       .value,
-                                  color: Theme.of(context)
-                                      .textTheme
-                                      .bodyLarge!
-                                      .color,
+                                  color: Theme.of(
+                                    context,
+                                  ).textTheme.bodyLarge!.color,
                                 ),
-                              ),
-                            ),
                           ),
-                        );
-                      },
-                    ),
-                  );
+                        ),
+                      ),
+                    );
+                  },
+                ),
+              );
       },
     );
   }

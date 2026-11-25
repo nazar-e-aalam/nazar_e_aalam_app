@@ -10,10 +10,7 @@ import 'kalima_details_screen.dart';
 class KalimaScreen extends StatelessWidget {
   final bool? appBackButton;
 
-  const KalimaScreen({
-    super.key,
-    this.appBackButton,
-  });
+  const KalimaScreen({super.key, this.appBackButton});
 
   @override
   Widget build(BuildContext context) {
@@ -25,9 +22,7 @@ class KalimaScreen extends StatelessWidget {
       body: SafeArea(
         child: KalimaListContent(
           onSelected: (kalima) {
-            Get.to(
-              () => KalimaDetailsScreen(kalima: kalima),
-            );
+            Get.to(() => KalimaDetailsScreen(kalima: kalima));
           },
         ),
       ),

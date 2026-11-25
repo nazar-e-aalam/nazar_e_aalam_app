@@ -114,7 +114,7 @@ class WallPaperController extends GetxController implements GetxService {
       final response = await wallpaperRepo.getWallpaperLisRepo(
         skip: skip,
         limit: 50,
-        refresh: refresh
+        refresh: refresh,
       );
 
       if (response.statusCode != 200) {

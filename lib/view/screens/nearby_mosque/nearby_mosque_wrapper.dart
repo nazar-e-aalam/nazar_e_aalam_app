@@ -24,10 +24,8 @@ class _NearbyMosqueWrapperState extends State<NearbyMosqueWrapper> {
       final modern = layout == HomeLayoutController.modern;
       return AnimatedSwitcher(
         duration: const Duration(milliseconds: 400),
-        transitionBuilder: (child, animation) => FadeTransition(
-          opacity: animation,
-          child: child,
-        ),
+        transitionBuilder: (child, animation) =>
+            FadeTransition(opacity: animation, child: child),
         child: modern
             ? ModernNearbyMosqueScreen(
                 key: const ValueKey('modern'),

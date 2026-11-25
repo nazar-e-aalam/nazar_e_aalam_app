@@ -25,10 +25,8 @@ class _SuraListWrapperState extends State<SuraListWrapper> {
       final modern = layout == HomeLayoutController.modern;
       return AnimatedSwitcher(
         duration: const Duration(milliseconds: 400),
-        transitionBuilder: (child, animation) => FadeTransition(
-          opacity: animation,
-          child: child,
-        ),
+        transitionBuilder: (child, animation) =>
+            FadeTransition(opacity: animation, child: child),
         child: modern
             ? ModernSuraListScreen(
                 key: const ValueKey('modern'),

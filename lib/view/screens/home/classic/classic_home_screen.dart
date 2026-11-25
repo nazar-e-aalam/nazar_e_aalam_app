@@ -37,9 +37,7 @@ class ClassicHomeScreen extends StatelessWidget {
       builder: (settingsController) {
         return GetBuilder<PrayerTimeController>(
           builder: (prayerTimeController) {
-            final isLoading = _isLoadingState(
-              prayerTimeController,
-            );
+            final isLoading = _isLoadingState(prayerTimeController);
             // final mosqueData = settingsController.mosqueSettingsApiData?.data;
 
             return Scaffold(
@@ -57,9 +55,7 @@ class ClassicHomeScreen extends StatelessWidget {
     );
   }
 
-  bool _isLoadingState(
-    PrayerTimeController prayerTimeController,
-  ) {
+  bool _isLoadingState(PrayerTimeController prayerTimeController) {
     return prayerTimeController.isprayerTimeLoading.value;
   }
 
@@ -133,9 +129,9 @@ class ClassicHomeScreen extends StatelessWidget {
           // Breathing room under the rounded app bar.
           const SizedBox(height: 12),
           const BannerWidget(),
-          const SizedBox(height: 16),
+          const SizedBox(height: 8),
           _buildPrayerTimesSection(),
-          const SizedBox(height: 24),
+          const SizedBox(height: 10),
           const FeatureGrid(modern: false, bottomPadding: 24),
         ],
       ),
@@ -155,8 +151,8 @@ class ClassicHomeScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              _buildPrayerTimesHeader(controller),
-              const SizedBox(height: 12),
+              // _buildPrayerTimesHeader(controller),
+              // const SizedBox(height: 12),
               _buildPrayerTimesGrid(prayerData, is24HourFormat),
             ],
           ),
@@ -165,32 +161,32 @@ class ClassicHomeScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildPrayerTimesHeader(PrayerTimeController controller) {
-    return Obx(
-      () => Row(
-        children: [
-          Container(
-            width: 4,
-            height: 18,
-            decoration: BoxDecoration(
-              color: Theme.of(Get.context!).primaryColor,
-              borderRadius: BorderRadius.circular(4),
-            ),
-          ),
-          const SizedBox(width: 8),
-          Expanded(
-            child: Text(
-              "${"todays_Prayer_Time_in".tr} ${controller.saveAddress.value.isNotEmpty ? controller.saveAddress.value : controller.currentAddressFull.value}",
-              style: robotoBold.copyWith(
-                fontSize: Dimensions.FONT_SIZE_LARGE,
-                color: Theme.of(Get.context!).textTheme.bodyMedium?.color,
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
+  // Widget _buildPrayerTimesHeader(PrayerTimeController controller) {
+  //   return Obx(
+  //     () => Row(
+  //       children: [
+  //         Container(
+  //           width: 4,
+  //           height: 18,
+  //           decoration: BoxDecoration(
+  //             color: Theme.of(Get.context!).primaryColor,
+  //             borderRadius: BorderRadius.circular(4),
+  //           ),
+  //         ),
+  //         const SizedBox(width: 8),
+  //         Expanded(
+  //           child: Text(
+  //             "${"todays_Prayer_Time_in".tr} ${controller.saveAddress.value.isNotEmpty ? controller.saveAddress.value : controller.currentAddressFull.value}",
+  //             style: robotoBold.copyWith(
+  //               fontSize: Dimensions.FONT_SIZE_LARGE,
+  //               color: Theme.of(Get.context!).textTheme.bodyMedium?.color,
+  //             ),
+  //           ),
+  //         ),
+  //       ],
+  //     ),
+  //   );
+  // }
 
   Widget _buildPrayerTimesGrid(dynamic prayerData, bool is24HourFormat) {
     // final showRamadan = false;

@@ -40,8 +40,8 @@ class PrayerTimeCalculationSettings extends StatelessWidget {
                 side: BorderSide.none,
               ),
               shape: const RoundedRectangleBorder(side: BorderSide.none),
-              expansionAnimationStyle: AnimationStyle(
-                duration: const Duration(milliseconds: 500),
+              expansionAnimationStyle: const AnimationStyle(
+                duration: Duration(milliseconds: 500),
               ),
               clipBehavior: Clip.antiAlias,
               title: Row(
@@ -191,8 +191,8 @@ class PrayerTimeCalculationSettings extends StatelessWidget {
                                         ? prayerTimeController.saveAddress.value
                                               .toString()
                                         : prayerTimeController
-                                            .currentAddress
-                                            .value,
+                                              .currentAddress
+                                              .value,
                                     style: robotoMedium.copyWith(
                                       fontSize: Dimensions.FONT_SIZE_DEFAULT,
                                     ),

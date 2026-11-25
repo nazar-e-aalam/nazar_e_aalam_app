@@ -22,11 +22,12 @@ class DuasViewScreen extends StatelessWidget {
         return Scaffold(
           // Appbar start ===>
           appBar: CustomAppBar(
-            title: duaDetailsController.isDuaDetailsLoading.value ||
+            title:
+                duaDetailsController.isDuaDetailsLoading.value ||
                     duaDetailsController.duaDetailApiData == null
                 ? "--"
                 : duaDetailsController.duaDetailApiData!.data!.enShortName
-                    .toString(),
+                      .toString(),
             isBackButtonExist: appBackButton == true ? true : false,
           ),
 
@@ -34,9 +35,7 @@ class DuasViewScreen extends StatelessWidget {
             builder: (duaDetailsController) {
               return duaDetailsController.isDuaDetailsLoading.value ||
                       duaDetailsController.duaDetailApiData == null
-                  ? const Center(
-                      child: DhuaDetailsShimmer(),
-                    )
+                  ? const Center(child: DhuaDetailsShimmer())
                   : Padding(
                       padding: const EdgeInsets.symmetric(
                         horizontal: Dimensions.PADDING_SIZE_DEFAULT,
@@ -59,7 +58,8 @@ class DuasViewScreen extends StatelessWidget {
                                 ),
                               ),
                               const SizedBox(
-                                  height: Dimensions.PADDING_SIZE_SMALL),
+                                height: Dimensions.PADDING_SIZE_SMALL,
+                              ),
                               const Divider(),
 
                               // arabic string ===>
@@ -69,17 +69,17 @@ class DuasViewScreen extends StatelessWidget {
                                 style: Get.find<SettingsController>()
                                     .selectedArabicFont
                                     .copyWith(
-                                  fontSize: Get.find<SettingsController>()
-                                      .arabicFontSize
-                                      .value,
-                                  color: Theme.of(context)
-                                      .textTheme
-                                      .bodyLarge!
-                                      .color,
-                                ),
+                                      fontSize: Get.find<SettingsController>()
+                                          .arabicFontSize
+                                          .value,
+                                      color: Theme.of(
+                                        context,
+                                      ).textTheme.bodyLarge!.color,
+                                    ),
                               ),
                               const SizedBox(
-                                  height: Dimensions.PADDING_SIZE_LARGE),
+                                height: Dimensions.PADDING_SIZE_LARGE,
+                              ),
 
                               // english string ===>
                               Text(
@@ -87,10 +87,9 @@ class DuasViewScreen extends StatelessWidget {
                                 textAlign: TextAlign.justify,
                                 style: robotoMedium.copyWith(
                                   fontSize: Dimensions.FONT_SIZE_DEFAULT,
-                                  color: Theme.of(context)
-                                      .textTheme
-                                      .bodyLarge!
-                                      .color,
+                                  color: Theme.of(
+                                    context,
+                                  ).textTheme.bodyLarge!.color,
                                 ),
                               ),
                             ],

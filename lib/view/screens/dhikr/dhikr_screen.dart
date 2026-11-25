@@ -21,10 +21,7 @@ class DhikrScreen extends StatefulWidget {
 class _DhikrScreenState extends State<DhikrScreen> {
   @override
   void initState() {
-    Get.put(DhikrRepo(
-      apiClient: Get.find(),
-      sharedPreferences: Get.find(),
-    ));
+    Get.put(DhikrRepo(apiClient: Get.find(), sharedPreferences: Get.find()));
     super.initState();
   }
 
@@ -69,12 +66,14 @@ class _DhikrScreenState extends State<DhikrScreen> {
                     vertical: Dimensions.PADDING_SIZE_EXTRA_SMALL,
                   ),
                   labelPadding: const EdgeInsets.symmetric(
-                      horizontal: Dimensions.PADDING_SIZE_EXTRA_SMALL),
+                    horizontal: Dimensions.PADDING_SIZE_EXTRA_SMALL,
+                  ),
                   isScrollable: false,
                   indicator: BoxDecoration(
                     color: Theme.of(context).primaryColor,
-                    borderRadius:
-                        BorderRadius.circular(Dimensions.RADIUS_SMALL),
+                    borderRadius: BorderRadius.circular(
+                      Dimensions.RADIUS_SMALL,
+                    ),
                   ),
                   tabs: [
                     tabBarButton('dhikr'.tr, context),

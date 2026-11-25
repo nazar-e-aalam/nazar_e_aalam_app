@@ -93,7 +93,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         child: layout == HomeLayoutController.classic
             ? const ClassicHomeScreen(key: ValueKey('classic'))
-            : ModernHomeScreen(key: ValueKey('modern')),
+            : const ModernHomeScreen(key: ValueKey('modern')),
       );
     });
   }

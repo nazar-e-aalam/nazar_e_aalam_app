@@ -8,6 +8,7 @@ import 'package:nazar_e_alam/data/model/response/translator_model.dart';
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
 // import 'package:nazar_e_alam/controller/home_layout_controller.dart';
 // import 'package:nazar_e_alam/data/repository/quran_setting_repo.dart';
 
@@ -17,11 +18,142 @@ class SettingsController extends GetxController implements GetxService {
   @override
   void onInit() {
     super.onInit();
-    // getSuraTranslationApiData();
+
+    quranLanguageReady;
+
     loadSavedApiTranslateDropdownValue();
     getArabicFontSizeFromLocalStorage();
     getTranslateFontSizeFromLocalStorage();
     loadArabicFontPreference();
+  }
+  // ============================================================
+  // INDEPENDENT QURAN LANGUAGE
+  // ============================================================
+
+  // ============================================================
+  // INDEPENDENT QURAN LANGUAGE
+  // ============================================================
+
+  static const String quranLanguageKey = 'quran_language';
+
+  Future<void>? _quranLanguageReady;
+
+  Future<void> get quranLanguageReady =>
+      _quranLanguageReady ??= loadQuranLanguagePreference();
+  final RxString quranLanguage = 'system'.obs;
+
+  final RxBool isQuranLanguageChanging = false.obs;
+
+  final List<Map<String, String>> availableQuranLanguages = const [
+    {'code': 'system', 'name': 'Same as app', 'native': 'Same as app'},
+    {'code': 'en', 'name': 'English', 'native': 'English'},
+    {'code': 'guj', 'name': 'Gujarati', 'native': 'ગુજરાતી'},
+    {'code': 'hin', 'name': 'Hindi', 'native': 'हिन्दी'},
+    {'code': 'sw', 'name': 'Swahili', 'native': 'Kiswahili'},
+    {'code': 'ar', 'name': 'Arabic', 'native': 'العربية'},
+    {'code': 'ur', 'name': 'Urdu', 'native': 'اردو'},
+  ];
+
+  String normalizeQuranPreference(String code) {
+    final normalized = code
+        .trim()
+        .toLowerCase()
+        .replaceAll('-', '_')
+        .split('_')
+        .first;
+
+    const aliases = {'hi': 'hin', 'gu': 'guj'};
+
+    return aliases[normalized] ?? normalized;
+  }
+
+  bool isValidQuranLanguage(String code) {
+    final normalized = normalizeQuranPreference(code);
+
+    return availableQuranLanguages.any(
+      (language) => language['code'] == normalized,
+    );
+  }
+
+  // ==================== LOAD PREFERENCE ====================
+
+  Future<void> loadQuranLanguagePreference() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+
+      final saved = normalizeQuranPreference(
+        prefs.getString(quranLanguageKey) ?? 'system',
+      );
+
+      if (isClosed) return;
+
+      quranLanguage.value = isValidQuranLanguage(saved) ? saved : 'system';
+    } catch (e, stackTrace) {
+      debugPrint('Error loading Quran language: $e');
+      debugPrintStack(stackTrace: stackTrace);
+
+      if (!isClosed) {
+        quranLanguage.value = 'system';
+      }
+    }
+  }
+
+  // ==================== CHANGE PREFERENCE ====================
+
+  Future<void> changeQuranLanguage(String code) async {
+    await quranLanguageReady;
+
+    if (isClosed) return;
+
+    final normalized = normalizeQuranPreference(code);
+
+    if (!isValidQuranLanguage(normalized)) return;
+
+    if (quranLanguage.value == normalized) return;
+
+    if (isQuranLanguageChanging.value) return;
+
+    isQuranLanguageChanging.value = true;
+
+    try {
+      final prefs = await SharedPreferences.getInstance();
+
+      final saved = await prefs.setString(quranLanguageKey, normalized);
+
+      if (!saved) {
+        throw StateError('Unable to save Quran language');
+      }
+
+      if (isClosed) return;
+
+      quranLanguage.value = normalized;
+
+      update();
+    } catch (e, stackTrace) {
+      debugPrint('Error saving Quran language: $e');
+      debugPrintStack(stackTrace: stackTrace);
+
+      rethrow;
+    } finally {
+      if (!isClosed) {
+        isQuranLanguageChanging.value = false;
+      }
+    }
+  }
+
+  // ==================== SELECTED LABEL ====================
+
+  String get selectedQuranLanguageName {
+    final selected = availableQuranLanguages.firstWhere(
+      (item) => item['code'] == quranLanguage.value,
+      orElse: () => availableQuranLanguages.first,
+    );
+
+    if (selected['code'] == 'system') {
+      return 'same_as_app_language'.tr;
+    }
+
+    return selected['native']!;
   }
 
   //==============================//
@@ -106,15 +238,31 @@ class SettingsController extends GetxController implements GetxService {
   // -----------------------------
 
   Future<void> changeArabicFont(String font) async {
+    if (!availableFonts.contains(font)) return;
     if (font == selectedFont.value) return;
+    if (isSelectedFontLoading.value) return;
 
-    isSelectedFontLoading(true);
-    selectedFont.value = font;
-    await _saveArabicFontPreference(font);
+    isSelectedFontLoading.value = true;
 
-    // Simulate short load animation
-    await Future.delayed(const Duration(milliseconds: 400));
-    isSelectedFontLoading(false);
+    try {
+      final prefs = await SharedPreferences.getInstance();
+
+      final saved = await prefs.setString(selectedFontKey, font);
+
+      if (!saved) {
+        throw StateError('Unable to save Arabic font');
+      }
+
+      if (!isClosed) {
+        selectedFont.value = font;
+      }
+    } catch (e) {
+      debugPrint('Error changing Arabic font: $e');
+    } finally {
+      if (!isClosed) {
+        isSelectedFontLoading.value = false;
+      }
+    }
   }
 
   Future<void> loadArabicFontPreference() async {
@@ -125,10 +273,6 @@ class SettingsController extends GetxController implements GetxService {
     }
   }
 
-  Future<void> _saveArabicFontPreference(String font) async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    await prefs.setString(selectedFontKey, font);
-  }
   //=================================//
   //    Translate Dropdown part     //
   //===============================//

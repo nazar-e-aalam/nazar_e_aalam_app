@@ -12,8 +12,9 @@ import 'package:nazar_e_alam/view/screens/dhikr/local%20stroge%20dhikr/local_dhi
 class UserAddedDikirWidget extends StatelessWidget {
   UserAddedDikirWidget({super.key});
 
-  final DhikrController localDhikrController =
-      Get.put(DhikrController(dhikrRepo: Get.find()));
+  final DhikrController localDhikrController = Get.put(
+    DhikrController(dhikrRepo: Get.find()),
+  );
 
   @override
   Widget build(BuildContext context) {
@@ -26,12 +27,14 @@ class UserAddedDikirWidget extends StatelessWidget {
                   child: Text(
                     "no_dhikr_added_here".tr,
                     style: robotoMedium.copyWith(
-                        fontSize: Dimensions.FONT_SIZE_LARGE),
+                      fontSize: Dimensions.FONT_SIZE_LARGE,
+                    ),
                   ),
                 )
               : ListView.builder(
                   padding: const EdgeInsets.symmetric(
-                      horizontal: Dimensions.PADDING_SIZE_EXTRA_SMALL),
+                    horizontal: Dimensions.PADDING_SIZE_EXTRA_SMALL,
+                  ),
                   itemCount: localDhikrController.dhikrList.length,
                   itemBuilder: (context, index) {
                     final dhikr = localDhikrController.dhikrList[index];
@@ -50,8 +53,8 @@ class UserAddedDikirWidget extends StatelessWidget {
                                       ? "deleting_data".tr
                                       : "are_you_sure".tr,
                                   style: robotoMedium.copyWith(
-                                      fontSize:
-                                          Dimensions.FONT_SIZE_OVER_LARGE),
+                                    fontSize: Dimensions.FONT_SIZE_OVER_LARGE,
+                                  ),
                                 ),
                                 content: isDeleting.value == true
                                     ? const SizedBox(
@@ -75,21 +78,24 @@ class UserAddedDikirWidget extends StatelessWidget {
                                                 ? Future.delayed(
                                                     const Duration(seconds: 1),
                                                     () {
-                                                    localDhikrController
-                                                        .localDeleteDhikr(
-                                                            dhikr.id);
-                                                    Get.back();
+                                                      localDhikrController
+                                                          .localDeleteDhikr(
+                                                            dhikr.id,
+                                                          );
+                                                      Get.back();
 
-                                                    isDeleting.value == false;
-                                                  })
+                                                      isDeleting.value == false;
+                                                    },
+                                                  )
                                                 : null;
                                           },
                                           child: Text(
                                             "yes".tr,
                                             style: robotoMedium.copyWith(
-                                                color: Theme.of(context)
-                                                    .colorScheme
-                                                    .error),
+                                              color: Theme.of(
+                                                context,
+                                              ).colorScheme.error,
+                                            ),
                                           ),
                                         ),
                                         TextButton(
@@ -109,12 +115,12 @@ class UserAddedDikirWidget extends StatelessWidget {
                       },
                       onDismissed: (direction) {},
                       background: Container(
-                        color: Theme.of(context)
-                            .colorScheme
-                            .error
-                            .withOpacity(0.4),
+                        color: Theme.of(
+                          context,
+                        ).colorScheme.error.withOpacity(0.4),
                         padding: const EdgeInsets.only(
-                            right: Dimensions.PADDING_SIZE_EXTRA_SMALL),
+                          right: Dimensions.PADDING_SIZE_EXTRA_SMALL,
+                        ),
                         alignment: Alignment.centerRight,
                         child: const Icon(
                           Icons.delete,
@@ -125,8 +131,11 @@ class UserAddedDikirWidget extends StatelessWidget {
                       child: GestureDetector(
                         onTap: () {
                           localDhikrController.localDhikrId = dhikr.id;
-                          Get.to(() =>
-                              const LocalDhikrCountScreen(appBackButton: true));
+                          Get.to(
+                            () => const LocalDhikrCountScreen(
+                              appBackButton: true,
+                            ),
+                          );
                         },
                         child: Card(
                           clipBehavior: Clip.antiAlias,
@@ -137,28 +146,28 @@ class UserAddedDikirWidget extends StatelessWidget {
                           child: ListTile(
                             contentPadding:
                                 const EdgeInsetsDirectional.symmetric(
-                                    horizontal:
-                                        Dimensions.PADDING_SIZE_DEFAULT),
+                                  horizontal: Dimensions.PADDING_SIZE_DEFAULT,
+                                ),
 
                             // Dhikr Title English---->
                             title: Text(
                               dhikr.englishName,
                               style: robotoMedium.copyWith(
-                                  fontSize: Dimensions.FONT_SIZE_LARGE),
+                                fontSize: Dimensions.FONT_SIZE_LARGE,
+                              ),
                             ),
                             trailing: Text(
                               dhikr.arabicName == "" ? "--" : dhikr.arabicName,
                               style: Get.find<SettingsController>()
                                   .selectedArabicFont
                                   .copyWith(
-                                fontSize: Get.find<SettingsController>()
-                                    .arabicFontSize
-                                    .value,
-                                color: Theme.of(context)
-                                    .textTheme
-                                    .bodyLarge!
-                                    .color,
-                              ),
+                                    fontSize: Get.find<SettingsController>()
+                                        .arabicFontSize
+                                        .value,
+                                    color: Theme.of(
+                                      context,
+                                    ).textTheme.bodyLarge!.color,
+                                  ),
                             ),
                           ),
                         ),

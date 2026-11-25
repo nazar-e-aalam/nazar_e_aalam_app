@@ -33,12 +33,16 @@ class ResultField extends StatelessWidget {
           fontWeight: FontWeight.w400,
         ),
         focusedBorder: OutlineInputBorder(
-          borderSide:
-              BorderSide(color: Theme.of(context).primaryColor, width: 1),
+          borderSide: BorderSide(
+            color: Theme.of(context).primaryColor,
+            width: 1,
+          ),
         ),
         enabledBorder: OutlineInputBorder(
-          borderSide:
-              BorderSide(color: Theme.of(context).primaryColor, width: 1),
+          borderSide: BorderSide(
+            color: Theme.of(context).primaryColor,
+            width: 1,
+          ),
         ),
         errorBorder: OutlineInputBorder(
           borderSide: BorderSide(

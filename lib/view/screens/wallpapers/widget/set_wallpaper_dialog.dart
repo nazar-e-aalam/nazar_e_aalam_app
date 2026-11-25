@@ -11,10 +11,7 @@ import 'package:nazar_e_alam/view/base/loading_indicator.dart';
 
 class SetWallpaperDialogWidget extends StatelessWidget {
   final String imagePath;
-  const SetWallpaperDialogWidget({
-    super.key,
-    required this.imagePath,
-  });
+  const SetWallpaperDialogWidget({super.key, required this.imagePath});
 
   @override
   Widget build(BuildContext context) {
@@ -24,9 +21,7 @@ class SetWallpaperDialogWidget extends StatelessWidget {
       child: Container(
         width: Get.width,
         height: Get.height,
-        decoration: BoxDecoration(
-          color: Theme.of(context).cardColor,
-        ),
+        decoration: BoxDecoration(color: Theme.of(context).cardColor),
         child: GetBuilder<WallPaperController>(
           builder: (wallPaperController) {
             return Stack(
@@ -46,15 +41,10 @@ class SetWallpaperDialogWidget extends StatelessWidget {
                       filterQuality: FilterQuality.high,
                       imageProvider: imagePath.startsWith("http")
                           ? NetworkImage(imagePath)
-                          : FileImage(
-                              File(
-                                imagePath,
-                              ),
-                            ) as ImageProvider,
-                      loadingBuilder: (context, event) => Center(
-                        child: LoadingIndicator(),
-                      ),
-                      backgroundDecoration: BoxDecoration(
+                          : FileImage(File(imagePath)) as ImageProvider,
+                      loadingBuilder: (context, event) =>
+                          const Center(child: LoadingIndicator()),
+                      backgroundDecoration: const BoxDecoration(
                         color: Colors.transparent,
                       ),
                     ),
@@ -74,19 +64,19 @@ class SetWallpaperDialogWidget extends StatelessWidget {
                           height: 35,
                           width: 35,
                           decoration: BoxDecoration(
-                              color: Theme.of(context).primaryColor,
-                              shape: BoxShape.circle),
-                          child: Center(
-                              child: Icon(
-                            Icons.share,
-                            color: Colors.white,
-                            size: 18,
-                          )),
+                            color: Theme.of(context).primaryColor,
+                            shape: BoxShape.circle,
+                          ),
+                          child: const Center(
+                            child: Icon(
+                              Icons.share,
+                              color: Colors.white,
+                              size: 18,
+                            ),
+                          ),
                         ),
                       ),
-                      SizedBox(
-                        height: 10,
-                      ),
+                      const SizedBox(height: 10),
                       Platform.isAndroid
                           ? InkWell(
                               onTap: () {
@@ -101,7 +91,9 @@ class SetWallpaperDialogWidget extends StatelessWidget {
                                 child: Center(
                                   child: Padding(
                                     padding: const EdgeInsets.only(
-                                        right: 12.0, left: 12.0),
+                                      right: 12.0,
+                                      left: 12.0,
+                                    ),
                                     child: Text(
                                       "set_wallpaper_key".tr,
                                       style: robotoMedium.copyWith(
@@ -113,7 +105,7 @@ class SetWallpaperDialogWidget extends StatelessWidget {
                                 ),
                               ),
                             )
-                          : SizedBox(),
+                          : const SizedBox(),
                     ],
                   ),
                 ),
@@ -128,13 +120,11 @@ class SetWallpaperDialogWidget extends StatelessWidget {
                       height: 35,
                       width: 35,
                       decoration: BoxDecoration(
-                          color: Theme.of(context).primaryColor,
-                          shape: BoxShape.circle),
-                      child: Center(
-                        child: Icon(
-                          Icons.close,
-                          color: Colors.white,
-                        ),
+                        color: Theme.of(context).primaryColor,
+                        shape: BoxShape.circle,
+                      ),
+                      child: const Center(
+                        child: Icon(Icons.close, color: Colors.white),
                       ),
                     ),
                   ),

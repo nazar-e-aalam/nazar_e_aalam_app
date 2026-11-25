@@ -34,12 +34,13 @@ class Data {
   String? language;
   String? languageCode;
 
-  Data(
-      {this.id,
-      this.fullName,
-      this.shortName,
-      this.language,
-      this.languageCode});
+  Data({
+    this.id,
+    this.fullName,
+    this.shortName,
+    this.language,
+    this.languageCode,
+  });
 
   Data.fromJson(Map<String, dynamic> json) {
     id = json['id'];

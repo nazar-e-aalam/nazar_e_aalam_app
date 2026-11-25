@@ -11,7 +11,9 @@ class MemorableDaysLocalService {
   static Future<MemorableDaysData> _load() async {
     final content = await rootBundle.loadString(assetPath);
     final json = jsonDecode(content);
-    if (json is! Map) throw const FormatException('Invalid Memorable Days JSON');
+    if (json is! Map) {
+      throw const FormatException('Invalid Memorable Days JSON');
+    }
     return MemorableDaysData.fromJson(Map<String, dynamic>.from(json));
   }
 

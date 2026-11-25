@@ -25,10 +25,8 @@ class _HadithScreenWrapperState extends State<HadithScreenWrapper> {
       final modern = layout == HomeLayoutController.modern;
       return AnimatedSwitcher(
         duration: const Duration(milliseconds: 400),
-        transitionBuilder: (child, animation) => FadeTransition(
-          opacity: animation,
-          child: child,
-        ),
+        transitionBuilder: (child, animation) =>
+            FadeTransition(opacity: animation, child: child),
         child: modern
             ? ModernAllHadithScreen(
                 key: const ValueKey('modern'),

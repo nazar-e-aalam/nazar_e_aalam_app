@@ -11,15 +11,11 @@ import 'package:nazar_e_alam/view/screens/wallpapers/widget/wallpaper_grid.dart'
 class ModernWallpaperScreens extends StatelessWidget {
   final bool? appBackButton;
 
-  const ModernWallpaperScreens({
-    super.key,
-    this.appBackButton,
-  });
+  const ModernWallpaperScreens({super.key, this.appBackButton});
 
   @override
   Widget build(BuildContext context) {
-    final dark =
-        Theme.of(context).brightness == Brightness.dark;
+    final dark = Theme.of(context).brightness == Brightness.dark;
 
     return Scaffold(
       backgroundColor: dark
@@ -31,13 +27,10 @@ class ModernWallpaperScreens extends StatelessWidget {
       ),
       body: SafeArea(
         child: ModernGlassPanel(
-          color: dark
-              ? const Color(0x0AFFFFFF)
-              : AppColorModern.glassFill,
+          color: dark ? const Color(0x0AFFFFFF) : AppColorModern.glassFill,
           child: const WallpaperGrid(modern: true),
         ),
       ),
     );
   }
 }
-

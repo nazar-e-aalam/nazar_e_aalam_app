@@ -9,10 +9,7 @@ import 'widget/kalima_content.dart';
 class KalimaDetailsScreen extends StatelessWidget {
   final KalimaModel kalima;
 
-  const KalimaDetailsScreen({
-    super.key,
-    required this.kalima,
-  });
+  const KalimaDetailsScreen({super.key, required this.kalima});
 
   @override
   Widget build(BuildContext context) {
@@ -21,9 +18,7 @@ class KalimaDetailsScreen extends StatelessWidget {
         title: kalima.localizedTitle(kalimaLanguage()),
         isBackButtonExist: true,
       ),
-      body: SafeArea(
-        child: KalimaDetailsContent(kalima: kalima),
-      ),
+      body: SafeArea(child: KalimaDetailsContent(kalima: kalima)),
     );
   }
 }

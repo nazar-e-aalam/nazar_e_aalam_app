@@ -1,4 +1,3 @@
-
 import 'package:flutter/rendering.dart';
 import 'package:stts/stts.dart';
 import 'package:get/get.dart';
@@ -8,9 +7,34 @@ class AlphabetController extends GetxController implements GetxService {
   final Tts _tts = Tts();
 
   final List<String> letters = const [
-    'ا', 'ب', 'ت', 'ث', 'ج', 'ح', 'خ', 'د', 'ذ', 'ر',
-    'ز', 'س', 'ش', 'ص', 'ض', 'ط', 'ظ', 'ع', 'غ', 'ف',
-    'ق', 'ك', 'ل', 'م', 'ن', 'ه', 'و', 'ي',
+    'ا',
+    'ب',
+    'ت',
+    'ث',
+    'ج',
+    'ح',
+    'خ',
+    'د',
+    'ذ',
+    'ر',
+    'ز',
+    'س',
+    'ش',
+    'ص',
+    'ض',
+    'ط',
+    'ظ',
+    'ع',
+    'غ',
+    'ف',
+    'ق',
+    'ك',
+    'ل',
+    'م',
+    'ن',
+    'ه',
+    'و',
+    'ي',
   ];
 
   final availableVoices = <TtsVoice>[].obs;
@@ -60,10 +84,7 @@ class AlphabetController extends GetxController implements GetxService {
           (voice) => voice.id == savedVoiceId,
         );
 
-        await setVoice(
-          savedVoice ?? voices.first,
-          save: false,
-        );
+        await setVoice(savedVoice ?? voices.first, save: false);
       }
 
       _initialized = true;
@@ -72,10 +93,7 @@ class AlphabetController extends GetxController implements GetxService {
     }
   }
 
-  Future<void> setVoice(
-    TtsVoice voice, {
-    bool save = true,
-  }) async {
+  Future<void> setVoice(TtsVoice voice, {bool save = true}) async {
     selectedVoice.value = voice;
 
     await _tts.setVoice(voice.id);

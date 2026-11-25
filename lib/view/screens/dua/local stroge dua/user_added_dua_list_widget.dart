@@ -11,8 +11,9 @@ import 'package:nazar_e_alam/view/screens/dua/local%20stroge%20dua/local_dua_vie
 
 class UserAddedDuaWidget extends StatelessWidget {
   UserAddedDuaWidget({super.key});
-  final DuaController localDuaController =
-      Get.put(DuaController(duaRepo: Get.find()));
+  final DuaController localDuaController = Get.put(
+    DuaController(duaRepo: Get.find()),
+  );
 
   @override
   Widget build(BuildContext context) {
@@ -25,12 +26,14 @@ class UserAddedDuaWidget extends StatelessWidget {
                   child: Text(
                     "no_dua_added_here".tr,
                     style: robotoMedium.copyWith(
-                        fontSize: Dimensions.FONT_SIZE_LARGE),
+                      fontSize: Dimensions.FONT_SIZE_LARGE,
+                    ),
                   ),
                 )
               : ListView.builder(
                   padding: const EdgeInsets.symmetric(
-                      horizontal: Dimensions.PADDING_SIZE_EXTRA_SMALL),
+                    horizontal: Dimensions.PADDING_SIZE_EXTRA_SMALL,
+                  ),
                   itemCount: localDuaController.duaList.length,
                   itemBuilder: (context, index) {
                     final duasData = localDuaController.duaList[index];
@@ -49,8 +52,8 @@ class UserAddedDuaWidget extends StatelessWidget {
                                       ? "deleting_data".tr
                                       : "are_you_sure".tr,
                                   style: robotoMedium.copyWith(
-                                      fontSize:
-                                          Dimensions.FONT_SIZE_OVER_LARGE),
+                                    fontSize: Dimensions.FONT_SIZE_OVER_LARGE,
+                                  ),
                                 ),
                                 content: isDeleting.value == true
                                     ? const SizedBox(
@@ -74,21 +77,25 @@ class UserAddedDuaWidget extends StatelessWidget {
                                                 ? Future.delayed(
                                                     const Duration(seconds: 1),
                                                     () {
-                                                    localDuaController
-                                                        .deleteDua(duasData.id
-                                                            .toString());
-                                                    Get.back();
+                                                      localDuaController
+                                                          .deleteDua(
+                                                            duasData.id
+                                                                .toString(),
+                                                          );
+                                                      Get.back();
 
-                                                    isDeleting.value == false;
-                                                  })
+                                                      isDeleting.value == false;
+                                                    },
+                                                  )
                                                 : null;
                                           },
                                           child: Text(
                                             "yes".tr,
                                             style: robotoMedium.copyWith(
-                                                color: Theme.of(context)
-                                                    .colorScheme
-                                                    .error),
+                                              color: Theme.of(
+                                                context,
+                                              ).colorScheme.error,
+                                            ),
                                           ),
                                         ),
                                         TextButton(
@@ -108,12 +115,12 @@ class UserAddedDuaWidget extends StatelessWidget {
                       },
                       onDismissed: (direction) {},
                       background: Container(
-                        color: Theme.of(context)
-                            .colorScheme
-                            .error
-                            .withOpacity(0.4),
+                        color: Theme.of(
+                          context,
+                        ).colorScheme.error.withOpacity(0.4),
                         padding: const EdgeInsets.only(
-                            right: Dimensions.PADDING_SIZE_EXTRA_SMALL),
+                          right: Dimensions.PADDING_SIZE_EXTRA_SMALL,
+                        ),
                         alignment: Alignment.centerRight,
                         child: const Icon(
                           Icons.delete,
@@ -123,10 +130,12 @@ class UserAddedDuaWidget extends StatelessWidget {
                       ),
                       child: GestureDetector(
                         onTap: () {
-                          Get.to(LocalDuasViewScreen(
-                            dua: duasData,
-                            appBackButton: true,
-                          ));
+                          Get.to(
+                            LocalDuasViewScreen(
+                              dua: duasData,
+                              appBackButton: true,
+                            ),
+                          );
                         },
                         child: Card(
                           clipBehavior: Clip.antiAlias,
@@ -137,14 +146,15 @@ class UserAddedDuaWidget extends StatelessWidget {
                           child: ListTile(
                             contentPadding:
                                 const EdgeInsetsDirectional.symmetric(
-                                    horizontal:
-                                        Dimensions.PADDING_SIZE_DEFAULT),
+                                  horizontal: Dimensions.PADDING_SIZE_DEFAULT,
+                                ),
 
                             // Dhikr Title English---->
                             title: Text(
                               duasData.englishName,
                               style: robotoMedium.copyWith(
-                                  fontSize: Dimensions.FONT_SIZE_LARGE),
+                                fontSize: Dimensions.FONT_SIZE_LARGE,
+                              ),
                             ),
 
                             subtitle: Text(
@@ -154,14 +164,13 @@ class UserAddedDuaWidget extends StatelessWidget {
                               style: Get.find<SettingsController>()
                                   .selectedArabicFont
                                   .copyWith(
-                                fontSize: Get.find<SettingsController>()
-                                    .arabicFontSize
-                                    .value,
-                                color: Theme.of(context)
-                                    .textTheme
-                                    .bodyLarge!
-                                    .color,
-                              ),
+                                    fontSize: Get.find<SettingsController>()
+                                        .arabicFontSize
+                                        .value,
+                                    color: Theme.of(
+                                      context,
+                                    ).textTheme.bodyLarge!.color,
+                                  ),
                             ),
                           ),
                         ),

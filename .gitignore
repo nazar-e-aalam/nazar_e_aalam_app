@@ -118,3 +118,9 @@ windows/
 
 key.properties
 upload-keystore.jks
+
+junk/
+
+*.bak
+
+TODO.txt

@@ -11,10 +11,7 @@ const robotoMedium = TextStyle(
   fontWeight: FontWeight.w500,
 );
 
-const robotoBold = TextStyle(
-  fontFamily: 'Roboto',
-  fontWeight: FontWeight.w700,
-);
+const robotoBold = TextStyle(fontFamily: 'Roboto', fontWeight: FontWeight.w700);
 
 const robotoBlack = TextStyle(
   fontFamily: 'Roboto',

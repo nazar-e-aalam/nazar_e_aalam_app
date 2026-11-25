@@ -1,4 +1,3 @@
-
 import 'dart:convert';
 
 import 'package:get/get.dart';
@@ -30,9 +29,7 @@ class ApiCacheService extends GetxService {
       if (raw == null) return null;
 
       try {
-        entry = _CacheEntry.fromJson(
-          jsonDecode(raw) as Map<String, dynamic>,
-        );
+        entry = _CacheEntry.fromJson(jsonDecode(raw) as Map<String, dynamic>);
         _memory[key] = entry;
       } catch (e) {
         return null;
@@ -82,10 +79,7 @@ class _CacheEntry {
   final dynamic data;
   final int expiresAt;
 
-  _CacheEntry({
-    required this.data,
-    required this.expiresAt,
-  });
+  _CacheEntry({required this.data, required this.expiresAt});
 
   factory _CacheEntry.fromJson(Map<String, dynamic> json) {
     return _CacheEntry(
@@ -94,8 +88,5 @@ class _CacheEntry {
     );
   }
 
-  Map<String, dynamic> toJson() => {
-    'data': data,
-    'expiresAt': expiresAt,
-  };
+  Map<String, dynamic> toJson() => {'data': data, 'expiresAt': expiresAt};
 }

@@ -10,25 +10,19 @@ import 'modern/modern_shijra_screen.dart';
 class ShijraWrapper extends StatelessWidget {
   final bool appBackButton;
 
-  const ShijraWrapper({
-    super.key,
-    required this.appBackButton,
-  });
+  const ShijraWrapper({super.key, required this.appBackButton});
 
   @override
   Widget build(BuildContext context) {
     return Obx(() {
       final modern =
           Get.find<HomeLayoutController>().currentLayout.value ==
-              HomeLayoutController.modern;
+          HomeLayoutController.modern;
 
       return AnimatedSwitcher(
         duration: const Duration(milliseconds: 400),
         transitionBuilder: (child, animation) =>
-            FadeTransition(
-              opacity: animation,
-              child: child,
-            ),
+            FadeTransition(opacity: animation, child: child),
         child: modern
             ? ModernShijraScreen(
                 key: const ValueKey('modern'),

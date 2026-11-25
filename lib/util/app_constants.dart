@@ -4,7 +4,6 @@
 import 'package:nazar_e_alam/data/model/response/language_model.dart';
 import 'package:nazar_e_alam/util/images.dart';
 
-
 class Endpoints {
   static const String DEVICE_REGISTER = 'auth/device/register';
   static const String REFRESH_TOKEN = 'auth/refresh';
@@ -22,9 +21,8 @@ class Endpoints {
   static const String SIFAT_NAMES = 'sifat-names';
   static const String RECITERS = 'reciters';
   static const String AUDIO_SURHAS = 'reciters/{slug}/surahs';
-  static const String NEARBY_MOSQUE_URL = 'mosques/nearby';
+  static const String NEARBY_MOSQUE = 'mosques/nearby';
 }
-
 
 class AppConstants {
   // Flutter SDK Version  3.44.0
@@ -38,7 +36,8 @@ class AppConstants {
 
   // API's and API Kay's
   static const String HADITH_BASE_URL = 'https://www.hadithapi.com/public';
-  static const String NEARBY_MOSQUE_URL = 'https://maps.googleapis.com/maps/api/place/nearbysearch';
+  static const String NEARBY_MOSQUE_URL =
+      'https://maps.googleapis.com/maps/api/place/nearbysearch';
 
   //others key
 

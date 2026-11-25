@@ -1,5 +1,4 @@
-
- // ignore_for_file: deprecated_member_use
+// ignore_for_file: deprecated_member_use
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -32,10 +31,7 @@ class MubarakCategoryDetailsScreen extends StatelessWidget {
       backgroundColor: modern && !dark
           ? AppColorModern.scaffoldBackground
           : theme.scaffoldBackgroundColor,
-      appBar: CustomAppBar(
-        title: title,
-        isBackButtonExist: true,
-      ),
+      appBar: CustomAppBar(title: title, isBackButtonExist: true),
       body: SafeArea(
         child: ListView.builder(
           padding: const EdgeInsets.fromLTRB(16, 16, 16, 28),
@@ -54,8 +50,7 @@ class MubarakCategoryDetailsScreen extends StatelessWidget {
                         Text(
                           heading,
                           textAlign: TextAlign.center,
-                          textDirection:
-                              rtl ? TextDirection.rtl : null,
+                          textDirection: rtl ? TextDirection.rtl : null,
                           style: theme.textTheme.titleLarge?.copyWith(
                             fontWeight: FontWeight.bold,
                           ),
@@ -86,8 +81,7 @@ class MubarakCategoryDetailsScreen extends StatelessWidget {
                     child: SelectableText(
                       content,
                       textAlign: TextAlign.center,
-                      textDirection:
-                          rtl ? TextDirection.rtl : null,
+                      textDirection: rtl ? TextDirection.rtl : null,
                       style: theme.textTheme.titleMedium?.copyWith(
                         fontWeight: FontWeight.bold,
                         color: primary,
@@ -109,11 +103,8 @@ class MubarakCategoryDetailsScreen extends StatelessWidget {
                     padding: const EdgeInsets.all(16),
                     child: SelectableText(
                       content,
-                      textDirection:
-                          rtl ? TextDirection.rtl : null,
-                      style: theme.textTheme.bodyLarge?.copyWith(
-                        height: 1.8,
-                      ),
+                      textDirection: rtl ? TextDirection.rtl : null,
+                      style: theme.textTheme.bodyLarge?.copyWith(height: 1.8),
                     ),
                   ),
                 ),
@@ -132,9 +123,7 @@ class MubarakCategoryDetailsScreen extends StatelessWidget {
                     children: [
                       if (entry.number != null) ...[
                         Container(
-                          constraints: const BoxConstraints(
-                            minWidth: 38,
-                          ),
+                          constraints: const BoxConstraints(minWidth: 38),
                           padding: const EdgeInsets.symmetric(
                             horizontal: 8,
                             vertical: 8,
@@ -157,8 +146,7 @@ class MubarakCategoryDetailsScreen extends StatelessWidget {
                       Expanded(
                         child: SelectableText(
                           content,
-                          textDirection:
-                              rtl ? TextDirection.rtl : null,
+                          textDirection: rtl ? TextDirection.rtl : null,
                           style: theme.textTheme.bodyLarge?.copyWith(
                             height: 1.65,
                           ),
@@ -182,16 +170,11 @@ class MubarakCategoryDetailsScreen extends StatelessWidget {
   }) {
     if (modern) {
       return ModernGlassPanel(
-        color: dark
-            ? const Color(0x0AFFFFFF)
-            : AppColorModern.glassFill,
+        color: dark ? const Color(0x0AFFFFFF) : AppColorModern.glassFill,
         child: child,
       );
     }
 
-    return Card(
-      clipBehavior: Clip.antiAlias,
-      child: child,
-    );
+    return Card(clipBehavior: Clip.antiAlias, child: child);
   }
 }

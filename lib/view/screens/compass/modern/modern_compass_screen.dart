@@ -55,7 +55,8 @@ class _ModernCompassScreenState extends State<ModernCompassScreen> {
               );
             }
             return Center(
-                child: Text('our_compass_not_support_in_your_device'.tr));
+              child: Text('our_compass_not_support_in_your_device'.tr),
+            );
           },
         ),
       ),

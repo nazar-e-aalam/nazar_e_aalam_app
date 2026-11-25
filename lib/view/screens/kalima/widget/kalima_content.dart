@@ -10,9 +10,7 @@ import '../service/kalima_local_service.dart';
 String kalimaLanguage() {
   final code = Get.locale?.languageCode ?? 'en';
 
-  return const {'en', 'ar', 'hi', 'sw', 'ur'}.contains(code)
-      ? code
-      : 'en';
+  return const {'en', 'ar', 'hi', 'sw', 'ur'}.contains(code) ? code : 'en';
 }
 
 class KalimaListContent extends StatelessWidget {
@@ -48,20 +46,15 @@ class KalimaListContent extends StatelessWidget {
         return ListView.separated(
           padding: const EdgeInsets.all(14),
           itemCount: kalimas.length,
-          separatorBuilder: (_, _) =>
-              const SizedBox(height: 10),
+          separatorBuilder: (_, _) => const SizedBox(height: 10),
           itemBuilder: (context, index) {
             final kalima = kalimas[index];
 
             return Material(
               color: colorScheme.surface,
-              borderRadius: BorderRadius.circular(
-                modern ? 20 : 12,
-              ),
+              borderRadius: BorderRadius.circular(modern ? 20 : 12),
               child: InkWell(
-                borderRadius: BorderRadius.circular(
-                  modern ? 20 : 12,
-                ),
+                borderRadius: BorderRadius.circular(modern ? 20 : 12),
                 onTap: () => onSelected(kalima),
                 child: Container(
                   padding: const EdgeInsets.symmetric(
@@ -69,12 +62,8 @@ class KalimaListContent extends StatelessWidget {
                     vertical: 15,
                   ),
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(
-                      modern ? 20 : 12,
-                    ),
-                    border: Border.all(
-                      color: primary.withValues(alpha: 0.14),
-                    ),
+                    borderRadius: BorderRadius.circular(modern ? 20 : 12),
+                    border: Border.all(color: primary.withValues(alpha: 0.14)),
                   ),
                   child: Row(
                     children: [
@@ -95,10 +84,7 @@ class KalimaListContent extends StatelessWidget {
                       //     ),
                       //   ),
                       // ),
-                      ModernTitleBadge(
-                        size: 44,
-                        number: kalima.position,
-                      ),
+                      ModernTitleBadge(size: 44, number: kalima.position),
                       const SizedBox(width: 14),
                       Expanded(
                         child: Text(
@@ -160,23 +146,15 @@ class KalimaDetailsContent extends StatelessWidget {
             '﷽',
             textAlign: TextAlign.center,
             textDirection: TextDirection.rtl,
-            style: TextStyle(
-              fontSize: 44,
-              color: primary,
-            ),
+            style: TextStyle(fontSize: 44, color: primary),
           ),
           const SizedBox(height: 20),
           Container(
-            padding: const EdgeInsets.symmetric(
-              horizontal: 18,
-              vertical: 24,
-            ),
+            padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 24),
             decoration: BoxDecoration(
               color: colors.surface,
               borderRadius: BorderRadius.circular(radius),
-              border: Border.all(
-                color: primary.withValues(alpha: 0.18),
-              ),
+              border: Border.all(color: primary.withValues(alpha: 0.18)),
             ),
             child: SelectableText(
               kalima.arabicText,
@@ -195,9 +173,7 @@ class KalimaDetailsContent extends StatelessWidget {
             decoration: BoxDecoration(
               color: colors.surface,
               borderRadius: BorderRadius.circular(radius),
-              border: Border.all(
-                color: primary.withValues(alpha: 0.12),
-              ),
+              border: Border.all(color: primary.withValues(alpha: 0.12)),
             ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -213,8 +189,7 @@ class KalimaDetailsContent extends StatelessWidget {
                 const SizedBox(height: 12),
                 SelectableText(
                   kalima.localizedTranslation(language),
-                  textDirection: const {'ar', 'ur'}
-                          .contains(language)
+                  textDirection: const {'ar', 'ur'}.contains(language)
                       ? TextDirection.rtl
                       : TextDirection.ltr,
                   style: TextStyle(

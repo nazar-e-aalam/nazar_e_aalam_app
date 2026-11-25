@@ -29,9 +29,7 @@ class ModernHomeScreen extends StatelessWidget {
       builder: (settingsController) {
         return GetBuilder<PrayerTimeController>(
           builder: (prayerTimeController) {
-            final isLoading = _isLoadingState(
-              prayerTimeController,
-            );
+            final isLoading = _isLoadingState(prayerTimeController);
             final dark = Theme.of(context).brightness == Brightness.dark;
 
             return Scaffold(
@@ -49,9 +47,7 @@ class ModernHomeScreen extends StatelessWidget {
     );
   }
 
-  bool _isLoadingState(
-    PrayerTimeController prayerTimeController,
-  ) {
+  bool _isLoadingState(PrayerTimeController prayerTimeController) {
     return prayerTimeController.isprayerTimeLoading.value;
   }
 
@@ -65,7 +61,7 @@ class ModernHomeScreen extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          ModernGreetingHeader(),
+          const ModernGreetingHeader(),
           Transform.translate(
             offset: Offset.zero,
             child: Padding(
@@ -81,9 +77,9 @@ class ModernHomeScreen extends StatelessWidget {
                   ModernNextPrayerCard(
                     prayerTimeController: prayerTimeController,
                   ),
-                  const SizedBox(height: 10),
+                  const SizedBox(height: 5),
                   const ModernQuranMilestoneCard(),
-                  const SizedBox(height: 10),
+                  const SizedBox(height: 5),
                   const FeatureGrid(
                     modern: true,
                     padding: EdgeInsets.zero,

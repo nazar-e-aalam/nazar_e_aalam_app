@@ -46,9 +46,7 @@ class ModernPrayerAdjustmentScreen extends StatelessWidget {
           ),
           body: SafeArea(
             child: ModernGlassPanel(
-              color: dark
-                  ? const Color(0x0AFFFFFF)
-                  : AppColorModern.glassFill,
+              color: dark ? const Color(0x0AFFFFFF) : AppColorModern.glassFill,
               child: SingleChildScrollView(
                 padding: const EdgeInsets.all(Dimensions.PADDING_SIZE_DEFAULT),
                 child: GetBuilder<PrayerTimeController>(
@@ -69,20 +67,24 @@ class ModernPrayerAdjustmentScreen extends StatelessWidget {
                             'prayer_times'.tr,
                             style: robotoBold.copyWith(
                               fontSize: 18,
-                              color: Theme.of(context).textTheme.bodyLarge!.color,
+                              color: Theme.of(
+                                context,
+                              ).textTheme.bodyLarge!.color,
                               fontWeight: FontWeight.w700,
                             ),
                           ),
                         ),
                         const SizedBox(height: 12),
                         ...prayerItems
-                            .where((item) => [
-                              'fajr',
-                              'zuhr',
-                              'asr',
-                              'maghrib',
-                              'isha',
-                            ].contains(item.key))
+                            .where(
+                              (item) => [
+                                'fajr',
+                                'zuhr',
+                                'asr',
+                                'maghrib',
+                                'isha',
+                              ].contains(item.key),
+                            )
                             .map((item) => _buildPrayerCard(context, item)),
                         const SizedBox(height: 24),
                         Padding(
@@ -93,14 +95,18 @@ class ModernPrayerAdjustmentScreen extends StatelessWidget {
                             'ramadan_times'.tr,
                             style: robotoBold.copyWith(
                               fontSize: 18,
-                              color: Theme.of(context).textTheme.bodyLarge!.color,
+                              color: Theme.of(
+                                context,
+                              ).textTheme.bodyLarge!.color,
                               fontWeight: FontWeight.w700,
                             ),
                           ),
                         ),
                         const SizedBox(height: 12),
                         ...prayerItems
-                            .where((item) => ['sehri', 'iftar'].contains(item.key))
+                            .where(
+                              (item) => ['sehri', 'iftar'].contains(item.key),
+                            )
                             .map((item) => _buildPrayerCard(context, item)),
                       ],
                     );
@@ -216,8 +222,12 @@ class ModernPrayerAdjustmentScreen extends StatelessWidget {
                           colors: isAdjusted
                               ? prayer.gradient
                               : [
-                                  Theme.of(context).hintColor.withValues(alpha: 0.2),
-                                  Theme.of(context).hintColor.withValues(alpha: 0.1),
+                                  Theme.of(
+                                    context,
+                                  ).hintColor.withValues(alpha: 0.2),
+                                  Theme.of(
+                                    context,
+                                  ).hintColor.withValues(alpha: 0.1),
                                 ],
                           begin: Alignment.topLeft,
                           end: Alignment.bottomRight,
@@ -232,7 +242,11 @@ class ModernPrayerAdjustmentScreen extends StatelessWidget {
                             prayer.icon,
                             fit: BoxFit.contain,
                             colorFilter: ColorFilter.mode(
-                              isAdjusted ? Colors.white : Theme.of(context).hintColor.withValues(alpha: 0.5),
+                              isAdjusted
+                                  ? Colors.white
+                                  : Theme.of(
+                                      context,
+                                    ).hintColor.withValues(alpha: 0.5),
                               BlendMode.srcIn,
                             ),
                           ),
@@ -248,7 +262,9 @@ class ModernPrayerAdjustmentScreen extends StatelessWidget {
                             prayer.name.tr,
                             style: robotoBold.copyWith(
                               fontSize: 17,
-                              color: Theme.of(context).textTheme.bodyLarge!.color,
+                              color: Theme.of(
+                                context,
+                              ).textTheme.bodyLarge!.color,
                             ),
                           ),
                           const SizedBox(height: 6),
@@ -261,9 +277,9 @@ class ModernPrayerAdjustmentScreen extends StatelessWidget {
                                     vertical: 4,
                                   ),
                                   decoration: BoxDecoration(
-                                    color: Theme.of(context).primaryColor.withValues(
-                                      alpha: 0.1,
-                                    ),
+                                    color: Theme.of(
+                                      context,
+                                    ).primaryColor.withValues(alpha: 0.1),
                                     borderRadius: BorderRadius.circular(6),
                                   ),
                                   child: Row(
@@ -302,8 +318,12 @@ class ModernPrayerAdjustmentScreen extends StatelessWidget {
                       padding: const EdgeInsets.all(8),
                       decoration: BoxDecoration(
                         color: isAdjusted
-                            ? Theme.of(context).primaryColor.withValues(alpha: 0.1)
-                            : Theme.of(context).hintColor.withValues(alpha: 0.05),
+                            ? Theme.of(
+                                context,
+                              ).primaryColor.withValues(alpha: 0.1)
+                            : Theme.of(
+                                context,
+                              ).hintColor.withValues(alpha: 0.05),
                         borderRadius: BorderRadius.circular(10),
                       ),
                       child: Icon(
@@ -311,7 +331,9 @@ class ModernPrayerAdjustmentScreen extends StatelessWidget {
                         size: 24,
                         color: isAdjusted
                             ? Theme.of(context).primaryColor
-                            : Theme.of(context).hintColor.withValues(alpha: 0.5),
+                            : Theme.of(
+                                context,
+                              ).hintColor.withValues(alpha: 0.5),
                       ),
                     ),
                   ],

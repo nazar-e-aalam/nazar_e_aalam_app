@@ -10,10 +10,7 @@ import 'widget/shijra_items.dart';
 class ShijraScreen extends StatelessWidget {
   final bool appBackButton;
 
-  const ShijraScreen({
-    super.key,
-    required this.appBackButton,
-  });
+  const ShijraScreen({super.key, required this.appBackButton});
 
   @override
   Widget build(BuildContext context) {
@@ -29,8 +26,7 @@ class ShijraScreen extends StatelessWidget {
         child: ListView.separated(
           padding: const EdgeInsets.all(16),
           itemCount: ShijraItems.all.length,
-          separatorBuilder: (_, _) =>
-              const SizedBox(height: 12),
+          separatorBuilder: (_, _) => const SizedBox(height: 12),
           itemBuilder: (context, index) {
             final item = ShijraItems.all[index];
 
@@ -43,9 +39,7 @@ class ShijraScreen extends StatelessWidget {
               child: InkWell(
                 borderRadius: BorderRadius.circular(14),
                 onTap: () {
-                  Get.to(
-                    () => ShijraDetailsScreen(item: item),
-                  );
+                  Get.to(() => ShijraDetailsScreen(item: item));
                 },
                 child: Padding(
                   padding: const EdgeInsets.all(14),
@@ -59,10 +53,7 @@ class ShijraScreen extends StatelessWidget {
                           color: primary.withValues(alpha: 0.08),
                           borderRadius: BorderRadius.circular(10),
                         ),
-                        child: Image.asset(
-                          item.imagePath,
-                          fit: BoxFit.contain,
-                        ),
+                        child: Image.asset(item.imagePath, fit: BoxFit.contain),
                       ),
                       const SizedBox(width: 16),
                       Expanded(
@@ -73,10 +64,7 @@ class ShijraScreen extends StatelessWidget {
                           ),
                         ),
                       ),
-                      Icon(
-                        Icons.chevron_right_rounded,
-                        color: primary,
-                      ),
+                      Icon(Icons.chevron_right_rounded, color: primary),
                     ],
                   ),
                 ),

@@ -36,11 +36,14 @@ class NotiSoundController extends GetxController {
     if (savedSoundName != null &&
         sounds.any((sound) => sound['path']!.contains(savedSoundName))) {
       selectedSound.value = sounds.firstWhere(
-          (sound) => sound['path']!.contains(savedSoundName))['path'];
+        (sound) => sound['path']!.contains(savedSoundName),
+      )['path'];
     } else {
       selectedSound.value = sounds.first['path'];
       await prefs.setString(
-          'selectedSoundName', extractFileName(sounds.first['path']!));
+        'selectedSoundName',
+        extractFileName(sounds.first['path']!),
+      );
     }
   }
 

@@ -1,4 +1,3 @@
-
 class DuaListModel {
   List<Data>? data;
   int? total;
@@ -6,22 +5,14 @@ class DuaListModel {
   int? limit;
   int? pages;
 
-  DuaListModel({
-    this.data,
-    this.total,
-    this.skip,
-    this.limit,
-    this.pages,
-  });
+  DuaListModel({this.data, this.total, this.skip, this.limit, this.pages});
 
   DuaListModel.fromJson(Map<String, dynamic> json) {
     final items = json['items'] ?? json['data'];
 
     if (items is List) {
       data = items
-          .map((item) => Data.fromJson(
-                Map<String, dynamic>.from(item as Map),
-              ))
+          .map((item) => Data.fromJson(Map<String, dynamic>.from(item as Map)))
           .toList();
     } else {
       data = [];
@@ -40,12 +31,7 @@ class DuaListModel {
   Map<String, dynamic> toJson() {
     return {
       'items': data?.map((item) => item.toJson()).toList() ?? [],
-      'meta': {
-        'total': total,
-        'skip': skip,
-        'limit': limit,
-        'pages': pages,
-      },
+      'meta': {'total': total, 'skip': skip, 'limit': limit, 'pages': pages},
     };
   }
 }

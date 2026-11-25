@@ -155,10 +155,12 @@ class _GrainPainter extends CustomPainter {
   final Float64List _m = Float64List(16);
 
   _GrainPainter({required this.tile, required this.frame, required this.dpr})
-      : super(repaint: frame) {
-    _light.colorFilter = ColorFilter.mode(Colors.white, BlendMode.srcIn);
-    _dark.colorFilter =
-        ColorFilter.mode(Colors.black.withOpacity(0.85), BlendMode.srcIn);
+    : super(repaint: frame) {
+    _light.colorFilter = const ColorFilter.mode(Colors.white, BlendMode.srcIn);
+    _dark.colorFilter = ColorFilter.mode(
+      Colors.black.withOpacity(0.85),
+      BlendMode.srcIn,
+    );
   }
 
   @override
@@ -187,8 +189,12 @@ class _GrainPainter extends CustomPainter {
         ..[13] = rnd.nextDouble() * 256
         ..[14] = 0
         ..[15] = 1;
-      paint.shader =
-          ui.ImageShader(t, TileMode.repeated, TileMode.repeated, _m);
+      paint.shader = ui.ImageShader(
+        t,
+        TileMode.repeated,
+        TileMode.repeated,
+        _m,
+      );
       canvas.drawRect(rect, paint);
     }
   }

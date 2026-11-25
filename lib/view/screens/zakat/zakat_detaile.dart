@@ -24,7 +24,8 @@ class ZakatDetaile extends StatelessWidget {
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.symmetric(
-              horizontal: Dimensions.PADDING_SIZE_DEFAULT),
+            horizontal: Dimensions.PADDING_SIZE_DEFAULT,
+          ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [

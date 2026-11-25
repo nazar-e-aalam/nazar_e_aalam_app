@@ -5,19 +5,14 @@ import 'package:flutter/material.dart';
 class ShijraImageViewer extends StatefulWidget {
   final String imagePath;
 
-  const ShijraImageViewer({
-    super.key,
-    required this.imagePath,
-  });
+  const ShijraImageViewer({super.key, required this.imagePath});
 
   @override
-  State<ShijraImageViewer> createState() =>
-      _ShijraImageViewerState();
+  State<ShijraImageViewer> createState() => _ShijraImageViewerState();
 }
 
 class _ShijraImageViewerState extends State<ShijraImageViewer> {
-  final TransformationController _controller =
-      TransformationController();
+  final TransformationController _controller = TransformationController();
 
   final GlobalKey _viewerKey = GlobalKey();
 
@@ -44,10 +39,7 @@ class _ShijraImageViewerState extends State<ShijraImageViewer> {
     const scale = 2.5;
 
     _controller.value = Matrix4.identity()
-      ..translate(
-        -position.dx * (scale - 1),
-        -position.dy * (scale - 1),
-      )
+      ..translate(-position.dx * (scale - 1), -position.dy * (scale - 1))
       ..scale(scale);
   }
 
@@ -75,10 +67,7 @@ class _ShijraImageViewerState extends State<ShijraImageViewer> {
                 fit: BoxFit.contain,
                 errorBuilder: (context, error, stackTrace) {
                   return const Center(
-                    child: Icon(
-                      Icons.broken_image_outlined,
-                      size: 60,
-                    ),
+                    child: Icon(Icons.broken_image_outlined, size: 60),
                   );
                 },
               ),

@@ -62,16 +62,13 @@ String translateText(String text) {
     },
   };
 
-  String translatedText = text.replaceAllMapped(
-    RegExp(r'[0-9]'),
-    (match) {
-      if (match.group(0) != null) {
-        String digit = match.group(0)!;
-        return numeralMaps[languageCode]?[digit] ?? digit;
-      }
-      return '';
-    },
-  );
+  String translatedText = text.replaceAllMapped(RegExp(r'[0-9]'), (match) {
+    if (match.group(0) != null) {
+      String digit = match.group(0)!;
+      return numeralMaps[languageCode]?[digit] ?? digit;
+    }
+    return '';
+  });
 
   return translatedText;
 }

@@ -1,7 +1,7 @@
 // ignore_for_file: deprecated_member_use
 // ignore_for_file: library_private_types_in_public_api
 
-// import 'dart:math' show pi;
+// import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flutter_qiblah_advanced/flutter_qiblah_advanced.dart';
 import 'package:get/get.dart';
@@ -20,27 +20,71 @@ class QiblahCompassWidget extends StatefulWidget {
 class _QiblahCompassWidgetState extends State<QiblahCompassWidget> {
   double _deviceTurns = 0;
   double _qiblahTurns = 0;
-  double _previousDevice = 0;
-  double _previousQiblah = 0;
+
+  double? _previousDevice;
+  double? _previousQiblah;
+
+  late final Stream<QiblahDirection> _qiblahStream = FlutterQiblah.qiblahStream;
+
+  double _signedAngle(double angle) {
+    return ((angle + 180) % 360) - 180;
+  }
+
+  double _shortestTurn(double current, double previous) {
+    return _signedAngle(current - previous) / 360;
+  }
 
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<QiblahDirection>(
-      stream: FlutterQiblah.qiblahStream,
+      stream: _qiblahStream,
       builder: (_, snapshot) {
         if (!snapshot.hasData) {
           return const QuiblaeShimmerScreen();
         }
 
-        final qiblahDirection = snapshot.data!;
-        final deviceAngle = qiblahDirection.direction;
-        final qiblahAngle = qiblahDirection.qiblah;
+        final data = snapshot.data!;
 
-        // Accumulate turns along the shortest arc
-        _deviceTurns += _shortestTurn(deviceAngle, _previousDevice);
-        _qiblahTurns += _shortestTurn(qiblahAngle, _previousQiblah);
+        final deviceAngle = data.direction % 360;
+        final qiblahBearing = data.offset % 360;
+
+        final relativeAngle = ((qiblahBearing - deviceAngle + 180) % 360) - 180;
+
+        final angleToQibla = relativeAngle.abs();
+
+        if (_previousDevice == null || _previousQiblah == null) {
+          _deviceTurns = deviceAngle / 360;
+          _qiblahTurns = relativeAngle / 360;
+
+          _previousDevice = deviceAngle;
+          _previousQiblah = relativeAngle;
+        } else {
+          final deviceDelta = _shortestTurn(deviceAngle, _previousDevice!);
+
+          final qiblahDelta = _shortestTurn(relativeAngle, _previousQiblah!);
+
+          // Ignore tiny sensor fluctuations below 0.15°.
+          if (deviceDelta.abs() * 360 >= 0.15) {
+            _deviceTurns += deviceDelta;
+            _previousDevice = deviceAngle;
+          }
+
+          if (qiblahDelta.abs() * 360 >= 0.15) {
+            _qiblahTurns += qiblahDelta;
+            _previousQiblah = relativeAngle;
+          }
+        }
+
         _previousDevice = deviceAngle;
-        _previousQiblah = qiblahAngle;
+        _previousQiblah = relativeAngle;
+
+        // debugPrint(
+        //   'QIBLA DEBUG | '
+        //   'Heading: ${deviceAngle.toStringAsFixed(2)}° | '
+        //   'Bearing: ${qiblahBearing.toStringAsFixed(2)}° | '
+        //   'Relative: ${relativeAngle.toStringAsFixed(2)}° | '
+        //   'Distance: ${angleToQibla.toStringAsFixed(2)}°',
+        // );
 
         return Center(
           child: Column(
@@ -51,27 +95,32 @@ class _QiblahCompassWidgetState extends State<QiblahCompassWidget> {
                 child: Stack(
                   alignment: Alignment.center,
                   children: [
-                    // Compass background
+                    // Smooth compass background.
                     AnimatedRotation(
                       turns: -_deviceTurns,
-                      duration: const Duration(milliseconds: 200),
-                      curve: Curves.linear,
-                      child: Image.asset(
-                        Images.Compass,
-                        height: 330,
-                        fit: BoxFit.fill,
-                        color: Theme.of(context).primaryColor,
+                      duration: const Duration(milliseconds: 160),
+                      curve: Curves.easeOutCubic,
+                      child: RepaintBoundary(
+                        child: Image.asset(
+                          Images.Compass,
+                          height: 330,
+                          fit: BoxFit.contain,
+                          color: Theme.of(context).primaryColor,
+                        ),
                       ),
                     ),
-                    // Needle
+
+                    // Natural needle movement.
                     AnimatedRotation(
-                      turns: -_qiblahTurns,
-                      duration: const Duration(milliseconds: 250),
-                      curve: Curves.linear,
-                      child: Image.asset(
-                        Images.Compass_Needle,
-                        height: 400,
-                        fit: BoxFit.fill,
+                      turns: _qiblahTurns,
+                      duration: const Duration(milliseconds: 240),
+                      curve: Curves.easeOutCubic,
+                      child: RepaintBoundary(
+                        child: Image.asset(
+                          Images.Compass_Needle,
+                          height: 400,
+                          fit: BoxFit.contain,
+                        ),
                       ),
                     ),
                   ],
@@ -79,22 +128,14 @@ class _QiblahCompassWidgetState extends State<QiblahCompassWidget> {
               ),
               Container(
                 padding: const EdgeInsets.symmetric(
-                    horizontal: 32.0, vertical: 10.0),
-                // decoration: BoxDecoration(
-                //   gradient: LinearGradient(
-                //     colors: [
-                //       Theme.of(context).hintColor.withOpacity(0.05),
-                //       Theme.of(context).hintColor.withOpacity(0.10),
-                //     ],
-                //   ),
-                //   borderRadius: BorderRadius.circular(18.0),
-                // ),
+                  horizontal: 32.0,
+                  vertical: 10.0,
+                ),
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      "${((qiblahDirection.direction - 285) % 360).toInt()}°",
-                      // "${(qiblahDirection.offset.toInt())}°",
+                      '${angleToQibla.round()}°',
                       style: robotoMedium.copyWith(
                         fontSize: Dimensions.FONT_SIZE_EXTRA_LARGE,
                         color: Theme.of(context).primaryColor,
@@ -117,138 +158,4 @@ class _QiblahCompassWidgetState extends State<QiblahCompassWidget> {
       },
     );
   }
-
-  double _shortestTurn(double current, double previous) {
-    double diff = current - previous;
-    if (diff > 180) diff -= 360;
-    if (diff < -180) diff += 360;
-    return diff / 360;
-  }
-
 }
-// class QiblahCompassWidget extends StatefulWidget {
-//   const QiblahCompassWidget({super.key});
-//
-//   @override
-//   State<QiblahCompassWidget> createState() => _QiblahCompassWidgetState();
-// }
-//
-// class _QiblahCompassWidgetState extends State<QiblahCompassWidget> {
-//   double _previousDirection = 0;
-//   double _previousQiblah = 0;
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return StreamBuilder(
-//       stream: FlutterQiblah.qiblahStream,
-//       builder: (_, AsyncSnapshot<QiblahDirection> snapshot) {
-//         if (!snapshot.hasData) {
-//           return const QuiblaeShimmerScreen();
-//         }
-//
-//         final qiblahDirection = snapshot.data!;
-//         double newDirection = qiblahDirection.direction;
-//         double newQiblah = qiblahDirection.qiblah;
-//
-//         // Normalize angles to prevent sudden jumps
-//         newDirection = _normalizeAngle(newDirection, _previousDirection);
-//         newQiblah = _normalizeAngle(newQiblah, _previousQiblah);
-//
-//         _previousDirection = newDirection;
-//         _previousQiblah = newQiblah;
-//
-//         return Column(
-//           mainAxisAlignment: MainAxisAlignment.center,
-//           children: [
-//              const SizedBox(height: 20.0),
-//             Expanded(
-//               child: Stack(
-//                 alignment: Alignment.center,
-//                 children: <Widget>[
-//                   TweenAnimationBuilder<double>(
-//                     tween: Tween<double>(
-//                         begin: _previousDirection, end: newDirection),
-//                     duration: const Duration(milliseconds: 700),
-//                     curve: Curves.easeOutExpo,
-//                     builder: (context, angle, child) {
-//                       return Transform.rotate(
-//                         angle: -angle * (pi / 180),
-//                         child: child,
-//                       );
-//                     },
-//                     child: Image.asset(
-//                       Images.Compass,
-//                       height: 330,
-//                       fit: BoxFit.fill,
-//                       color: Theme.of(context).primaryColor,
-//                     ),
-//                   ),
-//                   TweenAnimationBuilder<double>(
-//                     tween:
-//                     Tween<double>(begin: _previousQiblah, end: newQiblah),
-//                     duration: const Duration(milliseconds: 1000),
-//                     curve: Curves.easeOutExpo,
-//                     builder: (context, angle, child) {
-//                       return Transform.rotate(
-//                         angle: -angle * (pi / 180),
-//                         child: child,
-//                       );
-//                     },
-//                     child: Image.asset(
-//                       Images.Compass_Needle,
-//                       height: 400,
-//                       fit: BoxFit.fill,
-//                     ),
-//                   ),
-//                 ],
-//               ),
-//             ),
-//             Container(
-//               padding:
-//               const EdgeInsets.symmetric(horizontal: 32.0, vertical: 10.0),
-//               decoration: BoxDecoration(
-//                 gradient: LinearGradient(
-//                   colors: [
-//                     Theme.of(context).hintColor.withOpacity(0.05),
-//                     Theme.of(context).hintColor.withOpacity(0.10),
-//                   ],
-//                 ),
-//                 borderRadius: BorderRadius.circular(18.0),
-//               ),
-//               child: Column(
-//                 mainAxisSize: MainAxisSize.max,
-//                 children: <Widget>[
-//                   Text(
-//                     "${((qiblahDirection.direction - 285) % 360).toInt()}°",
-//                     style: robotoMedium.copyWith(
-//                       fontSize: Dimensions.FONT_SIZE_EXTRA_LARGE,
-//                       color: Theme.of(context).primaryColor,
-//                     ),
-//                   ),
-//                   const SizedBox(height: 2.0),
-//                   Text('device_angle_to_qibla'.tr,
-//                       style: robotoMedium.copyWith(
-//                         fontSize: Dimensions.FONT_SIZE_DEFAULT,
-//                       )),
-//                 ],
-//               ),
-//             ),
-//             const SizedBox(height: 40.0),
-//           ],
-//         );
-//       },
-//     );
-//   }
-//
-//   double _normalizeAngle(double current, double previous) {
-//     double diff = current - previous;
-//     if (diff.abs() > 180) {
-//       if (diff > 0) {
-//         current -= 360;
-//       } else {
-//         current += 360;
-//       }
-//     }
-//     return current;
-//   }
-// }

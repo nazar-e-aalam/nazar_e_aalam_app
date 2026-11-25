@@ -1,14 +1,9 @@
-
 class DikirDetailsModel {
   bool? status;
   String? message;
   Data? data;
 
-  DikirDetailsModel({
-    this.status,
-    this.message,
-    this.data,
-  });
+  DikirDetailsModel({this.status, this.message, this.data});
 
   factory DikirDetailsModel.fromJson(Map<String, dynamic> json) {
     final details = json['data'] is Map
@@ -23,10 +18,10 @@ class DikirDetailsModel {
   }
 
   Map<String, dynamic> toJson() => {
-        'status': status,
-        'message': message,
-        'data': data?.toJson(),
-      };
+    'status': status,
+    'message': message,
+    'data': data?.toJson(),
+  };
 }
 
 class Data {
@@ -75,14 +70,14 @@ class Data {
       '';
 
   Map<String, dynamic> toJson() => {
-        ...translations,
-        'id': id,
-        'position': position,
-        'ar_short_name': arShortName,
-        'ar_full_name': arFullName,
-        'en_short_name': enShortName,
-        'en_full_name': enFullName,
-      };
+    ...translations,
+    'id': id,
+    'position': position,
+    'ar_short_name': arShortName,
+    'ar_full_name': arFullName,
+    'en_short_name': enShortName,
+    'en_full_name': enFullName,
+  };
 }
 
 int _toInt(dynamic value, [int fallback = 0]) {

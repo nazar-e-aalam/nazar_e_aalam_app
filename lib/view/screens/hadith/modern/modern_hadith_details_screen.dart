@@ -33,9 +33,7 @@ class ModernHadithDetailsScreen extends StatelessWidget {
       ),
       body: SafeArea(
         child: ModernGlassPanel(
-          color: dark
-              ? const Color(0x0AFFFFFF)
-              : AppColorModern.glassFill,
+          color: dark ? const Color(0x0AFFFFFF) : AppColorModern.glassFill,
           child: SingleChildScrollView(
             padding: const EdgeInsets.all(Dimensions.PADDING_SIZE_DEFAULT),
             child: Column(
@@ -47,9 +45,9 @@ class ModernHadithDetailsScreen extends StatelessWidget {
                     height: 50,
                     width: double.infinity,
                     decoration: BoxDecoration(
-                      color: Theme.of(context).primaryColor.withValues(
-                        alpha: 0.1,
-                      ),
+                      color: Theme.of(
+                        context,
+                      ).primaryColor.withValues(alpha: 0.1),
                       borderRadius: BorderRadius.circular(14),
                     ),
                     child: SvgPicture.asset(
@@ -78,14 +76,13 @@ class ModernHadithDetailsScreen extends StatelessWidget {
                   child: Text(
                     data.hadithArabic.toString(),
                     textAlign: TextAlign.right,
-                    style: Get.find<SettingsController>()
-                        .selectedArabicFont
+                    style: Get.find<SettingsController>().selectedArabicFont
                         .copyWith(
-                      fontSize: Get.find<SettingsController>()
-                          .arabicFontSize
-                          .value,
-                      color: Theme.of(context).textTheme.bodyLarge!.color,
-                    ),
+                          fontSize: Get.find<SettingsController>()
+                              .arabicFontSize
+                              .value,
+                          color: Theme.of(context).textTheme.bodyLarge!.color,
+                        ),
                   ),
                 ),
                 const SizedBox(height: 24),
@@ -106,7 +103,9 @@ class ModernHadithDetailsScreen extends StatelessWidget {
                   child: Text(
                     data.hadithEnglish.toString(),
                     textAlign: TextAlign.justify,
-                    style: robotoMedium.copyWith(fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                    style: robotoMedium.copyWith(
+                      fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                    ),
                   ),
                 ),
                 const SizedBox(height: 24),
@@ -224,11 +223,7 @@ class ModernHadithDetailsScreen extends StatelessWidget {
               color: Theme.of(context).primaryColor.withValues(alpha: 0.10),
               borderRadius: BorderRadius.circular(12),
             ),
-            child: Icon(
-              icon,
-              color: Theme.of(context).primaryColor,
-              size: 20,
-            ),
+            child: Icon(icon, color: Theme.of(context).primaryColor, size: 20),
           ),
           const SizedBox(width: 14),
           Expanded(
@@ -239,8 +234,9 @@ class ModernHadithDetailsScreen extends StatelessWidget {
                   label,
                   style: robotoMedium.copyWith(
                     fontSize: Dimensions.FONT_SIZE_SMALL,
-                    color: Theme.of(context).textTheme.bodyMedium!.color
-                        ?.withValues(alpha: 0.7),
+                    color: Theme.of(
+                      context,
+                    ).textTheme.bodyMedium!.color?.withValues(alpha: 0.7),
                   ),
                 ),
                 const SizedBox(height: 4),

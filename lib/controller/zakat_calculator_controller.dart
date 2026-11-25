@@ -4,18 +4,19 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
 // import 'package:nazar_e_alam/controller/quran_settings_controller.dart';
 
 class ZakatCalculatorController extends GetxController {
   final zakatCalculatorformkey = GlobalKey<FormState>();
 
-//------------- Global Variable forSection   ------------//
+  //------------- Global Variable forSection   ------------//
   double oweResult = 0;
   double ownResult = 0;
   double equalResult = 0;
   double total_zakat = 0;
 
-//------------- All result TextEditingController Section   ------------//
+  //------------- All result TextEditingController Section   ------------//
   final totalOwn = TextEditingController();
   final totalOwe = TextEditingController();
   final equal = TextEditingController();
@@ -60,7 +61,7 @@ class ZakatCalculatorController extends GetxController {
     return null;
   }
 
-//------------- Variable for Own section ------------//
+  //------------- Variable for Own section ------------//
 
   final own_bank_cash = TextEditingController();
   final own_cash = TextEditingController();
@@ -89,45 +90,58 @@ class ZakatCalculatorController extends GetxController {
   getTotalOwn() {
     double ownSum =
         double.parse(own_bank_cash.text == "" ? "0" : own_bank_cash.text) +
-            double.parse(own_cash.text == "" ? "0" : own_cash.text) +
-            double.parse(own_loan.text == "" ? "0" : own_loan.text) +
-            double.parse(
-                own_money_expected.text == "" ? "0" : own_money_expected.text) +
-            double.parse(own_gold.text == "" ? "0" : own_gold.text) +
-            double.parse(own_silver.text == "" ? "0" : own_silver.text) +
-            double.parse(own_shares_bought_exclusively.text == ""
-                ? "0"
-                : own_shares_bought_exclusively.text) +
-            double.parse(
-                own_shares_bought.text == "" ? "0" : own_shares_bought.text) +
-            double.parse(own_pension.text == "" ? "0" : own_pension.text) +
-            double.parse(own_stocks.text == "" ? "0" : own_stocks.text) +
-            double.parse(own_cash_isa.text == "" ? "0" : own_cash_isa.text) +
-            double.parse(
-                own_cryptocurrency.text == "" ? "0" : own_cryptocurrency.text) +
-            double.parse(
-                own_business_cash.text == "" ? "0" : own_business_cash.text) +
-            double.parse(own_business_receivables.text == ""
-                ? "0"
-                : own_business_receivables.text) +
-            double.parse(
-                own_business_stock.text == "" ? "0" : own_business_stock.text);
+        double.parse(own_cash.text == "" ? "0" : own_cash.text) +
+        double.parse(own_loan.text == "" ? "0" : own_loan.text) +
+        double.parse(
+          own_money_expected.text == "" ? "0" : own_money_expected.text,
+        ) +
+        double.parse(own_gold.text == "" ? "0" : own_gold.text) +
+        double.parse(own_silver.text == "" ? "0" : own_silver.text) +
+        double.parse(
+          own_shares_bought_exclusively.text == ""
+              ? "0"
+              : own_shares_bought_exclusively.text,
+        ) +
+        double.parse(
+          own_shares_bought.text == "" ? "0" : own_shares_bought.text,
+        ) +
+        double.parse(own_pension.text == "" ? "0" : own_pension.text) +
+        double.parse(own_stocks.text == "" ? "0" : own_stocks.text) +
+        double.parse(own_cash_isa.text == "" ? "0" : own_cash_isa.text) +
+        double.parse(
+          own_cryptocurrency.text == "" ? "0" : own_cryptocurrency.text,
+        ) +
+        double.parse(
+          own_business_cash.text == "" ? "0" : own_business_cash.text,
+        ) +
+        double.parse(
+          own_business_receivables.text == ""
+              ? "0"
+              : own_business_receivables.text,
+        ) +
+        double.parse(
+          own_business_stock.text == "" ? "0" : own_business_stock.text,
+        );
     ownResult = ownSum;
     totalOwn.text = ownResult.toString();
   }
 
   getTotalOwe() {
-    double ownSum = double.parse(
-            owe_mortgage.text == "" ? "0" : owe_mortgage.text) +
+    double ownSum =
+        double.parse(owe_mortgage.text == "" ? "0" : owe_mortgage.text) +
         double.parse(
-            owe_utility_bills.text == "" ? "0" : owe_utility_bills.text) +
+          owe_utility_bills.text == "" ? "0" : owe_utility_bills.text,
+        ) +
         double.parse(
-            owe_personal_loans.text == "" ? "0" : owe_personal_loans.text) +
+          owe_personal_loans.text == "" ? "0" : owe_personal_loans.text,
+        ) +
         double.parse(owe_overdraft.text == "" ? "0" : owe_overdraft.text) +
         double.parse(owe_credit_card.text == "" ? "0" : owe_credit_card.text) +
-        double.parse(owe_business_libilities.text == ""
-            ? "0"
-            : owe_business_libilities.text);
+        double.parse(
+          owe_business_libilities.text == ""
+              ? "0"
+              : owe_business_libilities.text,
+        );
     oweResult = ownSum;
     totalOwe.text = oweResult.toString();
   }

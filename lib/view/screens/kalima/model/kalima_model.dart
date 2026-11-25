@@ -1,4 +1,3 @@
-
 class KalimaModel {
   final int id;
   final int position;
@@ -19,10 +18,7 @@ class KalimaModel {
       if (value is! Map) return {};
 
       return value.map(
-        (key, value) => MapEntry(
-          key.toString(),
-          value?.toString() ?? '',
-        ),
+        (key, value) => MapEntry(key.toString(), value?.toString() ?? ''),
       );
     }
 

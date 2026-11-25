@@ -119,23 +119,19 @@ class _OfflineAyanTranslationWidgetState
                                                 .toString(),
                                             textDirection: TextDirection.rtl,
                                             textAlign: TextAlign.right,
-                                            style:
-                                                Get.find<
-                                                    SettingsController
-                                                    >()
-                                                    .selectedArabicFont
-                                                    .copyWith(
-                                                      fontSize:
-                                                          Get.find<
-                                                              SettingsController
-                                                              >()
-                                                              .arabicFontSize
-                                                              .value,
-                                                      color: Theme.of(context)
-                                                          .textTheme
-                                                          .bodyMedium!
-                                                          .color,
-                                                    ),
+                                            style: Get.find<SettingsController>()
+                                                .selectedArabicFont
+                                                .copyWith(
+                                                  fontSize:
+                                                      Get.find<
+                                                            SettingsController
+                                                          >()
+                                                          .arabicFontSize
+                                                          .value,
+                                                  color: Theme.of(
+                                                    context,
+                                                  ).textTheme.bodyMedium!.color,
+                                                ),
                                           ),
                                         ),
                                       ),
@@ -154,9 +150,7 @@ class _OfflineAyanTranslationWidgetState
                                             textAlign: TextAlign.justify,
                                             style: robotoMedium.copyWith(
                                               fontSize:
-                                                  Get.find<
-                                                      SettingsController
-                                                      >()
+                                                  Get.find<SettingsController>()
                                                       .translateFontSize
                                                       .value,
                                             ),

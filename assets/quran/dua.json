@@ -1,0 +1,2336 @@
+{
+  "schema_version": 1,
+  "module": "dua_book",
+  "id": "dua_book",
+  "default_language": "en",
+  "supported_languages": ["en", "hi", "gu", "ur", "ar", "sw"],
+  "title": {
+    "en": "Tohfa-e-Najat — Dua Book",
+    "hi": "तोहफ़ा-ए-नजात — दुआ की किताब",
+    "gu": "તોહફા-એ-નજાત — દુઆની કિતાબ",
+    "ur": "تحفۂ نجات — دعاؤں کی کتاب",
+    "ar": "تحفة نجاة — كتاب الأدعية",
+    "sw": "Tohfa-e-Najat — Kitabu cha Dua"
+  },
+  "source": {
+    "title": "Tohfa-e-Najat (Dua Momin Ka Hathiyar)",
+    "author": "Pir Sayyid Intekhab Alam wald Nazar Husain Bawa Saheb (Sunni, Hanafi, Chishti, Mashaykhi)",
+    "publisher": "Faiz-e-Nazar Committee (Dholka Branch)",
+    "edition": "15th Urs Mubarak Edition (18 Sha'ban)",
+    "total_pages": 28,
+    "original_languages": ["gu", "ur", "ar"],
+    "extraction_method": "visual_ocr"
+  },
+  "categories": [
+    {
+      "id": "book_front_matter_and_etiquette",
+      "order": 1,
+      "title": {
+        "en": "Front Matter & Etiquettes of Dua",
+        "hi": "प्रस्तावना और दुआ के आदाब",
+        "gu": "પ્રસ્તાવના અને દુઆના આદાબ",
+        "ur": "تمہید اور آدابِ دعا",
+        "ar": "المقدمة وآداب الدعاء",
+        "sw": "Utangulizi na Adabu za Dua"
+      },
+      "description": {
+        "en": "Title details, author's dedication (Pesho Nazar), and the twelve etiquettes of supplication.",
+        "hi": "पुस्तक परिचय, समर्पण (पेश-ए-नज़र) और दुआ मांगने के बारह आदाब।",
+        "gu": "પુસ્તક પરિચય, સમર્પણ (પેશો નઝર) અને દુઆ માંગવાના બાર આદાબ.",
+        "ur": "کتاب کا تعارف، پیشِ نظر اور دعا مانگنے کے بارہ آداب۔",
+        "ar": "بيانات الكتاب والإهداء والآداب الاثنا عشر للدعاء.",
+        "sw": "Maelezo ya kitabu, dibaji (Pesho Nazar), na adabu kumi na mbili za kuomba dua."
+      },
+      "source_pages": [1, 2, 3],
+      "sections": [
+        {
+          "id": "cover_and_dedication",
+          "order": 1,
+          "title": {
+            "en": "Title Page & Dedication (Pesho Nazar)",
+            "hi": "शीर्षक पृष्ठ और समर्पण (पेश-ए-नज़र)",
+            "gu": "શીર્ષક પૃષ્ઠ અને સમર્પણ (પેશો નઝર)",
+            "ur": "سرورق اور پیشِ نظر",
+            "ar": "الغلاف والإهداء",
+            "sw": "Ukurasa wa Mbele na Dibaji"
+          },
+          "source_pages": [1, 2],
+          "items": [
+            {
+              "id": "cover_publication_details",
+              "order": 1,
+              "type": "note",
+              "text": {
+                "en": "Book Title: Tohfa-e-Najat — Dua Momin Ka Hathiyar (Supplication is the Weapon of the Believer). Presented by: Pir Sayyid Intekhab Alam wald Nazar Husain Bawa Saheb (Sunni, Hanafi, Chishti, Mashaykhi). Publisher: Faiz-e-Nazar Committee (Dholka Branch), Mob: 98250 50486, 92282 83083. Price: Rs. 5/-.",
+                "hi": "पुस्तक का नाम: तोहफ़ा-ए-नजात — दुआ मोमिन का हथियार। प्रस्तुतकर्ता: पीर सैयद इंतिख़ाब आलम वल्द नज़र हुसैन बावा साहेब (सुन्नी, हनफ़ी, चिश्ती, मशायख़ी)। प्रकाशक: फ़ैज़-ए-नज़र कमिटी (धोलका ब्रांच), मो. 98250 50486, 92282 83083। मूल्य: रु. 5/-।",
+                "gu": "પુસ્તકનું નામ: તોહફા-એ-નજાત — દુઆ મોમીન કા હથિયાર. રજૂકર્તા: પીર સૈયદ ઈન્તેખાબઆલમ વલ્દ નઝરહુસૈનબાવા સાહેબ (સુન્ની, હનફી, ચિશ્તી, મશાયખી). પ્રકાશક: ફૈઝે-નઝર કમિટી (ધોળકા બ્રાન્ચ), મો. ૯૮૨૫૦ ૫૦૪૮૬, ૯૨૨૮૨ ૮૩૦૮૩. કિંમત: રૂ. ૫/-.",
+                "ur": "کتاب کا نام: تحفۂ نجات — دعا مومن کا ہتھیار۔ پیش کش: پیر سید انتخاب عالم ولد نظر حسین باوا صاحب (سنی، حنفی، چشتی، مشائخی)۔ ناشر: فیضِ نظر کمیٹی (دھولکہ برانچ)، موبائل: 98250 50486، 92282 83083۔ قیمت: 5/- روپے۔",
+                "ar": "اسم الكتاب: تحفة نجاة — الدعاء سلاح المؤمن. تقديم: بير سيد انتخاب عالم بن نظر حسين باوا صاحب (سني، حنفي، چشتي، مشائخي). الناشر: لجنة فيض نظر (فرع دولكا)، هاتف: 98250 50486 / 92282 83083. السعر: ٥ روبيات.",
+                "sw": "Jina la Kitabu: Tohfa-e-Najat — Dua Momin Ka Hathiyar (Dua ni Silaha ya Muumini). Mwasilishaji: Pir Sayyid Intekhab Alam wald Nazar Husain Bawa Saheb (Sunni, Hanafi, Chishti, Mashaykhi). Mchapishaji: Kamati ya Faiz-e-Nazar (Tawi la Dholka), Simu: 98250 50486, 92282 83083. Bei: Rupia 5/-."
+              },
+              "source_pages": [1, 2],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "pesho_nazar_dedication",
+              "order": 2,
+              "type": "paragraph",
+              "text": {
+                "en": "Presentation (Pesho Nazar): On the auspicious occasion of the 15th Urs Mubarak (18th Sha'ban) of Hazrat Pir Sayyid Nazarhusain Bawa (rahmatullahi alayh), I present this book 'Tohfa-e-Najat' for the pleasure of Allah Ta'ala—conveying its reward (Isal-e-Sawab) through the blessed court of the Master of Both Worlds, Rahmatul-lil-'Alamin, Muhammad Mustafa (sallallahu alayhi wa sallam), the noble Companions (Sahabah-e-Kiram), the illustrious Ahl al-Bayt, the entire Husaini, Chishti, and Mashaykhi spiritual lineage and their spiritual guides, and especially to the court of Pir Sayyid Nazar Husain Bawa Saheb. Ameen. — Pir Sayyid Intekhab Alam wald Nazarhusain Bawa (Husaini, Chishti, Mashaykhi).",
+                "hi": "पेश-ए-नज़र: यह किताब 'तोहफ़ा-ए-नजात' हज़रत पीर सैयद नज़रहुसैन बावा रहमतुल्लाहि अलैह के 15वें उर्स मुबारक (चांद: 18 शाबान) के अवसर पर अल्लाह तआला की ख़ुशनूदी के लिए तथा इसका सवाब सैयद-ए-दो-आलम रहमतुल्लिल आलमीन जनाब मुहम्मद मुस्तफ़ा सल्लल्लाहु अलैहि वसल्लम, प्यारे सहाबा-ए-किराम और अहलेबैत-ए-इज़ाम की पाक बारगाह में होते हुए तमाम हुसैनी, चिश्ती, मशायख़ी ख़ानदान और उनके रूहानी पेशवाओं की बारगाह में होते हुए ख़ुसूसन पीर सैयद नज़र हुसैन बावा साहेब की बारगाह में पेश करता हूं। आमीन। — पीर सैयद इंतिख़ाब आलम वल्द नज़रहुसैन बावा (हुसैनी, चिश्ती, मशायख़ी)।",
+                "gu": "પેશો નઝર: આ કિતાબ 'તોહફા-એ-નજાત' હઝરત પીર સૈયદ નઝરહુસૈન બાવા રહેમતુલ્લાહો અલયહેના ૧૫મા ઉર્સ મુબારક પ્રસંગે (ચાંદ: ૧૮ શાબાન) અલ્લાહ તઆલાની ખુશનદી માટે તેમજ તેનો સવાબ સૈયદે દો-આલમ રહમતુલ્લિલ આલમીન જનાબે મોહંમદ મુસ્તફા સલ્લલ્લાહો અલયહે વસલ્લમ અને પ્યારા સહાબાએ કીરામ વ એહલેબૈતે ઈઝામની પાક બારગાહમાં થઈને તમામ હુસૈની, ચિશ્તી, મશાયખી ખાનદાન તથા તેમના રૂહાની પેશવાઓની બારગાહમાં થઈને ખુસુસન પીર સૈયદ નઝર હુસૈન બાવા સાહેબની બારગાહમાં પેશ કરું છું. આમીન. — પીર સૈયદ ઈન્તેખાબ આલમ વલ્દ નઝરહુસૈનબાવા (હુસૈની, ચિશ્તી, મશાયખી).",
+                "ur": "پیشِ نظر: یہ کتاب 'تحفۂ نجات' حضرت پیر سید نظر حسین باوا رحمۃ اللہ علیہ کے پندرہویں عرس مبارک (چاند: 18 شعبان) کے موقع پر اللہ تعالیٰ کی خوشنودی کے لیے اور اس کا ثواب سیدِ دو عالم رحمۃ للعالمین جناب محمد مصطفیٰ صلی اللہ علیہ وسلم، پیارے صحابۂ کرام و اہلِ بیتِ عظام کی پاک بارگاہ میں ہوتے ہوئے تمام حسینی، چشتی، مشائخی خاندان اور ان کے روحانی پیشواؤں کی بارگاہ میں ہوتے ہوئے خصوصاً پیر سید نظر حسین باوا صاحب کی بارگاہ میں پیش کرتا ہوں۔ آمین۔ — پیر سید انتخاب عالم ولد نظر حسین باوا (حسینی، چشتی، مشائخی)۔",
+                "ar": "تقديم وإهداء: أُقدّم هذا الكتاب «تحفة نجاة» بمناسبة الذكرى الخامسة عشرة للعرس المبارك للشيخ بير سيد نظر حسين باوا رحمه الله تعالى (١٨ شعبان)، ابتغاء مرضاة الله تعالى، وإهداءً لثوابه إلى حضرة سيد الكونين رحمة للعالمين سيدنا محمد المصطفى ﷺ وأصحابه الكرام وأهل بيته العظام، ومنهم إلى سائر السلسلة الحسينية والجشتية والمشائخية وقادتهم الروحانيين، وخصوصاً إلى حضرة بير سيد نظر حسين باوا صاحب. آمين. — بير سيد انتخاب عالم بن نظر حسين باوا (الحسيني، الجشتي، المشائخي).",
+                "sw": "Dibaji: Katika tukio tukufu la kumbukumbu ya Urs Mubarak ya 15 (mwezi 18 Sha'ban) ya Hazrat Pir Sayyid Nazarhusain Bawa (rahmatullahi alayh), nawasilisha kitabu hiki 'Tohfa-e-Najat' kwa ajili ya radhi za Mwenyezi Mungu Mtukufu, nikituma thawabu zake kupitia hadhara tukufu ya Bwana wa Ulimwengu Wote, Rehema kwa Viumbe Vyote, Muhammad Mustafa (sallallahu alayhi wa sallam), Maswahaba watukufu na Ahl al-Bayt watukufu, hadi kwa ukoo wote wa Husaini, Chishti, na Mashaykhi na viongozi wao wa kiroho, na hasa kwa hadhara ya Pir Sayyid Nazar Husain Bawa Saheb. Amina. — Pir Sayyid Intekhab Alam wald Nazarhusain Bawa (Husaini, Chishti, Mashaykhi)."
+              },
+              "source_pages": [2],
+              "review_status": "needs_review"
+            }
+          ]
+        },
+        {
+          "id": "adab_e_dua_etiquettes",
+          "order": 2,
+          "title": {
+            "en": "Etiquettes of Supplication (Adab-e-Dua)",
+            "hi": "दुआ के आदाब",
+            "gu": "આદાબે દુઆ (દુઆના આદાબ)",
+            "ur": "آدابِ دعا",
+            "ar": "آداب الدعاء",
+            "sw": "Adabu za Dua (Adab-e-Dua)"
+          },
+          "source_pages": [3],
+          "items": [
+            {
+              "id": "adab_e_dua_intro",
+              "order": 1,
+              "type": "subheading",
+              "text": {
+                "en": "Before making Dua, one should perform some righteous deed, for example:",
+                "hi": "दुआ मांगने से पहले कोई नेक काम करना चाहिए, जैसे:",
+                "gu": "દુઆ માંગવા પહેલાં કોઈ નેક કામ કરવું જોઈએ, જેમ કે:",
+                "ur": "دعا مانگنے سے پہلے کوئی نیک کام کرنا چاہیے، مثلاً:",
+                "ar": "ينبغي قبل الدعاء القيام بعمل صالح، مثل:",
+                "sw": "Kabla ya kuomba Dua, mtu anapaswa kufanya jambo jema, kwa mfano:"
+              },
+              "source_pages": [3],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "adab_01_namaz",
+              "order": 2,
+              "type": "instruction",
+              "text": {
+                "en": "1. Performing Salah (Namaz).",
+                "hi": "1. नमाज़ पढ़ना।",
+                "gu": "૧. નમાઝ પઢવી.",
+                "ur": "1۔ نماز پڑھنا۔",
+                "ar": "١. أداء الصلاة.",
+                "sw": "1. Kuswali Swala."
+              },
+              "source_pages": [3],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "adab_02_sadaqah",
+              "order": 3,
+              "type": "instruction",
+              "text": {
+                "en": "2. Giving charity (Sadaqah).",
+                "hi": "2. सदक़ा करना।",
+                "gu": "૨. સદકા કરવો.",
+                "ur": "2۔ صدقہ کرنا۔",
+                "ar": "٢. التصدق.",
+                "sw": "2. Kutoa sadaka."
+              },
+              "source_pages": [3],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "adab_03_qiblah",
+              "order": 4,
+              "type": "instruction",
+              "text": {
+                "en": "3. Facing toward the Qiblah.",
+                "hi": "3. क़िब्ले की तरफ़ मुंह करना।",
+                "gu": "૩. કિબ્લા તરફ મુખ કરવું.",
+                "ur": "3۔ قبلہ کی طرف منہ کرنا۔",
+                "ar": "٣. استقبال القبلة.",
+                "sw": "3. Kuelekea Qiblah."
+              },
+              "source_pages": [3],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "adab_04_do_zanu",
+              "order": 5,
+              "type": "instruction",
+              "text": {
+                "en": "4. Sitting respectfully on both knees (Do-zanu).",
+                "hi": "4. दो ज़ानू (अदब से दोनों घुटनों के बल) बैठना।",
+                "gu": "૪. દો જાનું (બંને ઘૂંટણ વાળી અદબથી) બેસવું.",
+                "ur": "4۔ دو زانو بیٹھنا۔",
+                "ar": "٤. الجلوس متوركاً على الركبتين بأدب (دو زانو).",
+                "sw": "4. Kukaa kwa heshima juu ya magoti mawili (Do-zanu)."
+              },
+              "source_pages": [3],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "adab_05_hamd_durood",
+              "order": 6,
+              "type": "instruction",
+              "text": {
+                "en": "5. Reciting Praise of Allah (Hamd wa Thana) and Durood Sharif at the beginning and end of Dua.",
+                "hi": "5. दुआ के शुरू और आख़िर में हम्द व सना और दुरूद शरीफ़ पढ़ना।",
+                "gu": "૫. દુઆની શરૂઆતમાં અને અંતમાં હમ્દ વ સના અને દુરૂદ શરીફ પઢવી.",
+                "ur": "5۔ دعا کے اول و آخر حمد و ثنا اور درود شریف پڑھنا۔",
+                "ar": "٥. قراءة الحمد والثناء والصلاة على النبي ﷺ في أول الدعاء وآخره.",
+                "sw": "5. Kusoma sifa za Mwenyezi Mungu (Hamd wa Thana) na Durood Sharif mwanzoni na mwishoni mwa Dua."
+              },
+              "source_pages": [3],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "adab_06_spread_hands",
+              "order": 7,
+              "type": "instruction",
+              "text": {
+                "en": "6. Spreading out both hands while making Dua.",
+                "hi": "6. दोनों हाथ फैलाकर दुआ मांगना।",
+                "gu": "૬. બંને હાથ ફેલાવીને દુઆ માંગવી.",
+                "ur": "6۔ دونوں ہاتھ پھیلا کر دعا مانگنا۔",
+                "ar": "٦. بسط اليدين ورفعهما عند الدعاء.",
+                "sw": "6. Kunyoosha na kuinua mikono miwili wakati wa kuomba Dua."
+              },
+              "source_pages": [3],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "adab_07_confess_sins",
+              "order": 8,
+              "type": "instruction",
+              "text": {
+                "en": "7. Confessing and acknowledging one's sins.",
+                "hi": "7. अपने गुनाहों का इक़रार करना।",
+                "gu": "૭. પોતાના ગુનાહોનો ઇકરાર કરવો.",
+                "ur": "7۔ اپنے گناہوں کا اقرار کرنا۔",
+                "ar": "٧. الاعتراف بالذنوب.",
+                "sw": "7. Kukiri dhambi za mtu."
+              },
+              "source_pages": [3],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "adab_08_good_expectation",
+              "order": 9,
+              "type": "instruction",
+              "text": {
+                "en": "8. Maintaining good expectation (Husn al-Zann) of Allah Ta'ala.",
+                "hi": "8. अल्लाह तआला से अच्छा गुमान रखना।",
+                "gu": "૮. અલ્લાહ તઆલા પ્રત્યે સારું ગુમાન (આશા) રાખવું.",
+                "ur": "8۔ اللہ تعالیٰ سے اچھا گمان رکھنا۔",
+                "ar": "٨. إحسان الظن بالله تعالى.",
+                "sw": "8. Kuwa na dhana njema na matumaini mema kwa Mwenyezi Mungu Mtukufu."
+              },
+              "source_pages": [3],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "adab_09_weeping",
+              "order": 10,
+              "type": "instruction",
+              "text": {
+                "en": "9. Making Dua while weeping earnestly.",
+                "hi": "9. ख़ूब रो-रोकर दुआ मांगना।",
+                "gu": "૯. ખૂબ રડી-રડીને દુઆ માંગવી.",
+                "ur": "9۔ خوب رو رو کر دعا مانگنا۔",
+                "ar": "٩. التضرع والبكاء كثيراً في الدعاء.",
+                "sw": "9. Kuomba Dua kwa kulia sana na unyenyekevu."
+              },
+              "source_pages": [3],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "adab_10_wasilah",
+              "order": 11,
+              "type": "instruction",
+              "text": {
+                "en": "10. Presenting the Wasilah (intercession/means) of the Crown of Madinah (sallallahu alayhi wa sallam), all the Prophets (alayhimussalam), and the noble Awliya in the court of one's Lord.",
+                "hi": "10. ताजदार-ए-मदीना सल्लल्लाहु अलैहि वसल्लम, तमाम अंबिया अलैहिमुस्सलाम और औलिया-ए-किराम का वसीला अपने परवरदिगार की बारगाह में पेश करना।",
+                "gu": "૧૦. તાજદારે મદીના સલ્લલ્લાહો અલયહી વસલ્લમ, તમામ અંબિયા અલૈહિમુસ્સલામ અને ઔલિયા-એ-ઇકરામનો વસીલો પોતાના પરવરદિગારની બારગાહમાં પેશ કરવો.",
+                "ur": "10۔ تاجدارِ مدینہ صلی اللہ علیہ وسلم، تمام انبیا علیہم السلام اور اولیائے کرام کا وسیلہ اپنے پروردگار کی بارگاہ میں پیش کرنا۔",
+                "ar": "١٠. التوسل إلى الله تعالى بجاه تاجدار المدينة سيدنا محمد ﷺ وسائر الأنبياء عليهم السلام والأولياء الكرام.",
+                "sw": "10. Kuwasilisha Wasilah wa Taji la Madinah (sallallahu alayhi wa sallam), Mitume wote (alayhimussalam), na Mawalii watukufu mbele ya Mola wako."
+              },
+              "source_pages": [3],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "adab_11_ameen",
+              "order": 12,
+              "type": "instruction",
+              "text": {
+                "en": "11. Saying 'Ameen' during Dua.",
+                "hi": "11. दुआ में 'आमीन' कहना।",
+                "gu": "૧૧. દુઆમાં 'આમીન' કહેવું.",
+                "ur": "11۔ دعا میں آمین کہنا۔",
+                "ar": "١١. قول «آمين» في الدعاء.",
+                "sw": "11. Kusema 'Amina' katika Dua."
+              },
+              "source_pages": [3],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "adab_12_wipe_face",
+              "order": 13,
+              "type": "instruction",
+              "text": {
+                "en": "12. Upon finishing Dua, wiping both hands over one's face.",
+                "hi": "12. दुआ से फ़ारिग़ होकर दोनों हाथ मुंह पर फेर लेना।",
+                "gu": "૧૨. દુઆથી ફારિગ થઈને બંને હાથ ચહેરા પર ફેરવી લેવા.",
+                "ur": "12۔ دعا سے فارغ ہو کر دونوں ہاتھ منہ پر پھیر لینا۔",
+                "ar": "١٢. مسح الوجه باليدين بعد الفراغ من الدعاء.",
+                "sw": "12. Baada ya kumaliza Dua, kupangusa uso kwa mikono yote miwili."
+              },
+              "source_pages": [3],
+              "review_status": "needs_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opening_invocations_and_durood",
+      "order": 2,
+      "title": {
+        "en": "Opening Invocations & Durood",
+        "hi": "दुआ से पहले के अज़कार व दुरूद",
+        "gu": "દુઆ પહેલાંના અઝકાર અને દુરૂદ",
+        "ur": "ابتدائی اذکار و درود",
+        "ar": "الأذكار الافتتاحية والصلاة على النبي ﷺ",
+        "sw": "Nyiradi za Ufunguzi na Durood"
+      },
+      "description": {
+        "en": "Opening praise, Durood Sharif, Istighfar, and invocations recited before the main supplication.",
+        "hi": "मुख्य दुआ से पहले पढ़े जाने वाले आरंभिक अज़कार, दुरूद शरीफ़ और इस्तिग़फ़ार।",
+        "gu": "મુખ્ય દુઆ પહેલાં પઢવામાં આવતા અઝકાર, દુરૂદ શરીફ અને ઇસ્તિગફાર.",
+        "ur": "مرکزی دعا سے پہلے پڑھے جانے والے ابتدائی اذکار، درود شریف اور استغفار۔",
+        "ar": "الأذكار الافتتاحية والصلاة على النبي ﷺ والاستغفار قبل الدعاء الرئيسي.",
+        "sw": "Nyiradi za ufunguzi, Durood Sharif, na Istighfar zinazosomwa kabla ya dua kuu."
+      },
+      "source_pages": [4],
+      "sections": [
+        {
+          "id": "opening_recitations_before_dua",
+          "order": 1,
+          "title": {
+            "en": "Opening Recitations (Ta'awwudh, Tasmiyah, Durood, Istighfar & Invocations)",
+            "hi": "दुआ से पहले की तिलावत (तअव्वुज़, तस्मिया, दुरूद, इस्तिग़फ़ार और पुकार)",
+            "gu": "દુઆ પહેલાંની તિલાવત (તઅવ્વુઝ, તસ્મિયા, દુરૂદ, ઇસ્તિગફાર અને પુકાર)",
+            "ur": "دعا سے پہلے کے اذکار (تعوذ، تسمیہ، درود، استغفار اور مناجات)",
+            "ar": "الأذكار الافتتاحية قبل الدعاء",
+            "sw": "Nyiradi za Ufunguzi Kabla ya Dua"
+          },
+          "source_pages": [4],
+          "items": [
+            {
+              "id": "opening_taawwudh",
+              "order": 1,
+              "type": "recitation",
+              "recitation_type": "other",
+              "title": {
+                "en": "Ta'awwudh",
+                "hi": "तअव्वुज़",
+                "gu": "તઅવ્વુઝ",
+                "ur": "تعوذ",
+                "ar": "التعوذ",
+                "sw": "Ta'awwudh (Kuomba Kinga)"
+              },
+              "arabic": "أَعُوذُ بِاللّٰهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+              "arabic_origin": "reconstructed_from_gujarati_transliteration",
+              "transliteration": {
+                "en": "A'udhu billahi minash-shaytanir-rajim",
+                "hi": "अऊज़ु बिल्लाहि मिनश-शैतानिर-रजीम",
+                "gu": "અઊઝુ બિલ્લાહિ મિનશ્શય્તાનિર્રજીમ",
+                "ur": "اعوذ باللہ من الشیطٰن الرجیم",
+                "sw": "A'udhu billahi minash-shaytanir-rajim"
+              },
+              "translation": {
+                "en": "I seek refuge in Allah from Shaytan, the accursed.",
+                "hi": "मैं अल्लाह की पनाह में आता हूं शैतान मर्दूद से।",
+                "gu": "હું અલ્લાહની પનાહમાં આવું છું શૈતાન મરદૂદથી.",
+                "ur": "میں اللہ کی پناہ میں آتا ہوں شیطان مردود سے۔",
+                "ar": "أعتصم بالله وأستجير به من الشيطان المطرود من رحمة الله.",
+                "sw": "Najikinga kwa Mwenyezi Mungu kutokana na Shetani aliyelaaniwa."
+              },
+              "repeat_count": null,
+              "references": [],
+              "source_pages": [4],
+              "translation_origin": {
+                "en": "generated",
+                "hi": "generated",
+                "gu": "generated",
+                "ur": "generated",
+                "ar": "generated",
+                "sw": "generated"
+              },
+              "review_status": "needs_review",
+              "original_source_text": "આઉઝોબિલ્લલાહી મિન્શ્શયતોનીર્રજીમ",
+              "editorial_note": "Reconstructed standard Arabic Ta'awwudh from Gujarati-script pronunciation; Gujarati transliteration standardized to match Arabic recitation.",
+              "editorial_corrections": [
+                {
+                  "field": "transliteration.gu",
+                  "original_text": "આઉઝોબિલ્લલાહી મિન્શ્શયતોનીર્રજીમ",
+                  "corrected_text": "અઊઝુ બિલ્લાહિ મિનશ્શય્તાનિર્રજીમ",
+                  "reason": "Aligned Gujarati transliteration with standard Arabic pronunciation of Ta'awwudh while preserving original printed Gujarati text."
+                }
+              ]
+            },
+            {
+              "id": "opening_tasmiyah",
+              "order": 2,
+              "type": "recitation",
+              "recitation_type": "quranic_verse",
+              "title": {
+                "en": "Tasmiyah (Bismillah)",
+                "hi": "तस्मिया (बिस्मिल्लाह)",
+                "gu": "તસ્મિયા (બિસ્મિલ્લાહ)",
+                "ur": "تسمیہ (بسم اللہ)",
+                "ar": "البسملة",
+                "sw": "Kuanza kwa Bismillah (Tasmiyah)"
+              },
+              "arabic": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ",
+              "arabic_origin": "reconstructed_from_gujarati_transliteration",
+              "transliteration": {
+                "en": "Bismillahir-Rahmanir-Rahim",
+                "hi": "बिस्मिल्लाहिर-रहमानिर-रहीम",
+                "gu": "બિસ્મિલ્લાહિર્રહ્માનિર્રહીમ",
+                "ur": "بسم اللہ الرحمٰن الرحیم",
+                "sw": "Bismillahir-Rahmanir-Rahim"
+              },
+              "translation": {
+                "en": "In the name of Allah, the Most Compassionate, the Most Merciful.",
+                "hi": "अल्लाह के नाम से शुरू जो निहायत मेहरबान, हमेशा रहम फ़रमाने वाला है।",
+                "gu": "અલ્લાહના નામથી શરૂ જે નિહાયત મહેરબાન, હંમેશા રહમ ફરમાવનાર છે.",
+                "ur": "اللہ کے نام سے شروع جو نہایت مہربان، ہمیشہ رحم فرمانے والا ہے۔",
+                "ar": "أبدأ باسم الله ذي الرحمة الواسعة والرحمة الدائمة بعباده.",
+                "sw": "Kwa jina la Mwenyezi Mungu, Mwingi wa rehema, Mwenye kurehemu."
+              },
+              "repeat_count": null,
+              "references": [
+                {
+                  "type": "quran",
+                  "source": "Quran (Editorially identified; not printed in source booklet)",
+                  "reference_number": "1:1",
+                  "surah_number": 1,
+                  "ayah_start": 1,
+                  "ayah_end": 1,
+                  "original_reference": "",
+                  "source_pages": [4],
+                  "verification_status": "editorially_identified"
+                }
+              ],
+              "source_pages": [4],
+              "translation_origin": {
+                "en": "generated",
+                "hi": "generated",
+                "gu": "generated",
+                "ur": "generated",
+                "ar": "generated",
+                "sw": "generated"
+              },
+              "review_status": "needs_review",
+              "original_source_text": "બિસ્મીલ્લાહી ર્રહમાનનિર્રહીમ",
+              "editorial_note": "Reconstructed standard Arabic Basmalah from Gujarati-script transliteration; Gujarati transliteration aligned to standard Arabic.",
+              "editorial_corrections": [
+                {
+                  "field": "transliteration.gu",
+                  "original_text": "બિસ્મીલ્લાહી ર્રહમાનનિર્રહીમ",
+                  "corrected_text": "બિસ્મિલ્લાહિર્રહ્માનિર્રહીમ",
+                  "reason": "Aligned vowel lengths and nasal doubling in Gujarati transliteration to match Arabic Bismillah."
+                }
+              ]
+            },
+            {
+              "id": "opening_durood_printed_arabic",
+              "order": 3,
+              "type": "recitation",
+              "recitation_type": "durood",
+              "title": {
+                "en": "Durood Sharif",
+                "hi": "दुरूद शरीफ़",
+                "gu": "દુરૂદ શરીફ",
+                "ur": "درود شریف",
+                "ar": "الصلاة على النبي ﷺ",
+                "sw": "Swala ya Mtume (Durood Sharif)"
+              },
+              "arabic": "اَللّٰهُمَّ صَلِّ عَلٰى سَيِّدِنَا مُحَمَّدٍ وَعَلٰى اٰلِ سَيِّدِنَا مُحَمَّدٍ وَّبَارِكْ وَسَلِّمْ",
+              "arabic_origin": "source_printed",
+              "transliteration": {
+                "en": "Allahumma salli 'ala Sayyidina Muhammadin wa 'ala ali Sayyidina Muhammadinw wa barik wa sallim",
+                "hi": "अल्लाहुम्म सल्लि अला सय्यिदिना मुहम्मदिन व अला आलि सय्यिदिना मुहम्मदिंव व बारिक व सल्लिम",
+                "gu": "અલ્લાહુમ્મ સલ્લિ અલા સૈય્યિદિના મુહમ્મદિન વ અલા આલિ સૈય્યિદિના મુહમ્મદિંવ વ બારિક વ સલ્લિમ",
+                "ur": "اللہم صل علیٰ سیدنا محمد وعلیٰ آل سیدنا محمد وبارک وسلم",
+                "sw": "Allahumma salli 'ala Sayyidina Muhammadin wa 'ala ali Sayyidina Muhammadinw wa barik wa sallim"
+              },
+              "translation": {
+                "en": "O Allah, send blessings upon our master Muhammad and upon the family of our master Muhammad, and grant blessings and peace.",
+                "hi": "ऐ अल्लाह, हमारे सरदार मुहम्मद पर और हमारे सरदार मुहम्मद की आल पर रहमत नाज़िल फ़रमा और बरकत व सलाम अता फ़रमा।",
+                "gu": "અય અલ્લાહ, અમારા સરદાર મુહમ્મદ પર અને અમારા સરદાર મુહમ્મદની આલ પર રહમત નાઝિલ ફરમાવ અને બરકત વ સલામ અતા ફરમાવ.",
+                "ur": "اے اللہ! ہمارے سردار محمد پر اور ہمارے سردار محمد کی آل پر رحمت نازل فرما اور برکت و سلام عطا فرما۔",
+                "ar": "اللهم أنزل صلواتك وبركاتك وسلامك على سيدنا محمد وعلى آل سيدنا محمد.",
+                "sw": "Ee Mwenyezi Mungu, mshushie rehema bwana wetu Muhammad na jamaa za bwana wetu Muhammad, na uwabariki na uwape amani."
+              },
+              "repeat_count": null,
+              "references": [],
+              "source_pages": [4],
+              "translation_origin": {
+                "en": "generated",
+                "hi": "generated",
+                "gu": "generated",
+                "ur": "generated",
+                "ar": "generated",
+                "sw": "generated"
+              },
+              "review_status": "needs_review",
+              "original_source_text": "اَللّٰهُمَّ صَلِّ عَلٰى سَيِّدِنَا مُحَمَّدٍ وَعَلٰى اٰلِ سَيِّدِنَا مُحَمَّدٍ وَّبَارِكْ وَسَلِّمْ ۝",
+              "editorial_note": "Printed directly in calligraphic Arabic on page 4 with a decorative end rosette marker; decorative marker removed and transliterations aligned to printed shaddah on وَّبَارِكْ."
+            },
+            {
+              "id": "opening_hamd_and_salat",
+              "order": 4,
+              "type": "recitation",
+              "recitation_type": "dhikr",
+              "title": {
+                "en": "Praise and Salutation (Hamd wa Salat)",
+                "hi": "हम्द व सलात",
+                "gu": "હમ્દ વ સલાત",
+                "ur": "حمد و صلوٰۃ",
+                "ar": "الحمد والصلاة على سيد الأنبياء",
+                "sw": "Sifa na Maamkizi"
+              },
+              "arabic": "اَلْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِينَ وَالصَّلَاةُ وَالسَّلَامُ عَلٰى سَيِّدِ الْأَنْبِيَاءِ وَالْمُرْسَلِينَ",
+              "arabic_origin": "reconstructed_from_gujarati_transliteration",
+              "transliteration": {
+                "en": "Al-hamdu lillahi Rabbil-'alamin was-salatu was-salamu 'ala Sayyidil-anbiya'i wal-mursalin",
+                "hi": "अल-हम्दु लिल्लाहि रब्बिल आलमीन वस-सलातु वस-सलामु अला सय्यिदिल अंबियाइ वल-मुरसलीन",
+                "gu": "અલ્હમ્દુ લિલ્લાહિ રબ્બિલ આલમીન વસ્સલાતુ વસ્સલામુ અલા સૈય્યિદિલ અમ્બિયાઇ વલ મુરસલીન",
+                "ur": "الحمد للہ رب العالمین والصلوٰۃ والسلام علیٰ سید الانبیاء والمرسلین",
+                "sw": "Al-hamdu lillahi Rabbil-'alamin was-salatu was-salamu 'ala Sayyidil-anbiya'i wal-mursalin"
+              },
+              "translation": {
+                "en": "All praise is due to Allah, Lord of all the worlds, and blessings and peace be upon the Master of the Prophets and Messengers.",
+                "hi": "तमाम तारीफ़ें अल्लाह के लिए हैं जो तमाम जहानों का रब है, और दुरूद व सलाम हो तमाम नबियों और रसूलों के सरदार पर।",
+                "gu": "તમામ તારીફો અલ્લાહ માટે છે જે તમામ જહાનોનો રબ છે, અને દુરૂદ વ સલામ હો તમામ નબીઓ અને રસૂલોના સરદાર પર.",
+                "ur": "تمام تعریفیں اللہ کے لیے ہیں جو تمام جہانوں کا رب ہے، اور درود و سلام ہو تمام انبیا و مرسلین کے سردار پر۔",
+                "ar": "الثناء كله لله رب جميع المخلوقات، والرحمة والسلام على إمام الأنبياء والمرسلين.",
+                "sw": "Sifa njema zote ni za Mwenyezi Mungu, Mola wa walimwengu wote, na rehema na amani zimshukie Bwana wa Manabii na Mitume."
+              },
+              "repeat_count": null,
+              "references": [],
+              "source_pages": [4],
+              "translation_origin": {
+                "en": "generated",
+                "hi": "generated",
+                "gu": "generated",
+                "ur": "generated",
+                "ar": "generated",
+                "sw": "generated"
+              },
+              "review_status": "needs_review",
+              "original_source_text": "અલ્લહમદુ લિલ્લાહી રબ્બીલ આલમીન વસ્સલાતુ વસ્સલામુ અલા સૈય્યદિલ અંબીયાહી વલ મુરસલીન.",
+              "editorial_note": "Corrected Gujarati transliteration 'અંબીયાહી' to 'અમ્બિયાઇ' matching Arabic 'الْأَنْبِيَاءِ'; original source text preserved.",
+              "editorial_corrections": [
+                {
+                  "field": "transliteration.gu",
+                  "original_text": "અલ્લહમદુ લિલ્લાહી રબ્બીલ આલમીન વસ્સલાતુ વસ્સલામુ અલા સૈય્યદિલ અંબીયાહી વલ મુરસલીન.",
+                  "corrected_text": "અલ્હમ્દુ લિલ્લાહિ રબ્બિલ આલમીન વસ્સલાતુ વસ્સલામુ અલા સૈય્યિદિલ અમ્બિયાઇ વલ મુરસલીન",
+                  "reason": "Corrected 'અંબીયાહી' (-hi) to 'અમ્બિયાઇ' (-'i) and vowel lengths to match grammatical Arabic 'سَيِّدِ الْأَنْبِيَاءِ'."
+                }
+              ]
+            },
+            {
+              "id": "opening_istighfar_3x",
+              "order": 5,
+              "type": "recitation",
+              "recitation_type": "istighfar",
+              "title": {
+                "en": "Istighfar (Seeking Forgiveness)",
+                "hi": "इस्तिग़फ़ार",
+                "gu": "ઇસ્તિગફાર",
+                "ur": "استغفار",
+                "ar": "الاستغفار",
+                "sw": "Istighfar (Kuomba Msamaha)"
+              },
+              "arabic": "أَسْتَغْفِرُ اللّٰهَ رَبِّي مِنْ كُلِّ ذَنْبٍ وَّأَتُوبُ إِلَيْهِ",
+              "arabic_origin": "reconstructed_from_gujarati_transliteration",
+              "transliteration": {
+                "en": "Astaghfirullaha Rabbi min kulli dhanbinw wa atubu ilayh",
+                "hi": "अस्तग़फ़िरुल्लाहा रब्बी मिन कुल्लि ज़ंबिंव व अतूबु इलैह",
+                "gu": "અસ્તગફિરુલ્લાહ રબ્બી મિન કુલ્લિ ઝમ્બિંવ વ અતૂબુ ઇલય્હ",
+                "ur": "استغفر اللہ ربی من کل ذنب و اتوب الیہ",
+                "sw": "Astaghfirullaha Rabbi min kulli dhanbinw wa atubu ilayh"
+              },
+              "translation": {
+                "en": "I seek forgiveness from Allah, my Lord, for every sin and I turn to Him in repentance.",
+                "hi": "मैं अपने रब अल्लाह से हर गुनाह की माफ़ी मांगता हूं और उसी की तरफ़ तौबा करता हूं।",
+                "gu": "હું મારા રબ અલ્લાહ પાસે દરેક ગુનાહની માફી માંગું છું અને તેમની જ તરફ તૌબા કરું છું.",
+                "ur": "میں اپنے رب اللہ سے ہر گناہ کی معافی مانگتا ہوں اور اسی کی طرف توبہ کرتا ہوں۔",
+                "ar": "أطلب المغفرة من الله ربي عن كل ذنب وأرجع إليه تائباً.",
+                "sw": "Naomba msamaha kwa Mwenyezi Mungu, Mola wangu, kwa kila dhambi na ninatubu Kwake."
+              },
+              "repeat_count": 3,
+              "references": [],
+              "source_pages": [4],
+              "translation_origin": {
+                "en": "generated",
+                "hi": "generated",
+                "gu": "generated",
+                "ur": "generated",
+                "ar": "generated",
+                "sw": "generated"
+              },
+              "review_status": "needs_review",
+              "original_source_text": "અસ્તગફિરૂલ્લાહુ રબ્બી મીન કુલ્લી ઝમબિંવ વાઅતુબોઇલયહે.",
+              "editorial_note": "Corrected Gujarati transliteration case ending 'અસ્તગફિરૂલ્લાહુ' (-u) to accusative 'અસ્તગફિરુલ્લાહ' matching grammatical Arabic 'أَسْتَغْفِرُ اللّٰهَ', and aligned all five transliteration languages; repetition count 3 confirmed from printed instruction.",
+              "editorial_corrections": [
+                {
+                  "field": "transliteration.gu",
+                  "original_text": "અસ્તગફિરૂલ્લાહુ રબ્બી મીન કુલ્લી ઝમબિંવ વાઅતુબોઇલયહે.",
+                  "corrected_text": "અસ્તગફિરુલ્લાહ રબ્બી મિન કુલ્લિ ઝમ્બિંવ વ અતૂબુ ઇલય્હ",
+                  "reason": "Resolved review_006: grammatical Arabic verb أَسْتَغْفِرُ governs accusative اللّٰهَ (Astaghfirullaha), not nominative -u; aligned Gujarati and other transliterations while preserving original source text."
+                }
+              ]
+            },
+            {
+              "id": "opening_istighfar_instruction",
+              "order": 6,
+              "type": "instruction",
+              "text": {
+                "en": "(Recite Istighfar 3 times.)",
+                "hi": "(3 बार इस्तिग़फ़ार पढ़ें।)",
+                "gu": "(૩ વખત અસ્તગફાર પઢવુ.)",
+                "ur": "(3 مرتبہ استغفار پڑھیں۔)",
+                "ar": "(يُقرأ الاستغفار ٣ مرات.)",
+                "sw": "(Soma Istighfar mara 3.)"
+              },
+              "source_pages": [4],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "opening_ya_arhamar_rahimin_3x",
+              "order": 7,
+              "type": "recitation",
+              "recitation_type": "dhikr",
+              "title": {
+                "en": "Ya Arhamar-Rahimin (3 times)",
+                "hi": "या अरहमर-राहिमीन (3 बार)",
+                "gu": "યા અરહમર્રાહિમીન (૩ વાર)",
+                "ur": "یا ارحم الراحمین (3 مرتبہ)",
+                "ar": "يا أرحم الراحمين (٣ مرات)",
+                "sw": "Ya Arhamar-Rahimin (Mara 3)"
+              },
+              "arabic": "يَا أَرْحَمَ الرَّاحِمِينَ",
+              "arabic_origin": "reconstructed_from_gujarati_transliteration",
+              "transliteration": {
+                "en": "Ya Arhamar-Rahimin",
+                "hi": "या अरहमर-राहिमीन",
+                "gu": "યા અરહમર્રાહિમીન",
+                "ur": "یا ارحم الراحمین",
+                "sw": "Ya Arhamar-Rahimin"
+              },
+              "translation": {
+                "en": "O Most Merciful of the merciful!",
+                "hi": "ऐ तमाम रहम करने वालों में सबसे ज़्यादा रहम करने वाले!",
+                "gu": "અય તમામ રહમ કરનારાઓમાં સૌથી વધુ રહમ કરનાર!",
+                "ur": "اے تمام رحم کرنے والوں میں سب سے زیادہ رحم کرنے والے!",
+                "ar": "يا أوسع الراحمين رحمةً!",
+                "sw": "Ee Mwingi wa rehema kuliko wote wenye kurehemu!"
+              },
+              "repeat_count": 3,
+              "references": [],
+              "source_pages": [4],
+              "translation_origin": {
+                "en": "generated",
+                "hi": "generated",
+                "gu": "generated",
+                "ur": "generated",
+                "ar": "generated",
+                "sw": "generated"
+              },
+              "review_status": "needs_review",
+              "original_source_text": "યા અરહમર્રાહિમીન (printed 3 times)"
+            },
+            {
+              "id": "opening_ya_rabbana_5x",
+              "order": 8,
+              "type": "recitation",
+              "recitation_type": "dhikr",
+              "title": {
+                "en": "Ya Rabbana (5 times)",
+                "hi": "या रब्बना (5 बार)",
+                "gu": "યા રબ્બના (૫ વાર)",
+                "ur": "یا ربنا (5 مرتبہ)",
+                "ar": "يا ربنا (٥ مرات)",
+                "sw": "Ya Rabbana (Mara 5)"
+              },
+              "arabic": "يَا رَبَّنَا",
+              "arabic_origin": "reconstructed_from_gujarati_transliteration",
+              "transliteration": {
+                "en": "Ya Rabbana",
+                "hi": "या रब्बना",
+                "gu": "યા રબ્બના",
+                "ur": "یا ربنا",
+                "sw": "Ya Rabbana"
+              },
+              "translation": {
+                "en": "O our Lord!",
+                "hi": "ऐ हमारे रब!",
+                "gu": "અય અમારા રબ!",
+                "ur": "اے ہمارے رب!",
+                "ar": "يا ربنا!",
+                "sw": "Ee Mola wetu!"
+              },
+              "repeat_count": 5,
+              "references": [],
+              "source_pages": [4],
+              "translation_origin": {
+                "en": "generated",
+                "hi": "generated",
+                "gu": "generated",
+                "ur": "generated",
+                "ar": "generated",
+                "sw": "generated"
+              },
+              "review_status": "needs_review",
+              "original_source_text": "યા રબ્બના યા રબ્બના યા રબ્બના / યા રબ્બના યા રબ્બના"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comprehensive_supplication_main_dua",
+      "order": 3,
+      "title": {
+        "en": "Comprehensive Supplication (Main Dua)",
+        "hi": "मुख्य दुआ (जामा दुआ)",
+        "gu": "મુખ્ય દુઆ (જામે દુઆ)",
+        "ur": "مرکزی جامع دعا",
+        "ar": "الدعاء الجامع الرئيسي",
+        "sw": "Dua Kuu ya Kina"
+      },
+      "description": {
+        "en": "The comprehensive main supplication covering praise of Allah, repentance, worship, noble character, family and Ummah welfare, the Hereafter, and personal needs.",
+        "hi": "मुख्य جامع दुआ, जिसमें अल्लाह की हम्द, तौबा, इबादत, नेक अख़लाक़, परिवार व उम्मत की ख़ैर, आख़िरत की कामयाबी और अपनी हाजतों की दुआएं शामिल हैं।",
+        "gu": "મુખ્ય જામે દુઆ, જેમાં અલ્લાહની હમ્દ, તૌબા, ઇબાદત, નેક અખલાક, પરિવાર અને ઉમ્મતની ભલાઈ, આખિરતની સફળતા અને અંગત જરૂરિયાતોની દુઆઓ સામેલ છે.",
+        "ur": "مرکزی جامع دعا جس میں اللہ کی حمد، توبہ، عبادت، اخلاقِ حسنہ، خاندان و امت کی خیر، آخرت کی کامیابی اور ذاتی حاجات کی دعائیں شامل ہیں۔",
+        "ar": "الدعاء الجامع الرئيسي، ويشمل حمد الله والتوبة والعبادة ومكارم الأخلاق، والدعاء للأهل والأمة والفوز في الآخرة وقضاء الحوائج.",
+        "sw": "Dua kuu ya kina inayojumuisha sifa za Mwenyezi Mungu, toba, ibada, tabia njema, ustawi wa familia na Umma, mafanikio ya Akhera, na maombi ya mahitaji binafsi."
+      },
+      "source_pages": [
+        5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22
+      ],
+      "sections": [
+        {
+          "id": "opening_praise_and_confession",
+          "order": 1,
+          "title": {
+            "en": "Praise of Allah & Humble Confession",
+            "hi": "अल्लाह की हम्द और आजिज़ाना इक़रार",
+            "gu": "અલ્લાહની હમ્દ અને આજિઝીભર્યો ઇકરાર",
+            "ur": "حمدِ الٰہی اور عاجزانہ اعتراف",
+            "ar": "الثناء على الله والاعتراف بالتقصير",
+            "sw": "Sifa za Mwenyezi Mungu na Kukiri kwa Unyenyekevu"
+          },
+          "source_pages": [5, 6, 7],
+          "items": [
+            {
+              "id": "dua_01_praise_attributes",
+              "order": 1,
+              "type": "paragraph",
+              "text": {
+                "en": "• O Lord Who created the seven earths and the heavens without pillars.\n• O Lord Who mends broken bones.\n• O Lord Who protects infants inside their mothers' wombs.\n• O Lord Who turns the impossible into the possible.\n• O Owner of all the worlds.\n• O Lord Who removes the distress of the distressed.\n• O Lord Who hears the cry of those who cry out.\n• O Lord Who grants healing to the sick.\n• O Lord Who listens to the supplication of those who supplicate.",
+                "hi": "• ऐ सातों ज़मीन और आसमान को बग़ैर सुतून के पैदा करने वाले रब।\n• ऐ टूटी हड्डियों को जोड़ने वाले रब।\n• ऐ मां के पेट में बच्चों की हिफ़ाज़त करने वाले रब।\n• ऐ नामुमकिन को मुमकिन बनाने वाले रब।\n• ऐ तमाम जहानों के मालिक।\n• ऐ परेशान हालों की परेशानी दूर करने वाले रब।\n• ऐ फ़रियाद करने वालों की फ़रियाद सुनने वाले रब।\n• ऐ बीमारों को शिफ़ा देने वाले रब।\n• ऐ दुआ करने वालों की दुआ सुनने वाले रब।",
+                "gu": "• અય સાતો જમીન અને આસમાનને થાંભલા વગર પેદા કરનાર રબ.\n• અય તૂટેલાં હાડકાંને જોડનાર રબ.\n• અય માતાના પેટમાં બાળકોની હિફાઝત કરનાર રબ.\n• અય અશક્યને શક્ય બનાવનાર રબ.\n• અય તમામ જહાનોના માલિક.\n• અય પરેશાન હાલ લોકોની પરેશાની દૂર કરનાર રબ.\n• અય ફરિયાદ કરનારાઓની ફરિયાદ સાંભળનાર રબ.\n• અય બીમારોને શિફા આપનાર રબ.\n• અય દુઆ કરનારાઓની દુઆ સાંભળનાર રબ.",
+                "ur": "• اے ساتوں زمین اور آسمان کو بغیر ستون کے پیدا کرنے والے رب!\n• اے ٹوٹی ہڈیوں کو جوڑنے والے رب!\n• اے ماں کے پیٹ میں بچوں کی حفاظت کرنے والے رب!\n• اے ناممکن کو ممکن بنانے والے رب!\n• اے تمام جہانوں کے مالک!\n• اے پریشان حالوں کی پریشانی دور کرنے والے رب!\n• اے فریاد کرنے والوں کی فریاد سننے والے رب!\n• اے بیماروں کو شفا دینے والے رب!\n• اے دعا کرنے والوں کی دعا سننے والے رب!",
+                "ar": "• يا من خلقت السماوات والأرضين السبع بغير عمد.\n• يا من تجبر العظام الكسيرة.\n• يا من تحفظ الأجنة في بطون أمهاتها.\n• يا من تجعل المستحيل ممكناً.\n• يا مالك العوالم كلها.\n• يا مفرّج كرب المكروبين.\n• يا سميع دعاء المستغيثين.\n• يا شافي المرضى.\n• يا مجيب دعوة الداعين.",
+                "sw": "• Ee Mola Uliyeumba mbingu saba na ardhi bila nguzo.\n• Ee Mola Unayeunga mifupa iliyovunjika.\n• Ee Mola Unayewalinda watoto ndani ya matumbo ya mama zao.\n• Ee Mola Unayefanya lisilowezekana liwezekane.\n• Ee Mmiliki wa walimwengu wote.\n• Ee Mola Unayeondoa dhiki ya wenye dhiki.\n• Ee Mola Unayesikia kilio cha wanaolilia msaada.\n• Ee Mola Unayewaponya wagonjwa.\n• Ee Mola Unayesikia dua za wanaoomba."
+              },
+              "source_pages": [5],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_02_gratitude_ummah",
+              "order": 2,
+              "type": "paragraph",
+              "text": {
+                "en": "O Allah, millions upon millions of gratitude are due to You that You created us as human beings, made us Muslims, and placed us in the Ummah of Your beloved friend, Muhammad the Messenger of Allah (sallallahu alayhi wa sallam).",
+                "hi": "ऐ अल्लाह, तेरा करोड़हा-करोड़ एहसान कि तूने हमें इंसान बनाया, मुसलमान बनाया और तेरे प्यारे हबीब जनाब मुहम्मदुर्रसूलुल्लाह सल्लल्लाहु अलैहि वसल्लम की उम्मत में पैदा फ़रमाया।",
+                "gu": "અય અલ્લાહ, તારો કરોડો ઉપકાર છે કે તેં અમને ઇન્સાન બનાવ્યા, મુસલમાન બનાવ્યા અને તારા પ્યારા હબીબ જનાબે મુહમ્મદુર્રસૂલુલ્લાહ સલ્લલ્લાહો અલયહિ વસલ્લમની ઉમ્મતમાં પેદા ફરમાવ્યા.",
+                "ur": "اے اللہ! تیرا کروڑہا کروڑ احسان کہ تو نے ہمیں انسان بنایا، مسلمان بنایا اور اپنے پیارے حبیب جناب محمد رسول اللہ صلی اللہ علیہ وسلم کی امت میں پیدا فرمایا۔",
+                "ar": "اللهم لك ملايين الشكر والامتنان أن خلقتنا بشراً، وجعلتنا مسلمين، وبعثتنا في أمة حبيبك سيدنا محمد رسول الله ﷺ.",
+                "sw": "Ee Mwenyezi Mungu, ni fadhila Zako zisizohesabika kuwa umetuumba wanadamu, ukatufanya Waislamu, na ukatuweka katika Umma wa kipenzi Chako Muhammad Mtume wa Mwenyezi Mungu (sallallahu alayhi wa sallam)."
+              },
+              "source_pages": [5, 6],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_03_raising_sinful_hands",
+              "order": 3,
+              "type": "paragraph",
+              "text": {
+                "en": "O Allah, we have raised these soiled and blackened hands, steeped in our sins, before Your court—the refuge of the helpless.",
+                "hi": "ऐ अल्लाह, हमने हमारे गुनाहों में लथड़े हुए गंदे-गंदे और काले-काले हाथ तेरी बारगाह-ए-बेकस पनाह में उठा लिए हैं।",
+                "gu": "અય અલ્લાહ, અમે અમારા ગુનાહોમાં લથબથ ગંદા અને કાળા હાથ તારી બારગાહે બેકસ પનાહમાં ઉઠાવી લીધા છે.",
+                "ur": "اے اللہ! ہم نے اپنے گناہوں میں لتھڑے ہوئے گندے اور کالے ہاتھ تیری بارگاہِ بے کس پناہ میں اٹھا لیے ہیں۔",
+                "ar": "اللهم إنا قد رفعنا أيدينا الملطخة بذنوبنا إلى بابك يا ملجأ الضعفاء والمضطرين.",
+                "sw": "Ee Mwenyezi Mungu, tumeinua mikono yetu michafu iliyojaa dhambi mbele ya hadhara Yako, ewe kimbilio la wanyonge."
+              },
+              "source_pages": [6],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_04_record_of_deeds",
+              "order": 4,
+              "type": "paragraph",
+              "text": {
+                "en": "O Allah, surely our entire record of deeds (Nama-e-A'mal) is filled with sins from head to toe.",
+                "hi": "ऐ अल्लाह, यक़ीनन हमारा पूरा नामा-ए-आमाल सिर से लेकर पांव तक गुनाहों से भरा हुआ है।",
+                "gu": "અય અલ્લાહ, યકીનન અમારો આખો નામા-એ-આમાલ માથાથી લઈને પગ સુધી ગુનાહોથી ભરેલો છે.",
+                "ur": "اے اللہ! یقیناً ہمارا پورا نامۂ اعمال سر سے لے کر پاؤں تک گناہوں سے بھرا ہوا ہے۔",
+                "ar": "اللهم إن صحيفة أعمالنا مملوءة بالذنوب من الرأس إلى القدم.",
+                "sw": "Ee Mwenyezi Mungu, hakika daftari letu lote la matendo limejaa dhambi kuanzia kichwani hadi miguuni."
+              },
+              "source_pages": [6],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_05_slavery_of_nafs",
+              "order": 5,
+              "type": "paragraph",
+              "text": {
+                "en": "O Allah, we have spent our entire lives in slavery to our base desires (nafs).",
+                "hi": "ऐ अल्लाह, हमने सारी ज़िंदगी नफ़्स की गुलामी में गुज़ारी है।",
+                "gu": "અય અલ્લાહ, અમે આખી જિંદગી નફ્સની ગુલામીમાં ગુજારી છે.",
+                "ur": "اے اللہ! ہم نے ساری زندگی نفس کی غلامی میں گزاری ہے۔",
+                "ar": "اللهم إنا قضينا عمرنا كله في اتباع الهوى وعبودية النفس.",
+                "sw": "Ee Mwenyezi Mungu, tumetumia maisha yetu yote katika utumwa wa nafsi zetu."
+              },
+              "source_pages": [6],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_06_no_one_besides_thee",
+              "order": 6,
+              "type": "paragraph",
+              "text": {
+                "en": "O Mawla (Master), we have no one besides You.",
+                "hi": "ऐ मौला, तेरे सिवा हमारा कोई नहीं है।",
+                "gu": "અય મૌલા, તારા સિવાય અમારું કોઈ નથી.",
+                "ur": "اے مولا! تیرے سوا ہمارا کوئی نہیں ہے۔",
+                "ar": "يا مولانا، ليس لنا سواك أحد.",
+                "sw": "Ee Mola wetu, hatuna yeyote isipokuwa Wewe."
+              },
+              "source_pages": [6],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_07_where_else_to_go",
+              "order": 7,
+              "type": "paragraph",
+              "text": {
+                "en": "O Mawla, if we leave Your door, where could we possibly go?",
+                "hi": "ऐ मौला, तेरा दर छोड़कर हम जाएं तो कहां जाएं?",
+                "gu": "અય મૌલા, તારો દર છોડીને અમે જઈએ તો ક્યાં જઈએ?",
+                "ur": "اے مولا! تیرا در چھوڑ کر ہم جائیں تو کہاں جائیں؟",
+                "ar": "يا مولانا، إن تركنا بابك فإلى أين نذهب؟",
+                "sw": "Ee Mola wetu, tukiuacha mlango Wako twende wapi?"
+              },
+              "source_pages": [6],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_08_mercy_for_sinners",
+              "order": 8,
+              "type": "paragraph",
+              "text": {
+                "en": "O Mawla, if You show grace only to Your righteous servants, then at whose door shall we sinners, wrongdoers, and transgressors stretch out our begging hands?",
+                "hi": "ऐ मौला, अगर तू सिर्फ़ नेक बंदों पर ही करम फ़रमाएगा, तो हम गुनहगार, बदकार, ख़ताकार किसके दरवाज़े पर जाकर दस्त-ए-सुवाल दराज़ करेंगे?",
+                "gu": "અય મૌલા, જો તું ફક્ત નેક બંદાઓ પર જ કરમ ફરમાવીશ, તો અમે ગુનેહગાર, બદકાર અને ખતાકાર કોના દરવાજે જઈને સવાલનો હાથ ફેલાવીશું?",
+                "ur": "اے مولا! اگر تو صرف نیک بندوں پر ہی کرم فرمائے گا تو ہم گنہگار، بدکار اور خطاکار کس کے دروازے پر جا کر دستِ سوال دراز کریں گے؟",
+                "ar": "يا مولانا، إن خصصت بكرمك عبادك الصالحين وحدهم، فنحن المذنبون المخطئون إلى باب من نمد أيدينا بالسؤال؟",
+                "sw": "Ee Mola wetu, ikiwa Utawahurumia waja Wako wema pekee, basi sisi wakosefu na wenye dhambi tutanyoosha mikono ya kuomba kwenye mlango wa nani?"
+              },
+              "source_pages": [6, 7],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_09_pleasure_and_forgiveness",
+              "order": 9,
+              "type": "paragraph",
+              "text": {
+                "en": "O Allah, for the sake of Your Beloved (sallallahu alayhi wa sallam), be pleased with us forever and ever, and grant us forgiveness.",
+                "hi": "ऐ अल्लाह, तुझे तेरे हबीब सल्लल्लाहु अलैहि वसल्लम का वास्ता, हमसे हमेशा-हमेशा के लिए राज़ी हो जा और हमारी मग़फ़िरत फ़रमा।",
+                "gu": "અય અલ્લાહ, તને તારા હબીબ સલ્લલ્લાહો અલયહિ વસલ્લમનો વાસ્તો, અમારાથી હંમેશા માટે રાજી થઈ જા અને અમારી મગફિરત ફરમાવ.",
+                "ur": "اے اللہ! تجھے تیرے حبیب صلی اللہ علیہ وسلم کا واسطہ، ہم سے ہمیشہ ہمیشہ کے لیے راضی ہو جا اور ہماری مغفرت فرما۔",
+                "ar": "اللهم إنا نسألك بحق حبيبك ﷺ أن ترضى عنا رضاً أبدياً وأن تغفر لنا.",
+                "sw": "Ee Mwenyezi Mungu, kwa utukufu wa Kipenzi Chako (sallallahu alayhi wa sallam), uridhike nasi milele na milele na Utusamehe."
+              },
+              "source_pages": [7],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_10_fleeting_life_grave",
+              "order": 10,
+              "type": "paragraph",
+              "text": {
+                "en": "O Mawla, day by day our life is diminishing, and the loneliness of the grave is drawing ever nearer.",
+                "hi": "ऐ मौला, हर रोज़ हमारी ज़िंदगी का एक-एक दिन कम होता जा रहा है और क़ब्र की तन्हाई क़रीब आती जा रही है।",
+                "gu": "અય મૌલા, દરરોજ અમારી જિંદગીનો એક-એક દિવસ ઓછો થતો જાય છે અને કબરની તન્હાઈ નજીક આવતી જાય છે.",
+                "ur": "اے مولا! ہر روز ہماری زندگی کا ایک ایک دن کم ہوتا جا رہا ہے اور قبر کی تنہائی قریب آتی جا رہی ہے۔",
+                "ar": "يا مولانا، إن أيام حياتنا تنقص يوماً بعد يوم، ووحشة القبر تقترب شيئاً فشيئاً.",
+                "sw": "Ee Mola wetu, kila siku uhai wetu unapungua siku baada ya siku, na upweke wa kaburi unazidi kukaribia."
+              },
+              "source_pages": [7],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_11_doors_of_mercy",
+              "order": 11,
+              "type": "paragraph",
+              "text": {
+                "en": "O Mawla, open the doors of Your mercy upon us.",
+                "hi": "ऐ मौला, तू अपनी रहमत के दरवाज़े हम पर खोल दे।",
+                "gu": "અય મૌલા, તું તારી રહમતના દરવાજા અમારા પર ખોલી દે.",
+                "ur": "اے مولا! تو اپنی رحمت کے دروازے ہم پر کھول دے۔",
+                "ar": "يا مولانا، افتح علينا أبواب رحمتك.",
+                "sw": "Ee Mola wetu, tufungulie milango ya rehema Yako."
+              },
+              "source_pages": [7],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_12_doors_of_guidance",
+              "order": 12,
+              "type": "paragraph",
+              "text": {
+                "en": "O Mawla, open the doors of guidance for us.",
+                "hi": "ऐ मौला, हिदायत के दरवाज़े हमारे लिए खोल दे।",
+                "gu": "અય મૌલા, હિદાયતના દરવાજા અમારા માટે ખોલી દે.",
+                "ur": "اے مولا! ہدایت کے دروازے ہمارے لیے کھول دے۔",
+                "ar": "يا مولانا، افتح لنا أبواب الهداية.",
+                "sw": "Ee Mola wetu, tufungulie milango ya uongofu."
+              },
+              "source_pages": [7],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_13_begging_guidance_forgiveness",
+              "order": 13,
+              "type": "paragraph",
+              "text": {
+                "en": "O Allah, we beg You for guidance and forgiveness.",
+                "hi": "ऐ अल्लाह, हम तुझसे हिदायत और मग़फ़िरत की भीख मांगते हैं।",
+                "gu": "અય અલ્લાહ, અમે તારી પાસે હિદાયત અને મગફિરતની ભીખ માંગીએ છીએ.",
+                "ur": "اے اللہ! ہم تجھ سے ہدایت اور مغفرت کی بھیک مانگتے ہیں۔",
+                "ar": "اللهم إنا نسألك ونتضرع إليك أن ترزقنا الهداية والمغفرة.",
+                "sw": "Ee Mwenyezi Mungu, tunaomba kwako uongofu na msamaha."
+              },
+              "source_pages": [7],
+              "review_status": "needs_review"
+            }
+          ]
+        },
+        {
+          "id": "repentance_and_acts_of_worship",
+          "order": 2,
+          "title": {
+            "en": "Repentance & Steadfastness in Worship",
+            "hi": "तौबा और इबादतों की पाबंदी",
+            "gu": "તૌબા અને ઇબાદતોની પાબંદી",
+            "ur": "توبہ اور عبادات کی پابندی",
+            "ar": "التوبة والاستقامة على العبادات",
+            "sw": "Toba na Uthabiti katika Ibada"
+          },
+          "source_pages": [7, 8, 9],
+          "items": [
+            {
+              "id": "dua_14_forgive_all_sins",
+              "order": 1,
+              "type": "paragraph",
+              "text": {
+                "en": "Ya Allah, overlook our mistakes and pardon our faults. Whatever sins we have committed—knowingly or unknowingly, openly or secretly, minor or major, by day or by night, earlier or later—O Lord, forgive them all.",
+                "hi": "या अल्लाह, हमारी ग़लतियां दरगुज़र फ़रमा। हमारी ख़ताएं बख़्श दे। हमने जाने-अनजाने में, खुले-छुपे, छोटे-बड़े, दिन में या रात में, अगले-पिछले जो भी गुनाह किए हैं, या रब उन्हें तू माफ़ फ़रमा दे।",
+                "gu": "યા અલ્લાહ, અમારી ભૂલોને દરગુજર ફરમાવ. અમારી ખતાઓ બક્ષી દે. અમે જાણે-અજાણે, ખુલ્લા-છુપા, નાના-મોટા, દિવસ-રાતમાં, આગલા-પાછલા જે પણ ગુનાહો કર્યા છે, યા રબ તે બધાં તું માફ ફરમાવી દે.",
+                "ur": "یا اللہ! ہماری غلطیاں درگزر فرما۔ ہماری خطائیں بخش دے۔ ہم نے جانے انجانے میں، کھلے چھپے، چھوٹے بڑے، دن میں رات میں، اگلے پچھلے جو بھی گناہ کیے ہیں، یا رب انہیں تو معاف فرما دے۔",
+                "ar": "يا الله، تجاوز عن أخطائنا واغفر زلاتنا، وما اقترفناه من ذنوب عمداً أو خطأً، سراً أو علانية، صغيراً أو كبيراً، ليلاً أو نهاراً، قديماً أو حديثاً، يا رب فاغفرها لنا جميعاً.",
+                "sw": "Ya Allah, tusamehe makosa yetu na utufutie dhambi zetu. Dhambi zote tulizotenda kwa kujua au kutojua, waziwazi au kwa siri, ndogo au kubwa, mchana au usiku, za awali au za karibuni, Ee Mola tusamehe zote."
+              },
+              "source_pages": [7, 8],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_15_sincere_taubah",
+              "order": 2,
+              "type": "paragraph",
+              "text": {
+                "en": "Ya Allah, grant us the ability to make sincere repentance (Taubah) for our sins. Accept our repentance, keep us firm upon it, and protect us from returning to sin again. If You are displeased with us, become pleased with us; for if You remain displeased with us we shall be ruined, and if You remain angry with us we shall be utterly undone.",
+                "hi": "या अल्लाह, हमारे गुनाहों की सच्ची तौबा करने की हमें तौफ़ीक़ दे। हमारी तौबा को क़ुबूल फ़रमा, हमें तौबा पर क़ायम रख, आइंदा हमें फिर से गुनाह करने से बचा ले। तू हमसे नाराज़ हो तो हमसे राज़ी हो जा, अगर तू ही हमसे नाराज़ रहेगा तो हम बर्बाद हो जाएंगे, अगर तू ख़फ़ा हो जाएगा तो हम दफ़ा (तबाह) हो जाएंगे।",
+                "gu": "યા અલ્લાહ, અમારા ગુનાહોની સાચી તૌબા કરવાની અમને તૌફીક આપ. અમારી તૌબાને કબૂલ ફરમાવ, અમને તૌબા પર કાયમ રાખ, ભવિષ્યમાં ફરીથી ગુનાહ કરવાથી બચાવ. તું અમારાથી નારાજ હો તો અમારાથી રાજી થઈ જા; જો તું જ અમારાથી નારાજ રહીશ તો અમે બરબાદ થઈ જઈશું, જો તું ખફા થઈ જઈશ તો અમે દફા (તબાહ) થઈ જઈશું.",
+                "ur": "یا اللہ! ہمارے گناہوں کی سچی توبہ کرنے کی ہمیں توفیق دے۔ ہماری توبہ کو قبول فرما، ہمیں توبہ پر قائم رکھ، آئندہ ہمیں پھر سے گناہ کرنے سے بچا لے۔ تو ہم سے ناراض ہو تو ہم سے راضی ہو جا؛ اگر تو ہی ہم سے ناراض رہے گا تو ہم برباد ہو جائیں گے، اگر تو خفا ہو جائے گا تو ہم تباہ ہو جائیں گے۔",
+                "ar": "يا الله، وفقنا لتوبة نصوح عن ذنوبنا، وتقبل توبتنا وثبتنا عليها، واحفظنا من العودة إلى المعاصي. وإن كنت ساخطاً علينا فارضَ عنا، فإن سخطك هلاكنا وغضبك خسراننا.",
+                "sw": "Ya Allah, tujalie uwezo wa kutubu toba ya kweli kutokana na dhambi zetu. Kubali toba yetu, tushikilie imara juu yake, na utulinde tusirudie dhambi tena. Kama umetukasirikia basi uridhike nasi, kwani Ukiendelea kutukasirikia tutaangamia."
+              },
+              "source_pages": [8],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_16_worship_salah_hajj_service",
+              "order": 3,
+              "type": "paragraph",
+              "text": {
+                "en": "Ya Allah, make us punctual in performing the five daily prayers. Grant us the ability to make up our missed (Qaza) prayers. Give us the strength to observe all the fasts of Ramadan Sharif, and the energy to offer Nafl prayers and Nafl fasts. Should we possess the threshold of wealth (Sahib-e-Nisab), grant us the strength to pay Zakat in full, and the understanding to give Khayrat, Sadaqah, Fitrana, and the like. Grant us enough wealth that Hajj becomes obligatory upon us and create the means to perform Hajj in that state. Bless us with visiting Baitullah and Madinah Sharif. Grant us the felicity to engage abundantly in Dhikr of Allah, recitation of the Quran, Hamd and Thana, Na't of the Prophet, and Durood-o-Salam. Grant us the habit of regular Wird and Wazifah, the means to offer Qurbani, the passion to serve Deen and Sunnah (Sunniyat), and the ability to serve the Sadat-e-Kiram, Mashayikh, and Ulama.",
+                "hi": "या अल्लाह, हमें पांचों वक़्त का पाबंद नमाज़ी बना। हमारी क़ज़ा नमाज़ों को अदा करने की तौफ़ीक़ दे। हमें रमज़ान शरीफ़ के तमाम रोज़े रखने का हौसला दे। नवाफ़िल नमाज़ व नफ़्ल रोज़े रखने की ताक़त दे। साहिब-ए-निसाब होने पर पूरी ज़कात अदा करने की क़ुव्वत दे। ख़ैरात, सदक़ा, फ़ितरा वग़ैरह देने की समझ दे। हमें इतनी दौलत दे कि हम पर हज फ़र्ज़ हो जाए और उस हाल में हज अदा करने के अस्बाब बना दे। बैतुल्लाह व मदीना शरीफ़ की ज़ियारत करा दे। ज़िक्र-ए-इलाही, तिलावत-ए-क़ुरआन, हम्द व सना, नात-ए-नबी और दुरूद व सलाम ज़्यादा से ज़्यादा पढ़ने की सआदत दे। विर्द-वज़ीफ़े की आदत दे। क़ुर्बानी करने की हैसियत दे। दीन व सुन्नियत की ख़िदमत करने का जज़्बा दे। सादात-ए-किराम, मशायख़ीन और उलमा की ख़िदमत करने की तौफ़ीक़ दे।",
+                "gu": "યા અલ્લાહ, અમને પાંચેય વક્તના પાબંદ નમાઝી બનાવ. અમારી કઝા નમાઝો અદા કરવાની તૌફીક આપ. અમને રમઝાન શરીફના તમામ રોઝા રાખવાની હિંમત આપ. નવાફિલ નમાઝ અને નફલ રોઝા રાખવાની તાકાત આપ. સાહિબે નિસાબ થવા પર પૂરી ઝકાત અદા કરવાની શક્તિ આપ. ખૈરાત, સદકા, ફિતરા વગેરે આપવાની સમજ આપ. અમને એટલી દૌલત આપ કે અમારા પર હજ ફર્ઝ થઈ જાય અને તે હાલમાં હજ અદા કરવાના અસબાબ બનાવી દે. બૈતુલ્લાહ અને મદીના શરીફની ઝિયારત કરાવી દે. ઝિક્રે ઇલાહી, તિલાવતે કુર્આન, હમ્દો સના, નાતે નબી અને દુરૂદો સલામ વધુમાં વધુ પઢવાની સઆદત આપ. વિર્દ-વઝીફાની આદત આપ. કુર્બાની કરવાની હેસિયત આપ. દીન અને સુન્નિયતની ખિદમત કરવાનો જઝ્બો આપ. સાદાતે કિરામ, મશાયખીન અને ઉલમાની ખિદમત કરવાની તૌફીક આપ.",
+                "ur": "یا اللہ! ہمیں پانچوں وقت کا پابند نمازی بنا۔ ہماری قضا نمازوں کو ادا کرنے کی توفیق دے۔ ہمیں رمضان شریف کے تمام روزے رکھنے کا حوصلہ دے۔ نوافل نماز و نفل روزے رکھنے کی طاقت دے۔ صاحبِ نصاب ہونے پر پوری زکوٰۃ ادا کرنے کی قوت دے۔ خیرات، صدقہ، فطرہ وغیرہ دینے کی سمجھ دے۔ ہمیں اتنی دولت دے کہ ہم پر حج فرض ہو جائے اور اس حال میں حج ادا کرنے کے اسباب بنا دے۔ بیت اللہ و مدینہ شریف کی زیارت کرا دے۔ ذکرِ الٰہی، تلاوتِ قرآن، حمد و ثنا، نعتِ نبی اور درود و سلام زیادہ سے زیادہ پڑھنے کی سعادت دے۔ ورد و وظیفے کی عادت دے۔ قربانی کرنے کی حیثیت دے۔ دین و سنیت کی خدمت کرنے کا جذبہ دے۔ ساداتِ کرام، مشائخین اور علما کی خدمت کرنے کی توفیق دے۔",
+                "ar": "يا الله، اجعلنا من المحافظين على الصلوات الخمس في أوقاتها، ووفقنا لقضاء ما فاتنا من صلوات، وأعنّا على صيام شهر رمضان كاملاً، وارزقنا القوة على النوافل صلاةً وصياماً. وإذا بلغنا النصاب فقوِّنا على إخراج الزكاة كاملة، وارزقنا الفهم في الصدقات والخيرات وزكاة الفطر. وارزقنا من السعة ما يجب به علينا الحج ويسّر لنا أسباب أدائه، وارزقنا زيارة بيتك الحرام والمدينة المنورة، وأسعدنا بالإكثار من ذكرك وتلاوة كتابك والحمد والثناء ومدح نبيك والصلاة والسلام عليه، وعوّدنا على الأوراد والأذكار، وأقدرنا على الأضحية، وارزقنا الحماس لخدمة الدين والسنة، ووفقنا لخدمة السادات الكرام والمشايخ والعلماء.",
+                "sw": "Ya Allah, tufanye tuwe wenye kudumu katika swala tano kwa wakati wake. Tujalie uwezo wa kulipa swala zetu zilizopita (Qaza). Tupe nguvu za kufunga saumu zote za Ramadhani Tukufu, na nguvu za kuswali swala za Nafl na kufunga saumu za Nafl. Tutakapofikia kiwango cha Nisab, tupe uwezo wa kutoa Zaka kamili, na ufahamu wa kutoa Khayrat, Sadaka, na Fitra. Tupe mali ya kutosha kiasi cha Hijjah kuwa wajibu juu yetu na utuandalie sababu za kuitekeleza. Tujaalie kuzuru Baitullah na Madinah Tukufu. Tupe bahati njema ya kukithirisha Dhikr Yako, kusoma Qur'ani, Hamd na Thana, Na't ya Mtume, na Durood-o-Salam. Tupe mazoea ya kusoma Awrad na Wadhifa, uwezo wa kuchinja Qurbani, ari ya kutumikia Dini na Sunnah, na taufiki ya kuwatumikia Masayyid, Mashayikh, na Wanachuoni."
+              },
+              "source_pages": [8, 9],
+              "review_status": "needs_review"
+            }
+          ]
+        },
+        {
+          "id": "virtues_of_prophets_and_companions",
+          "order": 3,
+          "title": {
+            "en": "Seeking the Noble Traits of Prophets & Companions",
+            "hi": "अंबिया और सहाबा-ए-किराम के मुबारक औसाफ़ की दुआ",
+            "gu": "અંબિયા અને સહાબા-એ-કિરામના મુબારક ગુણોની દુઆ",
+            "ur": "انبیا اور صحابۂ کرام کے اوصاف کی دعا",
+            "ar": "الدعاء بأخلاق الأنبياء والصحابة الكرام",
+            "sw": "Kuomba Sifa Njema za Mitume na Maswahaba"
+          },
+          "source_pages": [9, 10, 11],
+          "items": [
+            {
+              "id": "dua_17_qualities_of_prophets",
+              "order": 1,
+              "type": "paragraph",
+              "text": {
+                "en": "Ya Allah, grant us repentance like the repentance of Hazrat Adam (alayhissalam), obedience like that of Hazrat Sheeth (alayhissalam), patience like that of Hazrat Ayyub (alayhissalam), gratitude like that of Hazrat Sulayman (alayhissalam), weeping and humility like that of Hazrat Ya'qub (alayhissalam), reliance upon Allah (Tawakkul) like that of Hazrat Yusuf (alayhissalam), service to the people like that of Hazrat Isa (alayhissalam), care and affection for one's people like that of Hazrat Musa (alayhissalam), religious zeal like that of Hazrat Nuh (alayhissalam), contentment with Divine decree (Rida) like that of Hazrat Dawud (alayhissalam), loyalty like that of Hazrat Zakariyya (alayhissalam), eagerness for sacrifice like that of Hazrat Ibrahim (alayhissalam), self-sacrifice like that of Hazrat Isma'il (alayhissalam), and noble character like that of Hazrat Muhammad Mustafa (sallallahu alayhi wa sallam). If You keep us alive, keep us in the love of the Prophets, and gather us on the Day of Resurrection among the people of Allah.",
+                "hi": "या अल्लाह, हमें हज़रत आदम अलैहिस्सलाम की तौबा जैसी तौबा करने की तौफ़ीक़ अता फ़रमा, हज़रत शीस अलैहिस्सलाम जैसी फ़रमाबरदारी अता फ़रमा, हज़रत अय्यूब अलैहिस्सलाम जैसा सब्र अता फ़रमा, हज़रत सुलेमान अलैहिस्सलाम जैसा शुक्र अता फ़रमा, हज़रत याक़ूब अलैहिस्सलाम जैसी आहो-ज़ारी अता फ़रमा, हज़रत यूसुफ़ अलैहिस्सलाम जैसा तवक्कुल अता फ़रमा, हज़रत ईसा अलैहिस्सलाम जैसी ख़िदमत-ए-क़ौम अता फ़रमा, हज़रत मूसा अलैहिस्सलाम जैसी मुहब्बत-ए-क़बीला अता फ़रमा, हज़रत नूह अलैहिस्सलाम जैसा दीनी जज़्बा अता फ़रमा, हज़रत दाऊद अलैहिस्सलाम जैसी रज़ा अता फ़रमा, हज़रत ज़करिया अलैहिस्सलाम जैसी वफ़ा अता फ़रमा, हज़रत इब्राहीम अलैहिस्सलाम जैसा क़ुर्बानी का शौक़ अता फ़रमा, हज़रत इस्माईल अलैहिस्सलाम जैसी जांनिसारी अता फ़रमा, और हज़रत मुहम्मद मुस्तफ़ा सल्लल्लाहु अलैहि वसल्लम जैसा किरदार अता फ़रमा। हमें ज़िंदा रख तो नबियों की मुहब्बत में रख, और हमारा हश्र अल्लाह वालों के साथ कर।",
+                "gu": "યા અલ્લાહ, અમને હઝરત આદમ અલયહિસ્સલામની તૌબા જેવી તૌબા કરવાની તૌફીક અતા ફરમાવ, હઝરત શીસ અલયહિસ્સલામ જેવી ફરમાબરદારી અતા ફરમાવ, હઝરત અય્યુબ અલયહિસ્સલામ જેવો સબ્ર અતા ફરમાવ, હઝરત સુલૈમાન અલયહિસ્સલામ જેવો શુક્ર અતા ફરમાવ, હઝરત યાકૂબ અલયહિસ્સલામ જેવી આહોઝારી અતા ફરમાવ, હઝરત યૂસુફ અલયહિસ્સલામ જેવું તવક્કુલ અતા ફરમાવ, હઝરત ઈસા અલયહિસ્સલામ જેવી ખિદમતે કૌમ અતા ફરમાવ, હઝરત મૂસા અલયહિસ્સલામ જેવી મુહબ્બતે કબીલા અતા ફરમાવ, હઝરત નૂહ અલયહિસ્સલામ જેવો દીની જઝ્બો અતા ફરમાવ, હઝરત દાઉદ અલયહિસ્સલામ જેવી રઝા અતા ફરમાવ, હઝરત ઝકરિયા અલયહિસ્સલામ જેવી વફા અતા ફરમાવ, હઝરત ઇબ્રાહીમ અલયહિસ્સલામ જેવો કુર્બાનીનો શૌક અતા ફરમાવ, હઝરત ઇસ્માઈલ અલયહિસ્સલામ જેવી જાંનિસારી અતા ફરમાવ, અને હઝરત મુહમ્મદ મુસ્તફા સલ્લલ્લાહો અલયહે વસલ્લમ જેવું કિરદાર અતા ફરમાવ. અમને જીવતા રાખ તો નબીઓની મુહબ્બતમાં રાખ, અને અમારો હશ્ર અલ્લાહવાળાઓની સાથે કર.",
+                "ur": "یا اللہ! ہمیں حضرت آدم علیہ السلام کی توبہ جیسی توبہ کرنے کی توفیق عطا فرما، حضرت شیث علیہ السلام جیسی فرمانبرداری عطا فرما، حضرت ایوب علیہ السلام جیسا صبر عطا فرما، حضرت سلیمان علیہ السلام جیسا شکر عطا فرما، حضرت یعقوب علیہ السلام جیسی آہ و زاری عطا فرما، حضرت یوسف علیہ السلام جیسا توکل عطا فرما، حضرت عیسیٰ علیہ السلام جیسی خدمتِ قوم عطا فرما، حضرت موسیٰ علیہ السلام جیسی محبتِ قبیلہ عطا فرما، حضرت نوح علیہ السلام جیسا دینی جذبہ عطا فرما، حضرت داؤد علیہ السلام جیسی رضا عطا فرما، حضرت زکریا علیہ السلام جیسی وفا عطا فرما، حضرت ابراہیم علیہ السلام جیسا قربانی کا شوق عطا فرما، حضرت اسماعیل علیہ السلام جیسی جاں نثاری عطا فرما، اور حضرت محمد مصطفیٰ صلی اللہ علیہ وسلم جیسا کردار عطا فرما۔ ہمیں زندہ رکھ تو نبیوں کی محبت میں رکھ، اور ہمارا حشر اللہ والوں کے ساتھ کر۔",
+                "ar": "يا الله، ارزقنا توبة كتوبة سيدنا آدم عليه السلام، وطاعة كطاعة سيدنا شيث عليه السلام، وصبراً كصبر سيدنا أيوب عليه السلام، وشكراً كشكر سيدنا سليمان عليه السلام، وتضرعاً كتضرع سيدنا يعقوب عليه السلام، وتوكلاً كتوكل سيدنا يوسف عليه السلام، وخدمةً للخلق كسيدنا عيسى عليه السلام، ومحبةً لقومه كسيدنا موسى عليه السلام، وحماساً في الدين كسيدنا نوح عليه السلام، ورضاً كرضا سيدنا داود عليه السلام، ووفاءً كوفاء سيدنا زكريا عليه السلام، وشوقاً للتضحية كسيدنا إبراهيم عليه السلام، وفداءً كفداء سيدنا إسماعيل عليه السلام، وخلقاً وسيرةً كسيدنا محمد المصطفى ﷺ. وأحينا على محبة الأنبياء، واحشرنا مع أوليائك وأهل طاعتك.",
+                "sw": "Ya Allah, tujalie toba kama toba ya Nabii Adam (alayhissalam), utiifu kama wa Nabii Sheeth (alayhissalam), subira kama ya Nabii Ayyub (alayhissalam), shukrani kama ya Nabii Sulayman (alayhissalam), unyenyekevu na kilio kama cha Nabii Ya'qub (alayhissalam), kumtegemea Mungu kama Nabii Yusuf (alayhissalam), kuwahudumia watu kama Nabii Isa (alayhissalam), mapenzi kwa watu wake kama Nabii Musa (alayhissalam), ari ya dini kama ya Nabii Nuh (alayhissalam), kuridhika kama Nabii Dawud (alayhissalam), uaminifu kama wa Nabii Zakariyya (alayhissalam), shauku ya kujitolea kama Nabii Ibrahim (alayhissalam), kujitolea muhanga kama Nabii Isma'il (alayhissalam), na tabia njema kama ya Nabii Muhammad Mustafa (sallallahu alayhi wa sallam). Ukitupa uhai tuishi katika mapenzi ya Manabii, na Utufufue pamoja na waja Wako wema."
+              },
+              "source_pages": [9, 10],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_18_qualities_of_sahabah",
+              "order": 2,
+              "type": "paragraph",
+              "text": {
+                "en": "Ya Allah, grant us truthfulness like Hazrat Siddiq-e-Akbar (Abu Bakr), faith like Hazrat Faruq-e-A'zam (Umar), modesty like Hazrat Uthman-e-Ghani, knowledge like Hazrat Mawla Ali, gratitude like Hazrat Imam Hasan, patience like Hazrat Imam Husain, loyalty like Hazrat Zaynul-'Abidin, passionate love like Hazrat Bilal Habashi, devoted servitude like Hazrat Zayd, respect and etiquette like Hazrat Talhah, steadfast following like Hazrat Zubayr, reverence like Hazrat Salman Farsi, and poetic praise of the Prophet like Hazrat Hassan (radiyallahu ta'ala anhum).",
+                "hi": "या अल्लाह, हमें हज़रत सिद्दीक़-ए-अकबर जैसी तस्दीक़ अता फ़रमा, हज़रत फ़ारूक़-ए-आज़म जैसा ईमान अता फ़रमा, हज़रत उस्मान-ए-ग़नी जैसी हया अता फ़रमा, हज़रत मौला अली जैसा इल्म अता फ़रमा, हज़रत इमाम हसन जैसा शुक्र अता फ़रमा, हज़रत इमाम हुसैन जैसा सब्र अता फ़रमा, हज़रत ज़ैनुल-आबेदीन जैसी वफ़ा अता फ़रमा, हज़रत बिलाल हबशी जैसा इश्क़ अता फ़रमा, हज़रत ज़ैद जैसी ग़ुलामी अता फ़रमा, हज़रत तल्हा जैसा अदब अता फ़रमा, हज़रत ज़ुबैर जैसी पैरवी अता फ़रमा, हज़रत सलमान फ़ारसी जैसी ताज़ीम अता फ़रमा और हज़रत हस्सान जैसी मिदहत अता फ़रमा।",
+                "gu": "યા અલ્લાહ, અમને હઝરત સિદ્દીકે અકબર જેવી તસ્દીક અતા ફરમાવ, હઝરત ફારૂકે આઝમ જેવો ઈમાન અતા ફરમાવ, હઝરત ઉસ્માને ગની જેવી હયા અતા ફરમાવ, હઝરત મૌલા અલી જેવું ઇલ્મ અતા ફરમાવ, હઝરત ઈમામ હસન જેવો શુક્ર અતા ફરમાવ, હઝરત ઈમામ હુસૈન જેવો સબ્ર અતા ફરમાવ, હઝરત ઝૈનુલઆબેદ્દીન જેવી વફા અતા ફરમાવ, હઝરત બિલાલે હબશી જેવો ઇશ્ક અતા ફરમાવ, હઝરત ઝૈદ જેવી ગુલામી અતા ફરમાવ, હઝરત તલ્હા જેવો અદબ અતા ફરમાવ, હઝરત ઝુબૈર જેવી પૈરવી અતા ફરમાવ, હઝરત સલમાન ફારસી જેવી તાઝીમ અતા ફરમાવ અને હઝરત હસ્સાન જેવી મિદહત (પ્રશંસા) અતા ફરમાવ.",
+                "ur": "یا اللہ! ہمیں حضرت صدیقِ اکبر جیسی تصدیق عطا فرما، حضرت فاروقِ اعظم جیسا ایمان عطا فرما، حضرت عثمانِ غنی جیسی حیا عطا فرما، حضرت مولا علی جیسا علم عطا فرما، حضرت امام حسن جیسا شکر عطا فرما، حضرت امام حسین جیسا صبر عطا فرما، حضرت زین العابدین جیسی وفا عطا فرما، حضرت بلال حبشی جیسا عشق عطا فرما، حضرت زید جیسی غلامی عطا فرما، حضرت طلحہ جیسا ادب عطا فرما، حضرت زبیر جیسی پیروی عطا فرما، حضرت سلمان فارسی جیسی تعظیم عطا فرما اور حضرت حسان جیسی مدحت عطا فرما۔",
+                "ar": "يا الله، ارزقنا تصديقاً كتصديق أبي بكر الصديق، وإيماناً كإيمان عمر الفاروق، وحياءً كحياء عثمان الغني، وعلماً كعلم علي، وشكراً كشكر الإمام الحسن، وصبراً كصبر الإمام الحسين، ووفاءً كوفاء زين العابدين، وعشقاً كعشق بلال الحبشي، وخدمةً كخدمة زيد، وأدباً كأدب طلحة، واتباعاً كاتباع الزبير، وتعظيماً كتعظيم سلمان الفارسي، ومدحاً لرسولك كمدح حسان بن ثابت، رضي الله عنهم أجمعين.",
+                "sw": "Ya Allah, tujalie usadikishaji kama wa Hazrat Abu Bakr Siddiq, imani kama ya Hazrat Umar Faruq, haya kama ya Hazrat Uthman Ghani, elimu kama ya Hazrat Mawla Ali, shukrani kama ya Hazrat Imam Hasan, subira kama ya Hazrat Imam Husain, uaminifu kama wa Hazrat Zaynul-'Abidin, mapenzi kama ya Hazrat Bilal Habashi, utumishi kama wa Hazrat Zayd, adabu kama ya Hazrat Talhah, ufuasi kama wa Hazrat Zubayr, heshima kama ya Hazrat Salman Farsi, na sifa kwa Mtume kama za Hazrat Hassan (radhiyallahu anhum)."
+              },
+              "source_pages": [11],
+              "review_status": "needs_review"
+            }
+          ]
+        },
+        {
+          "id": "halal_provision_peace_and_protection",
+          "order": 4,
+          "title": {
+            "en": "Halal Provision, Inner Peace & Protection from Evils",
+            "hi": "हलाल रोज़ी, दिली सुकून और बुराइयों से हिफ़ाज़त",
+            "gu": "હલાલ રોઝી, દિલનો સુકૂન અને બુરાઈઓથી હિફાઝત",
+            "ur": "رزقِ حلال، قلبی سکون اور برائیوں سے حفاظت",
+            "ar": "الرزق الحلال والسكينة والحماية من الشرور",
+            "sw": "Riziki ya Halali, Utulivu wa Moyo na Kinga dhidi ya Maovu"
+          },
+          "source_pages": [11, 12, 13],
+          "items": [
+            {
+              "id": "dua_19_halal_sustenance",
+              "order": 1,
+              "type": "paragraph",
+              "text": {
+                "en": "Ya Allah, grant us lawful (Halal) sustenance, abundant livelihood, blessing in our earnings, and ease in earning. Grant us pure Halal morsels and protect us from unlawful morsels, unlawful trades, interest (usury), alcohol, gambling, speculation, lotteries, and similar unlawful earnings. Protect us from bribery, usurping anyone's right, unjust income, and seizing the property of orphans.",
+                "hi": "या अल्लाह, हमें रिज़्क़-ए-हलाल दे, बेपनाह रोज़ी दे, रोज़ी में बरकत दे, कमाई में आसानी दे, हलाल लुक़मे दे। हराम लुक़मे से बचा, हराम धंधों से बचा, सूद (ब्याज) से बचा, शराब, जुआ, सट्टा, लॉटरी जैसी नाजायज़ कमाई से बचा, रिश्वत से बचा, किसी का हक़ मारने से बचा, नाहक़ कमाई से बचा और यतीमों का माल छीन लेने से बचा।",
+                "gu": "યા અલ્લાહ, અમને રિઝ્કે હલાલ આપ, બેપનાહ રોઝી આપ, રોઝીમાં બરકત આપ, કમાણીમાં આસાની આપ, હલાલ કોળિયો આપ. હરામ કોળિયાથી બચાવ, હરામ ધંધાઓથી બચાવ, વ્યાજથી બચાવ, દારૂ, જુગાર, સટ્ટો, લોટરી જેવી નાજાયઝ કમાણીથી બચાવ, લાંચ-રૂશ્વતથી બચાવ, કોઈનો હક મારવાથી બચાવ, નાહક કમાણીથી બચાવ અને યતીમોનો માલ છીનવી લેવાથી બચાવ.",
+                "ur": "یا اللہ! ہمیں رزقِ حلال دے، بے پناہ روزی دے، روزی میں برکت دے، کمائی میں آسانی دے، حلال لقمے دے۔ حرام لقمے سے بچا، حرام دھندوں سے بچا، سود سے بچا، شراب، جوا، سٹہ، لاٹری جیسی ناجائز کمائی سے بچا، رشوت سے بچا، کسی کا حق مارنے سے بچا، ناحق کمائی سے بچا اور یتیموں کا مال چھین لینے سے بچا۔",
+                "ar": "يا الله، ارزقنا رزقاً حلالاً طيباً واسعاً مباركاً فيه، ويسر لنا سبل الكسب، وأطعمنا حلالاً، وجنبنا الحرام والمعاملات المحرمة والربا والخمر والميسر والمراهنات واليانصيب وسائر المكاسب غير المشروعة، وجنبنا الرشوة وأكل حقوق الناس والكسب الباطل وأكل أموال اليتامى.",
+                "sw": "Ya Allah, tupe riziki ya halali, kipato kingi, baraka katika kipato, na urahisi wa kutafuta riziki. Tupe chakula cha halali na utukinge na chakula cha haramu, biashara za haramu, riba, pombe, kamari, bahati nasibu na mapato yoyote yasiyo halali, rushwa, kudhulumu haki ya mtu yeyote, mapato ya dhuluma, na kula mali ya yatima."
+              },
+              "source_pages": [11, 12],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_20_peace_character_neighbors",
+              "order": 2,
+              "type": "paragraph",
+              "text": {
+                "en": "Ya Allah, keep us always prosperous and happy, grant us tranquility of heart at all times, grant us the ability to remember You, and bestow peace upon our hearts. Protect us from every calamity, affliction, illness, distress, accident, theft, riot, loss, and humiliation. Keep us far away from every sin and every evil, and keep us away from practicing magic or sorcery. Protect us from envy, malice, deceit, lying, backbiting, slander, flattery, hypocrisy, and the like. Grant us the ability to fulfill the rights of relatives and neighbors; grant harmony and unity in our homes and neighborhoods, and honor us with the wealth of noble character.",
+                "hi": "या अल्लाह, हमें हमेशा ख़ुशहाल रख, हर वक़्त सुकून-ए-क़ल्ब दे, तेरे ज़िक्र की तौफ़ीक़ दे और दिलों को इत्मीनान बख़्श। हर आफ़त, बला, बीमारी, परेशानी, एक्सीडेंट, चोरी, दंगा-फ़साद, नुक़सान और ज़िल्लत से महफ़ूज़ रख। हर गुनाह व हर बुराई से दूर रख, जादू-टोना करने से बाज़ रख, हसद, कीना, कपट, झूठ, ग़ीबत, चुग़ली, ख़ुशामद, रियाकारी वग़ैरह से बचा। रिश्तेदार व पड़ोसी के हक़ अदा करने की तौफ़ीक़ दे, घर में व मुहल्ले में इत्तिफ़ाक़ व इत्तिहाद अता फ़रमा और अख़्लाक़-ए-अज़ीम की दौलत से सरफ़राज़ कर।",
+                "gu": "યા અલ્લાહ, અમને હંમેશા ખુશહાલ રાખ, હર વક્ત સુકૂને કલ્બ આપ, તારા ઝિક્રની તૌફીક આપ અને દિલોને ઇત્મીનાન બક્ષ. દરેક આફત, બલા, બીમારી, પરેશાની, અકસ્માત, ચોરી, દંગા-ફસાદ, નુકસાન અને ઝિલ્લતથી મહેફૂઝ રાખ. દરેક ગુનાહ અને દરેક બુરાઈથી દૂર રાખ, જાદુ-ટોણા કરવાથી બચાવ, હસદ, કીનો, કપટ, જૂઠ, ગીબત, ચુગલી, ખુશામત, રિયાકારી વગેરેથી બચાવ. સગાંસંબંધી અને પડોશીઓના હક અદા કરવાની તૌફીક આપ, ઘરમાં અને મહોલ્લામાં એકતા અને સંપ અતા ફરમાવ, અને અખ્લાકે અઝીમની દૌલતથી નવાઝ.",
+                "ur": "یا اللہ! ہمیں ہمیشہ خوش حال رکھ، ہر وقت سکونِ قلب دے، تیرے ذکر کی توفیق دے اور دلوں کو اطمینان بخش۔ ہر آفت، بلا، بیماری، پریشانی، حادثے، چوری، دنگا فساد، نقصان اور ذلت سے محفوظ رکھ۔ ہر گناہ و ہر برائی سے دور رکھ، جادو ٹونا کرنے سے باز رکھ، حسد، کینہ، کپٹ، جھوٹ، غیبت، چغلی، خوشامد، ریاکاری وغیرہ سے بچا۔ رشتہ دار و پڑوسی کے حق ادا کرنے کی توفیق دے، گھر میں، محلے میں اتفاق و اتحاد عطا فرما اور اخلاقِ عظیم کی دولت سے سرفراز کر۔",
+                "ar": "يا الله، أسعدنا دائماً، وارزقنا طمأنينة القلب في كل وقت، ووفقنا لذكرك، وألقِ السكينة في قلوبنا. واحفظنا من كل آفة وبلاء ومرض وهمّ وحادث وسرقة وفتنة وخسارة وذل. وأبعدنا عن كل ذنب وشر، وعن السحر والشعوذة، واحمنا من الحسد والحقد والغش والكذب والغيبة والنميمة والمداهنة والرياء ونحو ذلك. ووفقنا لأداء حقوق الأقارب والجيران، وارزقنا الألفة والاتحاد في بيوتنا وأحيائنا، وأكرمنا بمكارم الأخلاق.",
+                "sw": "Ya Allah, tuweke daima katika hali njema, tupe utulivu wa moyo kila wakati, tujalie uwezo wa kukumbuka Wewe na tuliza nyoyo zetu. Tulinde dhidi ya kila janga, balaa, ugonjwa, dhiki, ajali, wizi, ghasia, hasara na udhalili. Tuweke mbali na kila dhambi na uovu, tuepushe na uchawi, husuda, chuki, hila, uongo, kusengenya, uchochezi, kujipendekeza na unafiki. Tujalie kutekeleza haki za jamaa na majirani, tupe maelewano na umoja majumbani na mitaani, na ututukuze kwa tabia njema."
+              },
+              "source_pages": [12],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_21_protection_from_evils_and_shirk",
+              "order": 3,
+              "type": "paragraph",
+              "text": {
+                "en": "Ya Allah, protect us from Your disobedience, from Your wrath and anger, from the displeasure of the Noble Messenger (sallallahu alayhi wa sallam), from the evil of devils, from the trials of jinn and humankind, from disbelief (Kufr) and polytheism (Shirk), from irreligion and misguidance, from spiritual and physical illnesses, from destitution and the deceit of wicked people, and from committing insolence toward the honor of the Family of the Messenger and the Noble Companions.",
+                "hi": "या अल्लाह, हमें तेरी नाफ़रमानी से बचा, तेरे क़हर व ग़ज़ब से बचा, रसूल-ए-आज़म की नाराज़गी से बचा, शैतानों के शर से बचा, जिन्नों व बशर के फ़ितनों से बचा, कुफ़्र व शिर्क से बचा, बददीनी व गुमराही से बचा, रूहानी व जिस्मानी बीमारियों से बचा, मोहताजी व बदमाशों की मक्कारी से बचा और आल-ए-रसूल व सहाबा-ए-किराम की शान में गुस्ताख़ी करने से बचा।",
+                "gu": "યા અલ્લાહ, અમને તારી નાફરમાનીથી બચાવ, તારા કહેરો ગઝબથી બચાવ, રસૂલે આઝમની નારાઝગીથી બચાવ, શૈતાનોના શરથી બચાવ, જિન્નો અને ઇન્સાનોના ફિતનાઓથી બચાવ, કુફ્ર અને શિર્કથી બચાવ, બદદીની અને ગુમરાહીથી બચાવ, રૂહાની અને જિસ્માની બીમારીઓથી બચાવ, મોહતાજી અને બદમાશોની મક્કારીથી બચાવ, અને આલે રસૂલ તથા સહાબા-એ-કિરામની શાનમાં ગુસ્તાખી કરવાથી બચાવ.",
+                "ur": "یا اللہ! ہمیں تیری نافرمانی سے بچا، تیرے قہر و غضب سے بچا، رسولِ اعظم کی ناراضگی سے بچا، شیطانوں کے شر سے بچا، جن و بشر کے فتنوں سے بچا، کفر و شرک سے بچا، بددینی و گمراہی سے بچا، روحانی و جسمانی بیماریوں سے بچا، محتاجی و بدمعاشوں کی مکاری سے بچا اور آلِ رسول و صحابۂ کرام کی شان میں گستاخی کرنے سے بچا۔",
+                "ar": "يا الله، احفظنا من معصيتك، ومن غضبك وعقابك، ومن سخط رسولك الأعظم ﷺ، ومن شر الشياطين، ومن فتن الجن والإنس، ومن الكفر والشرك، ومن سوء الدين والضلال، ومن الأمراض الروحية والجسدية، ومن الفاقة ومكر الأشرار، ومن الجرأة أو الإساءة إلى مقام آل الرسول والصحابة الكرام.",
+                "sw": "Ya Allah, tulinde dhidi ya kukuasi, dhidi ya ghadhabu Yako, dhidi ya hasira ya Mtume Mtukufu, dhidi ya shari ya mashetani, dhidi ya fitina za majini na wanadamu, dhidi ya ukafiri na shirki, dhidi ya upotofu wa dini, dhidi ya maradhi ya kiroho na kimwili, dhidi ya uhitaji na hila za waovu, na dhidi ya kudharau heshima ya Familia ya Mtume na Maswahaba watukufu."
+              },
+              "source_pages": [12, 13],
+              "review_status": "needs_review"
+            }
+          ]
+        },
+        {
+          "id": "spiritual_illumination_and_family",
+          "order": 5,
+          "title": {
+            "en": "Spiritual Illumination, Sacred Places & Family Welfare",
+            "hi": "रूहानी नूर, मुक़द्दस ज़ियारत और घर-परिवार की भलाई",
+            "gu": "રૂહાની નૂર, મુકદ્દસ ઝિયારત અને પરિવારની ભલાઈ",
+            "ur": "روحانی نور، زیاراتِ مقدسہ اور خاندان کی فلاح",
+            "ar": "النور الروحي والزيارات المباركة وصلاح الأسرة",
+            "sw": "Nuru ya Kiroho, Ziyara Takatifu na Ustawi wa Familia"
+          },
+          "source_pages": [13, 14, 15],
+          "items": [
+            {
+              "id": "dua_22_seeking_protection_through_refuge",
+              "order": 1,
+              "type": "paragraph",
+              "text": {
+                "en": "Ya Allah, we do not have the strength to save ourselves from these things; O Mawla, grant us Your refuge and protect us from all things that cause grave harm.",
+                "hi": "या अल्लाह, हमारी ताक़त नहीं कि हम इन चीज़ों से बच सकें; मौला तू ही हमें अपनी पनाह देकर बेहद नुक़सान देने वाली चीज़ों से बचा।",
+                "gu": "યા અલ્લાહ, અમારી તાકાત નથી કે અમે આ બધી બાબતોથી બચી શકીએ; મૌલા, તું જ અમને તારી પનાહ આપીને ભારે નુકસાન પહોંચાડનારી બાબતોથી બચાવ.",
+                "ur": "یا اللہ! ہماری طاقت نہیں کہ ہم ان چیزوں سے بچ سکیں؛ مولا! تو ہی ہمیں اپنی پناہ دے کر بے حد نقصان دینے والی چیزوں سے بچا۔",
+                "ar": "يا الله، لا قدرة لنا على النجاة من هذه الفتن إلا بك، يا مولانا فأعذنا بكنفك واحفظنا من كل ما يضرنا ضرراً بالغاً.",
+                "sw": "Ya Allah, hatuna nguvu za kujikinga na mambo haya; Ee Mola, tupe hifadhi Yako na utulinde na mambo yote yenye kuleta madhara makubwa."
+              },
+              "source_pages": [13],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_23_tawhid_love_quran_shrines",
+              "order": 2,
+              "type": "paragraph",
+              "text": {
+                "en": "Ya Allah, fill our hearts with the light of Tawhid (Oneness of Allah). Bless us with the wealth of love for the Messenger, enrich us with love for the Companions and devotion to the Ahl al-Bayt, and grant us love for the Panjatan Pak. Grant us the ability to walk in the footsteps of the noble Awliya, and keep us steadfast upon the guidance of our spiritual guide (Pir-o-Murshid). Honor us with religious knowledge, the wealth of worship, and the strength for obedience. Grant us the ability to recite the Holy Quran, study its translation and commentary (Tafsir), understand it, and act upon it. Bless us with the company of noble scholars and spiritual masters (Ulama and Mashayikh), and make it our habit to visit the shrines of the noble Awliya. Grant us the fortune to visit sacred sanctuaries such as Makkah Sharif, Madinah Sharif, Najaf Sharif, Karbala Sharif, Baghdad Sharif, and Ajmer Sharif, and keep their spiritual blessings flowing continually upon us.",
+                "hi": "या अल्लाह, हमारे दिलों में तौहीद का नूर भर दे, हमें इश्क़-ए-रसूल की दौलत से नवाज़, हमें इश्क़-ए-सहाबा व हुब्ब-ए-अहलेबैत से मालामाल कर। पंजतन पाक की मुहब्बत अता फ़रमा। औलिया-ए-किराम के नक़्शे क़दम पर चलने की तौफ़ीक़ दे। पीर-ओ-मुर्शिद की हिदायत पर साबित क़दम रख। हमें इल्म-ए-दीन से सरफ़राज़ कर, इबादत की दौलत दे, इताअत की ताक़त दे। क़ुरआन शरीफ़ की तिलावत, उसका तर्जुमा व तफ़्सीर पढ़ने की, उसे समझने की और उस पर अमल करने की तौफ़ीक़ दे। उलमा-ए-किराम व मशायख़ीन की सोहबत में रहने की सआदत दे। औलिया-ए-किराम के मज़ारात पर हमेशा जाने की आदत दे। मक्का शरीफ़, मदीना शरीफ़, नजफ़ शरीफ़, कर्बला शरीफ़, बग़दाद शरीफ़, अजमेर शरीफ़ जैसे मुक़द्दस आस्तानों की ज़ियारत नसीब फ़रमा और वहां का फ़ैज़ान हम पर जारी व सारी रख।",
+                "gu": "યા અલ્લાહ, અમારા દિલોમાં તૌહીદનું નૂર ભરી દે, અમને ઇશ્કે રસૂલની દૌલતથી નવાઝ, અમને ઇશ્કે સહાબા અને હુબ્બે અહલેબૈતથી માલામાલ કર. પંજતને પાકની મુહબ્બત અતા ફરમાવ. અવલિયા-એ-કિરામના નક્શે કદમ પર ચાલવાની તૌફીક આપ. પીરો મુર્શિદની હિદાયત પર સાબિત કદમ રાખ. અમને ઇલ્મે દીનથી સરફરાઝ કર, ઇબાદતની દૌલત આપ, ઇતાઅતની તાકાત આપ. કુર્આન શરીફની તિલાવત, તેનો તરજુમો અને તફસીર પઢવાની, સમજવાની અને તેના પર અમલ કરવાની તૌફીક આપ. ઉલમા-એ-કિરામ અને મશાયખીનની સોહબતમાં રહેવાની સઆદત આપ. અવલિયા-એ-કિરામના મઝારાત પર હંમેશા જવાની આદત આપ. મક્કા શરીફ, મદીના શરીફ, નજફ શરીફ, કરબલા શરીફ, બગદાદ શરીફ, અજમેર શરીફ જેવા મુકદ્દસ આસ્તાનોની ઝિયારત નસીબ ફરમાવ અને ત્યાંનો ફૈઝાન અમારા પર જારી અને સારી રાખ.",
+                "ur": "یا اللہ! ہمارے دلوں میں توحید کا نور بھر دے، ہمیں عشقِ رسول کی دولت سے نواز، ہمیں عشقِ صحابہ و حبِ اہلِ بیت سے مالا مال کر۔ پنجتن پاک کی محبت عطا فرما۔ اولیائے کرام کے نقشِ قدم پر چلنے کی توفیق دے۔ پیر و مرشد کی ہدایت پر ثابت قدم رکھ۔ ہمیں علمِ دین سے سرفراز کر، عبادت کی دولت دے، اطاعت کی طاقت دے۔ قرآن شریف کی تلاوت، اس کا ترجمہ و تفسیر پڑھنے کی، اسے سمجھنے کی اور اس پر عمل کرنے کی توفیق دے۔ علمائے کرام و مشائخین کی صحبت میں رہنے کی سعادت دے۔ اولیائے کرام کے مزارات پر ہمیشہ جانے کی عادت دے۔ مکہ شریف، مدینہ شریف، نجف شریف، کربلا شریف، بغداد شریف، اجمیر شریف جیسے مقدس آستانوں کی زیارت نصیب فرما اور وہاں کا فیضان ہم پر جاری و ساری رکھ۔",
+                "ar": "يا الله، املأ قلوبنا بنور التوحيد، وأكرمنا بمحبة رسولك ﷺ، وأغْنِنا بمحبة الصحابة ومودة أهل البيت الكرام، وارزقنا محبة أهل الكساء (بنجتن باك). ووفقنا للسير على خطى الأولياء الكرام، وثبتنا على هدى مشايخنا، وشرفنا بالعلم الشرعي، وارزقنا لذة العبادة والقوة على الطاعة. ووفقنا لتلاوة القرآن الكريم وقراءة ترجمته وتفسيره وفهمه والعمل به، وأسعدنا بصحبة العلماء والمشايخ، ويسر لنا زيارة المقامات المباركة في مكة المكرمة والمدينة المنورة والنجف وكربلاء وبغداد وأجمير، وأدم علينا بركاتها وفيضها.",
+                "sw": "Ya Allah, jaza nyoyo zetu nuru ya Tawhid. Tukirimu hazina ya mapenzi kwa Mtume, utujaze mapenzi kwa Maswahaba na Ahl al-Bayt, na tupe mapenzi kwa Panjatan Pak. Tujalie kufuata nyayo za Mawalii watukufu, na utuweke thabiti katika uongofu wa sheikh wetu mlezi. Tutukuze kwa elimu ya dini, utajiri wa ibada, na nguvu za utiifu. Tujalie kusoma Qur'ani Tukufu, kusoma tafsiri na maana yake, kuielewa na kuifanyia kazi. Tupe bahati ya kukaa na Wanachuoni na Mashayikh, na mazoea ya kuzuru makaburi ya Mawalii. Tujalie kuzuru maeneo matukufu kama Makkah, Madinah, Najaf, Karbala, Baghdad, na Ajmer, na uendeleze baraka zake juu yetu."
+              },
+              "source_pages": [13, 14],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_24_women_family_and_children",
+              "order": 3,
+              "type": "paragraph",
+              "text": {
+                "en": "Ya Allah, grant our mothers and sisters the ability to follow the noble conduct of Sayyidah Tayyibah Tahirah Bibi Fatimah (radiyallahu anha) and walk in the footsteps of the Mothers of the Believers. Remove ignorance from our mothers and sisters, protect them from harmful customs and traditions, safeguard their honor and dignity, grant them righteous character and noble morals, and arrange their marriages into good households. Grant us the ability to provide religious and worldly upbringing and care for our children, and make our children obedient.",
+                "hi": "या अल्लाह, हमारी मां-बहनों को सैयदा तैयबा ताहिरा बीबी फ़ातिमा की सीरत पर चलने की तौफ़ीक़ दे। उम्मुहातुल मोमिनीन के नक़्शे क़दम पर चला। मां-बहनों की जिहालत दूर फ़रमा। उन्हें बुरे रस्मों-रिवाज से बचा। उनकी इज़्ज़त-आबरू की हिफ़ाज़त फ़रमा। उन्हें नेक किरदार व हुस्न-ए-अख़्लाक़ अता फ़रमा। अच्छे घराने में उनकी शादी के अस्बाब बना। औलाद की दीनी-दुन्यवी तरबियत व परवरिश की तौफ़ीक़ दे और औलाद को फ़रमाबरदार बना।",
+                "gu": "યા અલ્લાહ, અમારી મા-બહેનોને સૈયદા તૈયબા તાહિરા બીબી ફાતિમાની સીરત પર ચાલવાની તૌફીક આપ. ઉમ્મહાતુલ મોઅમેનીનના નક્શે કદમ પર ચલાવ. મા-બહેનોની અજ્ઞાનતા દૂર ફરમાવ. તેમને ખરાબ રસમો-રિવાજથી બચાવ. તેમની ઇઝ્ઝત-આબરૂની હિફાઝત ફરમાવ. તેમને નેક કિરદાર અને હુસ્ને અખ્લાક અતા ફરમાવ. સારા ઘરાનામાં તેમના લગ્નના અસબાબ બનાવ. ઔલાદની દીની અને દુન્યવી તરબિયત અને પરવરિશની તૌફીક આપ, અને ઔલાદને ફરમાબરદાર બનાવ.",
+                "ur": "یا اللہ! ہماری ماں بہنوں کو سیدہ طیبہ طاہرہ بی بی فاطمہ کی سیرت پر چلنے کی توفیق دے۔ امہات المومنین کے نقشِ قدم پر چلا۔ ماں بہنوں کی جہالت دور فرما۔ انہیں برے رسم و رواج سے بچا۔ ان کی عزت و آبرو کی حفاظت فرما۔ انہیں نیک کردار و حسنِ اخلاق عطا فرما۔ اچھے گھرانے میں ان کی شادی کے اسباب بنا۔ اولاد کی دینی و دنیاوی تربیت و پرورش کی توفیق دے اور اولاد کو فرمانبردار بنا۔",
+                "ar": "يا الله، وفق أمهاتنا وأخواتنا للاقتداء بسيرة السيدة الطيبة الطاهرة فاطمة الزهراء رضي الله عنها والسير على خطى أمهات المؤمنين. وأزل عنهن الجهل، واحفظهن من العادات والتقاليد السيئة، وصن أعراضهن وشرفهن، وارزقهن السيرة الصالحة وحسن الخلق، ويسر لهن الزواج في أسر كريمة صالحة. ووفقنا لتربية أبنائنا تربية دينية ودنيوية صالحة، واجعل ذريتنا بارة مطيعة.",
+                "sw": "Ya Allah, wajalie mama na dada zetu kufuata mwenendo wa Sayyidah Tayyibah Tahirah Bibi Fatimah na kufuata nyayo za Mama wa Waumini. Waondolee ujinga, walinde na mila na desturi mbaya, hifadhi heshima na staha yao, wape tabia njema na maadili mema, na uwaandalie ndoa katika familia njema. Tujalie uwezo wa kuwalea watoto wetu katika malezi ya dini na dunia, na uwafanye watoto wetu wawe watiifu."
+              },
+              "source_pages": [14, 15],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_25_grace_help_and_faith",
+              "order": 4,
+              "type": "paragraph",
+              "text": {
+                "en": "Ya Allah, bestow Your grace upon us, show Your generosity, help us, cast Your gaze of mercy upon us, and keep us steadfast upon Iman (faith).",
+                "hi": "या अल्लाह, तेरा फ़ज़्ल फ़रमा, तेरा करम फ़रमा, हमारी मदद फ़रमा, रहमत की नज़र फ़रमा और ईमान पर क़ायम रख।",
+                "gu": "યા અલ્લાહ, તારો ફઝલ ફરમાવ, તારો કરમ ફરમાવ, અમારી મદદ ફરમાવ, રહમતની નજર ફરમાવ અને ઈમાન પર કાયમ રાખ.",
+                "ur": "یا اللہ! اپنا فضل فرما، اپنا کرم فرما، ہماری مدد فرما، رحمت کی نظر فرما اور ایمان پر قائم رکھ۔",
+                "ar": "يا الله، تفضل علينا، وأكرمنا، وانصرنا، وانظر إلينا بعين الرحمة، وثبتنا على الإيمان.",
+                "sw": "Ya Allah, tufanyie fadhila Zako, tufanyie ukarimu Wako, tusaidie, tutazame kwa jicho la rehema, na utuweke imara juu ya Imani."
+              },
+              "source_pages": [15],
+              "review_status": "needs_review"
+            }
+          ]
+        },
+        {
+          "id": "noble_qualities_and_ummah_welfare",
+          "order": 6,
+          "title": {
+            "en": "Spiritual Virtues, Relief of Hardship & Welfare of the Ummah",
+            "hi": "रूहानी गुण, ज़रूरतमंदों की मदद और उम्मते मुस्लिमा की भलाई",
+            "gu": "રૂહાની ગુણો, જરૂરિયાતમંદોની મદદ અને ઉમ્મતની ભલાઈ",
+            "ur": "روحانی اوصاف، حاجت مندوں کی مدد اور امت کی بھلائی",
+            "ar": "الفضائل الروحية وتفريج الكربات وصلاح الأمة",
+            "sw": "Sifa za Kiroho, Faraja kwa Wenye Dhiki na Ustawi wa Umma"
+          },
+          "source_pages": [15, 16, 17],
+          "items": [
+            {
+              "id": "dua_26_inner_spiritual_virtues",
+              "order": 1,
+              "type": "paragraph",
+              "text": {
+                "en": "O Allah, grant us weeping eyes, a tongue devoted to Your remembrance, illuminate our hearts, brighten our souls, and grant our minds sound intellect. Give us a patient body, wealth spent in generosity, the gift of praising and glorifying You, upright character, benevolence, reliance upon Allah, sincerity, humility, Divine love, knowledge, righteous action, guidance, divine enablement, generosity, courage, and honesty. Grant us the ability to care for orphans, hospitality toward guests, affection for the young, and respect for elders.",
+                "hi": "ऐ अल्लाह, रोने वाली आंख दे, ज़िक्र करने वाली ज़ुबान दे, दिल को रोशन कर, क़ल्ब को मुनव्वर कर, दिमाग़ को अक़्ल-ए-सलीम दे, सब्र करने वाला तन दे, सख़ावत करने वाला धन दे, हम्द व सना करने वाला फ़न दे, किरदार दे, अख़्लाक़ दे, एहसान दे, तवक्कुल दे, इख़्लास दे, ख़ाकसारी दे, इश्क़ दे, इल्म दे, अमल दे, हिदायत दे, तौफ़ीक़ दे, सख़ावत दे, शुजाअत दे, ईमानदारी दे। यतीमों की परवरिश की तौफ़ीक़ दे, मेहमान-नवाज़ी दे, छोटों की मुहब्बत दे और बड़ों का अदब दे।",
+                "gu": "અય અલ્લાહ, રડનારી આંખ આપ. ઝિક્ર કરનારી જબાન આપ. દિલને રોશન કર. કલ્બને મુનવ્વર કર. દિમાગને અકલે સલીમ આપ. સબ્ર કરનારું તન આપ. સખાવત કરનારું ધન આપ. હમ્દો સના કરવાનું કૌશલ્ય આપ, કિરદાર આપ, અખ્લાક આપ, એહસાન આપ, તવક્કુલ આપ, ઇખ્લાસ આપ, ખાકસારી આપ, ઇશ્ક આપ, ઇલ્મ આપ, અમલ આપ, હિદાયત આપ, તૌફીક આપ, સખાવત આપ, શુજાઅત આપ, ઈમાનદારી આપ. યતીમોની પરવરિશની તૌફીક આપ, મહેમાન-નવાઝી આપ, નાનાઓની મુહબ્બત આપ અને મોટાઓનો અદબ આપ.",
+                "ur": "اے اللہ! رونے والی آنکھ دے، ذکر کرنے والی زبان دے، دل کو روشن کر، قلب کو منور کر، دماغ کو عقلِ سلیم دے، صبر کرنے والا تن دے، سخاوت کرنے والا دھن دے، حمد و ثنا کرنے والا فن دے، کردار دے، اخلاق دے، احسان دے، توکل دے، اخلاص دے، خاکساری دے، عشق دے، علم دے، عمل دے، ہدایت دے، توفیق دے، سخاوت دے، شجاعت دے، ایمانداری دے۔ یتیموں کی پرورش کی توفیق دے، مہمان نوازی دے، چھوٹوں کی محبت دے اور بڑوں کا ادب دے۔",
+                "ar": "اللهم ارزقنا عيناً باكية من خشيتك، ولساناً ذاكراً، ونور صدورنا، وصفِّ قلوبنا، وامنح عقولنا الرشد والسداد، وأبداننا الصبر، وأموالنا الجود والسخاء. وارزقنا حسن الثناء عليك، والسيرة الحسنة، ومكارم الأخلاق، والإحسان، والتوكل، والإخلاص، والتواضع، والمحبة، والعلم، والعمل، والهداية، والتوفيق، والشجاعة، والأمانة. ووفقنا لكفالة الأيتام، وإكرام الضيف، والرحمة بالصغير، وتوقير الكبير.",
+                "sw": "Ee Mwenyezi Mungu, tupe macho yenye kulia, ulimi wenye kukutaja, angaza nyoyo zetu, safisha nafsi zetu, na tupe akili timamu. Tupe mwili wenye subira, mali ya ukarimu, kipaji cha kukusifu, tabia njema, maadili mema, wema, kumtegemea Wewe, ikhlasi, unyenyekevu, mapenzi Yako, elimu, matendo mema, uongofu, taufiki, ukarimu, ushujaa na uaminifu. Tujalie kuwalea yatima, ukarimu kwa wageni, upendo kwa wadogo, na heshima kwa wakubwa."
+              },
+              "source_pages": [15],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_27_lover_and_beloved_of_allah",
+              "order": 2,
+              "type": "paragraph",
+              "text": {
+                "en": "O Allah, make us Your ardent lovers, Your seekers, Your accepted servants, Your beloved ones, and beloved to Your Beloved (sallallahu alayhi wa sallam).",
+                "hi": "ऐ अल्लाह, हमें तेरा आशिक़ बना, तेरा तालिब बना, तेरा मक़बूल बना, तेरा महबूब बना और तेरे महबूब का महबूब बना।",
+                "gu": "અય અલ્લાહ, તારો આશિક બનાવ, તારો તાલિબ બનાવ, તારો મકબૂલ બનાવ, તારો મહેબૂબ બનાવ અને તારા મહેબૂબનો મહેબૂબ બનાવ.",
+                "ur": "اے اللہ! اپنا عاشق بنا، اپنا طالب بنا، اپنا مقبول بنا، اپنا محبوب بنا اور اپنے محبوب کا محبوب بنا۔",
+                "ar": "اللهم اجعلنا من المحبين لك، والطالبين لمرضاتك، والمقبولين عندك، والمحبوبين لديك، والمحبوبين لدى حبيبك ﷺ.",
+                "sw": "Ee Mwenyezi Mungu, tufanye tuwe wenye kukupenda sana, wanaokutafuta Wewe, waja Wako waliokubaliwa, vipenzi Vyako, na vipenzi vya Kipenzi Chako."
+              },
+              "source_pages": [15, 16],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_28_relief_for_the_needy",
+              "order": 3,
+              "type": "paragraph",
+              "text": {
+                "en": "O Allah, grant peace to the restless, support to the helpless, homes to the homeless, children to the childless, livelihood to the unemployed, knowledge to the unlearned, ability to act to those lacking practice, punctuality in Salah to those neglecting prayer, guidance to the misguided, and affection to enemies. Grant wealth to the financially straitened, make the wealthy generous, and bless the wealth of the generous. Reunite the separated, reconcile those who are estranged, and restore the desolate.",
+                "hi": "ऐ अल्लाह, बेचैन को चैन दे, बेसहारा को सहारा दे, बेघर को घर दे, बेऔलाद को औलाद दे, बेरोज़गारों को रोज़ी दे, बे-इल्म को इल्म दे, बे-अमल को अमल की तौफ़ीक़ दे, बेनमाज़ी को नमाज़ की पाबंदी दे, गुमराहों को हिदायत दे, दुश्मनों को मुहब्बत दे, तंगदस्तों को दौलत दे, दौलतमंदों को सख़ी बना दे, सख़ी के माल में बरकत दे। बिछड़े हुओं को मिला दे, रूठे हुओं को मना दे और उजड़े हुओं को आबाद फ़रमा दे।",
+                "gu": "અય અલ્લાહ, બેચેનને ચેન આપ, બેસહારાને સહારો આપ, બેઘરને ઘર આપ, બેઔલાદને ઔલાદ આપ, બેરોજગારોને રોઝી આપ, બે-ઇલ્મને ઇલ્મ આપ, બે-અમલને અમલની તૌફીક આપ, બેનમાઝીને નમાઝની પાબંદી આપ, ગુમરાહોને હિદાયત આપ, દુશ્મનોને મુહબ્બત આપ, તંગદસ્તોને દૌલત આપ, દૌલતમંદોને સખી બનાવી દે, સખીના માલમાં બરકત આપ. વિખૂટા પડેલાઓને મિલાવી દે, રિસાયેલાઓને મનાવી દે અને ઉજડેલાઓને આબાદ ફરમાવી દે.",
+                "ur": "اے اللہ! بے چین کو چین دے، بے سہارا کو سہارا دے، بے گھر کو گھر دے، بے اولاد کو اولاد دے، بے روزگاروں کو روزی دے، بے علم کو علم دے، بے عمل کو عمل کی توفیق دے، بے نمازی کو نماز کی پابندی دے، گمراہوں کو ہدایت دے، دشمنوں کو محبت دے، تنگ دستوں کو دولت دے، دولت مندوں کو سخی بنا دے، سخی کے مال میں برکت دے۔ بچھڑے ہوؤں کو ملا دے، روٹھے ہوؤں کو منا دے اور اجڑے ہوؤں کو آباد فرما دے۔",
+                "ar": "اللهم ارزق القلِقَ طمأنينةً، والضعيفَ عوناً، ومن لا مأوى له مسكناً، ومن لا ولد له ذريةً، والعاطلَ رزقاً، والجاهلَ علماً، والمقصّرَ توفيقاً للعمل، وتاركَ الصلاة محافظةً عليها، والضالَّ هدايةً، وألّف بين القلوب المتنافرة، وأغنِ الفقير، واجعل الغني سخياً، وبارك في مال السخي، واجمع شمل المتفرقين، وأصلح ذات البين، وأعمر ما تهدم من أحوال العباد.",
+                "sw": "Ee Mwenyezi Mungu, mpe utulivu mwenye wasiwasi, msaidie asiye na msaidizi, mpe nyumba asiye na makazi, mpe kizazi asiye na mtoto, mpe riziki asiye na ajira, mpe elimu asiye na elimu, mpe taufiki ya matendo asiye na amali, mpe kudumu katika swala asiyeswali, mwongoze aliyepotea, na ubadilishe chuki ya maadui kuwa upendo. Wape mali wenye dhiki, wafanye matajiri wawe wakarimu, na ubariki mali ya wakarimu. Waunganishe waliotengana, wapetanishe waliokasirikiana, na ujenge upya walioharibikiwa."
+              },
+              "source_pages": [16],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_29_prisoners_sick_scholars_youth",
+              "order": 4,
+              "type": "paragraph",
+              "text": {
+                "en": "O Allah, grant freedom to innocent prisoners, healing to the sick, strength to the weak, long life with good health to the scholars of Deen, the wealth of religious knowledge to children, sound understanding to the youth, and support for the community from the elders.",
+                "hi": "ऐ अल्लाह, बेगुनाह क़ैदियों को आज़ाद फ़रमा, बीमारों को शिफ़ा दे, कमज़ोरों को ताक़त दे, उलमा-ए-दीन को तंदुरुस्ती के साथ उम्र-दराज़ी दे, बच्चों को इल्म-ए-दीन की दौलत दे, जवानों को अच्छी समझ दे और बुज़ुर्गों को क़ौम की हिमायत दे।",
+                "gu": "અય અલ્લાહ, બેગુનાહ કેદીઓને આઝાદ ફરમાવ, બીમારોને શિફા આપ, કમજોરોને તાકાત આપ, ઉલમા-એ-દીનને તંદુરસ્તી સાથે ઉમ્ર-દરાઝી આપ, બાળકોને ઇલ્મે-દીનની દૌલત આપ, યુવાનોને સારી સમજ આપ અને વડીલોને કૌમની હિમાયત (મદદ) આપ.",
+                "ur": "اے اللہ! بے گناہ قیدیوں کو آزاد فرما، بیماروں کو شفا دے، کمزوروں کو طاقت دے، علمائے دین کو تندرستی کے ساتھ عمرِ درازی دے، بچوں کو علمِ دین کی دولت دے، جوانوں کو اچھی سمجھ دے اور بزرگوں کو قوم کی حمایت دے۔",
+                "ar": "اللهم فك أسر المظلومين، واشفِ المرضى، وقوِّ الضعفاء، وأطل أعمار علماء الدين مع الصحة والعافية، وارزق الأطفال علم الدين، والشباب حسن الفهم، ووفق الشيوخ لنصرة الأمة ورعايتها.",
+                "sw": "Ee Mwenyezi Mungu, waachilie huru wafungwa wasio na hatia, waponye wagonjwa, wape nguvu wanyonge, wape wanachuoni wa dini umri mrefu wenye afya njema, wape watoto hazina ya elimu ya dini, wape vijana ufahamu mwema, na uwajalie wazee kuitetea na kuisaidia jamii."
+              },
+              "source_pages": [16],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_30_ummah_unity_and_protection",
+              "order": 5,
+              "type": "paragraph",
+              "text": {
+                "en": "Ya Allah, shower grace and generosity upon the Ummah of Muhammad (sallallahu alayhi wa sallam); make them united and righteous. Exalt Islam and raise high the banner of Ahl as-Sunnah. Protect Muslims from the conspiracies of the enemies of the religion; save them from the oppression of tyrants and the cruelty of unjust rulers. Grant Muslims victory over their adversaries, keep Muslims away from terrorist organizations, and protect Muslims from the trials of extremists.",
+                "hi": "या अल्लाह, उम्मत-ए-मुहम्मदिया पर फ़ज़्ल व करम फ़रमा, उन्हें एक और नेक बना। इस्लाम का बोलबाला कर, मसलक-ए-अहले सुन्नत के परचम को लहरा। दीन के दुश्मनों की साज़िशों से मुसलमानों को महफ़ूज़ रख, ज़ालिमों के ज़ुल्म से बचा, हाकिमों के सितम से बचा। मुसलमानों को दुश्मन पर ग़ालिब कर दे। मुसलमानों को आतंकवादी तंज़ीमों से दूर रख, दहशतगर्दों के फ़ितनों से मुसलमानों को महफ़ूज़ रख।",
+                "gu": "યા અલ્લાહ, ઉમ્મતે મોહમ્મદીયા પર ફઝલો કરમ ફરમાવ. તેમને એક અને નેક બનાવ. ઇસ્લામનો બોલબાલા કર, મસ્લકે અહલે સુન્નતનો પરચમ લહેરાવ. દીનના દુશ્મનોની સાજિશોથી મુસલમાનોને મહેફૂઝ રાખ, ઝાલિમોના જુલ્મથી બચાવ, હાકિમોના સિતમથી બચાવ. મુસલમાનોને દુશ્મનો પર ગાલિબ કરી દે. મુસલમાનોને આતંકવાદી તંઝીમોથી દૂર રાખ અને દહેશતગર્દોના ફિતનાઓથી મુસલમાનોને મહેફૂઝ રાખ.",
+                "ur": "یا اللہ! امتِ محمدیہ پر فضل و کرم فرما، انہیں یکجا اور نیک بنا۔ اسلام کا بول بالا کر، مسلکِ اہلِ سنت کے پرچم کو لہرا۔ دین کے دشمنوں کی سازشوں سے مسلمانوں کو محفوظ رکھ، ظالموں کے ظلم سے بچا، حاکموں کے ستم سے بچا۔ مسلمانوں کو دشمن پر غالب کر دے۔ مسلمانوں کو دہشت گرد تنظیموں سے دور رکھ اور دہشت گردوں کے فتنوں سے مسلمانوں کو محفوظ رکھ۔",
+                "ar": "يا الله، تفضل وتكرم على أمة محمد ﷺ، واجمع كلمتها وأصلح حالها، وأعلِ كلمة الإسلام وارفع راية أهل السنة. واحفظ المسلمين من مكائد أعداء الدين، ونجّهم من ظلم الظالمين وجور الحكام، وانصرهم على أعدائهم، وأبعدهم عن الجماعات الإرهابية وفتن المتطرفين.",
+                "sw": "Ya Allah, teremsha fadhila na ukarimu juu ya Umma wa Muhammad (sallallahu alayhi wa sallam); wafanye wawe wamoja na wema. Tukuza Uislamu na inua juu bendera ya Ahl as-Sunnah. Walinde Waislamu na njama za maadui wa dini, waokoe na dhuluma za madhalimu na ukatili wa watawala. Wape Waislamu ushindi dhidi ya maadui, waweke mbali na makundi ya kigaidi, na walinde na fitina za magaidi."
+              },
+              "source_pages": [16, 17],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_31_protection_of_quran_masajid",
+              "order": 6,
+              "type": "paragraph",
+              "text": {
+                "en": "Ya Allah, keep Muslims under Your shelter and protection, protect the Holy Quran and mosques from desecration, safeguard sacred sites and the shrines of the Awliya, and keep Muslims steadfast upon the path of Ahl as-Sunnah.",
+                "hi": "या अल्लाह, मुसलमानों को तेरी पनाह व हिफ़ाज़त में रख, क़ुरआन शरीफ़ व मस्जिदों को बेहुरमती से बचा, मुक़द्दस मक़ामात व मज़ारात-ए-औलिया की हिफ़ाज़त फ़रमा और मुसलमानों को मसलक-ए-अहले सुन्नत پر साबित क़दम रख।",
+                "gu": "યા અલ્લાહ, મુસલમાનોને તારી પનાહ અને હિફાઝતમાં રાખ, કુર્આન શરીફ અને મસ્જિદોને બેહુર્મતી (અપમાન)થી બચાવ, મુકદ્દસ મકામાત અને મઝારતે ઔલિયાની હિફાઝત ફરમાવ, અને મુસલમાનોને મસ્લકે અહલે સુન્નત પર સાબિત કદમ રાખ.",
+                "ur": "یا اللہ! مسلمانوں کو اپنی پناہ و حفاظت میں رکھ، قرآن شریف و مساجد کو بے حرمتی سے بچا، مقدس مقامات و مزاراتِ اولیا کی حفاظت فرما اور مسلمانوں کو مسلکِ اہلِ سنت پر ثابت قدم رکھ۔",
+                "ar": "يا الله، احفظ المسلمين في كنفك ورعايتك، وصن القرآن الكريم والمساجد من كل امتهان، واحفظ الأماكن المقدسة ومقامات الأولياء، وثبت المسلمين على منهج أهل السنة.",
+                "sw": "Ya Allah, waweke Waislamu chini ya hifadhi na ulinzi Wako, linda Qur'ani Tukufu na misikiti dhidi ya kuvunjiwa heshima, hifadhi maeneo matakatifu na makaburi ya Mawalii, na waweke Waislamu imara juu ya njia ya Ahl as-Sunnah."
+              },
+              "source_pages": [17],
+              "review_status": "needs_review"
+            }
+          ]
+        },
+        {
+          "id": "death_grave_and_hereafter",
+          "order": 7,
+          "title": {
+            "en": "Good Death, Ease in the Grave & Salvation in the Hereafter",
+            "hi": "ख़ातिमा बिल-ख़ैर, क़ब्र की आसानी और आख़िरत की नजात",
+            "gu": "ખાતિમા બિલ-ખૈર, કબરની આસાની અને આખિરતની નજાત",
+            "ur": "خاتمہ بالخیر، قبر کی آسانی اور آخرت کی نجات",
+            "ar": "حسن الخاتمة والنجاة في القبر والآخرة",
+            "sw": "Mwisho Mwema, Wepesi Kaburini na Wokovu Akhera"
+          },
+          "source_pages": [17, 18, 19, 20],
+          "items": [
+            {
+              "id": "dua_32_good_death_and_grave",
+              "order": 1,
+              "type": "paragraph",
+              "text": {
+                "en": "Ya Allah, grant us safety of Iman. At the time of death, honor us with the blessed vision of the Noble Messenger (sallallahu alayhi wa sallam) and cause the Kalimah Tayyibah to flow upon our tongues. Grant us a good death, an easy death, and martyrdom; protect us from the pangs of death (Sakarat) and the torment of death. May our death occur at an auspicious time and in a blessed place; may our funeral bier be carried on the shoulders of righteous people, and include Your accepted servants in our funeral prayer (Namaz-e-Janaza). Save us from the constriction of the grave and widen our graves; protect us from the darkness of the grave and fill our graves with light. Protect us from the torment of the grave and shower mercy upon our graves. Make the questioning in the grave easy and protect us from the severity of Munkar and Nakir. Grant us the felicity of reciting Durood and Salam at the sight of the Noble Prophet (sallallahu alayhi wa sallam) in the grave. Protect us in the realm of Barzakh from snakes, scorpions, fire, and foul odors, and bestow upon our graves the breeze of Paradise, the fragrance of Firdaws, and the blessings of Heaven.",
+                "hi": "या अल्लाह, ईमान की सलामती दे। मौत के वक़्त रसूल-ए-अकरम के दीदार से मुशर्रफ़ कर और मौत के वक़्त कलमा-ए-तैयब हमारी ज़ुबानों पर जारी फ़रमा। हमें अच्छी मौत दे, आसान मौत दे, शहादत दे। हमें सकरात की तकलीफ़ से बचा और मौत के अज़ाब से महफ़ूज़ रख। हमारी मौत अच्छे वक़्त में, अच्छी जगह पर हो; हमारा जनाज़ा नेक लोगों के कांधों पर रवाना हो और तेरे मक़बूल बंदों को हमारी नमाज़-ए-जनाज़ा में शामिल फ़रमा। हमें क़ब्र की तंगी से बचा, हमारी क़ब्रों को कुशादा कर दे, हमें क़ब्र के अंधेरों से बचा, हमारी क़ब्र में नूर भर दे, हमें क़ब्र के अज़ाब से बचा और हमारी क़ब्र में रहमत बरसा दे। क़ब्र के सवाल-जवाब आसान फ़रमा, मुंकर-नकीर की सख़्तियों से बचा। क़ब्र में रसूल-ए-पाक के दीदार के वक़्त हमें दुरूद व सलाम पढ़ने की सआदत दे। आलम-ए-बरज़ख़ में सांप-बिच्छू, आग व बदबू से महफ़ूज़ फ़रमा, और हमारी क़ब्र में जन्नत की हवा, फ़िरदौस की ख़ुशबू व बहिश्त की नेअमत अता फ़रमा।",
+                "gu": "યા અલ્લાહ, ઈમાનની સલામતી આપ. મૌતના વક્ત રસૂલે અકરમના દીદારથી મુશર્રફ કર. મૌતના વક્ત કલમા-એ-તૈયબ અમારી જબાન પર જારી ફરમાવ. અમને સારી મૌત આપ, આસાન મૌત આપ, શહાદત આપ. અમને સકરાતની તકલીફથી બચાવ અને મૌતના અઝાબથી મહેફૂઝ રાખ. અમારી મૌત સારા વક્તમાં, સારી જગ્યાએ થાય; અમારો જનાઝો નેક લોકોના ખભા પર રવાના થાય, અને તારા મકબૂલ બંદાઓને અમારી નમાઝે જનાઝામાં સામેલ ફરમાવ. અમને કબરની તંગીથી બચાવ, અમારી કબરોને વિશાળ કરી દે, અમને કબરના અંધારાથી બચાવ, અમારી કબરમાં નૂર ભરી દે, અમને કબરના અઝાબથી બચાવ અને અમારી કબરમાં રહમત વરસાવી દે. કબરના સવાલ-જવાબ આસાન ફરમાવ, મુન્કર-નકીરની સખ્તીઓથી બચાવ. કબરમાં રસૂલે પાકના દીદારના સમયે અમને દુરૂદો સલામ પઢવાની સઆદત આપ. આલમે બરઝખમાં સાપ-વીંછી, આગ અને બદબૂથી મહેફૂઝ ફરમાવ, અને અમારી કબરમાં જન્નતની હવા, ફિરદૌસની ખુશ્બુ અને બહિશ્તની નેઅમત અતા ફરમાવ.",
+                "ur": "یا اللہ! ایمان کی سلامتی دے۔ موت کے وقت رسولِ اکرم کے دیدار سے مشرف کر اور موت کے وقت کلمۂ طیبہ ہماری زبانوں پر جاری فرما۔ ہمیں اچھی موت دے، آسان موت دے، شہادت دے۔ ہمیں سکرات کی تکلیف سے بچا اور موت کے عذاب سے محفوظ رکھ۔ ہماری موت اچھے وقت میں، اچھی جگہ پر ہو؛ ہمارا جنازہ نیک لوگوں کے کندھوں پر روانہ ہو اور تیرے مقبول بندوں کو ہماری نمازِ جنازہ میں شامل فرما۔ ہمیں قبر کی تنگی سے بچا، ہماری قبروں کو کشادہ کر دے، ہمیں قبر کے اندھیروں سے بچا، ہماری قبر میں نور بھر دے، ہمیں قبر کے عذاب سے بچا اور ہماری قبر میں رحمت برسا دے۔ قبر کے سوال و جواب آسان فرما، منکر نکیر کی سختیوں سے بچا۔ قبر میں رسولِ پاک کے دیدار کے وقت ہمیں درود و سلام پڑھنے کی سعادت دے۔ عالمِ برزخ میں سانپ بچھو، آگ و بدبو سے محفوظ فرما اور ہماری قبر میں جنت کی ہوا، فردوس کی خوشبو و بہشت کی نعمت عطا فرما۔",
+                "ar": "يا الله، سلم لنا إيماننا، وأكرمنا عند الموت برؤية نبيك الكريم ﷺ، وأجرِ كلمة التوحيد على ألسنتنا. وارزقنا حسن الخاتمة والموت الهين والشهادة، وخفف عنا سكرات الموت، وأعذنا من عذابه. وتوفنا في خير وقت وفي خير مكان، واجعل جنازتنا على أكتاف الصالحين، وأشرك عبادك المقبولين في صلاة جنازتنا. ونجّنا من ضيق القبر ووسع لنا فيه، وأنر قبورنا واملأها بالرحمة، ويسر لنا السؤال، وقِنا شدة منكر ونكير، وأسعدنا بالصلاة والسلام على نبيك عند لقائه، وأعذنا في البرزخ من الهوام والنار، واجعل في قبورنا نسيم الجنة وعبير الفردوس ونعيمها.",
+                "sw": "Ya Allah, tuhifadhie Imani yetu. Wakati wa mauti, tutukuze kwa kumuona Mtume Mtukufu (sallallahu alayhi wa sallam) na ujaalie Kalimah Tayyibah itiririke kwenye ndimi zetu. Tupe mauti mema, mauti mepesi, na shahada; tulinde na maumivu ya sakarati na adhabu ya mauti. Mauti yetu yatokee wakati mwema na mahali pema; jeneza letu libebwe mabegani mwa watu wema, na washirikishe waja Wako wema katika swala yetu ya maiti. Tuokoe na dhiki ya kaburi na lipanue kaburi letu; tulinde na giza la kaburi na lijaze nuru. Tulinde na adhabu ya kaburi na nyunyizia rehema ndani yake. Turahisishie maswali ya kaburini na utulinde na ukali wa Munkar na Nakir. Tupe bahati ya kusoma Durood na Salam tunapomuona Mtume Mtukufu kaburini. Tulinde katika ulimwengu wa Barzakh dhidi ya nyoka, nge, moto na harufu mbaya, na ulete katika makaburi yetu upepo wa Pepo, harufu nzuri ya Firdaws na neema za Peponi."
+              },
+              "source_pages": [17, 18],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_33_resurrection_and_paradise",
+              "order": 2,
+              "type": "paragraph",
+              "text": {
+                "en": "Ya Allah, after Resurrection raise us from our graves with honor. Keep our faces shining bright, and do not put us to shame before the gathering on the Day of Judgment. Save us from the torment of the Plain of Resurrection (Mahshar). Gather us in the company of the friends of Allah (Waliullah), and keep the shade of our spiritual guide (Pir) over our heads. Place our record of deeds in our right hands, make the pan of our good deeds heavy on the Scale (Mizan), and grant us ease in crossing the Bridge of Sirat. We are not worthy of strict reckoning; therefore, for the sake of Your Beloved (sallallahu alayhi wa sallam), grant us Paradise without reckoning and keep us far away from Hellfire. Grant us the intercession of Your Beloved, give us to drink from the cup of Kawthar by the blessed hands of the Master of Kawthar (sallallahu alayhi wa sallam), honor us with Your Vision in Paradise, grant us closeness and vision of the Noble Messenger (sallallahu alayhi wa sallam), and make us neighbors of the noble Awliya.",
+                "hi": "या अल्लाह, क़यामत के बाद हमें हमारी क़ब्र से इज़्ज़त के साथ उठा। हमारे चेहरे चमकते रख। हमें अहले-महशर के सामने शर्मिंदा न कर। मैदान-ए-हश्र के अज़ाब से बचा। हमारा हश्र वलीउल्लाह के साथ कर। हमारे सिर पर पीर का साया रख। हमारा नामा-ए-आमाल सीधे हाथ में रख। मीज़ान पर हमारी नेकियों के पल्ले को भारी कर दे। पुलसिरात से गुज़रने में आसानी अता फ़रमा। हम हिसाब-किताब के क़ाबिल नहीं हैं, लिहाज़ा तेरे महबूब के सदक़े में बग़ैर हिसाब-किताब हमें जन्नत अता फ़रमा। दोज़ख़ से हमें दूर ही रख। तेरे हबीब की शफ़ाअत हमें अता फ़रमा। हुज़ूर साक़ी-ए-कौसर के हाथों से जाम-ए-कौसर पिला। जन्नत में तेरे दीदार से मुशर्रफ़ फ़रमा। रसूल-ए-आज़म की ज़ियारत व क़ुर्बत अता फ़रमा और औलिया-ए-किرام का पड़ोसी बना।",
+                "gu": "યા અલ્લાહ, કયામત પછી અમને અમારી કબરમાંથી ઇઝ્ઝત સાથે ઉઠાવ. અમારા ચહેરા ચમકતા રાખ. અમને અહલે-મહશરની સામે શરમિંદા ન કર. મૈદાને હશ્રના અઝાબથી બચાવ. અમારો હશ્ર વલીઉલ્લાહ સાથે કર. અમારા માથા પર પીરનો સાયો રાખ. અમારો નામા-એ-આમાલ જમણા હાથમાં રાખ. મીઝાન પર અમારી નેકીઓનું પલ્લું ભારે કરી દે. પુલસિરાત પરથી પસાર થવામાં આસાની અતા ફરમાવ. અમે હિસાબ-કિતાબના કાબિલ નથી, તેથી તારા મહેબૂબના સદકામાં હિસાબ-કિતાબ વગર અમને જન્નત અતા ફરમાવ. દોઝખથી અમને દૂર જ રાખ. તારા હબીબની શફાઅત અમને અતા ફરમાવ. હુઝૂર સાકી-એ-કૌસરના હાથે જામે કૌસર પીવડાવ. જન્નતમાં તારા દીદારથી મુશર્રફ ફરમાવ. રસૂલે આઝમની ઝિયારત અને કુરબત અતા ફરમાવ અને ઔલિયા-એ-કિરામના પડોશી બનાવ.",
+                "ur": "یا اللہ! قیامت کے بعد ہمیں ہماری قبر سے عزت کے ساتھ اٹھا۔ ہمارے چہرے چمکتے رکھ۔ ہمیں اہلِ محشر کے سامنے شرمندہ نہ کر۔ میدانِ حشر کے عذاب سے بچا۔ ہمارا حشر ولی اللہ کے ساتھ کر۔ ہمارے سر پر پیر کا سایہ رکھ۔ ہمارا نامۂ اعمال سیدھے ہاتھ میں رکھ۔ میزان پر ہماری نیکیوں کے پلڑے کو بھاری کر دے۔ پل صراط سے گزرنے میں آسانی عطا فرما۔ ہم حساب کتاب کے قابل نہیں ہیں، لہٰذا تیرے محبوب کے صدقے میں بغیر حساب کتاب ہمیں جنت عطا فرما۔ دوزخ سے ہمیں دور ہی رکھ۔ تیرے حبیب کی شفاعت ہمیں عطا فرما۔ حضور ساقیِ کوثر کے ہاتھوں سے جامِ کوثر پلا۔ جنت میں اپنے دیدار سے مشرف فرما۔ رسولِ اعظم کی زیارت و قربت عطا فرما اور اولیائے کرام کا پڑوسی بنا۔",
+                "ar": "يا الله، ابعثنا بعد القيامة من قبورنا بعز وكرامة، وبيّض وجوهنا ولا تفضحنا أمام أهل المحشر، ونجّنا من أهوال يوم الحشر، واحشرنا مع أوليائك، وأدم علينا رعاية مشايخنا، وأعطنا كتبنا بأيماننا، وثقل موازين حسناتنا، ويسر مرورنا على الصراط. لسنا أهلاً لمحاسبتك، فأدخلنا الجنة بغير حساب بجاه حبيبك ﷺ، وأبعدنا عن النار، وارزقنا شفاعة نبيك، واسقنا من يده الشريفة شربةً من حوض الكوثر، وأكرمنا بالنظر إلى وجهك الكريم في الجنة، وارزقنا قرب رسولك الأعظم ﷺ وجوار الأولياء الكرام.",
+                "sw": "Ya Allah, baada ya Kiyama tufufue kutoka makaburini mwetu kwa heshima. Zifanye nyuso zetu zing'ae, na usitutie aibu mbele ya watu wa uwanja wa Mahshar. Tuokoe na adhabu ya Mahshar. Tufufue pamoja na Mawalii wa Mwenyezi Mungu, na uweke kivuli cha sheikh wetu juu ya vichwa vyetu. Tupe daftari letu la matendo katika mkono wa kulia, fanya mizani ya mema yetu iwe nzito, na utupe urahisi wa kuvuka daraja la Sirat. Hatustahiki hesabu Yako kali, kwa hivyo kwa heshima ya Kipenzi Chako tuingize Peponi bila hesabu na utuweke mbali na Moto wa Jahannam. Tupe uombezi wa Kipenzi Chako, tunyweshe kikombe cha Kawthar kutoka mikono ya Mtume, tutukuze kwa kukuona Peponi, tupe ukaribu na Mtume Mtukufu na utufanye majirani wa Mawalii watukufu."
+              },
+              "source_pages": [19, 20],
+              "review_status": "needs_review"
+            }
+          ]
+        },
+        {
+          "id": "acceptance_deceased_and_urs_gathering",
+          "order": 8,
+          "title": {
+            "en": "Acceptance of Dua, Prayer for the Deceased & Urs Gathering",
+            "hi": "दुआ की क़ुबूलियत, मरहूमीन की मग़फ़िरत और उर्स की हाज़िरी",
+            "gu": "દુઆની કબૂલિયત, મરહૂમોની મગફિરત અને ઉર્સની હાજરી",
+            "ur": "قبولیتِ دعا، مرحومین کی مغفرت اور عرس کی حاضری",
+            "ar": "قبول الدعاء والمغفرة للأموات وحضرة العرس",
+            "sw": "Kukubaliwa kwa Dua, Msamaha kwa Marehemu na Hafla ya Urs"
+          },
+          "source_pages": [20, 21],
+          "items": [
+            {
+              "id": "dua_34_acceptance_through_wasilah",
+              "order": 1,
+              "type": "paragraph",
+              "text": {
+                "en": "Ya Allah, for the sake of the Messenger of the Universe (sallallahu alayhi wa sallam), through the grace of the Panjatan Pak and the noble Companions, and by the Wasilah of the elders of Deen and the noble Awliya, accept our supplications. Grant us the ability, etiquette, and understanding to supplicate. O Allah, accept our supplications in favor of those who have requested us to pray for them.",
+                "hi": "या अल्लाह, रसूल-ए-कायनात के सदक़े में, पंजतन पाक व सहाबा-ए-किराम के तुफ़ैल, बुज़ुर्गान-ए-दीन व औलिया-ए-किराम के वसीले से हमारी दुआएं क़ुबूल फ़रमा। हमें दुआ मांगने की तौफ़ीक़, तमीज़ और समझ दे। ऐ अल्लाह, जिन लोगों ने हमें दुआ की दरख़्वास्त की है, उनके हक़ में हमारी दुआ क़ुबूल फ़रमा।",
+                "gu": "યા અલ્લાહ, રસૂલે કાયનાતના સદકામાં, પંજતન પાક અને સહાબા-એ-કિરામના તુફૈલ, બુઝુર્ગાને દીન અને અવલિયા-એ-કિરામના વસીલેથી અમારી દુઆઓ કબૂલ ફરમાવ. અમને દુઆ માંગવાની તૌફીક, તમીઝ અને સમજ આપ. અય અલ્લાહ, જે લોકોએ અમને દુઆની દરખાસ્ત કરી છે તેમના હકમાં અમારી દુઆ કબૂલ ફરમાવ.",
+                "ur": "یا اللہ! رسولِ کائنات کے صدقے میں، پنجتن پاک و صحابۂ کرام کے طفیل، بزرگانِ دین و اولیائے کرام کے وسیلے سے ہماری دعائیں قبول فرما۔ ہمیں دعا مانگنے کی توفیق، تمیز اور سمجھ دے۔ اے اللہ! جن لوگوں نے ہمیں دعا کی درخواست کی ہے ان کے حق میں ہماری دعا قبول فرما۔",
+                "ar": "يا الله، بجاه سيد الكائنات ﷺ، وببركة أهل الكساء والصحابة الكرام، وبوسيلة الصالحين والأولياء الكرام، تقبل دعاءنا، وارزقنا التوفيق والأدب والفهم في الدعاء. اللهم وتقبل دعاءنا في حق كل من طلب منا الدعاء.",
+                "sw": "Ya Allah, kwa heshima ya Mtume wa Ulimwengu, kwa baraka za Panjatan Pak na Maswahaba watukufu, na kwa Wasilah wa wacha Mungu na Mawalii watukufu, kubali dua zetu. Tupe uwezo, adabu na ufahamu wa kuomba dua. Ee Mwenyezi Mungu, kubali dua zetu kwa niaba ya wale waliotuomba tuwaombee."
+              },
+              "source_pages": [20],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_35_forgiveness_for_muslims_and_elders",
+              "order": 2,
+              "type": "paragraph",
+              "text": {
+                "en": "Ya Allah, forgive all Muslim men and women and all our deceased relatives, and grant lofty ranks in Jannatul-Firdaws to our late parents, grandparents, and teachers.",
+                "hi": "या अल्लाह, तमाम मुसलमान मर्द और औरतों की और तमाम मरहूम रिश्तेदारों की मग़फ़िरत फ़रमा, और हमारे मरहूम मां-बाप, बाप-दादा व उस्तादों को जन्नतुल फ़िरदौस में बुलंद मर्तबे अता फ़रमा।",
+                "gu": "યા અલ્લાહ, તમામ મુસલમાન મર્દ અને ઓરતોની તથા તમામ મરહૂમ સગાં-સંબંધીઓની મગફિરત ફરમાવ, અને અમારા મરહૂમ મા-બાપ, બાપ-દાદા અને ઉસ્તાદોને જન્નતુલ ફિરદૌસમાં બુલંદ મર્તબા અતા ફરમાવ.",
+                "ur": "یا اللہ! تمام مسلمان مرد و عورتوں کی اور تمام مرحوم رشتہ داروں کی مغفرت فرما، اور ہمارے مرحوم ماں باپ، باپ دادا و اساتذہ کو جنت الفردوس میں بلند مرتبے عطا فرما۔",
+                "ar": "يا الله، اغفر لجميع المسلمين والمسلمات وسائر أقاربنا المتوفين، وارفع درجات آبائنا وأمهاتنا وأجدادنا وأساتذتنا الراحلين في جنة الفردوس.",
+                "sw": "Ya Allah, wasamehe Waislamu wote wanaume na wanawake na ndugu zetu wote waliotangulia mbele ya haki, na uwape daraja za juu katika Jannatul-Firdaws wazazi wetu, mababu na walimu wetu waliokufa."
+              },
+              "source_pages": [20],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_36_publishers_distributors_readers",
+              "order": 3,
+              "type": "paragraph",
+              "text": {
+                "en": "O Allah, grant the blessings and goodness of religion and this world to all those who printed this book, had it printed, distributed it, and read it; forgive the sins of all their deceased relatives and grant them salvation.",
+                "hi": "ऐ अल्लाह, इस किताब को छापने वाले, छपवाने वाले, बांटने वाले और पढ़ने वाले तमाम को दीन-दुनिया की नेअमतें व भलाइयां अता फ़रमा, और उनके तमाम मरहूम रिश्तेदारों के गुनाह माफ़ फ़रमाकर उनकी नजात फ़रमा।",
+                "gu": "અય અલ્લાહ, આ કિતાબને છાપનારા, છપાવનારા, વહેંચનારા અને પઢનારા તમામ લોકોને દીન અને દુનિયાની નેઅમતો તથા ભલાઈઓ અતા ફરમાવ, અને તેમના તમામ મરહૂમ સગાં-સંબંધીઓના ગુનાહ માફ ફરમાવી તેમની નજાત ફરમાવ.",
+                "ur": "اے اللہ! اس کتاب کو چھاپنے والے، چھپوانے والے، بانٹنے والے اور پڑھنے والے تمام لوگوں کو دین و دنیا کی نعمتیں و بھلائیاں عطا فرما، اور ان کے تمام مرحوم رشتہ داروں کے گناہ معاف فرما کر ان کی نجات فرما۔",
+                "ar": "اللهم ارزق كل من طبع هذا الكتاب أو سعى في طباعته أو توزيعه أو قرأه خيرات الدنيا والدين ونعمهما، واغفر لجميع أقاربهم المتوفين وأعتقهم ونجّهم.",
+                "sw": "Ee Mwenyezi Mungu, wape neema na kheri za dini na dunia wote waliochapisha kitabu hiki, waliowezesha kuchapishwa kwake, waliokigawa na wanaokisoma; wasamehe dhambi jamaa zao wote waliokufa na uwape wokovu."
+              },
+              "source_pages": [20, 21],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_37_urs_sandal_gathering",
+              "order": 4,
+              "type": "paragraph",
+              "text": {
+                "en": "O Mawla, where are we worthy enough to become Your beloved? Yet today, by Your bounty, we have presented ourselves at the sacred shrine (Astana-e-Pak) on the occasion of Urs and Sandal in the court of the beloved of Your Beloved—at this place, surely the rain of Your mercy pours down.",
+                "hi": "ऐ मौला, हम तो उस लायक़ कहां कि तेरे महबूब बन जाएं। मगर आज तेरी अता से हम तेरे महबूब के महबूब की बारगाह में उर्स-संदल के मौक़े पर आस्ताना-ए-पाक में हाज़िर हुए हैं; इस जगह पर यक़ीनन तेरी रहमत की बारिश बरसती है।",
+                "gu": "અય મૌલા, અમે તો એ લાયક ક્યાં કે તારા મહેબૂબ બની જઈએ. પરંતુ આજે તારી અતાથી અમે તારા મહેબૂબના મહેબૂબની બારગાહમાં ઉર્સ-સંદલના અવસરે આસ્તાના-એ-પાકમાં હાજર થયા છીએ; આ જગ્યા પર યકીનન તારી રહમતનો વરસાદ વરસે છે.",
+                "ur": "اے مولا! ہم تو اس لائق کہاں کہ تیرے محبوب بن جائیں۔ مگر آج تیری عطا سے ہم تیرے محبوب کے محبوب کی بارگاہ میں عرس و صندل کے موقع پر آستانۂ پاک میں حاضر ہوئے ہیں؛ اس جگہ پر یقیناً تیری رحمت کی بارش برستی ہے۔",
+                "ar": "يا مولانا، أنى لنا أن نكون أهلاً لنيل محبتك، ولكننا بفضلك وعطائك قد حضرنا اليوم في هذه الحضرة المباركة بمناسبة العرس والصندل عند مقام ولي من أوليائك المحبوبين لدى حبيبك ﷺ، وفي هذا الموضع تتنزل أمطار رحمتك بلا ريب.",
+                "sw": "Ee Mola wetu, sisi hatustahiki kuwa vipenzi Vyako. Lakini leo kwa fadhila Yako tumehudhuria katika hadhara ya kipenzi wa Kipenzi Chako katika tukio la Urs na Sandal kwenye makao matakatifu; mahali hapa hakika mvua ya rehema Yako hunyesha."
+              },
+              "source_pages": [21],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_38_shower_drops_of_mercy",
+              "order": 5,
+              "type": "paragraph",
+              "text": {
+                "en": "O Mawla, shower a few drops of mercy upon us as well; O Mawla, fulfill our needs through their Wasilah.",
+                "hi": "ऐ मौला, कुछ रहमत के क़तरात हम पर भी बरसा दे; मौला उनके वसीले से हमारी हाजतों को पूरा फ़रमा।",
+                "gu": "અય મૌલા, થોડાં રહમતના ટીપાં અમારા પર પણ વરસાવી દે; મૌલા, તેમના વસીલેથી અમારી હાજતોને પૂરી ફરમાવ.",
+                "ur": "اے مولا! کچھ رحمت کے قطرات ہم پر بھی برسا دے؛ مولا ان کے وسیلے سے ہماری حاجتوں کو پورا فرما۔",
+                "ar": "يا مولانا، أمطر علينا أيضاً قطرات من رحمتك، واقضِ حوائجنا بتوسلنا بهم.",
+                "sw": "Ee Mola wetu, tunyunyizie matone ya rehema Yako nasi pia; Ee Mola, timiza haja zetu kupitia Wasilah wao."
+              },
+              "source_pages": [21],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "dua_39_address_to_the_wali",
+              "order": 6,
+              "type": "paragraph",
+              "text": {
+                "en": "O friend (Wali) of Allah, today we have presented ourselves at your court. Kindly accept our attendance, salutations, devotion, and love; grant us a noble reward for coming here, and supplicate for us in the court of Almighty Allah.",
+                "hi": "ऐ अल्लाह के वली, आज हम आपकी बारगाह में हाज़िर हुए हैं। बराह-ए-करम हमारी हाज़िरी, सलामी, अक़ीदत और मुहब्बतों को क़ुबूल फ़रमाइए, यहां आने का नेक सिला अता फ़रमाइए और बारगाह-ए-ख़ुदावंदी में हमारे लिए दुआ फ़रमाइए।",
+                "gu": "અય અલ્લાહના વલી, આજે અમે આપની બારગાહમાં હાજર થયા છીએ. મહેરબાની કરીને અમારી હાજરી, સલામી, અકીદત અને મુહબ્બતોને કબૂલ ફરમાવજો, અહીં આવવાનો નેક બદલો અતા ફરમાવજો અને બારગાહે ખુદાવંદીમાં અમારા માટે દુઆ ફરમાવજો.",
+                "ur": "اے اللہ کے ولی! آج ہم آپ کی بارگاہ میں حاضر ہوئے ہیں۔ براہِ کرم ہماری حاضری، سلامی، عقیدت اور محبتوں کو قبول فرمائیے، یہاں آنے کا نیک صلہ عطا فرمائیے اور بارگاہِ خداوندی میں ہمارے لیے دعا فرمائیے۔",
+                "ar": "يا ولي الله، قد حضرنا اليوم في حضرتك، فتفضل بقبول حضورنا وسلامنا وإخلاصنا ومحبتنا، واجزنا خيراً على قدومنا، وادعُ الله تعالى لنا في حضرته القدسية.",
+                "sw": "Ee Walii wa Mwenyezi Mungu, leo tumehudhuria katika hadhara yako. Kwa fadhila yako kubali mahudhurio yetu, salamu zetu, imani na mapenzi yetu; tupe malipo mema kwa kuja hapa na utuombee dua mbele ya Mwenyezi Mungu."
+              },
+              "source_pages": [21],
+              "review_status": "needs_review"
+            }
+          ]
+        },
+        {
+          "id": "dua_at_the_end_personal_need",
+          "order": 9,
+          "title": {
+            "en": "At the End of Dua (Personal Supplication)",
+            "hi": "दुआ के आख़िर में",
+            "gu": "દુઆના અંતમાં (દુઆ કે આખીર મેં)",
+            "ur": "دعا کے آخر میں",
+            "ar": "في ختام الدعاء (لحاجات المرء)",
+            "sw": "Mwishoni mwa Dua (Kuomba Haja Binafsi)"
+          },
+          "source_pages": [22],
+          "items": [
+            {
+              "id": "dua_40_end_of_dua_personal_need",
+              "order": 1,
+              "type": "paragraph",
+              "text": {
+                "en": "O Allah, today my physical or spiritual affliction—(namely, mention whichever hardship or trouble you have: ...)—is this. By Your grace and generosity, remove it forever, and fulfill whatever needs I have.",
+                "hi": "ऐ अल्लाह, आज मेरी जिस्मानी-रूहानी (यानी जो तकलीफ़ या परेशानी है उसका नाम लें: ...) यह है। तू उसे अपने फ़ज़्ल व करम से हमेशा के लिए दूर कर दे, और जो हाजतें हैं उसे पूरा फ़रमा दे।",
+                "gu": "અય અલ્લાહ, આજે મારી જિસ્માની-રૂહાની (એટલે કે જે તકલીફ-પરેશાની હોય તેનું નામ લો: ...) આ છે. તું તેને તારા ફઝલો કરમથી હંમેશા માટે દૂર કરી દે, અને જે હાજતો છે તેને પૂરી ફરમાવી દે.",
+                "ur": "اے اللہ! آج میری جسمانی و روحانی (یعنی جو تکلیف و پریشانی ہے اس کا نام لیں: ...) یہ ہے۔ تو اسے اپنے فضل و کرم سے ہمیشہ کے لیے دور کر دے، اور جو حاجتیں ہیں انہیں پورا فرما دے۔",
+                "ar": "اللهم إن معاناتي الجسدية أو الروحية اليوم — (اذكر هنا ما تعانيه من ضيق أو كرب: ...) — هي هذه، فأزلها عني بفضلك وكرمك إلى الأبد، واقضِ جميع حوائجي.",
+                "sw": "Ee Mwenyezi Mungu, leo tatizo langu la kimwili au kiroho — (yaani taja dhiki au shida uliyonayo: ...) — ni hili. Liondoe milele kwa fadhila na ukarimu Wako, na timiza haja zote nilizo nazo."
+              },
+              "source_pages": [22],
+              "review_status": "needs_review"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "khatm_e_quran_dua_and_concluding_recitations",
+      "order": 4,
+      "title": {
+        "en": "Khatm-e-Quran Dua & Concluding Recitations",
+        "hi": "ख़त्म-ए-क़ुरआन की दुआ और ख़ातिमे के अज़कार",
+        "gu": "ખત્મે કુર્આનની દુઆ અને સમાપનના અઝકાર",
+        "ur": "دعائے ختمِ قرآن اور اختتامی اذکار",
+        "ar": "دعاء ختم القرآن والأذكار الختامية",
+        "sw": "Dua ya Kuhitimisha Qur'ani na Nyiradi za Mwisho"
+      },
+      "description": {
+        "en": "Supplication upon completing the Holy Quran, personal prayer guidance, and concluding verses and Durood.",
+        "hi": "क़ुरआन शरीफ़ मुकम्मल होने के बाद की दुआ, व्यक्तिगत दुआ का निर्देश और ख़ातिमे की आयतें व दुरूद।",
+        "gu": "કુર્આન શરીફ પૂર્ણ થયા પછીની દુઆ, અંગત દુઆનું માર્ગદર્શન અને સમાપનની આયતો તથા દુરૂદ.",
+        "ur": "تکمیلِ قرآن کے بعد کی دعا، ذاتی دعا کی رہنمائی اور اختتامی آیات و درود۔",
+        "ar": "دعاء ختم القرآن الكريم وتوجيه الدعاء الشخصي والآيات الختامية والصلاة على النبي ﷺ.",
+        "sw": "Dua baada ya kuhitimisha Qur'ani Tukufu, mwongozo wa dua binafsi, na aya za mwisho na Durood."
+      },
+      "source_pages": [23, 24, 25, 26],
+      "sections": [
+        {
+          "id": "khatm_e_quran_dua",
+          "order": 1,
+          "title": {
+            "en": "Supplication on Completion of the Quran (Khatm-e-Quran)",
+            "hi": "ख़त्म-ए-क़ुरआन के मौक़े की दुआ",
+            "gu": "ખત્મે કુર્આનના પ્રસંગે કરવાની દુઆ",
+            "ur": "ختمِ قرآن کے موقع کی دعا",
+            "ar": "دعاء ختم القرآن الكريم",
+            "sw": "Dua ya Kuhitimisha Qur'ani (Khatm-e-Quran)"
+          },
+          "source_pages": [23, 24, 25],
+          "items": [
+            {
+              "id": "khatm_e_quran_instruction",
+              "order": 1,
+              "type": "instruction",
+              "text": {
+                "en": "Make this supplication on the occasion of completing the Quran (Khatm-e-Quran):",
+                "hi": "ख़त्म-ए-क़ुरआन के मौक़े पर यह दुआ करें:",
+                "gu": "ખત્મે કુર્આનના મૌકા પર આ દુઆ કરો:",
+                "ur": "ختمِ قرآن کے موقع پر یہ دعا کریں:",
+                "ar": "يُقرأ هذا الدعاء عند ختم القرآن الكريم:",
+                "sw": "Omba dua hii wakati wa kuhitimisha Qur'ani Tukufu:"
+              },
+              "source_pages": [23],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "khatm_e_quran_dua_body",
+              "order": 2,
+              "type": "paragraph",
+              "text": {
+                "en": "O Allah, by Your grace and generosity we have completed this Noble Quran. O Allah, whatever mistakes and shortcomings may have occurred from us while reciting this Noble Quran, forgive them and grant us the ability to recite it properly in the future, for we could never fulfill the honor, majesty, and due right of the Noble Quran. Only Your beloved Prophet (sallallahu alayhi wa sallam) fulfilled the right of reciting the Noble Quran. O Mawla, we too are members of that very Prophet's Ummah; therefore, for his sake, accept this recitation of the Quran from us. O Mawla, convey the reward of reciting this Noble Quran to the Noble Messenger (sallallahu alayhi wa sallam), and through his Wasilah to his family and descendants, his pure wives (Azwaj-e-Mutahharat), the noble Companions (radiyallahu ta'ala anhum), the Tabi'in, the Taba' Tabi'in, the noble martyrs (Shuhada-e-Kiram), the noble Awliya, and the souls of all believing men and women. Through Your forgiveness and bounty, forgive them, illuminate their graves with light, grant them lofty ranks in Jannatul-Firdaws and Jannatun-Na'im, bless them, all of us, and the entire Muslim Ummah with Your complete mercy, and forgive all our deceased relatives.",
+                "hi": "ऐ अल्लाह, इस क़ुरआन-ए-करीम को हमने तेरे फ़ज़्ल व करम से ख़त्म किया है। ऐ अल्लाह, इस क़ुरआन-ए-करीम को पढ़ने में हमसे जो भी ग़लतियां और कोताहियां हुई हों तो तू उसे मुआफ़ फ़रमा और आइंदा हमें सही तिलावत करने की तौफ़ीक़ अता फ़रमा, क्योंकि क़ुरआन-ए-करीम की जो शान व अज़मत और जो हक़ है वह हमसे अदा न हो सका। क़ुरआन-ए-करीम की तिलावत का हक़ तो सिर्फ़ तेरे प्यारे नबी सल्लल्लाहु अलैहि वसल्लम ने अदा किया है। मौला, हम भी उसी नबी के उम्मती हैं, लिहाज़ा आप के तुफ़ैल हमारे इस क़ुरआन पढ़ने को क़ुबूल फ़रमा। मौला, इस क़ुरआन-ए-करीम के पढ़ने का सवाब हज़रत रसूल-ए-करीम सल्लल्लाहु अलैहि वसल्लम को और उनके वसीले से आप सल्लल्लाहु अलैहि वसल्लम की आल व औलाद, अज़वाज-ए-मुतह्हरात, सहाबा-ए-किराम रदियल्लाहु तआला अन्हुम, ताबेईन, तबे-ताबेईन, शोहदा-ए-किराम, औलिया-ए-किराम को और जुमला मोमिनीन व मोमिनात की रूहों को पहुंचे। और तेरी बख़्शिश व इनायत से उनकी मग़फ़िरत फ़रमा, उनकी क़ब्र को नूर से मुनव्वर फ़रमा, जन्नतुल फ़िरदौस व नईम के बड़े ऊंचे दरजे अता फ़रमा, और उनको, हम तमाम को और कुल उम्मत-ए-मुस्लिमा को अपनी रहमत-ए-कामिला से नवाज़ और हमारे तमाम मरहूमीन रिश्तेदारों की मग़फ़िरत फ़रमा।",
+                "gu": "અય અલ્લાહ, આ કુર્આને કરીમને અમે તારા ફઝલો કરમથી ખત્મ કર્યું છે. અય અલ્લાહ, આ કુર્આને કરીમને પઢવામાં અમારાથી જે પણ ભૂલો અને ખામીઓ થઈ હોય તો તું તેને માફ ફરમાવ અને ભવિષ્યમાં અમને સાચી તિલાવત કરવાની તૌફીક અતા ફરમાવ, કેમ કે કુર્આને કરીમની જે શાન અને અઝમત અને જે હક છે તે અમારાથી અદા ન થઈ શક્યો. કુર્આને કરીમની તિલાવતનો હક તો ફક્ત તારા પ્યારા નબી સલ્લલ્લાહો અલયહી વસલ્લમે અદા કર્યો છે. મૌલા, અમે પણ એ જ નબીના ઉમ્મતી છીએ, તેથી આપના તુફૈલ અમારા આ કુર્આન પઢવાને કબૂલ ફરમાવ. મૌલા, આ કુર્આને કરીમ પઢવાનો સવાબ હઝરત રસૂલે કરીમ સલ્લલ્લાહો અલયહી વસલ્લમને અને તેમના વસીલેથી આપ સલ્લલ્લાહો અલયહી વસલ્લમની આલ અને ઔલાદ, અઝવાજે મુતહેરાત, સહાબા-એ-કિરામ રદિયલ્લાહુ તઆલા અન્હુમ, તાબેઈન, તબે-તાબેઈન, શોહદા-એ-કિરામ, ઔલિયા-એ-ઇકરામને અને સર્વ મુઅમેનીન અને મુઅમેનાતની રૂહોને પહોંચે. અને તારી બખ્શિશ અને ઇનાયતથી તેમની મગફિરત ફરમાવ, તેમની કબરને નૂરથી મુનવ્વર ફરમાવ અને જન્નતુલ ફિરદૌસ અને નઈમના મોટા ઊંચા દરજ્જા અતા ફરમાવ, અને તેમને, અમને તમામને અને સમગ્ર ઉમ્મતે મુસ્લેમાને તારી રહમતે કામિલાથી નવાઝ અને અમારા તમામ મરહૂમ સગાં-સંબંધીઓની મગફિરત ફરમાવ.",
+                "ur": "اے اللہ! اس قرآنِ کریم کو ہم نے تیرے فضل و کرم سے ختم کیا ہے۔ اے اللہ! اس قرآنِ کریم کو پڑھنے میں ہم سے جو بھی غلطیاں اور کوتاہیاں ہوئی ہوں تو تو انہیں معاف فرما اور آئندہ ہمیں صحیح تلاوت کرنے کی توفیق عطا فرما، کیونکہ قرآنِ کریم کی جو شان و عظمت اور جو حق ہے وہ ہم سے ادا نہ ہو سکا۔ قرآنِ کریم کی تلاوت کا حق تو صرف تیرے پیارے نبی صلی اللہ علیہ وسلم نے ادا کیا ہے۔ مولا، ہم بھی اسی نبی کے امتی ہیں، لہٰذا آپ کے طفیل ہمارے اس قرآن پڑھنے کو قبول فرما۔ مولا، اس قرآنِ کریم کے پڑھنے کا ثواب حضرت رسولِ کریم صلی اللہ علیہ وسلم کو اور ان کے وسیلے سے آپ صلی اللہ علیہ وسلم کی آل و اولاد، ازواجِ مطہرات، صحابۂ کرام رضی اللہ تعالیٰ عنہم، تابعین، تبع تابعین، شہدائے کرام، اولیائے کرام کو اور جملہ مومنین و مومنات کی روحوں کو پہنچے۔ اور تیری بخشش و عنایت سے ان کی مغفرت فرما، ان کی قبر کو نور سے منور فرما، جنت الفردوس و نعیم کے بڑے اونچے درجے عطا فرما، اور ان کو، ہم تمام کو اور کل امتِ مسلمہ کو اپنی رحمتِ کاملہ سے نواز اور ہمارے تمام مرحومین رشتہ داروں کی مغفرت فرما۔",
+                "ar": "اللهم إنا قد ختمنا هذا القرآن الكريم بفضلك وكرمك، فاغفر لنا ما وقع منا في تلاوته من أخطاء وتقصير، ووفقنا مستقبلاً لحسن تلاوته؛ فإننا لم نؤدِّ حق القرآن وعظمته كما ينبغي، وإنما أدّى حق تلاوته نبيك الحبيب ﷺ. يا مولانا، ونحن من أمته ﷺ، فتقبل منا هذه القراءة بجاهه. يا مولانا، أوصل ثواب تلاوة هذا القرآن الكريم إلى سيدنا رسول الله ﷺ، وبوسيلته إلى آله وذريته وأزواجه الطاهرات، وأصحابه الكرام رضي الله عنهم، والتابعين وتابعي التابعين، والشهداء والأولياء الكرام، وسائر أرواح المؤمنين والمؤمنات، واغفر لهم بفضلك، ونوّر قبورهم، وارفع درجاتهم في جنة الفردوس والنعيم، وعمّهم وعمّنا وسائر الأمة الإسلامية برحمتك التامة، واغفر لجميع أقاربنا الراحلين.",
+                "sw": "Ee Mwenyezi Mungu, kwa fadhila na ukarimu Wako tumehitimisha Qur'ani hii Tukufu. Ee Mwenyezi Mungu, makosa na mapungufu yote yaliyotokea kutoka kwetu katika kuisoma Qur'ani hii Tukufu yasamehe, na utujalie uwezo wa kuisoma kwa usahihi siku zijazo, kwani hatukuweza kutekeleza utukufu, heshima na haki ya Qur'ani Tukufu. Haki ya kusoma Qur'ani Tukufu ilitekelezwa tu na Mtume Wako kipenzi (sallallahu alayhi wa sallam). Ee Mola, sisi pia ni waumini wa Umma wa Mtume huyo; hivyo kwa heshima yake kubali kisomo chetu hiki cha Qur'ani. Ee Mola, fikisha thawabu za kisomo hiki kwa Mtume Mtukufu (sallallahu alayhi wa sallam), na kupitia Wasilah wake kwa familia yake na kizazi chake, wake zake watakasifu, Maswahaba watukufu (radhiyallahu ta'ala anhum), Tabi'in, Taba' Tabi'in, mashahidi watukufu, Mawalii watukufu, na roho za waumini wote wanaume na wanawake. Kwa msamaha na fadhila Yako wasamehe, angaza makaburi yao kwa nuru, wape daraja za juu katika Jannatul-Firdaws na Na'im, utubariki wao, sisi sote na Umma wote wa Kiislamu kwa rehema Yako kamili, na uwasamehe jamaa zetu wote waliokufa."
+              },
+              "source_pages": [23, 24],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "khatm_e_quran_ameen",
+              "order": 3,
+              "type": "paragraph",
+              "text": {
+                "en": "Ameen.",
+                "hi": "आमीन।",
+                "gu": "આમીન.",
+                "ur": "آمین۔",
+                "ar": "آمين.",
+                "sw": "Amina."
+              },
+              "source_pages": [24],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "khatm_e_quran_note",
+              "order": 4,
+              "type": "note",
+              "text": {
+                "en": "Note: After the above supplication, each person may make whichever personal Dua they wish according to their own need—for example: 'O Allah, by the blessing of this Noble Quran, make my ... matter easy.'",
+                "hi": "नोट: ऊपर वाली दुआ के बाद हर शख़्स अपने ऐतबार से जो दुआ करना चाहे वह दुआ करे। जैसे: ऐ अल्लाह, इस क़ुरआन-ए-करीम की बरकत से मेरे फ़ुलां ... काम को आसान फ़रमा दे।",
+                "gu": "નોંધ: ઉપરની દુઆ પછી દરેક વ્યક્તિ પોતાના મુજબ જે દુઆ કરવા ઈચ્છે તે દુઆ કરે. જેમ કે: અય અલ્લાહ, આ કુર્આને કરીમની બરકતથી મારા ફલાણા ... કામને આસાન ફરમાવી દે.",
+                "ur": "نوٹ: اوپر والی دعا کے بعد ہر شخص اپنے اعتبار سے جو دعا کرنا چاہے وہ دعا کرے۔ جیسے: اے اللہ! اس قرآنِ کریم کی برکت سے میرے فلاں ... کام کو آسان فرما دے۔",
+                "ar": "ملاحظة: بعد الدعاء المذكور أعلاه، يدعو كل إنسان بما يشاء من حاجاته الخاصة، مثل: اللهم ببركة هذا القرآن الكريم يسّر لي أمري الفلاني ...",
+                "sw": "Kumbuka: Baada ya dua iliyo hapo juu, kila mtu anaweza kuomba dua yoyote anayotaka kulingana na haja yake, kwa mfano: 'Ee Mwenyezi Mungu, kwa baraka za Qur'ani hii Tukufu, rahisisha jambo langu fulani ... .'"
+              },
+              "source_pages": [25],
+              "review_status": "needs_review",
+              "original_source_text": "મેરે ફુંલા............... કામકો આસાન ફરમા દે."
+            }
+          ]
+        },
+        {
+          "id": "concluding_arabic_verses_and_durood",
+          "order": 2,
+          "title": {
+            "en": "Concluding Quranic Verses, Durood & Closing Praise",
+            "hi": "ख़ातिमे की क़ुरआनी आयतें, दुरूद और हम्द",
+            "gu": "સમાપનની કુર્આની આયતો, દુરૂદ અને હમ્દ",
+            "ur": "اختتامی قرآنی آیات، درود اور حمد",
+            "ar": "الآيات الختامية والصلاة على النبي ﷺ والحمد",
+            "sw": "Aya za Mwisho za Qur'ani, Durood na Sifa za Hitimisho"
+          },
+          "source_pages": [26],
+          "items": [
+            {
+              "id": "concluding_quran_33_56",
+              "order": 1,
+              "type": "recitation",
+              "recitation_type": "quranic_verse",
+              "title": {
+                "en": "Ayah on Sending Blessings Upon the Prophet ﷺ",
+                "hi": "नबी ﷺ पर दुरूद की आयत",
+                "gu": "નબી ﷺ પર દુરૂદની આયત",
+                "ur": "نبی ﷺ پر درود کی آیت",
+                "ar": "آية الصلاة على النبي ﷺ",
+                "sw": "Aya ya Kumswalia Mtume ﷺ"
+              },
+              "arabic": "إِنَّ اللّٰهَ وَمَلَائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ يَا أَيُّهَا الَّذِينَ آمَنُوا صَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيمًا",
+              "arabic_origin": "reconstructed_from_gujarati_transliteration",
+              "transliteration": {
+                "en": "Innallaha wa mala'ikatahu yusalluna 'alan-nabiyyi ya ayyuhalladhina amanu sallu 'alayhi wa sallimu taslima",
+                "hi": "इन्नल्लाहा व मलाइ-कतहू युसल्लूना अलन-नबिय्यि या अय्युहल्लज़ीना आमनू सल्लू अलैहि व सल्लिमू तस्लीमा",
+                "gu": "ઇન્નલ્લાહ વ મલાઇકતહુ યુસલ્લૂન અલન્નબિય્યિ યા અય્યુહલ્લઝીન આમનૂ સલ્લૂ અલય્હિ વ સલ્લિમૂ તસ્લીમા",
+                "ur": "ان اللہ وملائکتہ یصلون علی النبی یا ایہا الذین آمنوا صلوا علیہ وسلموا تسلیما",
+                "sw": "Innallaha wa mala'ikatahu yusalluna 'alan-nabiyyi ya ayyuhalladhina amanu sallu 'alayhi wa sallimu taslima"
+              },
+              "translation": {
+                "en": "Indeed, Allah and His angels send blessings upon the Prophet. O you who have believed, invoke blessings upon him and greet him with abundant peace.",
+                "hi": "बेशक अल्लाह और उसके फ़रिश्ते नबी पर दुरूद भेजते हैं; ऐ ईमान वालों, तुम भी उन पर दुरूद और ख़ूब सलाम भेजो।",
+                "gu": "બેશક અલ્લાહ અને તેના ફરિશ્તાઓ નબી પર દુરૂદ મોકલે છે; અય ઈમાનવાળાઓ, તમે પણ તેમના પર દુરૂદ અને ખૂબ સલામ મોકલો.",
+                "ur": "بے شک اللہ اور اس کے فرشتے نبی پر درود بھیجتے ہیں؛ اے ایمان والو! تم بھی ان پر درود اور خوب سلام بھیجو۔",
+                "ar": "إن الله تعالى يرحم النبي ﷺ ويثني عليه في الملأ الأعلى، وملائكته يستغفرون له ويدعون؛ يا أيها المؤمنون صلوا عليه وسلموا تسليماً كاملاً.",
+                "sw": "Hakika Mwenyezi Mungu na Malaika Wake wanamswalia Mtume. Enyi mlioamini, mswalieni na mumsalimu kwa salamu nyingi."
+              },
+              "repeat_count": null,
+              "references": [
+                {
+                  "type": "quran",
+                  "source": "Quran (Editorially identified; not printed in source booklet)",
+                  "reference_number": "33:56",
+                  "surah_number": 33,
+                  "ayah_start": 56,
+                  "ayah_end": 56,
+                  "original_reference": "",
+                  "source_pages": [26],
+                  "verification_status": "editorially_identified"
+                }
+              ],
+              "source_pages": [26],
+              "translation_origin": {
+                "en": "generated",
+                "hi": "generated",
+                "gu": "generated",
+                "ur": "generated",
+                "ar": "generated",
+                "sw": "generated"
+              },
+              "review_status": "needs_review",
+              "original_source_text": "ઈન્નલ્લાહા વ મલાઈકતહુ યુસલ્લુના અલનનબિચ્ય યા અય્યુહલ્લઝીના આમનુ સલ્લુઅલયહે વ સલ્લિમુ તસલીમા....",
+              "editorial_note": "Verified against Surah Al-Ahzab (33:56); corrected Gujarati printing typo 'અલનનબિચ્ય' to 'અલન્નબિય્યિ' ('alan-nabiyyi), corrected Hindi 'सल्लिमु' to 'सल्लिमू', and updated Arabic translation to convey verse meaning.",
+              "editorial_corrections": [
+                {
+                  "field": "transliteration.gu",
+                  "original_text": "ઈન્નલ્લાહા વ મલાઈકતહુ યુસલ્લુના અલનનબિચ્ય યા અય્યુહલ્લઝીના આમનુ સલ્લુઅલયહે વ સલ્લિમુ તસલીમા",
+                  "corrected_text": "ઇન્નલ્લાહ વ મલાઇકતહુ યુસલ્લૂન અલન્નબિય્યિ યા અય્યુહલ્લઝીન આમનૂ સલ્લૂ અલય્હિ વ સલ્લિમૂ તસ્લીમા",
+                  "reason": "Resolved review_011: corrected source print typo 'અલનનબિચ્ય' to 'અલન્નબિય્યિ' matching عَلَى النَّبِيِّ in Quran 33:56 and standardized long vowels."
+                },
+                {
+                  "field": "transliteration.hi",
+                  "original_text": "सल्लिमु",
+                  "corrected_text": "सल्लिमू",
+                  "reason": "Aligned long vowel 'म' -> 'मू' with Arabic وَسَلِّمُوا."
+                }
+              ]
+            },
+            {
+              "id": "concluding_durood",
+              "order": 2,
+              "type": "recitation",
+              "recitation_type": "durood",
+              "title": {
+                "en": "Concluding Durood Sharif",
+                "hi": "ख़ातिमे का दुरूद शरीफ़",
+                "gu": "સમાપનનો દુરૂદ શરીફ",
+                "ur": "اختتامی درود شریف",
+                "ar": "الصلاة الختامية على النبي ﷺ",
+                "sw": "Durood Sharif ya Mwisho"
+              },
+              "arabic": "اَللّٰهُمَّ صَلِّ عَلٰى سَيِّدِنَا مُحَمَّدٍ وَّعَلٰى آلِ سَيِّدِنَا مُحَمَّدٍ وَّبَارِكْ وَسَلِّمْ",
+              "arabic_origin": "reconstructed_from_gujarati_transliteration",
+              "transliteration": {
+                "en": "Allahumma salli 'ala Sayyidina Muhammadinw wa 'ala ali Sayyidina Muhammadinw wa barik wa sallim",
+                "hi": "अल्लाहुम्म सल्लि अला सय्यिदिना मुहम्मदिंव व अला आलि सय्यिदिना मुहम्मदिंव व बारिक व सल्लिम",
+                "gu": "અલ્લાહુમ્મ સલ્લિ અલા સૈય્યિદિના મુહમ્મદિંવ વ અલા આલિ સૈય્યિદિના મુહમ્મદિંવ વ બારિક વ સલ્લિમ",
+                "ur": "اللہم صل علیٰ سیدنا محمد وعلیٰ آل سیدنا محمد وبارک وسلم",
+                "sw": "Allahumma salli 'ala Sayyidina Muhammadinw wa 'ala ali Sayyidina Muhammadinw wa barik wa sallim"
+              },
+              "translation": {
+                "en": "O Allah, send blessings upon our master Muhammad and upon the family of our master Muhammad, and grant blessings and peace.",
+                "hi": "ऐ अल्लाह, हमारे सरदार मुहम्मद पर और हमारे सरदार मुहम्मद की आल पर रहमत नाज़िल फ़रमा और बरकत व सलाम अता फ़रमा।",
+                "gu": "અય અલ્લાહ, અમારા સરદાર મુહમ્મદ પર અને અમારા સરદાર મુહમ્મદની આલ પર રહમત નાઝિલ ફરમાવ અને બરકત વ સલામ અતા ફરમાવ.",
+                "ur": "اے اللہ! ہمارے سردار محمد پر اور ہمارے سردار محمد کی آل پر رحمت نازل فرما اور برکت و سلام عطا فرما۔",
+                "ar": "اللهم أنزل صلواتك وبركاتك وسلامك على سيدنا محمد وعلى آل سيدنا محمد.",
+                "sw": "Ee Mwenyezi Mungu, mshushie rehema bwana wetu Muhammad na jamaa za bwana wetu Muhammad, na uwabariki na uwape amani."
+              },
+              "repeat_count": null,
+              "references": [],
+              "source_pages": [26],
+              "translation_origin": {
+                "en": "generated",
+                "hi": "generated",
+                "gu": "generated",
+                "ur": "generated",
+                "ar": "generated",
+                "sw": "generated"
+              },
+              "review_status": "needs_review",
+              "original_source_text": "અલ્લાહુમ્મા સલ્લે અલા સૈય્યદના મોહમ્મદીંવ વઅલા આલે સૈય્યદના મોહમ્મદીંવ વ બારીક વસલ્લીમ.",
+              "editorial_note": "Reconstructed Arabic preserving tanween-idgham ('مُحَمَّدٍ وَّ'); aligned Gujarati transliteration vowels with Arabic.",
+              "editorial_corrections": [
+                {
+                  "field": "transliteration.gu",
+                  "original_text": "અલ્લાહુમ્મા સલ્લે અલા સૈય્યદના મોહમ્મદીંવ વઅલા આલે સૈય્યદના મોહમ્મદીંવ વ બારીક વસલ્લીમ",
+                  "corrected_text": "અલ્લાહુમ્મ સલ્લિ અલા સૈય્યિદિના મુહમ્મદિંવ વ અલા આલિ સૈય્યિદિના મુહમ્મદિંવ વ બારિક વ સલ્લિમ",
+                  "reason": "Aligned vowel lengths and short vowels in Gujarati transliteration to match Arabic recitation."
+                }
+              ]
+            },
+            {
+              "id": "concluding_quran_37_180_182",
+              "order": 3,
+              "type": "recitation",
+              "recitation_type": "quranic_verse",
+              "title": {
+                "en": "Closing Quranic Glorification (As-Saffat 37:180–182)",
+                "hi": "ख़ातिमे की क़ुरआनी तस्बीह",
+                "gu": "સમાપનની કુર્આની તસ્બીહ",
+                "ur": "اختتامی قرآنی تسبیح",
+                "ar": "التسبيح القرآني الختامي",
+                "sw": "Tasbihi ya Qur'ani ya Hitimisho"
+              },
+              "arabic": "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِينَ",
+              "arabic_origin": "reconstructed_from_gujarati_transliteration",
+              "transliteration": {
+                "en": "Subhana Rabbika Rabbil-'izzati 'amma yasifun, wa salamun 'alal-mursalin, wal-hamdu lillahi Rabbil-'alamin",
+                "hi": "सुब्हाना रब्बिका रब्बिल-इज़्ज़ति अम्मा यसिफ़ून, व सलामुन अलल-मुरसलीन, वल-हम्दु लिल्लाहि रब्बिल-आलमीन",
+                "gu": "સુબ્હાન રબ્બિક રબ્બિલ ઇઝ્ઝતિ અમ્મા યસિફૂન, વ સલામુન અલલ મુરસલીન, વલ્હમ્દુ લિલ્લાહિ રબ્બિલ આલમીન",
+                "ur": "سبحان ربک رب العزۃ عما یصفون وسلام علی المرسلین والحمد للہ رب العالمین",
+                "sw": "Subhana Rabbika Rabbil-'izzati 'amma yasifun, wa salamun 'alal-mursalin, wal-hamdu lillahi Rabbil-'alamin"
+              },
+              "translation": {
+                "en": "Exalted is your Lord, the Lord of might, above what they describe. And peace upon the Messengers. And all praise is due to Allah, Lord of all the worlds.",
+                "hi": "पाक है आपका रब, जो इज़्ज़त का मालिक है, उन बातों से जो यह बयान करते हैं। और सलाम हो तमाम रसूलों पर, और सब तारीफ़ें अल्लाह के लिए हैं जो तमाम जहानों का रब है।",
+                "gu": "પાક છે તમારો રબ, જે ઇઝ્ઝતનો માલિક છે, તે બધી વાતોથી જે તેઓ વર્ણવે છે. અને સલામ હો તમામ રસૂલો પર, અને સઘળી તારીફ અલ્લાહ માટે છે જે તમામ જહાનોનો રબ છે.",
+                "ur": "پاک ہے آپ کا رب، جو عزت کا مالک ہے، ان باتوں سے جو یہ بیان کرتے ہیں۔ اور سلام ہو تمام رسولوں پر، اور سب تعریفیں اللہ کے لیے ہیں جو تمام جہانوں کا رب ہے۔",
+                "ar": "تنزّه ربك رب العزة والقدرة عما يصفه به الجاهلون، والسلام على المرسلين، والثناء كله لله رب العالمين.",
+                "sw": "Ametakasika Mola wako, Mola wa utukufu, kutokana na yale wanayomsingizia. Na amani iwafikie Mitume. Na sifa njema zote ni za Mwenyezi Mungu, Mola wa walimwengu wote."
+              },
+              "repeat_count": null,
+              "references": [
+                {
+                  "type": "quran",
+                  "source": "Quran (Editorially identified; not printed in source booklet)",
+                  "reference_number": "37:180-182",
+                  "surah_number": 37,
+                  "ayah_start": 180,
+                  "ayah_end": 182,
+                  "original_reference": "",
+                  "source_pages": [26],
+                  "verification_status": "editorially_identified"
+                }
+              ],
+              "source_pages": [26],
+              "translation_origin": {
+                "en": "generated",
+                "hi": "generated",
+                "gu": "generated",
+                "ur": "generated",
+                "ar": "generated",
+                "sw": "generated"
+              },
+              "review_status": "needs_review",
+              "original_source_text": "સુબ્હાના રબ્બીક રબ્બીલ ઈઝઝતે અમ્મા યસેફુન વ સલામુન અલલ મુરસલીન. વલહમદોલિલ્લાહિ રબ્બીલ આલમીન",
+              "editorial_note": "Resolved review_013: separated Quran 37:180–182 from the following non-Quranic invocation 'بِرَحْمَتِكَ يَا أَرْحَمَ الرَّاحِمِينَ' while preserving reading sequence.",
+              "editorial_corrections": [
+                {
+                  "field": "transliteration.gu",
+                  "original_text": "સુબ્હાના રબ્બીક રબ્બીલ ઈઝઝતે અમ્મા યસેફુન વ સલામુન અલલ મુરસલીન. વલહમદોલિલ્લાહિ રબ્બીલ આલમીન",
+                  "corrected_text": "સુબ્હાન રબ્બિક રબ્બિલ ઇઝ્ઝતિ અમ્મા યસિફૂન, વ સલામુન અલલ મુરસલીન, વલ્હમ્દુ લિલ્લાહિ રબ્બિલ આલમીન",
+                  "reason": "Aligned Gujarati transliteration with Quran 37:180–182 and separated non-Quranic invocation into the next consecutive item."
+                }
+              ]
+            },
+            {
+              "id": "concluding_bi_rahmatika_invocation",
+              "order": 4,
+              "type": "recitation",
+              "recitation_type": "dua",
+              "title": {
+                "en": "Closing Appeal for Mercy",
+                "hi": "रहमत की ख़ातिमा दुआ",
+                "gu": "રહમતની સમાપન દુઆ",
+                "ur": "رحمت کی اختتامی دعا",
+                "ar": "ختام الدعاء بطلب الرحمة",
+                "sw": "Ombi la Rehema la Mwisho"
+              },
+              "arabic": "بِرَحْمَتِكَ يَا أَرْحَمَ الرَّاحِمِينَ",
+              "arabic_origin": "reconstructed_from_gujarati_transliteration",
+              "transliteration": {
+                "en": "Bi-rahmatika ya Arhamar-Rahimin",
+                "hi": "बिरहमतिका या अरहमर-राहिमीन",
+                "gu": "બિરહ્મતિક યા અરહમર્રાહિમીન",
+                "ur": "برحمتک یا ارحم الراحمین",
+                "sw": "Bi-rahmatika ya Arhamar-Rahimin"
+              },
+              "translation": {
+                "en": "By Your mercy, O Most Merciful of the merciful.",
+                "hi": "आपकी रहमत के सदक़े, ऐ तमाम रहम करने वालों में सबसे ज़्यादा रहम करने वाले।",
+                "gu": "તમારી રહમતથી, અય તમામ રહમ કરનારાઓમાં સૌથી વધુ રહમ કરનાર.",
+                "ur": "تیری رحمت کے صدقے، اے تمام رحم کرنے والوں میں سب سے زیادہ رحم کرنے والے۔",
+                "ar": "نسألك ذلك برحمتك يا أرحم الراحمين.",
+                "sw": "Kwa rehema Yako, Ee Mwingi wa rehema kuliko wote wenye kurehemu."
+              },
+              "repeat_count": null,
+              "references": [],
+              "source_pages": [26],
+              "translation_origin": {
+                "en": "generated",
+                "hi": "generated",
+                "gu": "generated",
+                "ur": "generated",
+                "ar": "generated",
+                "sw": "generated"
+              },
+              "review_status": "needs_review",
+              "original_source_text": "બે રહમતેકા યા અરહમર્રાહેમીન..",
+              "editorial_note": "Separated from Quran 37:180–182 (concluding_quran_37_180_182) so this non-Quranic invocation is not misclassified as part of the Quran."
+            },
+            {
+              "id": "concluding_ameen",
+              "order": 5,
+              "type": "recitation",
+              "recitation_type": "other",
+              "title": {
+                "en": "Ameen",
+                "hi": "आमीन",
+                "gu": "આમીન",
+                "ur": "آمین",
+                "ar": "آمين",
+                "sw": "Amina"
+              },
+              "arabic": "آمِين",
+              "arabic_origin": "reconstructed_from_gujarati_transliteration",
+              "transliteration": {
+                "en": "Amin",
+                "hi": "आमीन",
+                "gu": "આમીન",
+                "ur": "آمین",
+                "sw": "Amina"
+              },
+              "translation": {
+                "en": "O Allah, accept our supplication.",
+                "hi": "ऐ अल्लाह, क़ुबूल फ़रमा (आमीन)।",
+                "gu": "અય અલ્લાહ, કબૂલ ફરમાવ (આમીન).",
+                "ur": "اے اللہ، قبول فرما (آمین)۔",
+                "ar": "اللهم استجب دعاءنا.",
+                "sw": "Ee Mwenyezi Mungu, itikia dua yetu (Amina)."
+              },
+              "repeat_count": null,
+              "references": [],
+              "source_pages": [26],
+              "translation_origin": {
+                "en": "generated",
+                "hi": "generated",
+                "gu": "generated",
+                "ur": "generated",
+                "ar": "generated",
+                "sw": "generated"
+              },
+              "review_status": "needs_review",
+              "original_source_text": "- આમીન -"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seven_causes_and_closing_appeal",
+      "order": 5,
+      "title": {
+        "en": "Causes of Prosperity & Poverty, and Noorani Appeal",
+        "hi": "ख़ुशहाली व ग़रीबी के असबाब और नूरानी अपील",
+        "gu": "ખુશહાલી અને ગરીબીના કારણો તથા નુરાની અપીલ",
+        "ur": "خوش حالی و غریبی کے اسباب اور نورانی اپیل",
+        "ar": "أسباب اليسر والفقر والنداء النوراني",
+        "sw": "Sababu za Ustawi na Umaskini, na Wito wa Kiroho"
+      },
+      "description": {
+        "en": "Seven deeds that bring prosperity, seven habits that lead to poverty, and the closing Noorani Appeal.",
+        "hi": "ख़ुशहाली की सात बातें, ग़रीबी के सात कारण और समापन नूरानी अपील।",
+        "gu": "ખુશહાલીની સાત બાબતો, ગરીબીનાં સાત કારણો અને સમાપનની નુરાની અપીલ.",
+        "ur": "خوش حالی کے سات اسباب، غریبی کے سات اسباب اور اختتامی نورانی اپیل۔",
+        "ar": "سبع خصال تجلب البركة واليسر، وسبع خصال تجلب الفقر، والنداء النوراني الختامي.",
+        "sw": "Mambo saba yanayoleta ustawi, tabia saba zinazoleta umaskini, na Wito wa Kiroho wa mwisho."
+      },
+      "source_pages": [27, 28],
+      "sections": [
+        {
+          "id": "seven_causes_of_prosperity",
+          "order": 1,
+          "title": {
+            "en": "Prosperity Comes from Seven Things",
+            "hi": "ख़ुशहाली 7 चीज़ों से आती है",
+            "gu": "ખુશહાલી ૭ ચીજોથી આવે છે",
+            "ur": "خوش حالی 7 چیزوں سے آتی ہے",
+            "ar": "البركة واليسر يأتيان بسبع خصال",
+            "sw": "Ustawi na Baraka Hutokana na Mambo Saba"
+          },
+          "source_pages": [27],
+          "items": [
+            {
+              "id": "prosperity_01_quran_at_home",
+              "order": 1,
+              "type": "benefit",
+              "text": {
+                "en": "(1) By continually reciting the Holy Quran in one's home.",
+                "hi": "(1) अपने घर में क़ुरआन शरीफ़ की तिलावत करते रहने से।",
+                "gu": "(૧) પોતાના ઘરમાં કુર્આન શરીફની તિલાવત કરતા રહેવાથી.",
+                "ur": "(1) اپنے گھر میں قرآن شریف کی تلاوت کرتے رہنے سے۔",
+                "ar": "(١) بالمداومة على تلاوة القرآن الكريم في البيت.",
+                "sw": "(1) Kwa kudumu kusoma Qur'ani Tukufu nyumbani mwako."
+              },
+              "source_pages": [27],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "prosperity_02_five_prayers",
+              "order": 2,
+              "type": "benefit",
+              "text": {
+                "en": "(2) By being punctual in the five daily prayers.",
+                "hi": "(2) पंजगाना नमाज़ों की पाबंदी करने से।",
+                "gu": "(૨) પાંચ વક્તની નમાઝોની પાબંદી કરવાથી.",
+                "ur": "(2) پنجگانہ نمازوں کی پابندی کرنے سے۔",
+                "ar": "(٢) بالمحافظة على الصلوات الخمس.",
+                "sw": "(2) Kwa kudumu katika swala tano za kila siku."
+              },
+              "source_pages": [27],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "prosperity_03_shukr",
+              "order": 3,
+              "type": "benefit",
+              "text": {
+                "en": "(3) By offering gratitude to Allah in every condition.",
+                "hi": "(3) हर हाल में ख़ुदा का शुक्र अदा करने से।",
+                "gu": "(૩) દરેક હાલમાં ખુદાનો શુક્ર અદા કરવાથી.",
+                "ur": "(3) ہر حال میں خدا کا شکر ادا کرنے سے۔",
+                "ar": "(٣) بشكر الله تعالى في كل حال.",
+                "sw": "(3) Kwa kumshukuru Mwenyezi Mungu katika kila hali."
+              },
+              "source_pages": [27],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "prosperity_04_help_relatives_needy",
+              "order": 4,
+              "type": "benefit",
+              "text": {
+                "en": "(4) By helping relatives and the needy.",
+                "hi": "(4) रिश्तेदारों और मोहताजों की मदद करने से।",
+                "gu": "(૪) સગાંસંબંધીઓ અને જરૂરિયાતમંદોની મદદ કરવાથી.",
+                "ur": "(4) رشتہ داروں اور محتاجوں کی مدد کرنے سے۔",
+                "ar": "(٤) بمساعدة الأقارب والمحتاجين.",
+                "sw": "(4) Kwa kuwasaidia jamaa na wahitaji."
+              },
+              "source_pages": [27],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "prosperity_05_good_conduct_parents_relatives",
+              "order": 5,
+              "type": "benefit",
+              "text": {
+                "en": "(5) By treating parents and relatives kindly.",
+                "hi": "(5) मां-बाप और रिश्तेदारों से अच्छा सुलूक करने से।",
+                "gu": "(૫) માતા-પિતા અને સગાંસંબંધીઓ સાથે સારો વ્યવહાર કરવાથી.",
+                "ur": "(5) ماں باپ اور رشتہ داروں سے اچھا سلوک کرنے سے۔",
+                "ar": "(٥) بحسن معاملة الوالدين والأقارب.",
+                "sw": "(5) Kwa kuwafanyia wema wazazi na jamaa."
+              },
+              "source_pages": [27],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "prosperity_06_obligations_and_debts_on_time",
+              "order": 6,
+              "type": "benefit",
+              "text": {
+                "en": "(6) By fulfilling religious obligations (Fard) and paying debts on time.",
+                "hi": "(6) फ़र्ज़ और क़र्ज़ वक़्त पर अदा करने से।",
+                "gu": "(૬) ફર્ઝ અને કર્ઝ સમયસર અદા કરવાથી.",
+                "ur": "(6) فرض اور قرض وقت پر ادا کرنے سے۔",
+                "ar": "(٦) بأداء الفرائض وقضاء الديون في أوقاتها.",
+                "sw": "(6) Kwa kutekeleza faradhi na kulipa madeni kwa wakati."
+              },
+              "source_pages": [27],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "prosperity_07_yasin_waqiah_mulk",
+              "order": 7,
+              "type": "benefit",
+              "text": {
+                "en": "(7) By reciting Surah Yasin in the morning and Surah Al-Waqi'ah and Surah Al-Mulk in the evening.",
+                "hi": "(7) सुबह सूरह यासीन और शाम को सूरह वाक़िआ व सूरह मुल्क पढ़ने से।",
+                "gu": "(૭) સવારે સૂરહ યાસીન અને સાંજે સૂરહ વાકિઆ તથા સૂરહ મુલ્ક પઢવાથી.",
+                "ur": "(7) صبح سورۂ یٰسین اور شام کو سورۂ واقعہ اور سورۂ ملک پڑھنے سے۔",
+                "ar": "(٧) بقراءة سورة يس صباحاً وسورتي الواقعة والملك مساءً.",
+                "sw": "(7) Kwa kusoma Sura Yasin asubuhi na Sura Al-Waqi'ah pamoja na Sura Al-Mulk jioni."
+              },
+              "source_pages": [27],
+              "review_status": "needs_review"
+            }
+          ]
+        },
+        {
+          "id": "seven_causes_of_poverty",
+          "order": 2,
+          "title": {
+            "en": "Poverty (Destitution) Comes from Seven Things",
+            "hi": "ग़रीबी (मोहताजी) 7 चीज़ों से आती है",
+            "gu": "ગરીબી (મોહતાજી) ૭ ચીજોથી આવે છે",
+            "ur": "غریبی (محتاجی) 7 چیزوں سے آتی ہے",
+            "ar": "الفقر والفاقة يأتيان من سبعة أمور",
+            "sw": "Umaskini (Uhaba) Hutokana na Mambo Saba"
+          },
+          "source_pages": [27],
+          "items": [
+            {
+              "id": "poverty_01_stealing_in_salah",
+              "order": 1,
+              "type": "note",
+              "text": {
+                "en": "(1) By stealing in one's prayers (performing Ruku and Sujud hastily without proper composure).",
+                "hi": "(1) अपनी नमाज़ों में चोरी करने से।",
+                "gu": "(૧) પોતાની નમાઝોમાં ચોરી કરવાથી.",
+                "ur": "(1) اپنی نمازوں میں چوری کرنے سے۔",
+                "ar": "(١) بالسرقة في الصلاة (عدم إتمام ركوعها وسجودها).",
+                "sw": "(1) Kwa kuiba katika swala za mtu (kuharakisha bila kutulizana katika Ruku na Sujudu)."
+              },
+              "source_pages": [27],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "poverty_02_missing_takbeer_ula",
+              "order": 2,
+              "type": "note",
+              "text": {
+                "en": "(2) By repeatedly missing the opening Takbeer (Takbeer-e-Ula) in congregational prayers.",
+                "hi": "(2) जमाअत की नमाज़ों में तकबीर-ए-ऊला बार-बार छोड़ने से।",
+                "gu": "(૨) જમાઅતની નમાઝોમાં તકબીરે ઉલા વારંવાર છોડવાથી.",
+                "ur": "(2) جماعت کی نمازوں میں تکبیرِ اولیٰ بار بار چھوڑنے سے۔",
+                "ar": "(٢) بتكرار تفويت تكبيرة الإحرام الأولى في صلاة الجماعة.",
+                "sw": "(2) Kwa kukosa mara kwa mara Takbiratul-Ihram ya mwanzo (Takbeer-e-Ula) katika swala za jamaa."
+              },
+              "source_pages": [27],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "poverty_03_urinating_in_wudu_area",
+              "order": 3,
+              "type": "note",
+              "text": {
+                "en": "(3) By urinating in the place where Wudu or Ghusl is performed.",
+                "hi": "(3) वुज़ू (ग़ुस्ल) करने की जगह पेशाब करने से।",
+                "gu": "(૩) વુઝૂ (ગુસ્લ) કરવાની જગ્યાએ પેશાબ કરવાથી.",
+                "ur": "(3) وضو (غسل) کرنے کی جگہ پیشاب کرنے سے۔",
+                "ar": "(٣) بالتبول في موضع الوضوء أو الاغتسال.",
+                "sw": "(3) Kwa kukojoa mahali pa kutawadhia (Wudhu au Ghusl)."
+              },
+              "source_pages": [27],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "poverty_04_malice_enmity_deceit",
+              "order": 4,
+              "type": "note",
+              "text": {
+                "en": "(4) By harboring malice, enmity, grudge, and deceit.",
+                "hi": "(4) बुग़्ज़, अदावत, कीना और कपट रखने से।",
+                "gu": "(૪) બુગ્ઝ, અદાવત, કીનો અને કપટ રાખવાથી.",
+                "ur": "(4) بغض، عداوت، کینہ اور فریب رکھنے سے۔",
+                "ar": "(٤) بإضمار البغض والعداوة والحقد والمكر.",
+                "sw": "(4) Kwa kuweka chuki, uadui, kinyongo na hila moyoni."
+              },
+              "source_pages": [27],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "poverty_05_waking_late",
+              "order": 5,
+              "type": "note",
+              "text": {
+                "en": "(5) By waking up late in the morning.",
+                "hi": "(5) सुबह देर से उठने से।",
+                "gu": "(૫) સવારે મોડા ઊઠવાથી.",
+                "ur": "(5) صبح دیر سے اٹھنے سے۔",
+                "ar": "(٥) بالتأخر في الاستيقاظ صباحاً.",
+                "sw": "(5) Kwa kuamka kwa kuchelewa asubuhi."
+              },
+              "source_pages": [27],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "poverty_06_biting_nails",
+              "order": 6,
+              "type": "note",
+              "text": {
+                "en": "(6) By biting nails with the teeth.",
+                "hi": "(6) दांतों से नाख़ुन काटने से।",
+                "gu": "(૬) દાંતોં સે નાખુન કાટને સે.",
+                "ur": "(6) دانتوں سے ناخن کاٹنے سے۔",
+                "ar": "(٦) بقضم الأظافر بالأسنان.",
+                "sw": "(6) Kwa kung'ata kucha kwa meno."
+              },
+              "source_pages": [27],
+              "review_status": "needs_review",
+              "original_source_text": "(૬) દાતોં સે નાખુન કાટને સે.",
+              "editorial_note": "Corrected missing Gujarati anusvara in source print ('દાતોં' -> 'દાંતોં', meaning teeth) while preserving original_source_text verbatim.",
+              "editorial_corrections": [
+                {
+                  "field": "text.gu",
+                  "original_text": "(૬) દાતોં સે નાખુન કાટને સે.",
+                  "corrected_text": "(૬) દાંતોં સે નાખુન કાટને સે.",
+                  "reason": "Resolved review_014: restored missing anusvara on 'દાતોં' -> 'દાંતોં' (teeth) in Gujarati-script Urdu while preserving author's phrasing."
+                }
+              ]
+            },
+            {
+              "id": "poverty_07_wiping_face_with_sleeve",
+              "order": 7,
+              "type": "note",
+              "text": {
+                "en": "(7) By wiping one's face with a sleeve or the hem of one's garment.",
+                "hi": "(7) आस्तीन (बांह) से या दामन से मुंह साफ़ करने से।",
+                "gu": "(૭) બાંય (આસ્તીન) અથવા દામન વડે ચહેરો સાફ કરવાથી.",
+                "ur": "(7) آستین یا دامن سے منہ صاف کرنے سے۔",
+                "ar": "(٧) بمسح الوجه بالكمّ أو طرف الثوب.",
+                "sw": "(7) Kwa kufuta uso kwa mkono wa shati au pindo la vazi."
+              },
+              "source_pages": [27],
+              "review_status": "needs_review"
+            }
+          ]
+        },
+        {
+          "id": "noorani_appeal_back_cover",
+          "order": 3,
+          "title": {
+            "en": "Spiritual Appeal (Noorani Appeal)",
+            "hi": "नूरानी अपील",
+            "gu": "નુરાની અપીલ",
+            "ur": "نورانی اپیل",
+            "ar": "نداء نوراني",
+            "sw": "Wito wa Kiroho (Noorani Appeal)"
+          },
+          "source_pages": [28],
+          "items": [
+            {
+              "id": "noorani_appeal_body",
+              "order": 1,
+              "type": "paragraph",
+              "text": {
+                "en": "On the occasion of the forthcoming Urs Mubarak of Hazrat Pir Sayyid Nazarhusain Bawa wald Qasimali Bawa (rahmatullahi alayh), in order to present tens of millions of Durood Sharif in the court of Allah's Beloved (sallallahu alayhi wa sallam) for the Isal-e-Sawab of Pir Sayyid Nazarhusain Bawa Saheb—via the courts of the entire Husaini, Chishti, and Mashaykhi spiritual lineage and their spiritual guides—it is appealed that you obtain a Durood Sharif tally card titled 'Ruhani Tohfa' from the responsible representative in your locality, record as many Durood Sharif recitations daily as possible on the card, and submit the card to your local responsible representative by the 11th of Sha'ban to attain spiritual blessings (Ruhani Faiz).",
+                "hi": "हज़रत पीर सैयद नज़रहुसैन बावा वल्द क़ासिमअली बावा (रहमतुल्लाहि अलैह) के आने वाले उर्स मुबारक के मौक़े पर तमाम हुसैनी, चिश्ती, मशायख़ी ख़ानदान तथा उनके रूहानी पेशवाओं की बारगाह में होते हुए ख़ुसूसन पीर सैयद नज़रहुसैन बावा साहेब के ईसाल-ए-सवाब के लिए अल्लाह के हबीब पाक की बारगाह में करोड़ों दुरूद शरीफ़ पेश किए जाएं, इसके लिए अपील है कि अपने इलाक़े के ज़िम्मेदार व्यक्ति से 'रूहानी तोहफ़ा' नाम का दुरूद शरीफ़ का कार्ड प्राप्त कर लें, जितनी अधिक बार हो सके रोज़ाना दुरूद शरीफ़ कार्ड में जमा करें, और चांद 11 शाबान तक अपने इलाक़े के ज़िम्मेदार व्यक्ति के पास कार्ड जमा कराकर रूहानी फ़ैज़ प्राप्त करें।",
+                "gu": "હઝરત પીર સૈયદ નઝરહુસૈન બાવા વલ્દ કાસિમઅલી બાવા (રહમતુલ્લાહો અલયહે) ના આવનારા ઉર્સ મુબારકના પ્રસંગે તમામ હુસૈની, ચિશ્તી, મશાયખી ખાનદાન તથા તેમના રૂહાની પેશવાઓની બારગાહમાં થઈને ખુસુસન પીર સૈયદ નઝરહુસૈન બાવા સાહેબના ઈસાલે સવાબ માટે અલ્લાહના હબીબે પાકની બારગાહમાં કરોડો દુરૂદ શરીફ પેશ થાય તે માટે તમારા વિસ્તારના જવાબદાર વ્યક્તિ પાસેથી 'રૂહાની તોહફા' નામનું દુરૂદ શરીફનું કાર્ડ મેળવી લઈ, બને તેટલી વધુ વખત દુરૂદ શરીફ પટ્ટી કાર્ડમાં રોજેરોજ જમા કરી, ચાંદ-૧૧ શાબાન સુધીમાં તમારા વિસ્તારના જવાબદાર વ્યક્તિ પાસે કાર્ડ જમા કરાવી રૂહાની ફૈઝ મેળવવા અપીલ છે.",
+                "ur": "حضرت پیر سید نظر حسین باوا ولد قاسم علی باوا (رحمۃ اللہ علیہ) کے آنے والے عرس مبارک کے موقع پر تمام حسینی، چشتی، مشائخی خاندان اور ان کے روحانی پیشواؤں کی بارگاہ میں ہوتے ہوئے خصوصاً پیر سید نظر حسین باوا صاحب کے ایصالِ ثواب کے لیے اللہ کے حبیبِ پاک کی بارگاہ میں کروڑوں درود شریف پیش کرنے کی غرض سے اپیل کی جاتی ہے کہ اپنے علاقے کے ذمہ دار شخص سے 'روحانی تحفہ' نامی درود شریف کا کارڈ حاصل کر کے جس قدر زیادہ ممکن ہو روزانہ درود شریف کارڈ میں جمع کریں اور چاند 11 شعبان تک اپنے علاقے کے ذمہ دار کے پاس کارڈ جمع کروا کر روحانی فیض حاصل کریں۔",
+                "ar": "بمناسبة العرس المبارك القادم للشيخ بير سيد نظر حسين باوا بن قاسم علي باوا رحمه الله تعالى، وإهداءً لملايين الصلوات على الحبيب المصطفى ﷺ في حضرته الشريفة عبر السلسلة الحسينية والجشتية والمشائخية لإيصال ثوابها إلى الشيخ بير سيد نظر حسين باوا صاحب، يُرجى استلام بطاقة «روحاني تحفة» للصلاة على النبي ﷺ من المسؤول في منطقتكم، والإكثار يومياً من تدوين الصلوات فيها، وتسليمها إليه بحلول الحادي عشر من شهر شعبان لنيل الفيض الروحاني.",
+                "sw": "Katika tukio la Urs Mubarak ijayo ya Hazrat Pir Sayyid Nazarhusain Bawa wald Qasimali Bawa (rahmatullahi alayh), ili kuwasilisha mamilioni mengi ya Durood Sharif mbele ya Kipenzi cha Mwenyezi Mungu (sallallahu alayhi wa sallam) kwa ajili ya Isal-e-Sawab ya Pir Sayyid Nazarhusain Bawa Saheb—kupitia ukoo wote wa Husaini, Chishti, na Mashaykhi na viongozi wao wa kiroho—tunaomba upate kadi ya Durood Sharif iitwayo 'Ruhani Tohfa' kutoka kwa mwakilishi anayehusika katika eneo lako, uandike Durood Sharif kila siku kadri uwezavyo, na urejeshe kadi hiyo kwa mwakilishi wa eneo lako kufikia tarehe 11 Sha'ban ili kupata baraka za kiroho."
+              },
+              "source_pages": [28],
+              "review_status": "needs_review"
+            },
+            {
+              "id": "noorani_appeal_signature",
+              "order": 2,
+              "type": "note",
+              "text": {
+                "en": "Signed: Pir Sayyid Intekhab Alam wald Nazarhusain Bawa (Husaini, Chishti, Mashaykhi).",
+                "hi": "प्रस्तुतकर्ता: पीर सैयद इंतिख़ाब आलम वल्द नज़रहुसैन बावा (हुसैनी, चिश्ती, मशायख़ी)।",
+                "gu": "પીર સૈયદ ઈન્તેખાબઆલમ વલ્દ નઝરહુસૈનબાવા (હુસૈની, ચિશ્તી, મશાયખી).",
+                "ur": "پیر سید انتخاب عالم ولد نظر حسین باوا (حسینی، چشتی، مشائخی)۔",
+                "ar": "التوقيع: بير سيد انتخاب عالم بن نظر حسين باوا (الحسيني، الجشتي، المشائخي).",
+                "sw": "Aliyesaini: Pir Sayyid Intekhab Alam wald Nazarhusain Bawa (Husaini, Chishti, Mashaykhi)."
+              },
+              "source_pages": [28],
+              "review_status": "needs_review"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "review_issues": [
+    {
+      "id": "review_001",
+      "item_id": "cover_publication_details",
+      "source_pages": [1],
+      "language": "gu",
+      "issue_type": "layout_ambiguity",
+      "severity": "low",
+      "original_fragment": "ઇલ્વાલી તા બુલંદ ખુર્શીદે માહી ચિશ્તીયા કા રોશનાઈ / ફૈઝે-નઝર કમિટી",
+      "description": "The circular publisher seal on the front cover (page 1) is low-contrast and curved around the dome graphic, making the outer motto text partially hard to decipher; the publisher name 'ફૈઝે-નઝર કમિટી (ધોળકા બ્રાન્ચ)' and contact phone numbers (98250 50486, 92282 83083) were verified directly from page 1.",
+      "suggested_resolution": "Verify the exact wording of the circular Chishti emblem motto against a higher-resolution physical print of the cover.",
+      "status": "pending",
+      "resolution_status": "source_limitation",
+      "correction_note": "Added the clearly legible contact phone numbers (98250 50486, 92282 83083) to cover_publication_details; kept the circular seal motto flagged due to low print contrast in the scan."
+    },
+    {
+      "id": "review_002",
+      "item_id": "opening_taawwudh",
+      "source_pages": [4],
+      "language": "ar",
+      "issue_type": "uncertain_arabic_text",
+      "severity": "medium",
+      "original_fragment": "આઉઝોબિલ્લલાહી મિન્શ્શયતોનીર્રજીમ",
+      "description": "Printed in Gujarati-script transliteration rather than Arabic script; reconstructed into standard Arabic Ta'awwudh ('أَعُوذُ بِاللّٰهِ مِنَ الشَّيْطَانِ الرَّجِيمِ'). Regional Gujarati orthography 'બિલ્લલાહી' and 'તોનીર્રજીમ' is preserved in original_source_text.",
+      "suggested_resolution": "Confirm with an Arabic proofreader and Islamic scholar that the reconstructed Arabic wording matches the intended recitation.",
+      "status": "pending",
+      "resolution_status": "partially_resolved",
+      "correction_note": "Verified standard Arabic wording and diacritics, aligned all five transliteration languages, and added arabic_origin='reconstructed_from_gujarati_transliteration' with original_source_text preserved. Kept pending human scholarly confirmation."
+    },
+    {
+      "id": "review_003",
+      "item_id": "opening_tasmiyah",
+      "source_pages": [4],
+      "language": "ar",
+      "issue_type": "uncertain_arabic_text",
+      "severity": "low",
+      "original_fragment": "બિસ્મીલ્લાહી ર્રહમાનનિર્રહીમ",
+      "description": "Printed in Gujarati-script transliteration rather than Arabic script; reconstructed into standard Quranic Tasmiyah ('بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ') with editorially identified Quran 1:1 reference.",
+      "suggested_resolution": "Confirm standard Arabic orthography and editorial reference annotation with a qualified Islamic scholar.",
+      "status": "pending",
+      "resolution_status": "partially_resolved",
+      "correction_note": "Verified against standard Basmalah orthography, aligned Swahili title ('Kuanza kwa Bismillah (Tasmiyah)'), added editorially_identified Quran 1:1 reference, and preserved original_source_text. Kept pending human scholarly confirmation."
+    },
+    {
+      "id": "review_005",
+      "item_id": "opening_hamd_and_salat",
+      "source_pages": [4],
+      "language": "ar",
+      "issue_type": "uncertain_arabic_text",
+      "severity": "medium",
+      "original_fragment": "અલ્લહમદુ લિલ્લાહી રબ્બીલ આલમીન વસ્સલાતુ વસ્સલામુ અલા સૈય્યદિલ અંબીયાહી વલ મુરસલીન.",
+      "description": "Printed in Gujarati-script transliteration ('અંબીયાહી' for 'الْأَنْبِيَاءِ'). Reconstructed into standard Arabic 'اَلْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِينَ وَالصَّلَاةُ وَالسَّلَامُ عَلٰى سَيِّدِ الْأَنْبِيَاءِ وَالْمُرْسَلِينَ'.",
+      "suggested_resolution": "Verify reconstructed Arabic phrasing and corrected Gujarati transliteration ('અમ્બિયાઇ') with a qualified Islamic scholar.",
+      "status": "pending",
+      "resolution_status": "partially_resolved",
+      "correction_note": "Corrected Gujarati transliteration 'અંબીયાહી' (-hi) to 'અમ્બિયાઇ' (-'i) and standardized vowel lengths while preserving original_source_text and editorial_corrections. Kept pending human scholarly confirmation of reconstructed Arabic."
+    },
+    {
+      "id": "review_006",
+      "item_id": "opening_istighfar_3x",
+      "source_pages": [4],
+      "language": "ar",
+      "issue_type": "uncertain_arabic_text",
+      "severity": "medium",
+      "original_fragment": "અસ્તગફિરૂલ્લાહુ રબ્બી મીન કુલ્લી ઝમબિંવ વાઅતુબોઇલયહે. (૩ વખત અસ્તગફાર પઢવુ.)",
+      "description": "Printed in Gujarati-script transliteration with nominative ending 'અસ્તગફિરૂલ્લાહુ' (-u), whereas grammatical Arabic Istighfar uses accusative 'أَسْتَغْفِرُ اللّٰهَ رَبِّي مِنْ كُلِّ ذَنْبٍ وَّأَتُوبُ إِلَيْهِ'.",
+      "suggested_resolution": "Confirm standard accusative Arabic inflection 'أَسْتَغْفِرُ اللّٰهَ' and aligned transliterations with a qualified Islamic scholar.",
+      "status": "pending",
+      "resolution_status": "partially_resolved",
+      "correction_note": "Aligned Gujarati transliteration to 'અસ્તગફિરુલ્લાહ', English to 'Astaghfirullaha', and Arabic idgham diacritics ('ذَنْبٍ وَّأَتُوبُ'); confirmed repeat_count=3 and preserved original_source_text. Kept pending scholarly approval."
+    },
+    {
+      "id": "review_007",
+      "item_id": "opening_ya_arhamar_rahimin_3x",
+      "source_pages": [4],
+      "language": "ar",
+      "issue_type": "uncertain_arabic_text",
+      "severity": "low",
+      "original_fragment": "યા અરહમર્રાહિમીન (printed 3 times)",
+      "description": "Printed three consecutive times in Gujarati transliteration rather than Arabic script; reconstructed to 'يَا أَرْحَمَ الرَّاحِمِينَ' with repeat_count=3.",
+      "suggested_resolution": "Verify Arabic reconstruction and repetition count with a qualified scholar.",
+      "status": "pending",
+      "resolution_status": "partially_resolved",
+      "correction_note": "Confirmed repeat_count=3 from visual inspection of page 4 and added arabic_origin/original_source_text metadata. Kept pending scholarly approval."
+    },
+    {
+      "id": "review_008",
+      "item_id": "opening_ya_rabbana_5x",
+      "source_pages": [4],
+      "language": "ar",
+      "issue_type": "uncertain_arabic_text",
+      "severity": "low",
+      "original_fragment": "યા રબ્બના યા રબ્બના યા રબ્બના / યા રબ્બના યા રબ્બના",
+      "description": "Printed five times across two lines in Gujarati transliteration rather than Arabic script; reconstructed to 'يَا رَبَّنَا' with repeat_count=5.",
+      "suggested_resolution": "Verify Arabic reconstruction and repetition count with a qualified scholar.",
+      "status": "pending",
+      "resolution_status": "partially_resolved",
+      "correction_note": "Confirmed repeat_count=5 from visual inspection of page 4 and added arabic_origin/original_source_text metadata. Kept pending scholarly approval."
+    },
+    {
+      "id": "review_010",
+      "item_id": "dua_39_address_to_the_wali",
+      "source_pages": [21],
+      "language": "ur",
+      "issue_type": "ambiguous_translation",
+      "severity": "low",
+      "original_fragment": "અય અલ્લાહ કે વલી... બારગાહે ખુદાવંદી મેં હમારે લીયે દુઆ ફરમાઈયે.",
+      "description": "Contains devotional Urs/shrine address asking the Wali to supplicate to Allah on behalf of visitors; translated faithfully across all six languages preserving the Sunni, Hanafi, Chishti, Mashaykhi devotional context without injecting outside commentary.",
+      "suggested_resolution": "Have a qualified Hanafi/Sunni scholar review the devotional terminology and phrasing across all six languages.",
+      "status": "pending",
+      "resolution_status": "requires_human_review",
+      "correction_note": "Checked against page 21 and verified faithful translation across all six languages; retained for human scholarly review of devotional phrasing."
+    },
+    {
+      "id": "review_012",
+      "item_id": "concluding_durood",
+      "source_pages": [26],
+      "language": "ar",
+      "issue_type": "uncertain_arabic_text",
+      "severity": "medium",
+      "original_fragment": "અલ્લાહુમ્મા સલ્લે અલા સૈય્યદના મોહમ્મદીંવ વઅલા આલે સૈય્યદના મોહમ્મદીંવ વ બારીક વસલ્લીમ.",
+      "description": "Printed in Gujarati-script transliteration on page 26 rather than Arabic script; reconstructed into Arabic preserving tanween-idgham pronunciation ('مُحَمَّدٍ وَّعَلٰى' and 'مُحَمَّدٍ وَّبَارِكْ').",
+      "suggested_resolution": "Confirm reconstructed Arabic orthography and aligned Gujarati transliteration with an Arabic proofreader.",
+      "status": "pending",
+      "resolution_status": "partially_resolved",
+      "correction_note": "Aligned Gujarati transliteration vowels ('અલ્લાહુમ્મ સલ્લિ અલા સૈય્યિદિના મુહમ્મદિંવ...') with Arabic and recorded original_source_text and editorial_corrections. Kept pending scholarly confirmation."
+    },
+    {
+      "id": "review_015",
+      "item_id": "prosperity_01_quran_at_home",
+      "source_pages": [27],
+      "language": "en",
+      "issue_type": "uncertain_reference",
+      "severity": "low",
+      "original_fragment": "ખુશહાલી ૭ ચીઝોંસે આતી હૈ. / ગરીબી (મોહતાજી) ૭ ચીઝોં સે આતીહૈ.",
+      "description": "Page 27 presents two seven-point lists (causes of prosperity and causes of poverty) without naming any Hadith or classical fiqh source in the printed booklet.",
+      "suggested_resolution": "Have a scholar review whether classical attributions should be annotated externally in a later scholarly edition; no unprinted references were fabricated.",
+      "status": "pending",
+      "resolution_status": "source_limitation",
+      "correction_note": "Inspected page 27 and confirmed no Hadith or book references are printed in the source; kept all 14 items unattributed per non-fabrication rule."
+    }
+  ],
+  "statistics": {
+    "total_pages": 28,
+    "processed_pages": 28,
+    "total_categories": 5,
+    "total_sections": 17,
+    "total_items": 88,
+    "total_recitations": 12,
+    "total_references": 3,
+    "total_review_issues": 10
+  }
+}

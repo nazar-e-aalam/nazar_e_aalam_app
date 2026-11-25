@@ -74,7 +74,9 @@ class ModernMubarakNamesScreen extends StatelessWidget {
                         ),
                         boxShadow: [
                           BoxShadow(
-                            color: Colors.black.withValues(alpha: dark ? 0.25 : 0.04),
+                            color: Colors.black.withValues(
+                              alpha: dark ? 0.25 : 0.04,
+                            ),
                             blurRadius: 16,
                             offset: const Offset(0, 6),
                           ),
@@ -92,9 +94,12 @@ class ModernMubarakNamesScreen extends StatelessWidget {
                                   ? const Color(0xFF2B1D13)
                                   : Theme.of(context).primaryColor,
                               endColor: dark
-                                  ? const Color(0xFF3A2E24).withValues(alpha: 0.5)
-                                  : AppColorModern.primaryColorDark
-                                      .withValues(alpha: 0.6),
+                                  ? const Color(
+                                      0xFF3A2E24,
+                                    ).withValues(alpha: 0.5)
+                                  : AppColorModern.primaryColorDark.withValues(
+                                      alpha: 0.6,
+                                    ),
                             ),
                             const SizedBox(width: 14),
                             Expanded(

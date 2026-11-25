@@ -9,10 +9,7 @@ import 'package:nazar_e_alam/view/screens/wallpapers/widget/wallpaper_grid.dart'
 class WallpaperScreens extends StatelessWidget {
   final bool? appBackButton;
 
-  const WallpaperScreens({
-    super.key,
-    this.appBackButton,
-  });
+  const WallpaperScreens({super.key, this.appBackButton});
 
   @override
   Widget build(BuildContext context) {
@@ -21,10 +18,7 @@ class WallpaperScreens extends StatelessWidget {
         title: 'wallpapers_key'.tr,
         isBackButtonExist: appBackButton == true,
       ),
-      body: const SafeArea(
-        child: WallpaperGrid(),
-      ),
+      body: const SafeArea(child: WallpaperGrid()),
     );
   }
 }
-

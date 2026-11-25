@@ -48,9 +48,7 @@ class ModernHadithBooksScreen extends StatelessWidget {
             }
 
             return ModernGlassPanel(
-              color: dark
-                  ? const Color(0x0AFFFFFF)
-                  : AppColorModern.glassFill,
+              color: dark ? const Color(0x0AFFFFFF) : AppColorModern.glassFill,
               child: ModernAnimatedList(
                 itemCount: books.length,
                 padding: const EdgeInsets.fromLTRB(
@@ -70,10 +68,10 @@ class ModernHadithBooksScreen extends StatelessWidget {
                     isFirst: index == 0,
                     isLast: index == books.length - 1,
                     onTap: () {
-                      Get.toNamed(RouteHelper.hadithChapters, arguments: [
-                        book.bookSlug,
-                        book.bookName,
-                      ]);
+                      Get.toNamed(
+                        RouteHelper.hadithChapters,
+                        arguments: [book.bookSlug, book.bookName],
+                      );
                     },
                   );
                 },

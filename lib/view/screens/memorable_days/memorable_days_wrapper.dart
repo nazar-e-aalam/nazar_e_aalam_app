@@ -10,10 +10,7 @@ import 'modern/modern_memorable_days_screen.dart';
 class MemorableDaysWrapper extends StatelessWidget {
   final bool appBackButton;
 
-  const MemorableDaysWrapper({
-    super.key,
-    required this.appBackButton,
-  });
+  const MemorableDaysWrapper({super.key, required this.appBackButton});
 
   @override
   Widget build(BuildContext context) {

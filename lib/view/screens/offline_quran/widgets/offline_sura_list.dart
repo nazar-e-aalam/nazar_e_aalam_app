@@ -105,8 +105,7 @@ class OfflineSuraList extends StatelessWidget {
                 trailing: Obx(
                   () => Text(
                     sura.arabicName,
-                    style: Get.find<SettingsController>()
-                        .selectedArabicFont
+                    style: Get.find<SettingsController>().selectedArabicFont
                         .copyWith(
                           fontSize: Get.find<SettingsController>()
                               .arabicFontSize

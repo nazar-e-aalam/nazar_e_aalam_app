@@ -21,11 +21,11 @@ class DuaController extends GetxController implements GetxService {
     super.onInit();
   }
 
-// local variable
+  // local variable
   RxBool isDuaListLoading = false.obs;
   DuaListModel? duaApiData;
 
-// get dua list form here
+  // get dua list form here
   Future<void> fetchDuaListData({String? translatorId}) async {
     try {
       isDuaListLoading(true);
@@ -49,7 +49,7 @@ class DuaController extends GetxController implements GetxService {
   RxBool isDuaDetailsLoading = false.obs;
   DuaDetailsModel? duaDetailApiData;
 
-// get dua details function
+  // get dua details function
   Future<void> fetchDuaDetailsData({String? duaId}) async {
     try {
       isDuaDetailsLoading(true);
@@ -81,13 +81,15 @@ class DuaController extends GetxController implements GetxService {
     String arabicDescription,
   ) {
     final duaId = DateTime.now().millisecondsSinceEpoch.toString();
-    duaList.add(LocalDuaModel(
-      id: duaId,
-      englishName: englishName,
-      arabicName: arabicName,
-      englishDescription: englishDescription,
-      arabicDescription: arabicDescription,
-    ));
+    duaList.add(
+      LocalDuaModel(
+        id: duaId,
+        englishName: englishName,
+        arabicName: arabicName,
+        englishDescription: englishDescription,
+        arabicDescription: arabicDescription,
+      ),
+    );
 
     LocalDuaStorage.saveDuaList(duaList);
   }

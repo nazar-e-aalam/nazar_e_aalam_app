@@ -11,10 +11,7 @@ import '../widget/kalima_content.dart';
 class ModernKalimaDetailsScreen extends StatelessWidget {
   final KalimaModel kalima;
 
-  const ModernKalimaDetailsScreen({
-    super.key,
-    required this.kalima,
-  });
+  const ModernKalimaDetailsScreen({super.key, required this.kalima});
 
   @override
   Widget build(BuildContext context) {
@@ -30,13 +27,8 @@ class ModernKalimaDetailsScreen extends StatelessWidget {
       ),
       body: SafeArea(
         child: ModernGlassPanel(
-          color: dark
-              ? const Color(0x0AFFFFFF)
-              : AppColorModern.glassFill,
-          child: KalimaDetailsContent(
-            kalima: kalima,
-            modern: true,
-          ),
+          color: dark ? const Color(0x0AFFFFFF) : AppColorModern.glassFill,
+          child: KalimaDetailsContent(kalima: kalima, modern: true),
         ),
       ),
     );

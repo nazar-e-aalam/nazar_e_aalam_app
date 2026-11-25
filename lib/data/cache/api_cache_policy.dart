@@ -1,4 +1,3 @@
-
 import 'package:nazar_e_alam/util/app_constants.dart';
 
 class ApiCachePolicy {
@@ -59,8 +58,7 @@ class ApiCachePolicy {
     }
 
     // Legacy detail endpoints
-    if (path.startsWith('duas') ||
-        path.startsWith('dhikrs')) {
+    if (path.startsWith('duas') || path.startsWith('dhikrs')) {
       return const Duration(hours: 24);
     }
 

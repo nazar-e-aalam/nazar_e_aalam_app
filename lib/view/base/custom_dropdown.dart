@@ -57,7 +57,8 @@ class _CustomDropDownState extends State<CustomDropDown> {
             children: [
               Text(
                 widget.title!,
-                style: widget.titleTextStyle ??
+                style:
+                    widget.titleTextStyle ??
                     robotoRegular.copyWith(
                       color: Theme.of(context).textTheme.bodyMedium!.color,
                       fontSize: Dimensions.FONT_SIZE_DEFAULT,
@@ -67,13 +68,15 @@ class _CustomDropDownState extends State<CustomDropDown> {
                 Text(
                   " *",
                   style: robotoRegular.copyWith(
-                      color: Theme.of(context).colorScheme.error,
-                      fontSize: Dimensions.FONT_SIZE_LARGE),
+                    color: Theme.of(context).colorScheme.error,
+                    fontSize: Dimensions.FONT_SIZE_LARGE,
+                  ),
                 ),
             ],
           ),
         SizedBox(
-            height: widget.title != null ? Dimensions.PADDING_SIZE_SMALL : 0),
+          height: widget.title != null ? Dimensions.PADDING_SIZE_SMALL : 0,
+        ),
 
         // Text Field Section
         SizedBox(
@@ -82,43 +85,52 @@ class _CustomDropDownState extends State<CustomDropDown> {
             alignedDropdown: true,
             padding: EdgeInsets.zero,
             child: Container(
-              color: widget.bgColor ??
+              color:
+                  widget.bgColor ??
                   Theme.of(context).highlightColor.withOpacity(0.1),
               child: DropdownButtonFormField<String>(
                 dropdownColor: Theme.of(context).cardColor,
                 decoration: InputDecoration(
                   border: const OutlineInputBorder(),
                   contentPadding: const EdgeInsets.symmetric(
-                      horizontal: 0, vertical: Dimensions.PADDING_SIZE_DEFAULT),
+                    horizontal: 0,
+                    vertical: Dimensions.PADDING_SIZE_DEFAULT,
+                  ),
                   focusedBorder: OutlineInputBorder(
-                    borderRadius:
-                        BorderRadius.circular(Dimensions.RADIUS_SMALL),
+                    borderRadius: BorderRadius.circular(
+                      Dimensions.RADIUS_SMALL,
+                    ),
                     borderSide: BorderSide(
                       color: Theme.of(context).primaryColor,
                       width: 1,
                     ),
                   ),
                   errorBorder: OutlineInputBorder(
-                    borderRadius:
-                        BorderRadius.circular(Dimensions.RADIUS_SMALL),
+                    borderRadius: BorderRadius.circular(
+                      Dimensions.RADIUS_SMALL,
+                    ),
                     borderSide: BorderSide(
-                      color:
-                          Theme.of(context).colorScheme.error.withOpacity(.7),
+                      color: Theme.of(
+                        context,
+                      ).colorScheme.error.withOpacity(.7),
                       width: 1,
                     ),
                   ),
                   focusedErrorBorder: OutlineInputBorder(
-                    borderRadius:
-                        BorderRadius.circular(Dimensions.RADIUS_SMALL),
+                    borderRadius: BorderRadius.circular(
+                      Dimensions.RADIUS_SMALL,
+                    ),
                     borderSide: BorderSide(
-                      color:
-                          Theme.of(context).colorScheme.error.withOpacity(.7),
+                      color: Theme.of(
+                        context,
+                      ).colorScheme.error.withOpacity(.7),
                       width: 1,
                     ),
                   ),
                   enabledBorder: OutlineInputBorder(
-                    borderRadius:
-                        BorderRadius.circular(Dimensions.RADIUS_SMALL),
+                    borderRadius: BorderRadius.circular(
+                      Dimensions.RADIUS_SMALL,
+                    ),
                     borderSide: BorderSide(
                       color: Theme.of(context).primaryColor,
                       width: 1,
@@ -135,7 +147,8 @@ class _CustomDropDownState extends State<CustomDropDown> {
                 ),
                 icon: Padding(
                   padding: const EdgeInsets.only(
-                      right: Dimensions.PADDING_SIZE_EXTRA_SMALL),
+                    right: Dimensions.PADDING_SIZE_EXTRA_SMALL,
+                  ),
                   child: Icon(
                     Icons.arrow_drop_down,
                     color: Theme.of(context).disabledColor,
@@ -158,8 +171,9 @@ class _CustomDropDownState extends State<CustomDropDown> {
                           textAlign: TextAlign.start,
                           style: robotoRegular.copyWith(
                             fontSize: Dimensions.FONT_SIZE_DEFAULT,
-                            color:
-                                Theme.of(context).textTheme.bodyMedium!.color,
+                            color: Theme.of(
+                              context,
+                            ).textTheme.bodyMedium!.color,
                           ),
                           overflow: TextOverflow.ellipsis,
                           maxLines: 1,

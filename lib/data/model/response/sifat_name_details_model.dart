@@ -30,13 +30,14 @@ class Data {
   String? meaning;
   String? nameBenefits;
 
-  Data(
-      {this.id,
-      this.enName,
-      this.arName,
-      this.translatedName,
-      this.meaning,
-      this.nameBenefits});
+  Data({
+    this.id,
+    this.enName,
+    this.arName,
+    this.translatedName,
+    this.meaning,
+    this.nameBenefits,
+  });
 
   Data.fromJson(Map<String, dynamic> json) {
     id = json['id'];

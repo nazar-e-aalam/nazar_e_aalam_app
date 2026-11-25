@@ -1,9 +1,5 @@
 class HadithChapterModel {
-  HadithChapterModel({
-    this.status,
-    this.message,
-    this.chapters,
-  });
+  HadithChapterModel({this.status, this.message, this.chapters});
 
   HadithChapterModel.fromJson(dynamic json) {
     status = json['status'];
@@ -22,12 +18,11 @@ class HadithChapterModel {
     num? status,
     String? message,
     List<Chapters>? chapters,
-  }) =>
-      HadithChapterModel(
-        status: status ?? this.status,
-        message: message ?? this.message,
-        chapters: chapters ?? this.chapters,
-      );
+  }) => HadithChapterModel(
+    status: status ?? this.status,
+    message: message ?? this.message,
+    chapters: chapters ?? this.chapters,
+  );
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
     map['status'] = status;
@@ -70,15 +65,14 @@ class Chapters {
     String? chapterUrdu,
     String? chapterArabic,
     String? bookSlug,
-  }) =>
-      Chapters(
-        id: id ?? this.id,
-        chapterNumber: chapterNumber ?? this.chapterNumber,
-        chapterEnglish: chapterEnglish ?? this.chapterEnglish,
-        chapterUrdu: chapterUrdu ?? this.chapterUrdu,
-        chapterArabic: chapterArabic ?? this.chapterArabic,
-        bookSlug: bookSlug ?? this.bookSlug,
-      );
+  }) => Chapters(
+    id: id ?? this.id,
+    chapterNumber: chapterNumber ?? this.chapterNumber,
+    chapterEnglish: chapterEnglish ?? this.chapterEnglish,
+    chapterUrdu: chapterUrdu ?? this.chapterUrdu,
+    chapterArabic: chapterArabic ?? this.chapterArabic,
+    bookSlug: bookSlug ?? this.bookSlug,
+  );
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
     map['id'] = id;

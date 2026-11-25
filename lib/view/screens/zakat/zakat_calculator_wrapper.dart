@@ -24,10 +24,8 @@ class _ZakatCalculatorWrapperState extends State<ZakatCalculatorWrapper> {
       final modern = layout == HomeLayoutController.modern;
       return AnimatedSwitcher(
         duration: const Duration(milliseconds: 400),
-        transitionBuilder: (child, animation) => FadeTransition(
-          opacity: animation,
-          child: child,
-        ),
+        transitionBuilder: (child, animation) =>
+            FadeTransition(opacity: animation, child: child),
         child: modern
             ? ModernZakatCalculatorScreen(
                 key: const ValueKey('modern'),

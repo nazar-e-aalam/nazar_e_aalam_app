@@ -12,7 +12,7 @@ void openAlphabetSettings(BuildContext context) {
   showModalBottomSheet(
     enableDrag: false,
     isDismissible: false,
-    shape: RoundedRectangleBorder(
+    shape: const RoundedRectangleBorder(
       borderRadius: BorderRadius.only(
         topLeft: Radius.circular(Dimensions.RADIUS_EXTRA_LARGE),
         topRight: Radius.circular(Dimensions.RADIUS_EXTRA_LARGE),

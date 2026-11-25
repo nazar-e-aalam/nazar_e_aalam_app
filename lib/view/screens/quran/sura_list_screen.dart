@@ -14,6 +14,7 @@ import 'package:nazar_e_alam/view/screens/quran/quran_settings_screen.dart';
 import 'package:nazar_e_alam/view/screens/quran/widget/bookmark_tab.dart';
 import 'package:nazar_e_alam/view/screens/quran/widget/juz_list_widget.dart';
 import 'package:nazar_e_alam/view/screens/quran/widget/sura_list_widget.dart';
+import 'widget/quran_language_menu.dart';
 
 class SuraList extends StatelessWidget {
   final bool appBackButton;
@@ -30,16 +31,27 @@ class SuraList extends StatelessWidget {
         title: "holy_quran".tr,
         isBackButtonExist: appBackButton == true ? true : false,
         actions: [
+          QuranLanguageMenu(
+            iconColor: Theme.of(context).brightness == Brightness.dark
+                ? Theme.of(context).textTheme.bodyMedium?.color
+                : Theme.of(context).cardColor,
+          ),
+
           IconButton(
-            onPressed: () {
-              openBottomSheet(context);
-            },
+            onPressed: () => openBottomSheet(context),
+
             icon: SvgPicture.asset(
               Images.Icon_Quran_Setting,
-              color: Get.isDarkMode
-                  ? Theme.of(context).textTheme.bodyMedium!.color
-                  : Theme.of(context).cardColor,
               height: 28,
+
+              colorFilter: ColorFilter.mode(
+                Theme.of(context).brightness == Brightness.dark
+                    ? Theme.of(context).textTheme.bodyMedium?.color ??
+                          Colors.white
+                    : Theme.of(context).cardColor,
+
+                BlendMode.srcIn,
+              ),
             ),
           ),
         ],
@@ -61,12 +73,14 @@ class SuraList extends StatelessWidget {
                     vertical: Dimensions.PADDING_SIZE_EXTRA_SMALL,
                   ),
                   labelPadding: const EdgeInsets.symmetric(
-                      horizontal: Dimensions.PADDING_SIZE_EXTRA_SMALL),
+                    horizontal: Dimensions.PADDING_SIZE_EXTRA_SMALL,
+                  ),
                   isScrollable: false,
                   indicator: BoxDecoration(
                     color: Theme.of(context).primaryColor,
-                    borderRadius:
-                        BorderRadius.circular(Dimensions.RADIUS_SMALL),
+                    borderRadius: BorderRadius.circular(
+                      Dimensions.RADIUS_SMALL,
+                    ),
                   ),
                   // all tabs name
                   tabs: [
@@ -81,7 +95,7 @@ class SuraList extends StatelessWidget {
                     children: [
                       const Center(child: SuraListWidget()),
                       const Center(child: JuzListWidget()),
-                      BookmarkTab()
+                      BookmarkTab(),
                     ],
                   ),
                 ),

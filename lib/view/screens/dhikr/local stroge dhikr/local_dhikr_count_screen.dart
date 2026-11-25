@@ -35,10 +35,7 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
     );
 
     _animation = Tween<double>(begin: 1, end: 0.8).animate(
-      CurvedAnimation(
-        parent: _controller,
-        curve: Curves.easeInOutBack,
-      ),
+      CurvedAnimation(parent: _controller, curve: Curves.easeInOutBack),
     );
 
     // Add a listener to rebuild the widget on each animation tick
@@ -54,14 +51,15 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
     super.dispose();
   }
 
-  final DhikrController localDhikrController =
-      Get.put(DhikrController(dhikrRepo: Get.find()));
+  final DhikrController localDhikrController = Get.put(
+    DhikrController(dhikrRepo: Get.find()),
+  );
 
   @override
   Widget build(BuildContext context) {
     var dhikrId = localDhikrController.localDhikrId.toString();
-    final LocalDhikrModel? dhikr =
-        localDhikrController.dhikrList.firstWhereOrNull((d) => d.id == dhikrId);
+    final LocalDhikrModel? dhikr = localDhikrController.dhikrList
+        .firstWhereOrNull((d) => d.id == dhikrId);
 
     if (dhikr == null) {
       return Scaffold(
@@ -79,8 +77,9 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
     }
     return GetBuilder<DhikrController>(
       builder: (localDhikrController) {
-        localDhikrController
-            .localLoadCount(localDhikrController.localDhikrId.toString());
+        localDhikrController.localLoadCount(
+          localDhikrController.localDhikrId.toString(),
+        );
         return Scaffold(
           // Appbar start ===>
           appBar: CustomAppBar(
@@ -91,11 +90,10 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
           // body start ===>
           body: Padding(
             padding: const EdgeInsets.symmetric(
-                horizontal: Dimensions.PADDING_SIZE_DEFAULT),
+              horizontal: Dimensions.PADDING_SIZE_DEFAULT,
+            ),
             child: localDhikrController.dhikrList.isEmpty
-                ? const Center(
-                    child: LoadingIndicator(),
-                  )
+                ? const Center(child: LoadingIndicator())
                 : Column(
                     children: [
                       // Arabic and English Dhikr name and discription section---->
@@ -110,8 +108,8 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
                                 children: [
                                   Padding(
                                     padding: const EdgeInsets.symmetric(
-                                        vertical:
-                                            Dimensions.PADDING_SIZE_SMALL),
+                                      vertical: Dimensions.PADDING_SIZE_SMALL,
+                                    ),
                                     child: SizedBox(
                                       height: 50,
                                       width: double.infinity,
@@ -142,14 +140,14 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
                                     style: Get.find<SettingsController>()
                                         .selectedArabicFont
                                         .copyWith(
-                                      fontSize: Get.find<SettingsController>()
-                                          .arabicFontSize
-                                          .value,
-                                      color: Theme.of(context)
-                                          .textTheme
-                                          .bodyLarge!
-                                          .color,
-                                    ),
+                                          fontSize:
+                                              Get.find<SettingsController>()
+                                                  .arabicFontSize
+                                                  .value,
+                                          color: Theme.of(
+                                            context,
+                                          ).textTheme.bodyLarge!.color,
+                                        ),
                                   ),
                                   const Divider(),
                                   Text(
@@ -170,10 +168,9 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
                                     style: robotoMedium.copyWith(
                                       fontSize:
                                           Dimensions.FONT_SIZE_EXTRA_LARGE,
-                                      color: Theme.of(context)
-                                          .textTheme
-                                          .bodyLarge!
-                                          .color,
+                                      color: Theme.of(
+                                        context,
+                                      ).textTheme.bodyLarge!.color,
                                     ),
                                   ),
                                 ],
@@ -200,15 +197,15 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
                               scale: _animation.value,
                               child: Obx(
                                 () => Text(
-                                  translateText(localDhikrController.count.value
-                                      .toString()),
+                                  translateText(
+                                    localDhikrController.count.value.toString(),
+                                  ),
                                   style: robotoMedium.copyWith(
                                     fontSize:
                                         Dimensions.FONT_SIZE_EXTRA_LARGE + 30,
-                                    color: Theme.of(context)
-                                        .textTheme
-                                        .bodyLarge!
-                                        .color,
+                                    color: Theme.of(
+                                      context,
+                                    ).textTheme.bodyLarge!.color,
                                   ),
                                 ),
                               ),
@@ -235,8 +232,9 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
                                     onTap: () async {
                                       Vibration.vibrate(duration: 50);
                                       localDhikrController.localIncrementCount(
-                                          localDhikrController.localDhikrId
-                                              .toString());
+                                        localDhikrController.localDhikrId
+                                            .toString(),
+                                      );
                                       _controller.forward(from: 0);
                                     },
                                     child: SvgPicture.asset(
@@ -272,16 +270,18 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
                                             Navigator.of(context).pop();
                                             localDhikrController
                                                 .localDeleteCount(
-                                                    localDhikrController
-                                                        .localDhikrId
-                                                        .toString());
+                                                  localDhikrController
+                                                      .localDhikrId
+                                                      .toString(),
+                                                );
                                           },
                                           child: Text(
                                             'yes'.tr,
                                             style: robotoMedium.copyWith(
-                                                color: Theme.of(context)
-                                                    .colorScheme
-                                                    .error),
+                                              color: Theme.of(
+                                                context,
+                                              ).colorScheme.error,
+                                            ),
                                           ),
                                         ),
                                         TextButton(
@@ -292,8 +292,10 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
                                           child: Text(
                                             'no'.tr,
                                             style: robotoMedium.copyWith(
-                                                color: Theme.of(context)
-                                                    .primaryColor),
+                                              color: Theme.of(
+                                                context,
+                                              ).primaryColor,
+                                            ),
                                           ),
                                         ),
                                       ],
@@ -303,7 +305,9 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
                               },
                               child: Padding(
                                 padding: const EdgeInsets.only(
-                                    right: 10, bottom: 10),
+                                  right: 10,
+                                  bottom: 10,
+                                ),
                                 child: Align(
                                   alignment: Alignment.centerRight,
                                   child: SvgPicture.asset(
@@ -321,7 +325,8 @@ class _LocalDhikrCountScreenState extends State<LocalDhikrCountScreen>
                       ),
 
                       const SizedBox(
-                          height: Dimensions.PADDING_SIZE_EXTRA_LARGE)
+                        height: Dimensions.PADDING_SIZE_EXTRA_LARGE,
+                      ),
                     ],
                   ),
           ),

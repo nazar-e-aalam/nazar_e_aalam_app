@@ -21,7 +21,7 @@ class FeatureGrid extends StatelessWidget {
   });
 
   static const double _cardHeight = 116;
-  static const double _gap = 7;
+  static const double _gap = 3;
 
   @override
   Widget build(BuildContext context) {
@@ -43,8 +43,7 @@ class FeatureGrid extends StatelessWidget {
               mainAxisExtent: _cardHeight,
             ),
             children: [
-              for (final item in items)
-                FeatureCard(item: item, modern: modern),
+              for (final item in items) FeatureCard(item: item, modern: modern),
             ],
           ),
           SizedBox(height: bottomPadding),

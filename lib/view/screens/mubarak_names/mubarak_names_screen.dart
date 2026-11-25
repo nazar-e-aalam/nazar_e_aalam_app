@@ -14,12 +14,30 @@ class MubarakNamesScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final existing = [
-      (MubarakNamesCategory.allah, '99 Names of Allah ﷻ', 'أَسْمَاءُ اللَّهِ الْحُسْنَى', Icons.auto_awesome),
-      (MubarakNamesCategory.muhammad, '99 Names of Muhammad ﷺ', 'أَسْمَاءُ النَّبِيِّ ﷺ', Icons.menu_book_rounded),
-      (MubarakNamesCategory.ghaus, '11 Names of Ghaus-e-Azam', 'غوثِ اعظم', Icons.star_rounded),
+      (
+        MubarakNamesCategory.allah,
+        '99 Names of Allah ﷻ',
+        'أَسْمَاءُ اللَّهِ الْحُسْنَى',
+        Icons.auto_awesome,
+      ),
+      (
+        MubarakNamesCategory.muhammad,
+        '99 Names of Muhammad ﷺ',
+        'أَسْمَاءُ النَّبِيِّ ﷺ',
+        Icons.menu_book_rounded,
+      ),
+      (
+        MubarakNamesCategory.ghaus,
+        '11 Names of Ghaus-e-Azam',
+        'غوثِ اعظم',
+        Icons.star_rounded,
+      ),
     ];
     return Scaffold(
-      appBar: CustomAppBar(title: 'Mubarak Names', isBackButtonExist: appBackButton),
+      appBar: CustomAppBar(
+        title: 'Mubarak Names',
+        isBackButtonExist: appBackButton,
+      ),
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
@@ -31,13 +49,23 @@ class MubarakNamesScreen extends StatelessWidget {
                 child: ListTile(
                   contentPadding: const EdgeInsets.all(12),
                   leading: CircleAvatar(
-                    backgroundColor: Theme.of(context).primaryColor.withValues(alpha: 0.12),
-                    child: Icon(existing[i].$4, color: Theme.of(context).primaryColor),
+                    backgroundColor: Theme.of(
+                      context,
+                    ).primaryColor.withValues(alpha: 0.12),
+                    child: Icon(
+                      existing[i].$4,
+                      color: Theme.of(context).primaryColor,
+                    ),
                   ),
-                  title: Text(existing[i].$2, style: const TextStyle(fontWeight: FontWeight.w600)),
+                  title: Text(
+                    existing[i].$2,
+                    style: const TextStyle(fontWeight: FontWeight.w600),
+                  ),
                   subtitle: Text(existing[i].$3),
                   trailing: const Icon(Icons.chevron_right_rounded),
-                  onTap: () => Get.to(() => MubarakNamesListWrapper(category: existing[i].$1)),
+                  onTap: () => Get.to(
+                    () => MubarakNamesListWrapper(category: existing[i].$1),
+                  ),
                 ),
               ),
             ),

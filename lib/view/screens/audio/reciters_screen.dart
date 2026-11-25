@@ -78,7 +78,8 @@ class _ReciterScreenState extends State<ReciterScreen> {
                         reciter.profilePicture != null &&
                             reciter.profilePicture!.isNotEmpty
                         ? CachedNetworkImageProvider(reciter.profilePicture!)
-                        : AssetImage(Images.Reciter_Person) as ImageProvider,
+                        : const AssetImage(Images.Reciter_Person)
+                              as ImageProvider,
                   ),
                   title: Text(
                     reciter.name ?? 'no_name_found_key'.tr,

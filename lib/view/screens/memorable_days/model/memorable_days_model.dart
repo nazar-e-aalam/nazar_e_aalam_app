@@ -5,8 +5,14 @@ class MemorableDaysData {
   factory MemorableDaysData.fromJson(Map<String, dynamic> json) {
     final raw = json['months'];
     if (raw is! List) throw const FormatException('Missing months array');
-    return MemorableDaysData(raw.map((item) =>
-      MemorableMonth.fromJson(Map<String, dynamic>.from(item as Map))).toList());
+    return MemorableDaysData(
+      raw
+          .map(
+            (item) =>
+                MemorableMonth.fromJson(Map<String, dynamic>.from(item as Map)),
+          )
+          .toList(),
+    );
   }
 }
 
@@ -31,8 +37,13 @@ class MemorableMonth {
   final Map<String, String> heading;
   final List<MemorableDay> days;
 
-  const MemorableMonth({required this.month, required this.id, required this.name,
-    required this.heading, required this.days});
+  const MemorableMonth({
+    required this.month,
+    required this.id,
+    required this.name,
+    required this.heading,
+    required this.days,
+  });
 
   factory MemorableMonth.fromJson(Map<String, dynamic> json) {
     return MemorableMonth(
@@ -40,8 +51,11 @@ class MemorableMonth {
       id: (json['id'] ?? 'month_${json['month']}').toString(),
       name: parseTranslations(json['name'] ?? json['title']),
       heading: parseTranslations(json['heading']),
-      days: ((json['days'] as List?) ?? []).map((d) =>
-        MemorableDay.fromJson(Map<String, dynamic>.from(d as Map))).toList(),
+      days: ((json['days'] as List?) ?? [])
+          .map(
+            (d) => MemorableDay.fromJson(Map<String, dynamic>.from(d as Map)),
+          )
+          .toList(),
     );
   }
 }
@@ -55,8 +69,19 @@ class MemorableDay {
     final raw = json['events'];
     // Supports the final event-array schema and the older Gujarati draft schema.
     final entries = raw is List
-      ? raw.map((e) => MemorableEvent.fromJson(Map<String, dynamic>.from(e as Map))).toList()
-      : [MemorableEvent(id: '', description: parseTranslations(json['description']))];
+        ? raw
+              .map(
+                (e) => MemorableEvent.fromJson(
+                  Map<String, dynamic>.from(e as Map),
+                ),
+              )
+              .toList()
+        : [
+            MemorableEvent(
+              id: '',
+              description: parseTranslations(json['description']),
+            ),
+          ];
     return MemorableDay(day: (json['day'] as num?)?.toInt(), events: entries);
   }
 }

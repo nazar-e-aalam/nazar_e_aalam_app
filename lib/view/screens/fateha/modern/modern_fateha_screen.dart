@@ -1,56 +1,135 @@
 // ignore_for_file: deprecated_member_use
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-
 import '../../../../data/model/fateha_model.dart';
 import '../../../../data/repository/fateha_repository.dart';
 import 'package:nazar_e_alam/view/base/custom_app_bar.dart';
 
-/// Dedicated modern reading layout. Uses the same JSON as the classic screen.
 class ModernFatehaScreen extends StatefulWidget {
   final bool appBackButton;
   const ModernFatehaScreen({super.key, this.appBackButton = true});
-
   @override
   State<ModernFatehaScreen> createState() => _ModernFatehaScreenState();
 }
 
 class _ModernFatehaScreenState extends State<ModernFatehaScreen> {
   late Future<FatehaDocument> _future;
+  final _scroll = ScrollController();
+  final _anchors = <GlobalKey>[];
+  double _scale = 1, _progress = 0;
+  bool _showArabic = true;
+  String get _lang => Get.locale?.languageCode ?? 'gu';
+  String _label(List<String> values) {
+    final index = ['en', 'hi', 'gu', 'ur', 'ar', 'sw'].indexOf(_lang);
+    return values[index < 0 ? 0 : index];
+  }
 
   @override
   void initState() {
     super.initState();
     _future = FatehaRepository().load();
+    _scroll.addListener(_updateProgress);
+  }
+
+  void _updateProgress() {
+    if (!_scroll.hasClients || !_scroll.position.hasContentDimensions) return;
+    final max = _scroll.position.maxScrollExtent;
+    final value = max <= 0
+        ? 0.0
+        : (_scroll.offset / max).clamp(0.0, 1.0).toDouble();
+    if (mounted && (value - _progress).abs() > .005) {
+      setState(() => _progress = value);
+    }
+  }
+
+  @override
+  void dispose() {
+    _scroll.dispose();
+    super.dispose();
   }
 
   void _retry() {
     FatehaRepository.clearCache();
-    final next = FatehaRepository().load();
     setState(() {
-      _future = next;
+      _future = FatehaRepository().load();
+      _anchors.clear();
+      _progress = 0;
     });
+  }
+
+  Future<void> _contents(FatehaDocument doc) async {
+    final index = await showModalBottomSheet<int>(
+      context: context,
+      showDragHandle: true,
+      builder: (ctx) => SafeArea(
+        child: ListView.builder(
+          shrinkWrap: true,
+          itemCount: doc.sections.length,
+          itemBuilder: (_, i) => ListTile(
+            leading: CircleAvatar(child: Text('${i + 1}')),
+            title: Text(
+              doc.sections[i].localizedTitle(_lang, doc.defaultLanguage),
+            ),
+            onTap: () => Navigator.pop(ctx, i),
+          ),
+        ),
+      ),
+    );
+    if (!mounted || index == null || index >= _anchors.length) return;
+    final target = _anchors[index].currentContext;
+    if (target != null && target.mounted) {
+      await Scrollable.ensureVisible(
+        target,
+        duration: const Duration(milliseconds: 450),
+        curve: Curves.easeInOut,
+      );
+    }
+  }
+
+  TextStyle _reading(
+    BuildContext context,
+    String value, {
+    bool arabic = false,
+  }) {
+    final rtl = arabic || _lang == 'ar' || _lang == 'ur';
+    return (Theme.of(context).textTheme.bodyLarge ?? const TextStyle())
+        .copyWith(
+          fontSize:
+              (arabic || _lang == 'ar'
+                  ? 26
+                  : _lang == 'ur'
+                  ? 22
+                  : 18) *
+              _scale,
+          height: rtl ? 2.1 : 1.8,
+          fontWeight: FontWeight.w400,
+          fontFamily: rtl
+              ? null
+              : Theme.of(context).textTheme.bodyLarge?.fontFamily,
+          fontFamilyFallback: rtl
+              ? const ['Noto Naskh Arabic', 'Noto Nastaliq Urdu', 'sans-serif']
+              : null,
+        );
   }
 
   @override
   Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final scheme = theme.colorScheme;
-    final language = Get.locale?.languageCode ?? 'gu';
-    final rtl = language == 'ar' || language == 'ur';
-
+    final theme = Theme.of(context), c = theme.colorScheme;
+    final rtl = _lang == 'ar' || _lang == 'ur';
+    final title = _label([
+      'Fateha Ka Tarika',
+      'फ़ातिहा का तरीक़ा',
+      'ફાતિહાનો તરીકો',
+      'فاتحہ کا طریقہ',
+      'طريقة الفاتحة',
+      'Utaratibu wa Fatiha',
+    ]);
     return Scaffold(
       appBar: CustomAppBar(
         isBackButtonExist: widget.appBackButton,
-        title: (fatehaLocalize(const {
-          'en': 'Fateha Ka Tarika',
-          'gu': 'ફાતિહે કા તરીકા',
-          'hi': 'फ़ातिहा का तरीक़ा',
-          'sw': 'Utaratibu wa Fatiha',
-          'ar': 'طريقة الفاتحة',
-          'ur': 'فاتحہ کا طریقہ',
-        }, language, 'gu')),
+        title: title,
       ),
       body: FutureBuilder<FatehaDocument>(
         future: _future,
@@ -58,135 +137,333 @@ class _ModernFatehaScreenState extends State<ModernFatehaScreen> {
           if (snapshot.connectionState != ConnectionState.done) {
             return const Center(child: CircularProgressIndicator());
           }
-          if (snapshot.hasError || !snapshot.hasData) {
+          if (!snapshot.hasData || snapshot.hasError) {
             return Center(
-              child: Padding(
-                padding: const EdgeInsets.all(24),
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text('Unable to load Fateha: ${snapshot.error}',
-                        textAlign: TextAlign.center),
-                    const SizedBox(height: 16),
-                    FilledButton(onPressed: _retry, child: const Text('Retry')),
-                  ],
-                ),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  const Icon(Icons.error_outline, size: 40),
+                  const SizedBox(height: 12),
+                  Text(
+                    _label([
+                      'Unable to load',
+                      'लोड नहीं हुआ',
+                      'લોડ થઈ શક્યું નથી',
+                      'لوڈ نہیں ہو سکا',
+                      'تعذر التحميل',
+                      'Imeshindwa kupakia',
+                    ]),
+                  ),
+                  FilledButton(
+                    onPressed: _retry,
+                    child: Text(
+                      _label([
+                        'Retry',
+                        'पुनः प्रयास',
+                        'ફરી પ્રયાસ',
+                        'دوبارہ کوشش',
+                        'إعادة المحاولة',
+                        'Jaribu tena',
+                      ]),
+                    ),
+                  ),
+                ],
               ),
             );
           }
-          final document = snapshot.requireData;
-          return SelectionArea(
-            child: ListView.builder(
-              padding: const EdgeInsets.fromLTRB(16, 16, 16, 28),
-              itemCount: document.sections.length,
-              itemBuilder: (context, index) {
-                // if (index == 0) {
-                //   return Padding(
-                //     padding: const EdgeInsets.fromLTRB(8, 10, 8, 26),
-                //     child: Column(
-                //       children: [
-                //         Icon(Icons.menu_book_rounded, size: 40, color: scheme.primary),
-                //         const SizedBox(height: 12),
-                //         Text(document.localizedTitle(language),
-                //             textAlign: TextAlign.center,
-                //             style: theme.textTheme.headlineSmall?.copyWith(
-                //                 fontWeight: FontWeight.w800)),
-                //       ],
-                //     ),
-                //   );
-                // }
-                final section = document.sections[index];
-                return Container(
-                  margin: const EdgeInsets.only(bottom: 16),
-                  padding: const EdgeInsets.fromLTRB(18, 20, 18, 16),
-                  decoration: BoxDecoration(
-                    color: scheme.surfaceContainerLow,
-                    borderRadius: BorderRadius.circular(22),
-                    border: Border.all(color: scheme.outlineVariant.withValues(alpha: 0.5)),
+          final doc = snapshot.requireData;
+          while (_anchors.length < doc.sections.length) {
+            _anchors.add(GlobalKey());
+          }
+          return Directionality(
+            textDirection: rtl ? TextDirection.rtl : TextDirection.ltr,
+            child: SafeArea(
+              top: false,
+              child: Column(
+                children: [
+                  LinearProgressIndicator(
+                    value: _progress,
+                    minHeight: 3,
+                    backgroundColor: c.surfaceContainerHighest,
                   ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: [
-                      Text(section.localizedTitle(language, document.defaultLanguage),
-                          textAlign: TextAlign.center,
-                          textDirection: rtl ? TextDirection.rtl : TextDirection.ltr,
-                          style: theme.textTheme.titleLarge?.copyWith(
-                              fontWeight: FontWeight.w700, color: scheme.primary)),
-                      const SizedBox(height: 18),
-                      for (final item in section.items)
-                        _ModernFatehaItem(
-                          item: item,
-                          language: language,
-                          fallback: document.defaultLanguage,
+                  Padding(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 12,
+                      vertical: 6,
+                    ),
+                    child: Row(
+                      children: [
+                        IconButton(
+                          tooltip: _label([
+                            'Contents',
+                            'विषय सूची',
+                            'અનુક્રમણિકા',
+                            'فہرست',
+                            'الفهرس',
+                            'Yaliyomo',
+                          ]),
+                          onPressed: () => _contents(doc),
+                          icon: const Icon(Icons.format_list_bulleted_rounded),
                         ),
-                    ],
+                        const Spacer(),
+                        IconButton(
+                          onPressed: _scale <= .8
+                              ? null
+                              : () => setState(
+                                  () => _scale = (_scale - .1)
+                                      .clamp(.8, 1.8)
+                                      .toDouble(),
+                                ),
+                          icon: const Icon(Icons.text_decrease),
+                        ),
+                        Text('${(_scale * 100).round()}%'),
+                        IconButton(
+                          onPressed: _scale >= 1.8
+                              ? null
+                              : () => setState(
+                                  () => _scale = (_scale + .1)
+                                      .clamp(.8, 1.8)
+                                      .toDouble(),
+                                ),
+                          icon: const Icon(Icons.text_increase),
+                        ),
+                        if (_lang != 'ar')
+                          IconButton(
+                            tooltip: _label([
+                              'Arabic text',
+                              'अरबी पाठ',
+                              'અરબી લખાણ',
+                              'عربی متن',
+                              'النص العربي',
+                              'Maandishi ya Kiarabu',
+                            ]),
+                            onPressed: () =>
+                                setState(() => _showArabic = !_showArabic),
+                            icon: Icon(
+                              _showArabic
+                                  ? Icons.visibility
+                                  : Icons.visibility_off,
+                            ),
+                          ),
+                      ],
+                    ),
                   ),
-                );
-              },
+                  Expanded(
+                    child: SelectionArea(
+                      child: SingleChildScrollView(
+                        controller: _scroll,
+                        padding: const EdgeInsets.fromLTRB(16, 8, 16, 32),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                          children: [
+                            Container(
+                              padding: const EdgeInsets.all(24),
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(26),
+                                gradient: LinearGradient(
+                                  colors: [
+                                    c.primary,
+                                    c.primary.withValues(alpha: .82),
+                                  ],
+                                ),
+                              ),
+                              child: Column(
+                                children: [
+                                  Icon(
+                                    Icons.auto_stories_outlined,
+                                    color: c.onPrimary,
+                                    size: 32,
+                                  ),
+                                  const SizedBox(height: 14),
+                                  Text(
+                                    title,
+                                    textAlign: TextAlign.center,
+                                    style: theme.textTheme.headlineSmall
+                                        ?.copyWith(
+                                          color: c.onPrimary,
+                                          fontWeight: FontWeight.w700,
+                                        ),
+                                  ),
+                                  const SizedBox(height: 12),
+                                  Text(
+                                    '${doc.sections.length} · ${(_progress * 100).round()}%',
+                                    style: TextStyle(color: c.onPrimary),
+                                  ),
+                                  const SizedBox(height: 8),
+                                  LinearProgressIndicator(
+                                    value: _progress,
+                                    color: c.onPrimary,
+                                    backgroundColor: c.onPrimary.withValues(
+                                      alpha: .25,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                            const SizedBox(height: 24),
+                            for (var i = 0; i < doc.sections.length; i++)
+                              Container(
+                                key: _anchors[i],
+                                margin: const EdgeInsets.only(bottom: 20),
+                                padding: const EdgeInsets.all(18),
+                                decoration: BoxDecoration(
+                                  color: c.surfaceContainerLow,
+                                  borderRadius: BorderRadius.circular(24),
+                                  border: Border.all(
+                                    color: c.outlineVariant.withValues(
+                                      alpha: .5,
+                                    ),
+                                  ),
+                                ),
+                                child: Column(
+                                  crossAxisAlignment:
+                                      CrossAxisAlignment.stretch,
+                                  children: [
+                                    Row(
+                                      children: [
+                                        Container(
+                                          padding: const EdgeInsets.all(10),
+                                          decoration: BoxDecoration(
+                                            color: c.primaryContainer,
+                                            borderRadius: BorderRadius.circular(
+                                              12,
+                                            ),
+                                          ),
+                                          child: Text(
+                                            '${i + 1}'.padLeft(2, '0'),
+                                            style: TextStyle(
+                                              color: c.onPrimaryContainer,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
+                                        ),
+                                        const SizedBox(width: 12),
+                                        Expanded(
+                                          child: Text(
+                                            doc.sections[i].localizedTitle(
+                                              _lang,
+                                              doc.defaultLanguage,
+                                            ),
+                                            style: theme.textTheme.titleLarge
+                                                ?.copyWith(
+                                                  fontWeight: FontWeight.w700,
+                                                  color: c.primary,
+                                                ),
+                                          ),
+                                        ),
+                                        IconButton(
+                                          tooltip: MaterialLocalizations.of(
+                                            context,
+                                          ).copyButtonLabel,
+                                          onPressed: () => Clipboard.setData(
+                                            ClipboardData(
+                                              text: doc.sections[i].items
+                                                  .map(
+                                                    (item) =>
+                                                        item.localizedText(
+                                                          _lang,
+                                                          doc.defaultLanguage,
+                                                        ),
+                                                  )
+                                                  .join('\n\n'),
+                                            ),
+                                          ),
+                                          icon: const Icon(
+                                            Icons.copy_rounded,
+                                            size: 19,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    const SizedBox(height: 12),
+                                    Divider(color: c.outlineVariant),
+                                    for (final item in doc.sections[i].items)
+                                      _item(context, item, doc.defaultLanguage),
+                                  ],
+                                ),
+                              ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
             ),
           );
         },
       ),
     );
   }
-}
 
-class _ModernFatehaItem extends StatelessWidget {
-  final FatehaItem item;
-  final String language;
-  final String fallback;
-
-  const _ModernFatehaItem({
-    required this.item,
-    required this.language,
-    required this.fallback,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final scheme = theme.colorScheme;
-    final value = item.localizedText(language, fallback);
-    final rtl = language == 'ar' || language == 'ur';
-    final direction = rtl ? TextDirection.rtl : TextDirection.ltr;
-
+  Widget _item(BuildContext context, FatehaItem item, String fallback) {
+    final c = Theme.of(context).colorScheme;
+    final value = item.localizedText(_lang, fallback);
+    final rtl = _lang == 'ar' || _lang == 'ur';
     if (item.type == 'separator') {
       return Padding(
-        padding: const EdgeInsets.symmetric(vertical: 14),
-        child: Text(value, textAlign: TextAlign.center,
-            style: TextStyle(color: scheme.primary.withValues(alpha: 0.65), fontSize: 14)),
+        padding: const EdgeInsets.symmetric(vertical: 12),
+        child: Text(
+          value,
+          textAlign: TextAlign.center,
+          style: TextStyle(color: c.primary),
+        ),
       );
     }
-
-    if (item.type == 'heading') {
+    if (item.type == 'heading' ||
+        item.type == 'instruction' ||
+        item.type == 'reference') {
       return Padding(
-        padding: const EdgeInsets.symmetric(vertical: 14),
-        child: Text(value, textAlign: TextAlign.center, textDirection: direction,
-            style: theme.textTheme.titleMedium?.copyWith(
-                fontWeight: FontWeight.bold, color: scheme.primary)),
+        padding: const EdgeInsets.symmetric(vertical: 10),
+        child: Text(
+          value,
+          textAlign: item.type == 'heading'
+              ? TextAlign.center
+              : TextAlign.start,
+          style: _reading(context, value).copyWith(
+            fontSize: (item.type == 'reference' ? 14 : 17) * _scale,
+            color: item.type == 'reference' ? c.onSurfaceVariant : c.primary,
+            fontWeight: item.type == 'reference'
+                ? FontWeight.w400
+                : FontWeight.w600,
+          ),
+        ),
       );
     }
-
-    if (item.type == 'reference' || item.type == 'instruction') {
-      return Padding(
-        padding: const EdgeInsets.only(bottom: 12),
-        child: Text(value, textAlign: TextAlign.center, textDirection: direction,
-            style: theme.textTheme.bodyMedium?.copyWith(
-              color: item.type == 'instruction' ? scheme.primary : scheme.onSurfaceVariant,
-              fontWeight: item.type == 'instruction' ? FontWeight.bold : FontWeight.normal,
-              fontStyle: item.type == 'reference' ? FontStyle.italic : FontStyle.normal,
-            )),
-      );
-    }
-
+    final arabic = item.localizedText('ar', fallback);
+    final show =
+        _showArabic &&
+        _lang != 'ar' &&
+        arabic != value &&
+        RegExp(r'[\u0600-\u06FF]').hasMatch(arabic);
     return Padding(
-      padding: const EdgeInsets.only(bottom: 16),
-      child: Text(value, textAlign: TextAlign.center, textDirection: direction,
-          style: theme.textTheme.bodyLarge?.copyWith(
-            fontSize: language == 'ar' ? 23 : 18,
-            height: rtl ? 2 : 1.8,
-            fontWeight: FontWeight.w500,
-          )),
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          if (show)
+            Container(
+              padding: const EdgeInsets.all(14),
+              margin: const EdgeInsets.only(bottom: 12),
+              decoration: BoxDecoration(
+                color: c.primaryContainer.withValues(alpha: .35),
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: Text(
+                arabic,
+                textDirection: TextDirection.rtl,
+                textAlign: TextAlign.center,
+                style: _reading(context, arabic, arabic: true),
+              ),
+            ),
+          Text(
+            value,
+            textDirection: rtl ? TextDirection.rtl : TextDirection.ltr,
+            textAlign: TextAlign.center,
+            style: _reading(context, value),
+          ),
+        ],
+      ),
     );
   }
 }

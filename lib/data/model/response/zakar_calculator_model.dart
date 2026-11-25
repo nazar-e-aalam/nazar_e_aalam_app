@@ -7,14 +7,15 @@ class ZakarCalculatorModel {
   String? createdAt;
   String? updatedAt;
 
-  ZakarCalculatorModel(
-      {this.id,
-      this.amount,
-      this.mosqueId,
-      this.desc,
-      this.userId,
-      this.createdAt,
-      this.updatedAt});
+  ZakarCalculatorModel({
+    this.id,
+    this.amount,
+    this.mosqueId,
+    this.desc,
+    this.userId,
+    this.createdAt,
+    this.updatedAt,
+  });
 
   ZakarCalculatorModel.fromJson(Map<String, dynamic> json) {
     id = json['id'];

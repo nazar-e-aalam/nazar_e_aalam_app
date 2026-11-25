@@ -1,4 +1,3 @@
-
 class DikirListModel {
   bool? status;
   String? message;
@@ -29,8 +28,7 @@ class DikirListModel {
       status: json['status'] ?? true,
       message: json['message'],
       data: (items as List)
-          .map((item) => Data.fromJson(
-              Map<String, dynamic>.from(item as Map)))
+          .map((item) => Data.fromJson(Map<String, dynamic>.from(item as Map)))
           .toList(),
       total: _toInt(meta['total']),
       skip: _toInt(meta['skip']),
@@ -40,14 +38,9 @@ class DikirListModel {
   }
 
   Map<String, dynamic> toJson() => {
-        'items': data?.map((item) => item.toJson()).toList() ?? [],
-        'meta': {
-          'total': total,
-          'skip': skip,
-          'limit': limit,
-          'pages': pages,
-        },
-      };
+    'items': data?.map((item) => item.toJson()).toList() ?? [],
+    'meta': {'total': total, 'skip': skip, 'limit': limit, 'pages': pages},
+  };
 }
 
 class Data {
@@ -99,14 +92,14 @@ class Data {
   }
 
   Map<String, dynamic> toJson() => {
-        ...translations,
-        'id': id,
-        'position': position,
-        'en_short_name': enShortName,
-        'en_full_name': enFullName,
-        'ar_short_name': arShortName,
-        'ar_full_name': arFullName,
-      };
+    ...translations,
+    'id': id,
+    'position': position,
+    'en_short_name': enShortName,
+    'en_full_name': enFullName,
+    'ar_short_name': arShortName,
+    'ar_full_name': arFullName,
+  };
 }
 
 int _toInt(dynamic value, [int fallback = 0]) {

@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import '../../../../data/model/wazaif_data.dart';
 import '../wazaif_detail.dart';
+import '../../../base/custom_app_bar.dart';
 import 'package:nazar_e_alam/view/base/modern/modern_components.dart';
 
 class WazaifModernScreen extends StatelessWidget {
@@ -12,7 +13,8 @@ class WazaifModernScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
     return Scaffold(
-      appBar: AppBar(title: const Text('Wazaif'), centerTitle: false),
+      // appBar: AppBar(title: const Text('Wazaif'), centerTitle: false),
+      appBar: const CustomAppBar(title: 'Wazaif', isBackButtonExist: true),
       body: FutureBuilder<List<Wazifa>>(
         future: WazaifData.load(),
         builder: (context, snapshot) {
@@ -44,7 +46,7 @@ class WazaifModernScreen extends StatelessWidget {
                   padding: const EdgeInsets.all(22),
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
-                      colors: [scheme.primary, scheme.primaryContainer],
+                      colors: [scheme.primary, scheme.primary],
                     ),
                     borderRadius: BorderRadius.circular(22),
                   ),

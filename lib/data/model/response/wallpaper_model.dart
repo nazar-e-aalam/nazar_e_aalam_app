@@ -1,4 +1,3 @@
-
 class WallpaperModel {
   List<Wallpapers> data;
   int total;
@@ -21,9 +20,8 @@ class WallpaperModel {
     return WallpaperModel(
       data: items
           .map(
-            (item) => Wallpapers.fromJson(
-              Map<String, dynamic>.from(item as Map),
-            ),
+            (item) =>
+                Wallpapers.fromJson(Map<String, dynamic>.from(item as Map)),
           )
           .toList(),
       total: (meta['total'] as num?)?.toInt() ?? items.length,
@@ -34,14 +32,9 @@ class WallpaperModel {
   }
 
   Map<String, dynamic> toJson() => {
-        'items': data.map((item) => item.toJson()).toList(),
-        'meta': {
-          'total': total,
-          'skip': skip,
-          'limit': limit,
-          'pages': pages,
-        },
-      };
+    'items': data.map((item) => item.toJson()).toList(),
+    'meta': {'total': total, 'skip': skip, 'limit': limit, 'pages': pages},
+  };
 }
 
 class Wallpapers {
@@ -49,11 +42,7 @@ class Wallpapers {
   String? name;
   String? image;
 
-  Wallpapers({
-    this.id,
-    this.name,
-    this.image,
-  });
+  Wallpapers({this.id, this.name, this.image});
 
   // Compatibility with older UI references.
   String? get wallpaper => image;
@@ -66,9 +55,5 @@ class Wallpapers {
     );
   }
 
-  Map<String, dynamic> toJson() => {
-        'id': id,
-        'name': name,
-        'image': image,
-      };
+  Map<String, dynamic> toJson() => {'id': id, 'name': name, 'image': image};
 }

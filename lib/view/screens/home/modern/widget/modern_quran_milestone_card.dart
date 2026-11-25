@@ -228,7 +228,10 @@ class _InfoRow extends StatelessWidget {
                 children: [
                   Text(
                     title,
-                    style: robotoMedium.copyWith(fontSize: 11, color: textColor),
+                    style: robotoMedium.copyWith(
+                      fontSize: 11,
+                      color: textColor,
+                    ),
                   ),
                   const SizedBox(height: 2),
                   Text(

@@ -13,7 +13,8 @@ class PrayerAdjustmentWrapper extends StatefulWidget {
   const PrayerAdjustmentWrapper({super.key, required this.appBackButton});
 
   @override
-  State<PrayerAdjustmentWrapper> createState() => _PrayerAdjustmentWrapperState();
+  State<PrayerAdjustmentWrapper> createState() =>
+      _PrayerAdjustmentWrapperState();
 }
 
 class _PrayerAdjustmentWrapperState extends State<PrayerAdjustmentWrapper> {
@@ -24,10 +25,8 @@ class _PrayerAdjustmentWrapperState extends State<PrayerAdjustmentWrapper> {
       final modern = layout == HomeLayoutController.modern;
       return AnimatedSwitcher(
         duration: const Duration(milliseconds: 400),
-        transitionBuilder: (child, animation) => FadeTransition(
-          opacity: animation,
-          child: child,
-        ),
+        transitionBuilder: (child, animation) =>
+            FadeTransition(opacity: animation, child: child),
         child: modern
             ? ModernPrayerAdjustmentScreen(
                 key: const ValueKey('modern'),

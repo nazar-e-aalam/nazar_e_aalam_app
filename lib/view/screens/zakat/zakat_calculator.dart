@@ -44,7 +44,7 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                   : Theme.of(context).cardColor,
               height: 28,
             ),
-          )
+          ),
         ],
       ),
 
@@ -63,8 +63,8 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const SizedBox(height: 5),
-//---------------------------------------------------------//
-//----------------- What I OWN section here ---------------//
+                    //---------------------------------------------------------//
+                    //----------------- What I OWN section here ---------------//
                     Center(
                       child: Text(
                         "what_i_own".tr,
@@ -86,7 +86,8 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                       "enter_the_amount_of_cash_you_have".tr,
                       textAlign: TextAlign.justify,
                       style: robotoMedium.copyWith(
-                          fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                        fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                      ),
                     ),
                     const SizedBox(height: 10),
                     ItemField(
@@ -111,7 +112,8 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                           .tr,
                       textAlign: TextAlign.justify,
                       style: robotoMedium.copyWith(
-                          fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                        fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                      ),
                     ),
                     const SizedBox(height: 10),
                     ItemField(
@@ -136,7 +138,8 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                       "if_you_are_not_sure_how_much_your_gold_and_silver".tr,
                       textAlign: TextAlign.justify,
                       style: robotoMedium.copyWith(
-                          fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                        fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                      ),
                     ),
                     const SizedBox(height: 10),
                     ItemField(
@@ -160,7 +163,8 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                       "if_you_own_stocks_and_shares_zakat_is_due_on_them".tr,
                       textAlign: TextAlign.justify,
                       style: robotoMedium.copyWith(
-                          fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                        fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                      ),
                     ),
                     const SizedBox(height: 10),
                     ItemField(
@@ -188,7 +192,8 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                       "if_you_have_a_defined_contribution_pension_scheme".tr,
                       textAlign: TextAlign.justify,
                       style: robotoMedium.copyWith(
-                          fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                        fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                      ),
                     ),
                     const SizedBox(height: 10),
                     ItemField(
@@ -208,7 +213,8 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                       "zakat_is_payable_on_ISAs_and_Child_Trust_Funds".tr,
                       textAlign: TextAlign.justify,
                       style: robotoMedium.copyWith(
-                          fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                        fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                      ),
                     ),
                     const SizedBox(height: 10),
                     ItemField(
@@ -234,7 +240,8 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                           .tr,
                       textAlign: TextAlign.justify,
                       style: robotoMedium.copyWith(
-                          fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                        fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                      ),
                     ),
                     const SizedBox(height: 10),
                     ItemField(
@@ -255,7 +262,8 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                       "business_assets_include_cash".tr,
                       textAlign: TextAlign.justify,
                       style: robotoMedium.copyWith(
-                          fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                        fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                      ),
                     ),
                     const SizedBox(height: 10),
                     ItemField(
@@ -276,8 +284,8 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                           zakatCalculatorController.own_business_stock,
                     ),
                     const SizedBox(height: 10),
-//---------------------------------------------------------//
-//----------------- What I OWE section here ---------------//
+                    //---------------------------------------------------------//
+                    //----------------- What I OWE section here ---------------//
                     const Divider(),
                     Center(
                       child: Text(
@@ -293,7 +301,8 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                       "for_long_term_debts".tr,
                       textAlign: TextAlign.justify,
                       style: robotoMedium.copyWith(
-                          fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                        fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                      ),
                     ),
                     const SizedBox(height: 10),
                     ItemField(
@@ -348,18 +357,18 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                       children: [
                         Expanded(
                           child: ResultField(
-                              readOnly: true,
-                              labelText: "what_i_have".tr,
-                              controllerValue:
-                                  zakatCalculatorController.totalOwn),
+                            readOnly: true,
+                            labelText: "what_i_have".tr,
+                            controllerValue: zakatCalculatorController.totalOwn,
+                          ),
                         ),
                         const SizedBox(width: 10),
                         Expanded(
                           child: ResultField(
-                              readOnly: true,
-                              labelText: "what_i_owe".tr,
-                              controllerValue:
-                                  zakatCalculatorController.totalOwe),
+                            readOnly: true,
+                            labelText: "what_i_owe".tr,
+                            controllerValue: zakatCalculatorController.totalOwe,
+                          ),
                         ),
                       ],
                     ),
@@ -370,17 +379,19 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                         children: [
                           Expanded(
                             child: ResultField(
-                                readOnly: true,
-                                labelText: "is_equal_to".tr,
-                                controllerValue:
-                                    zakatCalculatorController.equal),
+                              readOnly: true,
+                              labelText: "is_equal_to".tr,
+                              controllerValue: zakatCalculatorController.equal,
+                            ),
                           ),
                           const SizedBox(width: 10),
                           Expanded(
                             child: ResultField(
                               readOnly: false,
                               labelText: "todays_nisab".tr,
-                              controllerValue: TextEditingController(text: '100'),
+                              controllerValue: TextEditingController(
+                                text: '100',
+                              ),
                               // Get.find<SettingsController>()
                               //             .mosqueSettingsApiData!
                               //             .data!
@@ -410,26 +421,31 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                             controller: zakatCalculatorController.totalZakat,
                             style: const TextStyle(fontSize: 22),
                             decoration: InputDecoration(
-                              contentPadding:
-                                  const EdgeInsets.fromLTRB(10, 70, 10, 20),
+                              contentPadding: const EdgeInsets.fromLTRB(
+                                10,
+                                70,
+                                10,
+                                20,
+                              ),
                               labelText: "my_zakat_is".tr,
                               labelStyle: TextStyle(
                                 fontSize: Dimensions.FONT_SIZE_EXTRA_LARGE,
-                                color: Theme.of(context)
-                                    .textTheme
-                                    .bodyMedium!
-                                    .color,
+                                color: Theme.of(
+                                  context,
+                                ).textTheme.bodyMedium!.color,
                                 fontWeight: FontWeight.w400,
                               ),
                               focusedBorder: OutlineInputBorder(
                                 borderSide: BorderSide(
-                                    color: Theme.of(context).primaryColor,
-                                    width: 1),
+                                  color: Theme.of(context).primaryColor,
+                                  width: 1,
+                                ),
                               ),
                               enabledBorder: OutlineInputBorder(
                                 borderSide: BorderSide(
-                                    color: Theme.of(context).primaryColor,
-                                    width: 1),
+                                  color: Theme.of(context).primaryColor,
+                                  width: 1,
+                                ),
                               ),
                             ),
                           ),
@@ -439,24 +455,26 @@ class _ZakatCalculatorState extends State<ZakatCalculator> {
                     const SizedBox(height: 15),
 
                     CustomButton(
-                        buttonWidth: Get.width,
-                        buttonName: "click_for_result".tr,
-                        fontSize: Dimensions.FONT_SIZE_DEFAULT,
-                        onPressed: () {
-                          final isValidForm = zakatCalculatorController
-                              .zakatCalculatorformkey.currentState!
-                              .validate();
-                          if (isValidForm) {
-                            zakatCalculatorController.getTotalOwn();
-                            zakatCalculatorController.getTotalOwe();
-                            zakatCalculatorController.getEqual();
-                            zakatCalculatorController.getZakat();
-                            // zakatCalculatorController.totalNisab.text = "";
-                            // zakatCalculatorController
-                            //     .zakatCalculatorformkey.currentState!
-                            //     .reset();
-                          }
-                        }),
+                      buttonWidth: Get.width,
+                      buttonName: "click_for_result".tr,
+                      fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                      onPressed: () {
+                        final isValidForm = zakatCalculatorController
+                            .zakatCalculatorformkey
+                            .currentState!
+                            .validate();
+                        if (isValidForm) {
+                          zakatCalculatorController.getTotalOwn();
+                          zakatCalculatorController.getTotalOwe();
+                          zakatCalculatorController.getEqual();
+                          zakatCalculatorController.getZakat();
+                          // zakatCalculatorController.totalNisab.text = "";
+                          // zakatCalculatorController
+                          //     .zakatCalculatorformkey.currentState!
+                          //     .reset();
+                        }
+                      },
+                    ),
                     const SizedBox(height: 15),
                   ],
                 ),

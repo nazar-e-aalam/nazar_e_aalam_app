@@ -40,28 +40,36 @@ class HadisBookNameScreen extends StatelessWidget {
                         primary: false,
                         shrinkWrap: true,
                         padding: const EdgeInsets.symmetric(
-                            horizontal: Dimensions.PADDING_SIZE_SMALL),
-                        itemCount: hadithController.hadisBookModel?.books?.length ?? 0,
+                          horizontal: Dimensions.PADDING_SIZE_SMALL,
+                        ),
+                        itemCount:
+                            hadithController.hadisBookModel?.books?.length ?? 0,
                         itemBuilder: (context, index) {
                           return GestureDetector(
                             onTap: () {
-                              Get.toNamed(RouteHelper.hadithChapters,
-                                  arguments: [
-                                    hadithController
-                                        .hadisBookModel!.books![index].bookSlug,
-                                    hadithController
-                                        .hadisBookModel!.books![index].bookName
-                                  ]);
+                              Get.toNamed(
+                                RouteHelper.hadithChapters,
+                                arguments: [
+                                  hadithController
+                                      .hadisBookModel!
+                                      .books![index]
+                                      .bookSlug,
+                                  hadithController
+                                      .hadisBookModel!
+                                      .books![index]
+                                      .bookName,
+                                ],
+                              );
                             },
                             child: Card(
                               clipBehavior: Clip.antiAlias,
                               color: Theme.of(context).cardColor,
                               child: ListTile(
                                 contentPadding: const EdgeInsets.symmetric(
-                                    horizontal:
-                                        Dimensions.PADDING_SIZE_EXTRA_SMALL + 2,
-                                    vertical:
-                                        Dimensions.PADDING_SIZE_EXTRA_SMALL),
+                                  horizontal:
+                                      Dimensions.PADDING_SIZE_EXTRA_SMALL + 2,
+                                  vertical: Dimensions.PADDING_SIZE_EXTRA_SMALL,
+                                ),
                                 horizontalTitleGap: 0,
                                 leading: SvgPicture.asset(
                                   Images.Icon_Hadith,
@@ -70,27 +78,33 @@ class HadisBookNameScreen extends StatelessWidget {
                                 ),
                                 title: Text(
                                   hadithController
-                                      .hadisBookModel!.books![index].bookName!,
+                                      .hadisBookModel!
+                                      .books![index]
+                                      .bookName!,
                                   style: robotoMedium.copyWith(
-                                      fontSize: Dimensions.FONT_SIZE_LARGE),
+                                    fontSize: Dimensions.FONT_SIZE_LARGE,
+                                  ),
                                 ),
                                 subtitle: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     const SizedBox(height: 5),
                                     Text(
-                                      hadithController.hadisBookModel!
-                                          .books![index].writerName!,
+                                      hadithController
+                                          .hadisBookModel!
+                                          .books![index]
+                                          .writerName!,
                                       textAlign: TextAlign.left,
                                       style: robotoMedium.copyWith(
-                                          fontSize:
-                                              Dimensions.FONT_SIZE_DEFAULT),
+                                        fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                                      ),
                                     ),
                                     const SizedBox(height: 5),
                                     Text(
                                       "${"hadiths".tr}: ${hadithController.hadisBookModel!.books![index].hadithsCount!}",
                                       style: robotoMedium.copyWith(
-                                          fontSize: Dimensions.FONT_SIZE_SMALL),
+                                        fontSize: Dimensions.FONT_SIZE_SMALL,
+                                      ),
                                     ),
                                   ],
                                 ),

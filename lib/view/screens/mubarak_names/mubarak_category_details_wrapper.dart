@@ -12,7 +12,8 @@ class MubarakCategoryDetailsWrapper extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Obx(() {
-    final modern = Get.find<HomeLayoutController>().currentLayout.value ==
+    final modern =
+        Get.find<HomeLayoutController>().currentLayout.value ==
         HomeLayoutController.modern;
     return AnimatedSwitcher(
       duration: const Duration(milliseconds: 350),

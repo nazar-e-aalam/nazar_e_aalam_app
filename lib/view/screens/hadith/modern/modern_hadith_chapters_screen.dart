@@ -62,9 +62,7 @@ class _ModernHadithChaptersScreenState
             }
 
             return ModernGlassPanel(
-              color: dark
-                  ? const Color(0x0AFFFFFF)
-                  : AppColorModern.glassFill,
+              color: dark ? const Color(0x0AFFFFFF) : AppColorModern.glassFill,
               child: ModernAnimatedList(
                 itemCount: chapters.length,
                 padding: const EdgeInsets.fromLTRB(
@@ -79,7 +77,8 @@ class _ModernHadithChaptersScreenState
                     key: ValueKey('chapter_${chapter.chapterNumber}_$index'),
                     index: index + 1,
                     title: chapter.chapterEnglish ?? "",
-                    subtitle: chapter.chapterArabic != null &&
+                    subtitle:
+                        chapter.chapterArabic != null &&
                             chapter.chapterArabic!.isNotEmpty
                         ? chapter.chapterArabic
                         : null,
@@ -87,11 +86,14 @@ class _ModernHadithChaptersScreenState
                     isFirst: index == 0,
                     isLast: index == chapters.length - 1,
                     onTap: () {
-                      Get.toNamed(RouteHelper.allHadith, arguments: [
-                        Get.arguments[1],
-                        chapter.bookSlug,
-                        chapter.chapterNumber,
-                      ]);
+                      Get.toNamed(
+                        RouteHelper.allHadith,
+                        arguments: [
+                          Get.arguments[1],
+                          chapter.bookSlug,
+                          chapter.chapterNumber,
+                        ],
+                      );
                     },
                   );
                 },

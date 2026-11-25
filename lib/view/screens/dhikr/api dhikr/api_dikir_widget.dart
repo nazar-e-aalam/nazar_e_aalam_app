@@ -17,81 +17,82 @@ class ApiDikirWidget extends StatelessWidget {
       builder: (dikirListController) {
         return dikirListController.isDikirListLoading.value ||
                 dikirListController.dikirListApiData == null
-            ? const Center(
-                child: DhikirShimmer(),
-              )
+            ? const Center(child: DhikirShimmer())
             : dikirListController.dikirListApiData!.data!.isEmpty
-                ? Center(
-                    child: Text(
-                      "no_data_found".tr,
-                      style: robotoMedium.copyWith(
-                          fontSize: Dimensions.FONT_SIZE_LARGE),
-                    ),
-                  )
-                : SingleChildScrollView(
-                    child: Column(
-                      children: [
-                        // default dikir show ==>
-                        ListView.builder(
-                          primary: false,
-                          shrinkWrap: true,
-                          padding: const EdgeInsets.symmetric(
-                              horizontal: Dimensions.PADDING_SIZE_EXTRA_SMALL),
-                          itemCount: dikirListController
-                              .dikirListApiData!.data!.length,
-                          itemBuilder: (context, index) {
-                            var apiData = dikirListController
-                                .dikirListApiData!.data![index];
-                            return GestureDetector(
-                              onTap: () {
-                                var dikirDetailsController =
-                                    Get.find<DhikrController>();
-                                dikirDetailsController.fetchDikirDetailsData(
-                                    dikirId: apiData.id.toString());
-                                dikirDetailsController.dikirId =
-                                    apiData.id.toString();
-                                Get.toNamed(RouteHelper.dhikrCount);
-                              },
-                              child: Card(
-                                clipBehavior: Clip.antiAlias,
-                                color: Theme.of(context).cardColor,
-                                shadowColor: Get.isDarkMode
-                                    ? Colors.grey[800]!
-                                    : Colors.grey[200]!,
-                                child: ListTile(
-                                  contentPadding:
-                                      const EdgeInsetsDirectional.symmetric(
-                                          horizontal:
-                                              Dimensions.PADDING_SIZE_DEFAULT),
-
-                                  // Dhikr Title English---->
-                                  title: Text(
-                                    apiData.enShortName.toString(),
-                                    style: robotoMedium.copyWith(
-                                        fontSize: Dimensions.FONT_SIZE_LARGE),
+            ? Center(
+                child: Text(
+                  "no_data_found".tr,
+                  style: robotoMedium.copyWith(
+                    fontSize: Dimensions.FONT_SIZE_LARGE,
+                  ),
+                ),
+              )
+            : SingleChildScrollView(
+                child: Column(
+                  children: [
+                    // default dikir show ==>
+                    ListView.builder(
+                      primary: false,
+                      shrinkWrap: true,
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: Dimensions.PADDING_SIZE_EXTRA_SMALL,
+                      ),
+                      itemCount:
+                          dikirListController.dikirListApiData!.data!.length,
+                      itemBuilder: (context, index) {
+                        var apiData =
+                            dikirListController.dikirListApiData!.data![index];
+                        return GestureDetector(
+                          onTap: () {
+                            var dikirDetailsController =
+                                Get.find<DhikrController>();
+                            dikirDetailsController.fetchDikirDetailsData(
+                              dikirId: apiData.id.toString(),
+                            );
+                            dikirDetailsController.dikirId = apiData.id
+                                .toString();
+                            Get.toNamed(RouteHelper.dhikrCount);
+                          },
+                          child: Card(
+                            clipBehavior: Clip.antiAlias,
+                            color: Theme.of(context).cardColor,
+                            shadowColor: Get.isDarkMode
+                                ? Colors.grey[800]!
+                                : Colors.grey[200]!,
+                            child: ListTile(
+                              contentPadding:
+                                  const EdgeInsetsDirectional.symmetric(
+                                    horizontal: Dimensions.PADDING_SIZE_DEFAULT,
                                   ),
-                                  trailing: Text(
-                                    apiData.arShortName.toString(),
-                                    style:  Get.find<SettingsController>()
-                                        .selectedArabicFont
-                                        .copyWith(
+
+                              // Dhikr Title English---->
+                              title: Text(
+                                apiData.enShortName.toString(),
+                                style: robotoMedium.copyWith(
+                                  fontSize: Dimensions.FONT_SIZE_LARGE,
+                                ),
+                              ),
+                              trailing: Text(
+                                apiData.arShortName.toString(),
+                                style: Get.find<SettingsController>()
+                                    .selectedArabicFont
+                                    .copyWith(
                                       fontSize: Get.find<SettingsController>()
                                           .arabicFontSize
                                           .value,
-                                      color: Theme.of(context)
-                                          .textTheme
-                                          .bodyLarge!
-                                          .color,
+                                      color: Theme.of(
+                                        context,
+                                      ).textTheme.bodyLarge!.color,
                                     ),
-                                  ),
-                                ),
                               ),
-                            );
-                          },
-                        ),
-                      ],
+                            ),
+                          ),
+                        );
+                      },
                     ),
-                  );
+                  ],
+                ),
+              );
       },
     );
   }

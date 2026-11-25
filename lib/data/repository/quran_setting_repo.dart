@@ -4,7 +4,7 @@
 // import 'package:nazar_e_alam/util/app_constants.dart';
 
 // class QuranSettingsRepo {
-  // ApiClient apiClient;
-  // final SharedPreferences sharedPreferences;
-  // QuranSettingsRepo({required this.sharedPreferences, required this.apiClient});
+// ApiClient apiClient;
+// final SharedPreferences sharedPreferences;
+// QuranSettingsRepo({required this.sharedPreferences, required this.apiClient});
 // }

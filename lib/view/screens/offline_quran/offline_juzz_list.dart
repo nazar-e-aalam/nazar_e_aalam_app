@@ -125,7 +125,7 @@ class OfflineJuzListWidget extends StatelessWidget {
                                               style: robotoMedium.copyWith(
                                                 fontSize:
                                                     Get.find<
-                                                        SettingsController
+                                                          SettingsController
                                                         >()
                                                         .translateFontSize
                                                         .value,
@@ -138,7 +138,7 @@ class OfflineJuzListWidget extends StatelessWidget {
                                               style: robotoMedium.copyWith(
                                                 fontSize:
                                                     Get.find<
-                                                        SettingsController
+                                                          SettingsController
                                                         >()
                                                         .translateFontSize
                                                         .value -
@@ -149,23 +149,20 @@ class OfflineJuzListWidget extends StatelessWidget {
                                           trailing: Obx(
                                             () => Text(
                                               apiData.arabicName.toString(),
-                                              style:
-                                                  Get.find<
-                                                      SettingsController
-                                                      >()
-                                                      .selectedArabicFont
-                                                      .copyWith(
-                                                        fontSize:
-                                                            Get.find<
-                                                                SettingsController
-                                                                >()
-                                                                .arabicFontSize
-                                                                .value,
-                                                        color: Theme.of(context)
-                                                            .textTheme
-                                                            .bodyLarge!
-                                                            .color,
-                                                      ),
+                                              style: Get.find<SettingsController>()
+                                                  .selectedArabicFont
+                                                  .copyWith(
+                                                    fontSize:
+                                                        Get.find<
+                                                              SettingsController
+                                                            >()
+                                                            .arabicFontSize
+                                                            .value,
+                                                    color: Theme.of(context)
+                                                        .textTheme
+                                                        .bodyLarge!
+                                                        .color,
+                                                  ),
                                             ),
                                           ),
                                         ),

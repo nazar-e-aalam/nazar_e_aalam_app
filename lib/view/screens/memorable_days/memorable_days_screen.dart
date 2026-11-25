@@ -9,15 +9,19 @@ import 'memorable_days_details_screen.dart';
 import 'package:nazar_e_alam/view/base/custom_app_bar.dart';
 
 class MemorableDaysScreen extends StatelessWidget {
-    final bool appBackButton;
+  final bool appBackButton;
 
   const MemorableDaysScreen({super.key, required this.appBackButton});
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: CustomAppBar(title: memorableLabel('title')),
-    body: MemorableMonthLoader(builder: (context, months) =>
-      MemorableMonthList(months: months, modern: false,
-        onOpen: (MemorableMonth month) => Get.to(() =>
-          MemorableDaysDetailsScreen(month: month)))),
+    body: MemorableMonthLoader(
+      builder: (context, months) => MemorableMonthList(
+        months: months,
+        modern: false,
+        onOpen: (MemorableMonth month) =>
+            Get.to(() => MemorableDaysDetailsScreen(month: month)),
+      ),
+    ),
   );
 }

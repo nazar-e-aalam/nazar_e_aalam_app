@@ -19,6 +19,9 @@ class Images {
   static const String Icon_Imsak = '${image_path}imsak.svg';
   static const String Icon_Hadith = '${image_path}Icon_Hadith.svg';
 
+  static const String Icon_Namaz = '${image_path}namaz.svg';
+  static const String Icon_DuaBook = '${image_path}Icon_dua.svg';
+
   static const String Icon_Home = '${image_path}Icon_home.svg';
   static const String Icon_Isha = '${image_path}Icon_Isha.svg';
   static const String Icon_Location = '${image_path}Icon_Location.svg';

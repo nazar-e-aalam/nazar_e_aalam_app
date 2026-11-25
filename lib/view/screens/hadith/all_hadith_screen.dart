@@ -48,23 +48,28 @@ class _AllHadithScreenState extends State<AllHadithScreen> {
                     shrinkWrap: true,
                     primary: false,
                     padding: const EdgeInsets.symmetric(
-                        horizontal: Dimensions.PADDING_SIZE_SMALL),
+                      horizontal: Dimensions.PADDING_SIZE_SMALL,
+                    ),
                     itemCount:
                         hadithController.hadithModel!.hadiths!.data!.length,
                     itemBuilder: (context, index) {
                       return GestureDetector(
                         onTap: () {
-                          Get.toNamed(RouteHelper.hadithDetails,
-                              arguments: hadithController
-                                  .hadithModel!.hadiths!.data![index]);
+                          Get.toNamed(
+                            RouteHelper.hadithDetails,
+                            arguments: hadithController
+                                .hadithModel!
+                                .hadiths!
+                                .data![index],
+                          );
                         },
                         child: Card(
                           clipBehavior: Clip.antiAlias,
                           color: Theme.of(context).cardColor,
                           child: ListTile(
                             contentPadding: const EdgeInsets.symmetric(
-                                horizontal:
-                                    Dimensions.PADDING_SIZE_EXTRA_SMALL),
+                              horizontal: Dimensions.PADDING_SIZE_EXTRA_SMALL,
+                            ),
                             horizontalTitleGap: 5,
                             leading: Stack(
                               alignment: Alignment.center,
@@ -81,26 +86,30 @@ class _AllHadithScreenState extends State<AllHadithScreen> {
                                   (index + 1).toString(),
                                   style: robotoMedium.copyWith(
                                     fontSize: Dimensions.FONT_SIZE_DEFAULT,
-                                    color: Theme.of(context)
-                                        .textTheme
-                                        .bodyMedium!
-                                        .color,
+                                    color: Theme.of(
+                                      context,
+                                    ).textTheme.bodyMedium!.color,
                                   ),
                                 ),
                               ],
                             ),
                             title: Text(
-                              hadithController.hadithModel!.hadiths!
-                                  .data![index].hadithEnglish!,
+                              hadithController
+                                  .hadithModel!
+                                  .hadiths!
+                                  .data![index]
+                                  .hadithEnglish!,
                               style: robotoMedium.copyWith(
-                                  fontSize: Dimensions.FONT_SIZE_DEFAULT,
-                                  overflow: TextOverflow.ellipsis),
+                                fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                                overflow: TextOverflow.ellipsis,
+                              ),
                             ),
                             subtitle: Text(
                               "${"writer:".tr} ${hadithController.hadithModel!.hadiths!.data![index].book!.writerName!}"
                                   .tr,
                               style: robotoMedium.copyWith(
-                                  fontSize: Dimensions.FONT_SIZE_DEFAULT),
+                                fontSize: Dimensions.FONT_SIZE_DEFAULT,
+                              ),
                             ),
                           ),
                         ),

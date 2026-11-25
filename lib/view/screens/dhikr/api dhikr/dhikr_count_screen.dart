@@ -34,10 +34,7 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
     );
 
     _animation = Tween<double>(begin: 1, end: 0.8).animate(
-      CurvedAnimation(
-        parent: _controller,
-        curve: Curves.easeInOutBack,
-      ),
+      CurvedAnimation(parent: _controller, curve: Curves.easeInOutBack),
     );
 
     // Add a listener to rebuild the widget on each animation tick
@@ -58,12 +55,14 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
     return GetBuilder<DhikrController>(
       builder: (dikirDetailsController) {
         var apiData = dikirDetailsController.dikirDetailApiData;
-        dikirDetailsController
-            .loadCount(dikirDetailsController.dikirId.toString());
+        dikirDetailsController.loadCount(
+          dikirDetailsController.dikirId.toString(),
+        );
         return Scaffold(
           // Appbar start ===>
           appBar: CustomAppBar(
-            title: dikirDetailsController.isDikirDetailsLoading.value ||
+            title:
+                dikirDetailsController.isDikirDetailsLoading.value ||
                     dikirDetailsController.dikirDetailApiData == null
                 ? "--"
                 : apiData!.data!.enShortName,
@@ -73,12 +72,12 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
           // body start ===>
           body: Padding(
             padding: const EdgeInsets.symmetric(
-                horizontal: Dimensions.PADDING_SIZE_DEFAULT),
-            child: dikirDetailsController.isDikirDetailsLoading.value ||
+              horizontal: Dimensions.PADDING_SIZE_DEFAULT,
+            ),
+            child:
+                dikirDetailsController.isDikirDetailsLoading.value ||
                     dikirDetailsController.dikirDetailApiData == null
-                ? const Center(
-                    child: DhikirCountShimmer(),
-                  )
+                ? const Center(child: DhikirCountShimmer())
                 : Column(
                     children: [
                       // Arabic and English Dhikr name and discription section---->
@@ -93,8 +92,8 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
                                 children: [
                                   Padding(
                                     padding: const EdgeInsets.symmetric(
-                                        vertical:
-                                            Dimensions.PADDING_SIZE_SMALL),
+                                      vertical: Dimensions.PADDING_SIZE_SMALL,
+                                    ),
                                     child: SizedBox(
                                       height: 50,
                                       width: double.infinity,
@@ -120,17 +119,17 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
                                   Text(
                                     apiData!.data!.arFullName.toString(),
                                     textAlign: TextAlign.justify,
-                                    style:  Get.find<SettingsController>()
+                                    style: Get.find<SettingsController>()
                                         .selectedArabicFont
                                         .copyWith(
-                                      fontSize: Get.find<SettingsController>()
-                                          .arabicFontSize
-                                          .value,
-                                      color: Theme.of(context)
-                                          .textTheme
-                                          .bodyLarge!
-                                          .color,
-                                    ),
+                                          fontSize:
+                                              Get.find<SettingsController>()
+                                                  .arabicFontSize
+                                                  .value,
+                                          color: Theme.of(
+                                            context,
+                                          ).textTheme.bodyLarge!.color,
+                                        ),
                                   ),
                                   const Divider(),
                                   Text(
@@ -149,10 +148,9 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
                                     style: robotoMedium.copyWith(
                                       fontSize:
                                           Dimensions.FONT_SIZE_EXTRA_LARGE,
-                                      color: Theme.of(context)
-                                          .textTheme
-                                          .bodyLarge!
-                                          .color,
+                                      color: Theme.of(
+                                        context,
+                                      ).textTheme.bodyLarge!.color,
                                     ),
                                   ),
                                 ],
@@ -179,16 +177,16 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
                               scale: _animation.value,
                               child: Obx(
                                 () => Text(
-                                  translateText(dikirDetailsController
-                                      .count.value
-                                      .toString()),
+                                  translateText(
+                                    dikirDetailsController.count.value
+                                        .toString(),
+                                  ),
                                   style: robotoMedium.copyWith(
                                     fontSize:
                                         Dimensions.FONT_SIZE_EXTRA_LARGE + 30,
-                                    color: Theme.of(context)
-                                        .textTheme
-                                        .bodyLarge!
-                                        .color,
+                                    color: Theme.of(
+                                      context,
+                                    ).textTheme.bodyLarge!.color,
                                   ),
                                 ),
                               ),
@@ -215,8 +213,9 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
                                     onTap: () async {
                                       Vibration.vibrate(duration: 50);
                                       dikirDetailsController.incrementCount(
-                                          dikirDetailsController.dikirId
-                                              .toString());
+                                        dikirDetailsController.dikirId
+                                            .toString(),
+                                      );
                                       _controller.forward(from: 0);
                                     },
                                     child: SvgPicture.asset(
@@ -252,15 +251,17 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
                                             Navigator.of(context).pop();
 
                                             dikirDetailsController.deleteCount(
-                                                dikirDetailsController.dikirId
-                                                    .toString());
+                                              dikirDetailsController.dikirId
+                                                  .toString(),
+                                            );
                                           },
                                           child: Text(
                                             'yes'.tr,
                                             style: robotoMedium.copyWith(
-                                                color: Theme.of(context)
-                                                    .colorScheme
-                                                    .error),
+                                              color: Theme.of(
+                                                context,
+                                              ).colorScheme.error,
+                                            ),
                                           ),
                                         ),
                                         TextButton(
@@ -271,8 +272,10 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
                                           child: Text(
                                             'no'.tr,
                                             style: robotoMedium.copyWith(
-                                                color: Theme.of(context)
-                                                    .primaryColor),
+                                              color: Theme.of(
+                                                context,
+                                              ).primaryColor,
+                                            ),
                                           ),
                                         ),
                                       ],
@@ -282,7 +285,9 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
                               },
                               child: Padding(
                                 padding: const EdgeInsets.only(
-                                    right: 10, bottom: 10),
+                                  right: 10,
+                                  bottom: 10,
+                                ),
                                 child: Align(
                                   alignment: Alignment.centerRight,
                                   child: SvgPicture.asset(
@@ -300,7 +305,8 @@ class _DhikrCountScreenState extends State<DhikrCountScreen>
                       ),
 
                       const SizedBox(
-                          height: Dimensions.PADDING_SIZE_EXTRA_LARGE)
+                        height: Dimensions.PADDING_SIZE_EXTRA_LARGE,
+                      ),
                     ],
                   ),
           ),
