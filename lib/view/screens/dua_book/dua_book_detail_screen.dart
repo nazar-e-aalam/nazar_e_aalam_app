@@ -1,4 +1,6 @@
-import 'package:material_ui/material_ui.dart';
+// ignore_for_file: deprecated_member_use
+
+import 'package:flutter/material.dart';
 import '../../../controller/dua_book_controller.dart';
 import '../../../data/model/dua_book_model.dart';
 import 'package:nazar_e_alam/view/base/custom_app_bar.dart';

@@ -1,4 +1,6 @@
-import 'package:material_ui/material_ui.dart';
+// ignore_for_file: deprecated_member_use
+
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../data/model/fateha_model.dart';
 import '../../../data/repository/fateha_repository.dart';

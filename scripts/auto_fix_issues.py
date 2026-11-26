@@ -1,75 +1,95 @@
 #!/usr/bin/env python3
-"""Conservative Flutter maintenance: backup, SDK fixes, format, analyze."""
+"""Explicit, narrow Flutter maintenance. No SDK bulk fixes or pub get."""
 import argparse
-import datetime
-import pathlib
+import difflib
+import os
+from pathlib import Path
+import re
 import shutil
 import subprocess
 import sys
 import tempfile
 
-SAFE_CODES = ('unused_import', 'duplicate_import', 'unnecessary_import',
-              'unnecessary_new', 'unnecessary_const', 'prefer_const_constructors',
-              'prefer_const_literals_to_create_immutables', 'unnecessary_this',
-              'prefer_is_empty', 'prefer_is_not_empty', 'unnecessary_string_interpolations',
-              'unnecessary_brace_in_string_interps', 'sort_child_properties_last')
+IMPORT = re.compile(rb"(?m)^([ \t]*import[ \t]+)(['\"])package:material_ui/material_ui\.dart\2([ \t]*;[ \t]*\r?)$")
+IGNORE = re.compile(rb'(?m)^\s*//\s*ignore_for_file:[^\r\n]*\bdeprecated_member_use\b')
+GENERATED = ('.g.dart', '.freezed.dart', '.mocks.dart', '.gr.dart')
+
+def patch(data, migrate=False, suppress=False):
+    if not migrate:
+        return data
+    updated = IMPORT.sub(lambda m: m[1]+m[2]+b'package:flutter/material.dart'+m[2]+m[3], data)
+    if updated != data and suppress and not IGNORE.search(updated):
+        bom = b'\xef\xbb\xbf' if updated.startswith(b'\xef\xbb\xbf') else b''
+        nl = b'\r\n' if b'\r\n' in updated else b'\n'
+        updated = bom+b'// ignore_for_file: deprecated_member_use'+nl+nl+updated[len(bom):]
+    return updated
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--project', default='.')
+    p.add_argument('--apply', action='store_true', help='Actually modify files; default is preview')
     p.add_argument('--dry-run', action='store_true')
+    p.add_argument('--restore-material', action='store_true', help='Replace exact material_ui imports in lib only')
+    p.add_argument('--ignore-deprecated', action='store_true', help='Add file-level suppression only to migrated files')
+    p.add_argument('--format', action='store_true', help='Format non-generated Dart source files')
     p.add_argument('--test', action='store_true')
-    p.add_argument('--all-fixes', action='store_true', help='Allow all SDK bulk fixes; review diff carefully')
     a = p.parse_args()
-    root = pathlib.Path(a.project).resolve()
-    if not (root/'pubspec.yaml').is_file() or not (root/'lib').is_dir():
-        p.error('Select a Flutter project root')
+    if a.apply and a.dry_run: p.error('Choose apply or dry-run')
+    if a.ignore_deprecated and not a.restore_material: p.error('--ignore-deprecated requires --restore-material')
+    root = Path(a.project).resolve()
+    if not (root/'pubspec.yaml').is_file() or not (root/'lib').is_dir(): p.error('Select a Flutter project root')
     flutter = shutil.which('flutter')
     dart = shutil.which('dart')
     if not dart and flutter:
-        candidate = pathlib.Path(flutter).resolve().with_name('dart')
+        candidate = Path(flutter).resolve().with_name('dart')
         if candidate.is_file(): dart = str(candidate)
-    if not flutter or not dart: p.error('Flutter and Dart SDK must be installed and on PATH')
-    dirs = [x for x in ('lib','test','integration_test','bin','tool') if (root/x).is_dir()]
-    backup = None
+    if not flutter or (a.format and not dart): p.error('Required SDK executable not found')
+    files = []
+    for folder in ('lib','test','integration_test','bin','tool'):
+        start = root/folder
+        if not start.is_dir() or start.is_symlink(): continue
+        for base, dirs, names in os.walk(start, followlinks=False):
+            dirs[:] = [d for d in dirs if not d.startswith('.') and d not in ('build','node_modules') and not (Path(base)/d).is_symlink()]
+            for name in names:
+                f = Path(base)/name
+                if name.endswith('.dart') and not name.endswith(GENERATED) and not f.is_symlink(): files.append(f)
+    changes = {}
+    for f in sorted(files):
+        old = f.read_bytes()
+        new = patch(old, a.restore_material and f.is_relative_to(root/'lib'), a.ignore_deprecated)
+        if old != new:
+            changes[f] = new
+            print(''.join(difflib.unified_diff(old.decode('utf-8').splitlines(True), new.decode('utf-8').splitlines(True), fromfile=str(f.relative_to(root)), tofile=str(f.relative_to(root)))), end='')
+    print(f'\nPlanned import patches: {len(changes)}')
     def run(*cmd):
-        print('\n>>>', ' '.join(cmd), flush=True)
-        return subprocess.run(cmd, cwd=root, check=False).returncode
-    if a.dry_run:
-        return run(dart,'fix','--dry-run', *([] if a.all_fixes else ['--code='+','.join(SAFE_CODES)]))
-    backup = pathlib.Path(tempfile.mkdtemp(prefix='flutter-fix-'+datetime.datetime.now().strftime('%Y%m%d-%H%M%S')+'-'))
-    # Snapshot all project Dart sources, including local packages; never follow symlinks.
-    excluded = {'.git','.dart_tool','build','.gradle','.idea','node_modules','.notneeded','Pods','.symlinks'}
-    import os
-    for base, subdirs, files in os.walk(root, followlinks=False):
-        subdirs[:] = [d for d in subdirs if d not in excluded and not d.startswith('.')]
-        for name in files:
-            src = pathlib.Path(base)/name
-            if src.suffix == '.dart' and not src.is_symlink():
-                dst = backup/src.relative_to(root)
-                dst.parent.mkdir(parents=True, exist_ok=True)
-                shutil.copy2(src,dst)
-    print('Source backup:', backup, flush=True)
+        print('>>>', ' '.join(map(str,cmd)), flush=True)
+        return subprocess.run(cmd,cwd=root,check=False).returncode
+    if not a.apply:
+        print('Preview only. No source changes or formatting. Use --apply to authorize changes.')
+        return 0 if a.dry_run else run(flutter,'analyze','--no-pub')
+    backup = None
+    if changes or a.format:
+        backup = Path(tempfile.mkdtemp(prefix='flutter-safe-backup-'))
+        for f in (files if a.format else changes):
+            dest = backup/f.relative_to(root)
+            dest.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copy2(f,dest)
+        print('Backup:',backup,flush=True)
     try:
-        if run(flutter,'pub','get'): return 1
-        if run(dart,'fix','--apply', *([] if a.all_fixes else ['--code='+','.join(SAFE_CODES)])): return 1
-        # Formatting is deliberately the final source-changing operation.
-        if run(dart,'format',*dirs): return 1
-        result = run(flutter,'analyze','--no-pub')
-        if a.test:
-            result = run(flutter,'test','--no-pub') or result
-        print('\nRuntime review: inspect JuzListWidget.build and QuranController.fetchJuzListData.')
-        print('Move initial fetch to initState with a mounted post-frame callback if needed; do not fetch on every build.')
-        print('For StatelessWidget/StatefulWidget cast errors after hot reload, stop and restart the app.')
-        print('Review git diff before committing. Remaining analyzer/runtime issues need manual review.')
-        return result
+        for f,new in changes.items(): f.write_bytes(new)
+        result = 0
+        if a.format:
+            for i in range(0,len(files),50):
+                result = run(dart,'format',*[str(f.relative_to(root)) for f in files[i:i+50]]) or result
+                if result: break
+        if a.test: result = run(flutter,'test','--no-pub') or result
+        return run(flutter,'analyze','--no-pub') or result
     finally:
-        print('Original Dart sources preserved at:', backup)
-        print('Dependency resolution may also update pubspec.lock; review separately.')
+        if backup: print('Original sources:',backup)
+        print('Review git diff. No automatic rollback or semantic fixes performed.')
 
 if __name__ == '__main__':
-    try:
-        sys.exit(main())
+    try: sys.exit(main())
     except (OSError, KeyboardInterrupt) as exc:
-        print(f'Interrupted or failed: {exc}', file=sys.stderr)
+        print(f'Failed or interrupted: {exc}',file=sys.stderr)
         sys.exit(1)

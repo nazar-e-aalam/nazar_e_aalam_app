@@ -1,4 +1,6 @@
-import 'package:material_ui/material_ui.dart';
+// ignore_for_file: deprecated_member_use
+
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:shared_preferences/shared_preferences.dart';

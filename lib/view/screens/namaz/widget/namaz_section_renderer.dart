@@ -1,4 +1,6 @@
-import 'package:material_ui/material_ui.dart';
+// ignore_for_file: deprecated_member_use
+
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../../../controller/namaz_controller.dart';
 import '../../../../data/model/response/namaz_model.dart';

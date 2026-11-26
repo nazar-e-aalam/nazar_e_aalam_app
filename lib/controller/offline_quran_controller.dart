@@ -1,6 +1,8 @@
+// ignore_for_file: deprecated_member_use
+
 import 'dart:async';
 
-import 'package:material_ui/material_ui.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import 'package:nazar_e_alam/controller/quran_settings_controller.dart';
