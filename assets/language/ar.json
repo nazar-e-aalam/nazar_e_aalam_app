@@ -266,7 +266,7 @@
   "OK": "حسنًا",
   "app_title": "مولد الأسماء الإسلامية",
   "bismillah": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
-  "preferences": "تفضيلات",
+  "preferences": "التفضيلات",
   "gender": "الجنس",
   "gender_any": "أي جنس",
   "origin": "الأصل",
@@ -318,5 +318,13 @@
   "quran_milestone_complete": "تم إنجاز الهدف! أحسنت.",
   "quran_milestone_remaining": "سور متبقية لإكمال الهدف",
   "quran_milestone_subtitles": "أنت تقوم بعمل رائع! استمر.",
-  "home_screen_layout_settings": "اعدادات صفحة الرئيسية"
+  "home_screen_layout_settings": "اعدادات صفحة الرئيسية",
+  "nasihat": "نصيحة",
+  "about_us": "من نحن",
+  "privacy_policy": "سياسة الخصوصية",
+  "spiritual_guidance": "الإرشاد الروحي",
+  "connect_with_us": "تواصل معنا",
+  "application": "التطبيق",
+  "spiritual_guidance_description": "إرشاد روحي للحياة اليومية",
+  "read_advice": "اقرأ النصيحة"
 }

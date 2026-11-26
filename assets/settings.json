@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "module": "nasihat",
+  "default_language": "en",
+  "supported_languages": ["en", "hi", "gu", "ur", "ar", "sw"],
+  "title": {
+    "en": "Nasihat",
+    "hi": "नसीहत",
+    "gu": "નસીહત",
+    "ur": "نصیحت",
+    "ar": "نصيحة",
+    "sw": "Nasaha"
+  },
+  "items": [
+    {
+      "id": "nasihat_01",
+      "order": 1,
+      "type": "advice",
+      "text": {
+        "en": "Continue offering the five daily prayers (Namaz) with punctuality and regularity.",
+        "hi": "नमाज़ पांच वक़्त की पाबंदी के साथ अदा करते रहो।",
+        "gu": "નમાઝ પાંચ વખતની પાબંદી સાથે અદા કરતા રહો.",
+        "ur": "نماز پانچ وقت کی پابندی کے ساتھ ادا کرتے رہو۔",
+        "ar": "حافظوا على أداء الصلوات الخمس في أوقاتها بانتظام.",
+        "sw": "Endelea kuswali swala tano za kila siku kwa kuzingatia wakati na utaratibu."
+      },
+      "source_text": {
+        "gu": "1. નમાઝ પાંચ વક્ત કી પાબંદી કે સાથ અદા કરતે રહો।",
+        "hi": "1. नमाज पांच वक्त की पाबंदी के साथ अदा करते रहो।"
+      }
+    },
+    {
+      "id": "nasihat_02",
+      "order": 2,
+      "type": "advice",
+      "text": {
+        "en": "Remain constantly engaged in Zikr-e-Ilahi (remembrance of Allah) as instructed to us by our Pir-o-Murshid.",
+        "hi": "ज़िक्रे इलाही में हमेशा लगे रहो, जो पीरो मुर्शीद ने हमें बताया है।",
+        "gu": "ઝિક્રે ઇલાહીમાં હંમેશા લાગેલા રહો, જે પીરો મુર્શીદે આપણને જણાવ્યું છે.",
+        "ur": "ذکرِ الٰہی میں ہمیشہ لگے رہو، جو پیر و مرشد نے ہمیں بتایا ہے۔",
+        "ar": "داوموا دائماً على ذكر الله (ذكر إلهي) كما أرشدنا إليه الشيخ المرشد (پير و مرشد).",
+        "sw": "Dumu daima katika Zikr-e-Ilahi (kumkumbuka Mwenyezi Mungu) kama tulivyoelekezwa na Pir-o-Murshid wetu."
+      },
+      "source_text": {
+        "gu": "2. જ઼િક્રે ઈલાહી મેં હમેશા લગે રહો, જો પીરો મુર્શીદ ને હમેં બતાયા હૈ।",
+        "hi": "2. ज़िक्रे ईलाही में हमेशा लगे रहो, जो पीरो मुर्शीद ने हमें बताया है।"
+      }
+    },
+    {
+      "id": "nasihat_03",
+      "order": 3,
+      "type": "advice",
+      "text": {
+        "en": "Attain perfection in attachment, spiritual bond (Ta'alluq), firm conviction (Eteqad), love, and Shabate [source term under review] with your Pir-o-Murshid.",
+        "hi": "पीरो मुर्शीद से लगाव, तअल्लुक़, एतेक़ाद, मोहब्बत व शबते [समीक्षाधीन शब्द] में कमाल हासिल करें।",
+        "gu": "પીરો મુર્શીદ સાથે લગાવ, તઅલ્લુક, એતેકાદ, મોહબ્બત અને શબતે [સમીક્ષા હેઠળનો શબ્દ] માં કમાલ હાંસલ કરો.",
+        "ur": "پیر و مرشد سے لگاؤ، تعلق، اعتقاد، محبت و شبتے [زیرِ غور لفظ] میں کمال حاصل کریں۔",
+        "ar": "حققوا الكمال في التعلق والارتباط والاعتقاد والمحبة و«شبتے» [مصطلح قيد المراجعة] مع الشيخ المرشد (پير و مرشد).",
+        "sw": "Fikia ukamilifu katika mapenzi ya karibu, mafungamano (Ta'alluq), imani thabiti (Eteqad), upendo, na Shabate [neno linachunguzwa] kwa Pir-o-Murshid wako."
+      },
+      "source_text": {
+        "gu": "3. પીરો મુર્શીદ સે લગાવ, તાઅલ્લુક, એતેકાદ, મોહબ્બત વ શબતે મેં કમાલ હાસિલ કરે।",
+        "hi": "3. पीरो मुर्शीद से लगाव, ताअल्लुक, एतेकाद, मोहब्बत व शबते में कमाल हासिल करे।"
+      }
+    },
+    {
+      "id": "nasihat_04",
+      "order": 4,
+      "type": "advice",
+      "text": {
+        "en": "Come with Adab (respectful etiquette), remain with Adab, and depart with Adab; do not pay heed to the words of those who raise objections of any kind, and live with mutual love among one another.",
+        "hi": "अदब से आएं, अदब से रहें और अदब से जाएं, किसी भी किस्म का ऐतराज़ करने वालों की बातों में न आएं और आपस में मोहब्बत से रहें।",
+        "gu": "અદબથી આવો, અદબથી રહો અને અદબથી જાઓ; કોઈ પણ પ્રકારનો વાંધો (ઐતરાઝ) ઉઠાવનારાઓની વાતોમાં ન આવો અને અંદરોઅંદર મોહબ્બતથી રહો.",
+        "ur": "ادب سے آنا، ادب سے رہنا اور ادب سے جانا، کسی قسم کا اعتراض کرنے والوں کی باتوں میں نہ آنا اور آپس میں محبت سے رہنا۔",
+        "ar": "ادخلوا بأدب، وامكثوا بأدب، وانصرفوا بأدب، ولا تلتفتوا إلى كلام المعترضين بأي شكل من الأشكال، وعِيشوا فيما بينكم بالمحبة.",
+        "sw": "Njoo kwa Adab (heshima na adabu), kaa kwa Adab, na ondoka kwa Adab; usisikilize maneno ya wale wanaoleta pingamizi za aina yoyote, na ishini kwa upendo baina yenu."
+      },
+      "source_text": {
+        "gu": "4. અદબ સે આના, અદબ સે રહના ઔર અદબ સે જાના ઔર કિસી કિસ્મ કા ઐતરાજ઼ કરને વાલોં કી બાતોં મેં નહીં આના ઔર આપસ મેં મોહબ્બત સે રહના।",
+        "hi": "4. अदब से आना, अदब से रहना और अदब से जाना और किसी किस्म का ऐतराज़ करने वालों की बातों में नहीं आना और आपस में मोहब्बत से रहना।"
+      }
+    }
+  ],
+  "closing_dua": {
+    "id": "nasihat_closing_dua",
+    "type": "supplication",
+    "text": {
+      "en": "May Allah ﷻ, for the sake (Sadqah) of His Beloved ﷺ (صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم), grant us all the divine grace (Tawfiq) to do good... Ameen.",
+      "hi": "अल्लाह ﷻ अपने हबीब صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم के सदक़े में हम सबको नेक तौफ़ीक़ अता फ़रमाए... आमीन।",
+      "gu": "અલ્લાહ ﷻ પોતાના હબીબ صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم ના સદકામાં આપણને સૌને નેક તૌફીક અતા ફરમાવે... આમીન.",
+      "ur": "اللہ ﷻ اپنے حبیب صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم کے صدقے میں ہم سب کو نیک توفیق عطا فرمائے... آمین۔",
+      "ar": "نسأل الله ﷻ بجاه حبيبه صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم أن يرزقنا جميعاً التوفيق للخير... آمين.",
+      "sw": "Mwenyezi Mungu ﷻ, kwa baraka na Sadqah ya Kipenzi Chake صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم, atujaalie sote tawfiq ya kutenda mema... Amina."
+    },
+    "source_text": {
+      "gu": "અલ્લાહ ﷻ અપને હબીબ صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم કે સદકે મેં હમ સબકો નેક તૌફીક અતા ફરમાએ... આમીન",
+      "hi": "अल्लाह ﷻ अपने हबीब صَلَّى اللّٰهُ عَلَيهِ وَآلِهٖ وَسَلَّم के सदके में हम सबको नेक तौफीक अता फरमाए... आमीन"
+    }
+  },
+  "review_issues": [
+    {
+      "id": "issue_nasihat_03_shabate",
+      "item_id": "nasihat_03",
+      "severity": "high",
+      "source_tokens": {
+        "gu": "શબતે",
+        "hi": "शबते"
+      },
+      "description": "Ambiguous or likely corrupted Urdu/Persian loanword in the third teaching ('મોહબ્બત વ શબતે' / 'मोहब्बत व शबते'). Neither 'શબતે' nor 'शबते' corresponds to a standard Urdu Sufi virtue in this context.",
+      "proposed_interpretations": [
+        {
+          "candidate_ur": "صحبت",
+          "transliteration": "Suhbat / Sohbat",
+          "meaning_en": "spiritual companionship / keeping company with the Murshid",
+          "likelihood": "very_high",
+          "rationale": "In classical Sunni Sufi literature, 'تعلق، اعتقاد، محبت و صحبت' (Ta'alluq, Eteqad, Muhabbat, wa Suhbat) is a standard formulaic sequence describing a disciple's relationship with their Shaykh. A transcription/OCR error converting 'सुहबत / सोहबत' or 'صحبت' into 'शबते' is linguistically common."
+        },
+        {
+          "candidate_ur": "ثبات",
+          "transliteration": "Sabat / Thabat",
+          "meaning_en": "steadfastness / constancy",
+          "likelihood": "moderate",
+          "rationale": "Phonetic similarity between 'सबात / शबात' (ثبات) and 'शबते', fitting the spiritual context of firm devotion."
+        },
+        {
+          "candidate_ur": "نسبت",
+          "transliteration": "Nisbat",
+          "meaning_en": "spiritual lineage / mystical connection",
+          "likelihood": "moderate",
+          "rationale": "Frequently paired with 'ताअल्लुक' (Ta'alluq) and 'मोहब्बत' (Muhabbat) in Sufi discourse, though phonetically further from 'शबते'."
+        }
+      ],
+      "action_required": "Confirm original Urdu manuscript or audio source with the spiritual authorities of Nazar E Aalam before removing the bracketed review note in production."
+    }
+  ]
+}

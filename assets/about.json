@@ -1,0 +1,551 @@
+{
+  "schema_version": 1,
+  "module": "about_us",
+  "id": "about_us",
+  "default_language": "en",
+  "supported_languages": [
+    "en",
+    "hi",
+    "gu",
+    "ur",
+    "ar",
+    "sw"
+  ],
+  "title": {
+    "en": "About Us",
+    "hi": "हमारे बारे में",
+    "gu": "અમારા વિશે",
+    "ur": "ہمارے بارے میں",
+    "ar": "من نحن",
+    "sw": "Kuhusu Sisi"
+  },
+  "metadata": {
+    "app_name": "Nazar E Aalam",
+    "publisher": "PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR",
+    "contact_email": "mashayakhipaigam@gmail.com",
+    "is_free": true
+  },
+  "tagline": {
+    "en": "A free Islamic companion rooted in the Sunni Hanafi Mashayakhi Chishti Hussaini Sufi tradition.",
+    "hi": "सुन्नी हनफ़ी मशायख़ी चिश्ती हुसैनी सूफ़ी परंपरा पर आधारित एक निःशुल्क इस्लामी साथी ऐप।",
+    "gu": "સુન્ની હનફી મશાયખી ચિશ્તી હુસૈની સૂફી પરંપરા પર આધારિત એક મફત ઇસ્લામી સાથી એપ.",
+    "ur": "سنی حنفی مشائخی چشتی حسینی صوفی روایت سے وابستہ ایک مفت اسلامی رفیق ایپ۔",
+    "ar": "رفيق إسلامي مجاني متجذر في الطريقة الصوفية السنية الحنفية المشايخية الجشتية الحسينية.",
+    "sw": "Mwenza wa bure wa Kiislamu uliojikita katika utamaduni wa Kisufi wa Sunni Hanafi Mashayakhi Chishti Hussaini."
+  },
+  "sections": [
+    {
+      "id": "introduction",
+      "order": 1,
+      "icon": "info",
+      "title": {
+        "en": "Introduction",
+        "hi": "परिचय",
+        "gu": "પરિચય",
+        "ur": "تعارف",
+        "ar": "مقدمة",
+        "sw": "Utangulizi"
+      },
+      "items": [
+        {
+          "id": "introduction_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "Nazar E Aalam is a free Islamic mobile application published by PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR. It brings essential daily worship tools, devotional litanies, and authentic Islamic heritage resources together in one accessible place.",
+            "hi": "Nazar E Aalam, PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR द्वारा प्रकाशित एक निःशुल्क इस्लामी मोबाइल एप्लिकेशन है। यह दैनिक इबादत के आवश्यक साधनों, वज़ाइफ़ और इस्लामी विरासत की सामग्री को एक ही सुलभ मंच पर प्रस्तुत करता है।",
+            "gu": "Nazar E Aalam એ PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR દ્વારા પ્રકાશિત એક મફત ઇસ્લામી મોબાઇલ એપ્લિકેશન છે. તે દૈનિક ઇબાદતના આવશ્યક સાધનો, દુઆઓ અને ઇસ્લામી વારસાની સામગ્રીને એક જ સરળ સ્થળે એકત્રિત કરે છે.",
+            "ur": "Nazar E Aalam ایک مفت اسلامی موبائل ایپلیکیشن ہے جسے PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR نے شائع کیا ہے۔ یہ روزمرہ عبادات کے ضروری ذرائع، اوراد و وظائف اور اسلامی ورثے کے مستند مضامین کو ایک ہی جگہ فراہم کرتی ہے۔",
+            "ar": "تطبيق Nazar E Aalam هو تطبيق إسلامي مجاني للهواتف المحمولة ينشره PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR. يجمع التطبيق بين أدوات العبادة اليومية الأساسية، والأوراد والأدعية، وموارد التراث الإسلامي في منصة واحدة ميسّرة.",
+            "sw": "Nazar E Aalam ni programu ya bure ya simu ya Kiislamu iliyochapishwa na PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR. Inakusanya zana muhimu za ibada za kila siku, nyiradi, na rasilimali za urithi wa Kiislamu katika sehemu moja rahisi kutumia."
+          }
+        }
+      ]
+    },
+    {
+      "id": "our_purpose",
+      "order": 2,
+      "icon": "spiritual_heritage",
+      "title": {
+        "en": "Our Purpose & Spiritual Identity",
+        "hi": "हमारा उद्देश्य और आध्यात्मिक पहचान",
+        "gu": "અમારો હેતુ અને આધ્યાત્મિક ઓળખ",
+        "ur": "ہمارا مقصد اور روحانی نسبت",
+        "ar": "غايتنا وهويتنا الروحية",
+        "sw": "Kusudi Letu na Utambulisho wa Kiroho"
+      },
+      "items": [
+        {
+          "id": "our_purpose_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "Rooted in the Sunni Hanafi Mashayakhi Chishti Hussaini Sufi tradition, Nazar E Aalam is designed to support Muslims in their daily remembrance of Allah ﷻ, devotion to Prophet Muhammad ﷺ, and preservation of classical Sufi spiritual teachings.",
+            "hi": "सुन्नी हनफ़ी मशायख़ी चिश्ती हुसैनी सूफ़ी परंपरा पर आधारित, Nazar E Aalam को मुसलमानों की दैनिक अल्लाह ﷻ की याद, पैग़ंबर मुहम्मद ﷺ के प्रति अक़ीदत और पारंपरिक सूफ़ी आध्यात्मिक शिक्षाओं के संरक्षण में सहायता के लिए तैयार किया गया है।",
+            "gu": "સુન્ની હનફી મશાયખી ચિશ્તી હુસૈની સૂફી પરંપરા પર આધારિત, Nazar E Aalam મુસલમાનોને દૈનિક અલ્લાહ ﷻ ના ઝિક્ર, પયગંબર મુહમ્મદ ﷺ પ્રત્યેની મહોબ્બત અને પારંપરિક સૂફી આધ્યાત્મિક શિક્ષણના જતનમાં મદદરૂપ થવા માટે બનાવવામાં આવી છે.",
+            "ur": "سنی حنفی مشائخی چشتی حسینی صوفی روایت سے وابستہ، Nazar E Aalam کو مسلمانوں کے روزمرہ ذکرِ الٰہی ﷻ، نبی کریم ﷺ سے عقیدت و محبت اور روایتی صوفیانہ روحانی تعلیمات کے تحفظ میں معاونت کے لیے ترتیب دیا گیا ہے۔",
+            "ar": "انطلاقاً من الطريقة الصوفية السنية الحنفية المشايخية الجشتية الحسينية، صُمِّم تطبيق Nazar E Aalam لإعانة المسلمين على ذكر الله ﷻ اليومي، وتعزيز المحبة والارتباط بالنبي محمد ﷺ، وحفظ التعاليم الروحية الصوفية الأصيلة.",
+            "sw": "Ikiwa imejikita katika utamaduni wa Kisufi wa Sunni Hanafi Mashayakhi Chishti Hussaini, Nazar E Aalam imeundwa kuwasaidia Waislamu katika kumkumbuka Allah ﷻ kila siku, mapenzi kwa Mtume Muhammad ﷺ, na kuhifadhi mafundisho ya kiroho ya Kisufi."
+          }
+        }
+      ]
+    },
+    {
+      "id": "holy_quran",
+      "order": 3,
+      "icon": "quran",
+      "title": {
+        "en": "Holy Quran",
+        "hi": "पवित्र क़ुरआन",
+        "gu": "પવિત્ર કુર્આન",
+        "ur": "قرآنِ مجید",
+        "ar": "القرآن الكريم",
+        "sw": "Qur'ani Tukufu"
+      },
+      "items": [
+        {
+          "id": "holy_quran_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "Read and listen to the Holy Quran with clear navigation and respected scholarly translation.",
+            "hi": "सुगम नेविगेशन और प्रतिष्ठित विद्वतापूर्ण अनुवाद के साथ पवित्र क़ुरआन पढ़ें और सुनें।",
+            "gu": "સરળ નેવિગેશન અને આદરણીય વિદ્વતાપૂર્ણ અનુવાદ સાથે પવિત્ર કુર્આન વાંચો અને સાંભળો.",
+            "ur": "آسان نیویگیشن اور مستند علمی ترجمے کے ساتھ قرآنِ مجید کی تلاوت کریں اور سنیں۔",
+            "ar": "اقرأ القرآن الكريم واستمع إلى تلاوته مع تصفح ميسّر وترجمة علمية معتمدة.",
+            "sw": "Soma na usikilize Qur'ani Tukufu kwa urahisi wa kuvinjari na tafsiri yenye heshima ya kitaalamu."
+          }
+        },
+        {
+          "id": "holy_quran_02",
+          "order": 2,
+          "type": "bullet_list",
+          "items": [
+            {
+              "en": "Holy Quran reading with Surah and Para (Juz) navigation",
+              "hi": "सूरह और पारा (जुज़) नेविगेशन के साथ पवित्र क़ुरआन पठन",
+              "gu": "સૂરહ અને પારા (જુઝ) નેવિગેશન સાથે પવિત્ર કુર્આન વાંચન",
+              "ur": "سورہ اور پارہ وار نیویگیشن کے ساتھ قرآنِ مجید کا مطالعہ",
+              "ar": "قراءة القرآن الكريم مع التصفح حسب السورة والجزء",
+              "sw": "Usomaji wa Qur'ani Tukufu kwa mpangilio wa Sura na Juzuu"
+            },
+            {
+              "en": "Quran translations, including Irfan-ul-Qur'aan by Shaikh-ul-Islam Dr. Muhammad Tahir-ul-Qadri Hafidhahullah",
+              "hi": "क़ुरआन अनुवाद, जिसमें शैख़-उल-इस्लाम डॉ. मुहम्मद ताहिर-उल-क़ादरी हफ़िज़हुल्लाह द्वारा रचित इरफ़ान-उल-क़ुरआन शामिल है",
+              "gu": "કુર્આન અનુવાદ, જેમાં શૈખ-ઉલ-ઇસ્લામ ડૉ. મુહમ્મદ તાહિર-ઉલ-કાદરી હફિઝહુલ્લાહ દ્વારા લિખિત ઇરફાન-ઉલ-કુર્આન સામેલ છે",
+              "ur": "قرآنِ مجید کے تراجم، بشمول شیخ الاسلام ڈاکٹر محمد طاہر القادری حفظہ اللہ کا ترجمہ عرفان القرآن",
+              "ar": "تراجم معاني القرآن الكريم، بما في ذلك ترجمة «عرفان القرآن» لشيخ الإسلام الدكتور محمد طاهر القادري حفظه الله",
+              "sw": "Tafsiri za Qur'ani, ikiwemo Irfan-ul-Qur'aan iliyoandikwa na Shaikh-ul-Islam Dkt. Muhammad Tahir-ul-Qadri Hafidhahullah"
+            },
+            {
+              "en": "Audio recitations of the Holy Quran by multiple reciters",
+              "hi": "विभिन्न क़ारियों द्वारा पवित्र क़ुरआन की ऑडियो तिलावत",
+              "gu": "વિવિધ કારીઓ દ્વારા પવિત્ર કુર્આનની ઑડિયો તિલાવત",
+              "ur": "متعدد قراء حضرات کی آواز میں قرآنِ مجید کی آڈیو تلاوت",
+              "ar": "تلاوات صوتية للقرآن الكريم بأصوات عدد من القرّاء",
+              "sw": "Visomo vya sauti vya Qur'ani Tukufu kutoka kwa wasomaji mbalimbali"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prayer_and_worship",
+      "order": 4,
+      "icon": "prayer",
+      "title": {
+        "en": "Prayer & Daily Worship",
+        "hi": "नमाज़ और दैनिक इबादत",
+        "gu": "નમાઝ અને દૈનિક ઇબાદત",
+        "ur": "نماز اور روزمرہ عبادات",
+        "ar": "الصلاة والعبادات اليومية",
+        "sw": "Swala na Ibada za Kila Siku"
+      },
+      "items": [
+        {
+          "id": "prayer_and_worship_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "Stay mindful of your daily prayers with accurate timing tools, direction guidance, and step-by-step Namaz instructions.",
+            "hi": "सटीक समय उपकरणों, दिशा मार्गदर्शन और चरण-दर-चरण नमाज़ विधियों के साथ अपनी दैनिक नमाज़ों का ध्यान रखें।",
+            "gu": "સચોટ સમય સાધનો, દિશા માર્ગદર્શન અને ક્રમબદ્ધ નમાઝ પદ્ધતિઓ સાથે તમારી દૈનિક નમાઝોનું ધ્યાન રાખો.",
+            "ur": "درست اوقات، سمتِ قبلہ کی رہنمائی اور نماز کے تفصیلی طریقوں کے ساتھ اپنی روزمرہ نمازوں کی پابندی کریں۔",
+            "ar": "حافظ على صلواتك اليومية من خلال أدوات المواقيت الدقيقة، وتحديد اتجاه القبلة، وشرح كيفيات الصلاة.",
+            "sw": "Zingatia swala zako za kila siku kwa zana sahihi za nyakati, mwongozo wa mwelekeo wa Qibla, na maelekezo ya hatua kwa hatua ya Swala."
+          }
+        },
+        {
+          "id": "prayer_and_worship_02",
+          "order": 2,
+          "type": "bullet_list",
+          "items": [
+            {
+              "en": "Daily prayer times with customizable calculation preferences",
+              "hi": "अनुकूलन योग्य गणना प्राथमिकताओं के साथ दैनिक नमाज़ के समय",
+              "gu": "કસ્ટમાઇઝ કરી શકાય તેવી ગણતરી પસંદગીઓ સાથે દૈનિક નમાઝના સમય",
+              "ur": "حسبِ ضرورت حسابی ترتیبات کے ساتھ روزانہ نماز کے اوقات",
+              "ar": "مواقيت الصلاة اليومية مع خيارات تخصيص طرق الحساب",
+              "sw": "Nyakati za swala za kila siku zenye mipangilio inayoweza kubadilishwa ya ukokotoaji"
+            },
+            {
+              "en": "Prayer and Azan notifications",
+              "hi": "नमाज़ और अज़ान की सूचनाएँ",
+              "gu": "નમાઝ અને અઝાનની સૂચનાઓ",
+              "ur": "نماز اور اذان کے نوٹیفیکیشنز",
+              "ar": "تنبيهات الصلاة والأذان",
+              "sw": "Arifa za Swala na Adhana"
+            },
+            {
+              "en": "Qibla direction finder",
+              "hi": "क़िब्ला दिशा निर्देशक",
+              "gu": "કિબલા દિશા દર્શક",
+              "ur": "سمتِ قبلہ معلوم کرنے کی سہولت",
+              "ar": "تحديد اتجاه القبلة",
+              "sw": "Kitafuta mwelekeo wa Qibla"
+            },
+            {
+              "en": "Namaz procedures, including daily prayers, Namaz-e-Eid, Namaz-e-Janaza, and Nawafil",
+              "hi": "नमाज़ के तरीक़े, जिनमें दैनिक नमाज़ें, नमाज़-ए-ईद, नमाज़-ए-जनाज़ा और नवाफ़िल शामिल हैं",
+              "gu": "નમાઝની પદ્ધતિઓ, જેમાં દૈનિક નમાઝો, નમાઝ-એ-ઈદ, નમાઝ-એ-જનાઝા અને નવાફિલ સામેલ છે",
+              "ur": "نماز ادا کرنے کے طریقے، بشمول پنجگانہ نماز، نمازِ عید، نمازِ جنازہ اور نوافل",
+              "ar": "كيفيات أداء الصلوات، بما في ذلك الصلوات المفروضة وصلاة العيد وصلاة الجنازة والنوافل",
+              "sw": "Taratibu za Swala, ikijumuisha swala za kila siku, Swala ya Idd, Swala ya Jeneza, na Swala za Sunna (Nawafil)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dua_and_devotional_resources",
+      "order": 5,
+      "icon": "dua",
+      "title": {
+        "en": "Dua & Devotional Resources",
+        "hi": "दुआ और भक्तिमय संसाधन",
+        "gu": "દુઆ અને આધ્યાત્મિક સંસાધનો",
+        "ur": "دعائیں اور اوراد و وظائف",
+        "ar": "الأدعية والأوراد",
+        "sw": "Dua na Rasilimali za Ibada"
+      },
+      "items": [
+        {
+          "id": "dua_and_devotional_resources_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "Access a curated collection of traditional supplications, salutations upon the Prophet ﷺ, and daily litanies.",
+            "hi": "पारंपरिक दुआओं, पैग़ंबर ﷺ पर दुरूद-ओ-सलाम और दैनिक वज़ाइफ़ के चुनिंदा संग्रह का लाभ उठाएँ।",
+            "gu": "પારંપરિક દુઆઓ, પયગંબર ﷺ પર દુરૂદ-ઓ-સલામ અને દૈનિક વઝાઈફના પસંદગીના સંગ્રહનો લાભ લો.",
+            "ur": "مسنون دعاؤں، درودِ پاک اور روزمرہ اوراد و وظائف کے منتخب مجموعے سے استفادہ کریں۔",
+            "ar": "اطّلع على مجموعة مختارة من الأدعية المأثورة، والصلاة على النبي ﷺ، والأوراد اليومية.",
+            "sw": "Pata mkusanyiko uliochaguliwa wa dua za kawaida, salamu kwa Mtume ﷺ, na nyiradi za kila siku."
+          }
+        },
+        {
+          "id": "dua_and_devotional_resources_02",
+          "order": 2,
+          "type": "bullet_list",
+          "items": [
+            {
+              "en": "Masnoon Duas, Dua Book, and Dua-e-Faridi",
+              "hi": "मसनून दुआएँ, दुआ बुक और दुआ-ए-फ़रीदी",
+              "gu": "મસનૂન દુઆઓ, દુઆ બુક અને દુઆ-એ-ફરીદી",
+              "ur": "مسنون دعائیں، دعا بک اور دعائے فریدی",
+              "ar": "الأدعية المسنونة، وكتاب الأدعية، ودعاء الفريدي",
+              "sw": "Dua za Masnoon, Kitabu cha Dua, na Dua-e-Faridi"
+            },
+            {
+              "en": "Durood-e-Paak and Wazaif collections",
+              "hi": "दुरूद-ए-पाक और वज़ाइफ़ संग्रह",
+              "gu": "દુરૂદ-એ-પાક અને વઝાઈફ સંગ્રહ",
+              "ur": "درودِ پاک اور وظائف کے مجموعے",
+              "ar": "مجموعات الصلاة على النبي ﷺ (الدرود الشريف) والوظائف",
+              "sw": "Mikusanyiko ya Durood-e-Paak na Wazaif"
+            },
+            {
+              "en": "Kalima Sharif, Fateha procedures, and Dhikr resources",
+              "hi": "कलिमा शरीफ़, फ़ातिहा के तरीक़े और ज़िक्र संसाधन",
+              "gu": "કલિમા શરીફ, ફાતિહાની પદ્ધતિઓ અને ઝિક્ર સંસાધનો",
+              "ur": "کلمہ شریف، فاتحہ کا طریقہ اور ذکر و اذکار",
+              "ar": "الكلمات الطيبة، وكيفية الفاتحة، وأذكار متنوعة",
+              "sw": "Kalima Sharif, taratibu za Fateha, na rasilimali za Dhikr"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "islamic_heritage",
+      "order": 6,
+      "icon": "heritage",
+      "title": {
+        "en": "Islamic Heritage",
+        "hi": "इस्लामी विरासत",
+        "gu": "ઇસ્લામી વારસો",
+        "ur": "اسلامی ورثہ",
+        "ar": "التراث الإسلامي",
+        "sw": "Urithi wa Kiislamu"
+      },
+      "items": [
+        {
+          "id": "islamic_heritage_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "Explore spiritual lineage records and profiles of revered figures in Islamic and Sufi history.",
+            "hi": "इस्लामी और सूफ़ी इतिहास की प्रतिष्ठित हस्तियों के परिचय और आध्यात्मिक शजरा का अध्ययन करें।",
+            "gu": "ઇસ્લામી અને સૂફી ઇતિહાસની આદરણીય હસ્તીઓના પરિચય અને આધ્યાત્મિક શજરાનો અભ્યાસ કરો.",
+            "ur": "اسلامی اور صوفی تاریخ کی برگزیدہ شخصیات کے تذکرے اور روحانی شجرہ کا مطالعہ کریں۔",
+            "ar": "استكشف السلسلة الروحية المباركة وسير الشخصيات الموقّرة في التاريخ الإسلامي والصوفي.",
+            "sw": "Chunguza kumbukumbu za nasaba ya kiroho na wasifu wa watu wanaoheshimiwa katika historia ya Kiislamu na Kisufi."
+          }
+        },
+        {
+          "id": "islamic_heritage_02",
+          "order": 2,
+          "type": "bullet_list",
+          "items": [
+            {
+              "en": "Shijra Mubarak of the Sunni Hanafi Mashayakhi Chishti Hussaini Sufi tradition",
+              "hi": "सुन्नी हनफ़ी मशायख़ी चिश्ती हुसैनी सूफ़ी परंपरा का शजरा मुबारक",
+              "gu": "સુન્ની હનફી મશાયખી ચિશ્તી હુસૈની સૂફી પરંપરાનો શજરા મુબારક",
+              "ur": "سنی حنفی مشائخی چشتی حسینی صوفی سلسلے کا شجرہ مبارک",
+              "ar": "الشجرة المباركة للطريقة الصوفية السنية الحنفية المشايخية الجشتية الحسينية",
+              "sw": "Shijra Mubarak ya utamaduni wa Kisufi wa Sunni Hanafi Mashayakhi Chishti Hussaini"
+            },
+            {
+              "en": "Panjtan Paak and Ghaus-e-Azam",
+              "hi": "पंजतन पाक और ग़ौस-ए-आज़म",
+              "gu": "પંજતન પાક અને ગૌસ-એ-આઝમ",
+              "ur": "پنجتن پاک اور غوثِ اعظم",
+              "ar": "أهل الكساء (بنجتن باك) والغوث الأعظم",
+              "sw": "Panjtan Paak na Ghaus-e-Azam"
+            },
+            {
+              "en": "Khulafa-e-Rashidin and Ashra-e-Mubashshira",
+              "hi": "ख़ुलफ़ा-ए-राशिदीन और अशरा-ए-मुबश्शरा",
+              "gu": "ખુલફા-એ-રાશિદીન અને અશરા-એ-મુબશ્શરા",
+              "ur": "خلفائے راشدین اور عشرہ مبشرہ",
+              "ar": "الخلفاء الراشدون والعشرة المبشرون بالجنة",
+              "sw": "Khulafa-e-Rashidin na Ashra-e-Mubashshira"
+            },
+            {
+              "en": "The 72 martyrs of Karbala and other revered Islamic personalities",
+              "hi": "कर्बला के 72 शहीद और अन्य आदरणीय इस्लामी हस्तियाँ",
+              "gu": "કરબલાના 72 શહીદો અને અન્ય આદરણીય ઇસ્લામી હસ્તીઓ",
+              "ur": "شہدائے کربلا (72 شہداء) اور دیگر برگزیدہ اسلامی شخصیات",
+              "ar": "شهداء كربلاء الاثنان والسبعون وغيرهم من الشخصيات الإسلامية الموقّرة",
+              "sw": "Mashahidi 72 wa Karbala na watu wengine wanaoheshimiwa katika Uislamu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "islamic_knowledge",
+      "order": 7,
+      "icon": "knowledge",
+      "title": {
+        "en": "Islamic Knowledge & Guidance",
+        "hi": "इस्लामी ज्ञान और मार्गदर्शन",
+        "gu": "ઇસ્લામી જ્ઞાન અને માર્ગદર્શન",
+        "ur": "اسلامی معلومات اور روحانی رہنمائی",
+        "ar": "المعرفة الإسلامية والتوجيه الروحي",
+        "sw": "Elimu ya Kiislamu na Mwongozo"
+      },
+      "items": [
+        {
+          "id": "islamic_knowledge_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "Deepen your spiritual understanding through educational guides, sacred names, and moral counsel.",
+            "hi": "शैक्षिक मार्गदर्शिकाओं, मुबारक नामों और नैतिक नसीहतों के माध्यम से अपनी आध्यात्मिक समझ को गहरा करें।",
+            "gu": "શૈક્ષણિક માર્ગદર્શિકાઓ, મુબારક નામો અને નૈતિક નસીહતો દ્વારા તમારી આધ્યાત્મિક સમજને વધુ ઊંડી બનાવો.",
+            "ur": "تعلیمی رہنمائی، اسمائے مبارکہ اور اخلاقی نصیحتوں کے ذریعے اپنے روحانی فہم کو وسعت دیں۔",
+            "ar": "عمّق فهمك الروحي من خلال الأدلة التعليمية، والأسماء المباركة، والنصائح الإرشادية.",
+            "sw": "Ongeza uelewa wako wa kiroho kupitia miongozo ya kielimu, majina matukufu, na nasaha za kimaadili."
+          }
+        },
+        {
+          "id": "islamic_knowledge_02",
+          "order": 2,
+          "type": "bullet_list",
+          "items": [
+            {
+              "en": "Asma-ul-Husna (Beautiful Names of Allah ﷻ) and Asma-un-Nabi (Names of Prophet Muhammad ﷺ)",
+              "hi": "अस्मा-उल-हुस्ना (अल्लाह ﷻ के सुंदर नाम) और अस्मा-उन-नबी (पैग़ंबर मुहम्मद ﷺ के नाम)",
+              "gu": "અસ્મા-ઉલ-હુસ્ના (અલ્લાહ ﷻ ના સુંદર નામો) અને અસ્મા-ઉન-નબી (પયગંબર મુહમ્મદ ﷺ ના નામો)",
+              "ur": "اسماء الحسنیٰ (اللہ ﷻ کے صفاتی نام) اور اسماء النبی (نبی کریم ﷺ کے اسمائے مبارکہ)",
+              "ar": "أسماء الله الحسنى ﷻ وأسماء النبي محمد ﷺ",
+              "sw": "Asma-ul-Husna (Majina Mazuri ya Allah ﷻ) na Asma-un-Nabi (Majina ya Mtume Muhammad ﷺ)"
+            },
+            {
+              "en": "Information about Eid-e-Milad-un-Nabi ﷺ and memorable Islamic days",
+              "hi": "ईद-ए-मीलाद-उन-नबी ﷺ और यादगार इस्लामी दिनों की जानकारी",
+              "gu": "ઈદ-એ-મીલાદ-ઉન-નબી ﷺ અને યાદગાર ઇસ્લામી દિવસોની માહિતી",
+              "ur": "عیدِ میلاد النبی ﷺ اور اہم یادگار اسلامی ایام کی معلومات",
+              "ar": "معلومات حول عيد ميلاد النبي ﷺ والأيام الإسلامية المباركة",
+              "sw": "Taarifa kuhusu Eid-e-Milad-un-Nabi ﷺ na siku muhimu za kukumbukwa katika Uislamu"
+            },
+            {
+              "en": "Hajj guidance and supplications",
+              "hi": "हज मार्गदर्शन और दुआएँ",
+              "gu": "હજ માર્ગદર્શન અને દુઆઓ",
+              "ur": "حج کی رہنمائی اور دعائیں",
+              "ar": "إرشادات الحج وأدعيته",
+              "sw": "Mwongozo wa Hijja na dua zake"
+            },
+            {
+              "en": "Nasihat (spiritual advice and moral guidance)",
+              "hi": "नसीहत (आध्यात्मिक सलाह और नैतिक मार्गदर्शन)",
+              "gu": "નસીહત (આધ્યાત્મિક સલાહ અને નૈતિક માર્ગદર્શન)",
+              "ur": "نصیحت (روحانی اور اخلاقی رہنمائی)",
+              "ar": "النصيحة (التوجيه الروحي والأخلاقي)",
+              "sw": "Nasihat (nasaha za kiroho na mwongozo wa kimaadili)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "application_experience",
+      "order": 8,
+      "icon": "experience",
+      "title": {
+        "en": "Application Experience",
+        "hi": "एप्लिकेशन अनुभव",
+        "gu": "એપ્લિકેશન અનુભવ",
+        "ur": "ایپلیکیشن کا تجربہ",
+        "ar": "تجربة الاستخدام",
+        "sw": "Uzoefu wa Programu"
+      },
+      "items": [
+        {
+          "id": "application_experience_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "Nazar E Aalam is designed for clarity, comfort, and ease of use across different reading preferences.",
+            "hi": "Nazar E Aalam को विभिन्न पठन प्राथमिकताओं के अनुरूप स्पष्टता, सुविधा और उपयोग में आसानी के लिए डिज़ाइन किया गया है।",
+            "gu": "Nazar E Aalam ને વિવિધ વાંચન પસંદગીઓ મુજબ સ્પષ્ટતા, સુવિધા અને ઉપયોગની સરળતા માટે ડિઝાઇન કરવામાં આવી છે.",
+            "ur": "Nazar E Aalam کو مطالعے کی مختلف ترجیحات کے مطابق وضاحت، سہولت اور آسان استعمال کے لیے ڈیزائن کیا گیا ہے۔",
+            "ar": "صُمِّم تطبيق Nazar E Aalam ليوفّر الوضوح والراحة وسهولة الاستخدام بما يناسب مختلف تفضيلات القراءة.",
+            "sw": "Nazar E Aalam imeundwa kwa uwazi, urahisi, na starehe ya matumizi kulingana na mapendeleo mbalimbali ya usomaji."
+          }
+        },
+        {
+          "id": "application_experience_02",
+          "order": 2,
+          "type": "bullet_list",
+          "items": [
+            {
+              "en": "Choice between Classic and Modern interface layouts",
+              "hi": "क्लासिक और मॉडर्न इंटरफ़ेस लेआउट के बीच चयन",
+              "gu": "ક્લાસિક અને મોડર્ન ઇન્ટરફેસ લેઆઉટ વચ્ચે પસંદગી",
+              "ur": "کلاسک اور ماڈرن انٹرفیس لے آؤٹ کے درمیان انتخاب",
+              "ar": "الاختيار بين واجهتي العرض الكلاسيكية والحديثة",
+              "sw": "Chaguo kati ya mpangilio wa kiolesura cha Kawaida (Classic) na cha Kisasa (Modern)"
+            },
+            {
+              "en": "Light and dark display themes",
+              "hi": "लाइट और डार्क डिस्प्ले थीम",
+              "gu": "લાઇટ અને ડાર્ક ડિસ્પ્લે થીમ્સ",
+              "ur": "لائٹ اور ڈارک ڈسپلے تھیمز",
+              "ar": "مظاهر العرض الفاتحة والداكنة",
+              "sw": "Mandhari ya mwanga (Light) na giza (Dark)"
+            },
+            {
+              "en": "Personalized application preferences",
+              "hi": "व्यक्तिगत एप्लिकेशन प्राथमिकताएँ",
+              "gu": "વ્યક્તિગત એપ્લિકેશન પસંદગીઓ",
+              "ur": "ذاتی ترجیحات کے مطابق ایپلیکیشن ترتیبات",
+              "ar": "تخصيص إعدادات وتفضيلات التطبيق",
+              "sw": "Mipangilio binafsi ya programu"
+            },
+            {
+              "en": "Offline access to bundled religious content",
+              "hi": "संग्रहीत धार्मिक सामग्री तक ऑफ़लाइन पहुँच",
+              "gu": "સંગ્રહિત ધાર્મિક સામગ્રીની ઑફલાઇન ઉપલબ્ધતા",
+              "ur": "ایپ میں شامل دینی مواد تک آف لائن رسائی",
+              "ar": "الوصول دون اتصال بالإنترنت إلى المحتوى الديني المدمج",
+              "sw": "Upatikanaji wa nje ya mtandao (offline) wa maudhui ya kidini yaliyojumuishwa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "supported_languages",
+      "order": 9,
+      "icon": "language",
+      "title": {
+        "en": "Supported Languages",
+        "hi": "समर्थित भाषाएँ",
+        "gu": "સમર્થિત ભાષાઓ",
+        "ur": "دستیاب زبانیں",
+        "ar": "اللغات المدعومة",
+        "sw": "Lugha Zinazotumika"
+      },
+      "items": [
+        {
+          "id": "supported_languages_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "To serve a diverse community of readers, the application interface supports six languages: English, Hindi, Gujarati, Urdu, Arabic, and Swahili. Availability of translations within individual religious texts may vary by section.",
+            "hi": "पाठकों के विविध समुदाय की सेवा के लिए, एप्लिकेशन इंटरफ़ेस छह भाषाओं का समर्थन करता है: अंग्रेज़ी, हिंदी, गुजराती, उर्दू, अरबी और स्वाहिली। विभिन्न धार्मिक ग्रंथों में अनुवादों की उपलब्धता अनुभाग के अनुसार भिन्न हो सकती है।",
+            "gu": "વાચકોના વિવિધ સમુદાયની સેવા માટે, એપ્લિકેશન ઇન્ટરફેસ છ ભાષાઓને સમર્થન આપે છે: અંગ્રેજી, હિન્દી, ગુજરાતી, ઉર્દૂ, અરબી અને સ્વાહિલી. વિવિધ ધાર્મિક સામગ્રીમાં અનુવાદોની ઉપલબ્ધતા વિભાગ મુજબ બદલાઈ શકે છે.",
+            "ur": "قارئین کی مختلف برادریوں کی سہولت کے لیے، ایپلیکیشن کا انٹرفیس چھ زبانوں کی معاونت کرتا ہے: انگریزی، ہندی، گجراتی، اردو، عربی اور سواحلی۔ انفرادی دینی مضامین میں تراجم کی دستیابی مختلف حصوں کے لحاظ سے مختلف ہو سکتی ہے۔",
+            "ar": "لخدمة شريحة واسعة من القراء، تدعم واجهة التطبيق ست لغات: الإنجليزية، والهندية، والغوجاراتية، والأردية، والعربية، والسواحيلية. وقد يختلف توفر الترجمات داخل النصوص الدينية الفردية بحسب كل قسم.",
+            "sw": "Ili kuhudumia jamii mbalimbali ya wasomaji, kiolesura cha programu kinatumia lugha sita: Kiingereza, Kihindi, Kigujarati, Kiurdu, Kiarabu, na Kiswahili. Upatikanaji wa tafsiri ndani ya maandishi mahususi ya kidini unaweza kutofautiana kulingana na sehemu."
+          }
+        }
+      ]
+    },
+    {
+      "id": "contact_us",
+      "order": 10,
+      "icon": "contact",
+      "title": {
+        "en": "Contact Us",
+        "hi": "संपर्क करें",
+        "gu": "અમારો સંપર્ક કરો",
+        "ur": "ہم سے رابطہ کریں",
+        "ar": "اتصل بنا",
+        "sw": "Wasiliana Nasi"
+      },
+      "items": [
+        {
+          "id": "contact_us_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "For feedback, questions, or suggestions regarding Nazar E Aalam, please reach out to the publisher by email. Official social media channels can also be accessed from the Settings menu.",
+            "hi": "Nazar E Aalam के संबंध में प्रतिक्रिया, प्रश्न या सुझाव के लिए कृपया ईमेल द्वारा प्रकाशक से संपर्क करें। आधिकारिक सोशल मीडिया चैनलों तक सेटिंग्स मेनू से भी पहुँचा जा सकता है।",
+            "gu": "Nazar E Aalam અંગે પ્રતિભાવ, પ્રશ્નો અથવા સૂચનો માટે કૃપા કરીને ઈમેલ દ્વારા પ્રકાશકનો સંપર્ક કરો. અધિકૃત સોશિયલ મીડિયા ચેનલો સેટિંગ્સ મેનૂમાંથી પણ ખોલી શકાય છે.",
+            "ur": "Nazar E Aalam سے متعلق رائے، سوالات یا تجاویز کے لیے براہِ کرم ای میل کے ذریعے ناشر سے رابطہ کریں۔ آفیشل سوشل میڈیا لنکس سیٹنگز مینو میں بھی دستیاب ہیں۔",
+            "ar": "لإرسال ملاحظاتكم أو استفساراتكم أو اقتراحاتكم بشأن تطبيق Nazar E Aalam، يُرجى التواصل مع الناشر عبر البريد الإلكتروني. كما يمكن الوصول إلى القنوات الرسمية على وسائل التواصل الاجتماعي من خلال قائمة الإعدادات.",
+            "sw": "Kwa maoni, maswali, au mapendekezo kuhusu Nazar E Aalam, tafadhali wasiliana na mchapishaji kwa barua pepe. Njia rasmi za mitandao ya kijamii pia zinapatikana katika menyu ya Mipangilio (Settings)."
+          }
+        },
+        {
+          "id": "contact_email",
+          "order": 2,
+          "type": "email",
+          "text": {
+            "en": "mashayakhipaigam@gmail.com",
+            "hi": "mashayakhipaigam@gmail.com",
+            "gu": "mashayakhipaigam@gmail.com",
+            "ur": "mashayakhipaigam@gmail.com",
+            "ar": "mashayakhipaigam@gmail.com",
+            "sw": "mashayakhipaigam@gmail.com"
+          },
+          "url": "mailto:mashayakhipaigam@gmail.com"
+        }
+      ]
+    }
+  ],
+  "review_issues": []
+}

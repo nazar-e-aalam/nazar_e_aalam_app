@@ -267,7 +267,7 @@
   "OK": "ठीक है",
   "app_title": "इस्लामिक नाम जनरेटर",
   "bismillah": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
-  "preferences": "पसंद",
+  "preferences": "प्राथमिकताएँ",
   "gender": "लिंग",
   "gender_any": "कोई भी लिंग",
   "origin": "मूल",
@@ -313,5 +313,13 @@
   "quran_milestone_complete": "लक्ष्य पूरा हुआ! बहुत अच्छा।",
   "quran_milestone_remaining": "सूरह शेष हैं",
   "quran_milestone_subtitles": "आप बहुत अच्छा कर रहे हैं! जारी रखें।",
-  "home_screen_layout_settings": "होम स्क्रीन लेआउट सेटिंग्स"
+  "home_screen_layout_settings": "होम स्क्रीन लेआउट सेटिंग्स",
+  "nasihat": "नसीहत",
+  "about_us": "हमारे बारे में",
+  "privacy_policy": "गोपनीयता नीति",
+  "spiritual_guidance": "आध्यात्मिक मार्गदर्शन",
+  "connect_with_us": "हमसे जुड़ें",
+  "application": "ऐप",
+  "spiritual_guidance_description": "दैनिक जीवन के लिए आध्यात्मिक मार्गदर्शन",
+  "read_advice": "नसीहत पढ़ें"
 }

@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-"""Explicit, narrow Flutter maintenance. No SDK bulk fixes or pub get."""
+"""Explicit Flutter maintenance. No dart fix or pub get."""
 import argparse
 import difflib
-import os
 from pathlib import Path
 import re
 import shutil
@@ -10,32 +9,43 @@ import subprocess
 import sys
 import tempfile
 
-IMPORT = re.compile(rb"(?m)^([ \t]*import[ \t]+)(['\"])package:material_ui/material_ui\.dart\2([ \t]*;[ \t]*\r?)$")
-IGNORE = re.compile(rb'(?m)^\s*//\s*ignore_for_file:[^\r\n]*\bdeprecated_member_use\b')
+IMPORT = re.compile(r'''(?m)^([ \t]*import[ \t]+)(['"])package:material_ui/material_ui\.dart\2([ \t]*;[ \t]*)$''')
+MATERIAL = re.compile(r'''^[ \t]*import[ \t]+['"]package:flutter/material\.dart['"][ \t]*;''')
+SHARE = re.compile(r'\bShare\s*\.\s*share\s*\(')
+CODE = 'deprecated_member_use'
 GENERATED = ('.g.dart', '.freezed.dart', '.mocks.dart', '.gr.dart')
 
-def patch(data, migrate=False, suppress=False):
-    if not migrate:
-        return data
-    updated = IMPORT.sub(lambda m: m[1]+m[2]+b'package:flutter/material.dart'+m[2]+m[3], data)
-    if updated != data and suppress and not IGNORE.search(updated):
-        bom = b'\xef\xbb\xbf' if updated.startswith(b'\xef\xbb\xbf') else b''
-        nl = b'\r\n' if b'\r\n' in updated else b'\n'
-        updated = bom+b'// ignore_for_file: deprecated_member_use'+nl+nl+updated[len(bom):]
-    return updated
+def restore(s):
+    return IMPORT.sub(lambda m: m[1]+m[2]+'package:flutter/material.dart'+m[2]+m[3], s)
+
+def suppress(s, locations):
+    lines = s.splitlines(keepends=True)
+    if re.search(r'(?m)^[ \t]*//[ \t]*ignore_for_file:[^\n]*\bdeprecated_member_use\b', s):
+        return s
+    for n in sorted(set(locations), reverse=True):
+        if not 1 <= n <= len(lines): continue
+        line = lines[n-1]
+        if not (MATERIAL.match(line) or SHARE.search(line)): continue
+        prev = lines[n-2] if n > 1 else ''
+        match = re.fullmatch(r'([ \t]*//[ \t]*ignore:[ \t]*)([^\n]*)(\n)?', prev)
+        if match:
+            if CODE not in [x.strip() for x in match[2].split(',')]:
+                lines[n-2] = match[1]+match[2].rstrip()+', '+CODE+'\n'
+        else:
+            lines.insert(n-1, re.match(r'[ \t]*',line)[0]+'// ignore: '+CODE+'\n')
+    return ''.join(lines)
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--project', default='.')
-    p.add_argument('--apply', action='store_true', help='Actually modify files; default is preview')
-    p.add_argument('--dry-run', action='store_true')
-    p.add_argument('--restore-material', action='store_true', help='Replace exact material_ui imports in lib only')
-    p.add_argument('--ignore-deprecated', action='store_true', help='Add file-level suppression only to migrated files')
-    p.add_argument('--format', action='store_true', help='Format non-generated Dart source files')
+    mode = p.add_mutually_exclusive_group()
+    mode.add_argument('--apply', action='store_true')
+    mode.add_argument('--dry-run', action='store_true')
+    p.add_argument('--restore-material', action=argparse.BooleanOptionalAction, default=True)
+    p.add_argument('--ignore-deprecated', action=argparse.BooleanOptionalAction, default=True)
+    p.add_argument('--format', action=argparse.BooleanOptionalAction, default=True)
     p.add_argument('--test', action='store_true')
     a = p.parse_args()
-    if a.apply and a.dry_run: p.error('Choose apply or dry-run')
-    if a.ignore_deprecated and not a.restore_material: p.error('--ignore-deprecated requires --restore-material')
     root = Path(a.project).resolve()
     if not (root/'pubspec.yaml').is_file() or not (root/'lib').is_dir(): p.error('Select a Flutter project root')
     flutter = shutil.which('flutter')
@@ -43,53 +53,76 @@ def main():
     if not dart and flutter:
         candidate = Path(flutter).resolve().with_name('dart')
         if candidate.is_file(): dart = str(candidate)
-    if not flutter or (a.format and not dart): p.error('Required SDK executable not found')
-    files = []
+    if not flutter or (a.apply and a.format and not dart): p.error('SDK executable missing')
+    files = {}
     for folder in ('lib','test','integration_test','bin','tool'):
-        start = root/folder
-        if not start.is_dir() or start.is_symlink(): continue
-        for base, dirs, names in os.walk(start, followlinks=False):
-            dirs[:] = [d for d in dirs if not d.startswith('.') and d not in ('build','node_modules') and not (Path(base)/d).is_symlink()]
-            for name in names:
-                f = Path(base)/name
-                if name.endswith('.dart') and not name.endswith(GENERATED) and not f.is_symlink(): files.append(f)
-    changes = {}
-    for f in sorted(files):
-        old = f.read_bytes()
-        new = patch(old, a.restore_material and f.is_relative_to(root/'lib'), a.ignore_deprecated)
-        if old != new:
-            changes[f] = new
-            print(''.join(difflib.unified_diff(old.decode('utf-8').splitlines(True), new.decode('utf-8').splitlines(True), fromfile=str(f.relative_to(root)), tofile=str(f.relative_to(root)))), end='')
-    print(f'\nPlanned import patches: {len(changes)}')
+        for f in (root/folder).rglob('*.dart'):
+            if f.is_symlink() or f.name.endswith(GENERATED) or any(x.startswith('.') or x in ('build','node_modules') for x in f.relative_to(root).parts): continue
+            if f.resolve() != f: continue
+            files[f] = f.read_bytes()
     def run(*cmd):
-        print('>>>', ' '.join(map(str,cmd)), flush=True)
-        return subprocess.run(cmd,cwd=root,check=False).returncode
-    if not a.apply:
-        print('Preview only. No source changes or formatting. Use --apply to authorize changes.')
-        return 0 if a.dry_run else run(flutter,'analyze','--no-pub')
+        print('>>>', ' '.join(cmd), flush=True)
+        return subprocess.run(cmd,cwd=root).returncode
+    def diagnostics():
+        # Dart machine output has stable pipe-separated diagnostic fields.
+        cmd = [dart,'analyze','--format=machine'] if dart else [flutter,'analyze','--no-pub','--machine']
+        print('>>>',' '.join(cmd),flush=True)
+        r = subprocess.run(cmd,cwd=root,capture_output=True,text=True)
+        found = {}; parsed = 0
+        for line in (r.stdout+'\n'+r.stderr).splitlines():
+            fields = line.split('|',7)
+            if len(fields)!=8 or fields[0] not in ('INFO','WARNING','ERROR'): continue
+            parsed += 1
+            if fields[2].lower()!=CODE: continue
+            f = (root/fields[3]).resolve()
+            if f in files and fields[4].isdigit(): found.setdefault(f,[]).append(int(fields[4]))
+        if r.returncode and not parsed:
+            raise RuntimeError('Analyzer failed: '+r.stdout+r.stderr)
+        return found
     backup = None
-    if changes or a.format:
-        backup = Path(tempfile.mkdtemp(prefix='flutter-safe-backup-'))
-        for f in (files if a.format else changes):
-            dest = backup/f.relative_to(root)
-            dest.parent.mkdir(parents=True,exist_ok=True)
-            shutil.copy2(f,dest)
-        print('Backup:',backup,flush=True)
+    def snapshot():
+        nonlocal backup
+        if backup is None:
+            backup = Path(tempfile.mkdtemp(prefix='flutter-safe-'))
+            for f,data in files.items():
+                dest=backup/f.relative_to(root); dest.parent.mkdir(parents=True,exist_ok=True); dest.write_bytes(data)
+            print('Backup:',backup,flush=True)
+    def patch(f, transform):
+        raw=f.read_bytes(); old=raw.decode('utf-8-sig').replace('\r\n','\n'); new=transform(old)
+        if old==new: return 0
+        print(''.join(difflib.unified_diff(old.splitlines(True),new.splitlines(True),fromfile=str(f.relative_to(root)),tofile=str(f.relative_to(root)))),end='')
+        if a.apply:
+            snapshot()
+            if f.read_bytes()!=raw: raise RuntimeError('Concurrent edit: '+str(f))
+            if b'\r\n' in raw: new=new.replace('\n','\r\n')
+            f.write_bytes((b'\xef\xbb\xbf' if raw.startswith(b'\xef\xbb\xbf') else b'')+new.encode('utf-8'))
+        return 1
     try:
-        for f,new in changes.items(): f.write_bytes(new)
-        result = 0
-        if a.format:
-            for i in range(0,len(files),50):
-                result = run(dart,'format',*[str(f.relative_to(root)) for f in files[i:i+50]]) or result
-                if result: break
-        if a.test: result = run(flutter,'test','--no-pub') or result
-        return run(flutter,'analyze','--no-pub') or result
+        count=0
+        if a.restore_material:
+            for f in sorted(files):
+                if f.is_relative_to(root/'lib'): count+=patch(f,restore)
+        print('Import patches:',count)
+        if a.ignore_deprecated:
+            found=diagnostics()
+            count=sum(patch(f,lambda s: suppress(s,locations)) for f,locations in found.items())
+            print('Diagnostic patches:',count)
+        if not a.apply: print('Preview only; restored imports are analyzed after apply.')
+        if a.dry_run: return 0
+        status=0
+        if a.apply and a.format:
+            snapshot()
+            paths=sorted(str(f.relative_to(root)) for f in files)
+            for i in range(0,len(paths),50):
+                status=run(dart,'format',*paths[i:i+50]) or status
+                if status: break
+        if a.test: status=run(flutter,'test','--no-pub') or status
+        return run(flutter,'analyze','--no-pub') or status
     finally:
         if backup: print('Original sources:',backup)
-        print('Review git diff. No automatic rollback or semantic fixes performed.')
+        print('Review git diff. Unsupported diagnostics are left unchanged.')
 
-if __name__ == '__main__':
+if __name__=='__main__':
     try: sys.exit(main())
-    except (OSError, KeyboardInterrupt) as exc:
-        print(f'Failed or interrupted: {exc}',file=sys.stderr)
-        sys.exit(1)
+    except (OSError,RuntimeError,KeyboardInterrupt) as e:
+        print('Stopped:',e,file=sys.stderr); sys.exit(1)

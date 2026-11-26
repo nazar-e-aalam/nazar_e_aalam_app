@@ -96,6 +96,7 @@ flutter:
     - assets/quran/sw/
     - assets/names/
     - assets/memorable_days/
+    - assets/
 
   fonts:
     - family: Roboto

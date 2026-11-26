@@ -1,0 +1,562 @@
+{
+  "schema_version": 1,
+  "module": "privacy_policy",
+  "id": "privacy_policy",
+  "default_language": "en",
+  "supported_languages": ["en", "hi", "gu", "ur", "ar", "sw"],
+  "title": {
+    "en": "Privacy Policy",
+    "hi": "गोपनीयता नीति",
+    "gu": "ગોપનીયતા નીતિ",
+    "ur": "رازداری کی پالیسی",
+    "ar": "سياسة الخصوصية",
+    "sw": "Sera ya Faragha"
+  },
+  "metadata": {
+    "app_name": "Nazar E Aalam",
+    "publisher": "PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR",
+    "effective_date": "2022-05-04",
+    "contact_email": "mashayakhipaigam@gmail.com",
+    "review_status": "needs_review"
+  },
+  "sections": [
+    {
+      "id": "introduction",
+      "order": 1,
+      "title": {
+        "en": "Introduction",
+        "hi": "परिचय",
+        "gu": "પરિચય",
+        "ur": "تعارف",
+        "ar": "مقدمة",
+        "sw": "Utangulizi"
+      },
+      "items": [
+        {
+          "id": "introduction_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR built the Nazar E Aalam app as a Free app. This SERVICE is provided by PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR at no cost and is intended for use as is.",
+            "hi": "PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR ने Nazar E Aalam ऐप को एक निःशुल्क ऐप के रूप में बनाया है। यह सेवा PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR द्वारा बिना किसी शुल्क के प्रदान की जाती है और यह जैसी है वैसी ही उपयोग के लिए अभिप्रेत है।",
+            "gu": "PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR દ્વારા Nazar E Aalam એપ એક મફત એપ તરીકે બનાવવામાં આવી છે. આ સેવા PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR દ્વારા કોઈ પણ શુલ્ક વિના પૂરી પાડવામાં આવે છે અને તે જેવી છે તેવી જ સ્થિતિમાં ઉપયોગ માટે છે.",
+            "ur": "PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR نے Nazar E Aalam ایپ کو ایک مفت ایپ کے طور پر تیار کیا ہے۔ یہ سروس PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR کی جانب سے بلا معاوضہ فراہم کی جاتی ہے اور اسے اسی حالت میں استعمال کے لیے پیش کیا گیا ہے۔",
+            "ar": "قام PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR بتطوير تطبيق Nazar E Aalam كتطبيق مجاني. يتم تقديم هذه الخدمة من قِبل PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR دون أي تكلفة وهي مخصصة للاستخدام كما هي.",
+            "sw": "PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR alitengeneza programu ya Nazar E Aalam kama programu ya Bure. HUDUMA hii inatolewa na PEER SAIYED MOHAMMAD FAZILSHAH BAWA WALD INTEKHAB AALAM SARKAR bila gharama yoyote na imekusudiwa kutumika kama ilivyo."
+          }
+        },
+        {
+          "id": "introduction_02",
+          "order": 2,
+          "type": "paragraph",
+          "text": {
+            "en": "This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.",
+            "hi": "इस पृष्ठ का उपयोग आगंतुकों को मेरी सेवा का उपयोग करने का निर्णय लेने की स्थिति में व्यक्तिगत जानकारी के संग्रह, उपयोग और प्रकटीकरण से संबंधित मेरी नीतियों के बारे में सूचित करने के लिए किया जाता है।",
+            "gu": "જો કોઈ વ્યક્તિ મારી સેવાનો ઉપયોગ કરવાનું નક્કી કરે, તો વ્યક્તિગત માહિતીના સંગ્રહ, ઉપયોગ અને જાહેરાત સંબંધિત મારી નીતિઓ વિશે મુલાકાતીઓને માહિતગાર કરવા માટે આ પૃષ્ઠનો ઉપયોગ થાય છે.",
+            "ur": "اس صفحے کا مقصد صارفین کو ذاتی معلومات کے حصول، استعمال اور افشاء سے متعلق میری پالیسیوں کے بارے میں آگاہ کرنا ہے، اگر کوئی میری سروس استعمال کرنے کا فیصلہ کرے۔",
+            "ar": "تُستخدم هذه الصفحة لإعلام الزوار بسياساتي المتعلقة بجمع المعلومات الشخصية واستخدامها والإفصاح عنها في حال قرر أي شخص استخدام خدمتي.",
+            "sw": "Ukurasa huu unatumika kuwafahamisha watembeleaji kuhusu sera zangu za ukusanyaji, matumizi, na ufichuaji wa Taarifa Binafsi iwapo mtu yeyote ataamua kutumia Huduma yangu."
+          }
+        },
+        {
+          "id": "introduction_03",
+          "order": 3,
+          "type": "paragraph",
+          "text": {
+            "en": "If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.",
+            "hi": "यदि आप मेरी सेवा का उपयोग करना चुनते हैं, तो आप इस नीति के संबंध में जानकारी के संग्रह और उपयोग के लिए सहमत होते हैं। मेरे द्वारा एकत्र की जाने वाली व्यक्तिगत जानकारी का उपयोग सेवा प्रदान करने और उसमें सुधार करने के लिए किया जाता है। मैं इस गोपनीयता नीति में वर्णित के अलावा किसी के साथ भी आपकी जानकारी का उपयोग या साझा नहीं करूंगा।",
+            "gu": "જો તમે મારી સેવાનો ઉપયોગ કરવાનું પસંદ કરો છો, તો તમે આ નીતિના સંબંધમાં માહિતીના સંગ્રહ અને ઉપયોગ માટે સંમત થાઓ છો. હું જે વ્યક્તિગત માહિતી એકત્રિત કરું છું તેનો ઉપયોગ સેવા પૂરી પાડવા અને સુધારવા માટે થાય છે. આ ગોપનીયતા નીતિમાં વર્ણવ્યા સિવાય હું તમારી માહિતીનો ઉપયોગ કરીશ નહીં અથવા કોઈની સાથે શેર કરીશ નહીં.",
+            "ur": "اگر آپ میری سروس استعمال کرنے کا انتخاب کرتے ہیں، تو آپ اس پالیسی کے مطابق معلومات کے حصول اور استعمال سے اتفاق کرتے ہیں۔ میں جو ذاتی معلومات اکٹھی کرتا ہوں وہ سروس فراہم کرنے اور اسے بہتر بنانے کے لیے استعمال ہوتی ہے۔ میں اس رازداری کی پالیسی میں بیان کردہ طریقوں کے علاوہ آپ کی معلومات کسی کے ساتھ استعمال یا شیئر نہیں کروں گا۔",
+            "ar": "إذا اخترت استخدام خدمتي، فإنك توافق على جمع المعلومات واستخدامها وفقاً لهذه السياسة. تُستخدم المعلومات الشخصية التي أجمعها لتقديم الخدمة وتحسينها. لن أستخدم معلوماتك أو أشاركها مع أي طرف باستثناء ما هو موضح في سياسة الخصوصية هذه.",
+            "sw": "Ukichagua kutumia Huduma yangu, basi unakubali ukusanyaji na matumizi ya taarifa kuhusiana na sera hii. Taarifa Binafsi ninazokusanya zinatumika kutoa na kuboresha Huduma. Sitatumia au kushiriki taarifa zako na mtu yeyote isipokuwa kama ilivyoelezwa katika Sera hii ya Faragha."
+          }
+        },
+        {
+          "id": "introduction_04",
+          "order": 4,
+          "type": "paragraph",
+          "text": {
+            "en": "The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at Nazar E Aalam unless otherwise defined in this Privacy Policy.",
+            "hi": "इस गोपनीयता नीति में प्रयुक्त शब्दों के वही अर्थ हैं जो हमारे नियम और शर्तों में हैं, जो Nazar E Aalam पर उपलब्ध हैं, जब तक कि इस गोपनीयता नीति में अन्यथा परिभाषित न किया गया हो।",
+            "gu": "આ ગોપનીયતા નીતિમાં વપરાયેલા શબ્દોના અર્થ અમારા નિયમો અને શરતોમાં જણાવ્યા મુજબ જ છે, જે Nazar E Aalam પર ઉપલબ્ધ છે, સિવાય કે આ ગોપનીયતા નીતિમાં અન્યથા વ્યાખ્યાયિત કરવામાં આવ્યા હોય.",
+            "ur": "اس رازداری کی پالیسی میں استعمال ہونے والی اصطلاحات کے وہی معانی ہیں جو ہمارے قواعد و ضوابط میں درج ہیں، جو Nazar E Aalam پر دستیاب ہیں، جب تک کہ اس رازداری کی پالیسی میں ان کی کوئی اور تعریف نہ کی گئی ہو۔",
+            "ar": "تحمل المصطلحات المستخدمة في سياسة الخصوصية هذه نفس المعاني الواردة في الشروط والأحكام الخاصة بنا، والمتاحة في تطبيق Nazar E Aalam ما لم يُنص على خلاف ذلك في سياسة الخصوصية هذه.",
+            "sw": "Istilahi zinazotumika katika Sera hii ya Faragha zina maana sawa na zile zilizo katika Sheria na Masharti yetu, ambazo zinapatikana katika Nazar E Aalam isipokuwa kama imefafanuliwa vinginevyo katika Sera hii ya Faragha."
+          }
+        }
+      ]
+    },
+    {
+      "id": "information_collection_and_use",
+      "order": 2,
+      "title": {
+        "en": "Information Collection and Use",
+        "hi": "जानकारी का संग्रह और उपयोग",
+        "gu": "માહિતીનો સંગ્રહ અને ઉપયોગ",
+        "ur": "معلومات کا حصول اور استعمال",
+        "ar": "جمع المعلومات واستخدامها",
+        "sw": "Ukusanyaji na Matumizi ya Taarifa"
+      },
+      "items": [
+        {
+          "id": "information_collection_and_use_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.",
+            "hi": "बेहतर अनुभव के लिए, हमारी सेवा का उपयोग करते समय, मैं आपसे हमें कुछ व्यक्तिगत रूप से पहचान योग्य जानकारी प्रदान करने की अपेक्षा कर सकता हूं। मेरे द्वारा मांगी गई जानकारी आपके डिवाइस पर ही सुरक्षित रहेगी और मेरे द्वारा किसी भी तरह से एकत्र नहीं की जाती है।",
+            "gu": "વધુ સારા અનુભવ માટે, અમારી સેવાનો ઉપયોગ કરતી વખતે, હું તમને અમને ચોક્કس વ્યક્તિગત રીતે ઓળખી શકાય તેવી માહિતી પૂરી પાડવા માટે કહી શકું છું. હું જે માહિતી માંગું છું તે તમારા ઉપકરણ પર જ રહેશે અને મારા દ્વારા કોઈ પણ રીતે એકત્રિત કરવામાં આવતી નથી.",
+            "ur": "بہتر تجربے کے لیے، ہماری سروس استعمال کرتے وقت، میں آپ سے کچھ ذاتی شناختی معلومات فراہم کرنے کا تقاضا کر سکتا ہوں۔ جو معلومات میں طلب کرتا ہوں وہ آپ کے آلے (ڈیوائس) پر ہی محفوظ رہتی ہیں اور میرے ذریعے کسی بھی طرح اکٹھی نہیں کی جاتیں۔",
+            "ar": "للحصول على تجربة أفضل أثناء استخدام خدمتنا، قد أطلب منك تزويدنا ببعض المعلومات التي يمكن من خلالها تحديد الهوية الشخصية. سيتم الاحتفاظ بالمعلومات التي أطلبها على جهازك ولن يتم جمعها من قِبلي بأي شكل من الأشكال.",
+            "sw": "Kwa matumizi bora zaidi, unapotumia Huduma yetu, ninaweza kukuhitaji utupatie taarifa fulani zinazoweza kukutambulisha binafsi. Taarifa ninazoomba zitahifadhiwa kwenye kifaa chako na hazikusanywi nami kwa njia yoyote ile."
+          }
+        },
+        {
+          "id": "information_collection_and_use_02",
+          "order": 2,
+          "type": "paragraph",
+          "text": {
+            "en": "The app does use third-party services that may collect information used to identify you.",
+            "hi": "ऐप तृतीय-पक्ष सेवाओं का उपयोग करता है जो आपकी पहचान करने के लिए उपयोग की जाने वाली जानकारी एकत्र कर सकती हैं।",
+            "gu": "એપ તૃતીય-પક્ષ સેવાઓનો ઉપયોગ કરે છે જે તમારી ઓળખ કરવા માટે વપરાતી માહિતી એકત્રિત કરી શકે છે.",
+            "ur": "یہ ایپ فریقِ ثالث (تھرڈ پارٹی) کی خدمات استعمال کرتی ہے جو ایسی معلومات اکٹھی کر سکتی ہیں جن سے آپ کی شناخت کی جا سکے۔",
+            "ar": "يستخدم التطبيق خدمات أطراف ثالثة قد تجمع معلومات تُستخدم لتحديد هويتك.",
+            "sw": "Programu hii inatumia huduma za wahusika wengine ambazo zinaweza kukusanya taarifa zinazotumika kukutambulisha."
+          }
+        }
+      ]
+    },
+    {
+      "id": "third_party_services",
+      "order": 3,
+      "title": {
+        "en": "Third-Party Services",
+        "hi": "तृतीय-पक्ष सेवाएं",
+        "gu": "તૃતીય-પક્ષ સેવાઓ",
+        "ur": "فریقِ ثالث کی خدمات",
+        "ar": "خدمات الأطراف الثالثة",
+        "sw": "Huduma za Wahusika Wengine"
+      },
+      "items": [
+        {
+          "id": "third_party_services_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "Link to the privacy policy of third-party service providers used by the app:",
+            "hi": "ऐप द्वारा उपयोग किए जाने वाले तृतीय-पक्ष सेवा प्रदाताओं की गोपनीयता नीति का लिंक:",
+            "gu": "એપ દ્વારા ઉપયોગમાં લેવાતા તૃતીય-પક્ષ સેવા પ્રદાતાઓની ગોપનીયતા નીતિની લિંક:",
+            "ur": "ایپ کے زیرِ استعمال فریقِ ثالث سروس فراہم کنندگان کی رازداری کی پالیسی کا لنک:",
+            "ar": "رابط سياسة الخصوصية لمزودي خدمات الأطراف الثالثة المستخدمين في التطبيق:",
+            "sw": "Kiungo cha sera ya faragha ya watoa huduma wa wahusika wengine wanaotumiwa na programu:"
+          }
+        },
+        {
+          "id": "third_party_google_play",
+          "order": 2,
+          "type": "link",
+          "text": {
+            "en": "Google Play Services",
+            "hi": "Google Play Services",
+            "gu": "Google Play Services",
+            "ur": "Google Play Services",
+            "ar": "Google Play Services",
+            "sw": "Google Play Services"
+          },
+          "url": "https://policies.google.com/privacy"
+        }
+      ]
+    },
+    {
+      "id": "log_data",
+      "order": 4,
+      "title": {
+        "en": "Log Data",
+        "hi": "लॉग डेटा",
+        "gu": "લૉગ ડેટા",
+        "ur": "لاگ ڈیٹا",
+        "ar": "بيانات السجل",
+        "sw": "Data ya Kumbukumbu"
+      },
+      "items": [
+        {
+          "id": "log_data_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.",
+            "hi": "मैं आपको सूचित करना चाहता हूं कि जब भी आप मेरी सेवा का उपयोग करते हैं, तो ऐप में त्रुटि होने की स्थिति में मैं आपके फ़ोन पर (तृतीय-पक्ष उत्पादों के माध्यम से) डेटा और जानकारी एकत्र करता हूं जिसे लॉग डेटा कहा जाता है। इस लॉग डेटा में आपके डिवाइस का इंटरनेट प्रोटोकॉल (“IP”) पता, डिवाइस का नाम, ऑपरेटिंग सिस्टम संस्करण, मेरी सेवा का उपयोग करते समय ऐप का कॉन्फ़िगरेशन, आपके द्वारा सेवा के उपयोग का समय और दिनांक, तथा अन्य आंकड़े जैसी जानकारी शामिल हो सकती है।",
+            "gu": "હું તમને જણાવવા માંગુ છું કે જ્યારે પણ તમે મારી સેવાનો ઉપયોગ કરો છો, ત્યારે એપમાં કોઈ ભૂલ (એરર) આવવાની સ્થિતિમાં હું તમારા ફોન પર (તૃતીય-પક્ષ ઉત્પાદનો દ્વારા) ડેટા અને માહિતી એકત્રિત કરું છું જેને લૉગ ડેટા કહેવામાં આવે છે. આ લૉગ ડેટામાં તમારા ઉપકરણનું ઇન્ટરનેટ પ્રોટોકોલ (“IP”) સરનામું, ઉપકરણનું નામ, ઓપરેटिंग સિસ્ટમ વર્ઝન, મારી સેવાનો ઉપયોગ કરતી વખતે એપનું કન્ફિગરેશન, તમારા દ્વારા સેવાના ઉપયોગનો સમય અને તારીખ તથા અન્ય આંકડાઓ જેવી માહિતી શામેલ હોઈ શકે છે.",
+            "ur": "میں آپ کو مطلع کرنا چاہتا ہوں کہ جب بھی آپ میری سروس استعمال کرتے ہیں، تو ایپ میں کسی خرابی (ایرر) کی صورت میں میں آپ کے فون پر (فریقِ ثالث مصنوعات کے ذریعے) ڈیٹا اور معلومات اکٹھی کرتا ہوں جسے لاگ ڈیٹا کہا جاتا ہے۔ اس لاگ ڈیٹا میں آپ کے آلے کا انٹرنیٹ پروٹوکول (“IP”) پتہ، آلے کا نام، آپریٹنگ سسٹم کا ورژن، میری سروس استعمال کرتے وقت ایپ کی ترتیب، آپ کے سروس استعمال کرنے کا وقت اور تاریخ، اور دیگر اعداد و شمار جیسی معلومات شامل ہو سکتی ہیں۔",
+            "ar": "أود إعلامك بأنه كلما استخدمت خدمتي، وفي حالة حدوث خطأ في التطبيق، أقوم بجمع بيانات ومعلومات (من خلال منتجات أطراف ثالثة) على هاتفك تُسمى بيانات السجل. قد تتضمن بيانات السجل هذه معلومات مثل عنوان بروتوكول الإنترنت (IP) الخاص بجهازك، واسم الجهاز، وإصدار نظام التشغيل، وتكوين التطبيق عند استخدام خدمتي، ووقت وتاريخ استخدامك للخدمة، وإحصاءات أخرى.",
+            "sw": "Ningependa kukufahamisha kuwa kila unapotumia Huduma yangu, endapo kutatokea hitilafu katika programu, ninakusanya data na taarifa (kupitia bidhaa za wahusika wengine) kwenye simu yako zinazoitwa Data ya Kumbukumbu. Data hii ya Kumbukumbu inaweza kujumuisha taarifa kama vile anwani ya Itifaki ya Intaneti (“IP”) ya kifaa chako, jina la kifaa, toleo la mfumo wa uendeshaji, mipangilio ya programu unapotumia Huduma yangu, muda na tarehe ya matumizi yako ya Huduma, na takwimu nyinginezo."
+          }
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "order": 5,
+      "title": {
+        "en": "Cookies",
+        "hi": "कुकीज़",
+        "gu": "કૂકીઝ",
+        "ur": "کوکیز",
+        "ar": "ملفات تعريف الارتباط",
+        "sw": "Vidakuzi (Cookies)"
+      },
+      "items": [
+        {
+          "id": "cookies_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.",
+            "hi": "कुकीज़ कम मात्रा में डेटा वाली फ़ाइलें होती हैं जिनका उपयोग आमतौर पर अनाम विशिष्ट पहचानकर्ता के रूप में किया जाता है। इन्हें आपके द्वारा देखी जाने वाली वेबसाइटों से आपके ब्राउज़र पर भेजा जाता है और आपके डिवाइस की आंतरिक मेमोरी में संग्रहीत किया जाता है।",
+            "gu": "કૂકીઝ એ ઓછી માત્રામાં ડેટા ધરાવતી ફાઇલો છે જેનો ઉપયોગ સામાન્ય રીતે અનામી વિશિષ્ટ ઓળખકર્તા તરીકે થાય છે. આ ફાઇલો તમે જે વેબસાઇટ્સની મુલાકાત લો છો ત્યાંથી તમારા બ્રાઉઝર પર મોકલવામાં આવે છે અને તમારા ઉપકરણની આંતરિક મેમરીમાં સંગ્રહિત થાય છે.",
+            "ur": "کوکیز کم مقدار میں ڈیٹا پر مشتمل فائلیں ہوتی ہیں جو عام طور پر گمنام منفرد شناخت کنندگان کے طور پر استعمال ہوتی ہیں۔ یہ ان ویب سائٹس سے آپ کے براؤزر کو بھیجی جاتی ہیں جنہیں آپ ملاحظہ کرتے ہیں اور آپ کے آلے کی اندرونی میموری میں محفوظ ہو جاتی ہیں۔",
+            "ar": "ملفات تعريف الارتباط هي ملفات تحتوي على كمية صغيرة من البيانات وتُستخدم عادةً كمعرّفات فريدة مجهولة الهوية. يتم إرسالها إلى متصفحك من مواقع الويب التي تزورها ويتم تخزينها في الذاكرة الداخلية لجهازك.",
+            "sw": "Vidakuzi (Cookies) ni faili zenye kiasi kidogo cha data ambazo hutumiwa kwa kawaida kama vitambulisho vya kipekee visivyotambulisha mtu binafsi. Hivi hutumwa kwenye kivinjari chako kutoka kwa tovuti unazotembelea na huhifadhiwa kwenye kumbukumbu ya ndani ya kifaa chako."
+          }
+        },
+        {
+          "id": "cookies_02",
+          "order": 2,
+          "type": "paragraph",
+          "text": {
+            "en": "This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.",
+            "hi": "यह सेवा इन “कुकीज़” का स्पष्ट रूप से उपयोग नहीं करती है। हालांकि, ऐप तृतीय-पक्ष कोड और लाइब्रेरी का उपयोग कर सकता है जो जानकारी एकत्र करने और अपनी सेवाओं को बेहतर बनाने के लिए “कुकीज़” का उपयोग करते हैं। आपके पास इन कुकीज़ को स्वीकार या अस्वीकार करने और यह जानने का विकल्प होता है कि आपके डिवाइस पर कुकी कब भेजी जा रही है। यदि आप हमारी कुकीज़ को अस्वीकार करना चुनते हैं, तो आप इस सेवा के कुछ हिस्सों का उपयोग करने में असमर्थ हो सकते हैं।",
+            "gu": "આ સેવા આ “કૂકીઝ” નો સ્પષ્ટપણે ઉપયોગ કરતી નથી. જોકે, એપ તૃતીય-પક્ષ કોડ અને લાઇબ્રેરીઓનો ઉપયોગ કરી શકે છે જે માહિતી એકત્રિત કરવા અને તેમની સેવાઓને સુધારવા માટે “કૂકીઝ” નો ઉપયોગ કરે છે. તમારી પાસે આ કૂકીઝને સ્વીકારવાનો અથવા નકારવાનો અને તમારા ઉપકરણ પર કૂકી ક્યારે મોકલવામાં આવી રહી છે તે જાણવાનો વિકલ્પ છે. જો તમે અમારી કૂકીઝને નકારવાનું પસંદ કરો છો, તો તમે આ સેવાના કેટલાક ભાગોનો ઉપયોગ કરી શકશો નહીં.",
+            "ur": "یہ سروس ان “کوکیز” کا واضح طور پر استعمال نہیں کرتی۔ تاہم، ایپ فریقِ ثالث کے کوڈ اور لائبریریوں کا استعمال کر سکتی ہے جو معلومات اکٹھی کرنے اور اپنی خدمات کو بہتر بنانے کے لیے “کوکیز” استعمال کرتی ہیں۔ آپ کے پاس ان کوکیز کو قبول یا مسترد کرنے اور یہ جاننے کا اختیار ہے کہ آپ کے آلے پر کوکی کب بھیجی جا رہی ہے۔ اگر آپ ہماری کوکیز کو مسترد کرنے کا انتخاب کرتے ہیں، تو ممکن ہے آپ اس سروس کے کچھ حصے استعمال نہ کر سکیں۔",
+            "ar": "لا تستخدم هذه الخدمة ملفات تعريف الارتباط هذه بشكل صريح. ومع ذلك، قد يستخدم التطبيق رموزاً ومكتبات برمجية تابعة لأطراف ثالثة تستخدم ملفات تعريف الارتباط لجمع المعلومات وتحسين خدماتها. لديك الخيار إما بقبول ملفات تعريف الارتباط هذه أو رفضها ومعرفة متى يتم إرسال ملف تعريف ارتباط إلى جهازك. إذا اخترت رفض ملفات تعريف الارتباط الخاصة بنا، فقد لا تتمكن من استخدام بعض أجزاء هذه الخدمة.",
+            "sw": "Huduma hii haitumii “vidakuzi” hivi moja kwa moja. Hata hivyo, programu inaweza kutumia msimbo na maktaba za wahusika wengine zinazotumia “vidakuzi” kukusanya taarifa na kuboresha huduma zao. Una chaguo la kukubali au kukataa vidakuzi hivi na kujua ni lini kidakuzi kinatumwa kwenye kifaa chako. Ukichagua kukataa vidakuzi vyetu, huenda usiweze kutumia baadhi ya sehemu za Huduma hii."
+          }
+        }
+      ]
+    },
+    {
+      "id": "service_providers",
+      "order": 6,
+      "title": {
+        "en": "Service Providers",
+        "hi": "सेवा प्रदाता",
+        "gu": "સેવા પ્રદાતાઓ",
+        "ur": "سروس فراہم کنندگان",
+        "ar": "مزودو الخدمات",
+        "sw": "Watoa Huduma"
+      },
+      "items": [
+        {
+          "id": "service_providers_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "I may employ third-party companies and individuals due to the following reasons:",
+            "hi": "मैं निम्नलिखित कारणों से तृतीय-पक्ष कंपनियों और व्यक्तियों को नियुक्त कर सकता हूं:",
+            "gu": "હું નીચેના કારણોસર તૃતીય-પક્ષ કંપનીઓ અને વ્યક્તિઓની સેવાઓ લઈ શકું છું:",
+            "ur": "میں درج ذیل وجوہات کی بنا پر فریقِ ثالث کی کمپنیوں اور افراد کی خدمات حاصل کر سکتا ہوں:",
+            "ar": "قد أستعين بشركات وأفراد من أطراف ثالثة للأسباب التالية:",
+            "sw": "Ninaweza kuajiri kampuni na watu binafsi wa wahusika wengine kutokana na sababu zifuatazo:"
+          }
+        },
+        {
+          "id": "service_providers_02",
+          "order": 2,
+          "type": "bullet_list",
+          "items": [
+            {
+              "en": "To facilitate our Service;",
+              "hi": "हमारी सेवा को सुगम बनाने के लिए;",
+              "gu": "અમારી સેવાને સરળ બનાવવા માટે;",
+              "ur": "ہماری سروس کو آسان بنانے کے لیے؛",
+              "ar": "لتسهيل تقديم خدمتنا؛",
+              "sw": "Ili kuwezesha Huduma yetu;"
+            },
+            {
+              "en": "To provide the Service on our behalf;",
+              "hi": "हमारी ओर से सेवा प्रदान करने के लिए;",
+              "gu": "અમારા વતી સેવા પૂરી પાડવા માટે;",
+              "ur": "ہماری جانب سے سروس فراہم کرنے کے لیے؛",
+              "ar": "لتقديم الخدمة نيابةً عنا؛",
+              "sw": "Ili kutoa Huduma kwa niaba yetu;"
+            },
+            {
+              "en": "To perform Service-related services; or",
+              "hi": "सेवा से संबंधित सेवाएं निष्पादित करने के लिए; या",
+              "gu": "સેવા સંબંધિત સેવાઓ બજાવવા માટે; અથવા",
+              "ur": "سروس سے متعلقہ خدمات انجام دینے کے لیے؛ یا",
+              "ar": "لأداء خدمات متعلقة بالخدمة؛ أو",
+              "sw": "Ili kutekeleza huduma zinazohusiana na Huduma; au"
+            },
+            {
+              "en": "To assist us in analyzing how our Service is used.",
+              "hi": "हमारी सेवा का उपयोग कैसे किया जाता है, इसका विश्लेषण करने में हमारी सहायता करने के लिए।",
+              "gu": "અમારી સેવાનો ઉપયોગ કેવી રીતે થાય છે તેનું વિશ્લેષણ કરવામાં અમને મદદ કરવા માટે.",
+              "ur": "ہماری سروس کس طرح استعمال کی جاتی ہے اس کا تجزیہ کرنے میں ہماری مدد کرنے کے لیے۔",
+              "ar": "لمساعدتنا في تحليل كيفية استخدام خدمتنا.",
+              "sw": "Ili kutusaidia kuchambua jinsi Huduma yetu inavyotumika."
+            }
+          ]
+        },
+        {
+          "id": "service_providers_03",
+          "order": 3,
+          "type": "paragraph",
+          "text": {
+            "en": "I want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.",
+            "hi": "मैं इस सेवा के उपयोगकर्ताओं को सूचित करना चाहता हूं कि इन तृतीय पक्षों के पास उनकी व्यक्तिगत जानकारी तक पहुंच है। इसका कारण हमारी ओर से उन्हें सौंपे गए कार्यों को पूरा करना है। हालांकि, वे किसी अन्य उद्देश्य के लिए इस जानकारी को प्रकट या उपयोग न करने के लिए बाध्य हैं।",
+            "gu": "હું આ સેવાના વપરાશકર્તાઓને જણાવવા માંગુ છું કે આ તૃતીય પક્ષો પાસે તેમની વ્યક્તિગત માહિતીની ઍક્સેસ છે. તેનું કારણ અમારા વતી તેમને સોંપવામાં આવેલા કાર્યો કરવાનું છે. જોકે, તેઓ અન્ય કોઈ પણ હેતુ માટે આ માહિતી જાહેર ન કરવા અથવા તેનો ઉપયોગ ન કરવા માટે બંધાયેલા છે.",
+            "ur": "میں اس سروس کے صارفین کو آگاہ کرنا چاہتا ہوں کہ ان فریقِ ثالث کو ان کی ذاتی معلومات تک رسائی حاصل ہوتی ہے۔ اس کی وجہ ہماری جانب سے انہیں سونپے گئے فرائض انجام دینا ہے۔ تاہم، وہ کسی دوسرے مقصد کے لیے اس معلومات کو ظاہر یا استعمال نہ کرنے کے پابند ہیں۔",
+            "ar": "أود إعلام مستخدمي هذه الخدمة بأن هذه الأطراف الثالثة لديها إمكانية الوصول إلى معلوماتهم الشخصية. والسبب في ذلك هو أداء المهام الموكلة إليهم نيابةً عنا. ومع ذلك، فهم ملزمون بعدم الإفصاح عن المعلومات أو استخدامها لأي غرض آخر.",
+            "sw": "Ningependa kuwafahamisha watumiaji wa Huduma hii kwamba wahusika hawa wengine wana uwezo wa kufikia Taarifa zao Binafsi. Sababu ni kutekeleza majukumu waliyopewa kwa niaba yetu. Hata hivyo, wana wajibu wa kutofichua au kutumia taarifa hizo kwa madhumuni mengine yoyote."
+          }
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "order": 7,
+      "title": {
+        "en": "Security",
+        "hi": "सुरक्षा",
+        "gu": "સુરક્ષા",
+        "ur": "سیکیورٹی",
+        "ar": "الأمان",
+        "sw": "Usalama"
+      },
+      "items": [
+        {
+          "id": "security_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.",
+            "hi": "मैं हमें आपकी व्यक्तिगत जानकारी प्रदान करने में आपके विश्वास को महत्व देता हूं, इसलिए हम इसकी सुरक्षा के लिए व्यावसायिक रूप से स्वीकार्य साधनों का उपयोग करने का प्रयास कर रहे हैं। लेकिन याद रखें कि इंटरनेट पर प्रसारण का कोई भी तरीका, या इलेक्ट्रॉनिक भंडारण का कोई भी तरीका 100% सुरक्षित और विश्वसनीय नहीं है, और मैं इसकी पूर्ण सुरक्षा की गारंटी नहीं दे सकता।",
+            "gu": "હું અમને તમારી વ્યક્તિગત માહિતી પૂરી પાડવામાં તમારા વિશ્વાસની કદર કરું છું, તેથી અમે તેની સુરક્ષા માટે વ્યાવસાયિક રીતે સ્વીકાર્ય માધ્યમોનો ઉપયોગ કરવાનો પ્રયાસ કરી રહ્યા છીએ. પરંતુ યાદ રાખો કે ઇન્ટરનેટ પર પ્રસારણની કોઈ પણ પદ્ધતિ, અથવા ઇલેક્ટ્રોનિક સ્ટોરેજની કોઈ પણ પદ્ધતિ 100% સુરક્ષિત અને વિશ્વસનીય નથી, અને હું તેની સંપૂર્ણ સુરક્ષાની ખાતરી આપી શકતો નથી.",
+            "ur": "میں ہمیں اپنی ذاتی معلومات فراہم کرنے پر آپ کے اعتماد کی قدر کرتا ہوں، اس لیے ہم اس کے تحفظ کے لیے تجارتی طور پر قابلِ قبول ذرائع استعمال کرنے کی کوشش کر رہے ہیں۔ لیکن یاد رکھیں کہ انٹرنیٹ کے ذریعے ترسیل کا کوئی بھی طریقہ، یا الیکٹرانک ذخیرہ اندوزی کا کوئی بھی طریقہ 100% محفوظ اور قابلِ اعتماد نہیں ہے، اور میں اس کی مکمل سیکیورٹی کی ضمانت نہیں دے سکتا۔",
+            "ar": "أُقدّر ثقتك في تزويدنا بمعلوماتك الشخصية، ولذلك نسعى جاهدين لاستخدام وسائل مقبولة تجارياً لحمايتها. ولكن تذكّر أنه لا توجد وسيلة نقل عبر الإنترنت أو وسيلة تخزين إلكتروني آمنة وموثوقة بنسبة 100%، ولا أستطيع ضمان أمنها المطلق.",
+            "sw": "Ninathamini imani yako katika kutupatia Taarifa zako Binafsi, hivyo tunajitahidi kutumia njia zinazokubalika kibiashara kuzilinda. Lakini kumbuka kuwa hakuna njia ya usafirishaji wa data kupitia intaneti, au njia ya uhifadhi wa kielektroniki iliyo salama na ya kuaminika kwa 100%, na siwezi kuhakikisha usalama wake kamili."
+          }
+        }
+      ]
+    },
+    {
+      "id": "links_to_other_sites",
+      "order": 8,
+      "title": {
+        "en": "Links to Other Sites",
+        "hi": "अन्य साइटों के लिंक",
+        "gu": "અન્ય સાઇટ્સની લિંક્સ",
+        "ur": "دیگر سائٹس کے لنکس",
+        "ar": "روابط لمواقع أخرى",
+        "sw": "Viungo vya Tovuti Nyingine"
+      },
+      "items": [
+        {
+          "id": "links_to_other_sites_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.",
+            "hi": "इस सेवा में अन्य साइटों के लिंक हो सकते हैं। यदि आप किसी तृतीय-पक्ष लिंक पर क्लिक करते हैं, तो आपको उस साइट पर निर्देशित किया जाएगा। ध्यान दें कि ये बाहरी साइटें मेरे द्वारा संचालित नहीं की जाती हैं। इसलिए, मैं आपको इन वेबसाइटों की गोपनीयता नीति की समीक्षा करने की दृढ़ता से सलाह देता हूं। किसी भी तृतीय-पक्ष साइटों या सेवाओं की सामग्री, गोपनीयता नीतियों या प्रथाओं पर मेरा कोई नियंत्रण नहीं है और मैं इसके लिए कोई जिम्मेदारी नहीं लेता हूं।",
+            "gu": "આ સેવામાં અન્ય સાઇટ્સની લિંક્સ હોઈ શકે છે. જો તમે તૃતીય-પક્ષ લિંક પર ક્લિક કરશો, તો તમને તે સાઇટ પર લઈ જવામાં આવશે. નોંધ લો કે આ બાહ્ય સાઇટ્સ મારા દ્વારા સંચાલિત નથી. તેથી, હું તમને આ વેબસાઇટ્સની ગોપનીયતા નીતિની સમીક્ષા કરવાની ભારપૂર્વક સલાહ આપું છું. કોઈ પણ તૃતીય-પક્ષ સાઇટ્સ અથવા સેવાઓની સામગ્રી, ગોપનીયતા નીતિઓ અથવા પ્રથાઓ પર મારું કોઈ નિયંત્રણ નથી અને હું તેની કોઈ જવાબદારી લેતો નથી.",
+            "ur": "اس سروس میں دیگر سائٹس کے لنکس شامل ہو سکتے ہیں۔ اگر آپ کسی فریقِ ثالث کے لنک پر کلک کرتے ہیں، تو آپ کو اس سائٹ پر بھیج دیا جائے گا۔ واضح رہے کہ یہ بیرونی سائٹس میرے زیرِ انتظام نہیں ہیں۔ لہٰذا، میں آپ کو پرزور مشورہ دیتا ہوں کہ ان ویب سائٹس کی رازداری کی پالیسی کا جائزہ لیں۔ کسی بھی فریقِ ثالث کی سائٹس یا خدمات کے مواد، رازداری کی پالیسیوں یا طریقوں پر میرا کوئی اختیار نہیں ہے اور میں ان کی کوئی ذمہ داری قبول نہیں کرتا۔",
+            "ar": "قد تحتوي هذه الخدمة على روابط لمواقع أخرى. إذا نقرت على رابط طرف ثالث، فسيتم توجيهك إلى ذلك الموقع. يُرجى ملاحظة أن هذه المواقع الخارجية لا يتم تشغيلها من قِبلي. لذلك، أنصحك بشدة بمراجعة سياسة الخصوصية الخاصة بتلك المواقع. ليس لدي أي سيطرة ولا أتحمل أي مسؤولية عن محتوى أو سياسات الخصوصية أو ممارسات أي مواقع أو خدمات تابعة لأطراف ثالثة.",
+            "sw": "Huduma hii inaweza kuwa na viungo vya tovuti nyingine. Ukibofya kiungo cha mhusika mwingine, utaelekezwa kwenye tovuti hiyo. Kumbuka kuwa tovuti hizi za nje haziendeshwi nami. Kwa hivyo, ninakushauri sana upitie Sera ya Faragha ya tovuti hizi. Sina udhibiti wowote na sichukui jukumu lolote kwa maudhui, sera za faragha, au desturi za tovuti au huduma zozote za wahusika wengine."
+          }
+        }
+      ]
+    },
+    {
+      "id": "childrens_privacy",
+      "order": 9,
+      "title": {
+        "en": "Children's Privacy",
+        "hi": "बच्चों की गोपनीयता",
+        "gu": "બાળકોની ગોપનીયતા",
+        "ur": "بچوں کی رازداری",
+        "ar": "خصوصية الأطفال",
+        "sw": "Faragha ya Watoto"
+      },
+      "items": [
+        {
+          "id": "childrens_privacy_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13 years of age. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do the necessary actions.",
+            "hi": "ये सेवाएं 13 वर्ष से कम आयु के किसी भी व्यक्ति को संबोधित नहीं करती हैं। मैं जानबूझकर 13 वर्ष से कम आयु के बच्चों से व्यक्तिगत रूप से पहचान योग्य जानकारी एकत्र नहीं करता हूं। यदि मुझे पता चलता है कि 13 वर्ष से कम आयु के किसी बच्चे ने मुझे व्यक्तिगत जानकारी प्रदान की है, तो मैं इसे तुरंत अपने सर्वर से हटा देता हूं। यदि आप माता-पिता या अभिभावक हैं और आपको पता है कि आपके बच्चे ने हमें व्यक्तिगत जानकारी प्रदान की है, तो कृपया मुझसे संपर्क करें ताकि मैं आवश्यक कार्रवाई कर सकूं।",
+            "gu": "આ સેવાઓ 13 વર્ષથી ઓછી ઉંમરની કોઈ પણ વ્યક્તિ માટે નથી. હું જાણીજોઈને 13 વર્ષથી ઓછી ઉંમરના બાળકો પાસેથી વ્યક્તિગત રીતે ઓળખી શકાય તેવી માહિતી એકત્રિત કરતો નથી. જો મને જાણ થાય કે 13 વર્ષથી ઓછી ઉંમરના કોઈ બાળકે મને વ્યક્તિગત માહિતી પૂરી પાડી છે, તો હું તેને તરત જ અમારા સર્વર પરથી કાઢી નાખું છું. જો તમે માતા-પિતા અથવા વાલી છો અને તમે જાણો છો કે તમારા બાળકે અમને વ્યક્તિગત માહિતી પૂરી પાડી છે, તો કૃપા કરીને મારો સંપર્ક કરો જેથી હું જરૂરી પગલાં લઈ શકું.",
+            "ur": "یہ خدمات 13 سال سے کم عمر کے کسی بھی فرد کے لیے نہیں ہیں۔ میں جان بوجھ کر 13 سال سے کم عمر بچوں سے ذاتی شناختی معلومات اکٹھی نہیں کرتا۔ اگر مجھے معلوم ہو کہ 13 سال سے کم عمر کے کسی بچے نے مجھے ذاتی معلومات فراہم کی ہیں، تو میں اسے فوری طور پر اپنے سرورز سے حذف کر دیتا ہوں۔ اگر آپ والدین یا سرپرست ہیں اور آپ کو علم ہے کہ آپ کے بچے نے ہمیں ذاتی معلومات فراہم کی ہیں، تو براہِ کرم مجھ سے رابطہ کریں تاکہ میں ضروری اقدامات کر سکوں۔",
+            "ar": "لا تستهدف هذه الخدمات أي شخص يقل عمره عن 13 عاماً. لا أجمع عن قصد معلومات شخصية قابلة لتحديد الهوية من الأطفال دون سن 13 عاماً. وفي حال اكتشفت أن طفلاً دون سن 13 عاماً قد زودني بمعلومات شخصية، فإنني أقوم بحذفها فوراً من خوادمنا. إذا كنت أحد الوالدين أو وصياً وكنت على علم بأن طفلك قد زودنا بمعلومات شخصية، فيُرجى التواصل معي حتى أتمكن من اتخاذ الإجراءات اللازمة.",
+            "sw": "Huduma hizi haziwalengi watu walio chini ya umri wa miaka 13. Sikusanyi kwa makusudi taarifa zinazoweza kumtambulisha binafsi mtoto aliye chini ya umri wa miaka 13. Endapo nitagundua kuwa mtoto aliye chini ya umri wa miaka 13 amenipatia taarifa binafsi, ninazifuta mara moja kutoka kwenye seva zetu. Ikiwa wewe ni mzazi au mlezi na unafahamu kuwa mtoto wako ametupatia taarifa binafsi, tafadhali wasiliana nami ili niweze kuchukua hatua zinazohitajika."
+          }
+        }
+      ]
+    },
+    {
+      "id": "changes_to_this_privacy_policy",
+      "order": 10,
+      "title": {
+        "en": "Changes to This Privacy Policy",
+        "hi": "इस गोपनीयता नीति में परिवर्तन",
+        "gu": "આ ગોપનીયતા નીતિમાં ફેરફારો",
+        "ur": "اس رازداری کی پالیسی میں تبدیلیاں",
+        "ar": "التغييرات على سياسة الخصوصية هذه",
+        "sw": "Mabadiliko katika Sera Hii ya Faragha"
+      },
+      "items": [
+        {
+          "id": "changes_to_this_privacy_policy_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.",
+            "hi": "मैं समय-समय पर हमारी गोपनीयता नीति को अद्यतन कर सकता हूं। इसलिए, आपको किसी भी परिवर्तन के लिए समय-समय पर इस पृष्ठ की समीक्षा करने की सलाह दी जाती है। मैं इस पृष्ठ पर नई गोपनीयता नीति पोस्ट करके आपको किसी भी परिवर्तन की सूचना दूंगा।",
+            "gu": "હું સમય સમય પર અમારી ગોપનીયતા નીતિ અપડેટ કરી શકું છું. તેથી, કોઈ પણ ફેરફાર માટે સમયાંતરે આ પૃષ્ઠની સમીક્ષા કરવાની તમને સલાહ આપવામાં આવે છે. હું આ પૃષ્ઠ પર નવી ગોપનીયતા નીતિ પોસ્ટ કરીને તમને કોઈ પણ ફેરફારની જાણ કરીશ.",
+            "ur": "میں وقتاً فوقتاً اپنی رازداری کی پالیسی کو اپ ڈیٹ کر سکتا ہوں۔ لہٰذا، آپ کو مشورہ دیا جاتا ہے کہ کسی بھی تبدیلی کے لیے وقفے وقفے سے اس صفحے کا جائزہ لیتے رہیں۔ میں اس صفحے پر نئی رازداری کی پالیسی شائع کر کے آپ کو کسی بھی تبدیلی سے مطلع کروں گا۔",
+            "ar": "قد أقوم بتحديث سياسة الخصوصية الخاصة بنا من وقت لآخر. لذلك، يُنصح بمراجعة هذه الصفحة بشكل دوري للاطلاع على أي تغييرات. سأُعلمك بأي تغييرات عن طريق نشر سياسة الخصوصية الجديدة على هذه الصفحة.",
+            "sw": "Ninaweza kusasisha Sera yetu ya Faragha mara kwa mara. Hivyo, unashauriwa kupitia ukurasa huu mara kwa mara kuona mabadiliko yoyote. Nitakujulisha kuhusu mabadiliko yoyote kwa kuchapisha Sera mpya ya Faragha kwenye ukurasa huu."
+          }
+        },
+        {
+          "id": "changes_to_this_privacy_policy_02",
+          "order": 2,
+          "type": "paragraph",
+          "text": {
+            "en": "This policy is effective as of 2022-05-04.",
+            "hi": "यह नीति 2022-05-04 से प्रभावी है।",
+            "gu": "આ નીતિ 2022-05-04 થી અમલમાં છે.",
+            "ur": "یہ پالیسی 2022-05-04 سے مؤثر ہے۔",
+            "ar": "تسري هذه السياسة اعتباراً من 2022-05-04.",
+            "sw": "Sera hii inaanza kutumika kuanzia tarehe 2022-05-04."
+          }
+        }
+      ]
+    },
+    {
+      "id": "contact_us",
+      "order": 11,
+      "title": {
+        "en": "Contact Us",
+        "hi": "संपर्क करें",
+        "gu": "અમારો સંપર્ક કરો",
+        "ur": "ہم سے رابطہ کریں",
+        "ar": "اتصل بنا",
+        "sw": "Wasiliana Nasi"
+      },
+      "items": [
+        {
+          "id": "contact_us_01",
+          "order": 1,
+          "type": "paragraph",
+          "text": {
+            "en": "If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at:",
+            "hi": "यदि मेरी गोपनीयता नीति के बारे में आपके कोई प्रश्न या सुझाव हैं, तो मुझसे यहां संपर्क करने में संकोच न करें:",
+            "gu": "જો મારી ગોપનીયતા નીતિ વિશે તમને કોઈ પ્રશ્નો અથવા સૂચનો હોય, તો મારો અહીં સંપર્ક કરવામાં અચકાશો નહીં:",
+            "ur": "اگر میری رازداری کی پالیسی کے بارے میں آپ کے کوئی سوالات یا تجاویز ہیں، تو مجھ سے اس پتے پر رابطہ کرنے میں ہچکچاہٹ محسوس نہ کریں:",
+            "ar": "إذا كانت لديك أي أسئلة أو اقتراحات حول سياسة الخصوصية الخاصة بي، فلا تتردد في التواصل معي على:",
+            "sw": "Ikiwa una maswali yoyote au mapendekezo kuhusu Sera yangu ya Faragha, usisite kuwasiliana nami kupitia:"
+          }
+        },
+        {
+          "id": "contact_email",
+          "order": 2,
+          "type": "email",
+          "text": {
+            "en": "mashayakhipaigam@gmail.com",
+            "hi": "mashayakhipaigam@gmail.com",
+            "gu": "mashayakhipaigam@gmail.com",
+            "ur": "mashayakhipaigam@gmail.com",
+            "ar": "mashayakhipaigam@gmail.com",
+            "sw": "mashayakhipaigam@gmail.com"
+          },
+          "url": "mailto:mashayakhipaigam@gmail.com"
+        }
+      ]
+    }
+  ],
+  "review_issues": [
+    {
+      "id": "privacy_review_001",
+      "section_id": "information_collection_and_use",
+      "severity": "high",
+      "original_statement": "The information that I request will be retained on your device and is not collected by me in any way.",
+      "issue": "Contradicts subsequent sections ('Log Data', 'Service Providers', and 'Children's Privacy') which state that data is collected via third parties, shared with service providers, or deleted from 'our servers'. Furthermore, if the updated Flutter app uses backend APIs, anonymous device registration, device identifiers/metadata, or optional support reports/attachments, claiming zero server-side collection is inaccurate.",
+      "recommended_action": "Verify all data transmitted to backend servers versus stored locally (e.g., local preferences, offline audio downloads) and revise this statement to distinguish on-device storage from server-side processing.",
+      "status": "requires_confirmation"
+    },
+    {
+      "id": "privacy_review_002",
+      "section_id": "third_party_services",
+      "severity": "high",
+      "original_statement": "Link to the privacy policy of third-party service providers used by the app - Google Play Services",
+      "issue": "Only Google Play Services is listed. Since the app is expanding to iOS and may utilize third-party infrastructure, content delivery services (CDNs for Quran audio), push notification services (e.g., FCM/APNs), or crash reporting SDKs, listing solely Google Play Services is incomplete for iOS and potentially outdated for Android.",
+      "recommended_action": "Audit all Flutter pubspec.yaml dependencies, Android/iOS SDKs, push notification services, and audio/content hosting providers, and list each applicable third-party provider with its privacy policy URL.",
+      "status": "requires_confirmation"
+    },
+    {
+      "id": "privacy_review_003",
+      "section_id": "information_collection_and_use",
+      "severity": "high",
+      "original_statement": "Omission of device permissions (Location, Notifications, Storage/Attachments).",
+      "issue": "The 2022 policy does not disclose runtime permissions used in the evolved Flutter app, such as location access (for prayer times and Qibla direction), notification permissions, or optional user-submitted support attachments.",
+      "recommended_action": "Confirm whether location coordinates are processed strictly on-device or sent to a backend API, and add clear disclosures explaining why each permission is requested and whether the underlying data leaves the device.",
+      "status": "requires_confirmation"
+    },
+    {
+      "id": "privacy_review_004",
+      "section_id": "log_data",
+      "severity": "medium",
+      "original_statement": "in a case of an error in the app I collect data and information (through third-party products) on your phone called Log Data.",
+      "issue": "Standard App Privacy Generator boilerplate. If the app does not actually integrate a third-party crash reporting SDK (such as Firebase Crashlytics or Sentry), or conversely if it collects telemetry/API logs outside of error states, this wording does not match technical reality.",
+      "recommended_action": "Confirm whether crash reporting or server access logs collect IP addresses, device metadata, or anonymous device identifiers, and align the disclosure accordingly.",
+      "status": "requires_confirmation"
+    },
+    {
+      "id": "privacy_review_005",
+      "section_id": "cookies",
+      "severity": "medium",
+      "original_statement": "You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.",
+      "issue": "Boilerplate web-oriented cookie language. Native Android and iOS Flutter apps typically use local storage (SharedPreferences/SQLite) or HTTP tokens rather than browser cookies, and the app likely does not provide a granular cookie consent banner.",
+      "recommended_action": "Confirm whether any WebViews or third-party SDKs use cookies/local identifiers and replace inaccurate cookie-refusal claims with accurate descriptions of local app preferences and session tokens.",
+      "status": "requires_confirmation"
+    },
+    {
+      "id": "privacy_review_006",
+      "section_id": "service_providers",
+      "severity": "medium",
+      "original_statement": "I want to inform users of this Service that these third parties have access to their Personal Information.",
+      "issue": "Directly conflicts with the statement in Section 2 that Personal Information is retained solely on the user's device and not collected in any way.",
+      "recommended_action": "Clarify which third-party infrastructure providers (e.g., cloud hosting, CDN, notification delivery) process technical or user data and under what confidentiality terms.",
+      "status": "requires_confirmation"
+    },
+    {
+      "id": "privacy_review_007",
+      "section_id": "childrens_privacy",
+      "severity": "medium",
+      "original_statement": "In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers.",
+      "issue": "References 'our servers' despite Section 2 claiming no server-side collection occurs. Additionally, if the app does not collect age or personal data, explain how deletion requests via email are handled.",
+      "recommended_action": "Align server references with actual backend architecture and confirm the operational process for handling parent/guardian inquiries sent to mashayakhipaigam@gmail.com.",
+      "status": "requires_confirmation"
+    },
+    {
+      "id": "privacy_review_008",
+      "section_id": "introduction",
+      "severity": "low",
+      "original_statement": "The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at Nazar E Aalam unless otherwise defined in this Privacy Policy.",
+      "issue": "References 'Terms and Conditions, which are accessible at Nazar E Aalam'. If the application does not currently include a published Terms and Conditions screen or document, this reference is a broken/non-existent pointer.",
+      "recommended_action": "Verify whether a Terms and Conditions document is accessible inside the Nazar E Aalam app; if not, either publish one or remove the cross-reference in the next policy revision.",
+      "status": "requires_confirmation"
+    },
+    {
+      "id": "privacy_review_009",
+      "section_id": "introduction",
+      "severity": "low",
+      "original_statement": "Inconsistent first-person pronouns ('I', 'my', 'me' vs. 'we', 'our', 'us') and formatting artifacts (empty bullet item in Service Providers).",
+      "issue": "The original 2022 template mixes singular ('I/my') and plural ('we/our') pronouns and contained a blank bullet line in the Service Providers list (normalized during structuring).",
+      "recommended_action": "Standardize voice across the policy once reviewed by the publisher.",
+      "status": "requires_confirmation"
+    }
+  ]
+}
