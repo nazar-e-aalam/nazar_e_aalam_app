@@ -30,8 +30,6 @@ class AppConstants {
   // static const String APP_VERSION = "7.0";
 
   // main base url
-  // static const String BASE_URL = "https://zer0spectrum.dpdns.org";
-  // static const String BASE_URL = "https://zabi.theme29.com";
   static const String API_BASE_URL = 'https://nazareaalam.dpdns.org/';
 
   // API's and API Kay's

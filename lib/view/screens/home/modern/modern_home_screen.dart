@@ -38,7 +38,7 @@ class ModernHomeScreen extends StatelessWidget {
                   ? Theme.of(context).scaffoldBackgroundColor
                   : AppColorModern.scaffoldBackground,
               body: (!hasInternet || isLoading)
-                  ? const SafeArea(child: DashbordShimmerScreen())
+                  ? const DashbordShimmerScreen(modern: true)
                   : _buildBody(context, prayerTimeController),
             );
           },

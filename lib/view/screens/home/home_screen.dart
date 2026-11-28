@@ -1,5 +1,6 @@
 // ignore_for_file: deprecated_member_use
 import 'package:flutter/material.dart';
+import '../language/language_onboarding.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:nazar_e_alam/controller/home_layout_controller.dart';
@@ -76,24 +77,26 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Obx(() {
       final layout = Get.find<HomeLayoutController>().currentLayout.value;
-      return AnimatedSwitcher(
-        duration: const Duration(milliseconds: 400),
-        transitionBuilder: (child, animation) => FadeTransition(
-          opacity: animation,
-          child: SlideTransition(
-            position:
-                Tween<Offset>(
-                  begin: const Offset(0, 0.03),
-                  end: Offset.zero,
-                ).animate(
-                  CurvedAnimation(parent: animation, curve: Curves.easeOut),
-                ),
-            child: child,
+      return LanguageOnboarding(
+        child: AnimatedSwitcher(
+          duration: const Duration(milliseconds: 400),
+          transitionBuilder: (child, animation) => FadeTransition(
+            opacity: animation,
+            child: SlideTransition(
+              position:
+                  Tween<Offset>(
+                    begin: const Offset(0, 0.03),
+                    end: Offset.zero,
+                  ).animate(
+                    CurvedAnimation(parent: animation, curve: Curves.easeOut),
+                  ),
+              child: child,
+            ),
           ),
+          child: layout == HomeLayoutController.classic
+              ? const ClassicHomeScreen(key: ValueKey('classic'))
+              : const ModernHomeScreen(key: ValueKey('modern')),
         ),
-        child: layout == HomeLayoutController.classic
-            ? const ClassicHomeScreen(key: ValueKey('classic'))
-            : const ModernHomeScreen(key: ValueKey('modern')),
       );
     });
   }
