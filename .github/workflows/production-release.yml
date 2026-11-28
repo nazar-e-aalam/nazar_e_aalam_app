@@ -1,0 +1,176 @@
+name: Production Release (Android + iOS)
+on:
+  workflow_dispatch:
+    inputs:
+      build_android:
+        description: Build production APKs and AAB
+        type: boolean
+        default: true
+      build_ios:
+        description: Build signed App Store IPA
+        type: boolean
+        default: false
+      skip_version_bump:
+        description: Rebuild last production version (not for store upload)
+        type: boolean
+        default: false
+      android_version:
+        description: Override Android version (optional)
+        type: string
+        default: ''
+      android_build:
+        description: Android version code override (required on first build)
+        type: string
+        default: ''
+      ios_version:
+        description: Override iOS version (optional)
+        type: string
+        default: ''
+      ios_build:
+        description: Override iOS build number (optional)
+        type: string
+        default: ''
+concurrency:
+  group: production-release
+  cancel-in-progress: false
+permissions:
+  contents: read
+env:
+  FLUTTER_VERSION: '3.50.0'
+  ANDROID_ID: com.fazilshah.nazareaalam
+jobs:
+  prepare:
+    runs-on: ubuntu-24.04
+    outputs:
+      matrix: ${{ steps.version.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          fetch-depth: 0
+      - name: Resolve production versions
+        id: version
+        env:
+          INPUTS_JSON: ${{ toJSON(inputs) }}
+        run: python3 .github/scripts/production_version.py
+  build:
+    needs: prepare
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.prepare.outputs.matrix) }}
+    name: Build ${{ matrix.platform }} ${{ matrix.version }}+${{ matrix.build }}
+    runs-on: ${{ matrix.os }}
+    environment: production
+    env:
+      VERSION: ${{ matrix.version }}
+      BUILD: ${{ matrix.build }}
+      CHANNEL: ${{ matrix.channel }}
+      IOS_ID: ${{ vars.PROD_IOS_BUNDLE_ID }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: ${{ github.sha }}
+          lfs: true
+      - uses: actions/setup-java@d1374f8ac74474200d16ef8ecee22c7ae7a51880
+        if: matrix.platform == 'android'
+        with:
+          distribution: zulu
+          java-version: '17'
+          cache: gradle
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - name: Android signing and production identity
+        if: matrix.platform == 'android'
+        env:
+          KEYSTORE: ${{ secrets.PROD_ANDROID_KEYSTORE_BASE64 }}
+          STORE_PASSWORD: ${{ secrets.PROD_ANDROID_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.PROD_ANDROID_KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.PROD_ANDROID_KEY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          : "${KEYSTORE:?Missing production keystore}" "${STORE_PASSWORD:?Missing store password}" "${KEY_ALIAS:?Missing alias}" "${KEY_PASSWORD:?Missing key password}"
+          printf '%s' "$KEYSTORE" | base64 --decode > android/app/upload-keystore.jks
+          python3 .github/scripts/production_android.py
+      - name: Build Android artifacts
+        if: matrix.platform == 'android'
+        run: |
+          set -euo pipefail
+          mkdir -p release-assets
+          args=(--release --build-name="$VERSION" --build-number="$BUILD" --dart-define=RELEASE_CHANNEL=playstore --dart-define=BUILD_COMMIT="$GITHUB_SHA")
+          prefix="nazar-e-aalam-playstore-v${VERSION}-b${BUILD}"
+          flutter build apk "${args[@]}" --target-platform android-arm,android-arm64,android-x64
+          cp build/app/outputs/flutter-apk/app-release.apk "release-assets/${prefix}-universal.apk"
+          flutter build apk "${args[@]}" --split-per-abi --target-platform android-arm,android-arm64,android-x64
+          for abi in armeabi-v7a arm64-v8a x86_64; do
+            cp "build/app/outputs/flutter-apk/app-${abi}-release.apk" "release-assets/${prefix}-${abi}.apk"
+          done
+          flutter build appbundle "${args[@]}"
+          cp build/app/outputs/bundle/release/app-release.aab "release-assets/${prefix}.aab"
+          AAPT=$(find "$ANDROID_HOME/build-tools" -name aapt -type f | sort -V | tail -1)
+          for apk in release-assets/*.apk; do
+            info=$("$AAPT" dump badging "$apk" | head -1)
+            echo "$info"
+            [[ "$info" == *"name='$ANDROID_ID'"* && "$info" == *"versionName='$VERSION'"* ]] || exit 1
+          done
+      - name: Install iOS signing and configure Runner
+        if: matrix.platform == 'ios'
+        env:
+          CERT: ${{ secrets.PROD_IOS_CERT_BASE64 }}
+          CERT_PASSWORD: ${{ secrets.PROD_IOS_CERT_PASSWORD }}
+          PROFILE: ${{ secrets.PROD_IOS_PROFILE_BASE64 }}
+        run: bash .github/scripts/production_ios.sh
+      - name: Build iOS IPA
+        if: matrix.platform == 'ios'
+        run: |
+          set -euo pipefail
+          flutter build ipa --release --build-name="$VERSION" --build-number="$BUILD" --dart-define=RELEASE_CHANNEL=appstore --dart-define=BUILD_COMMIT="$GITHUB_SHA" --export-options-plist="$RUNNER_TEMP/production-export.plist"
+          mkdir -p release-assets
+          shopt -s nullglob
+          files=(build/ios/ipa/*.ipa)
+          [[ ${#files[@]} == 1 ]]
+          cp "${files[0]}" "release-assets/nazar-e-aalam-appstore-v${VERSION}-b${BUILD}.ipa"
+      - name: Generate checksums and metadata
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,os,pathlib
+          p=pathlib.Path('release-assets')
+          files=sorted(p.iterdir())
+          assert files
+          (p/'checksums.txt').write_text(''.join(f'{hashlib.file_digest(f.open("rb"),"sha256").hexdigest()}  {f.name}\n' for f in files))
+          (p/'release.json').write_text(json.dumps(dict(version=os.environ['VERSION'],build=int(os.environ['BUILD']),channel=os.environ['CHANNEL'],commit=os.environ['GITHUB_SHA']),indent=2))
+          PY
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: production-${{ matrix.platform }}-v${{ matrix.version }}-b${{ matrix.build }}
+          path: release-assets/
+          if-no-files-found: error
+          retention-days: 14
+      - name: Remove signing files
+        if: always()
+        run: rm -f android/key.properties android/app/upload-keystore.jks "$RUNNER_TEMP/production.p12" "$RUNNER_TEMP/production.mobileprovision"
+  record-version:
+    needs: [prepare, build]
+    if: ${{ !inputs.skip_version_bump }}
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          fetch-depth: 0
+      - name: Record successful production builds
+        env:
+          MATRIX: ${{ needs.prepare.outputs.matrix }}
+        run: |
+          python3 - <<'PY'
+          import os,json,subprocess
+          tags=[]
+          for row in json.loads(os.environ['MATRIX'])['include']:
+              tag=f"prod-{row['platform']}-v{row['version']}-b{row['build']}"
+              subprocess.run(['git','tag',tag,os.environ['GITHUB_SHA']],check=True)
+              tags.append('refs/tags/'+tag)
+          subprocess.run(['git','push','--atomic','origin',*tags],check=True)
+          PY
