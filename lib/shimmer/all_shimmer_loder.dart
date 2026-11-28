@@ -81,28 +81,260 @@ class ListViewShimmer extends StatelessWidget {
 /// Skeleton mirrors the current home layouts, not the retired dashboard.
 class DashbordShimmerScreen extends StatelessWidget {
   final bool modern;
-  const DashbordShimmerScreen({super.key,this.modern=false});
+  const DashbordShimmerScreen({super.key, this.modern = false});
 
   @override
   Widget build(BuildContext context) {
-    final t=Theme.of(context);
-    final dark=t.brightness==Brightness.dark;
-    final base=Color.alphaBlend(t.primaryColor.withValues(alpha:dark ? .16:.10),t.cardColor);
-    final highlight=Color.alphaBlend(t.primaryColor.withValues(alpha:dark ? .30:.03),t.cardColor);
-    Widget bone(double height,{double? width,double radius=8})=>Container(height:height,width:width,decoration:BoxDecoration(color:Colors.white,borderRadius:BorderRadius.circular(radius)));
-    Widget panel(Widget child,{double radius=24})=>Container(padding:const EdgeInsets.all(16),decoration:BoxDecoration(color:t.cardColor,borderRadius:BorderRadius.circular(radius),border:Border.all(color:t.primaryColor.withValues(alpha:.12))),child:child);
-    Widget pulse(Widget child)=>Shimmer.fromColors(baseColor:base,highlightColor:highlight,child:child);
-    Widget lines()=>Column(crossAxisAlignment:CrossAxisAlignment.start,children:[bone(15,width:100),const SizedBox(height:9),bone(11,width:65)]);
-    return SingleChildScrollView(physics:const NeverScrollableScrollPhysics(),child:Column(crossAxisAlignment:CrossAxisAlignment.stretch,children:[
-      if(modern) Container(padding:EdgeInsets.fromLTRB(20,MediaQuery.of(context).padding.top+14,20,26),decoration:BoxDecoration(gradient:LinearGradient(colors:[dark?t.cardColor:t.primaryColor,dark?t.scaffoldBackgroundColor:const Color(0xffC94B20)]),borderRadius:const BorderRadius.vertical(bottom:Radius.circular(30))),child:Shimmer.fromColors(baseColor:Colors.white24,highlightColor:Colors.white54,child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[Row(children:[Expanded(child:Align(alignment:AlignmentDirectional.centerStart,child:bone(25,width:170))),bone(40,width:40,radius:20),const SizedBox(width:10),bone(40,width:40,radius:20)]),const SizedBox(height:10),bone(14,width:145)]))),
-      Padding(padding:EdgeInsets.fromLTRB(16,modern?16:12,16,modern?110:24),child:Column(children:[
-        if(modern)...[
-          Container(height:140,padding:const EdgeInsets.all(16),decoration:BoxDecoration(color:dark?t.cardColor:t.primaryColor,borderRadius:BorderRadius.circular(24)),child:Shimmer.fromColors(baseColor:Colors.white24,highlightColor:Colors.white54,child:Row(children:[SizedBox(width:92,child:Column(mainAxisAlignment:MainAxisAlignment.center,children:[bone(12,width:70),const SizedBox(height:8),bone(24,width:80),const SizedBox(height:8),bone(20,width:65)])),const SizedBox(width:12),for(int i=0;i<3;i++)Expanded(child:Padding(padding:const EdgeInsets.symmetric(horizontal:3),child:bone(108,radius:16)))]))),
-          const SizedBox(height:5),panel(pulse(Row(children:[bone(86,width:86,radius:43),const SizedBox(width:16),Expanded(child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[bone(16,width:140),const SizedBox(height:8),bone(12),const SizedBox(height:12),bone(8),const SizedBox(height:12),bone(38,radius:12)]))]))),const SizedBox(height:5),
-        ]else...[panel(pulse(Row(children:[Expanded(child:Column(crossAxisAlignment:CrossAxisAlignment.start,children:[bone(22,width:140),const SizedBox(height:12),bone(13,width:110),const SizedBox(height:18),bone(38,width:125)])),bone(120,width:100,radius:20)])),radius:18),const SizedBox(height:8),for(int i=0;i<3;i++)Padding(padding:const EdgeInsets.only(bottom:12),child:Row(children:[for(int j=0;j<2;j++)Expanded(child:Padding(padding:EdgeInsetsDirectional.only(end:j==0?6:0,start:j==1?6:0),child:panel(pulse(Row(children:[bone(34,width:34,radius:17),const SizedBox(width:8),Expanded(child:lines())])),radius:16)))]))],
-        GridView.builder(shrinkWrap:true,primary:false,padding:EdgeInsets.zero,physics:const NeverScrollableScrollPhysics(),itemCount:FeatureItems.all().length,gridDelegate:const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount:3,crossAxisSpacing:3,mainAxisSpacing:3,mainAxisExtent:116),itemBuilder:(_,i)=>panel(pulse(Column(mainAxisAlignment:MainAxisAlignment.center,children:[bone(50,width:50,radius:25),const SizedBox(height:8),bone(12,width:64)])),radius:modern?22:18)),
-      ]))
-    ]));
+    final t = Theme.of(context);
+    final dark = t.brightness == Brightness.dark;
+    final base = Color.alphaBlend(
+      t.primaryColor.withValues(alpha: dark ? .16 : .10),
+      t.cardColor,
+    );
+    final highlight = Color.alphaBlend(
+      t.primaryColor.withValues(alpha: dark ? .30 : .03),
+      t.cardColor,
+    );
+    Widget bone(double height, {double? width, double radius = 8}) => Container(
+      height: height,
+      width: width,
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(radius),
+      ),
+    );
+    Widget panel(Widget child, {double radius = 24}) => Container(
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: t.cardColor,
+        borderRadius: BorderRadius.circular(radius),
+        border: Border.all(color: t.primaryColor.withValues(alpha: .12)),
+      ),
+      child: child,
+    );
+    Widget pulse(Widget child) => Shimmer.fromColors(
+      baseColor: base,
+      highlightColor: highlight,
+      child: child,
+    );
+    Widget lines() => Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        bone(15, width: 100),
+        const SizedBox(height: 9),
+        bone(11, width: 65),
+      ],
+    );
+    return SingleChildScrollView(
+      physics: const NeverScrollableScrollPhysics(),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          if (modern)
+            Container(
+              padding: EdgeInsets.fromLTRB(
+                20,
+                MediaQuery.of(context).padding.top + 14,
+                20,
+                26,
+              ),
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [
+                    dark ? t.cardColor : t.primaryColor,
+                    dark ? t.scaffoldBackgroundColor : const Color(0xffC94B20),
+                  ],
+                ),
+                borderRadius: const BorderRadius.vertical(
+                  bottom: Radius.circular(30),
+                ),
+              ),
+              child: Shimmer.fromColors(
+                baseColor: Colors.white24,
+                highlightColor: Colors.white54,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        Expanded(
+                          child: Align(
+                            alignment: AlignmentDirectional.centerStart,
+                            child: bone(25, width: 170),
+                          ),
+                        ),
+                        bone(40, width: 40, radius: 20),
+                        const SizedBox(width: 10),
+                        bone(40, width: 40, radius: 20),
+                      ],
+                    ),
+                    const SizedBox(height: 10),
+                    bone(14, width: 145),
+                  ],
+                ),
+              ),
+            ),
+          Padding(
+            padding: EdgeInsets.fromLTRB(
+              16,
+              modern ? 16 : 12,
+              16,
+              modern ? 110 : 24,
+            ),
+            child: Column(
+              children: [
+                if (modern) ...[
+                  Container(
+                    height: 140,
+                    padding: const EdgeInsets.all(16),
+                    decoration: BoxDecoration(
+                      color: dark ? t.cardColor : t.primaryColor,
+                      borderRadius: BorderRadius.circular(24),
+                    ),
+                    child: Shimmer.fromColors(
+                      baseColor: Colors.white24,
+                      highlightColor: Colors.white54,
+                      child: Row(
+                        children: [
+                          SizedBox(
+                            width: 92,
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                bone(12, width: 70),
+                                const SizedBox(height: 8),
+                                bone(24, width: 80),
+                                const SizedBox(height: 8),
+                                bone(20, width: 65),
+                              ],
+                            ),
+                          ),
+                          const SizedBox(width: 12),
+                          for (int i = 0; i < 3; i++)
+                            Expanded(
+                              child: Padding(
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: 3,
+                                ),
+                                child: bone(108, radius: 16),
+                              ),
+                            ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 5),
+                  panel(
+                    pulse(
+                      Row(
+                        children: [
+                          bone(86, width: 86, radius: 43),
+                          const SizedBox(width: 16),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                bone(16, width: 140),
+                                const SizedBox(height: 8),
+                                bone(12),
+                                const SizedBox(height: 12),
+                                bone(8),
+                                const SizedBox(height: 12),
+                                bone(38, radius: 12),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 5),
+                ] else ...[
+                  panel(
+                    pulse(
+                      Row(
+                        children: [
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                bone(22, width: 140),
+                                const SizedBox(height: 12),
+                                bone(13, width: 110),
+                                const SizedBox(height: 18),
+                                bone(38, width: 125),
+                              ],
+                            ),
+                          ),
+                          bone(120, width: 100, radius: 20),
+                        ],
+                      ),
+                    ),
+                    radius: 18,
+                  ),
+                  const SizedBox(height: 8),
+                  for (int i = 0; i < 3; i++)
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 12),
+                      child: Row(
+                        children: [
+                          for (int j = 0; j < 2; j++)
+                            Expanded(
+                              child: Padding(
+                                padding: EdgeInsetsDirectional.only(
+                                  end: j == 0 ? 6 : 0,
+                                  start: j == 1 ? 6 : 0,
+                                ),
+                                child: panel(
+                                  pulse(
+                                    Row(
+                                      children: [
+                                        bone(34, width: 34, radius: 17),
+                                        const SizedBox(width: 8),
+                                        Expanded(child: lines()),
+                                      ],
+                                    ),
+                                  ),
+                                  radius: 16,
+                                ),
+                              ),
+                            ),
+                        ],
+                      ),
+                    ),
+                ],
+                GridView.builder(
+                  shrinkWrap: true,
+                  primary: false,
+                  padding: EdgeInsets.zero,
+                  physics: const NeverScrollableScrollPhysics(),
+                  itemCount: FeatureItems.all().length,
+                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 3,
+                    crossAxisSpacing: 3,
+                    mainAxisSpacing: 3,
+                    mainAxisExtent: 116,
+                  ),
+                  itemBuilder: (_, i) => panel(
+                    pulse(
+                      Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          bone(50, width: 50, radius: 25),
+                          const SizedBox(height: 8),
+                          bone(12, width: 64),
+                        ],
+                      ),
+                    ),
+                    radius: modern ? 22 : 18,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
 

@@ -46,8 +46,9 @@ class _LanguageOnboardingState extends State<LanguageOnboarding> {
         Get.isBottomSheetOpen == true ||
         Get.find<PrayerTimeController>().isprayerTimeLoading.value ||
         !Get.find<InternetController>().hasInternet.value ||
-        Get.find<LocalizationController>().allLanguages.isEmpty)
+        Get.find<LocalizationController>().allLanguages.isEmpty) {
       return;
+    }
     _elapsed += const Duration(seconds: 1);
     if (_elapsed < delay) return;
     _showing = true;

@@ -115,16 +115,18 @@ class _CollectionScreenState extends State<CollectionScreen> {
         );
         if (r.statusCode != 200) throw StateError('HTTP ${r.statusCode}');
         final body = r.body;
-        if (body is! List && (body is! Map || body['items'] is! List))
+        if (body is! List && (body is! Map || body['items'] is! List)) {
           throw const FormatException('Invalid collection');
+        }
         final batch = objects(body is List ? body : body['items']);
         rows.addAll(batch);
         final total = object(object(body)['meta'])['total'];
         if (body is List ||
             batch.isEmpty ||
             total is! num ||
-            rows.length >= total)
+            rows.length >= total) {
           break;
+        }
         skip += batch.length;
       }
       if (mounted) setState(() => data[endpoint] = rows);
@@ -158,11 +160,12 @@ class _CollectionScreenState extends State<CollectionScreen> {
         ),
       ),
     );
-    if (mounted)
+    if (mounted) {
       setState(
         () =>
             saved = (prefs.getStringList('collection.saved.v1') ?? []).toSet(),
       );
+    }
   }
 
   void personal() {
@@ -299,11 +302,12 @@ class _CollectionScreenState extends State<CollectionScreen> {
         ),
       ),
     );
-    if (mounted)
+    if (mounted) {
       setState(
         () =>
             saved = (prefs.getStringList('collection.saved.v1') ?? []).toSet(),
       );
+    }
   }
 
   Widget categoryCard(Json c, List<Json> rows, int i) {
@@ -828,8 +832,9 @@ class _CollectionReaderState extends State<CollectionReader> {
     for (final r in objects(content['recitations'])) {
       add('collection_recitation', r['label']);
       final ar = clean(r['arabic']);
-      if (ar.isNotEmpty)
+      if (ar.isNotEmpty) {
         out.add(block('collection_arabic', ar, rtl: true, arabic: true));
+      }
       if (lang != 'ar') add('collection_pronunciation', r['transliteration']);
       add('collection_meaning', r['meaning']);
       add('collection_repetition', object(r['repetition'])['description']);
